@@ -20,6 +20,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from datetime import datetime, timezone
 
 import requests
@@ -33,6 +34,13 @@ FAIL_LIMIT = 3
 PROBE_TIMEOUT = 8
 MIN_SUPPORTED_VERSION = 1
 
+
+
+def sort_key(name):
+    base = unicodedata.normalize('NFKD', name)
+    base = ''.join(ch for ch in base if not unicodedata.combining(ch)).casefold()
+    base = re.sub(r'^[^0-9a-zЀ-ӿͰ-Ͽ]+', '', base)
+    return (base, name)
 
 def api(path):
     last = None
@@ -144,6 +152,7 @@ def build_country(cc, limit, state):
         if clean_url(s.get('homepage')):
             st['website'] = clean_url(s['homepage'])
         stations.append(st)
+    stations.sort(key=lambda st: sort_key(st['name']))
     return stations, dropped
 
 
