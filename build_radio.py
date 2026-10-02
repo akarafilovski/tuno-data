@@ -9,6 +9,7 @@ Output (served by GitHub Pages):
     radio/index.json  list of countries with station counts + generatedAt
     state/health.json per-station failure counter, so a station is only removed after FAIL_LIMIT failed runs in a row
 
+Order: most listened first (the app can also sort alphabetically on the device).
 Rules: only stations the directory marks as working; names cleaned of HTML entities; duplicates removed by name and
 by stream URL; every stream is probed here; a station that was published before stays for FAIL_LIMIT-1 bad runs.
 """
@@ -152,7 +153,6 @@ def build_country(cc, limit, state):
         if clean_url(s.get('homepage')):
             st['website'] = clean_url(s['homepage'])
         stations.append(st)
-    stations.sort(key=lambda st: sort_key(st['name']))
     return stations, dropped
 
 
