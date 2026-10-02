@@ -98,17 +98,46 @@ def parse_rss(data, cc, prefix, source=None, limit=PER_FEED, strip_source_suffix
     return out
 
 
+STOP = {'the', 'and', 'for', 'sa', 'se', 'je', 'su', 'na', 'u', 'i', 'za', 'od', 'da', 'ne', 'koji', 'koja', 'kako', 'sta', 'sto', 'ali', 'iz', 'po', 'do', 'nakon', 'nije'}
+RECENT_HOURS = 30
+
+
+def words(title):
+    return {w for w in re.findall(r'\w{4,}', title.lower()) if w not in STOP}
+
+
+def rank_by_coverage(items):
+    """Popularity proxy for plain RSS feeds: stories several outlets run at once come first, then newest."""
+    now = time.time() * 1000
+    fresh = [x for x in items if not x['publishedAtEpochMillis'] or now - x['publishedAtEpochMillis'] < RECENT_HOURS * 3600 * 1000] or items
+    clusters = []
+    for x in sorted(fresh, key=lambda x: x['publishedAtEpochMillis'] or 0, reverse=True):
+        w = words(x['title'])
+        for c in clusters:
+            if w and c['words'] and len(w & c['words']) / len(w | c['words']) >= 0.4:
+                c['items'].append(x)
+                c['words'] |= w
+                break
+        else:
+            clusters.append({'words': w, 'items': [x]})
+    for c in clusters:
+        c['score'] = len({i['source'] for i in c['items']})
+        c['best'] = next((i for i in c['items'] if i['thumbnailUrl']), c['items'][0])
+        c['time'] = max(i['publishedAtEpochMillis'] or 0 for i in c['items'])
+    clusters.sort(key=lambda c: (c['score'], c['time']), reverse=True)
+    return [c['best'] for c in clusters]
+
+
 def from_feeds(cc, feeds):
     items = []
     for f in feeds:
         try:
             r = get(f['url'])
             if r.status_code == 200:
-                items += parse_rss(r.content, cc, 'rss', f['source'])
+                items += parse_rss(r.content, cc, 'rss', f['source'], limit=25)
         except Exception:
             pass
-    items.sort(key=lambda x: x['publishedAtEpochMillis'] or 0, reverse=True)
-    return items[:MAX_PER_COUNTRY]
+    return rank_by_coverage(items)[:MAX_PER_COUNTRY]
 
 
 def from_yahoo(cc, host):
