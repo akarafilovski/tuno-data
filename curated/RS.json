@@ -1,0 +1,529 @@
+{
+ "stations": [
+  {
+   "id": "tuno:seed_naxi_cafe",
+   "name": "Naxi Café",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-cafe128ssl.streaming.rs:8022/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Cafe-04_1000x694px.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/cafe"
+  },
+  {
+   "id": "tuno:seed_naxi_80e",
+   "name": "Naxi 80s",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-80s128ssl.streaming.rs:8042/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/80e-02.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/80e"
+  },
+  {
+   "id": "tuno:seed_naxi_rock",
+   "name": "Naxi Rock",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-rock128ssl.streaming.rs:8182/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Rock-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/rock"
+  },
+  {
+   "id": "tuno:seed_naxi_dance",
+   "name": "Naxi Dance",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-dance128ssl.streaming.rs:8112/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Dance-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/dance"
+  },
+  {
+   "id": "tuno:seed_naxi_evergreen",
+   "name": "Naxi Evergreen",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-evergreen128ssl.streaming.rs:8012/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Evergreen-02.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/evergreen"
+  },
+  {
+   "id": "tuno:seed_naxi_love",
+   "name": "Naxi Love",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-love128ssl.streaming.rs:8102/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Love-02.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/love"
+  },
+  {
+   "id": "tuno:seed_naxi_bossa",
+   "name": "Naxi Bossa",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-bossa128.streaming.rs:8442/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Bossa-Radio_LIVE.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/bossa"
+  },
+  {
+   "id": "tuno:seed_naxi_mix",
+   "name": "Naxi Mix",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-mix128ssl.streaming.rs:8222/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Mix-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/mix"
+  },
+  {
+   "id": "tuno:seed_naxi_millennium",
+   "name": "Naxi Millennium",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-millennium128ssl.streaming.rs:8342/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Milennium-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/millennium"
+  },
+  {
+   "id": "tuno:seed_naxi_boem",
+   "name": "Naxi Boem",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-boem128ssl.streaming.rs:8162/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://www.naxi.rs/filemanager/digital/Digital%20pozadine/Boem-02.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/boem"
+  },
+  {
+   "id": "tuno:seed_naxi_fresh",
+   "name": "Naxi Fresh",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-fresh128ssl.streaming.rs:8212/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Fresh-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/fresh"
+  },
+  {
+   "id": "tuno:seed_naxi_lounge",
+   "name": "Naxi Lounge",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-lounge128ssl.streaming.rs:8252/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Lounge-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/lounge"
+  },
+  {
+   "id": "tuno:seed_naxi_kids",
+   "name": "Naxi Kids",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-kids128ssl.streaming.rs:8052/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Kids-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/kids"
+  },
+  {
+   "id": "tuno:seed_naxi_90e",
+   "name": "Naxi 90s",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-90s128ssl.streaming.rs:8282/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/90e-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/90e"
+  },
+  {
+   "id": "tuno:seed_naxi_fitness",
+   "name": "Naxi Fitness",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-fitness128ssl.streaming.rs:8292/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Fitness-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/fitness"
+  },
+  {
+   "id": "tuno:seed_naxi_exyu",
+   "name": "Naxi Ex-Yu",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-exyu128ssl.streaming.rs:8242/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/ExYU-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/exyu"
+  },
+  {
+   "id": "tuno:seed_naxi_chill",
+   "name": "Naxi Chill",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-chill128ssl.streaming.rs:8412/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Chill-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/chill"
+  },
+  {
+   "id": "tuno:seed_naxi_funk",
+   "name": "Naxi Funk",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-funk128ssl.streaming.rs:8362/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Funk-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/funk"
+  },
+  {
+   "id": "tuno:seed_naxi_slager",
+   "name": "Naxi Slager",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-slager128ssl.streaming.rs:8372/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Slager-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/slager"
+  },
+  {
+   "id": "tuno:seed_naxi_70e",
+   "name": "Naxi 70s",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-70s128ssl.streaming.rs:8382/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/70e-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/70e"
+  },
+  {
+   "id": "tuno:seed_naxi_clubbing",
+   "name": "Naxi Clubbing",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-clubbing128ssl.streaming.rs:8092/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Clubbing-02.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/clubbing"
+  },
+  {
+   "id": "tuno:seed_naxi_jazz",
+   "name": "Naxi Jazz",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-jazz128ssl.streaming.rs:8172/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Jazz-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/jazz"
+  },
+  {
+   "id": "tuno:seed_naxi_exyurock",
+   "name": "Naxi Ex-Yu Rock",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-exyurock128ssl.streaming.rs:8402/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Ex-YU-Rock-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/exyurock"
+  },
+  {
+   "id": "tuno:seed_naxi_gold",
+   "name": "Naxi Gold",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-gold128ssl.streaming.rs:8062/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Gold-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/gold"
+  },
+  {
+   "id": "tuno:seed_naxi_chillwave",
+   "name": "Naxi Chillwave",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-chillwave128ssl.streaming.rs:8322/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Chillwave-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/chillwave"
+  },
+  {
+   "id": "tuno:seed_naxi_latino",
+   "name": "Naxi Latino",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-latino128ssl.streaming.rs:8232/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Latino-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/latino"
+  },
+  {
+   "id": "tuno:seed_naxi_blues_rock",
+   "name": "Naxi Blues-Rock",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-blues128ssl.streaming.rs:8312/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Blues-Rock-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/blues-rock"
+  },
+  {
+   "id": "tuno:seed_naxi_house",
+   "name": "Naxi House",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-house128ssl.streaming.rs:8002/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/House-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/house"
+  },
+  {
+   "id": "tuno:seed_naxi_rnb",
+   "name": "Naxi R&B",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-rnb128ssl.streaming.rs:8122/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/RnB-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/rnb"
+  },
+  {
+   "id": "tuno:seed_naxi_adore",
+   "name": "Naxi Adore",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-adore128ssl.streaming.rs:8332/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Adore_01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/adore"
+  },
+  {
+   "id": "tuno:seed_naxi_classic",
+   "name": "Naxi Classic",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-classic128ssl.streaming.rs:8032/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Classic-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/classic"
+  },
+  {
+   "id": "tuno:seed_naxi_xmas",
+   "name": "Naxi Christmas",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-xmas128.streaming.rs:8392/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Share/xmasfb.png",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/xmas"
+  },
+  {
+   "id": "tuno:seed_naxi_disco",
+   "name": "Naxi Disco",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-disco128ssl.streaming.rs:8352/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Disco-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/disco"
+  },
+  {
+   "id": "tuno:seed_naxi_reggae",
+   "name": "Naxi Reggae",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-reggae128.streaming.rs:8422/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Reggae-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/reggae"
+  },
+  {
+   "id": "tuno:seed_naxi_instrumental",
+   "name": "Naxi Instrumental",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxidigital-instrumental128.streaming.rs:8432/;stream.nsv",
+    "format": "progressive",
+    "referer": "https://www.naxi.rs/"
+   },
+   "logoUrl": "https://naxi.rs/filemanager/digital/Digital%20pozadine/Instrumental-01.jpg",
+   "region": "Belgrade",
+   "website": "https://www.naxi.rs/instrumental"
+  }
+ ]
+}

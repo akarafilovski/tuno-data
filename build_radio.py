@@ -26,6 +26,8 @@ from datetime import datetime, timezone
 
 import requests
 
+import curated
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'radio')
 STATE = os.path.join(ROOT, 'state', 'health.json')
@@ -182,6 +184,7 @@ def main():
         except Exception as e:
             print(f'{cc}: skipped ({e})')
             continue
+        stations = curated.apply(cc, stations)
         path = os.path.join(OUT, f'{cc}.json')
         if not stations:
             if os.path.exists(path):
