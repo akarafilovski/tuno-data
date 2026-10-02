@@ -35,7 +35,7 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "47 4 * * 0" ]; then
             echo "list=" >> "$GITHUB_OUTPUT"
           else
-            echo "list=HR SI BG RS RO MK NL" >> "$GITHUB_OUTPUT"
+            echo "list=HR SI BG RS RO MK NL GR ME BA TR HU" >> "$GITHUB_OUTPUT"
           fi
       - name: Build
         run: python build_radio.py ${{ steps.pick.outputs.list }}
