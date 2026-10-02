@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-02T19:14:16Z",
+ "generatedAt": "2026-10-02T23:50:33Z",
  "countries": [
   {
    "code": "AE",
@@ -7,7 +7,7 @@
   },
   {
    "code": "AL",
-   "headlines": 8
+   "headlines": 10
   },
   {
    "code": "AR",
@@ -23,7 +23,7 @@
   },
   {
    "code": "BA",
-   "headlines": 24
+   "headlines": 30
   },
   {
    "code": "BE",
@@ -63,7 +63,7 @@
   },
   {
    "code": "DK",
-   "headlines": 8
+   "headlines": 20
   },
   {
    "code": "EG",
@@ -135,7 +135,7 @@
   },
   {
    "code": "ME",
-   "headlines": 24
+   "headlines": 30
   },
   {
    "code": "MK",
@@ -179,7 +179,7 @@
   },
   {
    "code": "PT",
-   "headlines": 8
+   "headlines": 10
   },
   {
    "code": "RO",
