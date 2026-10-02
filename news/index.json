@@ -1,0 +1,53 @@
+{
+ "generatedAt": "2026-10-02T19:13:28Z",
+ "countries": [
+  {
+   "code": "BA",
+   "headlines": 24
+  },
+  {
+   "code": "BG",
+   "headlines": 20
+  },
+  {
+   "code": "GR",
+   "headlines": 20
+  },
+  {
+   "code": "HR",
+   "headlines": 30
+  },
+  {
+   "code": "HU",
+   "headlines": 20
+  },
+  {
+   "code": "ME",
+   "headlines": 24
+  },
+  {
+   "code": "MK",
+   "headlines": 8
+  },
+  {
+   "code": "NL",
+   "headlines": 20
+  },
+  {
+   "code": "RO",
+   "headlines": 20
+  },
+  {
+   "code": "RS",
+   "headlines": 20
+  },
+  {
+   "code": "SI",
+   "headlines": 20
+  },
+  {
+   "code": "TR",
+   "headlines": 20
+  }
+ ]
+}

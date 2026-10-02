@@ -1,0 +1,28 @@
+{
+  "HR": [
+    {"source": "Index.hr", "url": "https://www.index.hr/rss"},
+    {"source": "Jutarnji list", "url": "https://www.jutarnji.hr/feed"},
+    {"source": "24sata", "url": "https://www.24sata.hr/feeds/aktualno.xml"},
+    {"source": "N1 Hrvatska", "url": "https://n1info.hr/feed/"}
+  ],
+  "BA": [
+    {"source": "Klix.ba", "url": "https://www.klix.ba/rss"},
+    {"source": "N1 BiH", "url": "https://n1info.ba/feed/"},
+    {"source": "Avaz", "url": "https://avaz.ba/rss"}
+  ],
+  "ME": [
+    {"source": "Vijesti", "url": "https://www.vijesti.me/rss"},
+    {"source": "CdM", "url": "https://www.cdm.me/feed/"},
+    {"source": "RTCG", "url": "https://rtcg.me/rss/vijesti.html"}
+  ],
+  "AL": [
+    {"source": "Top Channel", "url": "https://top-channel.tv/feed/"},
+    {"source": "Balkanweb", "url": "https://www.balkanweb.com/feed/"}
+  ],
+  "PT": [
+    {"source": "Publico", "url": "https://feeds.feedburner.com/PublicoRSS"}
+  ],
+  "DK": [
+    {"source": "DR Nyheder", "url": "https://www.dr.dk/nyheder/service/feeds/allenyheder"}
+  ]
+}

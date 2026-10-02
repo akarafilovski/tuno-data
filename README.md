@@ -11,3 +11,7 @@ Radio catalog for the TUNO app, one JSON file per country, served by GitHub Page
 Run it locally: `pip install requests` then `python build_radio.py HR RS SI` (or no arguments for every country).
 
 The station data comes from the community directory at radio-browser.info. Station names and logos belong to the stations.
+
+## News
+
+`build_news.py` writes `news/<CC>.json` (`{"headlines":[...]}`, the TUNO `NewsResponse` shape) from public RSS feeds: hand-picked feeds in `news_feeds.json` (HR, BA, ME, AL, PT, DK), then Yahoo News and Google News editions (`news_editions.json`, ported from the TUNO server), and time.mk for MK. A GitHub Action (`news.yml`) refreshes it every 4 hours. Headlines link to the publishers' own articles; this repo stores only title, source, link, time and thumbnail URL.

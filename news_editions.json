@@ -1,0 +1,228 @@
+{
+ "google": {
+  "US": [
+   "en-US",
+   "US:en"
+  ],
+  "GB": [
+   "en-GB",
+   "GB:en"
+  ],
+  "IE": [
+   "en-IE",
+   "IE:en"
+  ],
+  "CA": [
+   "en-CA",
+   "CA:en"
+  ],
+  "AU": [
+   "en-AU",
+   "AU:en"
+  ],
+  "NZ": [
+   "en-NZ",
+   "NZ:en"
+  ],
+  "IN": [
+   "en-IN",
+   "IN:en"
+  ],
+  "ZA": [
+   "en-ZA",
+   "ZA:en"
+  ],
+  "NG": [
+   "en-NG",
+   "NG:en"
+  ],
+  "KE": [
+   "en-KE",
+   "KE:en"
+  ],
+  "PK": [
+   "en-PK",
+   "PK:en"
+  ],
+  "SG": [
+   "en-SG",
+   "SG:en"
+  ],
+  "MY": [
+   "en-MY",
+   "MY:en"
+  ],
+  "PH": [
+   "en-PH",
+   "PH:en"
+  ],
+  "AE": [
+   "ar",
+   "AE:ar"
+  ],
+  "DE": [
+   "de",
+   "DE:de"
+  ],
+  "AT": [
+   "de",
+   "AT:de"
+  ],
+  "CH": [
+   "de",
+   "CH:de"
+  ],
+  "FR": [
+   "fr",
+   "FR:fr"
+  ],
+  "BE": [
+   "fr",
+   "BE:fr"
+  ],
+  "IT": [
+   "it",
+   "IT:it"
+  ],
+  "ES": [
+   "es",
+   "ES:es"
+  ],
+  "BR": [
+   "pt-BR",
+   "BR:pt-419"
+  ],
+  "NL": [
+   "nl",
+   "NL:nl"
+  ],
+  "SE": [
+   "sv",
+   "SE:sv"
+  ],
+  "NO": [
+   "no",
+   "NO:no"
+  ],
+  "FI": [
+   "fi-FI",
+   "FI:fi"
+  ],
+  "PL": [
+   "pl",
+   "PL:pl"
+  ],
+  "CZ": [
+   "cs",
+   "CZ:cs"
+  ],
+  "SK": [
+   "sk",
+   "SK:sk"
+  ],
+  "HU": [
+   "hu",
+   "HU:hu"
+  ],
+  "RO": [
+   "ro",
+   "RO:ro"
+  ],
+  "BG": [
+   "bg",
+   "BG:bg"
+  ],
+  "GR": [
+   "el",
+   "GR:el"
+  ],
+  "TR": [
+   "tr",
+   "TR:tr"
+  ],
+  "RU": [
+   "ru",
+   "RU:ru"
+  ],
+  "UA": [
+   "uk",
+   "UA:uk"
+  ],
+  "RS": [
+   "sr",
+   "RS:sr"
+  ],
+  "SI": [
+   "sl",
+   "SI:sl"
+  ],
+  "IL": [
+   "he",
+   "IL:he"
+  ],
+  "SA": [
+   "ar",
+   "SA:ar"
+  ],
+  "EG": [
+   "ar",
+   "EG:ar"
+  ],
+  "JP": [
+   "ja",
+   "JP:ja"
+  ],
+  "KR": [
+   "ko",
+   "KR:ko"
+  ],
+  "TW": [
+   "zh-TW",
+   "TW:zh-Hant"
+  ],
+  "HK": [
+   "zh-HK",
+   "HK:zh-Hant"
+  ],
+  "VN": [
+   "vi",
+   "VN:vi"
+  ],
+  "TH": [
+   "th",
+   "TH:th"
+  ],
+  "ID": [
+   "id",
+   "ID:id"
+  ],
+  "MX": [
+   "es-419",
+   "MX:es-419"
+  ],
+  "AR": [
+   "es-419",
+   "AR:es-419"
+  ],
+  "CO": [
+   "es-419",
+   "CO:es-419"
+  ],
+  "CL": [
+   "es-419",
+   "CL:es-419"
+  ]
+ },
+ "yahoo": {
+  "US": "news.yahoo.com",
+  "GB": "uk.news.yahoo.com",
+  "CA": "ca.news.yahoo.com",
+  "AU": "au.news.yahoo.com",
+  "NZ": "nz.news.yahoo.com",
+  "DE": "de.news.yahoo.com",
+  "FR": "fr.news.yahoo.com",
+  "TW": "tw.news.yahoo.com",
+  "HK": "hk.news.yahoo.com",
+  "SG": "sg.news.yahoo.com"
+ }
+}
