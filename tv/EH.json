@@ -1,0 +1,1 @@
+{"stations":[{"id":"iptvorg:RASDTV.eh","name":"RASD TV","type":"tv","country":"EH","category":"entertainment","stream":{"url":"https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8","format":"hls"},"logoUrl":"https://i.imgur.com/9Pb8806.png","website":"https://rasd.tv/"}],"minSupportedVersion":1}

@@ -1,0 +1,1 @@
+{"stations":[{"id":"iptvorg:QTVGambia.gm","name":"QTV Gambia","type":"tv","country":"GM","category":"entertainment","stream":{"url":"https://player.qtv.gm/hls/live.stream.m3u8","format":"hls"},"logoUrl":"https://i.imgur.com/ZsTuADb.png","website":"http://qtv.gm/"}],"minSupportedVersion":1}
