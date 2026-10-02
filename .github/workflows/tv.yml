@@ -1,0 +1,38 @@
+name: Update TV catalog
+
+on:
+  schedule:
+    - cron: '11 2 * * 0'      # every Sunday
+  workflow_dispatch:
+    inputs:
+      countries:
+        description: 'ISO codes separated by spaces (empty = every country)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tv-catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Build
+        run: python build_tv.py ${{ github.event.inputs.countries }}
+      - name: Commit changes
+        run: |
+          git config user.name "tuno-data bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A tv state
+          if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
+          git commit -m "TV catalog update $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break; sleep 5; done
