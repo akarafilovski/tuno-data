@@ -1,0 +1,1 @@
+{"stations":[{"id":"radiobrowser:00741163-70f8-4434-944b-ca4e06e0b628","name":"MUGEN Radio","type":"radio","country":"XX","category":"music","stream":{"url":"https://mugenradio.com/hls/live.m3u8","format":"hls"},"logoUrl":"https://mugenradio.com/cover-mugen-3000.png","website":"https://mugenradio.com/"}],"minSupportedVersion":1}
