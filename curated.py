@@ -1,6 +1,6 @@
 """Hand-picked stations that replace the directory's messy duplicates of the same channel.
 
-curated/<CC>.json holds stations in the published format. A channel is identified by the stream host's channel key
+curated/<CC>.json holds stations in the published format. Optional "replaceNames": [..] switches to name-based curation (directory stations whose name contains one of those words are dropped, the curated ones are inserted at position 3). A channel is identified by the stream host's channel key
 (naxidigital-<key>128...); every directory station with the same key is replaced by the curated one, at the position
 of the first duplicate. Curated stations the directory does not list yet go right after the last Naxi Digital entry.
 
@@ -24,7 +24,15 @@ def apply(cc, stations):
     path = os.path.join(ROOT, 'curated', f'{cc}.json')
     if not os.path.exists(path):
         return stations
-    curated = json.load(open(path, encoding='utf-8'))['stations']
+    spec = json.load(open(path, encoding='utf-8'))
+    curated = spec['stations']
+    names = [n.lower() for n in spec.get('replaceNames', [])]
+    if names:
+        # name-based curation: drop the directory's own entries for that brand and put ours near the top
+        keep = [s for s in stations if not any(n in s['name'].lower() for n in names)]
+        at = min(3, len(keep))
+        keep[at:at] = curated
+        return keep
     by_key = {key_of(c): c for c in curated if key_of(c)}
     placed, out = set(), []
     last = -1

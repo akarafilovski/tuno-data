@@ -1,0 +1,278 @@
+{
+ "replaceNames": [
+  "super radio",
+  "супер радио"
+ ],
+ "stations": [
+  {
+   "id": "tuno:seed_superradio_live",
+   "name": "Super Radio Live",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/muzq097d2c9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://superradio.com.mk/wp-content/uploads/elementor/thumbs/Super-radio-Logo-2026-Belo-rk97yiqur1d6ucoxabwr00yk9klrw7o7frfckiluhw.png",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_greatest_hits",
+   "name": "Super Radio Greatest Hits",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/25nxuhsn6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Vinyl_record_LP_10inch.JPG",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_cafe_radio",
+   "name": "Super Radio Cafe Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/16s61zah5ehvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Coffee_cup_seen_from_above.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_top40_fresh",
+   "name": "Super Radio Top 40 Fresh",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/6bdc40gn6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sony_Boombox_circa_2005.JPG",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_dance",
+   "name": "Super Radio Dance",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/5bg7xn8m6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Disco_ball_with_reflections_104.JPG",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_mak_classic_hits",
+   "name": "Super Radio Mak Classic Hits",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/nm4de6p4zehvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Folk_costume_from_Skopje%2C_Macedonian_-_1.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_mak_hits",
+   "name": "Super Radio Mak Hits",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/ruxb58mn6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Macedonian_folk_dance.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_yu_hits",
+   "name": "Super Radio YU Hits",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/25rnuxtn6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Audio_cassette.png",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_balkan_mix",
+   "name": "Super Radio Balkan Mix",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/8yx550954bhvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/%22Teskoto%22_-_traditional_Macedonian_dance_%22oro%22.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_love_songs",
+   "name": "Super Radio Love Songs",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/f7aqf7r4zehvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Red_rose.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_smooth_jazz",
+   "name": "Super Radio Smooth Jazz",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/p3h95gun6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Tenor_saxophone.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_lounge",
+   "name": "Super Radio Lounge",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/4kra86sn6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Alexandra_Cocktail_Bar_view_1.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_rock",
+   "name": "Super Radio Rock",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/eu32cva64bhvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Electric_guitar_%28477101105%29.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_mansko",
+   "name": "Super Radio Mansko",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/750yzgd91hhvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bugarija%2C_instrument.png",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_kids",
+   "name": "Super Radio Kids",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/pa9a2dm14hhvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lots_of_balloons.JPG",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_hiphop_rnb",
+   "name": "Super Radio Hip Hop & RnB",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/uahxvggn6e9uv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Microphone_1.jpg",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_tamburasi_skadarlija",
+   "name": "Super Radio Tamburasi, Skadarlija",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-160.zeno.fm/ztbifwhhrgnuv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Prim_tambura.png",
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_superradio_makedonski_narodni",
+   "name": "Super Radio Македонски народни песни",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-161.zeno.fm/ephw2sa1lzbvv",
+    "format": "progressive",
+    "referer": "https://superradio.com.mk/"
+   },
+   "region": "Ohrid",
+   "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Macedonian_gajda.jpg",
+   "website": "https://superradio.com.mk/"
+  }
+ ]
+}
