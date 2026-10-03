@@ -27,6 +27,7 @@ from datetime import datetime, timezone
 import requests
 
 import curated
+import logos
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'radio')
@@ -36,6 +37,8 @@ UA = {'User-Agent': 'TUNO-catalog/1.0 (+https://github.com/akarafilovski/tuno-da
 FAIL_LIMIT = 3
 PROBE_TIMEOUT = 8
 MIN_SUPPORTED_VERSION = 1
+# logos are checked (and replaced from the station's own site) only for the countries that have a Radio app
+LOGO_COUNTRIES = {'HR', 'SI', 'BG', 'RS', 'RO', 'MK', 'NL', 'GR', 'ME', 'BA', 'TR', 'HU'}
 
 
 
@@ -170,6 +173,7 @@ def main():
     directory = {c['iso_3166_1'].upper(): c for c in api('/json/countries') if c.get('iso_3166_1')}
     wanted = [a.upper() for a in args] or sorted(directory)
     state = load_state()
+    logo_cache = logos.load_cache()
     index_path = os.path.join(OUT, 'index.json')
     try:
         old_index = json.load(open(index_path, encoding='utf-8'))
@@ -185,6 +189,9 @@ def main():
             print(f'{cc}: skipped ({e})')
             continue
         stations = curated.apply(cc, stations)
+        if cc in LOGO_COUNTRIES:
+            have, total = logos.apply(cc, stations, logo_cache)
+            print(f'{cc}: {have}/{total} stations have a working logo')
         path = os.path.join(OUT, f'{cc}.json')
         if not stations:
             if os.path.exists(path):
@@ -206,6 +213,7 @@ def main():
         index['generatedAt'] = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     open(index_path, 'w', encoding='utf-8', newline='\n').write(json.dumps(index, ensure_ascii=False, indent=1))
     open(STATE, 'w', encoding='utf-8', newline='\n').write(json.dumps(state, sort_keys=True, separators=(',', ':')))
+    logos.save_cache(logo_cache)
 
 
 if __name__ == '__main__':
