@@ -42,6 +42,11 @@ LOGO_COUNTRIES = {'HR', 'SI', 'BG', 'RS', 'RO', 'MK', 'NL', 'GR', 'ME', 'BA', 'T
 
 
 
+# Single-reciter Quran recitation streams (for example "Abdulbasit Abdulsamad") are listed under almost every country in the directory
+# but belong to none of them: they are never published. Named Quran radio stations are kept.
+BLOCKED_NAME = re.compile(r"abdul\s*-?bas[iu]t|abdul\s*-?samad|hus[ae]ri|minshawi|alafasy|al-afasy|sudais|shuraim|beautiful recitation", re.I)
+
+
 def sort_key(name):
     base = unicodedata.normalize('NFKD', name)
     base = ''.join(ch for ch in base if not unicodedata.combining(ch)).casefold()
@@ -121,6 +126,8 @@ def build_country(cc, limit, state):
         name = html.unescape(s.get('name', '')).strip()
         url = clean_url(s.get('url_resolved')) or clean_url(s.get('url'))
         if not name or not url or not url.lower().startswith(('http://', 'https://')):
+            continue
+        if BLOCKED_NAME.search(name):
             continue
         nn, nu = norm_name(name), norm_stream(url)
         if not nn or nn in seen_names or nu in seen_urls:
