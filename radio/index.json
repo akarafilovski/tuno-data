@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-03T09:09:54Z",
+ "generatedAt": "2026-10-04T09:49:34Z",
  "countries": [
   {
    "code": "AD",
@@ -109,7 +109,7 @@
   {
    "code": "BG",
    "name": "Bulgaria",
-   "stations": 260
+   "stations": 259
   },
   {
    "code": "BH",
@@ -904,7 +904,7 @@
   {
    "code": "RO",
    "name": "Romania",
-   "stations": 275
+   "stations": 276
   },
   {
    "code": "RS",
