@@ -1,0 +1,1 @@
+{"stations":[{"id":"iptvorg:Sahara24.mr","name":"Sahara 24","type":"tv","country":"MR","category":"news","stream":{"url":"https://live.saharamedias.net:3317/live/shara24live.m3u8","format":"hls"},"logoUrl":"https://i.imgur.com/pnzWYwT.png","website":"https://saharamedias.net/"}],"minSupportedVersion":1}
