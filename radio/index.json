@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T10:35:28Z",
+ "generatedAt": "2026-10-10T09:52:56Z",
  "countries": [
   {
    "code": "AD",
@@ -84,7 +84,7 @@
   {
    "code": "BA",
    "name": "Bosnia And Herzegovina",
-   "stations": 136
+   "stations": 135
   },
   {
    "code": "BB",
@@ -109,7 +109,7 @@
   {
    "code": "BG",
    "name": "Bulgaria",
-   "stations": 257
+   "stations": 258
   },
   {
    "code": "BH",
@@ -474,7 +474,7 @@
   {
    "code": "HU",
    "name": "Hungary",
-   "stations": 281
+   "stations": 280
   },
   {
    "code": "ID",
@@ -694,7 +694,7 @@
   {
    "code": "MK",
    "name": "Republic Of North Macedonia",
-   "stations": 61
+   "stations": 60
   },
   {
    "code": "ML",
@@ -794,7 +794,7 @@
   {
    "code": "NL",
    "name": "The Netherlands",
-   "stations": 297
+   "stations": 295
   },
   {
    "code": "NO",
@@ -904,7 +904,7 @@
   {
    "code": "RO",
    "name": "Romania",
-   "stations": 264
+   "stations": 263
   },
   {
    "code": "RS",
