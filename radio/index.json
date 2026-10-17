@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T08:13:20Z",
+ "generatedAt": "2026-10-17T07:49:32Z",
  "countries": [
   {
    "code": "AD",
@@ -84,7 +84,7 @@
   {
    "code": "BA",
    "name": "Bosnia And Herzegovina",
-   "stations": 132
+   "stations": 133
   },
   {
    "code": "BB",
@@ -109,7 +109,7 @@
   {
    "code": "BG",
    "name": "Bulgaria",
-   "stations": 263
+   "stations": 262
   },
   {
    "code": "BH",
@@ -429,7 +429,7 @@
   {
    "code": "GR",
    "name": "Greece",
-   "stations": 298
+   "stations": 300
   },
   {
    "code": "GT",
@@ -464,7 +464,7 @@
   {
    "code": "HR",
    "name": "Croatia",
-   "stations": 219
+   "stations": 217
   },
   {
    "code": "HT",
@@ -474,7 +474,7 @@
   {
    "code": "HU",
    "name": "Hungary",
-   "stations": 282
+   "stations": 281
   },
   {
    "code": "ID",
@@ -794,7 +794,7 @@
   {
    "code": "NL",
    "name": "The Netherlands",
-   "stations": 298
+   "stations": 296
   },
   {
    "code": "NO",
@@ -904,7 +904,7 @@
   {
    "code": "RO",
    "name": "Romania",
-   "stations": 288
+   "stations": 289
   },
   {
    "code": "RS",
@@ -1074,7 +1074,7 @@
   {
    "code": "TR",
    "name": "Türkiye",
-   "stations": 298
+   "stations": 295
   },
   {
    "code": "TT",
