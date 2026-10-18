@@ -1,1 +1,1 @@
-{"stations":[],"minSupportedVersion":1}
+{"stations":[{"id":"radiobrowser:6d02ff25-d00e-4fab-8ae1-2159e3388b43","name":"Radio Maria Lesotho","type":"radio","country":"LS","category":"music","stream":{"url":"https://dreamsiteradiocp5.com/proxy/rmlesotho?mp=/stream","format":"icecast"},"logoUrl":"https://dreamsiteradioplayer.it/wf/wflesotho/tmp/images/default.jpg","website":"https://dreamsiteradioplayer.it/wf/wflesotho/"}],"minSupportedVersion":1}
