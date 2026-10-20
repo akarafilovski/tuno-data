@@ -273,6 +273,734 @@
    "region": "Ohrid",
    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Macedonian_gajda.jpg",
    "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:seed_mrt_radio2",
+   "name": "Makedonsko Radio 2 - Radio Skopje",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://vod-c57.interspace.com/channel_abr/48/playlist.m3u8",
+    "format": "hls"
+   },
+   "region": "Skopje",
+   "website": "https://play.mrt.com.mk/live/radio2"
+  },
+  {
+   "id": "tuno:mk_17961",
+   "name": "Radio TIM Bitola",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://hydra.shoutca.st:8108/;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17934",
+   "name": "City Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://176.9.117.123:9998/live",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17941",
+   "name": "Radio Vmro",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radiovmro.radioca.st/stream/;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_58224",
+   "name": "Spark Radio EX-YU",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://usa21.fastcast4u.com:1170/stream/4/",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18020",
+   "name": "Spark Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://usa21.fastcast4u.com/sparkradio",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17936",
+   "name": "Зона М1 Радио",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://zonam1.ddns.net:8400/;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17970",
+   "name": "Merak Radio Bitola",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://a13.asurahosting.com/listen/merak_radio/radio.mp3",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18001",
+   "name": "Radio LAV",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://str.mkdstream.com/stream/radiolav",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18005",
+   "name": "Extra Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu11.fastcast4u.com:1680/;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_58225",
+   "name": "Spark Radio MK Folk",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://usa21.fastcast4u.com:1170/stream/3/",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_58223",
+   "name": "Spark Radio Kafanska",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://usa21.fastcast4u.com:1170/stream/5/",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_79684",
+   "name": "Impuls Folk Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://media.radioexs.com/stream/impulsfolkradio",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17997",
+   "name": "Radio Kocani",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://str.mkdstream.com/stream/kocanifm",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17946",
+   "name": "Radio 106",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming.zemi.mk:8003/1",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_91625",
+   "name": "Radio KISS FM",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.shoutcast.mk/8014/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18024",
+   "name": "Jon Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://radiostream.neotel.mk:8000/jonradio",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_55299",
+   "name": "Gradski Media Service",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://solid48.streamupsolutions.com/proxy/lnymxkhg/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18011",
+   "name": "Diamond Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://cast6.asurahosting.com/proxy/nikola/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18017",
+   "name": "Vink Boem Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu10.fastcast4u.com/vinkboem",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17942",
+   "name": "Radio 5FM",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://5fm.mk:8000/;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17958",
+   "name": "Vink Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu10.fastcast4u.com:10490/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_60609",
+   "name": "Radio Goldi",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://78.157.31.7:8000/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_99380",
+   "name": "Vink Ex Yu Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu10.fastcast4u.com:10490/stream/3/",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_58226",
+   "name": "Spark Cafe Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://usa21.fastcast4u.com:1170/stream/2/",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_50752",
+   "name": "Kočani FM Cafe",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://str.mkdstream.com/stream/rakochit",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18026",
+   "name": "Bravo Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bravoradio.mk/bravo.mp3",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17952",
+   "name": "Radio Aleksandar Makedonski",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.free-shoutcast.com/stream/18138",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_105972",
+   "name": "Macedonian Traditional & Folk Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://folk.mkradio.online/listen/mk-folk-radio/radio.mp3",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_79419",
+   "name": "Radio Rosa 98,1 fm",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://s3.free-shoutcast.com:18032/;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17992",
+   "name": "Pero Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu10.fastcast4u.com/peroradio",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18004",
+   "name": "Radio Pela (Пела Радио)",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://str.mkdstream.com/stream/pelamk",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17969",
+   "name": "STIL MKD NARODNA",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:7220/stilradiomkd",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_79418",
+   "name": "STIL BALKAN",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stilradio.com/stream/stilbalkan.php",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_60603",
+   "name": "Biser Radio Ohrid",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://biserradioohrid.radioca.st/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18019",
+   "name": "Radio Makedonska Kamenica",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.shoutcast.mk:2020/stream/makedonskakamenica",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17963",
+   "name": "RadioRabrovo",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://live.mkdstream.com/listen/rabrovo/rarab",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17966",
+   "name": "STIL EX YU POP",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stilradio.com/stream/stilexyupop.php",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_101879",
+   "name": "Radio Gostivarski Biser",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://hq3.yesstreaming.net:7460/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_79422",
+   "name": "STIL EX YU RETRO",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com/listen/stil_radio/stilexyuretro",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_50756",
+   "name": "Radio Vati",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://radiostream.neotel.mk:8000/radiovati",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18018",
+   "name": "Moe Radio Skopje",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.shoutcast.mk:2020/stream/moeradio",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_55301",
+   "name": "Gora Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com/listen/stil_radio/goraradio",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_100758",
+   "name": "Nadir Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://hq3.yesstreaming.net:7475/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_99973",
+   "name": "Vink World Retro Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://str.mkdstream.com:8032/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17973",
+   "name": "Gostivarpress.mk Online Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://www.mkradio.online/radio",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_99776",
+   "name": "INA RADIO",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://hq3.yesstreaming.net:7440/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_97587",
+   "name": "BalkanBeats Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://a1.asurahosting.com:9120/radio.mp3",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_108889",
+   "name": "Melos Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://str.mkdstream.com:8034/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_55297",
+   "name": "Radio HIT Macedonia",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.shoutcast.mk:2020/8062/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_106283",
+   "name": "Ultra Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://ultraradio.org/stream.aac",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17953",
+   "name": "Radio Jehona",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://s26.myradiostream.com/10030/listen.mp3",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17957",
+   "name": "Холидеј Радио",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://str.mkdstream.com/stream/holidej",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18022",
+   "name": "RTM Radio Maqedonisë 3",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://vod-c57.interspace.com/channel_abr/49/playlist.m3u8",
+    "format": "hls"
+   }
+  },
+  {
+   "id": "tuno:mk_17956",
+   "name": "Радио МОФ",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/8e4wzvre1d0uv",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_60612",
+   "name": "UGD FM",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://ugdfm-stream.ugd.edu.mk:8000/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_98530",
+   "name": "Impact Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/547646/stream/606824",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_106665",
+   "name": "Energy Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radiomk-portal.com/energy.mp3",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_55296",
+   "name": "Ohrid24",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.iradio.pro:8146/stream?mp=/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_78659",
+   "name": "Канал 8",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://kanal8.mk/radio-live.php?t=1775987892180",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17954",
+   "name": "Спортско Радио 90.3",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.zemi.mk:8080/1;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17944",
+   "name": "Play Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.shoutcast.mk:8046/;",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_18006",
+   "name": "Play Radio - pop",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.shoutcast.mk:2020/stream/playfm",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_109113",
+   "name": "Radio Nur Islam",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://hq3.yesstreaming.net:7470/stream",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_60602",
+   "name": "Bikers Garage Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.gonet.mk/live",
+    "format": "icecast"
+   }
+  },
+  {
+   "id": "tuno:mk_17993",
+   "name": "STIL EX YU TRAP",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com/listen/stil_radio/stilexyutrap",
+    "format": "icecast"
+   }
   }
  ]
 }
