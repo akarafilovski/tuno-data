@@ -1,0 +1,653 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bg_bg-estrada-sofia",
+   "name": "BG Estrada Sofia",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://29103.live.streamtheworld.com/BG_RADIOAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://29103.live.streamtheworld.com/BG_RADIOAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "http://stream.metacast.eu/bgradio128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.metacast.eu/bgradio128",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://bgradio.net/"
+  },
+  {
+   "id": "tuno:top_bg_extreme-deep-house",
+   "name": "Extreme Deep House",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcast.net/71094",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.rcast.net/71094",
+    "https://whsh4u-panel.com/proxy/yfryujzw/stream",
+    "http://whsh4u-panel.com:14113/stream",
+    "https://whsh4u-panel.com/stream/yfryujzw/stream.pls"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://whsh4u-panel.com/proxy/yfryujzw/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://whsh4u-panel.com:14113/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.extremedeephouse.com/"
+  },
+  {
+   "id": "tuno:top_bg_radio-maxx-fm-bulgaria",
+   "name": "Radio Maxx FM Bulgaria",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radiomaxxfm.com/maxx-lo",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://play.radiomaxxfm.com/maxx-lo"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_radio-nova",
+   "name": "Radio Nova",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://28513.live.streamtheworld.com/RADIO_NOVAAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://28513.live.streamtheworld.com/RADIO_NOVAAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_NOVAAAC_L.aac?dist=onlineradiobox",
+    "http://stream.metacast.eu/nova.ogg"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_NOVAAAC_L.aac?dist=onlineradiobox",
+     "format": "icecast"
+    },
+    {
+     "url": "http://stream.metacast.eu/nova.ogg",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radionova.bg/"
+  },
+  {
+   "id": "tuno:top_bg_radio-city",
+   "name": "Radio City",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://27753.live.streamtheworld.com/RADIO_CITYAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://27753.live.streamtheworld.com/RADIO_CITYAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "http://play.global.audio/city64",
+    "http://play.global.audio/cityhi.aac",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_CITYAAC_L.aac?dist=onlineradiobox"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://play.global.audio/city64",
+     "format": "icecast"
+    },
+    {
+     "url": "http://play.global.audio/cityhi.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.city.bg/"
+  },
+  {
+   "id": "tuno:top_bg_1",
+   "name": "Радио 1",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_1AAC_L.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_1AAC_L.aac?dist=onlineradiobox",
+    "http://stream.metacast.eu/radio1128",
+    "http://149.13.0.80/radio1128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.metacast.eu/radio1128",
+     "format": "icecast"
+    },
+    {
+     "url": "http://149.13.0.80/radio1128",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_bg_radio-1-bulgaria",
+   "name": "Radio 1 (Bulgaria)",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://29103.live.streamtheworld.com/RADIO_1AAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://29103.live.streamtheworld.com/RADIO_1AAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "http://149.13.0.81/radio1.ogg",
+    "https://play.global.audio:80/radio164"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://149.13.0.81/radio1.ogg",
+     "format": "icecast"
+    },
+    {
+     "url": "https://play.global.audio:80/radio164",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radio1.bg/"
+  },
+  {
+   "id": "tuno:top_bg_radio-energy",
+   "name": "Radio Energy",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ENERGYAAC_L.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ENERGYAAC_L.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_energy-nrj-bulgaria",
+   "name": "Energy NRJ Bulgaria",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "http://play.global.audio/nrj128",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://play.global.audio/nrj128"
+   ],
+   "website": "https://radioenergy.bg/"
+  },
+  {
+   "id": "tuno:top_bg_avto-radio",
+   "name": "Avto Radio",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/AVTORADIOAAC_L.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/AVTORADIOAAC_L.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_metro-dance-radio",
+   "name": "Metro Dance Radio",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.jump.bg/proxy/predp?mp=/MDR",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio.jump.bg/proxy/predp?mp=/MDR",
+    "https://eu1.reliastream.com/proxy/mdr?mp=/MDR"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://eu1.reliastream.com/proxy/mdr?mp=/MDR",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://metrocast.top/dance"
+  },
+  {
+   "id": "tuno:top_bg_hit-fm-bulgaria",
+   "name": "Hit FM Bulgaria",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://play.hitfmbg.com/hitfm-high",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://play.hitfmbg.com/hitfm-high"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_1-rock-bulgaria",
+   "name": "1 Rock Bulgaria",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://27863.live.streamtheworld.com/RADIO_1_ROCKAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://27863.live.streamtheworld.com/RADIO_1_ROCKAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "http://31.13.223.148:8000/1_rock.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://31.13.223.148:8000/1_rock.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio1rock.bg/"
+  },
+  {
+   "id": "tuno:top_bg_station",
+   "name": "Радио Веселина",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://nova-radio.neterra.tv/veselina",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://nova-radio.neterra.tv/veselina"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_magic-fm",
+   "name": "Magic FM",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://nova-radio.neterra.tv/magicfm",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://nova-radio.neterra.tv/magicfm",
+    "https://bss1.neterra.tv/magicfm/magicfm.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://bss1.neterra.tv/magicfm/magicfm.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://m.magic.bg/"
+  },
+  {
+   "id": "tuno:top_bg_fresh",
+   "name": "Fresh!",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "http://193.108.24.21:8000/fresh",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://193.108.24.21:8000/fresh",
+    "http://31.13.223.148:8000/fresh.ogg"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://31.13.223.148:8000/fresh.ogg",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radiofresh.bg/"
+  },
+  {
+   "id": "tuno:top_bg_station_17",
+   "name": "Радио Вероника",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_VERONIKAAAC_L.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_VERONIKAAAC_L.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_the-voice",
+   "name": "Радио The Voice",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://nova-radio.neterra.tv/thevoice",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://nova-radio.neterra.tv/thevoice",
+    "https://bss1.neterra.tv/thevoicefm/thevoicefm.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://bss1.neterra.tv/thevoicefm/thevoicefm.m3u8",
+     "format": "hls"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_bg_radio-veronika",
+   "name": "Radio Veronika",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://27743.live.streamtheworld.com/RADIO_VERONIKAAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://27743.live.streamtheworld.com/RADIO_VERONIKAAAC_L.aac?dist=WEBSITEBG&dist=DESKTOP",
+    "http://play.global.audio/veronikahi.aac",
+    "http://stream.metacast.eu/veronika.ogg"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://play.global.audio/veronikahi.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "http://stream.metacast.eu/veronika.ogg",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioveronika.bg/"
+  },
+  {
+   "id": "tuno:top_bg_nova-news",
+   "name": "Nova News",
+   "type": "radio",
+   "country": "BG",
+   "category": "talk",
+   "stream": {
+    "url": "https://27753.live.streamtheworld.com/RADIO_NOVANEWSAAC_H.aac",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://27753.live.streamtheworld.com/RADIO_NOVANEWSAAC_H.aac",
+    "http://stream.radioreklama.bg/novanews.aac",
+    "https://play.global.audio/novanewshi.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.radioreklama.bg/novanews.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "https://play.global.audio/novanewshi.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://nova.bg/radio"
+  },
+  {
+   "id": "tuno:top_bg_hot-hits-fm",
+   "name": "Hot Hits FM",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://hothitsfm.com:9002/stream?nocache=1792513702613",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://hothitsfm.com:9002/stream?nocache=1792513702613",
+    "https://live.hothitsfm.com/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.hothitsfm.com/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://hothitsfm.com/"
+  },
+  {
+   "id": "tuno:top_bg_station_22",
+   "name": "Авто Радио",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://21223.live.streamtheworld.com/AVTORADIOAAC_L.aac?dist=DESKTOP",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://21223.live.streamtheworld.com/AVTORADIOAAC_L.aac?dist=DESKTOP",
+    "http://stream80.metacast.eu/avtoradiohi.aac",
+    "http://play.global.audio/avtoradio.opus"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream80.metacast.eu/avtoradiohi.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "http://play.global.audio/avtoradio.opus",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.avtoradio.bg/"
+  },
+  {
+   "id": "tuno:top_bg_btv-radio",
+   "name": "BTV Radio",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.bweb.bg/radio/btv-radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://cdn.bweb.bg/radio/btv-radio.mp3",
+    "https://cdn.btv.bg/radio/btv-radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cdn.btv.bg/radio/btv-radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://btvradio.bg/"
+  },
+  {
+   "id": "tuno:top_bg_radio-viva",
+   "name": "Radio Viva",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.radioextra-bg.net:8000/viva-eurodance",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://stream.radioextra-bg.net:8000/viva-eurodance"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_katra-fm",
+   "name": "Katra FM",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://live.katrafm.com/",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://live.katrafm.com/",
+    "http://www.katrafm.com:8000/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://www.katrafm.com:8000/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.katrafm.com/"
+  },
+  {
+   "id": "tuno:top_bg_radio-maia",
+   "name": "radio Maia",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.rn-tv.com:8000/stream/1/",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://radio.rn-tv.com:8000/stream/1/"
+   ],
+   "website": "https://radiomaia.com/"
+  },
+  {
+   "id": "tuno:top_bg_darik-radio",
+   "name": "Darik Radio",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://a12.asurahosting.com/listen/darik_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://a12.asurahosting.com/listen/darik_radio/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_vanilla",
+   "name": "Vanilla",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://29093.live.streamtheworld.com/RADIO_ENERGYAAC_L.aac?dist=RADIOPLAY",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://29093.live.streamtheworld.com/RADIO_ENERGYAAC_L.aac?dist=RADIOPLAY",
+    "https://play.global.audio/vanillahi.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://play.global.audio/vanillahi.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioplay.bg/"
+  },
+  {
+   "id": "tuno:top_bg_bnr",
+   "name": "BNR Радио София",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "https://lb-hls.cdn.bg/2032/fls/Sofia.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://lb-hls.cdn.bg/2032/fls/Sofia.stream/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_bg_radio-dance-with-me",
+   "name": "Radio Dance With Me",
+   "type": "radio",
+   "country": "BG",
+   "category": "music",
+   "stream": {
+    "url": "http://g5.turbohost.eu:8002/stream96",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://g5.turbohost.eu:8002/stream96",
+    "https://g5.turbohost.eu/proxy/dwm/stream128",
+    "http://g5.turbohost.eu:8002/stream128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://g5.turbohost.eu/proxy/dwm/stream128",
+     "format": "icecast"
+    },
+    {
+     "url": "http://g5.turbohost.eu:8002/stream128",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.dancewithme-bg.com/index.html"
+  }
+ ]
+}

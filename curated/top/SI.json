@@ -1,0 +1,588 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_si_radio-aktual",
+   "name": "Radio Aktual",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/Aktual",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.radio.si/Aktual",
+    "http://195.95.158.131:9080/"
+   ],
+   "website": "http://www.radioaktual.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-nula-ljubljana",
+   "name": "Radio Nula Ljubljana",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://strm.radionula.com/classics",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://strm.radionula.com/classics",
+    "https://radionula.com/assets/radionoise-D0Jg96cP.mp3"
+   ],
+   "website": "https://radionula.com/"
+  },
+  {
+   "id": "tuno:top_si_val-202",
+   "name": "VAL 202",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn-radio.rtvslo.si/hls/live/2101137/qbit_val202/playlist.m3u8?hdnts=exp=1792517765~acl=*~hmac=456ab585abe97ddae86d854f7f62594c28c3c52589c54238a67f9748f49dd4a7",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://cdn-radio.rtvslo.si/hls/live/2101137/qbit_val202/playlist.m3u8?hdnts=exp=1792517765~acl=*~hmac=456ab585abe97ddae86d854f7f62594c28c3c52589c54238a67f9748f49dd4a7",
+    "https://mp3.rtvslo.si/val202"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mp3.rtvslo.si/val202",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://val202.rtvslo.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-1",
+   "name": "Radio 1",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://live3.infonetmedia.si/Radio1",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://live3.infonetmedia.si/Radio1",
+    "https://live.radio1.si/Radio80"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.radio1.si/Radio80",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radio1.si/"
+  },
+  {
+   "id": "tuno:top_si_hitradio-center",
+   "name": "Hitradio Center",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://stream2.radiocenter.si:8000/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://stream2.radiocenter.si:8000/;stream/1",
+    "http://stream3.radiocenter.si:8000/center",
+    "http://stream2.radiocenter.si:8058/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream3.radiocenter.si:8000/center",
+     "format": "icecast"
+    },
+    {
+     "url": "http://stream2.radiocenter.si:8058/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radiocenter.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-veseljak",
+   "name": "Radio Veseljak",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/Veseljak",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://live.radio.si/Veseljak",
+    "http://195.95.158.131:9060/"
+   ],
+   "website": "http://veseljak.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-city",
+   "name": "Radio City",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream1.radiocity.si/CityMp3128.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream1.radiocity.si/CityMp3128.mp3"
+   ],
+   "website": "https://www.radiocity.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-capris-slo",
+   "name": "Radio Capris SLO",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://stream02.exit.si:8000/SLO?",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://stream02.exit.si:8000/SLO?"
+   ],
+   "website": "https://www.radiocapris.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-krka",
+   "name": "Radio Krka",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/Krka",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://live.radio.si/Krka"
+   ],
+   "website": "https://radiokrka.si/"
+  },
+  {
+   "id": "tuno:top_si_best-fm",
+   "name": "Best FM",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/BestFM",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://live.radio.si/BestFM"
+   ]
+  },
+  {
+   "id": "tuno:top_si_radio-capodistria",
+   "name": "Radio Capodistria",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn-radio.rtvslo.si/hls/live/2101137/qbit_capo/playlist.m3u8?hdnts=exp=1792517791~acl=*~hmac=b7fcb98c7a0383f1e94c1c9a85ad71367e5cf69852ecedbe952a786794f7f34e",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://cdn-radio.rtvslo.si/hls/live/2101137/qbit_capo/playlist.m3u8?hdnts=exp=1792517791~acl=*~hmac=b7fcb98c7a0383f1e94c1c9a85ad71367e5cf69852ecedbe952a786794f7f34e",
+    "https://mp3.rtvslo.si/capo",
+    "https://mp3.rtvslo.si/mmr"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mp3.rtvslo.si/capo",
+     "format": "icecast"
+    },
+    {
+     "url": "https://mp3.rtvslo.si/mmr",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.rtvslo.si/radiocapodistria/"
+  },
+  {
+   "id": "tuno:top_si_radio-si",
+   "name": "Radio Si",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn-radio.rtvslo.si/hls/live/2101137/qbit_rsi/playlist.m3u8?hdnts=exp=1792517792~acl=*~hmac=30bb19c2fac6fcc948c37ba33cabbf05f0bd45e0eee5b7cb856accd8f29a10e9",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://cdn-radio.rtvslo.si/hls/live/2101137/qbit_rsi/playlist.m3u8?hdnts=exp=1792517792~acl=*~hmac=30bb19c2fac6fcc948c37ba33cabbf05f0bd45e0eee5b7cb856accd8f29a10e9",
+    "https://mp3.rtvslo.si/rsi"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mp3.rtvslo.si/rsi",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radiosi.eu/"
+  },
+  {
+   "id": "tuno:top_si_rock-radio",
+   "name": "Rock Radio",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://stream2.radiocenter.si:9032/;",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://stream2.radiocenter.si:9032/;"
+   ]
+  },
+  {
+   "id": "tuno:top_si_radio-capris",
+   "name": "Radio Capris",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.exit.si/live",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://stream.exit.si/live"
+   ]
+  },
+  {
+   "id": "tuno:top_si_radio-mister-deejay",
+   "name": "Radio Mister Deejay",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.mister-deejay.com:9008/;",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://stream.mister-deejay.com:9008/;",
+    "https://www.mister-deejay.com/live/mrdjmp3.m3u"
+   ],
+   "website": "https://mister-deejay.com/"
+  },
+  {
+   "id": "tuno:top_si_radio-student",
+   "name": "Radio Študent",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://kruljo.radiostudent.si:8001/test.ogg?ck=1792514221002",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://kruljo.radiostudent.si:8001/test.ogg?ck=1792514221002",
+    "https://kruljo.radiostudent.si:8001/hiq",
+    "http://kruljo.radiostudent.si:8000/ehiq"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://kruljo.radiostudent.si:8001/hiq",
+     "format": "icecast"
+    },
+    {
+     "url": "http://kruljo.radiostudent.si:8000/ehiq",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiostudent.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-net-fm",
+   "name": "Radio NET FM",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radionet.si/stream.ogg",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.radionet.si/stream.ogg",
+    "http://reflector.radionet.si:8000/stream.ogg"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://reflector.radionet.si:8000/stream.ogg",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radionet.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-2",
+   "name": "Radio 2",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/Radio2",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://live.radio.si/Radio2",
+    "http://live.radio2.si/Radio2?1448457274706.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live.radio2.si/Radio2?1448457274706.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radio2.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-rogla",
+   "name": "Radio Rogla",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://193.105.67.24:8010/;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://193.105.67.24:8010/;",
+    "https://www.radiorogla.si/wp-content/uploads/2026/10/VseNaj-2010.mp3?_=1"
+   ],
+   "website": "https://www.radiorogla.si/"
+  },
+  {
+   "id": "tuno:top_si_rock-radio-si",
+   "name": "ROCK RADIO SI",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rockradio.si:9034/;",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://stream.rockradio.si:9034/;"
+   ],
+   "website": "http://www.rockradio.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-ognjisce",
+   "name": "Radio Ognjišče",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/ognjisce.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://live.radio.si/ognjisce.mp3"
+   ],
+   "website": "https://radio.ognjisce.si/"
+  },
+  {
+   "id": "tuno:top_si_muravideki-magyar-radio",
+   "name": "Muravidéki Magyar Rádió",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://mp3.rtvslo.si/mmr",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://mp3.rtvslo.si/mmr"
+   ]
+  },
+  {
+   "id": "tuno:top_si_radio-terminal",
+   "name": "Radio Terminal",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://air.radioterminal.si/live-192",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://air.radioterminal.si/live-192",
+    "https://stream.radioterminal.si/hls/live.m3u8",
+    "https://air.radioterminal.si/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.radioterminal.si/hls/live.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "https://air.radioterminal.si/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioterminal.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-stajerski-val",
+   "name": "Radio Stajerski Val",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.stajerskival.si:8004/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://stream.stajerskival.si:8004/;",
+    "https://stream.stajerskival.si:8443/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.stajerskival.si:8443/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.stajerskival.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-mars",
+   "name": "Radio MARŠ",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://www.radiomars.si/live/silence.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://www.radiomars.si/live/silence.mp3",
+    "http://frekvenca.eu:8000/radiomars.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://frekvenca.eu:8000/radiomars.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiomars.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-robin",
+   "name": "Radio Robin",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/Robin",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://live.radio.si/Robin"
+   ],
+   "website": "https://www.robin.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-nula-classic",
+   "name": "Radio Nula Classic",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://strm.radionula.com/channel4",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://strm.radionula.com/channel4"
+   ]
+  },
+  {
+   "id": "tuno:top_si_radio-sora",
+   "name": "Radio Sora",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio-sora.si:8001/radio-sora.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream.radio-sora.si:8001/radio-sora.mp3",
+    "http://radio-sora.si:8000/radio-sora.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio-sora.si:8000/radio-sora.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio-sora.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-antena-105-2mhz",
+   "name": "Radio Antena (105.2MHz)",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio.si/Antena",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://live.radio.si/Antena"
+   ],
+   "website": "https://www.radioantena.si/"
+  },
+  {
+   "id": "tuno:top_si_radio-tomi",
+   "name": "Radio Tomi",
+   "type": "radio",
+   "country": "SI",
+   "category": "music",
+   "stream": {
+    "url": "http://93.103.130.12:8080/tomi.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://93.103.130.12:8080/tomi.mp3"
+   ],
+   "website": "https://www.radiotomi.si/"
+  }
+ ]
+}

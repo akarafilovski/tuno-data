@@ -1,0 +1,565 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ba_obican-radio-mostar",
+   "name": "Običan Radio Mostar",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.leftor.com/proxy/obicanin/stream/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.leftor.com/proxy/obicanin/stream/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_radiopostaja-mir-medugorje",
+   "name": "Radiopostaja MIR Medugorje",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://mirm.live/mir.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://mirm.live/mir.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_kalman-radio",
+   "name": "Kalman radio",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://188.40.62.20:8004/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://188.40.62.20:8004/stream",
+    "https://ssl.surfmusic.de/s.php?s=http://188.40.62.20:8004/stream?1707015516"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ssl.surfmusic.de/s.php?s=http://188.40.62.20:8004/stream?1707015516",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://kalmanradio.ba/"
+  },
+  {
+   "id": "tuno:top_ba_antena-radio",
+   "name": "Antena Radio",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.tnt.ba:8020/live",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radio.tnt.ba:8020/live",
+    "https://radio.tnt.ba/radio/8020/live?1616060583"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.tnt.ba/radio/8020/live?1616060583",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.antena-radio.ba/"
+  },
+  {
+   "id": "tuno:top_ba_bn",
+   "name": "BN",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rtvbn.com:8522/;",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://stream.rtvbn.com:8522/;"
+   ],
+   "website": "http://www.rtvbn.com/"
+  },
+  {
+   "id": "tuno:top_ba_radio-sehara",
+   "name": "Radio Sehara",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://cast.name.ba:8000/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://cast.name.ba:8000/;"
+   ],
+   "website": "https://radiosehara.net/"
+  },
+  {
+   "id": "tuno:top_ba_velika-kladusa",
+   "name": "Velika Kladusa",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://rvk2021.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://rvk2021.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_radio-das-bijeljina",
+   "name": "Radio Das Bijeljina",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.119.6:8095/;&type=mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://158.69.119.6:8095/;&type=mp3"
+   ],
+   "website": "http://www.radiodas.net/"
+  },
+  {
+   "id": "tuno:top_ba_big2",
+   "name": "Big2",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://big2.bigportal.ba:8100/big2",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://big2.bigportal.ba:8100/big2"
+   ],
+   "website": "http://bigportal.ba/"
+  },
+  {
+   "id": "tuno:top_ba_velkaton",
+   "name": "Velkaton",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://188.40.62.20:8044/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://188.40.62.20:8044/stream",
+    "http://188.40.62.20:8044/;stream.mp3?_=1",
+    "https://velkaton.ba/emisije/bazar.mp3?_=3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://188.40.62.20:8044/;stream.mp3?_=1",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.velkaton.ba/"
+  },
+  {
+   "id": "tuno:top_ba_posusje",
+   "name": "Posusje",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.orbis.hr:9994/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio.orbis.hr:9994/stream",
+    "http://91.98.38.207:9994/;",
+    "http://136.243.144.93:9994/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://91.98.38.207:9994/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioposusje.ba/"
+  },
+  {
+   "id": "tuno:top_ba_big-radio-1-banja-luka",
+   "name": "Big Radio 1 Banja Luka",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://big2.bigportal.ba:8080/big2",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://big2.bigportal.ba:8080/big2",
+    "http://big1.bigportal.ba:8100/big1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://big1.bigportal.ba:8100/big1",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.bigradiobl.com/"
+  },
+  {
+   "id": "tuno:top_ba_rsg",
+   "name": "RSG",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rsgmedia.ba/listen/radio_stari_grad/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.rsgmedia.ba/listen/radio_stari_grad/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_nes-radio",
+   "name": "Nes Radio",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://solid1.streamupsolutions.com/proxy/bnwmfvnq?mp=/NESRADIO",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://solid1.streamupsolutions.com/proxy/bnwmfvnq?mp=/NESRADIO",
+    "http://188.40.62.20:8070/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://188.40.62.20:8070/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.nesradio.com/"
+  },
+  {
+   "id": "tuno:top_ba_radio-mix",
+   "name": "Radio Mix",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rsgmedia.ba/listen/radio_mix/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://stream.rsgmedia.ba/listen/radio_mix/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_srce-krajine",
+   "name": "Srce Krajine",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://srv.mediastriming.com:8330/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://srv.mediastriming.com:8330/stream",
+    "https://srv.mediastriming.com/8330/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://srv.mediastriming.com/8330/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://srce-krajine.com/"
+  },
+  {
+   "id": "tuno:top_ba_radio-posavina-zagreb",
+   "name": "Radio Posavina Zagreb",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://cmr-hosting.com:8500/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://cmr-hosting.com:8500/;stream.mp3"
+   ],
+   "website": "https://radioposavina.com/"
+  },
+  {
+   "id": "tuno:top_ba_bh-radio-1",
+   "name": "BH Radio 1",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://webtvstream.bhtelecom.ba/bh_radio1.m3u8",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://webtvstream.bhtelecom.ba/bh_radio1.m3u8"
+   ],
+   "website": "https://bhrt.ba/bhr1-uzivo/"
+  },
+  {
+   "id": "tuno:top_ba_day-dee-eurodance",
+   "name": "Day Dee Eurodance",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://daydeeeurodance.stream.laut.fm/daydeeeurodance?t302=2026-10-20_18-33-16&uuid=75e143b3-5f9b-d846-72ac-52a0f91ffc87",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://daydeeeurodance.stream.laut.fm/daydeeeurodance?t302=2026-10-20_18-33-16&uuid=75e143b3-5f9b-d846-72ac-52a0f91ffc87"
+   ],
+   "website": "https://daydeeeurodance.blogspot.com/"
+  },
+  {
+   "id": "tuno:top_ba_radio-marija",
+   "name": "Radio Marija",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmbosnia2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmbosnia2?mp=/stream",
+    "http://dreamsiteradiocp.com:8034/"
+   ],
+   "website": "http://www.radiomarija.ba/"
+  },
+  {
+   "id": "tuno:top_ba_pop-fm",
+   "name": "POP FM",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://solid1.streamupsolutions.com/proxy/bnwmfvnq/POPFM",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://solid1.streamupsolutions.com/proxy/bnwmfvnq/POPFM"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_rdv-radio-dobre-vibracije",
+   "name": "RDV-Radio Dobre Vibracije",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://ec6.yesstreaming.net:1700/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://ec6.yesstreaming.net:1700/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_slon-radio-tuzla",
+   "name": "Slon Radio Tuzla",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.worldradio.online/proxy/?q=http%3A%2F%2F31.47.0.130%3A88%2Fbroadwavehigh.mp3%3Fsrc%3D1%26amp%3B1692275083&plugin_id=13399&site_id=12969667",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://stream.worldradio.online/proxy/?q=http%3A%2F%2F31.47.0.130%3A88%2Fbroadwavehigh.mp3%3Fsrc%3D1%26amp%3B1692275083&plugin_id=13399&site_id=12969667",
+    "http://31.47.0.130:88/broadwavehigh.mp3?src=1;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://31.47.0.130:88/broadwavehigh.mp3?src=1;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rtvslon.ba/"
+  },
+  {
+   "id": "tuno:top_ba_radio-carsija",
+   "name": "Radio Carsija",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://cast2.name.ba:8081/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://cast2.name.ba:8081/;"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_balkan-hip-hop-radio",
+   "name": "Balkan Hip-Hop Radio",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://centova.dukahosting.com/proxy/hiphop/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://centova.dukahosting.com/proxy/hiphop/stream",
+    "http://centova.dukahosting.com:2022/;listen.pls?sid=1",
+    "http://centova.dukahosting.com:2022/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://centova.dukahosting.com:2022/;listen.pls?sid=1",
+     "format": "icecast"
+    },
+    {
+     "url": "http://centova.dukahosting.com:2022/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://balkanhiphopradio.com/"
+  },
+  {
+   "id": "tuno:top_ba_big-radio-1",
+   "name": "Big Radio 1",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://big1.bigportal.ba:8100/big1",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://big1.bigportal.ba:8100/big1"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_radio-m-plus",
+   "name": "Radio M plus",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://team-data.ba:10000/play?sid=1",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://team-data.ba:10000/play?sid=1",
+    "https://team-data.ba:10000/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://team-data.ba:10000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiom.ba/bs/radio-m-plus"
+  },
+  {
+   "id": "tuno:top_ba_studio-m",
+   "name": "Studio M",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.leftor.com/proxy/studiom2/stream/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream.leftor.com/proxy/studiom2/stream/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ba_krajiski-radio-dubica",
+   "name": "Krajiški Radio Dubica",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "https://stream1.srvnetplus.com:18039/radio/8020/radio.mp3%20?1792514060559",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://stream1.srvnetplus.com:18039/radio/8020/radio.mp3%20?1792514060559",
+    "https://stream1.srvnetplus.com:18039/"
+   ],
+   "website": "https://www.krajiski-radio-dubica.com/"
+  },
+  {
+   "id": "tuno:top_ba_kontakt",
+   "name": "Kontakt",
+   "type": "radio",
+   "country": "BA",
+   "category": "music",
+   "stream": {
+    "url": "http://s1.mojstream.eu:8114/;?type=http&amp;nocache=820",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://s1.mojstream.eu:8114/;?type=http&amp;nocache=820",
+    "http://mojstream.eu:8114/;",
+    "http://mojstream.eu:8114/kontaktradio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://mojstream.eu:8114/;",
+     "format": "icecast"
+    },
+    {
+     "url": "http://mojstream.eu:8114/kontaktradio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://mojkontakt.com/"
+  }
+ ]
+}

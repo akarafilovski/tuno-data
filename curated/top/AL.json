@@ -1,0 +1,507 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_al_radio-shqip",
+   "name": "Radio Shqip",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/radioshqip?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/radioshqip?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_al_top-gold",
+   "name": "Top Gold",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://live.topgold.al/topgold",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://live.topgold.al/topgold"
+   ]
+  },
+  {
+   "id": "tuno:top_al_radio-saranda-96-1-fm",
+   "name": "Radio Saranda 96.1 FM",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://s64.radiolize.com/radio/8050/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://s64.radiolize.com/radio/8050/radio.mp3"
+   ],
+   "website": "https://radio.saranda.love/"
+  },
+  {
+   "id": "tuno:top_al_club-fm",
+   "name": "Club FM",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/clubfm?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/clubfm?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_al_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmalbania2?mp=/stream.mp3?ver=118223",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmalbania2?mp=/stream.mp3?ver=118223"
+   ]
+  },
+  {
+   "id": "tuno:top_al_radio-tirana-1",
+   "name": "Radio Tirana 1",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "http://79.106.48.2:8000/radiotirana1",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://79.106.48.2:8000/radiotirana1"
+   ],
+   "website": "https://radio.rtsh.al/"
+  },
+  {
+   "id": "tuno:top_al_top-albanian-radio",
+   "name": "Top Albanian Radio",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://live.top-media.al/tar",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://live.top-media.al/tar",
+    "https://podcasts.topalbaniaradio.com/wp-content/uploads/2026/10/HN-E-MARTE-pod-2.mp3"
+   ],
+   "website": "https://www.topalbaniaradio.com/"
+  },
+  {
+   "id": "tuno:top_al_alpo-radio",
+   "name": "Alpo Radio",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/alporadio/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/alporadio/stream"
+   ],
+   "website": "https://alpomedia.com/"
+  },
+  {
+   "id": "tuno:top_al_radioone",
+   "name": "RadioOne",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/radioone94?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/radioone94?mp=/stream"
+   ],
+   "website": "https://radioone.al/"
+  },
+  {
+   "id": "tuno:top_al_radio-popullore",
+   "name": "Radio Popullore",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/shqipfolk/stream?_=1792513170482",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/shqipfolk/stream?_=1792513170482",
+    "https://cp1.sednastream.com/proxy/shqipfolk/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cp1.sednastream.com/proxy/shqipfolk/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiopopullore.al/"
+  },
+  {
+   "id": "tuno:top_al_albania-news-24-tv",
+   "name": "Albania News 24 TV",
+   "type": "radio",
+   "country": "AL",
+   "category": "talk",
+   "stream": {
+    "url": "http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8"
+   ],
+   "website": "http://www.balkanweb.com/"
+  },
+  {
+   "id": "tuno:top_al_play-radio",
+   "name": "Play Radio",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/0zs50dbr274tv",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://stream.radiojar.com/0zs50dbr274tv"
+   ]
+  },
+  {
+   "id": "tuno:top_al_radio-shqip-tirana-92-0-mhz",
+   "name": "Radio Shqip - Tirana 92.0 MHz",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/radioshqip?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/radioshqip?mp=/stream"
+   ],
+   "website": "http://shqipfm.al/"
+  },
+  {
+   "id": "tuno:top_al_top-albania-radio",
+   "name": "Top Albania Radio",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://live.top-media.al/tar",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://live.top-media.al/tar"
+   ]
+  },
+  {
+   "id": "tuno:top_al_radio-marimanga",
+   "name": "Radio Marimanga",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://a9.asurahosting.com/listen/radio_marimanga/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://a9.asurahosting.com/listen/radio_marimanga/radio.mp3"
+   ],
+   "website": "https://www.radiomarimanga.com/"
+  },
+  {
+   "id": "tuno:top_al_chill-radio",
+   "name": "Chill Radio",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://eu8.fastcast4u.com/proxy/chillradio?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://eu8.fastcast4u.com/proxy/chillradio?mp=/1"
+   ],
+   "website": "https://sites.google.com/view/chillradioal"
+  },
+  {
+   "id": "tuno:top_al_club-fm-kosova",
+   "name": "Club FM Kosova",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/clubfmkosova?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/clubfmkosova?mp=/stream"
+   ],
+   "website": "https://clubfm.al/"
+  },
+  {
+   "id": "tuno:top_al_radio-emigranti",
+   "name": "Radio Emigranti",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "http://www.radioemigranti.com:8000/radio",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://www.radioemigranti.com:8000/radio",
+    "http://www.radioemigranti.com:8000/radioauto128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://www.radioemigranti.com:8000/radioauto128",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioemigranti.com/"
+  },
+  {
+   "id": "tuno:top_al_mcn-radio-tirana-103-1-fm",
+   "name": "MCN Radio - Tirana 103.1 FM",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "http://46.183.121.48:8000/mcn",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://46.183.121.48:8000/mcn"
+   ],
+   "website": "http://mcnradio.al/"
+  },
+  {
+   "id": "tuno:top_al_radio-maria-albania-programi-per-ameriken",
+   "name": "Radio Maria Albania – Programi për Amerikën",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmalbania7?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmalbania7?mp=/stream"
+   ],
+   "website": "https://www.radiomaria.al/"
+  },
+  {
+   "id": "tuno:top_al_mcn-radio",
+   "name": "MCN Radio",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://mcn24.tv/mcn/",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://mcn24.tv/mcn/",
+    "http://46.183.121.48:8000/mcn"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://46.183.121.48:8000/mcn",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.mcntv.al/"
+  },
+  {
+   "id": "tuno:top_al_radio-mergimi",
+   "name": "Radio Mergimi",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.radiomergimi.com:8114/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radio.radiomergimi.com:8114/stream",
+    "https://mars.streamerr.co/8114/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mars.streamerr.co/8114/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiomergimi.com/"
+  },
+  {
+   "id": "tuno:top_al_phish-radio",
+   "name": "Phish Radio",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/sd71de59b3/listen",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://streaming.radio.co/sd71de59b3/listen"
+   ],
+   "website": "http://www.jempradio.com/"
+  },
+  {
+   "id": "tuno:top_al_exa-fm-muzike-pop-ne-anglisht-dhe-spanjisht",
+   "name": "EXA FM: Muzikë pop në anglisht dhe spanjisht",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac"
+   ],
+   "website": "https://www.exafm.com/veracruz/"
+  },
+  {
+   "id": "tuno:top_al_rfi-monde",
+   "name": "RFI Monde",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "http://live02.rfi.fr/rfimonde-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://live02.rfi.fr/rfimonde-64.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_al_best-pro-electronic",
+   "name": "Best Pro Electronic",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://az1.sednastream.com/radio/8150/Live?1582297952",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://az1.sednastream.com/radio/8150/Live?1582297952",
+    "https://www.youtube.com/watch?v=Z_FV9OAU9fI&amp;_=1"
+   ],
+   "website": "https://bestproradio.com/"
+  },
+  {
+   "id": "tuno:top_al_radio-lushnja",
+   "name": "Radio Lushnja",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiolushnja.al/listen/radio_lushnja/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream.radiolushnja.al/listen/radio_lushnja/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_al_chili-moje",
+   "name": "chili moje",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/ChillMP3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://media-ssl.musicradio.com/ChillMP3",
+    "https://media-ice.musicradio.com/CapitalLiverpool.m3u"
+   ],
+   "website": "https://media-ssl.musicradio.com/"
+  },
+  {
+   "id": "tuno:top_al_radio-positive-gold-fm",
+   "name": "Radio Positive Gold FM",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://positivealtradio.streamguys1.com/positivegold",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://positivealtradio.streamguys1.com/positivegold"
+   ],
+   "website": "https://positivegoldmedia.com/"
+  },
+  {
+   "id": "tuno:top_al_rtsh-radio-tirana-international",
+   "name": "RTSH Radio Tirana International",
+   "type": "radio",
+   "country": "AL",
+   "category": "music",
+   "stream": {
+    "url": "https://live.tiranajazzradio.com:8443/stream",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://live.tiranajazzradio.com:8443/stream"
+   ],
+   "website": "https://rti.rtsh.al/"
+  }
+ ]
+}

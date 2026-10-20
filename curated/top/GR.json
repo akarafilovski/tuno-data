@@ -1,0 +1,563 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gr_vanilla-radio-smooth-flavors",
+   "name": "Vanilla Radio Smooth Flavors",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://smooth.vanillaradio.com:8032/live",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://smooth.vanillaradio.com:8032/live"
+   ],
+   "website": "https://www.vanillaradio.com/listen-smooth-flavors/"
+  },
+  {
+   "id": "tuno:top_gr_blues-radio",
+   "name": "Blues Radio",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://i4.streams.ovh/sc/bluesrad/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://i4.streams.ovh/sc/bluesrad/stream",
+    "http://cast3.radiohost.ovh:8352/"
+   ],
+   "website": "http://bluesradio.gr/"
+  },
+  {
+   "id": "tuno:top_gr_vanilla-radio-deep-flavors",
+   "name": "Vanilla Radio Deep Flavors",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.vanillaradio.com:8016/stream/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream.vanillaradio.com:8016/stream/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gr_zeppelin-106-7",
+   "name": "Zeppelin 106.7",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostreaming.ert.gr/ert-kosmos",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radiostreaming.ert.gr/ert-kosmos",
+    "https://radiostreaming.ert.gr/ert-zeppelin"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radiostreaming.ert.gr/ert-zeppelin",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://webradio.ert.gr/"
+  },
+  {
+   "id": "tuno:top_gr_melodia-99-2",
+   "name": "Melodia 99.2",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/melodia992",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.radiojar.com/melodia992"
+   ]
+  },
+  {
+   "id": "tuno:top_gr_rythmos-94-9-fm-athens",
+   "name": "Rythmos 94.9 FM Athens",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.radiojar.com/aw1w2xfx1vduv",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://stream.radiojar.com/aw1w2xfx1vduv"
+   ],
+   "website": "https://soundis.gr/rythmos949/"
+  },
+  {
+   "id": "tuno:top_gr_92-9-kiss",
+   "name": "92.9 KISS",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-kissfm1006.sharp-stream.com/kissfm1006hqprem.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://listen-kissfm1006.sharp-stream.com/kissfm1006hqprem.mp3",
+    "https://kissfm.live24.gr/kissfmathens",
+    "http://netradio.live24.gr/kissfmathens"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://kissfm.live24.gr/kissfmathens",
+     "format": "icecast"
+    },
+    {
+     "url": "http://netradio.live24.gr/kissfmathens",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiokiss.gr/"
+  },
+  {
+   "id": "tuno:top_gr_skai",
+   "name": "Skai",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://skai.live24.gr/skai1003",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://skai.live24.gr/skai1003",
+    "https://skai.live24.gr/skai1003-2",
+    "http://netradio.live24.gr/skai1003"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://skai.live24.gr/skai1003-2",
+     "format": "icecast"
+    },
+    {
+     "url": "http://netradio.live24.gr/skai1003",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.skairadio.gr/"
+  },
+  {
+   "id": "tuno:top_gr_radio-art-sleep",
+   "name": "Radio Art - Sleep",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "http://air-tunein.radioart.com/fSleep.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://air-tunein.radioart.com/fSleep.mp3"
+   ],
+   "website": "http://www.radioart.com/"
+  },
+  {
+   "id": "tuno:top_gr_real-fm",
+   "name": "Real FM",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://realfm.live24.gr/realfm",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://realfm.live24.gr/realfm",
+    "http://netradio.live24.gr/realfm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://netradio.live24.gr/realfm",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.real.gr/"
+  },
+  {
+   "id": "tuno:top_gr_zucca-radio",
+   "name": "Zucca Radio",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zuccaradio.com/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.zuccaradio.com/stream"
+   ],
+   "website": "https://zuccaradio.com/"
+  },
+  {
+   "id": "tuno:top_gr_laikos-fm",
+   "name": "Laikos FM",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://netradio.live24.gr/laikos876",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://netradio.live24.gr/laikos876"
+   ],
+   "website": "https://www.laikos.gr/en/"
+  },
+  {
+   "id": "tuno:top_gr_derti-fm",
+   "name": "Derti FM",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://derti.live24.gr/derty1000",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://derti.live24.gr/derty1000",
+    "https://i5.streams.ovh:2200/sc/web101/stream",
+    "http://i5.streams.ovh:14008/stream?type=http&nocache=100540"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://i5.streams.ovh:2200/sc/web101/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://i5.streams.ovh:14008/stream?type=http&nocache=100540",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://live24.gr/radio/derti"
+  },
+  {
+   "id": "tuno:top_gr_music-factory-radio",
+   "name": "Music Factory Radio",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://i4.streams.ovh:9000/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://i4.streams.ovh:9000/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gr_sport-fm-94-6",
+   "name": "Sport FM 94.6",
+   "type": "radio",
+   "country": "GR",
+   "category": "sports",
+   "stream": {
+    "url": "http://netradio.live24.gr/sportfm7712",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://netradio.live24.gr/sportfm7712",
+    "http://sportfm.live24.gr/sportfm7712?344b685e2518b0370f0d731432f51438"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://sportfm.live24.gr/sportfm7712?344b685e2518b0370f0d731432f51438",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.sport-fm.gr/"
+  },
+  {
+   "id": "tuno:top_gr_pepper",
+   "name": "Pepper",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://netradio.live24.gr/pepper9660?1792513466",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://netradio.live24.gr/pepper9660?1792513466",
+    "http://pepper966.live24.gr/pepper9660"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://pepper966.live24.gr/pepper9660",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.pepper966.gr/"
+  },
+  {
+   "id": "tuno:top_gr_offradio",
+   "name": "Offradio",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://ec5.yesstreaming.net:2025/stream?_=1792513465085",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://ec5.yesstreaming.net:2025/stream?_=1792513465085",
+    "https://s3.yesstreaming.net:17033/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s3.yesstreaming.net:17033/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://offradio.gr/"
+  },
+  {
+   "id": "tuno:top_gr_radio-ena",
+   "name": "Radio ENA",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/t0x7dyqmsuhvv",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.radiojar.com/t0x7dyqmsuhvv"
+   ]
+  },
+  {
+   "id": "tuno:top_gr_trance-athena",
+   "name": "Trance Athena",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "http://cast.streams.ovh:8008/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://cast.streams.ovh:8008/stream"
+   ],
+   "website": "https://www.tranceathena.com/"
+  },
+  {
+   "id": "tuno:top_gr_metropolis-95-5",
+   "name": "Metropolis 95.5",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://metromedia.live24.gr/metropolis955thess",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://metromedia.live24.gr/metropolis955thess"
+   ],
+   "website": "https://www.metrosport.gr/"
+  },
+  {
+   "id": "tuno:top_gr_parapolitika",
+   "name": "Parapolitika",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://netradio.live24.gr/athinaradio",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://netradio.live24.gr/athinaradio"
+   ],
+   "website": "https://www.parapolitika.gr/parapolitikafm/"
+  },
+  {
+   "id": "tuno:top_gr_89-fm-rainbow",
+   "name": "89 FM Rainbow",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/083wqknmsuhvv",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://stream.radiojar.com/083wqknmsuhvv"
+   ]
+  },
+  {
+   "id": "tuno:top_gr_105-2-rebel",
+   "name": "105.2 REBEL",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://netradio.live24.gr/rebel1052",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://netradio.live24.gr/rebel1052"
+   ],
+   "website": "https://www.rebelfm.gr/"
+  },
+  {
+   "id": "tuno:top_gr_psyndora-chillout",
+   "name": "Psyndora Chillout",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "http://cast.magicstreams.gr:9125/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://cast.magicstreams.gr:9125/stream",
+    "https://cast.magicstreams.gr/sc/psychill/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cast.magicstreams.gr/sc/psychill/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.psyndora.com/"
+  },
+  {
+   "id": "tuno:top_gr_love-radio",
+   "name": "Love Radio",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://loveradio.live24.gr/loveradio-1000",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://loveradio.live24.gr/loveradio-1000",
+    "http://netradio.live24.gr/loveradio-1000"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://netradio.live24.gr/loveradio-1000",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.loveradio.gr/"
+  },
+  {
+   "id": "tuno:top_gr_vanilla-radio-fresh-flavors",
+   "name": "Vanilla Radio Fresh Flavors",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://fresh.vanillaradio.com:8028/live",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://fresh.vanillaradio.com:8028/live"
+   ]
+  },
+  {
+   "id": "tuno:top_gr_sfera-102-2",
+   "name": "Sfera 102.2",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://sfera.live24.gr/sfera4132",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://sfera.live24.gr/sfera4132"
+   ],
+   "website": "http://sfera.gr/"
+  },
+  {
+   "id": "tuno:top_gr_fly-104",
+   "name": "Fly 104",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://imagine2.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://imagine2.radioca.st/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gr_glenti-fm",
+   "name": "Glenti FM",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "https://onairmediagroup.live24.gr/glenti1011xanthi",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://onairmediagroup.live24.gr/glenti1011xanthi"
+   ],
+   "website": "https://www.glentifm.gr/"
+  },
+  {
+   "id": "tuno:top_gr_fm-90-1",
+   "name": "Παραπολιτικά FM 90.1",
+   "type": "radio",
+   "country": "GR",
+   "category": "music",
+   "stream": {
+    "url": "http://netradio.live24.gr/athinaradio",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://netradio.live24.gr/athinaradio"
+   ],
+   "website": "http://www.parapolitikaradio.gr/"
+  }
+ ]
+}
