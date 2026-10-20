@@ -1,0 +1,604 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gb_lbc",
+   "name": "LBC",
+   "type": "radio",
+   "country": "GB",
+   "category": "talk",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/LBCUK",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://media-ssl.musicradio.com/LBCUK",
+    "https://media-ssl.musicradio.com/LBCLondon",
+    "http://media-sov.musicradio.com/LBC973MP3Low"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://media-ssl.musicradio.com/LBCLondon",
+     "format": "icecast"
+    },
+    {
+     "url": "http://media-sov.musicradio.com/LBC973MP3Low",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.lbc.co.uk/"
+  },
+  {
+   "id": "tuno:top_gb_bbc-radio-2",
+   "name": "BBC Radio 2",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_two.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_two.m3u8",
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_two.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_two.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.bbc.co.uk/sounds"
+  },
+  {
+   "id": "tuno:top_gb_bbc-world-service",
+   "name": "BBC World Service",
+   "type": "radio",
+   "country": "GB",
+   "category": "talk",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_world_service.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_world_service.m3u8",
+    "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_afrique_radio.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_afrique_radio.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.bbc.co.uk/sounds"
+  },
+  {
+   "id": "tuno:top_gb_heart",
+   "name": "Heart",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/HeartLondon",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://media-ssl.musicradio.com/HeartLondon",
+    "https://media-ssl.musicradio.com/HeartUK",
+    "https://media-ssl.musicradio.com/Heart80sMP3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://media-ssl.musicradio.com/HeartUK",
+     "format": "icecast"
+    },
+    {
+     "url": "https://media-ssl.musicradio.com/Heart80sMP3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.heart.co.uk/"
+  },
+  {
+   "id": "tuno:top_gb_classic-fm",
+   "name": "Classic FM",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/ClassicFM",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://media-ssl.musicradio.com/ClassicFM",
+    "http://ice-the.musicradio.com/ClassicFMMP3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://ice-the.musicradio.com/ClassicFMMP3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.classicfm.com/"
+  },
+  {
+   "id": "tuno:top_gb_bbc-radio-1",
+   "name": "BBC Radio 1",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_one.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_one.m3u8",
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_one.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_one.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.bbc.co.uk/sounds"
+  },
+  {
+   "id": "tuno:top_gb_bbc-radio-4",
+   "name": "BBC Radio 4",
+   "type": "radio",
+   "country": "GB",
+   "category": "talk",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_fourfm.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_fourfm.m3u8",
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_fourfm.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_fourfm.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.bbc.co.uk/sounds"
+  },
+  {
+   "id": "tuno:top_gb_smooth-radio",
+   "name": "Smooth Radio",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/SmoothLondonMP3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://media-ssl.musicradio.com/SmoothLondonMP3",
+    "http://media-the.musicradio.com/SmoothEastMids",
+    "https://media-ice.musicradio.com/Smooth80sMP3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://media-the.musicradio.com/SmoothEastMids",
+     "format": "icecast"
+    },
+    {
+     "url": "https://media-ice.musicradio.com/Smooth80sMP3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.smoothradio.com/"
+  },
+  {
+   "id": "tuno:top_gb_talksport",
+   "name": "talkSPORT",
+   "type": "radio",
+   "country": "GB",
+   "category": "sports",
+   "stream": {
+    "url": "https://radio.talksport.com/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://radio.talksport.com/stream"
+   ],
+   "website": "https://talksport.com/"
+  },
+  {
+   "id": "tuno:top_gb_bbc-radio-5-live",
+   "name": "BBC Radio 5 Live",
+   "type": "radio",
+   "country": "GB",
+   "category": "talk",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_five_live.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_five_live.m3u8",
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_five_live.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/cfs/bbc_radio_five_live.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.bbc.co.uk/sounds"
+  },
+  {
+   "id": "tuno:top_gb_capital-fm",
+   "name": "Capital FM",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/Capital",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://media-ssl.musicradio.com/Capital"
+   ],
+   "website": "https://www.capitalfm.com/"
+  },
+  {
+   "id": "tuno:top_gb_bbc-radio-6-music",
+   "name": "BBC Radio 6 Music",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_6music.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_6music.m3u8",
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/cfs/bbc_6music.mpd"
+   ],
+   "website": "https://www.bbc.co.uk/sounds"
+  },
+  {
+   "id": "tuno:top_gb_radio-caroline",
+   "name": "Radio Caroline",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiocaroline.net/rc128/;",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.radiocaroline.net/rc128/;",
+    "http://sc6.radiocaroline.net:8040/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://sc6.radiocaroline.net:8040/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiocaroline.co.uk/"
+  },
+  {
+   "id": "tuno:top_gb_gold-radio",
+   "name": "Gold Radio",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/Gold",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://media-ssl.musicradio.com/Gold",
+    "https://media-ssl.musicradio.com/GoldMP3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://media-ssl.musicradio.com/GoldMP3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.mygoldmusic.co.uk/"
+  },
+  {
+   "id": "tuno:top_gb_bbc-radio-3",
+   "name": "BBC Radio 3",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_three.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cfs/bbc_radio_three.m3u8"
+   ],
+   "website": "https://www.bbc.co.uk/sounds"
+  },
+  {
+   "id": "tuno:top_gb_radio-x",
+   "name": "Radio X",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/RadioXLondon",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://media-ssl.musicradio.com/RadioXLondon",
+    "http://media-the.musicradio.com/RadioXUK",
+    "http://icecast.thisisdax.com/RadioXUKMP3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://media-the.musicradio.com/RadioXUK",
+     "format": "icecast"
+    },
+    {
+     "url": "http://icecast.thisisdax.com/RadioXUKMP3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiox.co.uk/"
+  },
+  {
+   "id": "tuno:top_gb_bbc-radio-london",
+   "name": "BBC Radio London",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/aks/bbc_london.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_low_sbr_v1/aks/bbc_london.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_gb_house-nation-uk",
+   "name": "House Nation UK",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/s06bd9d805/listen",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streaming.radio.co/s06bd9d805/listen"
+   ],
+   "website": "https://housenationuk.com/"
+  },
+  {
+   "id": "tuno:top_gb_jazz-london-radio",
+   "name": "Jazz London Radio",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.canstream.co.uk:8075/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://radio.canstream.co.uk:8075/live.mp3",
+    "https://radio.canstream.co.uk:8075/live.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.canstream.co.uk:8075/live.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.jazzlondonradio.com/"
+  },
+  {
+   "id": "tuno:top_gb_talkradio",
+   "name": "TalkRADIO",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.talkradio.co.uk/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radio.talkradio.co.uk/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gb_capital-the-uk-s-no-1-hit-music-station",
+   "name": "CAPITAL - The UK's No.1 Hit Music Station",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/CapitalUK",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://media-ssl.musicradio.com/CapitalUK"
+   ],
+   "website": "https://www.capitalfm.com/"
+  },
+  {
+   "id": "tuno:top_gb_tmm-1",
+   "name": "TMM 1",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-msmn.sharp-stream.com/nme1.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://listen-msmn.sharp-stream.com/nme1.mp3",
+    "https://listen-msmn.sharp-stream.com/nme1high.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen-msmn.sharp-stream.com/nme1high.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.themusicmachine.co.uk/"
+  },
+  {
+   "id": "tuno:top_gb_dance-uk-radio",
+   "name": "Dance UK Radio",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://dancestream.danceradiouk.com/;",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://dancestream.danceradiouk.com/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gb_24-7-the-60s-nottingham",
+   "name": "24-7 The '60s Nottingham",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "http://antares.dribbcast.com:4361/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://antares.dribbcast.com:4361/stream"
+   ],
+   "website": "https://24-7nicheradio.com/audiogallery/24-7-the-60s/"
+  },
+  {
+   "id": "tuno:top_gb_chill-bristol",
+   "name": "Chill Bristol",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "http://media-ice.musicradio.com/ChillMP3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://media-ice.musicradio.com/ChillMP3"
+   ],
+   "website": "http://www.helpmechill.com/"
+  },
+  {
+   "id": "tuno:top_gb_classic-fm-relax",
+   "name": "Classic FM Relax",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "http://media-the.musicradio.com/ClassicFM-M-Relax",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://media-the.musicradio.com/ClassicFM-M-Relax"
+   ]
+  },
+  {
+   "id": "tuno:top_gb_rockabilly-radio",
+   "name": "Rockabilly Radio",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://rradio.fastserv.com/hifi",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://rradio.fastserv.com/hifi"
+   ]
+  },
+  {
+   "id": "tuno:top_gb_soul-radio-only-classic-soul-london",
+   "name": "SOUL RADIO Only Classic Soul London",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.soulradio.uk/uk",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://listen.soulradio.uk/uk"
+   ],
+   "website": "https://soulradio.uk/"
+  },
+  {
+   "id": "tuno:top_gb_rokit-radio-british-comedy-1",
+   "name": "ROKit Radio : British Comedy 1",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming06.liveboxstream.uk:8256/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://streaming06.liveboxstream.uk:8256/stream",
+    "https://streaming04.liveboxstream.uk/proxy/roksta14/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming04.liveboxstream.uk/proxy/roksta14/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rokitradio.com/"
+  },
+  {
+   "id": "tuno:top_gb_energy-fm-dance-music-radio",
+   "name": "Energy FM - Dance Music Radio",
+   "type": "radio",
+   "country": "GB",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.streemlion.com:1875/stream",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://radio.streemlion.com:1875/stream"
+   ]
+  }
+ ]
+}

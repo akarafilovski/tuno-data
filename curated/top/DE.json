@@ -1,0 +1,605 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_de_antenne-bayern",
+   "name": "Antenne Bayern",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://mp3channels.webradio.antenne.de/antenne",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://mp3channels.webradio.antenne.de/antenne",
+    "https://stream.antenne.de/antenne/stream/mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.antenne.de/antenne/stream/mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.antenne.de/"
+  },
+  {
+   "id": "tuno:top_de_80s80s",
+   "name": "80s80s",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.80s80s.de/web/mp3-192/homepage/?mode=preroll&aw_0_1st.skey=1792489299&cb=713927841&listenerid=e762d15e1ace4b59988b53b1b2de3385&metaid=e762d15e1ace4b59988b53b1b2de3385_6596bcc1-42a8-46af-8c9d-d26659c7e50b",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streams.80s80s.de/web/mp3-192/homepage/?mode=preroll&aw_0_1st.skey=1792489299&cb=713927841&listenerid=e762d15e1ace4b59988b53b1b2de3385&metaid=e762d15e1ace4b59988b53b1b2de3385_6596bcc1-42a8-46af-8c9d-d26659c7e50b",
+    "https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667",
+    "http://streams.80s80s.de/web/mp3-192/streams.80s80s.de/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://regiocast.streamabc.net/regc-80s80smweb2517500-mp3-192-1672667",
+     "format": "icecast"
+    },
+    {
+     "url": "http://streams.80s80s.de/web/mp3-192/streams.80s80s.de/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.80s80s.de/streams/80s80s"
+  },
+  {
+   "id": "tuno:top_de_deutschlandfunk",
+   "name": "Deutschlandfunk",
+   "type": "radio",
+   "country": "DE",
+   "category": "talk",
+   "stream": {
+    "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=onlineradiobox-com",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=onlineradiobox-com"
+   ],
+   "website": "https://www.deutschlandfunk.de/"
+  },
+  {
+   "id": "tuno:top_de_rock-antenne",
+   "name": "Rock Antenne",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://mp3channels.webradio.antenne.de/rockantenne",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://mp3channels.webradio.antenne.de/rockantenne",
+    "http://mp3channels.webradio.rockantenne.de/rockantenne"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://mp3channels.webradio.rockantenne.de/rockantenne",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.rockantenne.de/"
+  },
+  {
+   "id": "tuno:top_de_swr3",
+   "name": "SWR3",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://mcdn.swr.de/swr/visualradio/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://mcdn.swr.de/swr/visualradio/master.m3u8",
+    "https://liveradio.swr.de/sw282p3/swr3/play.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://liveradio.swr.de/sw282p3/swr3/play.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.swr3.de/"
+  },
+  {
+   "id": "tuno:top_de_radio-bob",
+   "name": "Radio Bob",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiobob.de/bob-national/mp3-192/homepage?mode=preroll&aw_0_1st.skey=1792489322&cb=491536123&listenerid=d15d8288a08f4ff9b0d516fdde4b9b9d&metaid=d15d8288a08f4ff9b0d516fdde4b9b9d_cc42fbf4-63e7-4731-9c1b-e4c2206edaf3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streams.radiobob.de/bob-national/mp3-192/homepage?mode=preroll&aw_0_1st.skey=1792489322&cb=491536123&listenerid=d15d8288a08f4ff9b0d516fdde4b9b9d&metaid=d15d8288a08f4ff9b0d516fdde4b9b9d_cc42fbf4-63e7-4731-9c1b-e4c2206edaf3",
+    "https://streams.radiobob.de/bob-live/aac-64/onlineradiobox/",
+    "http://streams.radiobob.de/bob-national/mp3-192/mediaplayer"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streams.radiobob.de/bob-live/aac-64/onlineradiobox/",
+     "format": "icecast"
+    },
+    {
+     "url": "http://streams.radiobob.de/bob-national/mp3-192/mediaplayer",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiobob.de/"
+  },
+  {
+   "id": "tuno:top_de_bigfm",
+   "name": "BigFM",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bigfm.de/deutschland/aac-128/homepage/?mode=preroll&aw_0_1st.skey=1792489378&cb=274006336&listenerid=59a5c0459c6a43ed8953ba785fb2e423&metaid=59a5c0459c6a43ed8953ba785fb2e423_809af36a-3ab3-4226-b833-619da122781c",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.bigfm.de/deutschland/aac-128/homepage/?mode=preroll&aw_0_1st.skey=1792489378&cb=274006336&listenerid=59a5c0459c6a43ed8953ba785fb2e423&metaid=59a5c0459c6a43ed8953ba785fb2e423_809af36a-3ab3-4226-b833-619da122781c",
+    "https://stream.bigfm.de/deutschland/mp3-128/onlineradiobox"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.bigfm.de/deutschland/mp3-128/onlineradiobox",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.bigfm.de/"
+  },
+  {
+   "id": "tuno:top_de_radio-sunshine-live",
+   "name": "Radio Sunshine-Live",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://sunsl.streamabc.net/sunsl-sslsimulcast-mp3-192-4434053",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://sunsl.streamabc.net/sunsl-sslsimulcast-mp3-192-4434053",
+    "http://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.sunshine-live.de/"
+  },
+  {
+   "id": "tuno:top_de_klassik-radio",
+   "name": "Klassik Radio",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://klassikr.streamabc.net/klr-krdnational-mp3-192-8877033",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://klassikr.streamabc.net/klr-krdnational-mp3-192-8877033",
+    "https://live.streams.klassikradio.de/klassikradio-deutschland/stream/mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.streams.klassikradio.de/klassikradio-deutschland/stream/mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://klassikradio.de/"
+  },
+  {
+   "id": "tuno:top_de_ndr-2",
+   "name": "NDR 2",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3?aggregator=onlineradiobox-com",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3?aggregator=onlineradiobox-com",
+    "https://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.ndr.de/ndr2/"
+  },
+  {
+   "id": "tuno:top_de_90s90s-hiphop-rap-kiel",
+   "name": "90s90s Hiphop & Rap Kiel",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "http://streams.90s90s.de/hiphop/mp3-192/streams.90s90s.de/",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://streams.90s90s.de/hiphop/mp3-192/streams.90s90s.de/"
+   ],
+   "website": "https://www.90s90s.de/radios/hiphop-rap"
+  },
+  {
+   "id": "tuno:top_de_1live",
+   "name": "1LIVE",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
+    "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
+    "blob:https://www1.wdr.de/e1cf34c6-6940-486c-9377-0e9e732810f5"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www1.wdr.de/radio/1live/"
+  },
+  {
+   "id": "tuno:top_de_bayern-1",
+   "name": "Bayern 1",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://dispatcher.rndfnk.com/br/br1/obb/mp3/low?aggregator=onlineradiobox-com",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://dispatcher.rndfnk.com/br/br1/obb/mp3/low?aggregator=onlineradiobox-com"
+   ]
+  },
+  {
+   "id": "tuno:top_de_mangoradio",
+   "name": "MANGORADIO",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://mangoradio.stream.laut.fm/mangoradio?t302=2026-10-20_11-43-59&uuid=7d92a80a-c12e-4296-374c-c6e28df6721a",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://mangoradio.stream.laut.fm/mangoradio?t302=2026-10-20_11-43-59&uuid=7d92a80a-c12e-4296-374c-c6e28df6721a"
+   ],
+   "website": "https://mangoradio.de/"
+  },
+  {
+   "id": "tuno:top_de_bayern-3",
+   "name": "Bayern 3",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid"
+   ],
+   "website": "https://www.br.de/radio/bayern3/"
+  },
+  {
+   "id": "tuno:top_de_radio-paloma",
+   "name": "Radio Paloma",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.silvacast.com/RPLive/mp3-128/RadioPaloma_Homepage?s=radiopaloma-website&aw_0_req.gdpr=false",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.silvacast.com/RPLive/mp3-128/RadioPaloma_Homepage?s=radiopaloma-website&aw_0_req.gdpr=false",
+    "https://stream.silvacast.com/RPLive/mp3-128/onlineradiobox_net/",
+    "http://icepool.silvacast.com/RADIOPALOMA.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.silvacast.com/RPLive/mp3-128/onlineradiobox_net/",
+     "format": "icecast"
+    },
+    {
+     "url": "http://icepool.silvacast.com/RADIOPALOMA.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiopaloma.de/"
+  },
+  {
+   "id": "tuno:top_de_hit-radio-ffh",
+   "name": "HIT RADIO FFH",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.ffh.de/radioffh/mp3/hqlivestream.mp3?amsparams=playerid:RTFFHonlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://streams.ffh.de/radioffh/mp3/hqlivestream.mp3?amsparams=playerid:RTFFHonlineradiobox",
+    "http://mp3.ffh.de/radioffh/hqlivestream.mp3",
+    "https://www.ffh.de/webcams/ready.mp4?cache=1792489200"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://mp3.ffh.de/radioffh/hqlivestream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.ffh.de/"
+  },
+  {
+   "id": "tuno:top_de_90s90s-hits",
+   "name": "90s90s HITS",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://regiocast.streamabc.net/regc-90s90spop4760822-mp3-192-9403761?sABC=64770231%231%239q9o28rnp414o3r461ps15ps75561p2q%23ubzrcntr&context=fHA6LTE=&aw_0_1st.skey=1685520922&cb=994381937&aw_0_req.userConsentV2=CPsoYwAPsoYwAAFADBDEDGCsAP_AAEPAAAYgI9tV_H_",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://regiocast.streamabc.net/regc-90s90spop4760822-mp3-192-9403761?sABC=64770231%231%239q9o28rnp414o3r461ps15ps75561p2q%23ubzrcntr&context=fHA6LTE=&aw_0_1st.skey=1685520922&cb=994381937&aw_0_req.userConsentV2=CPsoYwAPsoYwAAFADBDEDGCsAP_AAEPAAAYgI9tV_H_"
+   ]
+  },
+  {
+   "id": "tuno:top_de_0-n-classic-rock-on-radio",
+   "name": "- 0 N - Classic Rock on Radio",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://0n-classicrock.radionetz.de/0n-classicrock.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://0n-classicrock.radionetz.de/0n-classicrock.mp3",
+    "https://0n-classicrock.radionetz.de/0n-classicrock.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://0n-classicrock.radionetz.de/0n-classicrock.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.0nradio.com/"
+  },
+  {
+   "id": "tuno:top_de_oldie-antenne",
+   "name": "Oldie Antenne",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://s3-webradio.oldie-antenne.de/oldie-antenne/stream/mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://s3-webradio.oldie-antenne.de/oldie-antenne/stream/mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_de_total-instrumental",
+   "name": "Total instrumental",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://total-instrumental.stream.laut.fm/total-instrumental",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://total-instrumental.stream.laut.fm/total-instrumental",
+    "http://stream.laut.fm/total-instrumental"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.laut.fm/total-instrumental",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio-total-instrumental.de/"
+  },
+  {
+   "id": "tuno:top_de_wdr-5",
+   "name": "WDR 5",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+    "https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://wdr-wdr5-live.icecastssl.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www1.wdr.de/radio/wdr5/"
+  },
+  {
+   "id": "tuno:top_de_br24-munich",
+   "name": "BR24 Munich",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid"
+   ],
+   "website": "https://www.br.de/radio/br24/index.html"
+  },
+  {
+   "id": "tuno:top_de_italo-disco",
+   "name": "Italo-Disco",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/italo-disco",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://stream.laut.fm/italo-disco",
+    "https://italo-disco.stream.laut.fm/italo-disco"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://italo-disco.stream.laut.fm/italo-disco",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_de_top-100-club-charts-dance-dj-mix-radio-24-hours-non-stop-music-tiktok-hits",
+   "name": "# TOP 100 CLUB CHARTS - DANCE & DJ MIX RADIO - 24 HOURS NON-STOP MUSIC @ TikTok Hits",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://breakz-2012-high.rautemusik.fm/?ref=radiobrowser-top100-clubcharts",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://breakz-2012-high.rautemusik.fm/?ref=radiobrowser-top100-clubcharts"
+   ],
+   "website": "https://rm.fm/breakz/team"
+  },
+  {
+   "id": "tuno:top_de_schwany-hoamatwelle",
+   "name": "Schwany Hoamatwelle",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://hoamatwelle.spcast.eu/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://hoamatwelle.spcast.eu/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_de_classic-rock",
+   "name": "Classic Rock",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://classicrock.stream.laut.fm/classicrock",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://classicrock.stream.laut.fm/classicrock"
+   ]
+  },
+  {
+   "id": "tuno:top_de_dishfm",
+   "name": "DishFM",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://server27166.streamplus.de/stream/1/",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://server27166.streamplus.de/stream/1/"
+   ]
+  },
+  {
+   "id": "tuno:top_de_technolovers-edm",
+   "name": "Technolovers EDM",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.technolovers.fm/edm?ref=radiobrowser",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://stream.technolovers.fm/edm?ref=radiobrowser"
+   ],
+   "website": "https://technolovers.fm/"
+  },
+  {
+   "id": "tuno:top_de_metal-hammer",
+   "name": "Metal Hammer",
+   "type": "radio",
+   "country": "DE",
+   "category": "music",
+   "stream": {
+    "url": "https://metal-hammer.stream.laut.fm/metal-hammer",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://metal-hammer.stream.laut.fm/metal-hammer"
+   ]
+  }
+ ]
+}

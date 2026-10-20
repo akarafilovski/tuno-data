@@ -1,0 +1,595 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_hr_antena-zagreb",
+   "name": "Antena Zagreb",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.social3.hr/listen/antena_aac/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://audio.social3.hr/listen/antena_aac/stream",
+    "http://live.antenazagreb.hr:8000/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live.antenazagreb.hr:8000/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.antenazagreb.hr/"
+  },
+  {
+   "id": "tuno:top_hr_extra-fm",
+   "name": "Extra FM",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://relay2.social3.hr/radio/8190/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://relay2.social3.hr/radio/8190/radio.mp3",
+    "http://streams.extrafm.hr:8110/;",
+    "http://streams.extrafm.hr:8110/stream?2701"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streams.extrafm.hr:8110/;",
+     "format": "icecast"
+    },
+    {
+     "url": "http://streams.extrafm.hr:8110/stream?2701",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://extrafm.hr/"
+  },
+  {
+   "id": "tuno:top_hr_otvoreni-radio",
+   "name": "Otvoreni radio",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.otvoreni.hr/otvoreni",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream.otvoreni.hr/otvoreni",
+    "https://stream2.otvoreni.hr/otvoreni"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream2.otvoreni.hr/otvoreni",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://otvoreni.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio-dalmacija",
+   "name": "Radio Dalmacija",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://shoutcast.pondi.hr:8000/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://shoutcast.pondi.hr:8000/;stream/1",
+    "http://shoutcast.pondi.hr:8000/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://shoutcast.pondi.hr:8000/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radio-dalmacija.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio-banovina",
+   "name": "Radio Banovina",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.radio-banovina.hr:9998/stream?t=1792488972441",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://audio.radio-banovina.hr:9998/stream?t=1792488972441",
+    "http://stream1.radio-banovina.hr:8008/;",
+    "https://www.radio-banovina.hr/uzivo/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream1.radio-banovina.hr:8008/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio-banovina.hr/"
+  },
+  {
+   "id": "tuno:top_hr_hr-1-prvi-program",
+   "name": "HR 1 Prvi program",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://25443.live.streamtheworld.com/PROGRAM1AAC_SC",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://25443.live.streamtheworld.com/PROGRAM1AAC_SC"
+   ],
+   "website": "https://radio.hrt.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio-kaj",
+   "name": "Radio Kaj",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://s8.iqstreaming.com:2020/stream/radio-kaj2/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://s8.iqstreaming.com:2020/stream/radio-kaj2/stream",
+    "http://s8.iqstreaming.com:8050/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://s8.iqstreaming.com:8050/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio-kaj.hr/"
+  },
+  {
+   "id": "tuno:top_hr_yammat-fm",
+   "name": "Yammat FM",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.yammat.fm/radio/8000/yammat.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.yammat.fm/radio/8000/yammat.mp3"
+   ],
+   "website": "https://yammat.fm/"
+  },
+  {
+   "id": "tuno:top_hr_radio-bravo",
+   "name": "Radio bravo!",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://relay1.social3.hr/radio/8310/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://relay1.social3.hr/radio/8310/radio.mp3",
+    "http://c5.hostingcentar.com:8059/stream?4960",
+    "http://c5.hostingcentar.com:8059/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://c5.hostingcentar.com:8059/stream?4960",
+     "format": "icecast"
+    },
+    {
+     "url": "http://c5.hostingcentar.com:8059/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://br.hr/"
+  },
+  {
+   "id": "tuno:top_hr_top-radio",
+   "name": "Top Radio",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://c5.hostingcentar.com/streams/topradio/",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://c5.hostingcentar.com/streams/topradio/",
+    "http://116.202.235.114:8402/"
+   ],
+   "website": "https://topradio.hr/"
+  },
+  {
+   "id": "tuno:top_hr_narodni-radio",
+   "name": "Narodni radio",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://relay1.social3.hr/radio/8310/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://relay1.social3.hr/radio/8310/radio.mp3",
+    "http://c5.hostingcentar.com:8059/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://c5.hostingcentar.com:8059/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://narodni.hr/"
+  },
+  {
+   "id": "tuno:top_hr_happy-fm",
+   "name": "Happy FM",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.social3.hr/listen/happy_aac/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://audio.social3.hr/listen/happy_aac/stream",
+    "http://c5.hostingcentar.com:9543/stream?4923",
+    "http://c5.hostingcentar.com:9543/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://c5.hostingcentar.com:9543/stream?4923",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://happyfm.hr/"
+  },
+  {
+   "id": "tuno:top_hr_laganini-fm",
+   "name": "Laganini FM",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://cast5.asurahosting.com/proxy/soundset/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://cast5.asurahosting.com/proxy/soundset/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_hr_enter-zagreb",
+   "name": "Enter Zagreb",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://live.enterzagreb.hr:8023/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://live.enterzagreb.hr:8023/;"
+   ],
+   "website": "http://www.prvi.hr/enter"
+  },
+  {
+   "id": "tuno:top_hr_radio-stubica-donja-stubica",
+   "name": "Radio Stubica Donja Stubica",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://c8.hostingcentar.com/streams/radiostubica/",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://c8.hostingcentar.com/streams/radiostubica/",
+    "http://radiostubica.hc.hr:7006/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radiostubica.hc.hr:7006/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radio-stubica.hr/"
+  },
+  {
+   "id": "tuno:top_hr_super-radio",
+   "name": "Super Radio",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://mcp1.mydataknox.com:8010/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://mcp1.mydataknox.com:8010/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_hr_ultra-split",
+   "name": "Ultra Split",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://c5.hostingcentar.com:8061/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://c5.hostingcentar.com:8061/stream"
+   ],
+   "website": "https://ultrasplit.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio-istra",
+   "name": "Radio Istra",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://uk1.streamingpulse.com/ssl/RadioIstra",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://uk1.streamingpulse.com/ssl/RadioIstra",
+    "http://uk1.streamingpulse.com:7117/stream",
+    "http://de4.streamingpulse.com:7117/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://uk1.streamingpulse.com:7117/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://de4.streamingpulse.com:7117/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioistra.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio-deejay-hr",
+   "name": "Radio Deejay HR",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://live.deejay.hr:7002/;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://live.deejay.hr:7002/;"
+   ],
+   "website": "http://www.deejay.hr/"
+  },
+  {
+   "id": "tuno:top_hr_hrt-radio-sljeme",
+   "name": "HRT - Radio Sljeme",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SLJEME.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SLJEME.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_hr_cmc-tambure",
+   "name": "CMC Tambure",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://radio-stream.cmc.com.hr:8050/autodj",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://radio-stream.cmc.com.hr:8050/autodj"
+   ],
+   "website": "https://radio.cmc.com.hr/"
+  },
+  {
+   "id": "tuno:top_hr_zagorski-radio",
+   "name": "Zagorski radio",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://s8.iqstreaming.com:2020/stream/zagorski/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://s8.iqstreaming.com:2020/stream/zagorski/stream",
+    "http://s8.iqstreaming.com:8054/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://s8.iqstreaming.com:8054/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.zagorski-radio.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio101",
+   "name": "Radio101",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio101.hr:9531/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://live.radio101.hr:9531/radio.mp3",
+    "http://live.radio101.hr:9531/"
+   ],
+   "website": "http://radio101.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio-max",
+   "name": "Radio Max",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://azuracast.novi-net.net/radio/8010/radiomax.aac",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://azuracast.novi-net.net/radio/8010/radiomax.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_hr_hrt-hr2",
+   "name": "HRT - HR2",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PROGRAM2.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/PROGRAM2.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_hr_club-music-radio-70s-80s-90s",
+   "name": "..:: CLUB MUSIC RADIO ::....:: 70s 80s 90s ::..",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://cmr-hosting.com:7001/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://cmr-hosting.com:7001/;stream/1",
+    "http://cmr-hosting.com:8030/stream?type=http&nocache=773949"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://cmr-hosting.com:8030/stream?type=http&nocache=773949",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://clubmusic-1.com/"
+  },
+  {
+   "id": "tuno:top_hr_radio-101",
+   "name": "Radio 101",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://live.radio101.hr:9531/;",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://live.radio101.hr:9531/;"
+   ]
+  },
+  {
+   "id": "tuno:top_hr_radio-samobor",
+   "name": "Radio Samobor",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://185.150.235.162:80/;",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://185.150.235.162:80/;"
+   ],
+   "website": "http://www.radiosamobor.hr/"
+  },
+  {
+   "id": "tuno:top_hr_radio-sunce",
+   "name": "Radio Sunce",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "http://shoutcast.pondi.hr:8002/stream?1792489084036",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://shoutcast.pondi.hr:8002/stream?1792489084036",
+    "http://shoutcast.pondi.hr:8002/;*.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://shoutcast.pondi.hr:8002/;*.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.uzivoradio.com/sunce-split.html"
+  },
+  {
+   "id": "tuno:top_hr_radio-tvornica",
+   "name": "Radio Tvornica",
+   "type": "radio",
+   "country": "HR",
+   "category": "music",
+   "stream": {
+    "url": "https://c8.hostingcentar.com/streams/radiotvornica/?type=http&nocache=27591",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://c8.hostingcentar.com/streams/radiotvornica/?type=http&nocache=27591"
+   ],
+   "website": "https://www.radiotvornica.hr/#"
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mk_antenna-5",
+   "name": "Antenna 5",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://fms.off.net.mk:8000/antenna5.stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://fms.off.net.mk:8000/antenna5.stream",
+    "http://antenna5stream.neotel.mk:8000/live128",
+    "https://antenna5stream.neotel.mk/live64"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://antenna5stream.neotel.mk:8000/live128",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.antenna5.com.mk/"
+  },
+  {
+   "id": "tuno:top_mk_sky-radio",
+   "name": "Sky Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.skyradio.com.mk/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://s1.skyradio.com.mk/;"
+   ],
+   "website": "https://skyradio.com.mk/"
+  },
+  {
+   "id": "tuno:top_mk_metropolis-radio",
+   "name": "Metropolis Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu4.fastcast4u.com/proxy/metradio?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://eu4.fastcast4u.com/proxy/metradio?mp=/1"
+   ],
+   "website": "http://www.metropolisradio.com.mk/"
+  },
+  {
+   "id": "tuno:top_mk_radio-bubamara",
+   "name": "Radio Bubamara",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bubamara.com.mk/live",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.bubamara.com.mk/live",
+    "https://live.onlineradio.mk/listen/radio_bubamara_aac/stream"
+   ],
+   "website": "https://cdn.onlineradiobox.com/img/l/4/13644.v6.png"
+  },
+  {
+   "id": "tuno:top_mk_life-radio",
+   "name": "Life Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.life.com.mk/",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.life.com.mk/",
+    "http://liferadio.ddns.net:8000/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://liferadio.ddns.net:8000/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://life.com.mk/"
+  },
+  {
+   "id": "tuno:top_mk_radio-fortuna",
+   "name": "Radio Fortuna",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radiofortuna.ipradio.mk/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://radiofortuna.ipradio.mk/;"
+   ],
+   "website": "https://radiofortuna.com.mk/"
+  },
+  {
+   "id": "tuno:top_mk_kanal-77",
+   "name": "Kanal 77",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radiocnd.mms.mk/proxy/offnet/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radiocnd.mms.mk/proxy/offnet/stream"
+   ],
+   "website": "https://kanal77.mk/"
+  },
+  {
+   "id": "tuno:top_mk_stil-radio",
+   "name": "STIL RADIO",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com/listen/stil_radio/stilradio?ver=266521",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://a2.asurahosting.com/listen/stil_radio/stilradio?ver=266521",
+    "https://stilradio.com/stream/stillive.php",
+    "https://eu4.fastcast4u.com/proxy/stilradiomk?mp=/1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stilradio.com/stream/stillive.php",
+     "format": "icecast"
+    },
+    {
+     "url": "https://eu4.fastcast4u.com/proxy/stilradiomk?mp=/1",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://stilradio.com/"
+  },
+  {
+   "id": "tuno:top_mk_makedonsko-radio-1",
+   "name": "Makedonsko Radio 1",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://vod-c57.interspace.com/channel_abr/47/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://vod-c57.interspace.com/channel_abr/47/playlist.m3u8"
+   ],
+   "website": "https://play.mrt.com.mk/live/radio1"
+  },
+  {
+   "id": "tuno:top_mk_vink-radio",
+   "name": "Vink Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://vinkradio.com/stream/vinkradio.php",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://vinkradio.com/stream/vinkradio.php"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_star-radio-ex-yu-retro",
+   "name": "Star Radio (Ex-YU Retro)",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu11.fastcast4u.com/starmain",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://eu11.fastcast4u.com/starmain",
+    "https://eu11.fastcast4u.com/starexyuretro",
+    "https://radiostar.pro/stream/exyuretro.php"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://eu11.fastcast4u.com/starexyuretro",
+     "format": "icecast"
+    },
+    {
+     "url": "https://radiostar.pro/stream/exyuretro.php",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiostar.pro/radiochannel/ex-yu-retro/"
+  },
+  {
+   "id": "tuno:top_mk_radio-tim-bitola",
+   "name": "Radio TIM Bitola",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://hydra.shoutca.st:8108/;",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://hydra.shoutca.st:8108/;"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_urban-fm-90-8-skopje",
+   "name": "Urban FM 90.8 Skopje",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://securestreams4.autopo.st:1668/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://securestreams4.autopo.st:1668/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_radio-meff",
+   "name": "Radio MEFF",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://s32.myradiostream.com:16040/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://s32.myradiostream.com:16040/;"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_makedonsko-radio-2",
+   "name": "Makedonsko Radio 2",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://vod-c57.interspace.com/channel_abr/48/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://vod-c57.interspace.com/channel_abr/48/playlist.m3u8"
+   ],
+   "website": "https://play.mrt.com.mk/live/radio2"
+  },
+  {
+   "id": "tuno:top_mk_radio-vmro",
+   "name": "Radio Vmro",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://radiovmro.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://radiovmro.radioca.st/;"
+   ],
+   "website": "https://www.radiovmro.mk/"
+  },
+  {
+   "id": "tuno:top_mk_club-fm",
+   "name": "Club FM",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://176.9.117.123:9996/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://176.9.117.123:9996/;"
+   ],
+   "website": "http://www.clubfm.mk/"
+  },
+  {
+   "id": "tuno:top_mk_hits-sky-radio-102-5-fm-macedonia-mp3-128-kbps",
+   "name": "Hits Sky Radio 102.5 FM Macedonia (MP3 128 kbps)",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.skyradio.com.mk/;",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://s1.skyradio.com.mk/;",
+    "https://s1.skyradio.com.mk/hits.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s1.skyradio.com.mk/hits.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://skyradio.com.mk/"
+  },
+  {
+   "id": "tuno:top_mk_super-radio",
+   "name": "Super Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.zeno.fm/muzq097d2c9uv",
+    "format": "icecast",
+    "referer": "https://superradio.com.mk/"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream.zeno.fm/muzq097d2c9uv"
+   ],
+   "website": "https://superradio.com.mk/"
+  },
+  {
+   "id": "tuno:top_mk_radio-maria-macedonia",
+   "name": "Radio Maria Macedonia",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8118/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8118/stream"
+   ],
+   "website": "https://www.radiomaria.mk/"
+  },
+  {
+   "id": "tuno:top_mk_merak-radio-bitola",
+   "name": "Merak Radio Bitola",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://a13.asurahosting.com/listen/merak_radio/radio.aac",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://a13.asurahosting.com/listen/merak_radio/radio.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_sky-folk",
+   "name": "SKY FOLK",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu.live.skyfolk.mk/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://eu.live.skyfolk.mk/live.m3u8"
+   ],
+   "website": "https://eu.live.skyfolk.mk/live.m3u8"
+  },
+  {
+   "id": "tuno:top_mk_jazz-fm",
+   "name": "Jazz FM",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://live.jazzfm.mk/listen/jazzfm/live",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://live.jazzfm.mk/listen/jazzfm/live",
+    "https://radio.jazzfm.mk/listen/jazzfm/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.jazzfm.mk/listen/jazzfm/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://jazzfm.mk/"
+  },
+  {
+   "id": "tuno:top_mk_city-radio",
+   "name": "City Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://176.9.117.123:9998/live",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://176.9.117.123:9998/live"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_bum-kumanovo",
+   "name": "Bum Kumanovo",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "http://iandonov.radioca.st/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://iandonov.radioca.st/;stream/1"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_extra-radio",
+   "name": "Extra Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu11.fastcast4u.com:1680/;",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://eu11.fastcast4u.com:1680/;"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_time-fm-gevgelija",
+   "name": "Time FM Gevgelija",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.free-shoutcast.com/stream/18058",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://s2.free-shoutcast.com/stream/18058"
+   ],
+   "website": "https://www.timefm.mk/"
+  },
+  {
+   "id": "tuno:top_mk_star-radio-urban-folk",
+   "name": "Star Radio (Urban Folk)",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu11.fastcast4u.com/urbanfolk",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://eu11.fastcast4u.com/urbanfolk"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_star-radio",
+   "name": "Star Radio",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://eu11.fastcast4u.com/starmain",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://eu11.fastcast4u.com/starmain"
+   ]
+  },
+  {
+   "id": "tuno:top_mk_stil-mkd-narodna",
+   "name": "STIL MKD NARODNA",
+   "type": "radio",
+   "country": "MK",
+   "category": "music",
+   "stream": {
+    "url": "https://stilradio.com/stream/stilmkdnarodna.php",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://stilradio.com/stream/stilmkdnarodna.php"
+   ]
+  }
+ ]
+}

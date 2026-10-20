@@ -1,0 +1,580 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_rs_naxi-radio",
+   "name": "Naxi Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://naxi128ssl.streaming.rs:9152/;stream.nsv",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://naxi128ssl.streaming.rs:9152/;stream.nsv",
+    "https://naxi64ssl.streaming.rs:9162/;",
+    "https://naxidigital-90s128ssl.streaming.rs:8282/;stream.nsv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://naxi64ssl.streaming.rs:9162/;",
+     "format": "icecast"
+    },
+    {
+     "url": "https://naxidigital-90s128ssl.streaming.rs:8282/;stream.nsv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.naxi.rs/"
+  },
+  {
+   "id": "tuno:top_rs_hit-fm",
+   "name": "Hit FM",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/master.m3u8",
+    "https://streaming.tdiradio.com/hit.mp3",
+    "http://streaming.hitfm.rs:8000/hit"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.tdiradio.com/hit.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://streaming.hitfm.rs:8000/hit",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hitfm.rs/"
+  },
+  {
+   "id": "tuno:top_rs_radio-beograd-1",
+   "name": "Radio Beograd 1",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://rtsradio-live.morescreens.com/RTS_2_001/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://rtsradio-live.morescreens.com/RTS_2_001/playlist.m3u8",
+    "https://rtsradio-live.morescreens.com/RTS_2_001/audio/chunklist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rtsradio-live.morescreens.com/RTS_2_001/audio/chunklist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.rts.rs/"
+  },
+  {
+   "id": "tuno:top_rs_pink-radio",
+   "name": "Pink Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://edge9.pink.rs/pinkstream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://edge9.pink.rs/pinkstream",
+    "http://edge1.pink.rs:1935/radiopinkfta/pink61.smil/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://edge1.pink.rs:1935/radiopinkfta/pink61.smil/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.pinkradio.rs/"
+  },
+  {
+   "id": "tuno:top_rs_play-radio",
+   "name": "Play Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.playradio.rs:8443/play.aac",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.playradio.rs:8443/play.aac",
+    "https://stream.playradio.rs:8443/play.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.playradio.rs:8443/play.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.playradio.rs/"
+  },
+  {
+   "id": "tuno:top_rs_ok-radio",
+   "name": "Ok Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://stream1.okradio.net/",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream1.okradio.net/",
+    "https://sslstream.okradio.net/;?type=http&nocache=8804"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://sslstream.okradio.net/;?type=http&nocache=8804",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.okradio.net/"
+  },
+  {
+   "id": "tuno:top_rs_cool-radio",
+   "name": "Cool Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://live.coolradio.rs/cool128",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://live.coolradio.rs/cool128",
+    "http://176.9.30.66/cool64",
+    "http://live.coolradio.rs/cool320"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://176.9.30.66/cool64",
+     "format": "icecast"
+    },
+    {
+     "url": "http://live.coolradio.rs/cool320",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.coolradio.rs/"
+  },
+  {
+   "id": "tuno:top_rs_radio-karolina",
+   "name": "Radio Karolina",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/master.m3u8",
+    "https://streaming.karolina.rs/karolina.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.karolina.rs/karolina.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://karolina.rs/"
+  },
+  {
+   "id": "tuno:top_rs_radio-lola-belgrade",
+   "name": "Radio Lola Belgrade",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.tdiradio.com/radiolola.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://streaming.tdiradio.com/radiolola.mp3"
+   ],
+   "website": "http://radiolola.rs/"
+  },
+  {
+   "id": "tuno:top_rs_radio-s3",
+   "name": "Radio S3",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radios.rs:9038/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.radios.rs:9038/stream",
+    "http://stream.radios.rs:8004/;",
+    "http://edge-rs-01.maksnet.tv/asmedia/pingvin/chunklist_w12686921.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.radios.rs:8004/;",
+     "format": "icecast"
+    },
+    {
+     "url": "http://edge-rs-01.maksnet.tv/asmedia/pingvin/chunklist_w12686921.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.radios.rs/digitalni-radio/20/juzni"
+  },
+  {
+   "id": "tuno:top_rs_radio-nostalgija",
+   "name": "Radio Nostalgija",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://nostalgie64ssl.streaming.rs:9262/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://nostalgie64ssl.streaming.rs:9262/;stream.mp3",
+    "https://nostalgie64ssl.streaming.rs:9262/listen.pls",
+    "http://nostalgie128.streaming.rs:9250/"
+   ],
+   "website": "http://www.nostalgija.rs/"
+  },
+  {
+   "id": "tuno:top_rs_radio-jat",
+   "name": "Radio Jat",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.tdiradio.com/radiojat.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://streaming.tdiradio.com/radiojat.mp3",
+    "https://streaming.radiojat.rs/radiojat.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.radiojat.rs/radiojat.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiojat.rs/"
+  },
+  {
+   "id": "tuno:top_rs_super-fm",
+   "name": "Super FM",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://onair.superfm.rs/superfm.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://onair.superfm.rs/superfm.mp3"
+   ],
+   "website": "https://superfm.rs/"
+  },
+  {
+   "id": "tuno:top_rs_rock-radio",
+   "name": "Rock Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://edge9.pink.rs/rockstream/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://edge9.pink.rs/rockstream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_radio-beograd-202",
+   "name": "Radio Beograd 202",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://rtsradio-live.morescreens.com/RTS_2_004/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://rtsradio-live.morescreens.com/RTS_2_004/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_radio-sljivovica",
+   "name": "Radio Šljivovica",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.iradio.pro/proxy/radiosljivovica?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.iradio.pro/proxy/radiosljivovica?mp=/stream",
+    "http://stream.iradio.pro:8114/;stream.nsv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.iradio.pro:8114/;stream.nsv",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_rs_tdi-bez-reklama",
+   "name": "TDI BEZ REKLAMA",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.tdiradio.com/tdiradiobezreklama.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://streaming.tdiradio.com/tdiradiobezreklama.mp3"
+   ],
+   "website": "https://tdiradio.com/"
+  },
+  {
+   "id": "tuno:top_rs_radio-laguna",
+   "name": "Radio Laguna",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radiolaguna.rs/laguna?ver=57148",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://live.radiolaguna.rs/laguna?ver=57148"
+   ],
+   "website": "https://radiolaguna.rs/"
+  },
+  {
+   "id": "tuno:top_rs_radio-mackica-narodna-muzika",
+   "name": "Radio Mackica - Narodna Muzika",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "http://cast2.name.ba:8153/;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://cast2.name.ba:8153/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_tdi-radio",
+   "name": "TDI Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.tdiradio.com/tdiradio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://streaming.tdiradio.com/tdiradio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_radio-ritam-srca",
+   "name": "Radio Ritam Srca",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.radio.co/s0f65dad2d/listen",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://s4.radio.co/s0f65dad2d/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_kolubara-96-9",
+   "name": "Kolubara 96.9",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://kolubara.name.ba:8000/;",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://kolubara.name.ba:8000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_resavski-radio",
+   "name": "Resavski radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://e3.radiomorava.rs/listen/resavskiradio/resavskiradio64.aac",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://e3.radiomorava.rs/listen/resavskiradio/resavskiradio64.aac",
+    "https://e3.radiomorava.rs/radio/8010/resavskiradio128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://e3.radiomorava.rs/radio/8010/resavskiradio128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.resavski.rs/"
+  },
+  {
+   "id": "tuno:top_rs_ifm-narodni-radio",
+   "name": "iFM Narodni Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "http://91.228.254.72:7000/;stream.nsv",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://91.228.254.72:7000/;stream.nsv"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_radio-planeta",
+   "name": "Radio Planeta",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://planeta96-naxinacional.streaming.rs:8522/;",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://planeta96-naxinacional.streaming.rs:8522/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_radio-s1",
+   "name": "Radio S1",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "http://edge-rs-01.maksnet.tv/asmedia/radios/chunklist_w2049618642.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://edge-rs-01.maksnet.tv/asmedia/radios/chunklist_w2049618642.m3u8"
+   ],
+   "website": "http://www.radios1.rs/"
+  },
+  {
+   "id": "tuno:top_rs_radio-puls-grocka",
+   "name": "Radio Puls Grocka",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.iradio.pro/proxy/radiopuls?mp=/stream/;*.mp3",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream.iradio.pro/proxy/radiopuls?mp=/stream/;*.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_rs_radio-in-beograd",
+   "name": "Radio IN Beograd",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://radio3-64ssl.streaming.rs:9212/;*.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://radio3-64ssl.streaming.rs:9212/;*.mp3",
+    "https://radio3-64ssl.streaming.rs:9212/listen.pls"
+   ],
+   "website": "https://www.radioinbeograd.rs/"
+  },
+  {
+   "id": "tuno:top_rs_1",
+   "name": "РТС - Радио Београд - 1",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "https://rtsradio-live.morescreens.com/RTS_2_001/audio/chunklist.m3u8",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://rtsradio-live.morescreens.com/RTS_2_001/audio/chunklist.m3u8"
+   ],
+   "website": "https://rtsplaneta.rs/"
+  },
+  {
+   "id": "tuno:top_rs_fox-radio",
+   "name": "Fox Radio",
+   "type": "radio",
+   "country": "RS",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.foxradio.rs:8545/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://stream.foxradio.rs:8545/;stream.mp3"
+   ]
+  }
+ ]
+}
