@@ -1,14 +1,36 @@
 {
  "MK": [
-  {"brand": "Super Radio", "prefix": ["super radio", "супер радио"], "main": ["Super Radio Live"]},
-  {"brand": "Star Radio", "prefix": ["star radio"], "main": ["Star Radio (Live) Skopje, Macedonia"]},
+  {"brand": "Super Radio", "prefix": ["super radio", "супер радио"], "main": ["Super Radio Live", "Super Radio"]},
+  {"brand": "Star Radio", "prefix": ["star radio"], "main": ["Star Radio (Live) Skopje, Macedonia", "Star Radio"]},
   {"brand": "Spark Radio", "prefix": ["spark"], "main": ["Spark Radio"]},
-  {"brand": "Stil Radio", "prefix": ["stil "], "main": ["Stil Radio Live Macedonia"]},
+  {"brand": "Stil Radio", "prefix": ["stil "], "main": ["Stil Radio Live Macedonia", "STIL RADIO"]},
   {"brand": "Vink", "prefix": ["vink"], "main": ["Vink Radio"]},
-  {"brand": "Sky Radio", "prefix": ["sky radio", "retro sky radio", "hits sky radio"], "main": ["Sky Radio 102.5 Skopje, Macedonia"]},
+  {"brand": "Sky Radio", "prefix": ["sky radio", "retro sky radio", "hits sky radio", "sky folk"], "main": ["Sky Radio 102.5 Skopje, Macedonia", "Sky Radio"]},
   {"brand": "Play Radio", "prefix": ["play radio"], "main": ["Play Radio"]}
  ],
  "RS": [
   {"brand": "Naxi", "prefix": ["naxi"], "main": ["Naxi Radio"]}
+ ],
+ "HR": [
+  {"brand": "Otvoreni radio", "prefix": ["otvoreni", "tvoj feel good radio"], "main": ["Otvoreni radio"]},
+  {"brand": "HRT", "prefix": ["hrt", "hrvatski radio"], "main": ["HRT - HR2", "HRT HR 1 - Prvi program", "HRT HR 2 - Drugi program", "HRT Prvi program", "HRT Drugi program", "HRT HR 2"]},
+  {"brand": "Antena Zagreb", "prefix": ["antena zagreb"], "main": ["Antena Zagreb"]},
+  {"brand": "Radio Dalmacija", "prefix": ["radio dalmacija", "r. dalmacija"], "main": ["Radio Dalmacija"]},
+  {"brand": "Radio Banovina", "prefix": ["radio banovina", "banovina"], "main": ["Radio Banovina"]}
+ ],
+ "DE": [
+  {"brand": "Sunshine Live", "prefix": ["sunshine live", "sunshine-live", "radio sunshine-live"], "main": ["Radio Sunshine-Live"]},
+  {"brand": "Rock Antenne", "prefix": ["rock antenne", "rockantenne"], "main": ["Rock Antenne"]},
+  {"brand": "Antenne Bayern", "prefix": ["antenne bayern"], "main": ["Antenne Bayern"]},
+  {"brand": "80s80s", "prefix": ["80s80s"], "main": ["80s80s"]},
+  {"brand": "90s90s", "prefix": ["90s90s", "9090s"], "main": ["90s90s HITS"]},
+  {"brand": "0N Radio", "prefix": ["- 0 n -"], "main": ["- 0 N - Classic Rock on Radio"]}
+ ],
+ "GB": [
+  {"brand": "Heart", "prefix": ["heart"], "main": ["Heart"]},
+  {"brand": "Capital", "prefix": ["capital"], "main": ["Capital FM", "CAPITAL - The UK's No.1 Hit Music Station"]},
+  {"brand": "Classic FM", "prefix": ["classic fm"], "main": ["Classic FM"]},
+  {"brand": "Smooth Radio", "prefix": ["smooth"], "main": ["Smooth Radio"]},
+  {"brand": "LBC", "prefix": ["lbc"], "main": ["LBC"]}
  ]
 }
