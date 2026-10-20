@@ -1,0 +1,14 @@
+{
+ "MK": [
+  {"brand": "Super Radio", "prefix": ["super radio", "супер радио"], "main": ["Super Radio Live"]},
+  {"brand": "Star Radio", "prefix": ["star radio"], "main": ["Star Radio (Live) Skopje, Macedonia"]},
+  {"brand": "Spark Radio", "prefix": ["spark"], "main": ["Spark Radio"]},
+  {"brand": "Stil Radio", "prefix": ["stil "], "main": ["Stil Radio Live Macedonia"]},
+  {"brand": "Vink", "prefix": ["vink"], "main": ["Vink Radio"]},
+  {"brand": "Sky Radio", "prefix": ["sky radio", "retro sky radio", "hits sky radio"], "main": ["Sky Radio 102.5 Skopje, Macedonia"]},
+  {"brand": "Play Radio", "prefix": ["play radio"], "main": ["Play Radio"]}
+ ],
+ "RS": [
+  {"brand": "Naxi", "prefix": ["naxi"], "main": ["Naxi Radio"]}
+ ]
+}

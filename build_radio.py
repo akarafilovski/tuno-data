@@ -26,6 +26,7 @@ from datetime import datetime, timezone
 
 import requests
 
+import brands
 import curated
 import logos
 
@@ -196,6 +197,7 @@ def main():
             print(f'{cc}: skipped ({e})')
             continue
         stations = curated.apply(cc, stations)
+        stations = brands.apply(cc, stations)
         if cc in LOGO_COUNTRIES:
             have, total = logos.apply(cc, stations, logo_cache)
             print(f'{cc}: {have}/{total} stations have a working logo')
