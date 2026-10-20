@@ -15,3 +15,7 @@ The station data comes from the community directory at radio-browser.info. Stati
 ## News
 
 `build_news.py` writes `news/<CC>.json` (`{"headlines":[...]}`, the TUNO `NewsResponse` shape) from public RSS feeds: hand-picked feeds in `news_feeds.json` (HR, BA, ME, AL, PT, DK), then Yahoo News and Google News editions (`news_editions.json`, ported from the TUNO server), and time.mk for MK. A GitHub Action (`news.yml`) refreshes it every 4 hours. Headlines link to the publishers' own articles; this repo stores only title, source, link, time and thumbnail URL.
+
+## Public data only
+
+This repository is public: it holds the finished lists and the generators that run as free GitHub Actions. Station contacts, research files and scraping tools live in the private `tuno` repository (see its `docs/repos.md`) and must never be added here.
