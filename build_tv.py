@@ -20,6 +20,7 @@ import re
 import sys
 import time
 import unicodedata
+from urllib.parse import urljoin
 from datetime import datetime, timezone
 
 import requests
@@ -67,47 +68,85 @@ def is_hls(url):
     return url.split('?')[0].lower().endswith('.m3u8')
 
 
+def fetch_head(url, headers, size=65536):
+    """(status, first bytes) of a URL, or (None, b'') when it cannot be reached at all."""
+    try:
+        r = requests.get(url, headers=headers, stream=True, timeout=PROBE_TIMEOUT)
+        try:
+            return r.status_code, (next(r.iter_content(size), b'') if r.status_code == 200 else b''), r.url
+        finally:
+            r.close()
+    except (requests.Timeout, requests.exceptions.ReadTimeout):
+        return 'timeout', b'', url
+    except Exception:
+        return None, b'', url
+
+
+def judge(code):
+    """What an HTTP answer means: 'blocked' (403/451/timeout: maybe only for this runner), 'gone' (needs a login, missing, removed)
+    or None (fine)."""
+    if code in (403, 451, 'timeout'):
+        return 'blocked'
+    if code is None:
+        return 'dead'
+    if code in (401, 404, 410):
+        return 'gone'
+    if code != 200:
+        return 'dead'
+    return None
+
+
 def probe(stream):
-    """'ok', 'dead' or 'blocked' (403/451/timeout: cannot tell from here)."""
+    """'ok', 'blocked' (403/451/timeout: cannot tell from here), 'gone' (answers 401/404/410 or is not a stream: remove now) or 'dead'
+    (no connection, 5xx: counted as a failed run). An HLS stream is followed one level down - master playlist, first variant, first
+    segment - because many 'working' playlists hand out segments that need a login (jmp2.uk answers 401 on every one)."""
     headers = {'User-Agent': stream.get('user_agent') or UA}
     ref = stream.get('referrer') or stream.get('http_referrer')
     if ref:
         headers['Referer'] = ref
     url = stream['url']
-    try:
-        r = requests.get(url, headers=headers, stream=True, timeout=PROBE_TIMEOUT)
-        code = r.status_code
-        if code in (401, 403, 451):
-            r.close()
-            return 'blocked'
-        if code != 200:
-            r.close()
-            return 'dead'
-        first = next(r.iter_content(4096), b'')
-        r.close()
-        if not first:
-            return 'dead'
-        if is_hls(url) and not first.lstrip().startswith(b'#EXTM3U'):
-            return 'dead'
+    code, first, final = fetch_head(url, headers)
+    bad = judge(code)
+    if bad:
+        return bad
+    if not first:
+        return 'gone'
+    if is_hls(url) or first.lstrip().startswith(b'#EXTM3U'):
+        text = first.decode('utf-8', 'ignore')
+        if not text.lstrip().startswith('#EXTM3U'):
+            return 'gone'
+        for _ in range(2):                                   # master -> variant -> segment
+            lines = [l.strip() for l in text.splitlines() if l.strip() and not l.startswith('#')]
+            if not lines:
+                return 'gone' if _ == 0 else 'ok'
+            nxt = urljoin(final, lines[0])
+            code, body, final = fetch_head(nxt, headers, 4096 if _ == 1 else 65536)
+            bad = judge(code)
+            if bad:
+                return bad
+            if _ == 0:
+                text = body.decode('utf-8', 'ignore')
+                if not text.lstrip().startswith('#EXTM3U'):
+                    return 'ok'                              # the variant is the media itself
         return 'ok'
-    except (requests.Timeout, requests.exceptions.ReadTimeout):
-        return 'blocked'
-    except Exception:
-        return 'dead'
+    return 'ok'
 
 
 def check_channel(streams):
-    """First stream that is ok wins; otherwise the first blocked one; otherwise dead."""
+    """First stream that is ok wins; otherwise the first blocked one; otherwise gone (a login or a missing stream) or dead."""
     blocked = None
+    gone = False
     for st in streams[:3]:
         res = probe(st)
         if res == 'ok':
             return st, 'ok'
         if res == 'blocked' and blocked is None:
             blocked = st
+        if res == 'gone':
+            gone = True
     if blocked:
         return blocked, 'blocked'
-    return None, 'dead'
+    return None, 'gone' if gone else 'dead'
 
 
 def load_state():
@@ -171,12 +210,14 @@ def main():
         for c, (st, res) in zip(uniq, results):
             sid = f"iptvorg:{c['id']}"
             h = state.get(sid, {'fails': 0, 'published': False})
-            if res == 'dead':
+            if res == 'gone':
+                h['fails'] = FAIL_LIMIT                     # a login-only or removed stream stays removed: no three-week grace
+            elif res == 'dead':
                 h['fails'] = h.get('fails', 0) + 1
             else:
                 h = {'fails': 0, 'published': True}
             state[sid] = h
-            if res == 'dead' and not (h['published'] and h['fails'] < FAIL_LIMIT):
+            if res in ('dead', 'gone') and not (h['published'] and h['fails'] < FAIL_LIMIT):
                 dropped += 1
                 continue
             if st is None:

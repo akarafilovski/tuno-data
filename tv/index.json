@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-18T07:34:58Z",
+ "generatedAt": "2026-10-24T09:07:24Z",
  "countries": [
   {
    "code": "AD",
@@ -219,7 +219,7 @@
   {
    "code": "DE",
    "name": "Germany",
-   "stations": 278
+   "stations": 276
   },
   {
    "code": "DK",
@@ -349,7 +349,7 @@
   {
    "code": "HR",
    "name": "Croatia",
-   "stations": 18
+   "stations": 19
   },
   {
    "code": "HT",
@@ -689,7 +689,7 @@
   {
    "code": "RS",
    "name": "Serbia",
-   "stations": 25
+   "stations": 19
   },
   {
    "code": "RU",
