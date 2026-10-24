@@ -21,6 +21,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
@@ -100,14 +101,39 @@ def google_target(url):
     return t.group(0).decode('ascii', 'ignore') if t else None
 
 
+GOOGLE_GATE = threading.Semaphore(2)
+GOOGLE_BLOCKED = threading.Event()   # set at the first 429 (Too Many Requests): the rest of this run leaves Google alone
+
+
 def google_resolve(url):
     """Newer Google News links hide the article address. Google's own page script asks one endpoint for it; so does this."""
     m = re.search(r'/articles/([A-Za-z0-9_-]+)', url)
     if not m:
         return None
     gid = m.group(1)
+    for attempt in range(2):
+        if GOOGLE_BLOCKED.is_set():
+            return None
+        found = _google_resolve_once(gid)
+        if found:
+            return found
+        time.sleep(1.0)
+    return None
+
+
+def _google_resolve_once(gid):
+    with GOOGLE_GATE:
+        time.sleep(0.25)
+        return _google_resolve_call(gid)
+
+
+def _google_resolve_call(gid):
     try:
-        page = requests.get(f'https://news.google.com/articles/{gid}', headers=PAGE_UA, timeout=10).text
+        resp = requests.get(f'https://news.google.com/articles/{gid}', headers=PAGE_UA, timeout=10)
+        if resp.status_code == 429:
+            GOOGLE_BLOCKED.set()
+            return None
+        page = resp.text
         sg = re.search(r'data-n-a-sg="([^"]+)"', page)
         ts = re.search(r'data-n-a-ts="([^"]+)"', page)
         if not sg or not ts:
@@ -163,7 +189,11 @@ def fill_thumbnails(all_items, budget_seconds=480):
         futures = [(i['url'], pool.submit(page_image, i['url'])) for i in missing]
         for url, f in futures:
             try:
-                cache[url] = f.result(timeout=max(1, budget_seconds - (time.time() - start))) or ''
+                found = f.result(timeout=max(1, budget_seconds - (time.time() - start)))
+                if found:
+                    cache[url] = found
+                elif 'news.google.com' not in url:
+                    cache[url] = ''             # a normal site without a picture: do not ask again every day
             except Exception:
                 pass
     for i in all_items:
