@@ -339,7 +339,7 @@
    "category": "music",
    "stream": {
     "url": "https://stream.zeno.fm/muzq097d2c9uv",
-    "format": "icecast",
+    "format": "progressive",
     "referer": "https://superradio.com.mk/"
    },
    "rank": 2,
