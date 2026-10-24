@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "tuno-data bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A news
+          git add -A news state/thumbs.json
           if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
           git commit -m "News update $(date -u +%F\ %H:%M)"
           for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break; sleep 5; done
