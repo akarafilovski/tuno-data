@@ -1,0 +1,413 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ve_rumba-fm",
+   "name": "Rumba FM",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://cast20.plugstreaming.com:2020/stream/r981",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://cast20.plugstreaming.com:2020/stream/r981"
+   ],
+   "website": "https://rumbavenezuela.fm/"
+  },
+  {
+   "id": "tuno:top_ve_dj-shaggy-venezuela",
+   "name": "Dj Shaggy Venezuela",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mipanel.stream:7000/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mipanel.stream:7000/stream"
+   ],
+   "website": "https://djshaggyvenezuela.com/"
+  },
+  {
+   "id": "tuno:top_ve_la-romantica-88-9-fm",
+   "name": "La Romantica 88.9 FM",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://acp2.lorini.net:58100/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://acp2.lorini.net:58100/stream",
+    "https://stream.zeno.fm/28hgnyp8568uv"
+   ],
+   "website": "https://zeno.fm/radio/radiolaromantica/"
+  },
+  {
+   "id": "tuno:top_ve_union-radio-90-3-fm-caracas",
+   "name": "Unión Radio 90.3 FM Caracas",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "http://ur58.lorini.net:2080/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://ur58.lorini.net:2080/stream"
+   ],
+   "website": "https://unionradio.net/"
+  },
+  {
+   "id": "tuno:top_ve_fiesta-fm",
+   "name": "Fiesta FM",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://acp2.lorini.net:58200/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://acp2.lorini.net:58200/stream"
+   ],
+   "website": "https://fmcenter.com.ve/"
+  },
+  {
+   "id": "tuno:top_ve_tama-stereo",
+   "name": "Tama Stereo",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://guri.tepuyserver.net/8457/stream;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://guri.tepuyserver.net/8457/stream;"
+   ],
+   "website": "https://www.tamastereo.com/"
+  },
+  {
+   "id": "tuno:top_ve_rocafm-clasicos-caracas",
+   "name": "RocaFM Clasicos Caracas",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://rocafmadrid.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://rocafmadrid.radioca.st/stream",
+    "http://protostar.shoutca.st:8370/"
+   ],
+   "website": "http://www.rocafm.eu/"
+  },
+  {
+   "id": "tuno:top_ve_salsa-baul-caracas",
+   "name": "SALSA BAUL CARACAS",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://radios.mipanel.stream:6874/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radios.mipanel.stream:6874/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_adulto-joven-88-1",
+   "name": "Adulto Joven 88.1",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://server6.globalhostla.com:9168/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://server6.globalhostla.com:9168/stream"
+   ],
+   "website": "https://88punto1.com/"
+  },
+  {
+   "id": "tuno:top_ve_sabrosa",
+   "name": "Sabrosa",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostream3.interven.ca/listen/sabrosafm/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radiostream3.interven.ca/listen/sabrosafm/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_exitos-fm",
+   "name": "Exitos FM",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://acp4.lorini.net:2070/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://acp4.lorini.net:2070/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_alba-ciudad-radio-93-6-fm16k",
+   "name": "Alba Ciudad Radio 93.6 FM16k",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://envivo.albaciudad.org/alba16.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://envivo.albaciudad.org/alba16.mp3"
+   ],
+   "website": "https://albaciudad.org/"
+  },
+  {
+   "id": "tuno:top_ve_union-radio",
+   "name": "Union Radio",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "http://urccs.lorini.net:2080/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://urccs.lorini.net:2080/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_radio-dinamica-92-9",
+   "name": "Radio dinámica 92.9",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://guri.tepuyserver.net/8012/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://guri.tepuyserver.net/8012/stream"
+   ],
+   "website": "https://www.radiodinamica.com.ve/barquisimeto"
+  },
+  {
+   "id": "tuno:top_ve_chiquinquirena",
+   "name": "Chiquinquireña",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://server6.globalhostla.com:8098/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://server6.globalhostla.com:8098/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_la-mega",
+   "name": "La Mega",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://acp4.lorini.net:2050/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://acp4.lorini.net:2050/stream",
+    "https://acp4.lorini.net/proxy/ur2050?mp=/stream"
+   ],
+   "website": "https://mundour.com/live-mega/"
+  },
+  {
+   "id": "tuno:top_ve_fm-mundial-104-1",
+   "name": "FM Mundial 104.1",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://onlineradiobox.com/json/ve/lafmmundial/play?platform=web",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://onlineradiobox.com/json/ve/lafmmundial/play?platform=web"
+   ],
+   "website": "http://www.lafmmundial.com/"
+  },
+  {
+   "id": "tuno:top_ve_full-exitos-radio",
+   "name": "Full Éxitos Radio",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://usa14.fastcast4u.com/proxy/fullexitos?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://usa14.fastcast4u.com/proxy/fullexitos?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_la-radio-del-sur",
+   "name": "La Radio del Sur",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "http://190.202.130.61:8000/lrds",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://190.202.130.61:8000/lrds"
+   ],
+   "website": "http://www.laradiodelsur.com.ve/"
+  },
+  {
+   "id": "tuno:top_ve_la-fm-mundial",
+   "name": "La FM Mundial",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "http://streamingned.com:7076/;",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://streamingned.com:7076/;"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_circuito-x",
+   "name": "Circuito X",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "http://cp2.lorini.net:39500/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://cp2.lorini.net:39500/stream"
+   ],
+   "website": "https://www.circuitox.com/"
+  },
+  {
+   "id": "tuno:top_ve_buenisima-103-9-fm",
+   "name": "Buenísima 103.9 FM",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://laradiossl.online:10166/;",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://laradiossl.online:10166/;"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_exitos-de-siempre",
+   "name": "Exitos de Siempre",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://usa8.fastcast4u.com/proxy/ebert1010?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://usa8.fastcast4u.com/proxy/ebert1010?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_imaginacion",
+   "name": "Imaginación",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming3.globalhost.net.ve:8070/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://streaming3.globalhost.net.ve:8070/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ve_lider-fm",
+   "name": "Lider FM",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://acp4.lorini.net:15020/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://acp4.lorini.net:15020/stream",
+    "https://stream.zeno.fm/89mx0qh1trhvv"
+   ],
+   "website": "https://www.lider104.com.ve/"
+  },
+  {
+   "id": "tuno:top_ve_ok-101-fm",
+   "name": "OK 101 FM",
+   "type": "radio",
+   "country": "VE",
+   "category": "music",
+   "stream": {
+    "url": "https://server6.globalhostla.com:9080/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://server6.globalhostla.com:9080/stream"
+   ]
+  }
+ ]
+}

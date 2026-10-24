@@ -1,0 +1,424 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ir_iran-international-https-stream",
+   "name": "Iran International (HTTPS stream)",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://live.livetvstream.co.uk/LS-63503-4/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.livetvstream.co.uk/LS-63503-4/index.m3u8",
+    "https://stream.radiojar.com/iintl_c"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.radiojar.com/iintl_c",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.iranintl.com/"
+  },
+  {
+   "id": "tuno:top_ir_radio-farda",
+   "name": "Radio Farda",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/cp13r2cpn3quv",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.radiojar.com/cp13r2cpn3quv"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_radio-liberty-iran-official-stream",
+   "name": "ایران‎  Radio Liberty (Iran) (official stream)",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://rferl-ingest.akamaized.net/hls/live/2121659/axia21/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://rferl-ingest.akamaized.net/hls/live/2121659/axia21/master.m3u8",
+    "https://stream.radiojar.com/cp13r2cpn3quv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.radiojar.com/cp13r2cpn3quv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiofarda.com/"
+  },
+  {
+   "id": "tuno:top_ir_radio-mojahed",
+   "name": "Radio Mojahed",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/s830691c74/listen",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s2.radio.co/s830691c74/listen"
+   ],
+   "website": "https://radio.mojahedin.org/"
+  },
+  {
+   "id": "tuno:top_ir_parsa",
+   "name": "parsa",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://parsa.awsvps.com/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://parsa.awsvps.com/stream",
+    "http://parsa.icdndhcp.com:18000/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://parsa.icdndhcp.com:18000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radio.sarcheshmeh.us/parsa.html"
+  },
+  {
+   "id": "tuno:top_ir_radio-iran-international",
+   "name": "Radio Iran International",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.iraninternational.app/iintl_c",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://radio.iraninternational.app/iintl_c"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_faz",
+   "name": "Faz",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "http://www.radiofaaz.com:8000/radiofaaz",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://www.radiofaaz.com:8000/radiofaaz"
+   ],
+   "website": "http://www.radiofaaz.com:8000/radiofaaz"
+  },
+  {
+   "id": "tuno:top_ir_iran-on-air",
+   "name": "Iran On Air",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "http://ice41.securenetsystems.net/KIRN",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://ice41.securenetsystems.net/KIRN"
+   ],
+   "website": "http://www.iranonair.com/"
+  },
+  {
+   "id": "tuno:top_ir_radio-avazfarsi",
+   "name": "Radio AvazFarsi",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.avazfarsi.com:8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://radio.avazfarsi.com:8000/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_radio-mokashefeh",
+   "name": "Radio Mokashefeh",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/sbe3f44c5d/listen",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://s2.radio.co/sbe3f44c5d/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_radio-sarcheshme",
+   "name": "Radio Sarcheshme",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "http://sarcheshmeh.icdndhcp.com:18452/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://sarcheshmeh.icdndhcp.com:18452/stream"
+   ],
+   "website": "http://sarcheshmeh.icdndhcp.com:18452/stream"
+  },
+  {
+   "id": "tuno:top_ir_radio-mojdeh-iranian-farsi-persian-christian-music-and-talk",
+   "name": "Radio Mojdeh - Iranian Farsi/Persian Christian music and talk",
+   "type": "radio",
+   "country": "IR",
+   "category": "talk",
+   "stream": {
+    "url": "https://ic2326.c1261.fastserv.com/rm128",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://ic2326.c1261.fastserv.com/rm128",
+    "https://radiomojdeh.com/media/images/audio/odb/emrooz.mp3?_=1"
+   ],
+   "website": "https://radiomojdeh.com/"
+  },
+  {
+   "id": "tuno:top_ir_caltexmusic",
+   "name": "caltexmusic",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "http://n13.radiojar.com/cp13r2cpn3quv?rj-ttl=5&rj-tok=AAABeB5OHJQA07FIiDdZAZNHWw",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://n13.radiojar.com/cp13r2cpn3quv?rj-ttl=5&rj-tok=AAABeB5OHJQA07FIiDdZAZNHWw"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_irib-radio-maaref",
+   "name": "IRIB Radio Maaref",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.cdn1.iranseda.ir/liveedge/radio-maaref/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://s2.cdn1.iranseda.ir/liveedge/radio-maaref/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_hamsafar",
+   "name": "hamsafar",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://n0c.radiojar.com/pyea7q9h5ehvv.m4a?1792531849=&rj-tok=AAABoVtCj4kAT751Vf1RPyA5Cw&rj-ttl=5",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://n0c.radiojar.com/pyea7q9h5ehvv.m4a?1792531849=&rj-tok=AAABoVtCj4kAT751Vf1RPyA5Cw&rj-ttl=5",
+    "http://n0b.radiojar.com/pyea7q9h5ehvv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://n0b.radiojar.com/pyea7q9h5ehvv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hamsafarradio.se/"
+  },
+  {
+   "id": "tuno:top_ir_al-quran-radio",
+   "name": ".al quran radio",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_mohammed-ayyub",
+   "name": "..mohammed_ayyub",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://qurango.net/radio/mohammed_ayyub",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://qurango.net/radio/mohammed_ayyub"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_radio-darbast",
+   "name": "Radio Darbast",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "http://live.radiodarbast.com:8443/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://live.radiodarbast.com:8443/stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_station",
+   "name": "امبدد",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "http://auds1.intacs.com/adorationgospelfm",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://auds1.intacs.com/adorationgospelfm"
+   ],
+   "website": "http://auds1.intacs.com/adorationgospelfm"
+  },
+  {
+   "id": "tuno:top_ir_enationfm",
+   "name": "enationFM",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "http://dal4.ir.enationfm.stream:8308/;",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://dal4.ir.enationfm.stream:8308/;"
+   ],
+   "website": "https://www.enation.fm/#"
+  },
+  {
+   "id": "tuno:top_ir_radio-gachsaran",
+   "name": "Radio Gachsaran",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.gachsaran.org/gach",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://radio.gachsaran.org/gach",
+    "https://radio.gachsaran.org/gach.m3u"
+   ],
+   "website": "https://radio.gachsaran.org/"
+  },
+  {
+   "id": "tuno:top_ir_parstoday-radio-english",
+   "name": "ParsToday Radio English",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://live4.presstv.ir/irib/irib8/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://live4.presstv.ir/irib/irib8/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ir_radio-zza-zan-zendegi-azadi",
+   "name": "Radio ZZA (Zan Zendegi Azadi)",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/526993/stream/585379",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://listen.radioking.com/radio/526993/stream/585379"
+   ],
+   "website": "https://radiozza.com/"
+  },
+  {
+   "id": "tuno:top_ir_muhammad-siddiq-al-minshawi",
+   "name": "Muhammad Siddiq al-Minshawi",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://qurango.net/radio/mohammed_siddiq_alminshawi",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://qurango.net/radio/mohammed_siddiq_alminshawi"
+   ],
+   "website": "https://qurango.net/radio/mohammed_siddiq_alminshawi"
+  },
+  {
+   "id": "tuno:top_ir_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "IR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  }
+ ]
+}

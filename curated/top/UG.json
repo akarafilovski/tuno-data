@@ -1,0 +1,541 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ug_akaboozi",
+   "name": "Akaboozi",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "http://162.244.80.52:8732/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://162.244.80.52:8732/;stream.mp3",
+    "http://162.244.80.52:8732/stream.mp3;audio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://162.244.80.52:8732/stream.mp3;audio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.akaboozi.com/"
+  },
+  {
+   "id": "tuno:top_ug_91-3-capital-fm",
+   "name": "91.3 Capital FM",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://capitalfm.cloudrad.io/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://capitalfm.cloudrad.io/stream",
+    "http://5229.cloudrad.io:8316/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://5229.cloudrad.io:8316/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://capitalradio-ug.com/"
+  },
+  {
+   "id": "tuno:top_ug_radio-simba",
+   "name": "Radio Simba",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://www.radiosimba.ug/stream2",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://www.radiosimba.ug/stream2"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_christ-fm-91-6",
+   "name": "Christ FM 91.6",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://s39.myradiostream.com/:15664/;",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s39.myradiostream.com/:15664/;",
+    "http://5.135.154.69:15664/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://5.135.154.69:15664/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.holycityentebbe.org/page/916-christ-fm"
+  },
+  {
+   "id": "tuno:top_ug_beat-fm",
+   "name": "Beat FM",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://vms-videos.minutemediaservices.com/01m5bwff9vr5mxkgcd69/m3u8/01m5bwff9vr5mxkgcd69.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://vms-videos.minutemediaservices.com/01m5bwff9vr5mxkgcd69/m3u8/01m5bwff9vr5mxkgcd69.m3u8",
+    "http://5230.cloudrad.io:8354/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://5230.cloudrad.io:8354/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://onlineradiobox.com/ug/xfm948/"
+  },
+  {
+   "id": "tuno:top_ug_radio-maria-uganda-kampala",
+   "name": "RADIO MARIA UGANDA Kampala",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8052/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8052/stream"
+   ],
+   "website": "http://www.radiomaria.ug/"
+  },
+  {
+   "id": "tuno:top_ug_cbs-radio-buganda",
+   "name": "CBS Radio Buganda",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://s5.voscast.com:9905/EMMANDUSO",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://s5.voscast.com:9905/EMMANDUSO"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_radio-pacis",
+   "name": "Radio Pacis",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://radiopacisuganda.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radiopacisuganda.radioca.st/stream",
+    "http://148.251.43.231:8308/stream",
+    "http://136.243.44.41:8182/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://148.251.43.231:8308/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://136.243.44.41:8182/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiopacis.org/"
+  },
+  {
+   "id": "tuno:top_ug_98-8-buddu-fm",
+   "name": "98.8 Buddu Fm",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://dc4.serverse.com/proxy/ccmxrgub/stream?1792521565053",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://dc4.serverse.com/proxy/ccmxrgub/stream?1792521565053"
+   ],
+   "website": "https://radiobuddufm.com/"
+  },
+  {
+   "id": "tuno:top_ug_kasese-guide-radio",
+   "name": "Kasese Guide Radio",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://cast.julyhost.net/listen/kgr/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://cast.julyhost.net/listen/kgr/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_107-9-pearl-fm",
+   "name": "107.9 Pearl Fm",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://dc4.serverse.com/proxy/pearlfm/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://dc4.serverse.com/proxy/pearlfm/stream",
+    "https://dc4.serverse.com/proxy/pearlfm/stream/1/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dc4.serverse.com/proxy/pearlfm/stream/1/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://pearlfmuganda.com/"
+  },
+  {
+   "id": "tuno:top_ug_88-2-sanyu-fm-kampala-88-2-fm-mp3",
+   "name": "88.2 Sanyu FM - Kampala - 88.2 FM (MP3)",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://s44.myradiostream.com:8138/;?type=http&nocache=1792521576?0.6545643300201516",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://s44.myradiostream.com:8138/;?type=http&nocache=1792521576?0.6545643300201516",
+    "http://s44.myradiostream.com/8138/listen.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://s44.myradiostream.com/8138/listen.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://sanyufm.com/"
+  },
+  {
+   "id": "tuno:top_ug_bukedde-fm",
+   "name": "Bukedde FM",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.hydeinnovations.com:2020/stream/bukeddefm/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.hydeinnovations.com:2020/stream/bukeddefm/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_kiis-uganda",
+   "name": "KIIS Uganda",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "http://14867.cloudrad.io:9224/live",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://14867.cloudrad.io:9224/live"
+   ],
+   "website": "https://capitalradio.co.ug/"
+  },
+  {
+   "id": "tuno:top_ug_pearl-of-africa-radio",
+   "name": "Pearl of Africa Radio",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://dc4.serverse.com/proxy/pearlfm/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://dc4.serverse.com/proxy/pearlfm/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_107-3-bbc-radio-uganda",
+   "name": "107.3 BBC Radio Uganda",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_west_africa",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_west_africa"
+   ],
+   "website": "https://bbc.ug/"
+  },
+  {
+   "id": "tuno:top_ug_talkradio",
+   "name": "talkRADIO",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.talkradio.co.uk/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radio.talkradio.co.uk/stream"
+   ],
+   "website": "https://www.livescore.cz/"
+  },
+  {
+   "id": "tuno:top_ug_voice-of-teso",
+   "name": "Voice of Teso",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://s46.webcastserver.com:12368/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://s46.webcastserver.com:12368/listen.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_radio-one",
+   "name": "Radio one",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "http://162.244.80.52:8740/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://162.244.80.52:8740/stream"
+   ],
+   "website": "http://radioone.com/"
+  },
+  {
+   "id": "tuno:top_ug_beat-fm-kampala-96-3-fm-mp3",
+   "name": "Beat FM - Kampala - 96.3 FM (MP3)",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "http://5230.cloudrad.io:8354/live",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://5230.cloudrad.io:8354/live"
+   ],
+   "website": "https://beatradio.co.ug/"
+  },
+  {
+   "id": "tuno:top_ug_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmuganda2?mp=/stream?ver=896679",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmuganda2?mp=/stream?ver=896679"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_rx-radio",
+   "name": "RX Radio",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://c14.radioboss.fm/stream/223",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://c14.radioboss.fm/stream/223",
+    "https://c14.radioboss.fm:18223/stream?1615807421100="
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://c14.radioboss.fm:18223/stream?1615807421100=",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.rxradio.ug/"
+  },
+  {
+   "id": "tuno:top_ug_xfm-94-8",
+   "name": "XFM 94.8",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.hydeinnovations.com:2020/stream/xfm/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://stream.hydeinnovations.com:2020/stream/xfm/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_bbc-africa-ug",
+   "name": "BBC AFRICA UG",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_west_africa",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_west_africa"
+   ],
+   "website": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_west_africa"
+  },
+  {
+   "id": "tuno:top_ug_nbs-89-4-fm",
+   "name": "NBS 89.4 FM",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://khodeyo.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://khodeyo.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_cnn-international",
+   "name": "CNN INTERNATIONAL",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://tunein.cdnstream1.com/2868_96.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://tunein.cdnstream1.com/2868_96.mp3",
+    "http://hydra.cdnstream.com/1531_backup"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://hydra.cdnstream.com/1531_backup",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://tunein.cdnstream1.com/2868_96.mp3"
+  },
+  {
+   "id": "tuno:top_ug_open-gate-fm-mbale",
+   "name": "Open Gate FM Mbale",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "http://139.162.195.139:8010/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://139.162.195.139:8010/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_radio-buddu-98-8fm-and-95-5fm",
+   "name": "Radio Buddu 98.8FM and 95.5FM",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://dc4.serverse.com/proxy/ccmxrgub/stream?",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://dc4.serverse.com/proxy/ccmxrgub/stream?"
+   ]
+  },
+  {
+   "id": "tuno:top_ug_gospel-radio-east-africa",
+   "name": "Gospel Radio East Africa",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "https://c32.radioboss.fm:18451/stream?1641237600584",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://c32.radioboss.fm:18451/stream?1641237600584"
+   ],
+   "website": "http://www.gospelradioeastafrica.org/index.html"
+  },
+  {
+   "id": "tuno:top_ug_country-music-80-s",
+   "name": "Country music (80's)",
+   "type": "radio",
+   "country": "UG",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.181fm.com/181-80scountry_128k.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://listen.181fm.com/181-80scountry_128k.mp3"
+   ],
+   "website": "http://listen.181fm.com/181-80scountry_128k.mp3"
+  }
+ ]
+}

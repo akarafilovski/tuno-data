@@ -1,0 +1,471 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ng_gospelbuzz-radio",
+   "name": "Gospelbuzz Radio",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.gotright.net/radio/8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.gotright.net/radio/8000/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_wazobia-fm-95-1-lagos-lagos",
+   "name": "Wazobia FM 95.1 Lagos Lagos",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://wazobiafmlagos951-atunwadigital.streamguys1.com/wazobiafmlagos951",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://wazobiafmlagos951-atunwadigital.streamguys1.com/wazobiafmlagos951"
+   ],
+   "website": "https://www.wazobiafm.com/"
+  },
+  {
+   "id": "tuno:top_ng_domi-radio",
+   "name": "Domi Radio",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.domimedia.org/domi_radio_english/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streams.domimedia.org/domi_radio_english/live.m3u8",
+    "http://radio.shoutcastmedia.net:8302/;",
+    "https://domimedia.org/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio.shoutcastmedia.net:8302/;",
+     "format": "icecast"
+    },
+    {
+     "url": "https://domimedia.org/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.domimedia.org/"
+  },
+  {
+   "id": "tuno:top_ng_rfi-haoussa",
+   "name": "RFI Haoussa",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "http://live02.rfi.fr/rfihaoussa-96k.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://live02.rfi.fr/rfihaoussa-96k.mp3"
+   ],
+   "website": "http://www.rfi.fr/"
+  },
+  {
+   "id": "tuno:top_ng_agidigbo-88-7-fm",
+   "name": "Agidigbo 88.7 FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://agidigbostream.com.ng/listen/agidigbo887fm/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://agidigbostream.com.ng/listen/agidigbo887fm/radio.mp3",
+    "https://agidigbostream.com.ng/radio/8000/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://agidigbostream.com.ng/radio/8000/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://agidigbo887fm.com/"
+  },
+  {
+   "id": "tuno:top_ng_wazobia-fm",
+   "name": "Wazobia FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://wazobiafmlagos951-atunwadigital.streamguys1.com/wazobiafmlagos951",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://wazobiafmlagos951-atunwadigital.streamguys1.com/wazobiafmlagos951"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_metro-fm-lagos",
+   "name": "METRO FM LAGOS",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://go.webgateready.com/metrofm/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://go.webgateready.com/metrofm/radio.mp3"
+   ],
+   "website": "https://go.webgateready.com/metrofm/radio.mp3"
+  },
+  {
+   "id": "tuno:top_ng_cool-fm",
+   "name": "Cool FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://coolfmlagos969-atunwadigital.streamguys1.com/coolfmlagos969",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://coolfmlagos969-atunwadigital.streamguys1.com/coolfmlagos969"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_splash-fm-105-5",
+   "name": "Splash FM 105.5",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/cfeki",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://edge.mixlr.com/channel/cfeki"
+   ],
+   "website": "https://splashfm1055.com/"
+  },
+  {
+   "id": "tuno:top_ng_lagelu-fm-96-7",
+   "name": "Lagelu FM 96.7",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/wupzh",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://edge.mixlr.com/channel/wupzh"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_bond-92-9-fm",
+   "name": "Bond 92.9 FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://www.go.webgateready.com/bondfm",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://www.go.webgateready.com/bondfm",
+    "https://go.webgateready.com/bondfm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://go.webgateready.com/bondfm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radionigerialagos.gov.ng/"
+  },
+  {
+   "id": "tuno:top_ng_max-102-3-fm",
+   "name": "MAX 102.3 FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://audiomax.gridpapaservers.com/listen/gridpapa_streaming/maxfmlagos",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://audiomax.gridpapaservers.com/listen/gridpapa_streaming/maxfmlagos"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_pidgin-radio",
+   "name": "Pidgin Radio",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://c26.radioboss.fm:8285/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://c26.radioboss.fm:8285/stream",
+    "https://stream.rcast.net/66702"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcast.net/66702",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.pidginradio.net/"
+  },
+  {
+   "id": "tuno:top_ng_urban-radio-enugu",
+   "name": "URBAN RADIO ENUGU",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/cfldr",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://edge.mixlr.com/channel/cfldr"
+   ],
+   "website": "https://www.urbanradio945.com/"
+  },
+  {
+   "id": "tuno:top_ng_32-fm-94-9",
+   "name": "32 FM 94.9",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/zbfuy",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://edge.mixlr.com/channel/zbfuy"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_splash-fm-ibadan",
+   "name": "Splash FM Ibadan",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/cfeki",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://edge.mixlr.com/channel/cfeki"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_raypower-abuja",
+   "name": "Raypower Abuja",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://streamlive2.hearthis.at:8000/9065169.ogg",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://streamlive2.hearthis.at:8000/9065169.ogg"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_magic-fm",
+   "name": "Magic FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.ifastekpanel.com:1565/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://radio.ifastekpanel.com:1565/stream"
+   ],
+   "website": "https://www.magicfm.ng/"
+  },
+  {
+   "id": "tuno:top_ng_adaba-fm",
+   "name": "Adaba FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "http://149.56.234.138:8008/live",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://149.56.234.138:8008/live"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_gospotainment-radio",
+   "name": "Gospotainment Radio",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.gotright.net/radio/8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radio.gotright.net/radio/8000/radio.mp3"
+   ],
+   "website": "https://gospotainment.com/"
+  },
+  {
+   "id": "tuno:top_ng_afrobeats-gospel-radio",
+   "name": "Afrobeats Gospel Radio",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://a6.asurahosting.com:8880/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://a6.asurahosting.com:8880/radio.mp3"
+   ],
+   "website": "https://www.afrobeatsgospel.com/"
+  },
+  {
+   "id": "tuno:top_ng_box-afrofusion-naija",
+   "name": "BOX : Afrofusion Naija",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://boxradio-edge-00.streamafrica.net/naija",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://boxradio-edge-00.streamafrica.net/naija"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_radio-quran",
+   "name": "#Radio Quran",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_brila-fm",
+   "name": "Brila FM",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://brilafm-atunwadigital.streamguys1.com/brilafm",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://brilafm-atunwadigital.streamguys1.com/brilafm"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_lagosjump-radio",
+   "name": "LagosJump Radio",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.lagosjumpradio.com/listen/lagosjump_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://radio.lagosjumpradio.com/listen/lagosjump_radio/radio.mp3"
+   ],
+   "website": "https://www.lagosjumpradio.com/"
+  },
+  {
+   "id": "tuno:top_ng_lagos-talks-91-3",
+   "name": "Lagos Talks 91.3",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://lagostalks-atunwadigital.streamguys1.com/lagostalks",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://lagostalks-atunwadigital.streamguys1.com/lagostalks"
+   ]
+  },
+  {
+   "id": "tuno:top_ng_praiseworld-radio",
+   "name": "Praiseworld Radio",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/s7dc18f0ad/listen",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://streaming.radio.co/s7dc18f0ad/listen"
+   ],
+   "website": "https://www.praiseworldradio.com/"
+  },
+  {
+   "id": "tuno:top_ng_radio-sapientia",
+   "name": "Radio Sapientia",
+   "type": "radio",
+   "country": "NG",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.asurahosting.com/proxy/radiosap/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://cast4.asurahosting.com/proxy/radiosap/stream"
+   ]
+  }
+ ]
+}

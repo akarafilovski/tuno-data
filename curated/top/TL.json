@@ -1,0 +1,110 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tl_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "TL",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_tl_radio-liberdade-dili",
+   "name": "Radio Liberdade Dili",
+   "type": "radio",
+   "country": "TL",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.kalohan.net/proxy/raliber?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streaming.kalohan.net/proxy/raliber?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tl_awr-timor-leste",
+   "name": "AWR TImor Leste",
+   "type": "radio",
+   "country": "TL",
+   "category": "music",
+   "stream": {
+    "url": "https://mediacp-id1.arenastreaming.com:2020/stream/awrtimorleste",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://mediacp-id1.arenastreaming.com:2020/stream/awrtimorleste"
+   ]
+  },
+  {
+   "id": "tuno:top_tl_mauloko-fm",
+   "name": "Mauloko FM",
+   "type": "radio",
+   "country": "TL",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.kalohan.net/proxy/mauloko?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://streaming.kalohan.net/proxy/mauloko?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tl_povu-viqueque-fm",
+   "name": "Povu Viqueque FM",
+   "type": "radio",
+   "country": "TL",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.kalohan.net/proxy/viqueque?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://streaming.kalohan.net/proxy/viqueque?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tl_radio-rakambia-fm",
+   "name": "Radio Rakambia FM",
+   "type": "radio",
+   "country": "TL",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.kalohan.net/proxy/rakambia?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streaming.kalohan.net/proxy/rakambia?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tl_radio-rede-timor-leste-live",
+   "name": "Radio rede timor-leste live",
+   "type": "radio",
+   "country": "TL",
+   "category": "music",
+   "stream": {
+    "url": "https://sonicpanel.oficialserver.com:7186/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://sonicpanel.oficialserver.com:7186/;"
+   ]
+  }
+ ]
+}

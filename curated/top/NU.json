@@ -1,0 +1,43 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_nu_maxxima",
+   "name": "MaXXima",
+   "type": "radio",
+   "country": "NU",
+   "category": "music",
+   "stream": {
+    "url": "https://maxxima.mine.nu/maxxima.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://maxxima.mine.nu/maxxima.mp3",
+    "http://maxxima.mine.nu:8000/maxx.ogg"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://maxxima.mine.nu:8000/maxx.ogg",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.maxxima.org/"
+  },
+  {
+   "id": "tuno:top_nu_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "NU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  }
+ ]
+}

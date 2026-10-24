@@ -1,0 +1,584 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_dk_nordic-lodge-copenhagen",
+   "name": "Nordic Lodge Copenhagen",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.streemlion.com:1160/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://radio.streemlion.com:1160/stream"
+   ],
+   "website": "https://www.nordiclodgeradio.com/"
+  },
+  {
+   "id": "tuno:top_dk_dr-p3-copenhagen",
+   "name": "DR P3 Copenhagen",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://drod24l.akamaized.net/all/clear/none/2a/6aa2b7b4b7ee88000129582a/6aa2b7b4b417390001cc4777/stream_fmp4/master_manifest.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://drod24l.akamaized.net/all/clear/none/2a/6aa2b7b4b7ee88000129582a/6aa2b7b4b417390001cc4777/stream_fmp4/master_manifest.m3u8",
+    "http://live-icy.dr.dk/A/A05H.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live-icy.dr.dk/A/A05H.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.dr.dk/p3"
+  },
+  {
+   "id": "tuno:top_dk_nova-fm",
+   "name": "NOVA FM",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerdk.sharp-stream.com/nova_dk_mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://live-bauerdk.sharp-stream.com/nova_dk_mp3"
+   ],
+   "website": "http://www.novafm.dk/"
+  },
+  {
+   "id": "tuno:top_dk_radio-alfa-always-elvis-radio-randers",
+   "name": "Radio Alfa - Always Elvis Radio Randers",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://radioserver.dk/alfa",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radioserver.dk/alfa"
+   ],
+   "website": "https://www.radioalfa.dk/"
+  },
+  {
+   "id": "tuno:top_dk_radio-soft",
+   "name": "Radio Soft",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerdk.sharp-stream.com/radiosoft_dk_mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://live-bauerdk.sharp-stream.com/radiosoft_dk_mp3",
+    "http://tx-bauerdk.sharp-stream.com/http_live.php?i=radiosoft_dk_mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://tx-bauerdk.sharp-stream.com/http_live.php?i=radiosoft_dk_mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioplay.dk/radiosoft"
+  },
+  {
+   "id": "tuno:top_dk_classic-fm",
+   "name": "Classic FM",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://netradio.classicpop.dk/80er",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://netradio.classicpop.dk/80er",
+    "http://webradio.classicfm.dk/classichorsens",
+    "http://netradio.classicfm.dk/cla8d",
+    "https://webradio.classicfm.dk/classicstruer"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://webradio.classicfm.dk/classichorsens",
+     "format": "icecast"
+    },
+    {
+     "url": "http://netradio.classicfm.dk/cla8d",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://classicfm.dk/"
+  },
+  {
+   "id": "tuno:top_dk_retro-radio",
+   "name": "Retro Radio",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://streammp3.retro-radio.dk/retro-mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://streammp3.retro-radio.dk/retro-mp3",
+    "http://stream128.retro-radio.dk/retro"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream128.retro-radio.dk/retro",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_dk_partyfm",
+   "name": "PartyFM",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://www.partyfm.dk/sounds/fart.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://www.partyfm.dk/sounds/fart.mp3",
+    "https://stream1.partyfm.dk/Party128web",
+    "http://stream1.partyfm.dk/Party320"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream1.partyfm.dk/Party128web",
+     "format": "icecast"
+    },
+    {
+     "url": "http://stream1.partyfm.dk/Party320",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.partyfm.dk/"
+  },
+  {
+   "id": "tuno:top_dk_vinylhits-dk",
+   "name": "Vinylhits.dk",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.vinylhits.dk/vinylmp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://stream.vinylhits.dk/vinylmp3"
+   ],
+   "website": "https://vinylhits.dk/"
+  },
+  {
+   "id": "tuno:top_dk_80-s-hits",
+   "name": "80's Hits",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP04.aac",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://live-bauerdk.sharp-stream.com/DK_HQ_RP04.aac"
+   ],
+   "website": "https://radiostationer.dk/187-80-s-hits.html"
+  },
+  {
+   "id": "tuno:top_dk_dr-p1",
+   "name": "DR P1",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://drliveradio2.akamaized.net/hls/live/2118698/p1/playlist-320000.m3u8",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://drliveradio2.akamaized.net/hls/live/2118698/p1/playlist-320000.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_dk_dr-p4",
+   "name": "DR P4",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://drliveradio2.akamaized.net/hls/live/2118698/p4kobenhavn/playlist-320000.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://drliveradio2.akamaized.net/hls/live/2118698/p4kobenhavn/playlist-320000.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_dk_radio-jazz",
+   "name": "Radio Jazz",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://radiojazzcopenhagen.out.airtime.pro/radiojazzcopenhagen_a",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radiojazzcopenhagen.out.airtime.pro/radiojazzcopenhagen_a"
+   ]
+  },
+  {
+   "id": "tuno:top_dk_radio-freja",
+   "name": "Radio Freja",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://solid67.streamupsolutions.com/proxy/ingjmhed?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://solid67.streamupsolutions.com/proxy/ingjmhed?mp=/stream",
+    "http://solid67.streamupsolutions.com:15507/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://solid67.streamupsolutions.com:15507/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radiofreja.dk/"
+  },
+  {
+   "id": "tuno:top_dk_skala-fm",
+   "name": "Skala FM",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://netradio.classicpop.dk/80er",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://netradio.classicpop.dk/80er",
+    "https://webradio.skala.fm/kolding",
+    "https://netradio.skala.fm/ska8d"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://webradio.skala.fm/kolding",
+     "format": "icecast"
+    },
+    {
+     "url": "https://netradio.skala.fm/ska8d",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://skala.fm/"
+  },
+  {
+   "id": "tuno:top_dk_globus-guld",
+   "name": "Globus Guld",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.probroadcast.dk/guldmidt",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.probroadcast.dk/guldmidt",
+    "http://stream.wlmm.dk/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.wlmm.dk/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://globusguld.dk/"
+  },
+  {
+   "id": "tuno:top_dk_radio-abc",
+   "name": "Radio ABC",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://radioserver.dk/abc",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radioserver.dk/abc",
+    "http://netradio.radioabc.dk/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://netradio.radioabc.dk/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioabc.dk/"
+  },
+  {
+   "id": "tuno:top_dk_retro-radio-jul",
+   "name": "Retro-Radio Jul",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://streammp3.retro-radio.dk/retro-mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streammp3.retro-radio.dk/retro-mp3",
+    "http://isstream.kanalplus.fm/TX-1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://isstream.kanalplus.fm/TX-1",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.retro-radio.dk/netradio/jul.php"
+  },
+  {
+   "id": "tuno:top_dk_r-b-classics",
+   "name": "R&B Classics",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerdk.sharp-stream.com/RP33_premium_96.aac",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://live-bauerdk.sharp-stream.com/RP33_premium_96.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_dk_la-salsa-del-tren-del-sabor",
+   "name": "La Salsa Del Tren Del Sabor",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://pstnet5.shoutcastnet.com:50384/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://pstnet5.shoutcastnet.com:50384/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_dk_limfjord-plus-slager",
+   "name": "Limfjord Plus Slager",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "http://media.limfjordnetradio.dk/plusslager128",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://media.limfjordnetradio.dk/plusslager128"
+   ],
+   "website": "http://www.limfjordplus.dk/"
+  },
+  {
+   "id": "tuno:top_dk_radio-limfjord",
+   "name": "Radio Limfjord",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "http://media.limfjordnetradio.dk/limfjord128",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://media.limfjordnetradio.dk/limfjord128"
+   ],
+   "website": "http://radiolimfjord.dk/"
+  },
+  {
+   "id": "tuno:top_dk_tango-copenhagen-radio",
+   "name": "Tango Copenhagen Radio",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://tangocopenhagen.stream.laut.fm/tangocopenhagen?t302=2026-10-20_20-38-18&uuid=4fef3974-3ab4-3b33-ded9-a02d958c7d47",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://tangocopenhagen.stream.laut.fm/tangocopenhagen?t302=2026-10-20_20-38-18&uuid=4fef3974-3ab4-3b33-ded9-a02d958c7d47"
+   ],
+   "website": "https://tangocopenhagen.radio/"
+  },
+  {
+   "id": "tuno:top_dk_radio-playback-taastrup",
+   "name": "Radio Playback Taastrup",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream02.radioplayback.dk/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://stream02.radioplayback.dk/stream"
+   ],
+   "website": "http://radioplayback.dk/"
+  },
+  {
+   "id": "tuno:top_dk_radio-humleborg-jazzkanalen-jazz",
+   "name": "Radio Humleborg Jazzkanalen Jazz",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "http://ca6.rcast.net:4058/;stream.mp3?autoplay",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://ca6.rcast.net:4058/;stream.mp3?autoplay",
+    "http://media.wlmm.dk/humleborg.m3u"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://media.wlmm.dk/humleborg.m3u",
+     "format": "hls"
+    }
+   ],
+   "website": "https://humleborg.dk/"
+  },
+  {
+   "id": "tuno:top_dk_rockkanalen",
+   "name": "Rockkanalen",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.kanalplus.fm/kp128",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://stream.kanalplus.fm/kp128",
+    "http://stream.kanalplus.fm/kp96"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.kanalplus.fm/kp96",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.kanalplus.fm/rockkanalen"
+  },
+  {
+   "id": "tuno:top_dk_anr",
+   "name": "ANR",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.anr.dk/anr?t=1792521507303",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream.anr.dk/anr?t=1792521507303"
+   ],
+   "website": "http://anr.dk/"
+  },
+  {
+   "id": "tuno:top_dk_the-voice",
+   "name": "The Voice",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerdk.sharp-stream.com/thevoice_dk_mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://live-bauerdk.sharp-stream.com/thevoice_dk_mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_dk_radio-nord",
+   "name": "Radio Nord",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "https://netradio.radionord.dk:8443/NordVend",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://netradio.radionord.dk:8443/NordVend",
+    "http://netradio.radionord.dk:8000/RadioNord"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://netradio.radionord.dk:8000/RadioNord",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radionord.dk/"
+  },
+  {
+   "id": "tuno:top_dk_always-elvis-radio",
+   "name": "Always Elvis Radio",
+   "type": "radio",
+   "country": "DK",
+   "category": "music",
+   "stream": {
+    "url": "http://radioserver.dk/alwayselvisradio",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://radioserver.dk/alwayselvisradio"
+   ],
+   "website": "https://www.memphismansion.com/"
+  }
+ ]
+}

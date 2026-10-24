@@ -1,0 +1,456 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mq_martinique-1ere",
+   "name": "Martinique 1ère",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://martinique.ice.infomaniak.ch/martinique-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://martinique.ice.infomaniak.ch/martinique-128.mp3"
+   ],
+   "website": "https://la1ere.francetvinfo.fr/martinique/"
+  },
+  {
+   "id": "tuno:top_mq_bel-radio-martinique",
+   "name": "Bel'Radio - Martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://n06-eu2.rcs.revma.com/9b1a2gyspwzuv?rj-ttl=5&rj-tok=AAABoVrbYPkAZ19ojtBrBYN47g",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://n06-eu2.rcs.revma.com/9b1a2gyspwzuv?rj-ttl=5&rj-tok=AAABoVrbYPkAZ19ojtBrBYN47g",
+    "https://stream.rcs.revma.com/9b1a2gyspwzuv",
+    "https://n25-eu.rcs.revma.com/9b1a2gyspwzuv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/9b1a2gyspwzuv",
+     "format": "icecast"
+    },
+    {
+     "url": "https://n25-eu.rcs.revma.com/9b1a2gyspwzuv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://belradio.fr/bel-radio-martinique-en-direct-2/"
+  },
+  {
+   "id": "tuno:top_mq_radio-fusion",
+   "name": "Radio Fusion",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "http://france16.coollabel-productions.com:8276/;listen.m3u",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://france16.coollabel-productions.com:8276/;listen.m3u"
+   ],
+   "website": "http://radiofusion.fr/"
+  },
+  {
+   "id": "tuno:top_mq_rci-martinique",
+   "name": "RCI Martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/t0abpqyspwzuv",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.rcs.revma.com/t0abpqyspwzuv"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_super-radio",
+   "name": "Super Radio",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://superradio.streamakaci.com/superradio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://superradio.streamakaci.com/superradio.mp3",
+    "http://str81.streamakaci.com:9160/"
+   ],
+   "website": "http://www.cayali.fr/"
+  },
+  {
+   "id": "tuno:top_mq_nord-fm-martinique",
+   "name": "Nord FM Martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://nordfm.ice.infomaniak.ch/nordfm-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://nordfm.ice.infomaniak.ch/nordfm-128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_radio-zoukla",
+   "name": "Radio Zoukla",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://ecmanager4.pro-fhi.net:2605/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://ecmanager4.pro-fhi.net:2605/stream"
+   ],
+   "website": "https://www.telezoukla.com/"
+  },
+  {
+   "id": "tuno:top_mq_radio-mojito",
+   "name": "Radio Mojito",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://charlekingradio.ice.infomaniak.ch/ckradio-192.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://charlekingradio.ice.infomaniak.ch/ckradio-192.mp3",
+    "https://fmcpmediatest.ice.infomaniak.ch/fmcp-128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://fmcpmediatest.ice.infomaniak.ch/fmcp-128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.ckradio.fr/"
+  },
+  {
+   "id": "tuno:top_mq_radio-sud-est-martinique",
+   "name": "radio sud-est Martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "http://sv1.vestaradio.com/RADIOSUDEST",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://sv1.vestaradio.com/RADIOSUDEST"
+   ],
+   "website": "http://www.radiosudest.com/"
+  },
+  {
+   "id": "tuno:top_mq_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mq_identite-radio",
+   "name": "Identité Radio",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/26860/stream/59584",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://listen.radioking.com/radio/26860/stream/59584"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_rci-dancehall",
+   "name": "RCI Dancehall",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://n06-eu2.rcs.revma.com/5stt0yrtpwzuv?rj-ttl=5&rj-tok=AAABoVrb0XAA00QETTQop9pIPQ",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://n06-eu2.rcs.revma.com/5stt0yrtpwzuv?rj-ttl=5&rj-tok=AAABoVrb0XAA00QETTQop9pIPQ",
+    "https://stream.rcs.revma.com/5stt0yrtpwzuv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/5stt0yrtpwzuv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radoxo.com/martinique/rci-dancehall"
+  },
+  {
+   "id": "tuno:top_mq_mouv-fm",
+   "name": "Mouv FM",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioking.io/mouvfm/300106",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://play.radioking.io/mouvfm/300106"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_handi-fm-martinique",
+   "name": "Handi FM Martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://hosting.studioradiomedia.fr:2725/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://hosting.studioradiomedia.fr:2725/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_cherie-fm-martinique",
+   "name": "Chérie FM Martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://maxxi.studio/listen/cheriefmmq/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://maxxi.studio/listen/cheriefmmq/radio.mp3"
+   ],
+   "website": "https://cheriefmantilles.fr/"
+  },
+  {
+   "id": "tuno:top_mq_nrj-martinique",
+   "name": "NRJ martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/ouquwgyoeo8p",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/ouquwgyoeo8p"
+   ],
+   "website": "https://nrjantilles.com/"
+  },
+  {
+   "id": "tuno:top_mq_maxxi-martinique",
+   "name": "MAXXI Martinique",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://maxxi.studio/hls/maxximq/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://maxxi.studio/hls/maxximq/live.m3u8",
+    "https://maxxi.studio/listen/maxximq/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://maxxi.studio/listen/maxximq/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://maxxi.fm/"
+  },
+  {
+   "id": "tuno:top_mq_suitemelodie",
+   "name": "SuiteMélodie",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/558710/stream/618227",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://listen.radioking.com/radio/558710/stream/618227"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_loxii-radio",
+   "name": "LOXII RADIO",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://loxiiradio.duckdns.org/listen/loxii-radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://loxiiradio.duckdns.org/listen/loxii-radio/radio.mp3"
+   ],
+   "website": "https://loxii-radio.netlify.app/"
+  },
+  {
+   "id": "tuno:top_mq_kanne-l-ma-web-radio",
+   "name": "KANNE'L ma Web Radio",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/695612/stream/760481",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://listen.radioking.com/radio/695612/stream/760481"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_radio-merci-seigneur",
+   "name": "Radio Merci Seigneur",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/304243/stream/350998",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://listen.radioking.com/radio/304243/stream/350998"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_actif-canal-sports",
+   "name": "Actif Canal Sports",
+   "type": "radio",
+   "country": "MQ",
+   "category": "sports",
+   "stream": {
+    "url": "https://centova12.instainternet.com/proxy/acs?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://centova12.instainternet.com/proxy/acs?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_actif-reggae",
+   "name": "Actif Reggae",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://centova12.instainternet.com//proxy/actifreggae?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://centova12.instainternet.com//proxy/actifreggae?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_antenna-web-fort-de-france",
+   "name": "Antenna Web Fort-de-France",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "http://tinyurl.com/AntennaWebFort-de-France",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://tinyurl.com/AntennaWebFort-de-France"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_othentik-radio",
+   "name": "Othentik Radio",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/538844/stream/597449",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://listen.radioking.com/radio/538844/stream/597449"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_bsofm",
+   "name": "BSOFM",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/643261/stream/706360",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://listen.radioking.com/radio/643261/stream/706360"
+   ]
+  },
+  {
+   "id": "tuno:top_mq_radio-celeste",
+   "name": "Radio Céleste",
+   "type": "radio",
+   "country": "MQ",
+   "category": "music",
+   "stream": {
+    "url": "https://hoth.alonhosting.com:1080//stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://hoth.alonhosting.com:1080//stream"
+   ]
+  }
+ ]
+}

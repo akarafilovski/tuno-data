@@ -1,0 +1,515 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ca_cjcl-sportsnet-590-the-fan-toronto",
+   "name": "CJCL Sportsnet 590 The FAN Toronto",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://rogers-hls.leanstream.co/rogers/tor590.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://rogers-hls.leanstream.co/rogers/tor590.stream/playlist.m3u8"
+   ],
+   "website": "https://www.sportsnet.ca/590/"
+  },
+  {
+   "id": "tuno:top_ca_crucial-velocity-radio-milverton",
+   "name": "Crucial Velocity Radio Milverton",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-sa2.cdnstream1.com/1369_128?_=1792520704771",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://ais-sa2.cdnstream1.com/1369_128?_=1792520704771"
+   ],
+   "website": "http://crucialvelocity.ca/"
+  },
+  {
+   "id": "tuno:top_ca_airport-lounge-radio",
+   "name": "AIRPORT LOUNGE RADIO",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://az1.mediacp.eu/listen/airport-lounge-radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://az1.mediacp.eu/listen/airport-lounge-radio/radio.mp3",
+    "https://kathy.torontocast.com:3350/"
+   ],
+   "website": "https://radiosuitenetwork.torontocast.stream/airport-lounge-radio/"
+  },
+  {
+   "id": "tuno:top_ca_98",
+   "name": "98",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CHMPFMAAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CHMPFMAAC.m3u8?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_98-1-chfi",
+   "name": "98.1 CHFI",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://rogers-hls.leanstream.co/rogers/tor981.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://rogers-hls.leanstream.co/rogers/tor981.stream/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_rdmix-classic-rock-70s-80s-90s",
+   "name": "# RdMix Classic Rock 70s 80s 90s",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://cast1.torontocast.com:4610/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://cast1.torontocast.com:4610/stream"
+   ],
+   "website": "https://radiodimensionemix.torontocast.stream/"
+  },
+  {
+   "id": "tuno:top_ca_the-beat-92-5",
+   "name": "The Beat 92.5",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CKBEFMAAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CKBEFMAAC.m3u8?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_cbc-radio-1-toronto",
+   "name": "CBC Radio 1 Toronto",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://cbcradiolive.akamaized.net/hls/live/2041037/ES_R1ETT/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://cbcradiolive.akamaized.net/hls/live/2041037/ES_R1ETT/master.m3u8",
+    "https://cbcradiolive.akamaized.net/hls/live/2041036/ES_R1ETR/master.m3u8",
+    "https://cbcradiolive.akamaized.net/hls/live/2041036/ES_R1ETR/adaptive_128/chunklist_ao.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cbcradiolive.akamaized.net/hls/live/2041036/ES_R1ETR/master.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "https://cbcradiolive.akamaized.net/hls/live/2041036/ES_R1ETR/adaptive_128/chunklist_ao.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.cbc.ca/listen/live-radio"
+  },
+  {
+   "id": "tuno:top_ca_cbc-radio-one",
+   "name": "CBC Radio One",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBLAFM_CBC.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CBLAFM_CBC.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_chronix-radio-metalcore",
+   "name": "ChroniX Radio Metalcore",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "http://usa17.fastcast4u.com:5508/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://usa17.fastcast4u.com:5508/stream",
+    "http://usa17.fastcast4u.com:5508/"
+   ],
+   "website": "http://chronixradio.net/"
+  },
+  {
+   "id": "tuno:top_ca_classic-rock-109",
+   "name": "Classic Rock 109",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.classicrock109.com:10042/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://listen.classicrock109.com:10042/;"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_ici-radio-canada-premiere-montreal",
+   "name": "ICI Radio-Canada Première Montréal",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://rcavliveaudio.akamaized.net/hls/live/2006635/P-2QMTL0_MTL/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://rcavliveaudio.akamaized.net/hls/live/2006635/P-2QMTL0_MTL/playlist.m3u8"
+   ],
+   "website": "https://ici.radio-canada.ca/premiere"
+  },
+  {
+   "id": "tuno:top_ca_boom-97-3",
+   "name": "Boom 97.3",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://newcap.leanstream.co/CHBMFM?",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://newcap.leanstream.co/CHBMFM?"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_100-greatest-jazz-lounge-bar",
+   "name": "# 100 GREATEST JAZZ LOUNGE BAR",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://cast1.torontocast.com:4640/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://cast1.torontocast.com:4640/stream"
+   ],
+   "website": "https://100-greatest-network.torontocast.stream/"
+  },
+  {
+   "id": "tuno:top_ca_96-9-ckoi",
+   "name": "96.9 CKOI",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CKOIFMAAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CKOIFMAAC.m3u8?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_labgate-p-yg-pink-floyd",
+   "name": "Labgate P.YG. Pink Floyd",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.ssl-stream.com/radio/8160/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://s2.ssl-stream.com/radio/8160/radio.mp3"
+   ],
+   "website": "https://labgateradio.com/"
+  },
+  {
+   "id": "tuno:top_ca_kiss-92-5",
+   "name": "KiSS 92.5",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://rogers-hls.leanstream.co/rogers/tor925.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://rogers-hls.leanstream.co/rogers/tor925.stream/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_680-news-toronto",
+   "name": "680 News Toronto",
+   "type": "radio",
+   "country": "CA",
+   "category": "talk",
+   "stream": {
+    "url": "https://rogers-hls.leanstream.co/rogers/tor680.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://rogers-hls.leanstream.co/rogers/tor680.stream/playlist.m3u8"
+   ],
+   "website": "https://www.680news.com/"
+  },
+  {
+   "id": "tuno:top_ca_bpm-sports",
+   "name": "BPM Sports",
+   "type": "radio",
+   "country": "CA",
+   "category": "sports",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CKLXFMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CKLXFMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_rock-95",
+   "name": "Rock 95",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://corus.leanstream.co/CFMIFM",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://corus.leanstream.co/CFMIFM",
+    "https://rogers-hls.leanstream.co/rogers/nor1019.stream/icy?environment=tunein&args=tunein_01"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rogers-hls.leanstream.co/rogers/nor1019.stream/icy?environment=tunein&args=tunein_01",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.1019rock.ca/"
+  },
+  {
+   "id": "tuno:top_ca_cfrb-news-talk-1010-toronto",
+   "name": "CFRB News/Talk 1010 (Toronto",
+   "type": "radio",
+   "country": "CA",
+   "category": "talk",
+   "stream": {
+    "url": "http://18213.live.streamtheworld.com:3690/CFRBAMAAC_SC",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://18213.live.streamtheworld.com:3690/CFRBAMAAC_SC"
+   ],
+   "website": "https://www.iheartradio.ca/newstalk-1010"
+  },
+  {
+   "id": "tuno:top_ca_choi-98-1-radio-x-quebec-city",
+   "name": "CHOI 98.1 \"Radio X\" Quebec City",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast-choi.rncm.ca/choi.aac",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://icecast-choi.rncm.ca/choi.aac",
+    "http://icecast-choi.rncm.ca/choi.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast-choi.rncm.ca/choi.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiox.com/"
+  },
+  {
+   "id": "tuno:top_ca_ctv-news-audio-channel",
+   "name": "CTV News Audio Channel",
+   "type": "radio",
+   "country": "CA",
+   "category": "talk",
+   "stream": {
+    "url": "http://26103.live.streamtheworld.com/TV_CTV_NEWSAAC_SC",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://26103.live.streamtheworld.com/TV_CTV_NEWSAAC_SC"
+   ],
+   "website": "http://www.ctvnews.ca/"
+  },
+  {
+   "id": "tuno:top_ca_shere-e-punjab-radio",
+   "name": "Shere E Punjab Radio",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-sa1.streamon.fm/7676_48k.aac",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://ais-sa1.streamon.fm/7676_48k.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_radio-bluesflac",
+   "name": "Radio BluesFlac",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "http://streams.radiomast.io/radioblues-flac",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://streams.radiomast.io/radioblues-flac"
+   ],
+   "website": "https://bluesflac.com/"
+  },
+  {
+   "id": "tuno:top_ca_80-s-new-wave-radio",
+   "name": "80's New Wave Radio",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://puma.streemlion.com:2910/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://puma.streemlion.com:2910/stream"
+   ],
+   "website": "https://newwaveradio.org/"
+  },
+  {
+   "id": "tuno:top_ca_prog-frog",
+   "name": "Prog Frog",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://eagle.streemlion.com/proxy/dkfmjay1/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://eagle.streemlion.com/proxy/dkfmjay1/stream",
+    "http://eagle.streemlion.com:4040/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://eagle.streemlion.com:4040/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.prog-frog.com/progfrog/"
+  },
+  {
+   "id": "tuno:top_ca_ancient-fm",
+   "name": "Ancient FM",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaserv73.live-streams.nl:18058/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://mediaserv73.live-streams.nl:18058/stream"
+   ],
+   "website": "https://www.ancientfm.com/"
+  },
+  {
+   "id": "tuno:top_ca_rythme-fm",
+   "name": "Rythme FM",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CFGLFMAAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CFGLFMAAC.m3u8?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ca_gritty-rock-radio",
+   "name": "Gritty Rock Radio",
+   "type": "radio",
+   "country": "CA",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/10713/stream/224413",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://listen.radioking.com/radio/10713/stream/224413",
+    "https://listen.radioking.com/radio/10713/stream/21674"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.radioking.com/radio/10713/stream/21674",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.grittyrockradio.com/"
+  }
+ ]
+}

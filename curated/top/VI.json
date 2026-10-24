@@ -1,0 +1,230 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_vi_wstx-am-970-christiansted",
+   "name": "WSTX-AM 970 Christiansted",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "http://wstxradio2.serverroom.net:8340/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://wstxradio2.serverroom.net:8340/;"
+   ],
+   "website": "http://www.wstxradio.com/"
+  },
+  {
+   "id": "tuno:top_vi_the-reef-waxj",
+   "name": "The Reef - WAXJ",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/a90306",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streaming.live365.com/a90306"
+   ]
+  },
+  {
+   "id": "tuno:top_vi_brn-radio-arabic-channel",
+   "name": "BRN Radio - Arabic Channel",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "http://192.241.185.108:8094/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://192.241.185.108:8094/stream"
+   ],
+   "website": "http://brnradio.com/"
+  },
+  {
+   "id": "tuno:top_vi_exa-fm-pop-music-in-spanish-and-english",
+   "name": "EXA FM: Pop music in Spanish and English",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac"
+   ],
+   "website": "https://www.exafm.com/veracruz/"
+  },
+  {
+   "id": "tuno:top_vi_beach-bar-radio",
+   "name": "Beach Bar Radio",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/s23d2a636c/listen",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://streaming.radio.co/s23d2a636c/listen"
+   ],
+   "website": "https://beachbarstjohn.com/"
+  },
+  {
+   "id": "tuno:top_vi_caribbean-praise-radio",
+   "name": "Caribbean Praise Radio",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://c30.radioboss.fm:8795/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://c30.radioboss.fm:8795/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_vi_hiphop",
+   "name": "Hiphop",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.181fm.com/181-oldschool_128k.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://listen.181fm.com/181-oldschool_128k.mp3"
+   ],
+   "website": "http://listen.181fm.com/181-oldschool_128k.mp3"
+  },
+  {
+   "id": "tuno:top_vi_wtjx",
+   "name": "WTJX",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://quarrel.streamguys1.com:7405/wtjxfm",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://quarrel.streamguys1.com:7405/wtjxfm"
+   ],
+   "website": "https://quarrel.streamguys1.com:7405/wtjxfm"
+  },
+  {
+   "id": "tuno:top_vi_107-9-fm-da-vybe",
+   "name": "107.9 FM Da Vybe",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://ice3.securenetsystems.net/WLDV",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://ice3.securenetsystems.net/WLDV"
+   ],
+   "website": "https://www.davybe.com/"
+  },
+  {
+   "id": "tuno:top_vi_wdhp-the-reef",
+   "name": "WDHP The Reef",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/a11114",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streaming.live365.com/a11114"
+   ]
+  },
+  {
+   "id": "tuno:top_vi_from-the-heart-radio",
+   "name": "From The Heart Radio",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://global2.citrus3.com:8316/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://global2.citrus3.com:8316/stream",
+    "https://global2.citrus3.com:2020/stream/fromtheheartradio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://global2.citrus3.com:2020/stream/fromtheheartradio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.fromtheheartradio.net/"
+  },
+  {
+   "id": "tuno:top_vi_radio-elim-lldm",
+   "name": "Radio Elim LLDM",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.elimlldm.net/listen/elim_lldm/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio.elimlldm.net/listen/elim_lldm/radio.mp3"
+   ],
+   "website": "https://radio.elimlldm.net/public/elim_lldm"
+  },
+  {
+   "id": "tuno:top_vi_antenna-web-cruz-bay",
+   "name": "Antenna Web Cruz Bay",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Cruz-Bay",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Cruz-Bay"
+   ]
+  },
+  {
+   "id": "tuno:top_vi_wtjc-lp",
+   "name": "WTJC-LP",
+   "type": "radio",
+   "country": "VI",
+   "category": "music",
+   "stream": {
+    "url": "http://s9.viastreaming.net:7820/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://s9.viastreaming.net:7820/;"
+   ]
+  }
+ ]
+}

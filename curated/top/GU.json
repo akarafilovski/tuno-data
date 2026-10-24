@@ -1,0 +1,196 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gu_kusg",
+   "name": "KUSG",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://ice10.securenetsystems.net/KUSG",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://ice10.securenetsystems.net/KUSG"
+   ],
+   "website": "http://thepoint.gu/"
+  },
+  {
+   "id": "tuno:top_gu_the-kat-kgum-fm",
+   "name": "The Kat - KGUM-FM",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://ice2.securenetsystems.net/KGUMFM?ver=274640",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://ice2.securenetsystems.net/KGUMFM?ver=274640"
+   ]
+  },
+  {
+   "id": "tuno:top_gu_kiji-104-3-fm-hagatna",
+   "name": "KIJI 104.3 FM Hagatna",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://ice10.securenetsystems.net/KIJI?playSessionID=8D073529-999A-4B18-19984FE6C6E0A82D",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://ice10.securenetsystems.net/KIJI?playSessionID=8D073529-999A-4B18-19984FE6C6E0A82D"
+   ],
+   "website": "https://boss104.gu/"
+  },
+  {
+   "id": "tuno:top_gu_tfc-guam",
+   "name": "TFC Guam",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://tfcguam-abscbn-ono.amagi.tv/index.m3u8"
+   ],
+   "website": "https://mytfc.com/"
+  },
+  {
+   "id": "tuno:top_gu_harvest-family-radio-guam",
+   "name": "Harvest Family Radio Guam",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://das-edge63-live365-dal03.cdnstream.com/a11295",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://das-edge63-live365-dal03.cdnstream.com/a11295",
+    "https://streaming.live365.com/a11295"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.live365.com/a11295",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://khmg.org/"
+  },
+  {
+   "id": "tuno:top_gu_harvest-family-radio",
+   "name": "Harvest Family Radio",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/a11295",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streaming.live365.com/a11295"
+   ]
+  },
+  {
+   "id": "tuno:top_gu_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gu_the-breeze-93-9-fm",
+   "name": "The Breeze 93.9 FM",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://www.ophanim.net:8444/s/8370",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://www.ophanim.net:8444/s/8370"
+   ]
+  },
+  {
+   "id": "tuno:top_gu_power-98",
+   "name": "Power 98",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://ice3.securenetsystems.net/KZGZ",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://ice3.securenetsystems.net/KZGZ"
+   ]
+  },
+  {
+   "id": "tuno:top_gu_isla-63-kuam",
+   "name": "Isla 63 - KUAM",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://www.ophanim.net:8444/s/9010",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://www.ophanim.net:8444/s/9010"
+   ]
+  },
+  {
+   "id": "tuno:top_gu_kprg",
+   "name": "KPRG",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "http://peridot.streamguys.com:5090/live",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://peridot.streamguys.com:5090/live"
+   ]
+  },
+  {
+   "id": "tuno:top_gu_antenna-web-guam",
+   "name": "Antenna Web Guam",
+   "type": "radio",
+   "country": "GU",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Guam",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Guam"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,486 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_np_radio-nepal",
+   "name": "Radio Nepal",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream1.radionepal.gov.np/live/",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream1.radionepal.gov.np/live/",
+    "https://astream.nepalipatro.com.np:8147/index.html"
+   ],
+   "website": "https://radionepal.gov.np/"
+  },
+  {
+   "id": "tuno:top_np_hits-fm",
+   "name": "Hits FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://usa15.fastcast4u.com/proxy/hitsfm912?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://usa15.fastcast4u.com/proxy/hitsfm912?mp=/1"
+   ],
+   "website": "http://www.hitsfm.com.np/"
+  },
+  {
+   "id": "tuno:top_np_capital-fm",
+   "name": "Capital FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.softnep.net:10982/;stream.nsv&type=mp3&volume=10",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streaming.softnep.net:10982/;stream.nsv&type=mp3&volume=10"
+   ],
+   "website": "http://www.cfmonair.com/"
+  },
+  {
+   "id": "tuno:top_np_swadesh-fm",
+   "name": "Swadesh FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "http://216.55.141.189:8653/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://216.55.141.189:8653/;stream/1",
+    "http://216.55.141.189:8653/stream?type=http&nocache=66846"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://216.55.141.189:8653/stream?type=http&nocache=66846",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hamropatro.com/radio"
+  },
+  {
+   "id": "tuno:top_np_radio-annapurna-nepal",
+   "name": "Radio Annapurna Nepal",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://shoutcast.prixa.live/annapurna",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://shoutcast.prixa.live/annapurna",
+    "https://www.hamropatro.com/api/radio/stream/34"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.hamropatro.com/api/radio/stream/34",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_np_kalika-fm",
+   "name": "Kalika FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "http://kalika-stream.softnep.com:7740/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://kalika-stream.softnep.com:7740/;",
+    "https://streaming.softnep.net:10828/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.softnep.net:10828/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.kalikafm.com.np/"
+  },
+  {
+   "id": "tuno:top_np_image-fm",
+   "name": "Image FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://www.hamropatro.com/api/radio/stream/9",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://www.hamropatro.com/api/radio/stream/9",
+    "https://radio-streaming-serv-1.hamropatro.com:8100/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_np_bbc-nepali",
+   "name": "BBC Nepali",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_nepali_radio",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.live.vc.bbcmedia.co.uk/bbc_nepali_radio"
+   ],
+   "website": "https://www.bbc.com/nepali"
+  },
+  {
+   "id": "tuno:top_np_bfbs-gurkha-radio",
+   "name": "BFBS Gurkha Radio",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs3.mp3?platform=website",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs3.mp3?platform=website",
+    "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs3.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs3.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radio.bfbs.com/stations/bfbs-gurkha-network"
+  },
+  {
+   "id": "tuno:top_np_bhojpuriya-fm",
+   "name": "Bhojpuriya FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming.softnep.net:8143/;stream.nsv&type=mp3&volume=60",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://streaming.softnep.net:8143/;stream.nsv&type=mp3&volume=60",
+    "https://www.hamropatro.com/api/radio/stream/64"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.hamropatro.com/api/radio/stream/64",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_np_station",
+   "name": "रेडियो हिमालय",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://live.itech.host/himalayaradio",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://live.itech.host/himalayaradio"
+   ],
+   "website": "https://radiohimalaya.com/"
+  },
+  {
+   "id": "tuno:top_np_cin-khabar",
+   "name": "CIN Khabar",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.softnep.net:10996/;stream.nsv&type=mp3&volume=60",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://streaming.softnep.net:10996/;stream.nsv&type=mp3&volume=60"
+   ],
+   "website": "https://www.cinkhabar.com/"
+  },
+  {
+   "id": "tuno:top_np_nepali-radio",
+   "name": "Nepali Radio",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "http://live.itechnepal.com:8541/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://live.itechnepal.com:8541/stream",
+    "https://www.hamropatro.com/api/radio/stream/1754975892132"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.hamropatro.com/api/radio/stream/1754975892132",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_np_bbc-nepali-103-mhz",
+   "name": "BBC Nepali 103 MHz",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.live.vc.bbcmedia.co.uk/bbc_nepali_radio",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://stream.live.vc.bbcmedia.co.uk/bbc_nepali_radio"
+   ],
+   "website": "https://bbc.co.uk/nepali"
+  },
+  {
+   "id": "tuno:top_np_naya-radio",
+   "name": "Naya Radio",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "http://live.itech.host:1110/;",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://live.itech.host:1110/;",
+    "https://dn710705.ca.archive.org/0/items/RamKrishnaDhakalBestsongCollection/Ram_Krishna_Dhakal_bestsong_collection.mp3"
+   ],
+   "website": "https://www.nayafm.com.np/"
+  },
+  {
+   "id": "tuno:top_np_sky-fm-106-6",
+   "name": "Sky FM 106.6",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://onlineradio.websoftitnepal.com/8002/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://onlineradio.websoftitnepal.com/8002/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_np_radiosagar",
+   "name": "RadioSagar",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://eu1.fastcast4u.com/proxy/radiosag?mp=/stream/1/",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://eu1.fastcast4u.com/proxy/radiosag?mp=/stream/1/"
+   ]
+  },
+  {
+   "id": "tuno:top_np_butwal-fm",
+   "name": "Butwal FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.softnep.net:10994/;stream.nsv&type=mp3&volume=70",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streaming.softnep.net:10994/;stream.nsv&type=mp3&volume=70"
+   ],
+   "website": "https://www.butwaldiary.com/"
+  },
+  {
+   "id": "tuno:top_np_kool-fm-90-3",
+   "name": "KOOL FM 90.3",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.softnep.net:10944/;stream.nsv&type=mp3&volume=70",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streaming.softnep.net:10944/;stream.nsv&type=mp3&volume=70"
+   ],
+   "website": "https://www.kool903.com/"
+  },
+  {
+   "id": "tuno:top_np_jayaprithvi-f-m",
+   "name": "Jayaprithvi F.M.",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.softnep.net:10824/;stream.nsv&type=mp3&volume=70",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://streaming.softnep.net:10824/;stream.nsv&type=mp3&volume=70"
+   ],
+   "website": "https://www.jpkhabar.com/"
+  },
+  {
+   "id": "tuno:top_np_radio-thaha-sanchar",
+   "name": "Radio Thaha Sanchar",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.softnep.net:10988/;stream.nsv&type=mp3&volume=70",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://streaming.softnep.net:10988/;stream.nsv&type=mp3&volume=70"
+   ],
+   "website": "https://thahasanchar.com/live"
+  },
+  {
+   "id": "tuno:top_np_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_np_napho-radio-fm-88-25",
+   "name": "Napho Radio FM 88.25",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio11.plathong.net/7136/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://radio11.plathong.net/7136/;stream.mp3"
+   ],
+   "website": "http://naphoradio.com/"
+  },
+  {
+   "id": "tuno:top_np_chitwan-radio-network",
+   "name": "Chitwan Radio Network",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://www.hamropatro.com/api/radio/stream/123",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://www.hamropatro.com/api/radio/stream/123"
+   ]
+  },
+  {
+   "id": "tuno:top_np_radio-rudraksha",
+   "name": "Radio Rudraksha",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.softnep.net:10874/;stream.nsv&type=mp3&volume=50",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://streaming.softnep.net:10874/;stream.nsv&type=mp3&volume=50"
+   ]
+  },
+  {
+   "id": "tuno:top_np_nepali-radio-network",
+   "name": "Nepali Radio Network",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://www.hamropatro.com/api/radio/stream/560",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://www.hamropatro.com/api/radio/stream/560"
+   ]
+  },
+  {
+   "id": "tuno:top_np_sumiran-fm",
+   "name": "Sumiran FM",
+   "type": "radio",
+   "country": "NP",
+   "category": "music",
+   "stream": {
+    "url": "https://www.hamropatro.com/api/radio/stream/5132813491765248",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://www.hamropatro.com/api/radio/stream/5132813491765248"
+   ]
+  },
+  {
+   "id": "tuno:top_np_bbc-world-service-english",
+   "name": "BBC World Service English",
+   "type": "radio",
+   "country": "NP",
+   "category": "talk",
+   "stream": {
+    "url": "https://www.hamropatro.com/api/radio/stream/5639388954361856",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://www.hamropatro.com/api/radio/stream/5639388954361856"
+   ]
+  }
+ ]
+}

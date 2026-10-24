@@ -1,0 +1,154 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ly_libyana-hits",
+   "name": "Libyana Hits",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://libyanahitsfm.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://libyanahitsfm.radioca.st/stream",
+    "http://proxima.shoutca.st:8946/stream.mp3",
+    "http://proxima.shoutca.st:8946/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://proxima.shoutca.st:8946/stream.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://proxima.shoutca.st:8946/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://libyanahits.fm/#"
+  },
+  {
+   "id": "tuno:top_ly_almunir-radio-tripoli",
+   "name": "Almunir Radio - Tripoli",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://live.munir.ly/proxy/almunirtip/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://live.munir.ly/proxy/almunirtip/stream"
+   ],
+   "website": "https://munir.ly/"
+  },
+  {
+   "id": "tuno:top_ly_al-rasmiya-fm-93-3",
+   "name": "Al Rasmiya FM 93.3",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "http://uk7freenew.listen2myradio.com:32322/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://uk7freenew.listen2myradio.com:32322/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ly_radio-assisi-tripoli",
+   "name": "Radio Assisi Tripoli",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://libya.radioantennaweb.com/Tripoli",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://libya.radioantennaweb.com/Tripoli"
+   ]
+  },
+  {
+   "id": "tuno:top_ly_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ly_radio-alwasat",
+   "name": "Radio Alwasat",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/sd0daa78c9/listen",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streams.radio.co/sd0daa78c9/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_ly_the-salaf-way-fm-100-3",
+   "name": "The Salaf Way FM 100.3",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://c14.radioboss.fm:8384/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://c14.radioboss.fm:8384/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ly_hero-radio-libya",
+   "name": "Hero Radio (Libya)",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/libya.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/libya.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ly_aw-bengasi",
+   "name": "AW Bengasi",
+   "type": "radio",
+   "country": "LY",
+   "category": "music",
+   "stream": {
+    "url": "https://libya.radioantennaweb.com/Bengasi",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://libya.radioantennaweb.com/Bengasi"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mf_tropik-fm-live-from-st-barth",
+   "name": "Tropik FM Live From St Barth",
+   "type": "radio",
+   "country": "MF",
+   "category": "music",
+   "stream": {
+    "url": "https://stream10.vestaradio.com/TROPIKFM",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream10.vestaradio.com/TROPIKFM"
+   ],
+   "website": "http://www.tropikfm.com/"
+  },
+  {
+   "id": "tuno:top_mf_radio-maranatha",
+   "name": "Radio Maranatha",
+   "type": "radio",
+   "country": "MF",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.b4c.tv/r-maranatha",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.b4c.tv/r-maranatha"
+   ]
+  },
+  {
+   "id": "tuno:top_mf_tropikal-fm",
+   "name": "Tropikal FM",
+   "type": "radio",
+   "country": "MF",
+   "category": "music",
+   "stream": {
+    "url": "https://c20.radioboss.fm:8731/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://c20.radioboss.fm:8731/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mf_radio-saint-martin-101-5-fm",
+   "name": "Radio Saint-Martin 101.5 Fm",
+   "type": "radio",
+   "country": "MF",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.voscast.com:9781/xstream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s3.voscast.com:9781/xstream"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,581 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_pl_radio-rmf-fm",
+   "name": "Radio RMF FM",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://rs6-krk2.rmfstream.pl/RMFFM48",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://rs6-krk2.rmfstream.pl/RMFFM48",
+    "http://195.150.20.7/rmf_fm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://195.150.20.7/rmf_fm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.rmf.fm/"
+  },
+  {
+   "id": "tuno:top_pl_vox-fm",
+   "name": "VOX FM",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://waw.ic.smcdn.pl/3990-2.aac",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://waw.ic.smcdn.pl/3990-2.aac",
+    "http://ic2.smcdn.pl/3990-1.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://ic2.smcdn.pl/3990-1.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.voxfm.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radio-zet",
+   "name": "Radio ZET",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ZETAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ZETAAC.aac?dist=onlineradiobox",
+    "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx?audio=5",
+    "https://n-25-21.dcs.redcdn.pl/file/o2/Eurozet/audio/315/0aee72ee5505d21d64d53e6ea7d80272/854a01fb9bfa47a4d5ca175b1fd49f8a.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx?audio=5",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiozet.pl/"
+  },
+  {
+   "id": "tuno:top_pl_polskie-radio-jedynka",
+   "name": "Polskie Radio - Jedynka",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream11.polskieradio.pl/pr1/pr1.sdp/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream11.polskieradio.pl/pr1/pr1.sdp/playlist.m3u8",
+    "https://stream13.polskieradio.pl/pr3/pr3.sdp/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream13.polskieradio.pl/pr3/pr3.sdp/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.polskieradio.pl/jedynka/"
+  },
+  {
+   "id": "tuno:top_pl_radio-eska",
+   "name": "Radio Eska",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://waw.ic.smcdn.pl/2380-1.aac",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://waw.ic.smcdn.pl/2380-1.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_zote-przeboje-warsaw",
+   "name": "Złote Przeboje Warsaw",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "http://radiostream.pl/tuba8928-1.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://radiostream.pl/tuba8928-1.mp3"
+   ],
+   "website": "http://radiostream.pl/tuba8928-1.mp3"
+  },
+  {
+   "id": "tuno:top_pl_radio-ftb-disco-polo",
+   "name": "Radio FTB Disco Polo",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "http://play.radioftb.net:8022/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://play.radioftb.net:8022/;"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_radio-pogoda",
+   "name": "Radio Pogoda",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostream.pl/tuba140-1.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radiostream.pl/tuba140-1.mp3",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_POGODAAAC.aac?dist=onlineradiobox"
+   ],
+   "website": "https://radiopogoda.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radio-357",
+   "name": "Radio 357",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://n04-eu1.rcs.revma.com/ye5kghkgcm0uv?rj-ttl=5&rj-tok=AAABoVp61ccAZ14LG8qKLSe_IQ",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://n04-eu1.rcs.revma.com/ye5kghkgcm0uv?rj-ttl=5&rj-tok=AAABoVp61ccAZ14LG8qKLSe_IQ",
+    "https://stream.rcs.revma.com/ye5kghkgcm0uv",
+    "https://n-11-21.dcs.redcdn.pl/sc/o2/radio357/live/radio357_pr.livx?preroll=0"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/ye5kghkgcm0uv",
+     "format": "icecast"
+    },
+    {
+     "url": "https://n-11-21.dcs.redcdn.pl/sc/o2/radio357/live/radio357_pr.livx?preroll=0",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radio357.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radio-plus",
+   "name": "Radio Plus",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://pl01.cdn.eurozet.pl/plu-waw.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://pl01.cdn.eurozet.pl/plu-waw.mp3",
+    "https://pl02.cdn.eurozet.pl/plu-waw.mp3?redirected=02",
+    "http://waw.ic.smcdn.pl/4990-1.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://pl02.cdn.eurozet.pl/plu-waw.mp3?redirected=02",
+     "format": "icecast"
+    },
+    {
+     "url": "http://waw.ic.smcdn.pl/4990-1.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioplus.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radio-rmf-maxxx",
+   "name": "Radio RMF MAXXX",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://rs9-krk2-cyfronet.rmfstream.pl/RMFMAXXX48",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://rs9-krk2-cyfronet.rmfstream.pl/RMFMAXXX48"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_radio-zlote-przeboje",
+   "name": "Radio Zlote Przeboje",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ZLOTE_PRZEBOJE.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ZLOTE_PRZEBOJE.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_antyradio-warsaw",
+   "name": "Antyradio Warsaw",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://an01.cdn.eurozet.pl/ANTCLA.mp3?redirected=01",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://an01.cdn.eurozet.pl/ANTCLA.mp3?redirected=01",
+    "https://n-25-11.dcs.redcdn.pl/file/o2/Eurozet/audio/314/62ca6d297a50883a4ffd1f97194ed739/e5c62025f5740950aeb7c529f2b16c47.mp3"
+   ],
+   "website": "https://www.antyradio.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radio-rmf-classic",
+   "name": "Radio RMF - Classic",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://rs9-krk2.rmfstream.pl/RMFCLASSIC48",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://rs9-krk2.rmfstream.pl/RMFCLASSIC48",
+    "http://rmfstream1.interia.pl:8000/rmf_classic"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://rmfstream1.interia.pl:8000/rmf_classic",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.rmfclassic.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radio-kiss-fm",
+   "name": "Radio Kiss FM",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KISS_FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KISS_FMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_radio-nowy-swiat",
+   "name": "Radio Nowy Świat",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/ypqt40u0x1zuv",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.rcs.revma.com/ypqt40u0x1zuv",
+    "https://go-audio.toya.net.pl/63214",
+    "https://stream.nowyswiat.online/aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://go-audio.toya.net.pl/63214",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.nowyswiat.online/aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://nowyswiat.online/"
+  },
+  {
+   "id": "tuno:top_pl_meloradio",
+   "name": "Meloradio",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MELORADIOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MELORADIOAAC.aac?dist=onlineradiobox",
+    "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/meloradio.livx?audio=5",
+    "https://n-25-22.dcs.redcdn.pl/file/o2/Eurozet/audio/314/076a4ba52c23ec41144d1e9b9a541c53/b7e569ea441885783c9c2ae173119034.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/meloradio.livx?audio=5",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.meloradio.pl/"
+  },
+  {
+   "id": "tuno:top_pl_polskie-radio-24",
+   "name": "Polskie Radio - 24",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream15.polskieradio.pl/pr24/pr24.sdp/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream15.polskieradio.pl/pr24/pr24.sdp/playlist.m3u8",
+    "http://stream3.polskieradio.pl:8080/;.mp3"
+   ],
+   "website": "https://polskieradio24.pl/"
+  },
+  {
+   "id": "tuno:top_pl_eska-rock",
+   "name": "Eska ROCK",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://waw.ic.smcdn.pl/5380-2.aac",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://waw.ic.smcdn.pl/5380-2.aac",
+    "https://ic2.smcdn.pl/5380-1.mp3#ESKA_ROCK",
+    "http://n05-eu3.rcs.revma.com/1nnezw8qz7zuv",
+    "blob:https://player.eskarock.pl/c286cac5-01cc-45f2-8561-616f1bf2ed72"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ic2.smcdn.pl/5380-1.mp3#ESKA_ROCK",
+     "format": "icecast"
+    },
+    {
+     "url": "http://n05-eu3.rcs.revma.com/1nnezw8qz7zuv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.eskarock.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radio-party-kana-gowny",
+   "name": "Radio Party - Kanał Główny",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radioparty.pl:8015/stream?nocache=4171",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://s2.radioparty.pl:8015/stream?nocache=4171"
+   ],
+   "website": "https://radioparty.pl/ramowka/glowny"
+  },
+  {
+   "id": "tuno:top_pl_radio-silesia",
+   "name": "Radio Silesia",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.slotex.pl:7926/stream/1/?sid=1",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://s1.slotex.pl:7926/stream/1/?sid=1",
+    "https://s1.slotex.pl/shoutcast/7926/stream?sid=1",
+    "http://s1.slotex.pl:7926/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s1.slotex.pl/shoutcast/7926/stream?sid=1",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.silesia.fm/"
+  },
+  {
+   "id": "tuno:top_pl_tokfm",
+   "name": "TokFM",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostream.pl/tuba10-1.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radiostream.pl/tuba10-1.mp3"
+   ],
+   "website": "https://www.tokfm.pl/"
+  },
+  {
+   "id": "tuno:top_pl_chilli-zet-warsaw",
+   "name": "Chilli ZET Warsaw",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://ch.cdn.eurozet.pl/chi-net.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://ch.cdn.eurozet.pl/chi-net.mp3"
+   ],
+   "website": "https://www.chillizet.pl/"
+  },
+  {
+   "id": "tuno:top_pl_eska-goraca-100",
+   "name": "ESKA GORĄCA 100",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "http://ic1.smcdn.pl/6120-1.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://ic1.smcdn.pl/6120-1.mp3"
+   ],
+   "website": "http://eska.pl/"
+  },
+  {
+   "id": "tuno:top_pl_antyradio",
+   "name": "Antyradio",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ANTYRADIOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ANTYRADIOAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_polskie-radio-trojka",
+   "name": "Polskie Radio - Trojka",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream13.polskieradio.pl/pr3/pr3.sdp/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://stream13.polskieradio.pl/pr3/pr3.sdp/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_radio-jasna-gora",
+   "name": "Radio Jasna Gora",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "http://online.radiojasnagora.pl:8000/rjg",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://online.radiojasnagora.pl:8000/rjg"
+   ],
+   "website": "http://www.radiojasnagora.pl/"
+  },
+  {
+   "id": "tuno:top_pl_polskie-radio-kierowcow",
+   "name": "Polskie Radio Kierowców",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream10.polskieradio.pl/prk/rdk.sdp/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream10.polskieradio.pl/prk/rdk.sdp/playlist.m3u8",
+    "http://stream3.polskieradio.pl:8918/;"
+   ],
+   "website": "https://radiokierowcow.pl/"
+  },
+  {
+   "id": "tuno:top_pl_radioparty-pl",
+   "name": "RadioParty.pl",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radioparty.pl:8015/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://s2.radioparty.pl:8015/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pl_radio-wnet",
+   "name": "Radio Wnet",
+   "type": "radio",
+   "country": "PL",
+   "category": "music",
+   "stream": {
+    "url": "https://media.wnet.fm/wnet.fm",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://media.wnet.fm/wnet.fm"
+   ],
+   "website": "http://www.radiownet.pl/"
+  }
+ ]
+}

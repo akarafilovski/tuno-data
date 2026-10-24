@@ -1,0 +1,540 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_th_cool-fahrenheit-bangkok",
+   "name": "COOL fahrenheit Bangkok",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://coolism-web.cdn.byteark.com/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://coolism-web.cdn.byteark.com/;stream/1"
+   ],
+   "website": "http://www.coolism.net/index.php"
+  },
+  {
+   "id": "tuno:top_th_huahin-radio",
+   "name": "Huahin Radio",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio10.plathong.net/7008/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio10.plathong.net/7008/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_th_eingdoi-radio-thailand",
+   "name": "Eingdoi Radio Thailand",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio1.ohmi-design.com/8170/;",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio1.ohmi-design.com/8170/;"
+   ]
+  },
+  {
+   "id": "tuno:top_th_surf-radio",
+   "name": "Surf Radio",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.surf.radio/surf1025",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.surf.radio/surf1025"
+   ],
+   "website": "https://surf.radio/"
+  },
+  {
+   "id": "tuno:top_th_fabulous-103-fm",
+   "name": "Fabulous 103 FM",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://fabulous.thailandstreaming.net/fabulous.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://fabulous.thailandstreaming.net/fabulous.mp3"
+   ],
+   "website": "https://alwayspattaya.com/"
+  },
+  {
+   "id": "tuno:top_th_chili-radio-thailand",
+   "name": "Chili Radio Thailand",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.chiliradio.app/chiliclassics",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream.chiliradio.app/chiliclassics",
+    "https://stream.chiliradio.app/chilipop"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.chiliradio.app/chilipop",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://chiliradio.asia/"
+  },
+  {
+   "id": "tuno:top_th_looktung-eingdoi-station-thailand-bangkok",
+   "name": "เพลงลูกทุ่ง Looktung Eingdoi Station Thailand Bangkok",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://inter.lannaradio.com/radio/8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://inter.lannaradio.com/radio/8000/radio.mp3"
+   ],
+   "website": "https://www.eingdoi.com/looktung/"
+  },
+  {
+   "id": "tuno:top_th_cool-93-fahrenheit",
+   "name": "COOL 93 Fahrenheit",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://coolism-web.cdn.byteark.com/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://coolism-web.cdn.byteark.com/;stream/1"
+   ]
+  },
+  {
+   "id": "tuno:top_th_90-rakthai",
+   "name": "90 rakthai",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "http://radio11.plathong.net:8896/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://radio11.plathong.net:8896/;stream.mp3"
+   ],
+   "website": "http://radio11.plathong.net:8896/;stream.mp3"
+  },
+  {
+   "id": "tuno:top_th_90-5",
+   "name": "มิติข่าว 90.5",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://live1.smartbomb.co.th/live",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://live1.smartbomb.co.th/live",
+    "http://live3.smartbomb.co.th:8624/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live3.smartbomb.co.th:8624/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.smartbomb.co.th/"
+  },
+  {
+   "id": "tuno:top_th_fm-106-5",
+   "name": "ไทยลานนาเรดิโอ FM 106.5 จังหวัดตาก",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://hostpleng.lannaradio.com/radio/8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://hostpleng.lannaradio.com/radio/8000/radio.mp3",
+    "https://inter.lannaradio.com/radio/8000/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://inter.lannaradio.com/radio/8000/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.lannaradio.com/"
+  },
+  {
+   "id": "tuno:top_th_phuket-live-radio-89-5",
+   "name": "Phuket Live Radio 89.5",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio9.plathong.net/8020/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio9.plathong.net/8020/;stream.mp3",
+    "https://4118.radio4.thzhost.com/"
+   ],
+   "website": "https://www.thephuketnews.com/"
+  },
+  {
+   "id": "tuno:top_th_top-news",
+   "name": "Top News",
+   "type": "radio",
+   "country": "TH",
+   "category": "talk",
+   "stream": {
+    "url": "https://live.topnews.co.th/hls/mobile_v1.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://live.topnews.co.th/hls/mobile_v1.m3u8",
+    "https://live.topnews.co.th/hls/topnews.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.topnews.co.th/hls/topnews.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.topnews.co.th/"
+  },
+  {
+   "id": "tuno:top_th_91",
+   "name": "สวพ.91",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://www.fm91bkk.com:8900/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://www.fm91bkk.com:8900/;stream.mp3",
+    "http://122.155.16.48:8955/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://122.155.16.48:8955/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://fm91bkk.com/"
+  },
+  {
+   "id": "tuno:top_th_looktung-eingdoi-station",
+   "name": "Looktung Eingdoi Station เพลงลูกทุ่ง เพื่อชีวิต",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://inter.lannaradio.com/radio/8000/radio.aac",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://inter.lannaradio.com/radio/8000/radio.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_th_thai-pbs-tv",
+   "name": "Thai PBS TV",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8"
+   ],
+   "website": "http://www.thaipbs.or.th/"
+  },
+  {
+   "id": "tuno:top_th_station",
+   "name": "ลูกทุ่งเน็ตเวิร์ค",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "http://media.login.in.th:8200/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://media.login.in.th:8200/;stream.mp3"
+   ],
+   "website": "http://looktung.net/"
+  },
+  {
+   "id": "tuno:top_th_onairplus-city-radio-pattaya",
+   "name": "onairPLUS | City Radio Pattaya",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://media.onair.one:8200/1/;",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://media.onair.one:8200/1/;"
+   ]
+  },
+  {
+   "id": "tuno:top_th_isan-fm-98",
+   "name": "Isan FM 98",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "http://radio11.plathong.net:8900/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://radio11.plathong.net:8900/stream.mp3"
+   ],
+   "website": "http://www.isanfm.com/"
+  },
+  {
+   "id": "tuno:top_th_bluewave-97-cr",
+   "name": "Bluewave 97 (CR)",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://80sv2.hostpleng.com/?url=http://112.121.151.133:8109/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://80sv2.hostpleng.com/?url=http://112.121.151.133:8109/stream",
+    "http://112.121.151.133:8109/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://112.121.151.133:8109/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.bluewave97.com/"
+  },
+  {
+   "id": "tuno:top_th_station_21",
+   "name": "ลูกทุ่ง รักไทย ๙๐",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio11.plathong.net/8896/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://radio11.plathong.net/8896/;stream.mp3",
+    "http://radio11.plathong.net:8896/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio11.plathong.net:8896/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.90rakthai.com/"
+  },
+  {
+   "id": "tuno:top_th_bkk-fm",
+   "name": "BKK.FM",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://va-rsas.bkk.fm/radio?latency=high&t=1792523523133",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://va-rsas.bkk.fm/radio?latency=high&t=1792523523133",
+    "https://rsas.bkk.fm/radio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rsas.bkk.fm/radio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://bkk.fm/"
+  },
+  {
+   "id": "tuno:top_th_thai-love-lovers-90",
+   "name": "Thai Love Lovers 90",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "http://radio11.plathong.net:8896/;",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://radio11.plathong.net:8896/;"
+   ]
+  },
+  {
+   "id": "tuno:top_th_106-family-news-radio",
+   "name": "106 Family News Radio",
+   "type": "radio",
+   "country": "TH",
+   "category": "talk",
+   "stream": {
+    "url": "https://radio11.plathong.net/7138/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://radio11.plathong.net/7138/;stream.mp3",
+    "https://thaipbs-mcx0wm.cdn.byteark.com/vtt-live/playlist.m3u8"
+   ],
+   "website": "https://onair.one/?page_id=405"
+  },
+  {
+   "id": "tuno:top_th_mun-fm",
+   "name": "Mun FM",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn-th2.livestreaming.in.th/shoutcast/8730",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://cdn-th2.livestreaming.in.th/shoutcast/8730"
+   ]
+  },
+  {
+   "id": "tuno:top_th_flex-104-5",
+   "name": "Flex 104.5",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.flexconnect.net/voiceflex/voiceflex/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://streaming.flexconnect.net/voiceflex/voiceflex/playlist.m3u8"
+   ],
+   "website": "https://www.flexconnect.net/"
+  },
+  {
+   "id": "tuno:top_th_yesterday-radio",
+   "name": "Yesterday Radio",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://4122.radio4.thzhost.com/;stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://4122.radio4.thzhost.com/;stream"
+   ]
+  },
+  {
+   "id": "tuno:top_th_rad-radio",
+   "name": "Rad Radio",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.vpsthai.net/proxy/qndrbfic/stream2",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://radio.vpsthai.net/proxy/qndrbfic/stream2",
+    "http://radio1.serverradio.net:8592/;?type=http"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio1.serverradio.net:8592/;?type=http",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://mytuner-radio.com/radio/rad-radio-895-483972/"
+  },
+  {
+   "id": "tuno:top_th_great-93-online",
+   "name": "GREAT 93 | ONLINE",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.vpsthai.net/proxy/fqzpihwq/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://radio.vpsthai.net/proxy/fqzpihwq/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_th_station_30",
+   "name": "บ้านธัมมะ",
+   "type": "radio",
+   "country": "TH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio10.plathong.net/7238/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://radio10.plathong.net/7238/;stream.mp3"
+   ],
+   "website": "https://www.dhammahome.com/radio/direct"
+  }
+ ]
+}

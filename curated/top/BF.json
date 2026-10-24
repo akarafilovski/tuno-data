@@ -1,0 +1,141 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bf_rqdio-bizi-inter",
+   "name": "Rqdio Bizi Inter",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic.mediacp.eu/8040/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://sonic.mediacp.eu/8040/;"
+   ],
+   "website": "https://www.radiobizi.com/"
+  },
+  {
+   "id": "tuno:top_bf_radio-omega",
+   "name": "Radio Omega",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/891831/stream/962296",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://listen.radioking.com/radio/891831/stream/962296"
+   ]
+  },
+  {
+   "id": "tuno:top_bf_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bf_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://rcblive.stream/radio/8024/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://rcblive.stream/radio/8024/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bf_antenna-web-ouagadougou",
+   "name": "Antenna Web Ouagadougou",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebOuagadougou",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebOuagadougou"
+   ]
+  },
+  {
+   "id": "tuno:top_bf_focus-radio",
+   "name": "Focus Radio",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/780211/stream/847816",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen.radioking.com/radio/780211/stream/847816"
+   ]
+  },
+  {
+   "id": "tuno:top_bf_hero-radio-burkina-faso",
+   "name": "Hero Radio (Burkina Faso)",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/burkinafaso.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/burkinafaso.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bf_radio-tampani",
+   "name": "Radio Tampani",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "http://hosting.studioradiomedia.fr:2390/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://hosting.studioradiomedia.fr:2390/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bf_gn-radio-burkina-faso",
+   "name": "Gn Radio Burkina Faso",
+   "type": "radio",
+   "country": "BF",
+   "category": "music",
+   "stream": {
+    "url": "https://a11.asurahosting.com:7360/burkinafasso.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://a11.asurahosting.com:7360/burkinafasso.mp3"
+   ]
+  }
+ ]
+}

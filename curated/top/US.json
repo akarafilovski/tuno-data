@@ -1,0 +1,532 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_us_101-smooth-jazz",
+   "name": "101 SMOOTH JAZZ",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://jking.cdnstream1.com/b22139_128mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://jking.cdnstream1.com/b22139_128mp3"
+   ],
+   "website": "http://101smoothjazz.com/"
+  },
+  {
+   "id": "tuno:top_us_classic-vinyl-hd",
+   "name": "Classic Vinyl HD",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast3.walmradio.com:8443/walm_opus",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://icecast3.walmradio.com:8443/walm_opus",
+    "https://icecast.walmradio.com:8443/classic"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://icecast.walmradio.com:8443/classic",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://walmradio.com/classic"
+  },
+  {
+   "id": "tuno:top_us_chilltrax",
+   "name": "Chilltrax",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://streamssl.chilltrax.com/stream?sid=1",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streamssl.chilltrax.com/stream?sid=1",
+    "https://streamssl.chilltrax.com/",
+    "http://server1.chilltrax.com:9000/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streamssl.chilltrax.com/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.chilltrax.com/"
+  },
+  {
+   "id": "tuno:top_us_radio-paradise-main-mix-eu-320k-aac",
+   "name": "Radio Paradise Main Mix (EU) 320k AAC",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://stream-uk1.radioparadise.com/aac-320",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://stream-uk1.radioparadise.com/aac-320"
+   ],
+   "website": "https://radioparadise.com/"
+  },
+  {
+   "id": "tuno:top_us_classic-rock-florida",
+   "name": "Classic Rock Florida",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/a06375",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://streaming.live365.com/a06375"
+   ]
+  },
+  {
+   "id": "tuno:top_us_frisky-radio",
+   "name": "Frisky Radio",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.frisky.friskyradio.com/mp3_low",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream.frisky.friskyradio.com/mp3_low",
+    "http://stream2.friskyradio.com/frisky_mp3_hi",
+    "https://stream.frisky.friskyradio.com/frisky_mp3_high"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream2.friskyradio.com/frisky_mp3_hi",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.frisky.friskyradio.com/frisky_mp3_high",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.friskyradio.com/"
+  },
+  {
+   "id": "tuno:top_us_977-80s",
+   "name": ".977 80s",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://26433.live.streamtheworld.com:3690/977_80_SC",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://26433.live.streamtheworld.com:3690/977_80_SC"
+   ],
+   "website": "http://www.977music.com/"
+  },
+  {
+   "id": "tuno:top_us_smooth-jazz-mix-new-york",
+   "name": "Smooth Jazz Mix New York",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/a49349",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://streaming.live365.com/a49349"
+   ]
+  },
+  {
+   "id": "tuno:top_us_181-fm-old-school-hiphop-rnb",
+   "name": "181.FM - Old School HipHop/RnB",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.181fm.com/181-oldschool_128k.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://listen.181fm.com/181-oldschool_128k.mp3"
+   ],
+   "website": "http://www.181.fm/"
+  },
+  {
+   "id": "tuno:top_us_san-francisco-s-70s-hits",
+   "name": "San Francisco's 70s HITS",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcast.net/72991",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.rcast.net/72991"
+   ]
+  },
+  {
+   "id": "tuno:top_us_hard-rock-heaven",
+   "name": "Hard Rock Heaven",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://hydra.cdnstream.com/1521_128",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://hydra.cdnstream.com/1521_128",
+    "https://listen.cdnstream.com/hrhradio/1521_128.m3u"
+   ],
+   "website": "http://hrhradio.com/"
+  },
+  {
+   "id": "tuno:top_us_la-mega-97-9",
+   "name": "La Mega 97.9",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://liveaudio.lamusica.com/NY_WSKQ_icy?aw_0_1st.playerld=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://liveaudio.lamusica.com/NY_WSKQ_icy?aw_0_1st.playerld=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_us_smooth-jazz-247",
+   "name": "Smooth Jazz 247",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://s25.ssl-stream.com:8170/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://s25.ssl-stream.com:8170/radio.mp3",
+    "http://jking.cdnstream1.com/b75154_128mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://jking.cdnstream1.com/b75154_128mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.smoothjazz247.com/"
+  },
+  {
+   "id": "tuno:top_us_classic-hits-radio-70-80-discofunk-modernsoul-boogie",
+   "name": "CLASSIC HITS RADIO 70 80 DiscoFunk ModernSoul Boogie",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://radiopanther.radiolebowski.com/play",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radiopanther.radiolebowski.com/play"
+   ],
+   "website": "http://classichits.radio/"
+  },
+  {
+   "id": "tuno:top_us_side-street-radio",
+   "name": "Side Street Radio",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://www.ophanim.net:8444/s/9780",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://www.ophanim.net:8444/s/9780"
+   ]
+  },
+  {
+   "id": "tuno:top_us_your-classical-relax",
+   "name": "Your Classical - Relax",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://hls.stream.publicradio.org/ycradio-hls/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://hls.stream.publicradio.org/ycradio-hls/playlist.m3u8",
+    "http://relax.stream.publicradio.org/relax.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://relax.stream.publicradio.org/relax.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.yourclassical.org/"
+  },
+  {
+   "id": "tuno:top_us_fox-news-talk",
+   "name": "FOX News Talk",
+   "type": "radio",
+   "country": "US",
+   "category": "talk",
+   "stream": {
+    "url": "https://live.amperwave.net/direct/foxnewsradio-foxnewsradioaac-imc?",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://live.amperwave.net/direct/foxnewsradio-foxnewsradioaac-imc?"
+   ]
+  },
+  {
+   "id": "tuno:top_us_ambient-sleeping-pill",
+   "name": "Ambient Sleeping Pill",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.stereoscenic.com/asp-h",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://radio.stereoscenic.com/asp-h"
+   ],
+   "website": "http://ambientsleepingpill.com/"
+  },
+  {
+   "id": "tuno:top_us_absolute-chillout",
+   "name": "Absolute Chillout",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/b05055_128mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streaming.live365.com/b05055_128mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_us_rockabilly-radio-net",
+   "name": "Rockabilly-radio.net",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://lin3.ash.fast-serv.com:6026/stream_96",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://lin3.ash.fast-serv.com:6026/stream_96"
+   ],
+   "website": "http://rockabilly-radio.net/"
+  },
+  {
+   "id": "tuno:top_us_that-70-s-channel",
+   "name": "That 70's Channel",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-sa5.cdnstream1.com/b68000_128mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://ais-sa5.cdnstream1.com/b68000_128mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_us_big-r-radio-80s-metal-fm",
+   "name": "Big R Radio - 80s Metal FM",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-edge82-bigr-dal03.cdnstream.com/5206_128?bigr=mvgz2frlvzmo",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://ais-edge82-bigr-dal03.cdnstream.com/5206_128?bigr=mvgz2frlvzmo",
+    "http://bigrradio.cdnstream1.com/5186_128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://bigrradio.cdnstream1.com/5186_128",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.bigrradio.com/"
+  },
+  {
+   "id": "tuno:top_us_philly-s-jammin-oldies",
+   "name": "Philly's Jammin Oldies",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://94.23.159.187:9994/;",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://94.23.159.187:9994/;"
+   ]
+  },
+  {
+   "id": "tuno:top_us_npr-24-hour-program-stream",
+   "name": "NPR 24 Hour Program Stream",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6416377368001/5f1e5f99-8481-426a-baba-7c7e7be55564/6s/master.m3u8?pubid=6416366397001&fastly_token=NmFkN2I2NzRfNTRmN2FlNzQzOGUwNDI4Zjk5NGI4ZjA3NzBkM2Y4YWQxMmM4MThmMDRkNGQ0Y2I5ZmI0ODcyNjgyNDU1MzBkOQ%3D%3D",
+    "format": "hls"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://manifest.prod.boltdns.net/manifest/v2/hls/v7/clear/avc1_mp4a/6416377368001/5f1e5f99-8481-426a-baba-7c7e7be55564/6s/master.m3u8?pubid=6416366397001&fastly_token=NmFkN2I2NzRfNTRmN2FlNzQzOGUwNDI4Zjk5NGI4ZjA3NzBkM2Y4YWQxMmM4MThmMDRkNGQ0Y2I5ZmI0ODcyNjgyNDU1MzBkOQ%3D%3D",
+    "http://npr-ice.streamguys1.com/live.mp3",
+    "http://npr-ice.streamguys1.com/live.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://npr-ice.streamguys1.com/live.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://npr-ice.streamguys1.com/live.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.npr.org/2016/04/05/472557877/npr-program-stream"
+  },
+  {
+   "id": "tuno:top_us_100hitz-hot-hitz",
+   "name": "100hitz - Hot Hitz",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://pureplay.cdnstream1.com/6027_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://pureplay.cdnstream1.com/6027_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_us_181-fm-the-buzz-alt-rock",
+   "name": "181.FM The Buzz (Alt. Rock)",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.181fm.com/181-buzz_128k.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://listen.181fm.com/181-buzz_128k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_us_nbc-news-radio",
+   "name": "NBC News Radio",
+   "type": "radio",
+   "country": "US",
+   "category": "talk",
+   "stream": {
+    "url": "http://stream.revma.ihrhls.com/zc6043",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://stream.revma.ihrhls.com/zc6043"
+   ],
+   "website": "https://www.iheart.com/live/nbc-news-radio-6043/"
+  },
+  {
+   "id": "tuno:top_us_easy-hits-florida",
+   "name": "Easy Hits Florida",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/a80304",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://streaming.live365.com/a80304"
+   ]
+  },
+  {
+   "id": "tuno:top_us_infowars",
+   "name": "Infowars",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "http://stream-mp3.infowars.com/",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://stream-mp3.infowars.com/"
+   ],
+   "website": "http://www.infowars.com/"
+  },
+  {
+   "id": "tuno:top_us_big-r-radio-70s-fm",
+   "name": "Big R Radio - 70s FM",
+   "type": "radio",
+   "country": "US",
+   "category": "music",
+   "stream": {
+    "url": "https://bigrradio.cdnstream1.com/5182_128?listenerid=ea4ef9d7-dc2d-496b-9f18-5bbd5ca7923a&cb=974096.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://bigrradio.cdnstream1.com/5182_128?listenerid=ea4ef9d7-dc2d-496b-9f18-5bbd5ca7923a&cb=974096.mp3"
+   ]
+  }
+ ]
+}

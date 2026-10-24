@@ -1,0 +1,27 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_un_rellim-s-realm",
+   "name": "Rellim's Realm",
+   "type": "radio",
+   "country": "UN",
+   "category": "music",
+   "stream": {
+    "url": "https://api.nobexradio.com/hls/rellimsrealm/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://api.nobexradio.com/hls/rellimsrealm/playlist.m3u8",
+    "https://listen.nobexradio.com/station_rellimsrealm?ref=radiobrowser"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.nobexradio.com/station_rellimsrealm?ref=radiobrowser",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.nobexradio.com/radio/ns-rellimsrealm/rellim-s-realm"
+  }
+ ]
+}

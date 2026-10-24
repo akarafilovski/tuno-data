@@ -1,0 +1,392 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_kr_big-b-radio-kpop-station-seoul",
+   "name": "Big B Radio #Kpop Station Seoul",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://antares.dribbcast.com/proxy/kpop?mp=/s",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://antares.dribbcast.com/proxy/kpop?mp=/s"
+   ],
+   "website": "https://bigbradio.net/kpop"
+  },
+  {
+   "id": "tuno:top_kr_cbs-fm",
+   "name": "CBS 표준FM",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
+    "https://m-aac.cbs.co.kr/mweb_cbs981/_definst_/cbs981.stream/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://m-aac.cbs.co.kr/mweb_cbs981/_definst_/cbs981.stream/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.cbs.co.kr/"
+  },
+  {
+   "id": "tuno:top_kr_mbc-fm4u",
+   "name": "MBC FM4U",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://211.33.246.4:32954/radio_stfm/myStream.sdp/chunklist_w392819215.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://211.33.246.4:32954/radio_stfm/myStream.sdp/chunklist_w392819215.m3u8",
+    "http://211.33.246.4:32954/radio_fm/myStream.sdp/chunklist_w348337231.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://211.33.246.4:32954/radio_fm/myStream.sdp/chunklist_w348337231.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.imbc.com/"
+  },
+  {
+   "id": "tuno:top_kr_fred-film-radio",
+   "name": "FRED FILM RADIO",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://s10.webradio-hosting.com/proxy/fredradioen/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s10.webradio-hosting.com/proxy/fredradioen/stream",
+    "https://s10.webradio-hosting.com/proxy/fredradiokr/stream/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s10.webradio-hosting.com/proxy/fredradiokr/stream/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.fred.fm/"
+  },
+  {
+   "id": "tuno:top_kr_listen-moe-kpop",
+   "name": "Listen.moe Kpop",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.moe/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://listen.moe/stream",
+    "https://listen.moe/kpop/stream",
+    "https://listen.moe/kpop/fallback"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.moe/kpop/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "https://listen.moe/kpop/fallback",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://listen.moe/kpop"
+  },
+  {
+   "id": "tuno:top_kr_tbs-efm",
+   "name": "TBS eFM",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://cdnefm.tbs.seoul.kr/tbs/_definst_/tbs_efm_web_360.smil/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://cdnefm.tbs.seoul.kr/tbs/_definst_/tbs_efm_web_360.smil/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_kr_fm",
+   "name": "국방FM",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.dema.mil.kr/live_edge/audio.sdp/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://mediaworks.dema.mil.kr/live_edge/audio.sdp/playlist.m3u8",
+    "https://static1.squarespace.com/static/5bdb9aa7620b85e2da2e1b88/t/5bf117b46d2a7391b5a41acd/1542577886392/Pyongyang+FM+105.2+-+0000AM+to+0042AM+-+10th+August+2011.mp3",
+    "http://www.dema.mil.kr/web/fm/onair.do"
+   ],
+   "website": "https://www.behindthecurtain-northkorea.com/audio-pyongyangfm"
+  },
+  {
+   "id": "tuno:top_kr_mapofm",
+   "name": "MapoFM",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://115.85.182.39/mapofm",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://115.85.182.39/mapofm"
+   ]
+  },
+  {
+   "id": "tuno:top_kr_arirang-tv",
+   "name": "Arirang TV",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://amdlive-ch03-ctnd-com.akamaized.net/arirang_3ch/arirang_3ch_audio/chunklist_b128000.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://amdlive-ch03-ctnd-com.akamaized.net/arirang_3ch/arirang_3ch_audio/chunklist_b128000.m3u8"
+   ],
+   "website": "http://www.arirang.co.kr/index.asp"
+  },
+  {
+   "id": "tuno:top_kr_ebs-tv-1",
+   "name": "EBS TV-1",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8"
+   ],
+   "website": "http://www.ebs.co.kr/"
+  },
+  {
+   "id": "tuno:top_kr_free-fm",
+   "name": "Free FM",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://rocafmadrid.radioca.st/Seoul",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://rocafmadrid.radioca.st/Seoul"
+   ]
+  },
+  {
+   "id": "tuno:top_kr_the-plug-k-pop",
+   "name": "The plug | k-pop",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://kpop-jakeradiomasterserver.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://kpop-jakeradiomasterserver.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_kr_ytn",
+   "name": "YTN 라디오",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://radiolive.ytn.co.kr/radio/_definst_/20211118_fmlive/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radiolive.ytn.co.kr/radio/_definst_/20211118_fmlive/playlist.m3u8"
+   ],
+   "website": "https://www.ytn.co.kr/"
+  },
+  {
+   "id": "tuno:top_kr_tbn",
+   "name": "TBN 교통방송",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://115.85.182.39/sonefm",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://115.85.182.39/sonefm"
+   ],
+   "website": "https://tbn.or.kr/main.tbn?area_code=9"
+  },
+  {
+   "id": "tuno:top_kr_ebs",
+   "name": "EBS",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_kr_cbs-music-fm",
+   "name": "CBS 파워라디오 [Music FM]",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp-hw.qtfm.cn/live/15318233/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://lhttp-hw.qtfm.cn/live/15318233/64k.mp3"
+   ],
+   "website": "https://cbsfm.modoo.at/"
+  },
+  {
+   "id": "tuno:top_kr_kbsfm",
+   "name": "kbs해피fm",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://2radio-bora.gscdn.kbs.co.kr/2radio-bora-01/2radio-bora-01_hd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8ycmFkaW8tYm9yYS5nc2Nkbi5rYnMuY28ua3IvMnJhZGlvLWJvcmEtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjUzMzU1NX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=QLJE-0Wz-N9V3ao4mHjH8BGs8RG6tdQ2FzijZ5I3I2Oo9hqCmrTgO7rWrfdjNLUu3D3Af8~v9URsa3bw81XqHUcqxtf75Dvepm2v84wev70fIKUMOiTRpKhi7u3qQnVfpiBrZ2ySPq5ofja-dVN6HsEhZzFOYgI7UvGW9ndP10v-SUe0~rMyx5uFuqzCty6Bql1JLWdbep5QcIKEqeJ4fJiqB5tJR7dDBN-MtIcpQYZqKBCxiedZExwq4swnGH1GC6ZGlEApaQvdfjwgOk3ARgJ-PFuEVbD~g-uJDcS1rZOEDZXWTLh8P8nKXPV9SLYNj8tf6SDnpWhzOZDdgOOMZg__",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://2radio-bora.gscdn.kbs.co.kr/2radio-bora-01/2radio-bora-01_hd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8ycmFkaW8tYm9yYS5nc2Nkbi5rYnMuY28ua3IvMnJhZGlvLWJvcmEtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjUzMzU1NX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=QLJE-0Wz-N9V3ao4mHjH8BGs8RG6tdQ2FzijZ5I3I2Oo9hqCmrTgO7rWrfdjNLUu3D3Af8~v9URsa3bw81XqHUcqxtf75Dvepm2v84wev70fIKUMOiTRpKhi7u3qQnVfpiBrZ2ySPq5ofja-dVN6HsEhZzFOYgI7UvGW9ndP10v-SUe0~rMyx5uFuqzCty6Bql1JLWdbep5QcIKEqeJ4fJiqB5tJR7dDBN-MtIcpQYZqKBCxiedZExwq4swnGH1GC6ZGlEApaQvdfjwgOk3ARgJ-PFuEVbD~g-uJDcS1rZOEDZXWTLh8P8nKXPV9SLYNj8tf6SDnpWhzOZDdgOOMZg__"
+   ]
+  },
+  {
+   "id": "tuno:top_kr_mbc-am",
+   "name": "안동MBC AM",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://andong.webcasting.co.kr:1935/live/amlive/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://andong.webcasting.co.kr:1935/live/amlive/playlist.m3u8"
+   ],
+   "website": "http://www.andongmbc.co.kr/main/index.php"
+  },
+  {
+   "id": "tuno:top_kr_gugakfm",
+   "name": "GugakFM",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w253831608.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w253831608.m3u8",
+    "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w1653570079.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/chunklist_w1653570079.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.igbf.kr/"
+  },
+  {
+   "id": "tuno:top_kr_gukak",
+   "name": "gukak",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8"
+   ],
+   "website": "https://www.gugakfm.co.kr/"
+  },
+  {
+   "id": "tuno:top_kr_buddhist-true-network-tv",
+   "name": "Buddhist True Network TV",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://btn.nowcdn.co.kr/btn/btnlive01/playlist.m3u8"
+   ],
+   "website": "http://www.btn.co.kr/"
+  },
+  {
+   "id": "tuno:top_kr_cpbc-tv",
+   "name": "CPBC TV",
+   "type": "radio",
+   "country": "KR",
+   "category": "music",
+   "stream": {
+    "url": "http://onair1.cpbc.co.kr:1935/tv/mp4:live720/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://onair1.cpbc.co.kr:1935/tv/mp4:live720/playlist.m3u8"
+   ],
+   "website": "http://www.cpbc.co.kr/"
+  }
+ ]
+}

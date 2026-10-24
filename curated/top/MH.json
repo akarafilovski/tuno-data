@@ -1,0 +1,67 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mh_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mh_offshore-radio",
+   "name": "Offshore Radio",
+   "type": "radio",
+   "country": "MH",
+   "category": "music",
+   "stream": {
+    "url": "https://live.offshoreradio.net/listen/offshore_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://live.offshoreradio.net/listen/offshore_radio/radio.mp3"
+   ],
+   "website": "https://offshoreradio.net/"
+  },
+  {
+   "id": "tuno:top_mh_antenna-web-majuro",
+   "name": "Antenna Web Majuro",
+   "type": "radio",
+   "country": "MH",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Majuro",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Majuro"
+   ]
+  },
+  {
+   "id": "tuno:top_mh_offworld-radio",
+   "name": "Offworld Radio",
+   "type": "radio",
+   "country": "MH",
+   "category": "music",
+   "stream": {
+    "url": "https://a4.asurahosting.com:7310/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://a4.asurahosting.com:7310/radio.mp3"
+   ],
+   "website": "https://a4.asurahosting.com:7310/radio.mp3"
+  }
+ ]
+}

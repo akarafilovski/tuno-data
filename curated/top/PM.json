@@ -1,0 +1,96 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_pm_archipel-fm-spm-975-103-3",
+   "name": "Archipel FM SPM (975) 103.3",
+   "type": "radio",
+   "country": "PM",
+   "category": "music",
+   "stream": {
+    "url": "http://radioarchipelfm.ice.infomaniak.ch/radioarchipelfm-64.mp3?token=a73d3f78786d4e7faba5a9e35eaed5bb%2Fe5c8c5d1?retry=0",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://radioarchipelfm.ice.infomaniak.ch/radioarchipelfm-64.mp3?token=a73d3f78786d4e7faba5a9e35eaed5bb%2Fe5c8c5d1?retry=0"
+   ]
+  },
+  {
+   "id": "tuno:top_pm_radio-archipel-fm",
+   "name": "Radio Archipel Fm",
+   "type": "radio",
+   "country": "PM",
+   "category": "music",
+   "stream": {
+    "url": "https://radioarchipelfm.ice.infomaniak.ch/radioarchipelfm-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radioarchipelfm.ice.infomaniak.ch/radioarchipelfm-64.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pm_la-1ere-saint-pierre-et-miquelon-975",
+   "name": "La 1ere Saint Pierre et Miquelon (975)",
+   "type": "radio",
+   "country": "PM",
+   "category": "music",
+   "stream": {
+    "url": "https://saint-pierreetmiquelon.ice.infomaniak.ch/saint-pierreetmiquelon-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://saint-pierreetmiquelon.ice.infomaniak.ch/saint-pierreetmiquelon-128.mp3"
+   ],
+   "website": "https://la1ere.francetvinfo.fr/saintpierremiquelon/"
+  },
+  {
+   "id": "tuno:top_pm_radio-atlantique",
+   "name": "Radio Atlantique",
+   "type": "radio",
+   "country": "PM",
+   "category": "music",
+   "stream": {
+    "url": "https://s7.voscast.com:10433/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s7.voscast.com:10433/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "PM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_pm_saint-pierre-et-miquelon-1ere",
+   "name": "Saint-Pierre et Miquelon 1ère",
+   "type": "radio",
+   "country": "PM",
+   "category": "music",
+   "stream": {
+    "url": "https://saint-pierreetmiquelon.ice.infomaniak.ch/saint-pierreetmiquelon-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://saint-pierreetmiquelon.ice.infomaniak.ch/saint-pierreetmiquelon-128.mp3"
+   ]
+  }
+ ]
+}

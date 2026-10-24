@@ -1,0 +1,234 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tg_radio-maria-togo-lome",
+   "name": "RADIO MARIA TOGO Lomé",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmtogo2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmtogo2?mp=/stream",
+    "http://dreamsiteradiocp.com:8050/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://dreamsiteradiocp.com:8050/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiomaria.tg/"
+  },
+  {
+   "id": "tuno:top_tg_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmtogo2?mp=/stream?ver=492129",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmtogo2?mp=/stream?ver=492129"
+   ]
+  },
+  {
+   "id": "tuno:top_tg_taxi-fm",
+   "name": "taxi fm",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.brol.tech/rtfmlounge",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streaming.brol.tech/rtfmlounge",
+    "http://streaming.radionomy.com/JamendoLounge?lang=fr%2cfr-FR%3bq%3d0.8%2cen-US%3bq%3d0.5%2cen%3bq%3d0.3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streaming.radionomy.com/JamendoLounge?lang=fr%2cfr-FR%3bq%3d0.8%2cen-US%3bq%3d0.5%2cen%3bq%3d0.3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://streaming.radionomy.com/JamendoLounge?lang=fr%2cfr-FR%3bq%3d0.8%2cen-US%3bq%3d0.5%2cen%3bq%3d0.3"
+  },
+  {
+   "id": "tuno:top_tg_hit-radio",
+   "name": "Hit Radio",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://hr-togo.ice.infomaniak.ch/hr-togo-64.aac",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://hr-togo.ice.infomaniak.ch/hr-togo-64.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_tg_radio-gameli",
+   "name": "Radio Gameli",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "http://usa1.fastcast4u.com:3190/stream/",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://usa1.fastcast4u.com:3190/stream/"
+   ],
+   "website": "https://radiolebene.tg/"
+  },
+  {
+   "id": "tuno:top_tg_radio-merveille-togo",
+   "name": "Radio Merveille Togo",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://c3.radioboss.fm:18234/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://c3.radioboss.fm:18234/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tg_nana-fm-togo",
+   "name": "Nana FM Togo",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://srv1269271.hstgr.cloud/;?type=http&nocache=16",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://srv1269271.hstgr.cloud/;?type=http&nocache=16"
+   ],
+   "website": "https://nanafm.tg/"
+  },
+  {
+   "id": "tuno:top_tg_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_tg_light-radio-togo-93-9fm",
+   "name": "Light Radio Togo 93.9fm",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://a9.asurahosting.com/listen/light_radio_93.9fm/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://a9.asurahosting.com/listen/light_radio_93.9fm/radio.mp3"
+   ],
+   "website": "https://lightradiotogo.com/"
+  },
+  {
+   "id": "tuno:top_tg_v-rt",
+   "name": "V-RT",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/508756/stream/566446",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://listen.radioking.com/radio/508756/stream/566446"
+   ]
+  },
+  {
+   "id": "tuno:top_tg_hero-radio-togo",
+   "name": "Hero Radio (Togo)",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/togo.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/togo.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tg_light-radio-93-9-fm",
+   "name": "Light Radio 93.9 FM",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://a9.asurahosting.com/listen/light_radio_93.9fm/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://a9.asurahosting.com/listen/light_radio_93.9fm/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tg_ahouevi-info",
+   "name": "Ahouevi Info",
+   "type": "radio",
+   "country": "TG",
+   "category": "talk",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/264403/stream/309580",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://listen.radioking.com/radio/264403/stream/309580"
+   ]
+  },
+  {
+   "id": "tuno:top_tg_antenna-web-lome",
+   "name": "Antenna Web Lomé",
+   "type": "radio",
+   "country": "TG",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebLome",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebLome"
+   ]
+  }
+ ]
+}

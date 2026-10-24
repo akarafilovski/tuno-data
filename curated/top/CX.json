@@ -1,0 +1,36 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cx_navidad-grupera",
+   "name": "Navidad Grupera",
+   "type": "radio",
+   "country": "CX",
+   "category": "music",
+   "stream": {
+    "url": "https://radioforte.com/8006/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radioforte.com/8006/stream"
+   ],
+   "website": "https://radioforte.com/8006/stream"
+  },
+  {
+   "id": "tuno:top_cx_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "CX",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  }
+ ]
+}

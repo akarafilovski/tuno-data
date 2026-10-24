@@ -1,0 +1,573 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_pt_rfm",
+   "name": "RFM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_SC?dist=onlineradiobox",
+    "http://29345.live.streamtheworld.com/RADIO_RENASCENCA_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://29345.live.streamtheworld.com/RADIO_RENASCENCA_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rfm.sapo.pt/"
+  },
+  {
+   "id": "tuno:top_pt_radio-orbital",
+   "name": "Radio Orbital",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://ec2.yesstreaming.net:3025/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://ec2.yesstreaming.net:3025/stream",
+    "http://centova.radios.pt:8401/stream/;",
+    "http://centova.radios.pt:8401/;listen.pls"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://centova.radios.pt:8401/stream/;",
+     "format": "icecast"
+    },
+    {
+     "url": "http://centova.radios.pt:8401/;listen.pls",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.orbital.pt/"
+  },
+  {
+   "id": "tuno:top_pt_m80-radio",
+   "name": "M80 Radio",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/m80.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/m80.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_smooth-fm",
+   "name": "Smooth FM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/smooth.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/smooth.mp3",
+    "https://stream-icy.bauermedia.pt/rcdance.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream-icy.bauermedia.pt/rcdance.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://smoothfm.iol.pt/"
+  },
+  {
+   "id": "tuno:top_pt_radio-observador",
+   "name": "Rádio Observador",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://25603.live.streamtheworld.com/OBSERVADORAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://25603.live.streamtheworld.com/OBSERVADORAAC.aac",
+    "http://195.23.85.126:8455/stream",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://195.23.85.126:8455/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://observador.pt/"
+  },
+  {
+   "id": "tuno:top_pt_cidade-fm",
+   "name": "Cidade FM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/cidade.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/cidade.mp3"
+   ],
+   "website": "https://cidade.fm/"
+  },
+  {
+   "id": "tuno:top_pt_tsf-radio-noticias-lisbon",
+   "name": "TSF Rádio Notícias Lisbon",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://directo.tsf.pt/tsfdirecto.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://directo.tsf.pt/tsfdirecto.mp3"
+   ],
+   "website": "https://www.tsf.pt/"
+  },
+  {
+   "id": "tuno:top_pt_mega-hits",
+   "name": "Mega Hits",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MEGA_HITSAAC_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MEGA_HITSAAC_SC?dist=onlineradiobox",
+    "http://25583.live.streamtheworld.com/MEGA_HITS_SC",
+    "https://d1gifpnctlcmg5.cloudfront.net/be03b976-08ec-46ac-b8a1-8cd7b89206b0/sources/08ae6d00-2a81-4895-85ef-3718eb53e5a8.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://25583.live.streamtheworld.com/MEGA_HITS_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.megahits.fm/"
+  },
+  {
+   "id": "tuno:top_pt_antena-1",
+   "name": "Antena 1",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_antena-1-portugal",
+   "name": "Antena 1 (Portugal)",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR",
+    "http://streaming-live-app.rtp.pt/liveradio/antena180a/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streaming-live-app.rtp.pt/liveradio/antena180a/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.rtp.pt/play/direto/antena1"
+  },
+  {
+   "id": "tuno:top_pt_radio-nova-era-vila-nova-de-gaia",
+   "name": "Rádio Nova Era Vila Nova de Gaia",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://centova.radio.com.pt/proxy/478?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://centova.radio.com.pt/proxy/478?mp=/stream",
+    "http://centova.radio.com.pt:9478/"
+   ],
+   "website": "http://www.radionovaera.pt/"
+  },
+  {
+   "id": "tuno:top_pt_radio-comercial",
+   "name": "Radio Comercial",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/comercial.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/comercial.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_radio-promove-portugal",
+   "name": "Radio Promove Portugal",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream1.svrdedicado.org/8410/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream1.svrdedicado.org/8410/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_super-fm",
+   "name": "Super FM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioregional.pt:8210/stream/2/;/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://play.radioregional.pt:8210/stream/2/;/stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_m80-radio-80s",
+   "name": "M80 Rádio – 80s",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/m8080.aac",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/m8080.aac",
+    "http://stream-icy.bauermedia.pt/m80.mp3",
+    "https://stream-icy.bauermedia.pt/m80.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream-icy.bauermedia.pt/m80.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream-icy.bauermedia.pt/m80.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://m80.iol.pt/"
+  },
+  {
+   "id": "tuno:top_pt_radio-xl-fm",
+   "name": "Radio XL FM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://radios.justweb.pt/8002/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://radios.justweb.pt/8002/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_antena-3",
+   "name": "Antena 3",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "http://radiocast.rtp.pt/antena380a.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://radiocast.rtp.pt/antena380a.mp3",
+    "http://streaming-live-app.rtp.pt/liveradio/antena380a/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streaming-live-app.rtp.pt/liveradio/antena380a/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://media.rtp.pt/antena3/"
+  },
+  {
+   "id": "tuno:top_pt_hard-heavy-metal-hits-radio",
+   "name": "Hard & Heavy Metal Hits Radio",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.serv.pt/8040/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://audio.serv.pt/8040/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_res-fm-107-9",
+   "name": "RES FM 107.9",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.soundflux.eu/8440/icetream.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream2.soundflux.eu/8440/icetream.mp3",
+    "https://stream2.soundflux.eu/8440/stream",
+    "http://stream2.soundflux.eu:8440/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream2.soundflux.eu/8440/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://stream2.soundflux.eu:8440/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://resfmradio.com/"
+  },
+  {
+   "id": "tuno:top_pt_rap-hip-hop",
+   "name": "Rap/Hip Hop",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "http://185.32.188.17:8097/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://185.32.188.17:8097/stream"
+   ],
+   "website": "http://185.32.188.17:8097/stream"
+  },
+  {
+   "id": "tuno:top_pt_radio-comercial-portugal",
+   "name": "Radio Comercial Portugal",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/comercial.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/comercial.mp3",
+    "https://stream-icy.bauermedia.pt/rctuga.aac",
+    "https://radiocomercial.pt/static/empty.mp4"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream-icy.bauermedia.pt/rctuga.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiocomercial.pt/"
+  },
+  {
+   "id": "tuno:top_pt_tsf",
+   "name": "TSF",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://directo.tsf.pt/tsfdirecto.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://directo.tsf.pt/tsfdirecto.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_105-4-cascais-fm",
+   "name": "105.4 Cascais FM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioregional.pt:8220/stream/2/;/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://play.radioregional.pt:8220/stream/2/;/stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_radio-amalia",
+   "name": "Rádio Amália",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "http://centova.radio.com.pt:9496/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://centova.radio.com.pt:9496/;"
+   ],
+   "website": "http://www.amalia.fm/"
+  },
+  {
+   "id": "tuno:top_pt_radio-renascenca",
+   "name": "Radio Renascença",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCA_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCA_SC?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_4drive-jazz",
+   "name": "4Drive Jazz",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.streemlion.com:1150/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://radio.streemlion.com:1150/stream"
+   ],
+   "website": "https://4drivejazz.wixsite.com/radio"
+  },
+  {
+   "id": "tuno:top_pt_radar-fm",
+   "name": "Radar FM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://proic1.evspt.com/radar_aac",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://proic1.evspt.com/radar_aac"
+   ]
+  },
+  {
+   "id": "tuno:top_pt_radio-planicie-92-8-moura",
+   "name": "Rádio Planície 92.8 Moura",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "http://109.71.41.6:8026/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://109.71.41.6:8026/stream"
+   ],
+   "website": "http://www.radioplanicie.com/"
+  },
+  {
+   "id": "tuno:top_pt_radio-nova-98-9-fm",
+   "name": "Rádio Nova 98.9 FM",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://centova.radio.com.pt/proxy/528?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://centova.radio.com.pt/proxy/528?mp=/stream",
+    "http://centova.radios.pt:9528/;",
+    "http://centova.radio.com.pt:9528/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://centova.radios.pt:9528/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radionova.fm/"
+  },
+  {
+   "id": "tuno:top_pt_radio-metal-on-the-heavy",
+   "name": "Radio Metal On: The Heavy",
+   "type": "radio",
+   "country": "PT",
+   "category": "music",
+   "stream": {
+    "url": "https://radiometalon.com/listen/radio_metal_on_the_heavy/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://radiometalon.com/listen/radio_metal_on_the_heavy/radio.mp3"
+   ]
+  }
+ ]
+}

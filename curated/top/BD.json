@@ -1,0 +1,334 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bd_radio-goongoon",
+   "name": "Radio GoonGoon",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.streamcast.xyz/radio/8000/radio.mp3?",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://audio.streamcast.xyz/radio/8000/radio.mp3?",
+    "https://audio.streamcast.xyz/listen/radiogoongoon/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://audio.streamcast.xyz/listen/radiogoongoon/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiogoongoon.com/"
+  },
+  {
+   "id": "tuno:top_bd_jago-fm-94-4",
+   "name": "Jago FM 94.4",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://139.59.86.99:12496/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://139.59.86.99:12496/stream"
+   ],
+   "website": "http://www.jago.fm/"
+  },
+  {
+   "id": "tuno:top_bd_peoples-radio",
+   "name": "Peoples Radio",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://s3.myradiostream.com:14498/;",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://s3.myradiostream.com:14498/;",
+    "https://s3.myradiostream.com:14498/listen.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s3.myradiostream.com:14498/listen.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://peoplesradio.fm/"
+  },
+  {
+   "id": "tuno:top_bd_radio-foorti",
+   "name": "Radio Foorti",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://radiofoorti.fm/api/stream?t=1792527368345",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radiofoorti.fm/api/stream?t=1792527368345",
+    "http://119.148.23.88:1021/;stream/1"
+   ],
+   "website": "https://radiofoorti.fm/"
+  },
+  {
+   "id": "tuno:top_bd_al-quran-bangla",
+   "name": "AL-QURAN BANGLA",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://66.45.232.131:9994/;stream/1/;",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://66.45.232.131:9994/;stream/1/;",
+    "http://66.45.232.131:9994/"
+   ],
+   "website": "https://www.liveonlineradio.net/bangla/bangla-al-quran.htm"
+  },
+  {
+   "id": "tuno:top_bd_station",
+   "name": "বাংলাদেশ বেতার বানিজ্যিক কার্যক্রম",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://as1.digitalsynapsebd.com:8741/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://as1.digitalsynapsebd.com:8741/;",
+    "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/general-space/bd_national_anthem.mp3"
+   ],
+   "website": "http://www.betar.gov.bd/"
+  },
+  {
+   "id": "tuno:top_bd_spice-fm",
+   "name": "Spice FM",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.spicefmbd.com/stream.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.spicefmbd.com/stream.m3u8"
+   ],
+   "website": "https://spicefmbd.com/"
+  },
+  {
+   "id": "tuno:top_bd_s-radio",
+   "name": "S-Radio",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://as1.digitalsynapsebd.com/proxy/zkpnarpg/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://as1.digitalsynapsebd.com/proxy/zkpnarpg/stream"
+   ],
+   "website": "https://www.shibirradio.com/"
+  },
+  {
+   "id": "tuno:top_bd_fnf-fm-bangla",
+   "name": "FnF.FM Bangla",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://eu6.fastcast4u.com:5099/;stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://eu6.fastcast4u.com:5099/;stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bd_muhammad-siddiq-al-minshawi",
+   "name": "Muhammad Siddiq al-Minshawi",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://qurango.net/radio/mohammed_siddiq_alminshawi",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://qurango.net/radio/mohammed_siddiq_alminshawi"
+   ],
+   "website": "https://qurango.net/radio/mohammed_siddiq_alminshawi"
+  },
+  {
+   "id": "tuno:top_bd_radio-padma",
+   "name": "Radio Padma",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://radiopadmabd.radioca.st/radiopadma",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radiopadmabd.radioca.st/radiopadma"
+   ]
+  },
+  {
+   "id": "tuno:top_bd_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bd_radio-mahananda-98-8-fm",
+   "name": "Radio Mahananda 98.8 FM",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://centova47.instainternet.com/proxy/bspmorui?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://centova47.instainternet.com/proxy/bspmorui?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bd_mellow-bangla",
+   "name": "Mellow Bangla",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mellowbangla.com/stream?t=1792530038418",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radio.mellowbangla.com/stream?t=1792530038418"
+   ],
+   "website": "https://www.mellowbangla.com/"
+  },
+  {
+   "id": "tuno:top_bd_universal-health-radio",
+   "name": "Universal Health Radio (বাংলা)",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.universalhealthradio.org/uhr-en.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://radio.universalhealthradio.org/uhr-en.mp3",
+    "https://radio.universalhealthradio.org/uhr-bn.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.universalhealthradio.org/uhr-bn.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://universalhealthradio.org/"
+  },
+  {
+   "id": "tuno:top_bd_bangladesh-betar-90-0-mhz",
+   "name": "Bangladesh betar 90.0 MHz",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://as3.digitalsynapsebd.com:8582/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://as3.digitalsynapsebd.com:8582/stream"
+   ],
+   "website": "https://onlineradiofm.in/"
+  },
+  {
+   "id": "tuno:top_bd_radio-din-raat-93-6-fm",
+   "name": "Radio Din Raat 93.6 FM",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "https://mtv.sunplex.live/Radio-dinraat/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://mtv.sunplex.live/Radio-dinraat/index.m3u8",
+    "https://mtv.sunplex.live/Radio-dinraat/tracks-a1/mono.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mtv.sunplex.live/Radio-dinraat/tracks-a1/mono.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://radiodinraat.fm/"
+  },
+  {
+   "id": "tuno:top_bd_radio-capital",
+   "name": "Radio Capital",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://str.radiocapital.fm:8000/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://str.radiocapital.fm:8000/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bd_roots-air",
+   "name": "Roots air",
+   "type": "radio",
+   "country": "BD",
+   "category": "music",
+   "stream": {
+    "url": "http://live64.zeilsteen.com:7054/;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://live64.zeilsteen.com:7054/;"
+   ]
+  }
+ ]
+}

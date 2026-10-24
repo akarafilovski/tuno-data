@@ -1,0 +1,190 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mm_cherry-fm",
+   "name": "Cherry FM",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://cherry.akiyaresearch.com:444/stream/89/;?type=http&nocache=8",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://cherry.akiyaresearch.com:444/stream/89/;?type=http&nocache=8"
+   ],
+   "website": "http://www.cherryfmmym.com/"
+  },
+  {
+   "id": "tuno:top_mm_padamyar-fm",
+   "name": "Padamyar FM",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-288.surfernetwork.com/jlddsve2xzguv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqbGRkc3ZlMnh6Z3V2IiwiaG9zdCI6InN0cmVhbS0yODguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkFrdXhNQy1uUmwyODBiN0xJZ3ZVWlEiLCJpYXQiOjE3OTI1MjY5MDMsImV4cCI6MTc5MjUyNjk2M30.wbCsP4-nlzIGrlHNKBAIOesma7zXe6sTAt0nSYtHy4M",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream-288.surfernetwork.com/jlddsve2xzguv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqbGRkc3ZlMnh6Z3V2IiwiaG9zdCI6InN0cmVhbS0yODguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkFrdXhNQy1uUmwyODBiN0xJZ3ZVWlEiLCJpYXQiOjE3OTI1MjY5MDMsImV4cCI6MTc5MjUyNjk2M30.wbCsP4-nlzIGrlHNKBAIOesma7zXe6sTAt0nSYtHy4M",
+    "https://stream.zeno.fm/og9btsnj00tuv"
+   ],
+   "website": "http://padamyarfm.com/"
+  },
+  {
+   "id": "tuno:top_mm_mandalayfm",
+   "name": "MandalayFM",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/nmtev",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://edge.mixlr.com/channel/nmtev"
+   ],
+   "website": "https://raddio.net/"
+  },
+  {
+   "id": "tuno:top_mm_dwg-radio-bumese",
+   "name": "DWG Radio Bumese",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "http://server32349.streamplus.de/;?type=http&#038;nocache=227",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://server32349.streamplus.de/;?type=http&#038;nocache=227"
+   ],
+   "website": "https://www.streamplus.de/"
+  },
+  {
+   "id": "tuno:top_mm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mm_bluegrass-radio",
+   "name": "Bluegrass Radio",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/681745/stream/746185",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen.radioking.com/radio/681745/stream/746185"
+   ]
+  },
+  {
+   "id": "tuno:top_mm_shwe-hinn-thar",
+   "name": "SHWE HINN THAR",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://live.pmyanmar.com/livestream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://live.pmyanmar.com/livestream"
+   ]
+  },
+  {
+   "id": "tuno:top_mm_dhamma-fm",
+   "name": "Dhamma FM",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://dhamma.pmyanmar.com/livestream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://dhamma.pmyanmar.com/livestream"
+   ]
+  },
+  {
+   "id": "tuno:top_mm_pmyanmar-radio",
+   "name": "PMyanmar Radio",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.pmyanmar.com/livestream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://radio.pmyanmar.com/livestream"
+   ]
+  },
+  {
+   "id": "tuno:top_mm_dwg-radio-burmese",
+   "name": "DWG Radio Burmese",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://server32349.streamplus.de/;?type=http&nocache=227",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://server32349.streamplus.de/;?type=http&nocache=227"
+   ]
+  },
+  {
+   "id": "tuno:top_mm_antenna-web-birmania",
+   "name": "Antenna Web Birmania",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Birmania",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Birmania"
+   ]
+  },
+  {
+   "id": "tuno:top_mm_sapal-fm-radio",
+   "name": "Sapal FM Radio",
+   "type": "radio",
+   "country": "MM",
+   "category": "music",
+   "stream": {
+    "url": "https://sapal.pmyanmar.com/livestream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://sapal.pmyanmar.com/livestream"
+   ]
+  }
+ ]
+}

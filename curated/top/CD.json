@@ -1,0 +1,259 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cd_top-congo-fm",
+   "name": "Top Congo FM",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://mta.newfold.com/snippets/media/bell.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://mta.newfold.com/snippets/media/bell.mp3",
+    "https://topcongofm2.ice.infomaniak.ch/topcongofm2-64.mp3?"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://topcongofm2.ice.infomaniak.ch/topcongofm2-64.mp3?",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://domain.com/"
+  },
+  {
+   "id": "tuno:top_cd_radio-maria-dem-rep-congo",
+   "name": "RADIO MARIA DEM.REP. CONGO",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8116/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8116/stream"
+   ],
+   "website": "http://www.radiomaria.cd/"
+  },
+  {
+   "id": "tuno:top_cd_radio-okapi",
+   "name": "Radio Okapi",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://servidor30-5.brlogic.com:7090/live",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://servidor30-5.brlogic.com:7090/live"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_top-congo-fm-88-4-kinshasa",
+   "name": "Top Congo FM 88.4 Kinshasa",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "http://topcongofm2.ice.infomaniak.ch/topcongofm2-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://topcongofm2.ice.infomaniak.ch/topcongofm2-64.mp3"
+   ],
+   "website": "http://www.topcongoinfo.com/"
+  },
+  {
+   "id": "tuno:top_cd_kultura-fm",
+   "name": "Kultura FM",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://kulturafm.ice.infomaniak.ch/kulturafm-128.aac",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://kulturafm.ice.infomaniak.ch/kulturafm-128.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_radio-africa-online",
+   "name": "Radio Africa Online",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.rockhost.com/proxy/radioafr?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://ssl.rockhost.com/proxy/radioafr?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_rmbb",
+   "name": "rmbb",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio4.pro-fhi.net/live/RadioMotoButemboBeni?1712401009868",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio4.pro-fhi.net/live/RadioMotoButemboBeni?1712401009868",
+    "https://www.radiomoto.net/wp-content/uploads/2021/01/EKIKATIMBA-.mp3?_=1"
+   ],
+   "website": "https://www.radiomoto.net/"
+  },
+  {
+   "id": "tuno:top_cd_urban-fm",
+   "name": "Urban FM",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://urbanfm.ice.infomaniak.ch/urbanfm-128.aac",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://urbanfm.ice.infomaniak.ch/urbanfm-128.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_radio-svein",
+   "name": "Radio Svein",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://radiosvein2.ice.infomaniak.ch/radiosvein2-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://radiosvein2.ice.infomaniak.ch/radiosvein2-64.mp3"
+   ],
+   "website": "https://sveinmedia.info/"
+  },
+  {
+   "id": "tuno:top_cd_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_cd_geant-radio",
+   "name": "GEANT RADIO",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://servidor37.brlogic.com:7080/live",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://servidor37.brlogic.com:7080/live"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_innovation-fm",
+   "name": "Innovation FM",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.fdvi.org/live?ts=1792524786568",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio.fdvi.org/live?ts=1792524786568"
+   ],
+   "website": "https://radio.fdvi.org/"
+  },
+  {
+   "id": "tuno:top_cd_radio-tuambiane",
+   "name": "Radio Tuambiane",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://artemis.streamerr.co/listen/tuambiyane/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://artemis.streamerr.co/listen/tuambiyane/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmcongo2?mp=/stream?ver=860933",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmcongo2?mp=/stream?ver=860933"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_ralik-fm",
+   "name": "Ralik FM",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://ralikfm-atunwadigital.streamguys1.com/ralikfm",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://ralikfm-atunwadigital.streamguys1.com/ralikfm"
+   ]
+  },
+  {
+   "id": "tuno:top_cd_oasis",
+   "name": "oasis",
+   "type": "radio",
+   "country": "CD",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/622345/stream/684418",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://listen.radioking.com/radio/622345/stream/684418"
+   ]
+  }
+ ]
+}

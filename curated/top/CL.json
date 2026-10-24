@@ -1,0 +1,583 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cl_radio-corazon",
+   "name": "Radio Corazón",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "http://24493.live.streamtheworld.com/CORAZON_SC",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://24493.live.streamtheworld.com/CORAZON_SC",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CORAZONAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_radio-imagina",
+   "name": "Radio Imagina",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/IMAGINA_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/IMAGINA_SC?dist=onlineradiobox",
+    "http://26673.live.streamtheworld.com/IMAGINA_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://26673.live.streamtheworld.com/IMAGINA_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioimagina.cl/"
+  },
+  {
+   "id": "tuno:top_cl_concierto-88-5-fm",
+   "name": "Concierto 88.5 FM",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CONCIERTOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CONCIERTOAAC.aac?dist=onlineradiobox",
+    "http://24253.live.streamtheworld.com/CONCIERTO_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://24253.live.streamtheworld.com/CONCIERTO_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.concierto.cl/"
+  },
+  {
+   "id": "tuno:top_cl_adn-radio",
+   "name": "ADN Radio",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ADN.mp3?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ADNAAC.aac",
+    "https://27413.live.streamtheworld.com/ADNAAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADNAAC.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "https://27413.live.streamtheworld.com/ADNAAC.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.adnradio.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radio-cooperativa",
+   "name": "Radio Cooperativa",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://redirector.dps.live/cooperativafm/mp3/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://redirector.dps.live/cooperativafm/mp3/icecast.audio",
+    "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.cooperativa.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radio-sol-fm-97-7",
+   "name": "Radio Sol FM 97.7",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://us9.maindigitalstream.com/ssl/7389",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://us9.maindigitalstream.com/ssl/7389"
+   ],
+   "website": "https://radiosol.cl/"
+  },
+  {
+   "id": "tuno:top_cl_biobio-chile",
+   "name": "BioBio Chile",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://unlimited3-cl.dps.live/biobiosantiago/aac/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://unlimited3-cl.dps.live/biobiosantiago/aac/icecast.audio"
+   ],
+   "website": "https://www.biobiochile.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radio-bio-bio",
+   "name": "Radio Bio Bio",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://unlimited5-us.dps.live/biobiosantiago/aac/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://unlimited5-us.dps.live/biobiosantiago/aac/icecast.audio"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_radio-pudahuel",
+   "name": "Radio Pudahuel",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL.mp3?dist=onlineradiobox",
+    "http://26673.live.streamtheworld.com:3690/PUDAHUEL_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://26673.live.streamtheworld.com:3690/PUDAHUEL_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.pudahuel.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radio-futuro",
+   "name": "Radio Futuro",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FUTURO_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/FUTURO_SC?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/FUTURO_SC.mp3"
+   ],
+   "website": "https://www.futuro.cl/"
+  },
+  {
+   "id": "tuno:top_cl_sonar-105-3-fm",
+   "name": "Sonar 105.3 FM",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5c915724519bce27671c4d15/icecast.audio?property=radiobox",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://mdstrm.com/audio/5c915724519bce27671c4d15/icecast.audio?property=radiobox"
+   ],
+   "website": "https://sonarfm.cl/"
+  },
+  {
+   "id": "tuno:top_cl_la-retro-80s-chile",
+   "name": "La Retro 80s Chile",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co:80/s9ecef4f68/listen",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://s2.radio.co:80/s9ecef4f68/listen"
+   ],
+   "website": "https://www.laretro.cl/"
+  },
+  {
+   "id": "tuno:top_cl_fm-dos",
+   "name": "FM Dos",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FMDOS_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/FMDOS_SC?dist=onlineradiobox",
+    "http://26663.live.streamtheworld.com:3690/FMDOSAAC_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://26663.live.streamtheworld.com:3690/FMDOSAAC_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.fmdos.cl/"
+  },
+  {
+   "id": "tuno:top_cl_rock-pop",
+   "name": "Rock & Pop",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_AND_POPAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_AND_POPAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_play-fm",
+   "name": "Play FM",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5c8d6406f98fbf269f57c82c/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://mdstrm.com/audio/5c8d6406f98fbf269f57c82c/live.m3u8",
+    "https://mdstrm.com/audio/5c8d6406f98fbf269f57c82c/icecast.audio",
+    "https://azura.servercast.com.br/listen/radio_fernanda/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mdstrm.com/audio/5c8d6406f98fbf269f57c82c/icecast.audio",
+     "format": "icecast"
+    },
+    {
+     "url": "https://azura.servercast.com.br/listen/radio_fernanda/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://playfm.cl/"
+  },
+  {
+   "id": "tuno:top_cl_rock-and-pop",
+   "name": "Rock and Pop",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "http://24423.live.streamtheworld.com:3690/ROCK_AND_POPAAC_SC",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://24423.live.streamtheworld.com:3690/ROCK_AND_POPAAC_SC",
+    "http://27433.live.streamtheworld.com/ROCK_AND_POP_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://27433.live.streamtheworld.com/ROCK_AND_POP_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.rockandpop.cl/"
+  },
+  {
+   "id": "tuno:top_cl_fm-de-los-recuerdos",
+   "name": "FM de los Recuerdos",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic.mistreamingtv.uno:8072/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://sonic.mistreamingtv.uno:8072/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_los40-chile",
+   "name": "LOS40 Chile",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CHILEAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CHILEAAC.aac",
+    "https://player.prisamedia.com/core/test/dummy.mp3"
+   ],
+   "website": "https://los40.cl/"
+  },
+  {
+   "id": "tuno:top_cl_duna",
+   "name": "Duna",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/67f42f96e464d19a6eda3c7d/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://mdstrm.com/audio/67f42f96e464d19a6eda3c7d/live.m3u8",
+    "https://hls-audio-cl-1-isp.dps.live/duna/gotardis/audio/now/livestream1.m3u8",
+    "https://mdstrm.com/audio/67f42f96e464d19a6eda3c7d/icecast.audio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://hls-audio-cl-1-isp.dps.live/duna/gotardis/audio/now/livestream1.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "https://mdstrm.com/audio/67f42f96e464d19a6eda3c7d/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.duna.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radio-edelweiss",
+   "name": "Radio Edelweiss",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://encoder.stationlink.cl/listen/edelweiss/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://encoder.stationlink.cl/listen/edelweiss/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_radio-ritoque",
+   "name": "Radio Ritoque",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.nubula.cl:8000/ritoquefm",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://audio.nubula.cl:8000/ritoquefm",
+    "https://archi-us.digitalproserver.com/ritoquefm_aac",
+    "http://sonando.us.digitalproserver.com/ritoquefm_aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://archi-us.digitalproserver.com/ritoquefm_aac",
+     "format": "icecast"
+    },
+    {
+     "url": "http://sonando.us.digitalproserver.com/ritoquefm_aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://ritoquefm.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radio-activa-92-5",
+   "name": "RADIO ACTIVA 92.5.",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "http://27343.live.streamtheworld.com/ACTIVA_SC",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://27343.live.streamtheworld.com/ACTIVA_SC"
+   ],
+   "website": "https://www.radioactiva.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radioactiva",
+   "name": "RadioActiva",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ACTIVA.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ACTIVA.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_radio-agricultura",
+   "name": "Radio Agricultura",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://unlimited5-us.dps.live/agricultura/gotardis/audio/now/livestream1.m3u8",
+    "format": "hls"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://unlimited5-us.dps.live/agricultura/gotardis/audio/now/livestream1.m3u8",
+    "https://unlimited4-us.dps.live/agricultura/gotardis/audio/now/livestream1.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://unlimited4-us.dps.live/agricultura/gotardis/audio/now/livestream1.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.radioagricultura.cl/"
+  },
+  {
+   "id": "tuno:top_cl_universo",
+   "name": "Universo",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://redirector.dps.live/universo/aac/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://redirector.dps.live/universo/aac/icecast.audio"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_radio-exitosa-88-5-fm",
+   "name": "Radio Exitosa 88.5 FM",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://audio3.tustreaming.cl/7330/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://audio3.tustreaming.cl/7330/stream",
+    "https://stream-287.surfernetwork.com/aaxwtg4w6x1uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhYXh3dGc0dzZ4MXV2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Im1QWU90d0NVUkNLMGdVUUVVVmdhanciLCJpYXQiOjE3OTIyNjMyODgsImV4cCI6MTc5MjI2MzM0OH0.QxfPxZvYX-xwvP7YGmSibE5Xr3xAt5fSPFZ_tL4kRpg"
+   ],
+   "website": "https://zeno.fm/radio/radio-exitosa/"
+  },
+  {
+   "id": "tuno:top_cl_el-conquistador",
+   "name": "El Conquistador",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream10.usastreams.com/9314/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream10.usastreams.com/9314/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_digital-105-5-fm-talca",
+   "name": "Digital 105.5 FM - TALCA",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://unlimited5-us.dps.live/digitalfm/aac/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://unlimited5-us.dps.live/digitalfm/aac/icecast.audio",
+    "https://radio.digitalfm.cl:8000/talca"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.digitalfm.cl:8000/talca",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.digitalfm.cl/"
+  },
+  {
+   "id": "tuno:top_cl_radio-carolina",
+   "name": "Radio Carolina",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/637f68ddce4b1208597d8a86/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://mdstrm.com/audio/637f68ddce4b1208597d8a86/live.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_cl_radio-el-conquistador-fm-santiago",
+   "name": "Radio El Conquistador FM (Santiago)",
+   "type": "radio",
+   "country": "CL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream10.usastreams.com/9314/stream/",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://stream10.usastreams.com/9314/stream/"
+   ],
+   "website": "https://www.elconquistadorfm.cl/"
+  }
+ ]
+}

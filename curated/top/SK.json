@@ -1,0 +1,551 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_sk_fun-radio",
+   "name": "Fun Radio",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.funradio.sk:8000/fun128.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://stream.funradio.sk:8000/fun128.mp3"
+   ],
+   "website": "http://www.funradio.sk/"
+  },
+  {
+   "id": "tuno:top_sk_radio-vlna",
+   "name": "Rádio Vlna",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiovlna.sk/vlna-hi.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.radiovlna.sk/vlna-hi.mp3"
+   ],
+   "website": "http://radiovlna.sk/"
+  },
+  {
+   "id": "tuno:top_sk_europa-2",
+   "name": "Europa 2",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bauermedia.sk/europa2.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream.bauermedia.sk/europa2.mp3"
+   ],
+   "website": "https://www.europa2.sk/"
+  },
+  {
+   "id": "tuno:top_sk_radio-melody",
+   "name": "Rádio Melody",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bauermedia.sk/melody-hi.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.bauermedia.sk/melody-hi.mp3"
+   ],
+   "website": "https://radiomelody.sk/"
+  },
+  {
+   "id": "tuno:top_sk_slobodny-vysielac",
+   "name": "Slobodny Vysielac",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://vysielanie.online/radio/8010/aac",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://vysielanie.online/radio/8010/aac",
+    "http://vysielanie.online/radio/8020/SV128.mp3",
+    "http://159.69.219.5:8010/mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://vysielanie.online/radio/8020/SV128.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://159.69.219.5:8010/mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://slobodnyvysielac.sk/zive-vysielanie/"
+  },
+  {
+   "id": "tuno:top_sk_info-vojna",
+   "name": "Info Vojna",
+   "type": "radio",
+   "country": "SK",
+   "category": "talk",
+   "stream": {
+    "url": "https://stream.infovojna.bz/live",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream.infovojna.bz/live",
+    "http://stream1.infovojna.com:8002/live",
+    "https://stream2.infovojna.com:8000/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream1.infovojna.com:8002/live",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream2.infovojna.com:8000/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.infovojna.com/"
+  },
+  {
+   "id": "tuno:top_sk_sro1-radio-slovensko-256k",
+   "name": "SRo1 Rádio Slovensko (256k)",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://n15.stv.livebox.sk/stv-tv/_definst_/stv1.smil/playlist.m3u8?auth=b64:X2FueV98MTc5MjUzMDI4MnxmZDVlNWI3ZDg2MDU4YWNjYWM4NjI3OTZjZjJlN2E1OGRkZDJlMTNh",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://n15.stv.livebox.sk/stv-tv/_definst_/stv1.smil/playlist.m3u8?auth=b64:X2FueV98MTc5MjUzMDI4MnxmZDVlNWI3ZDg2MDU4YWNjYWM4NjI3OTZjZjJlN2E1OGRkZDJlMTNh",
+    "http://live.slovakradio.sk:8000/Slovensko_256.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live.slovakradio.sk:8000/Slovensko_256.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://slovensko.rtvs.sk/"
+  },
+  {
+   "id": "tuno:top_sk_rtvs-radio-slovensko",
+   "name": "RTVS Rádio Slovensko",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.stv.livebox.sk/slovensko_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://icecast.stv.livebox.sk/slovensko_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_radio-fm",
+   "name": "Radio FM",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://n17.stv.livebox.sk/stv-tv/_definst_/stv1.smil/playlist.m3u8?auth=b64:X2FueV98MTc5MjUzMDI4MXw0Y2QxYWI4NjQ5OGJmNGU5YjdkMzFmZTdlYjc5ZmVhNDE5NWE1MTNl",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://n17.stv.livebox.sk/stv-tv/_definst_/stv1.smil/playlist.m3u8?auth=b64:X2FueV98MTc5MjUzMDI4MXw0Y2QxYWI4NjQ5OGJmNGU5YjdkMzFmZTdlYjc5ZmVhNDE5NWE1MTNl",
+    "https://icecast.stv.livebox.sk/rsi_128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://icecast.stv.livebox.sk/rsi_128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fm.rtvs.sk/"
+  },
+  {
+   "id": "tuno:top_sk_radio-expres",
+   "name": "Radio Expres",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.expres.sk/128.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.expres.sk/128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_radio-maria-slovensko",
+   "name": "Rádio Maria Slovensko",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp5.com:8012/streaming.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://dreamsiteradiocp5.com:8012/streaming.mp3",
+    "https://dreamsiteradiocp5.com/proxy/radiomariaslomp3?mp=/stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dreamsiteradiocp5.com/proxy/radiomariaslomp3?mp=/stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiomaria.sk/"
+  },
+  {
+   "id": "tuno:top_sk_radio-rock",
+   "name": "Radio ROCK",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bauermedia.sk/rock-hi.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://stream.bauermedia.sk/rock-hi.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_sro8-radio-litera",
+   "name": "SRo8 Rádio Litera",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.stv.livebox.sk/litera_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://icecast.stv.livebox.sk/litera_128.mp3",
+    "https://n15.stv.livebox.sk/stv-tv/_definst_/stv1.smil/playlist.m3u8?auth=b64:X2FueV98MTc5MjUzMDI5MXxmZGY1ZTc1YzgxZmUxMjU1Mzg4OGVmYjg5MGQ5OTc5MjUwYjY5NWFh"
+   ],
+   "website": "https://litera.rtvs.sk/"
+  },
+  {
+   "id": "tuno:top_sk_trnavske-radio",
+   "name": "Trnavské rádio",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://solid33.streamupsolutions.com/proxy/mujdmamw/trnavske",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://solid33.streamupsolutions.com/proxy/mujdmamw/trnavske"
+   ],
+   "website": "https://trnavske.radio/"
+  },
+  {
+   "id": "tuno:top_sk_radio-lumen",
+   "name": "Rádio Lumen",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://audio.lumen.sk:8000/live128.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://audio.lumen.sk:8000/live128.mp3"
+   ],
+   "website": "http://www.lumen.sk/"
+  },
+  {
+   "id": "tuno:top_sk_hitradio-slovakia",
+   "name": "HITRADIO SLOVAKIA",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://hitradioslovakia.stream.laut.fm/hitradioslovakia",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://hitradioslovakia.stream.laut.fm/hitradioslovakia",
+    "https://stream.laut.fm/hitradioslovakia"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.laut.fm/hitradioslovakia",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hitradioslovakia.com/"
+  },
+  {
+   "id": "tuno:top_sk_radio-expres_17",
+   "name": "RÁDIO EXPRES",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bauermedia.sk/128.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.bauermedia.sk/128.mp3",
+    "http://stream.expres.sk/128.mp3",
+    "https://www.expres.sk/wp-content/uploads/2026/10/infoexpres-2021.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.expres.sk/128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.expres.sk/"
+  },
+  {
+   "id": "tuno:top_sk_best-fm",
+   "name": "Best FM",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream3.bestfm.sk:8000/160.aac",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream3.bestfm.sk:8000/160.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_sro3-radio-devin",
+   "name": "SRo3: Rádio Devín",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://n13.stv.livebox.sk/stv-tv/_definst_/stv1.smil/playlist.m3u8?auth=b64:X2FueV98MTc5MjUzMDMyMnxiNGY1ZmIxYTNlNzlhYWFiZTUxMjVmMmZkOTJlZDkzNzY3ZTE5NTg5",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://n13.stv.livebox.sk/stv-tv/_definst_/stv1.smil/playlist.m3u8?auth=b64:X2FueV98MTc5MjUzMDMyMnxiNGY1ZmIxYTNlNzlhYWFiZTUxMjVmMmZkOTJlZDkzNzY3ZTE5NTg5",
+    "http://icecast.stv.livebox.sk/devin_128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.stv.livebox.sk/devin_128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://devin.rtvs.sk/"
+  },
+  {
+   "id": "tuno:top_sk_sro2-radio-regina-vychod",
+   "name": "SRo2 Rádio Regina Východ",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.stv.livebox.sk/regina-bb_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://icecast.stv.livebox.sk/regina-bb_128.mp3"
+   ],
+   "website": "https://reginavychod.rtvs.sk/"
+  },
+  {
+   "id": "tuno:top_sk_897-dance",
+   "name": "897 DANCE",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://c34.radioboss.fm:8106/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://c34.radioboss.fm:8106/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_bb-fm-radio",
+   "name": "BB FM rádio",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.bbfm.sk/bbfm128.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://stream.bbfm.sk/bbfm128.mp3"
+   ],
+   "website": "https://www.bbfm.sk/"
+  },
+  {
+   "id": "tuno:top_sk_rusynfm",
+   "name": "RusynFM",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rusyn.fm/rusyny.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://stream.rusyn.fm/rusyny.mp3"
+   ],
+   "website": "http://www.rusyn.fm/"
+  },
+  {
+   "id": "tuno:top_sk_rtvs-litera",
+   "name": "RTVS Litera",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.stv.livebox.sk/litera_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://icecast.stv.livebox.sk/litera_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_radio-parada",
+   "name": "Rádio Paráda",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://extra.mediacp.eu/stream/RadioParada,o.z./stream?ver=433949",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://extra.mediacp.eu/stream/RadioParada,o.z./stream?ver=433949",
+    "https://extra.mediacp.eu/stream/RadioParada,o.z."
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://extra.mediacp.eu/stream/RadioParada,o.z.",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioparada.sk/"
+  },
+  {
+   "id": "tuno:top_sk_rtvs-radio-fm",
+   "name": "RTVS Radio FM",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.stv.livebox.sk/fm_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://icecast.stv.livebox.sk/fm_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_metalscena-netradio",
+   "name": "METALSCENA netRADIO",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/263218/stream/308365",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://listen.radioking.com/radio/263218/stream/308365"
+   ],
+   "website": "https://www.metalscena.sk/"
+  },
+  {
+   "id": "tuno:top_sk_radio-kosice",
+   "name": "Rádio Košice",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.ecce.sk:8000/radiokosice-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://stream.ecce.sk:8000/radiokosice-128.mp3"
+   ],
+   "website": "http://www.radiokosice.sk/"
+  },
+  {
+   "id": "tuno:top_sk_radio-kosice_29",
+   "name": "Radio Kosice",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.ecce.sk:8000/radiokosice-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://stream.ecce.sk:8000/radiokosice-128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sk_radio-beta",
+   "name": "Rádio Beta",
+   "type": "radio",
+   "country": "SK",
+   "category": "music",
+   "stream": {
+    "url": "http://109.71.67.102:8000/beta_live_high.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://109.71.67.102:8000/beta_live_high.mp3"
+   ],
+   "website": "https://beta.sk/"
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ae_quran-radio-from-sharjah",
+   "name": "Quran Radio From Sharjah",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://l3.itworkscdn.net/smcquranlive/quranradiolive/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://l3.itworkscdn.net/smcquranlive/quranradiolive/icecast.audio"
+   ],
+   "website": "https://l3.itworkscdn.net/smcquranlive/quranradiolive/icecast.audio"
+  },
+  {
+   "id": "tuno:top_ae_positively-meditation-om",
+   "name": "Positively Meditation -om",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.positivity.radio/pr/posimeditation/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streaming.positivity.radio/pr/posimeditation/playlist.m3u8",
+    "https://streaming.exclusive.radio/er-app/pinkfloydhits/icecast.audio"
+   ],
+   "website": "https://play.you.radio/station/1121"
+  },
+  {
+   "id": "tuno:top_ae_mirchi-1024",
+   "name": "Mirchi 1024",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://eu8.fastcast4u.com/proxy/clyedupq?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://eu8.fastcast4u.com/proxy/clyedupq?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_ae_sky-arabia-news-tv",
+   "name": "Sky Arabia News TV",
+   "type": "radio",
+   "country": "AE",
+   "category": "talk",
+   "stream": {
+    "url": "http://stream.skynewsarabia.com/hls/sna_720.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://stream.skynewsarabia.com/hls/sna_720.m3u8"
+   ],
+   "website": "http://www.skynewsarabia.com/"
+  },
+  {
+   "id": "tuno:top_ae_city-1016",
+   "name": "City 1016",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/gmwyu8xdrxquv",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.radiojar.com/gmwyu8xdrxquv",
+    "https://n07.radiojar.com/gmwyu8xdrxquv?_=760588&rj-tok=AAABkXoon2EAToxxtPXBLFkydw&rj-ttl=5"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://n07.radiojar.com/gmwyu8xdrxquv?_=760588&rj-tok=AAABkXoon2EAToxxtPXBLFkydw&rj-ttl=5",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.city1016.ae/"
+  },
+  {
+   "id": "tuno:top_ae_al-arabiya-99",
+   "name": "Al Arabiya 99",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://fm.alarabiya.net/fm/myStream/chunklist_w1173383407.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://fm.alarabiya.net/fm/myStream/chunklist_w1173383407.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ae_radio-shoma",
+   "name": "Radio Shoma",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/rzcfw4cbsxquv",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.radiojar.com/rzcfw4cbsxquv"
+   ]
+  },
+  {
+   "id": "tuno:top_ae_radio-relax",
+   "name": "Radio Relax",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://online.radiorelax.ua/RadioRelax_Int_HD",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://online.radiorelax.ua/RadioRelax_Int_HD"
+   ],
+   "website": "https://online.radiorelax.ua/"
+  },
+  {
+   "id": "tuno:top_ae_106-2-big-fm",
+   "name": "106.2 Big FM",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://funasia.streamguys1.com/live4",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://funasia.streamguys1.com/live4"
+   ]
+  },
+  {
+   "id": "tuno:top_ae_dubai-eye-103-8",
+   "name": "Dubai Eye 103.8",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://gbradio.cdn.tibus.net/U105?aw_0_1st.playerId=wireless-website&_=477645",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://gbradio.cdn.tibus.net/U105?aw_0_1st.playerId=wireless-website&_=477645",
+    "https://stream.radiojar.com/shcthrfbsxquv"
+   ],
+   "website": "https://www.dubaieye1038.com/"
+  },
+  {
+   "id": "tuno:top_ae_big-fm-106-2-uae",
+   "name": "Big FM 106.2 UAE",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://funasia.streamguys1.com/live4",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://funasia.streamguys1.com/live4"
+   ],
+   "website": "https://big1062.com/"
+  },
+  {
+   "id": "tuno:top_ae_tag-91-1",
+   "name": "Tag 91.1",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.servcast.net/proxy/v81radioworldwide/live",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://cast4.servcast.net/proxy/v81radioworldwide/live",
+    "https://stream.radiojar.com/bpv82qebsxquv",
+    "https://stream-159.zeno.fm/7neg6f1hbm0uv?zs=RHmhUhEpS6-utF-DsvVQUQ&zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3bmVnNmYxaGJtMHV2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsImp0aSI6IlJIbWhVaEVwUzYtdXRGLURzdlZRVVEiLCJpYXQiOjE3MTI4MTMwMjQsImV4cCI6MTcxMjgxMzA4NH0.7ZKhsErDvNbE9o6O0FUvA5lJtpzbMKj5VbqvAdIh9Mk&zttl=5",
+    "https://stream-161.zeno.fm/7neg6f1hbm0uv?zs=uHSY7gmTTQOoLq1o0YC7VQ&zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3bmVnNmYxaGJtMHV2IiwiaG9zdCI6InN0cmVhbS0xNjEuemVuby5mbSIsImp0aSI6InVIU1k3Z21UVFFPb0xxMW8wWUM3VlEiLCJpYXQiOjE3MTI5MjEyMTIsImV4cCI6MTcxMjkyMTI3Mn0.4s2gDD67FdWyVPO9UquxsO-D47TlKQQ8YsWuvda09x0&zttl=5"
+   ],
+   "website": "https://www.tag911.ae/"
+  },
+  {
+   "id": "tuno:top_ae_mirchi-fm-102-4",
+   "name": "Mirchi FM 102.4",
+   "type": "radio",
+   "country": "AE",
+   "category": "music",
+   "stream": {
+    "url": "https://eu8.fastcast4u.com/proxy/clyedupq?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://eu8.fastcast4u.com/proxy/clyedupq?mp=/1"
+   ]
+  }
+ ]
+}

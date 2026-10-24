@@ -1,0 +1,535 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tw_fm102-5",
+   "name": "FM102.5 幸福廣播電台",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://163.13.182.81:8001/votk",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://163.13.182.81:8001/votk",
+    "http://test.taiwan-radio.tw:8000/YL.FM90.1"
+   ],
+   "website": "https://www.smileradio.com.tw/radio-info.asp?id=245"
+  },
+  {
+   "id": "tuno:top_tw_radio-icrt",
+   "name": "Radio ICRT",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/nkdfurztxp3vv",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.rcs.revma.com/nkdfurztxp3vv",
+    "https://n27a-eu.rcs.revma.com/nkdfurztxp3vv",
+    "http://n03.rcs.revma.com/x27mfpztxp3vv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://n27a-eu.rcs.revma.com/nkdfurztxp3vv",
+     "format": "icecast"
+    },
+    {
+     "url": "http://n03.rcs.revma.com/x27mfpztxp3vv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.icrt.com.tw/"
+  },
+  {
+   "id": "tuno:top_tw_station",
+   "name": "臺北電台",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8"
+   ],
+   "website": "http://www.radio.gov.taipei/"
+  },
+  {
+   "id": "tuno:top_tw_station_4",
+   "name": "中央廣播電台",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti3/chunklist.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://streamak0138.akamaized.net/live0138lh-mbm9/_definst_/rti3/chunklist.m3u8"
+   ],
+   "website": "https://www.rti.org.tw/"
+  },
+  {
+   "id": "tuno:top_tw_boss-online-radio",
+   "name": "Boss Online Radio",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/ehzvurp9tv8uv",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.radiojar.com/ehzvurp9tv8uv"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_classical-fm-97-7",
+   "name": "Classical 古典音樂台 FM 97.7",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://onair.family977.com.tw:8977/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://onair.family977.com.tw:8977/live.mp3",
+    "http://59.120.88.155:8000/live.mp3",
+    "http://test.taiwan-radio.tw:8000/TC.FM97.7"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://59.120.88.155:8000/live.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://test.taiwan-radio.tw:8000/TC.FM97.7",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.family977.com.tw/index.php"
+  },
+  {
+   "id": "tuno:top_tw_fm104",
+   "name": "正聲廣播電台FM104",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/playlist.m3u8",
+    "https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/chunklist_w872521607.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/chunklist_w872521607.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.csbc.com.tw/"
+  },
+  {
+   "id": "tuno:top_tw_fly-radio-fm-89-5",
+   "name": "Fly Radio FM 89.5",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/e0tdah74hv8uv",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.rcs.revma.com/e0tdah74hv8uv"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_station_9",
+   "name": "城市廣播網•台南知音",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://fm929.cityfm.com.tw:8083/929",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://fm929.cityfm.com.tw:8083/929",
+    "http://fm971.cityfm.tw:8080/971.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://fm971.cityfm.tw:8080/971.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.cityfm.tw/"
+  },
+  {
+   "id": "tuno:top_tw_gogo-radio-fm-104-3",
+   "name": "Gogo Radio FM 104.3(桃園)",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm1043/chunklist_w1108784103.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm1043/chunklist_w1108784103.m3u8",
+    "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm1043/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm1043/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm1043/chunklist_w1108784103.m3u8"
+  },
+  {
+   "id": "tuno:top_tw_fm-94-3",
+   "name": "警察廣播電臺 - 臺北分臺 FM 94.3",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.pbs.gov.tw/live/TPS/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.pbs.gov.tw/live/TPS/playlist.m3u8"
+   ],
+   "website": "https://www.pbs.npa.gov.tw/"
+  },
+  {
+   "id": "tuno:top_tw_pbs-taipei-sub-station",
+   "name": "PBS Taipei Sub-Station",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.pbs.gov.tw:1935/live/TPS/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://stream.pbs.gov.tw:1935/live/TPS/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_station_13",
+   "name": "佳音經典音樂網",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/classic/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/classic/playlist.m3u8"
+   ],
+   "website": "http://www.goodnews.org.tw/forum.php?change_model=forum_detail&id=124"
+  },
+  {
+   "id": "tuno:top_tw_station_14",
+   "name": "寶島聯播網",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://125.227.87.206:8000/FM98.5",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://125.227.87.206:8000/FM98.5"
+   ],
+   "website": "https://www.baodaoradio.com.tw/"
+  },
+  {
+   "id": "tuno:top_tw_i-radio",
+   "name": "中廣音樂網i radio",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rcs.revma.com/ndk05tyy2tzuv",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://stream.rcs.revma.com/ndk05tyy2tzuv"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_needs-radio",
+   "name": "needs RADIO",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn280.ccdntech.com/live-http/_definst_/vod280_Live/needs/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://cdn280.ccdntech.com/live-http/_definst_/vod280_Live/needs/playlist.m3u8",
+    "https://cdn280.ccdntech.com/live-http/_definst_/vod280_Live/needs/chunklist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cdn280.ccdntech.com/live-http/_definst_/vod280_Live/needs/chunklist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.needsradio.org.tw/"
+  },
+  {
+   "id": "tuno:top_tw_station_17",
+   "name": "中廣新聞網",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://n03.rcs.revma.com/78fm9wyy2tzuv",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://n03.rcs.revma.com/78fm9wyy2tzuv"
+   ],
+   "website": "https://www.bcc.com.tw/"
+  },
+  {
+   "id": "tuno:top_tw_station_18",
+   "name": "台中廣播",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://211.20.119.101:8081/",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://211.20.119.101:8081/"
+   ],
+   "website": "https://www.fm1007lucky.com/"
+  },
+  {
+   "id": "tuno:top_tw_station_19",
+   "name": "台北流行音樂廣播",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://202.39.43.67:1935/live/RA000080/chunklist.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://202.39.43.67:1935/live/RA000080/chunklist.m3u8"
+   ],
+   "website": "https://www.pop917.com/home.aspx"
+  },
+  {
+   "id": "tuno:top_tw_2",
+   "name": "民本電台-2",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://125.227.87.206:8000/SuperUS",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://125.227.87.206:8000/SuperUS"
+   ],
+   "website": "https://mingpen.com.tw/"
+  },
+  {
+   "id": "tuno:top_tw_fm107-1-the-voice-of-north-taiwan",
+   "name": "FM107.1 The Voice of North Taiwan",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://61.220.75.207:8107/",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://61.220.75.207:8107/"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_station_22",
+   "name": "漢聲調頻",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://202.39.43.67:1935/live/RA000076/chunklist.m3u8",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://202.39.43.67:1935/live/RA000076/chunklist.m3u8"
+   ],
+   "website": "https://audio.voh.com.tw/TW/Program/ugC_Program.aspx?Show=B"
+  },
+  {
+   "id": "tuno:top_tw_supreme-master-television",
+   "name": "Supreme Master Television",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.suprememastertv.com/mp3_128k",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://radio.suprememastertv.com/mp3_128k"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_1766",
+   "name": "1766線上電臺-百家知識",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://livestream.1766.today:1768/live1.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://livestream.1766.today:1768/live1.mp3"
+   ],
+   "website": "https://www.1766.today/"
+  },
+  {
+   "id": "tuno:top_tw_ccm-fm90-9",
+   "name": "佳音聖樂網 CCM FM90.9",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/modern/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/modern/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_station_26",
+   "name": "台灣廣播 松嶺台",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://test.taiwan-radio.tw:8000/NT.AM630",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://test.taiwan-radio.tw:8000/NT.AM630"
+   ],
+   "website": "https://www.taiwanradio.com.tw/ec99/rwd1638/category.asp?category_id=57"
+  },
+  {
+   "id": "tuno:top_tw_radio-i-go-531",
+   "name": "Radio I go 531",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rcs.revma.com/s7hc9kpy2tzuv",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://stream.rcs.revma.com/s7hc9kpy2tzuv"
+   ]
+  },
+  {
+   "id": "tuno:top_tw_station_28",
+   "name": "好事聯播網 高雄港都",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://202.39.43.67:1935/live/RA000012/chunklist.m3u8",
+    "format": "hls"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://202.39.43.67:1935/live/RA000012/chunklist.m3u8"
+   ],
+   "website": "https://www.apple-line.com/"
+  },
+  {
+   "id": "tuno:top_tw_phate",
+   "name": "Phate",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "https://phate.io/listen.ogg?_=1792523739847",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://phate.io/listen.ogg?_=1792523739847",
+    "http://phate.io/listen"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://phate.io/listen",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://phate.io/"
+  },
+  {
+   "id": "tuno:top_tw_lize-radio",
+   "name": "Lize Radio",
+   "type": "radio",
+   "country": "TW",
+   "category": "music",
+   "stream": {
+    "url": "http://lizeradio.com:8080/;&type=mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://lizeradio.com:8080/;&type=mp3"
+   ]
+  }
+ ]
+}

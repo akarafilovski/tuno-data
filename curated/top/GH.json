@@ -1,0 +1,502 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gh_citi-fm",
+   "name": "Citi FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://citi973fm.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://citi973fm.radioca.st/;",
+    "https://citi973fm.radioca.st/index.html:80/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://citi973fm.radioca.st/index.html:80/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://citinewsroom.com/livestream/"
+  },
+  {
+   "id": "tuno:top_gh_peace-fm",
+   "name": "Peace FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://okayfm-atunwadigital.streamguys1.com/okayfm",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://okayfm-atunwadigital.streamguys1.com/okayfm",
+    "http://okayfm.atunwadigital.streamguys1.com/okayfm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://okayfm.atunwadigital.streamguys1.com/okayfm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.peacefmonline.com/"
+  },
+  {
+   "id": "tuno:top_gh_adom-fm",
+   "name": "Adom FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://mmg.streamguys1.com/AdomFM-mp3?key=9099965b0e49394af3be11b42a71f0faa90378311d2d85f5983495217e350f0a4636df5ecf5ea3f63e53cb9026d89102&awparams=playerid%3ASGplayer%3B&amsparams=playerid%3ASGplayer%3Bskey%3A1609841442537%3B&aw_0_req.gdpr=true&us_privacy=1YNN",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://mmg.streamguys1.com/AdomFM-mp3?key=9099965b0e49394af3be11b42a71f0faa90378311d2d85f5983495217e350f0a4636df5ecf5ea3f63e53cb9026d89102&awparams=playerid%3ASGplayer%3B&amsparams=playerid%3ASGplayer%3Bskey%3A1609841442537%3B&aw_0_req.gdpr=true&us_privacy=1YNN",
+    "https://atunwapodcasts.com/player/adomfm.html"
+   ],
+   "website": "https://www.adomonline.com/"
+  },
+  {
+   "id": "tuno:top_gh_ghana-music-radio",
+   "name": "Ghana Music Radio",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/s92f890821/listen",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://streaming.radio.co/s92f890821/listen"
+   ],
+   "website": "http://www.ghanamusicradio.com/"
+  },
+  {
+   "id": "tuno:top_gh_asempa-fm",
+   "name": "Asempa FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://mmg.streamguys1.com/AsempaFM-mp3?key=23f81ad063fc94d769b3f56668d742562a0645bb7ba0f5633dbce7d73d151195adfd4a7b4b2afeeff7fb81cf4ef6e790&awparams=playerid%3ASGplayer%3B&amsparams=playerid%3ASGplayer%3Bskey%3A1609843961148%3B&aw_0_req.gdpr=true&us_privacy=1YNN",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://mmg.streamguys1.com/AsempaFM-mp3?key=23f81ad063fc94d769b3f56668d742562a0645bb7ba0f5633dbce7d73d151195adfd4a7b4b2afeeff7fb81cf4ef6e790&awparams=playerid%3ASGplayer%3B&amsparams=playerid%3ASGplayer%3Bskey%3A1609843961148%3B&aw_0_req.gdpr=true&us_privacy=1YNN",
+    "https://atunwapodcasts.com/player/asempafm.html"
+   ],
+   "website": "https://www.myjoyonline.com/"
+  },
+  {
+   "id": "tuno:top_gh_oman-fm",
+   "name": "Oman FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://omanfm-atunwadigital.streamguys1.com/omanfm/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://omanfm-atunwadigital.streamguys1.com/omanfm/playlist.m3u8",
+    "https://omanfm-atunwadigital.streamguys1.com/omanfm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://omanfm-atunwadigital.streamguys1.com/omanfm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.omanfm1071.com/"
+  },
+  {
+   "id": "tuno:top_gh_akomapa-fm",
+   "name": "Akomapa FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "http://mounthoreb1.primcast.com:8210/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://mounthoreb1.primcast.com:8210/;"
+   ],
+   "website": "http://akomapafmoline.com/"
+  },
+  {
+   "id": "tuno:top_gh_kessben-fm",
+   "name": "Kessben FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://kessben933fmkumasi-atunwadigital.streamguys1.com/kessben933fmkumasi",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://kessben933fmkumasi-atunwadigital.streamguys1.com/kessben933fmkumasi"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_nhyira-fm",
+   "name": "Nhyira FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://mmg.streamguys1.com/NhyiraFM-mp3?key=63d8990dfe4438ae984fd70d2d2b4bd31c842c474987bd810ac0e8e0fd62e8cf2015661105cced63ccfdca89a8422ab1",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://mmg.streamguys1.com/NhyiraFM-mp3?key=63d8990dfe4438ae984fd70d2d2b4bd31c842c474987bd810ac0e8e0fd62e8cf2015661105cced63ccfdca89a8422ab1",
+    "https://atunwapodcasts.com/player/nhyirafm.html"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_sweet-melodies",
+   "name": "Sweet Melodies",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "http://sweetmelodies.tk/stream1",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://sweetmelodies.tk/stream1"
+   ],
+   "website": "http://sweetmelodies.tk/"
+  },
+  {
+   "id": "tuno:top_gh_the-original-word-radio",
+   "name": "The Original Word Radio",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://eu8.fastcast4u.com/proxy/emmazy3?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://eu8.fastcast4u.com/proxy/emmazy3?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_angel-fm-96-1",
+   "name": "Angel FM 96.1",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://angelfm-atunwadigital.streamguys1.com/angelfm",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://angelfm-atunwadigital.streamguys1.com/angelfm",
+    "https://atunwadigital.streamguys1.com/angelfm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://atunwadigital.streamguys1.com/angelfm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://angelfmonlinegh.com/"
+  },
+  {
+   "id": "tuno:top_gh_radio-gold",
+   "name": "Radio Gold",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://radiogold-atunwadigital.streamguys1.com/radiogold",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radiogold-atunwadigital.streamguys1.com/radiogold"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_parousia-radio",
+   "name": "Parousia Radio",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.parousiaempire.org:8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radio.parousiaempire.org:8000/radio.mp3"
+   ],
+   "website": "https://radio.parousiaempire.org/public/parousia_radio"
+  },
+  {
+   "id": "tuno:top_gh_pure-95-7-fm",
+   "name": "Pure 95.7 FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://purefm-atunwadigital.streamguys1.com/purefm",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://purefm-atunwadigital.streamguys1.com/purefm",
+    "http://purefm.atunwadigital.streamguys1.com/purefm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://purefm.atunwadigital.streamguys1.com/purefm",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://mypurefmonline.com/"
+  },
+  {
+   "id": "tuno:top_gh_oroko-radio",
+   "name": "Oroko Radio",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://oroko-radio.radiocult.fm/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://oroko-radio.radiocult.fm/stream"
+   ],
+   "website": "https://oroko.live/"
+  },
+  {
+   "id": "tuno:top_gh_3fm",
+   "name": "3FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://3fm-atunwadigital.streamguys1.com/3fm",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://3fm-atunwadigital.streamguys1.com/3fm"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_057-radio",
+   "name": "057 radio",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.alter-media.hr/9052/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://audio.alter-media.hr/9052/stream"
+   ],
+   "website": "https://www.057info.hr/emisije/"
+  },
+  {
+   "id": "tuno:top_gh_opemsuo-fm",
+   "name": "Opemsuo FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://opemsuofm-atunwadigital.streamguys1.com/opemsuofm",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://opemsuofm-atunwadigital.streamguys1.com/opemsuofm"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gh_torq-radio",
+   "name": "Torq Radio",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.radio.co/se63becd16/listen",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://s4.radio.co/se63becd16/listen"
+   ],
+   "website": "https://www.torqradio.com/"
+  },
+  {
+   "id": "tuno:top_gh_y-107-9-fm",
+   "name": "Y 107.9 FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://yfm1079accra-atunwadigital.streamguys1.com/yfm1079accra",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://yfm1079accra-atunwadigital.streamguys1.com/yfm1079accra"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_starr-fm",
+   "name": "Starr FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://starrfm-atunwadigital.streamguys1.com/starrfm",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://starrfm-atunwadigital.streamguys1.com/starrfm"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_sunny-fm",
+   "name": "Sunny FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://sunny-radio-server.cloud-ip.cc/radio/sunnyradio?t=1782488511159",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://sunny-radio-server.cloud-ip.cc/radio/sunnyradio?t=1782488511159"
+   ],
+   "website": "https://sunnygh.com/"
+  },
+  {
+   "id": "tuno:top_gh_sportyfm",
+   "name": "SportyFM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://sportyfm-atunwadigital.streamguys1.com/sportyfm",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://sportyfm-atunwadigital.streamguys1.com/sportyfm"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_ahenfie-fm-106-1mhz",
+   "name": "Ahenfie FM 106.1MHz",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.localstreamgh.com/listen/ahenfie_radio_/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://radio.localstreamgh.com/listen/ahenfie_radio_/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_yfm-fm",
+   "name": "Yfm Fm",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://yfm1079accra-atunwadigital.streamguys1.com/yfm1079accra",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://yfm1079accra-atunwadigital.streamguys1.com/yfm1079accra",
+    "https://atunwadigital.streamguys1.com/yfm1025kumasi"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://atunwadigital.streamguys1.com/yfm1025kumasi",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.yfmghana.com/"
+  },
+  {
+   "id": "tuno:top_gh_rfi-afrique",
+   "name": "RFI Afrique",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "http://live02.rfi.fr/rfiafrique-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://live02.rfi.fr/rfiafrique-64.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gh_tw-radio-88-9-fm",
+   "name": "TW Radio 88.9 FM",
+   "type": "radio",
+   "country": "GH",
+   "category": "music",
+   "stream": {
+    "url": "https://a00.w3gradle.com/a21.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://a00.w3gradle.com/a21.mp3"
+   ],
+   "website": "https://twradiogh.com/"
+  }
+ ]
+}

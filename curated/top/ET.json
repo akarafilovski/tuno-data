@@ -1,0 +1,175 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_et_dw-amharic",
+   "name": "DW Amharic",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://dw.audiostream.io/dw/1027/mp3/64/dw08",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://dw.audiostream.io/dw/1027/mp3/64/dw08"
+   ],
+   "website": "https://yonaskassahun011.wixsite.com/selamcoffee-1"
+  },
+  {
+   "id": "tuno:top_et_jazz-ethiopia-world",
+   "name": "jazz Ethiopia world",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "http://mediaserv38.live-streams.nl:8006/live",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://mediaserv38.live-streams.nl:8006/live"
+   ],
+   "website": "http://mediaserv38.live-streams.nl:8006/live"
+  },
+  {
+   "id": "tuno:top_et_hero-radio-ethiopia",
+   "name": "Hero Radio (Ethiopia)",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/ethiopia.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/ethiopia.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_et_ethio-oldies",
+   "name": "Ethio Oldies",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://www.ethioldies.com/listen/ethioldies/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://www.ethioldies.com/listen/ethioldies/radio.mp3"
+   ],
+   "website": "https://www.ethioldies.com/"
+  },
+  {
+   "id": "tuno:top_et_antenna-web-gondar",
+   "name": "Antenna Web Gondar",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebGondar",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebGondar"
+   ]
+  },
+  {
+   "id": "tuno:top_et_gn-radio-ethiopia",
+   "name": "Gn Radio - Ethiopia",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://a11.asurahosting.com:7360/ethiopia.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://a11.asurahosting.com:7360/ethiopia.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_et_jazz",
+   "name": "jazz",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "http://mediaserv38.live-streams.nl:8006/live",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://mediaserv38.live-streams.nl:8006/live"
+   ],
+   "website": "https://youtu.be/WrqgUTpWQ0I"
+  },
+  {
+   "id": "tuno:top_et_antenna-web-addis-abeba",
+   "name": "Antenna Web Addis Abeba",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebEtiopia",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebEtiopia"
+   ]
+  },
+  {
+   "id": "tuno:top_et_jazz-ethopia-world",
+   "name": "Jazz Ethopia World",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "http://mediaserv38.live-streams.nl:8006/",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://mediaserv38.live-streams.nl:8006/"
+   ]
+  },
+  {
+   "id": "tuno:top_et_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_et_bisrat-fm-101-1-addis-ababa-101-1-fm",
+   "name": "Bisrat FM 101.1 Addis Ababa · 101.1 FM",
+   "type": "radio",
+   "country": "ET",
+   "category": "music",
+   "stream": {
+    "url": "https://bisratfm-atunwadigital.streamguys1.com/bisratfm",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://bisratfm-atunwadigital.streamguys1.com/bisratfm"
+   ],
+   "website": "https://radio-ethiopia.com/stations"
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mt_calypso-radio-101-8",
+   "name": "Calypso Radio 101.8",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.radio.co/sf3aa4c25a/listen",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://s4.radio.co/sf3aa4c25a/listen"
+   ],
+   "website": "https://www.calypsomalta.com/"
+  },
+  {
+   "id": "tuno:top_mt_bay-radio",
+   "name": "Bay Radio",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.v3.network/proxy/easy/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.v3.network/proxy/easy/stream.mp3",
+    "https://stream.v3.network/proxy/897bay/stream.mp3?_=1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.v3.network/proxy/897bay/stream.mp3?_=1",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://bay.com.mt/"
+  },
+  {
+   "id": "tuno:top_mt_campus-fm",
+   "name": "Campus FM",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://campusfm.radioca.st/campusfm_live",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://campusfm.radioca.st/campusfm_live"
+   ],
+   "website": "https://www.um.edu.mt/services/campus1037/"
+  },
+  {
+   "id": "tuno:top_mt_radju-marija-malta",
+   "name": "Radju Marija Malta",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmmalta2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmmalta2?mp=/stream",
+    "http://dreamsiteradiocp.com:8102/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://dreamsiteradiocp.com:8102/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radjumarija.org/"
+  },
+  {
+   "id": "tuno:top_mt_rtk-radio",
+   "name": "RTK Radio",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/s955b1ced9/listen",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://s2.radio.co/s955b1ced9/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_maltin-biss",
+   "name": "Maltin Biss",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.voscast.com:8837/default",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://s4.voscast.com:8837/default"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_net-fm",
+   "name": "NET FM",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.voscast.com:11393/default",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://s2.voscast.com:11393/default"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_bay-easy-100-2",
+   "name": "Bay Easy 100.2",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.v3.network/proxy/easy/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.v3.network/proxy/easy/stream.mp3"
+   ],
+   "website": "https://bayeasy.mt/"
+  },
+  {
+   "id": "tuno:top_mt_radju-malta",
+   "name": "Radju Malta",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "http://s11.myradiostream.com:4954/;",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://s11.myradiostream.com:4954/;"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_christmas-radio-malta",
+   "name": "Christmas Radio Malta",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "http://philae.shoutca.st:8402/stream?type=http&nocache=165",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://philae.shoutca.st:8402/stream?type=http&nocache=165"
+   ],
+   "website": "https://www.christmasradiomalta.com/"
+  },
+  {
+   "id": "tuno:top_mt_malta-s-lite-radio",
+   "name": "Malta's Lite Radio",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "http://s3.voscast.com:9258/default",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://s3.voscast.com:9258/default"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_vibe-fm",
+   "name": "Vibe FM",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://vibefm.radioca.st/vibe_live",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://vibefm.radioca.st/vibe_live"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mt_the-breeze-malta",
+   "name": "The Breeze Malta",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.voscast.com:11085/default",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://s1.voscast.com:11085/default"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_magic",
+   "name": "Magic",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://s46.myradiostream.com:6076/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://s46.myradiostream.com:6076/stream"
+   ],
+   "website": "https://magic.mt/"
+  },
+  {
+   "id": "tuno:top_mt_comedy-rock-radio",
+   "name": "Comedy Rock Radio",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://s9.voscast.com:9189/stream.ogg",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://s9.voscast.com:9189/stream.ogg"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_radio-patata",
+   "name": "RADIO Patata",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://radiopatata.stream.laut.fm/radiopatata",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radiopatata.stream.laut.fm/radiopatata"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_antenna-web-gajnsielem",
+   "name": "Antenna Web Għajnsielem",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://malta.radioantennaweb.com/Ghajnsielem",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://malta.radioantennaweb.com/Ghajnsielem"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_radio-105",
+   "name": "Radio 105",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio105-radio105network.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://radio105-radio105network.radioca.st/;"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_radio-assisi-malta",
+   "name": "Radio Assisi Malta",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "https://malta.radioantennaweb.com/LaValletta",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://malta.radioantennaweb.com/LaValletta"
+   ]
+  },
+  {
+   "id": "tuno:top_mt_pure-radio",
+   "name": "Pure Radio",
+   "type": "radio",
+   "country": "MT",
+   "category": "music",
+   "stream": {
+    "url": "http://65.109.97.137:8010/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://65.109.97.137:8010/stream"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_fo_fm98",
+   "name": "FM98",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://high.lindin.fo/",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://high.lindin.fo/",
+    "http://lindinlow.stream.fo:8000/high"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://lindinlow.stream.fo:8000/high",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://stream.fo/"
+  },
+  {
+   "id": "tuno:top_fo_kringvarp-froya-kvf",
+   "name": "Kringvarp Føroya (KVF)",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://netvarp.kringvarp.fo:443/uvhm",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://netvarp.kringvarp.fo:443/uvhm"
+   ],
+   "website": "http://kvf.fo/"
+  },
+  {
+   "id": "tuno:top_fo_voxpop-radio",
+   "name": "VoxPop Radio",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-secure.midlar.fo/voxpop-128",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream-secure.midlar.fo/voxpop-128"
+   ]
+  },
+  {
+   "id": "tuno:top_fo_ras-2",
+   "name": "Rás 2",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.midlar.fo/ras2",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://stream.midlar.fo/ras2"
+   ],
+   "website": "http://www.midlar.fo/"
+  },
+  {
+   "id": "tuno:top_fo_kringvarp-froya",
+   "name": "Kringvarp Føroya",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://netvarp.kringvarp.fo:443/uvhm",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://netvarp.kringvarp.fo:443/uvhm"
+   ]
+  },
+  {
+   "id": "tuno:top_fo_kvf2",
+   "name": "KVF2",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://netvarp.kringvarp.fo:4443/kvf2_2",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://netvarp.kringvarp.fo:4443/kvf2_2"
+   ],
+   "website": "https://www.kringvarp.fo/"
+  },
+  {
+   "id": "tuno:top_fo_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_fo_fm1-88",
+   "name": "FM1 88",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-secure.midlar.fo/fm1-128",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream-secure.midlar.fo/fm1-128"
+   ],
+   "website": "https://www.fm1.fo/"
+  },
+  {
+   "id": "tuno:top_fo_sjey",
+   "name": "Sjey",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://lurta.sjey.fo:8080/high_aac",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://lurta.sjey.fo:8080/high_aac"
+   ]
+  },
+  {
+   "id": "tuno:top_fo_norlysi",
+   "name": "Norðlýsið",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://liveradio.stream.fo/listen/nordlysid/web",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://liveradio.stream.fo/listen/nordlysid/web"
+   ],
+   "website": "https://nordlysid.fo/"
+  },
+  {
+   "id": "tuno:top_fo_ras-2-hits",
+   "name": "Ras 2 - Hits",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/s4d14b9fcc/listen",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://streaming.radio.co/s4d14b9fcc/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_fo_sjey-kristiligt-radio",
+   "name": "Sjey: Kristiligt Radio",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://lurta.sjey.fo/high_aac",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://lurta.sjey.fo/high_aac"
+   ],
+   "website": "https://sjey.fo/"
+  },
+  {
+   "id": "tuno:top_fo_fm1",
+   "name": "FM1",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.midlar.fo/ras2",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://stream.midlar.fo/ras2"
+   ]
+  },
+  {
+   "id": "tuno:top_fo_aldan-hitt-radio",
+   "name": "Aldan: Hitt Radio",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/s4d14b9fcc/listen",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://streaming.radio.co/s4d14b9fcc/listen"
+   ],
+   "website": "https://www.aldan.fo/"
+  },
+  {
+   "id": "tuno:top_fo_lindin-fm",
+   "name": "Lindin FM",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "http://lindinhigh.stream.fo:8000/lindinhigh",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://lindinhigh.stream.fo:8000/lindinhigh"
+   ]
+  },
+  {
+   "id": "tuno:top_fo_lindin-kristiligt-kringvarp",
+   "name": "Lindin: Kristiligt Kringvarp",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://high.lindin.fo/",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://high.lindin.fo/"
+   ],
+   "website": "https://lindin.fo/"
+  },
+  {
+   "id": "tuno:top_fo_antenna-web-torshavn",
+   "name": "Antenna Web Tórshavn",
+   "type": "radio",
+   "country": "FO",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Torshavn",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Torshavn"
+   ]
+  }
+ ]
+}

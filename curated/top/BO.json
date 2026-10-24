@@ -1,0 +1,510 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bo_radio-chacaltaya",
+   "name": "Radio Chacaltaya",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://cast6.asurahosting.com/proxy/irfradio/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://cast6.asurahosting.com/proxy/irfradio/stream"
+   ],
+   "website": "https://radiochacaltayafm.com.bo/"
+  },
+  {
+   "id": "tuno:top_bo_atb-radio",
+   "name": "ATB Radio",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingenbolivia.com/8006/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streamingenbolivia.com/8006/stream"
+   ],
+   "website": "https://www.atb.com.bo/atbradio/"
+  },
+  {
+   "id": "tuno:top_bo_eres-radio",
+   "name": "Eres Radio",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://sp5.servidorrprivado.com/8789/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://sp5.servidorrprivado.com/8789/stream"
+   ],
+   "website": "https://eresradio.bo/"
+  },
+  {
+   "id": "tuno:top_bo_radio-cumbia-90s",
+   "name": "Radio Cumbia 90s",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://emiteradio.com/proxy/cumbia90s?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://emiteradio.com/proxy/cumbia90s?mp=/stream"
+   ],
+   "website": "https://cumbia90.emisora.info/"
+  },
+  {
+   "id": "tuno:top_bo_radio-fides",
+   "name": "Radio Fides",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://usa7.fastcast4u.com/proxy/grflores?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://usa7.fastcast4u.com/proxy/grflores?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-melodia",
+   "name": "Radio Melodia",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.consultoradas.com:8244/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream.consultoradas.com:8244/stream",
+    "https://stream.consultoradas.com/8244/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.consultoradas.com/8244/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiomelodia.fm/"
+  },
+  {
+   "id": "tuno:top_bo_radio-caliente",
+   "name": "Radio Caliente",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.alfasistemas.com:8040/status-json.xsl//stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.alfasistemas.com:8040/status-json.xsl//stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_stereo-97",
+   "name": "Stereo 97",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.consultoradas.com:8340/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.consultoradas.com:8340/stream",
+    "https://stream.consultoradas.com/8340/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.consultoradas.com/8340/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.stereo97.fm/"
+  },
+  {
+   "id": "tuno:top_bo_fm-la-paz-96-7",
+   "name": "FM La Paz 96.7",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://spanel.gcomstreaming.com:7008/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://spanel.gcomstreaming.com:7008/stream",
+    "https://spanel.gcomstreaming.com/8018/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://spanel.gcomstreaming.com/8018/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fmlapaz.bo/"
+  },
+  {
+   "id": "tuno:top_bo_radio-gigante-bolivia",
+   "name": "Radio Gigante Bolivia",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://cloudstream2032.conectarhosting.com:7311/;",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://cloudstream2032.conectarhosting.com:7311/;"
+   ],
+   "website": "https://radiogigantebolivia.com.bo/"
+  },
+  {
+   "id": "tuno:top_bo_clasica-100-3-cochabamba",
+   "name": "Clásica 100.3 Cochabamba",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "http://radios.istbolivia.com:9976/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://radios.istbolivia.com:9976/;"
+   ],
+   "website": "http://www.radioclasica100.com/"
+  },
+  {
+   "id": "tuno:top_bo_radio-aclo-potosi",
+   "name": "Radio Aclo Potosi",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://cloudstream2032.conectarhosting.com/8168/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://cloudstream2032.conectarhosting.com/8168/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-fides-cochabamba",
+   "name": "Radio Fides Cochabamba",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "http://192.95.23.89:6358/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://192.95.23.89:6358/stream"
+   ],
+   "website": "http://online.radiofides.com/cochabamba.html"
+  },
+  {
+   "id": "tuno:top_bo_clasicos-fm",
+   "name": "clasicos.fm",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.consultoradas.com/8354/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://stream.consultoradas.com/8354/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-ciudad",
+   "name": "Radio Ciudad",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "http://streamingenbolivia.com/8002/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://streamingenbolivia.com/8002/stream",
+    "https://ciudad91.net/admin/assets/audio/ab561916d96e1a289474e2c329c7a244.mp3"
+   ],
+   "website": "https://ciudad91.net/"
+  },
+  {
+   "id": "tuno:top_bo_red-uyuni-radio-recuerdos",
+   "name": "Red Uyuni: Radio Recuerdos",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://emiteradio.com/proxy/clasicosingles?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://emiteradio.com/proxy/clasicosingles?mp=/stream"
+   ],
+   "website": "https://radiorecuerdo.uyuni.org/"
+  },
+  {
+   "id": "tuno:top_bo_radio-disney-la-paz-fm-102-7",
+   "name": "Radio Disney - La Paz FM 102.7",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://bo.radiodisney.com/media/player/RadioBackground.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://bo.radiodisney.com/media/player/RadioBackground.mp3",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://bo.radiodisney.com/"
+  },
+  {
+   "id": "tuno:top_bo_radio-tropical-tarija",
+   "name": "Radio Tropical Tarija",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://s23.myradiostream.com/20674/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://s23.myradiostream.com/20674/listen.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-fama",
+   "name": "Radio Fama",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://srvstream.elitteradio.com/fama",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://srvstream.elitteradio.com/fama"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-diana-d-102-1",
+   "name": "Radio Diana D 102.1",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://cesarradio.realserver.es/listen/diana_d_/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://cesarradio.realserver.es/listen/diana_d_/radio.mp3"
+   ],
+   "website": "https://dianadfm.com/"
+  },
+  {
+   "id": "tuno:top_bo_eslatino-radio",
+   "name": "EsLatino Radio",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://spanel.gcomstreaming.com/8030/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://spanel.gcomstreaming.com/8030/stream"
+   ],
+   "website": "https://eslatinoradio.com/"
+  },
+  {
+   "id": "tuno:top_bo_radio-maritima-fm",
+   "name": "Radio Maritima FM",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://spanel.gcomstreaming.com/8004/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://spanel.gcomstreaming.com/8004/stream"
+   ],
+   "website": "https://www.maritimafm.com/"
+  },
+  {
+   "id": "tuno:top_bo_radio-maria-bolivia",
+   "name": "RADIO MARIA BOLIVIA",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp6.com/proxy/rmbolivia?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://dreamsiteradiocp6.com/proxy/rmbolivia?mp=/stream",
+    "http://dreamsiteradiocp4.com:8022/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://dreamsiteradiocp4.com:8022/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiomaria.org.bo/"
+  },
+  {
+   "id": "tuno:top_bo_radio-clasica",
+   "name": "Radio Clasica",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.turadiotv.com/9976/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://live.turadiotv.com/9976/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-letanias-viacha",
+   "name": "Radio Letanias Viacha",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://server1.fex.red/letanias/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://server1.fex.red/letanias/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-kollasuyo-fm",
+   "name": "Radio Kollasuyo FM",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://azura2.bitstreaming.net:8000/radio128.aac",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://azura2.bitstreaming.net:8000/radio128.aac"
+   ],
+   "website": "https://radiokollasuyo.bo/"
+  },
+  {
+   "id": "tuno:top_bo_laser-103-9",
+   "name": "Laser 103.9",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.cimaspeed.com/8224/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://radio.cimaspeed.com/8224/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-hit-camiri",
+   "name": "Radio Hit Camiri",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.turadiotv.com/8022/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://live.turadiotv.com/8022/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bo_radio-exito-bolivia",
+   "name": "Radio Éxito (Bolivia)",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://cast6.my-control-panel.com/proxy/radiostr/;",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://cast6.my-control-panel.com/proxy/radiostr/;"
+   ],
+   "website": "https://exitonoticias.com.bo/"
+  },
+  {
+   "id": "tuno:top_bo_radio-san-rafael-92-5-fm",
+   "name": "Radio San Rafael 92.5 FM",
+   "type": "radio",
+   "country": "BO",
+   "category": "music",
+   "stream": {
+    "url": "https://guri.tepuyserver.net:7098/stream",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://guri.tepuyserver.net:7098/stream"
+   ],
+   "website": "https://radiosanrafael.com.bo/"
+  }
+ ]
+}

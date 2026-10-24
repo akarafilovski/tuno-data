@@ -1,0 +1,376 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_jm_radio-jamaica-94-fm",
+   "name": "Radio Jamaica 94 FM",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://rjrrj-ioriver-cdn.encoders.immergo.tv/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://rjrrj-ioriver-cdn.encoders.immergo.tv/master.m3u8",
+    "http://71.105.169.131:8000/stream",
+    "https://stream.zeno.fm/ebqnzkvyv9duv"
+   ],
+   "website": "http://www.rjr94fm.com/"
+  },
+  {
+   "id": "tuno:top_jm_fame-95-fm",
+   "name": "FAME 95 FM",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://rjrfame-ioriver-cdn.encoders.immergo.tv/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://rjrfame-ioriver-cdn.encoders.immergo.tv/master.m3u8",
+    "https://stream.zeno.fm/wbsd59gcgy5tv"
+   ],
+   "website": "http://fame95fm.com/"
+  },
+  {
+   "id": "tuno:top_jm_mello-fm",
+   "name": "Mello FM",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "http://peridot.streamguys.com:5660/live",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://peridot.streamguys.com:5660/live",
+    "https://stream.zeno.fm/vopem6jw8apuv"
+   ],
+   "website": "http://www.mellofmjamaica.com/"
+  },
+  {
+   "id": "tuno:top_jm_fyah-105",
+   "name": "Fyah 105",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioking.io/fyah105-fm/514601",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://play.radioking.io/fyah105-fm/514601",
+    "https://listen.radioking.com/radio/459389/stream/514595",
+    "https://stream.zeno.fm/x1utfjl7hr0uv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.radioking.com/radio/459389/stream/514595",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fyah105.com/"
+  },
+  {
+   "id": "tuno:top_jm_the-edge-105-fm",
+   "name": "The Edge 105 FM",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/331171/stream/387835",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://listen.radioking.com/radio/331171/stream/387835",
+    "https://www.edge105.com/audio/TOTM%20-%20Morttimer%20-%2018-2-2020.mp3?_=1"
+   ],
+   "website": "https://edge105.com/"
+  },
+  {
+   "id": "tuno:top_jm_suncity",
+   "name": "SunCity",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/ibrdq",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://edge.mixlr.com/channel/ibrdq"
+   ],
+   "website": "https://www.suncityradio.fm/"
+  },
+  {
+   "id": "tuno:top_jm_alpha-boys-school-radio",
+   "name": "Alpha Boys School Radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "http://alphaboys-live.streamguys1.com/alphaboys.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://alphaboys-live.streamguys1.com/alphaboys.mp3",
+    "https://alphaboys-live.streamguys1.com/alphaboys.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://alphaboys-live.streamguys1.com/alphaboys.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.alphaboysschoolradio.com/"
+  },
+  {
+   "id": "tuno:top_jm_irie-fm",
+   "name": "IRIE FM",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.iriefm.net:8006/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.iriefm.net:8006/stream",
+    "https://usa19.fastcast4u.com:7430/;",
+    "http://listenlive.iriefm.net/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://usa19.fastcast4u.com:7430/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://iriefm.net/"
+  },
+  {
+   "id": "tuno:top_jm_ggfm-90-1-discovery-bay",
+   "name": "GGFM 90.1 Discovery Bay",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://usa14.fastcast4u.com/proxy/ggfm?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://usa14.fastcast4u.com/proxy/ggfm?mp=/1",
+    "http://usa14.fastcast4u.com:5192/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://usa14.fastcast4u.com:5192/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.ggfmja.org/"
+  },
+  {
+   "id": "tuno:top_jm_gospel-ja-fm",
+   "name": "Gospel JA fm",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.usamogul.com:8004/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.usamogul.com:8004/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_jm_rebel-radio",
+   "name": "Rebel Radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s830ce6f36/listen",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://streamer.radio.co/s830ce6f36/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_jm_gt-reggae-radio",
+   "name": "GT Reggae Radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://gtreggaeradio.radioca.st/;?1768761269299",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://gtreggaeradio.radioca.st/;?1768761269299"
+   ]
+  },
+  {
+   "id": "tuno:top_jm_ghetto-vibes-radio",
+   "name": "ghetto vibes radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://www.radioking.com/play/ghetto-vibes-radio-station",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://www.radioking.com/play/ghetto-vibes-radio-station"
+   ],
+   "website": "https://app.site123.com/manager/wizard.php?wu=6293042d3b4b8-6293042d3b4f3-6293042d3b52d&from=dash#"
+  },
+  {
+   "id": "tuno:top_jm_baddajam",
+   "name": "baddajam",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://dc2.serverse.com/stream/baddajam",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://dc2.serverse.com/stream/baddajam"
+   ],
+   "website": "https://baddajam.com/"
+  },
+  {
+   "id": "tuno:top_jm_unityxm-radio",
+   "name": "UnityXM Radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://a8.asurahosting.com:7430/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://a8.asurahosting.com:7430/radio.mp3"
+   ],
+   "website": "https://unityxm.com/"
+  },
+  {
+   "id": "tuno:top_jm_rebelradiolink",
+   "name": "RebelRadioLink",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s830ce6f36/listen",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://streamer.radio.co/s830ce6f36/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_jm_alpha-boys-radio",
+   "name": "Alpha Boys Radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "http://alphaboys-live.streamguys1.com/alphaboys.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://alphaboys-live.streamguys1.com/alphaboys.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_jm_irie-storm-radio",
+   "name": "IRIE Storm Radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://auds1.intacs.com/iriestormradio",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://auds1.intacs.com/iriestormradio"
+   ],
+   "website": "https://www.iriestormradio.com/"
+  },
+  {
+   "id": "tuno:top_jm_called-out-gospel-radio",
+   "name": "Called OUT Gospel Radio",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://usa3.fastcast4u.com/proxy/ennsvarb?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://usa3.fastcast4u.com/proxy/ennsvarb?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_jm_newstalk-93-fm",
+   "name": "Newstalk 93 FM",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://newstalk93fm.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://newstalk93fm.radioca.st/stream",
+    "http://procyon.shoutca.st:8083/quality196"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://procyon.shoutca.st:8083/quality196",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://newstalk93fm.net/"
+  },
+  {
+   "id": "tuno:top_jm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "JM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  }
+ ]
+}

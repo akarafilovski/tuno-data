@@ -1,0 +1,143 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gi_bfbs-gibraltar",
+   "name": "BFBS Gibraltar",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "https://edge-audio-03-gos2.sharp-stream.com/ssvcbfbs7.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://edge-audio-03-gos2.sharp-stream.com/ssvcbfbs7.mp3"
+   ],
+   "website": "http://www.forces.net/radio/stations/bfbs-gibraltar"
+  },
+  {
+   "id": "tuno:top_gi_radio-gibraltar-plus-100-5",
+   "name": "Radio Gibraltar Plus 100.5",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "https://sh.uk.audio-stream.com/proxy/gibralta?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://sh.uk.audio-stream.com/proxy/gibralta?mp=/stream",
+    "https://s2.myradiostream.com/32910/listen.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s2.myradiostream.com/32910/listen.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.gbc.gi/radio/#RadioGibraltarPlusFM"
+  },
+  {
+   "id": "tuno:top_gi_radio-gibraltar",
+   "name": "Radio Gibraltar",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "https://sh.uk.audio-stream.com/proxy/gibralta?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://sh.uk.audio-stream.com/proxy/gibralta?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gi_go-go-radio-gibraltar",
+   "name": "Go Go Radio Gibraltar",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "https://phoebe.streamerr.co:1885/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://phoebe.streamerr.co:1885/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gi_radioseu",
+   "name": "RadioSeu",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming.enantena.com:8000/radiolaseu128.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://streaming.enantena.com:8000/radiolaseu128.mp3",
+    "https://streaming.enacast.com/radiolaseu128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.enacast.com/radiolaseu128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioseu.cat/"
+  },
+  {
+   "id": "tuno:top_gi_alpha-fm",
+   "name": "Alpha FM",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.fabricahost.com.br/alphafm1021",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://ice.fabricahost.com.br/alphafm1021"
+   ],
+   "website": "https://goiania.alphafm.com.br/index/inicio"
+  },
+  {
+   "id": "tuno:top_gi_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gi_antenna-web-gibraltar",
+   "name": "Antenna Web Gibraltar",
+   "type": "radio",
+   "country": "GI",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebGibraltar",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebGibraltar"
+   ]
+  }
+ ]
+}

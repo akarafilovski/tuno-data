@@ -1,0 +1,296 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ad_radio-ondas-de-portugal",
+   "name": "Rádio Ondas de Portugal",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.ndvendas.eu:9538/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://ssl.ndvendas.eu:9538/stream",
+    "https://ssl.ndvendas.eu:9538/stream.mp3/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ssl.ndvendas.eu:9538/stream.mp3/;",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_ad_plixsend-andorre",
+   "name": "PlixSend Andorre",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://plixsend.com/radio-source-eu/listen/fr/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://plixsend.com/radio-source-eu/listen/fr/stream",
+    "https://plixsend.eu/listen/andorre/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://plixsend.eu/listen/andorre/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://plixsend.com/"
+  },
+  {
+   "id": "tuno:top_ad_exa-fm",
+   "name": "Exa FM",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac"
+   ],
+   "website": "https://www.exafm.com/veracruz/"
+  },
+  {
+   "id": "tuno:top_ad_maxima-hits-1",
+   "name": "Maxima Hits 1",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.hd1.hits1radio.com/?max",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.hd1.hits1radio.com/?max"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_radio-polignano-web",
+   "name": "Radio Polignano Web",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.server89.com/radio/8040/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://cast3.server89.com/radio/8040/radio.mp3",
+    "https://sp3.server89.com:7018/listen.pls?sid=1"
+   ],
+   "website": "https://sp3.server89.com:7018/"
+  },
+  {
+   "id": "tuno:top_ad_kw-rock",
+   "name": "KW ROCK_!",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "http://usa7.fastcast4u.com:5230/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://usa7.fastcast4u.com:5230/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_flaixbac-and",
+   "name": "FLAIXBAC AND",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.giraweb.com/8010/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://streaming.giraweb.com/8010/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ad_antenna-web-ransol",
+   "name": "Antenna Web Ransol",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebRansol",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebRansol"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_flaix-fm-andorra",
+   "name": "Flaix FM Andorra",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.giraweb.com/8020/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streaming.giraweb.com/8020/stream"
+   ],
+   "website": "https://flaixfm.cat/"
+  },
+  {
+   "id": "tuno:top_ad_proxima-fm",
+   "name": "Proxima FM",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "http://91.187.93.115:8000/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://91.187.93.115:8000/;stream/1"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_antenna-web-la-vella",
+   "name": "Antenna Web la Vella",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-la-Vella",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-la-Vella"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_love-fm-classics-pop-en-espanyol-dels-80s-a-avui",
+   "name": "LOVE FM: Clàssics pop en espanyol dels 80s a avui",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/66a01759c5aa2b85d66b5933/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://mdstrm.com/audio/66a01759c5aa2b85d66b5933/live.m3u8"
+   ],
+   "website": "https://maxplay.com.mx/"
+  },
+  {
+   "id": "tuno:top_ad_radio-24-andorra",
+   "name": "Ràdio 24 Andorra",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio24andorra.com/8020/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://stream.radio24andorra.com/8020/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_la-veu",
+   "name": "La Veu",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.enacast.com/laveu128.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://streaming.enacast.com/laveu128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_flaixbac-andorra",
+   "name": "Flaixbac Andorra",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.giraweb.com/8010/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://streaming.giraweb.com/8010/stream"
+   ],
+   "website": "https://flaixandorra.com/ca/"
+  },
+  {
+   "id": "tuno:top_ad_radio-nacional-d-andorra",
+   "name": "Ràdio Nacional d'Andorra",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "https://livesg.rtva.hiway.media/restreamer/rtva_client/gpu-f-c0-7/restreamer/outgest/578e48f3-c654-4638-948a-be990c90807b/audio_manifest.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://livesg.rtva.hiway.media/restreamer/rtva_client/gpu-f-c0-7/restreamer/outgest/578e48f3-c654-4638-948a-be990c90807b/audio_manifest.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ad_radio-valira",
+   "name": "Ràdio Valira",
+   "type": "radio",
+   "country": "AD",
+   "category": "music",
+   "stream": {
+    "url": "http://91.187.93.115:8020/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://91.187.93.115:8020/stream"
+   ]
+  }
+ ]
+}

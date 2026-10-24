@@ -1,0 +1,491 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_my_sinar",
+   "name": "Sinar",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://n04.rcs.revma.com/7ww2a4tbv4uvv/4_vpzncxu6ffle02/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://n04.rcs.revma.com/7ww2a4tbv4uvv/4_vpzncxu6ffle02/playlist.m3u8",
+    "https://audio1.syok.my/era"
+   ],
+   "website": "https://melody.syok.my/"
+  },
+  {
+   "id": "tuno:top_my_jazz-lounge",
+   "name": "Jazz Lounge",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://1000electrobeats.stream.laut.fm/1000electrobeats",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://1000electrobeats.stream.laut.fm/1000electrobeats",
+    "http://eu8.fastcast4u.com:5068/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://eu8.fastcast4u.com:5068/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://shoutcast.flashradio.info/#/Jazz/1292701/"
+  },
+  {
+   "id": "tuno:top_my_kcfm-pop",
+   "name": "KCFM Pop",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.kcfm.org:8000/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.kcfm.org:8000/stream",
+    "http://www.kcfm.org:8000/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://www.kcfm.org:8000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.kcfm.org/"
+  },
+  {
+   "id": "tuno:top_my_wai-fm-iban",
+   "name": "Wai FM Iban",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/TERENGGANU_FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/TERENGGANU_FMAAC.aac?dist=onlineradiobox",
+    "https://22273.live.streamtheworld.com/RED_FMAAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://22273.live.streamtheworld.com/RED_FMAAC.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rtmklik.rtm.gov.my/radio/nasional/72171#!"
+  },
+  {
+   "id": "tuno:top_my_myfriends-station",
+   "name": "MyFriends Station",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://s1.cmesolution.my:6178/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://s1.cmesolution.my:6178/;stream.mp3",
+    "http://amboifm.iradio.work:8000/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://amboifm.iradio.work:8000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://gegarmuzikfm.blogspot.com/?m=1"
+  },
+  {
+   "id": "tuno:top_my_988-fm",
+   "name": "988 FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://28103.live.streamtheworld.com/988_FMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://28103.live.streamtheworld.com/988_FMAAC.aac"
+   ],
+   "website": "https://www.988.com.my/on-air/"
+  },
+  {
+   "id": "tuno:top_my_klasik-fm-101",
+   "name": "Klasik FM 101",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KLASIK.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KLASIK.mp3"
+   ],
+   "website": "https://radioklasik.rtm.gov.my/"
+  },
+  {
+   "id": "tuno:top_my_fly-fm",
+   "name": "Fly FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/q17aka9mtd3vv/hls.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.rcs.revma.com/q17aka9mtd3vv/hls.m3u8",
+    "https://stream.rcs.revma.com/q17aka9mtd3vv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/q17aka9mtd3vv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.flyfm.audio/"
+  },
+  {
+   "id": "tuno:top_my_best-fm",
+   "name": "Best FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/h34x4kgg9hhvv",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://stream.rcs.revma.com/h34x4kgg9hhvv"
+   ]
+  },
+  {
+   "id": "tuno:top_my_jei-fm-klang-tamil-radio",
+   "name": "Jei FM Klang Tamil Radio",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://usa3.fastcast4u.com/proxy/jeifm?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://usa3.fastcast4u.com/proxy/jeifm?mp=/1"
+   ],
+   "website": "http://www.jeifm.com/"
+  },
+  {
+   "id": "tuno:top_my_hot-fm",
+   "name": "HOT FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/drakdf8mtd3vv/hls.m3u8",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.rcs.revma.com/drakdf8mtd3vv/hls.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_my_nasional-fm-88",
+   "name": "Nasional FM 88",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/NASIONAL_FM.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://playerservices.streamtheworld.com/api/livestream-redirect/NASIONAL_FM.mp3"
+   ],
+   "website": "https://nasionalfm.rtm.gov.my/"
+  },
+  {
+   "id": "tuno:top_my_pahang-fm",
+   "name": "Pahang FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/PAHANG_FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/PAHANG_FMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_my_ceritera-fm",
+   "name": "Ceritera FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://live.ceriterafm.my:8000/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://live.ceriterafm.my:8000/;"
+   ],
+   "website": "http://ceriterafm.my/"
+  },
+  {
+   "id": "tuno:top_my_radio-rosak",
+   "name": "Radio Rosak",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://radiorosak.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://radiorosak.radioca.st/stream"
+   ],
+   "website": "http://radiorosak.com/"
+  },
+  {
+   "id": "tuno:top_my_bapakku-fm",
+   "name": "Bapakku FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://servidor30-2.brlogic.com:7048/live",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://servidor30-2.brlogic.com:7048/live"
+   ]
+  },
+  {
+   "id": "tuno:top_my_radio-wadah-fm",
+   "name": "Radio Wadah FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WARNA942FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/WARNA942FMAAC.aac?dist=onlineradiobox",
+    "https://19183.live.streamtheworld.com/WARNA942FMAAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://19183.live.streamtheworld.com/WARNA942FMAAC.aac",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_my_gemersik-fm",
+   "name": "Gemersik FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://gemersikfm.iradio.work:8000/;",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://gemersikfm.iradio.work:8000/;"
+   ],
+   "website": "http://gemersikfm.iradio.work/"
+  },
+  {
+   "id": "tuno:top_my_traxx-fm",
+   "name": "TraXX FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://22273.live.streamtheworld.com/TRAXX_FMAAC_SC",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://22273.live.streamtheworld.com/TRAXX_FMAAC_SC"
+   ]
+  },
+  {
+   "id": "tuno:top_my_dunia-muzik-fm",
+   "name": "Dunia Muzik FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://185.109.169.80:8009/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://185.109.169.80:8009/stream"
+   ],
+   "website": "https://xat.com/duniamuzikfm"
+  },
+  {
+   "id": "tuno:top_my_syok-classic-rock",
+   "name": "Syok Classic Rock",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/fk3507vbv4uvv/hls.m3u8",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://stream.rcs.revma.com/fk3507vbv4uvv/hls.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_my_radiorosak",
+   "name": "RADIOROSAK",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://radiorosak.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radiorosak.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_my_rentak-pelangi-muzik-fm",
+   "name": "Rentak Pelangi Muzik FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.tujuh.my:8006/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://stream.tujuh.my:8006/stream"
+   ],
+   "website": "https://www.rentakpelangifm.com/?m=1"
+  },
+  {
+   "id": "tuno:top_my_ltfm-radio",
+   "name": "LTFM Radio",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://ltfmonline.com/listen",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://ltfmonline.com/listen",
+    "http://live.ltfmonline.com:8000/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live.ltfmonline.com:8000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://ltfmonline.com/"
+  },
+  {
+   "id": "tuno:top_my_traxxfm-90-3-100-1",
+   "name": "TraXXFM [90.3 / 100.1]",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/TRAXX_FMAAC_SC",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/TRAXX_FMAAC_SC"
+   ],
+   "website": "https://traxxfm.rtm.gov.my/"
+  },
+  {
+   "id": "tuno:top_my_nasyid-fm",
+   "name": "Nasyid FM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://stereo.nasyidfm.com:8000/;",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://stereo.nasyidfm.com:8000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_my_ffm",
+   "name": "FFM",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://167.114.131.90:5968/ffm",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://167.114.131.90:5968/ffm"
+   ]
+  },
+  {
+   "id": "tuno:top_my_cyber-station",
+   "name": "Cyber Station",
+   "type": "radio",
+   "country": "MY",
+   "category": "music",
+   "stream": {
+    "url": "http://167.114.131.90/proxy/cyberstation?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://167.114.131.90/proxy/cyberstation?mp=/stream"
+   ]
+  }
+ ]
+}

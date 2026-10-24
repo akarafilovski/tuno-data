@@ -1,0 +1,89 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_fk_falklands-radio-530-stanley",
+   "name": "Falklands Radio 530 Stanley",
+   "type": "radio",
+   "country": "FK",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.broadcastradio.com:8332/flklnd?1792533571510=",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://streaming.broadcastradio.com:8332/flklnd?1792533571510="
+   ],
+   "website": "https://radio.co.fk/"
+  },
+  {
+   "id": "tuno:top_fk_bfbs-falkland-islands",
+   "name": "BFBS Falkland Islands",
+   "type": "radio",
+   "country": "FK",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs6.aac",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs6.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_fk_bfbs-falklands",
+   "name": "BFBS Falklands",
+   "type": "radio",
+   "country": "FK",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs6.mp3?platform=website",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs6.mp3?platform=website",
+    "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs6.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs6.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radio.bfbs.com/stations/bfbs-falklands/"
+  },
+  {
+   "id": "tuno:top_fk_antenna-web-port-stanley",
+   "name": "Antenna Web Port Stanley",
+   "type": "radio",
+   "country": "FK",
+   "category": "music",
+   "stream": {
+    "url": "http://tinyurl.com/AntennaWebPort-Stanley",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://tinyurl.com/AntennaWebPort-Stanley"
+   ]
+  },
+  {
+   "id": "tuno:top_fk_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "FK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  }
+ ]
+}

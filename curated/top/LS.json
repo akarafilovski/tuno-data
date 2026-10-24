@@ -1,0 +1,126 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ls_radio-maria-lesotho",
+   "name": "Radio Maria Lesotho",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp5.com/proxy/rmlesotho?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://dreamsiteradiocp5.com/proxy/rmlesotho?mp=/stream"
+   ],
+   "website": "https://dreamsiteradioplayer.it/wf/wflesotho/"
+  },
+  {
+   "id": "tuno:top_ls_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ls_pc-fm",
+   "name": "PC FM",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "http://102.130.114.208:8000/pcfm",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://102.130.114.208:8000/pcfm"
+   ]
+  },
+  {
+   "id": "tuno:top_ls_rfi-afrique",
+   "name": "RFI Afrique",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "http://live02.rfi.fr/rfiafrique-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://live02.rfi.fr/rfiafrique-64.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ls_mapholi-fm",
+   "name": "Mapholi Fm",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "https://a12.asurahosting.com/listen/mapholi_fm/radio.mp3?1756077409753",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://a12.asurahosting.com/listen/mapholi_fm/radio.mp3?1756077409753"
+   ]
+  },
+  {
+   "id": "tuno:top_ls_lm-radio",
+   "name": "LM Radio",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "https://cast6.asurahosting.com/proxy/lmradioc/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://cast6.asurahosting.com/proxy/lmradioc/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ls_antenna-web-maseru",
+   "name": "Antenna Web Maseru",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebMaseru",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebMaseru"
+   ]
+  },
+  {
+   "id": "tuno:top_ls_hero-radio-lesotho",
+   "name": "Hero Radio (Lesotho)",
+   "type": "radio",
+   "country": "LS",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/Lesotho.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/Lesotho.mp3"
+   ]
+  }
+ ]
+}

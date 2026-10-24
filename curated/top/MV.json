@@ -1,0 +1,52 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mv_dhivehi-raajjeyge-adu",
+   "name": "Dhivehi Raajjeyge Adu",
+   "type": "radio",
+   "country": "MV",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.psm.mv/draair",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.psm.mv/draair"
+   ],
+   "website": "https://psmnews.mv/stream/radio-dhivehi-raajjeyge-adu"
+  },
+  {
+   "id": "tuno:top_mv_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MV",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mv_kinozal-tv",
+   "name": "Kinozal.TV",
+   "type": "radio",
+   "country": "MV",
+   "category": "music",
+   "stream": {
+    "url": "https://listen7.myradio24.com/kinozaltv",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen7.myradio24.com/kinozaltv"
+   ],
+   "website": "https://kinozal.tv/radio.php"
+  }
+ ]
+}

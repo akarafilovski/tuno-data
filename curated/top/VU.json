@@ -1,0 +1,89 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_vu_96-buzz-fm",
+   "name": "96 Buzz FM",
+   "type": "radio",
+   "country": "VU",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.dailypost.vu/live",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://streamer.dailypost.vu/live"
+   ]
+  },
+  {
+   "id": "tuno:top_vu_paradise-98fm",
+   "name": "Paradise 98FM",
+   "type": "radio",
+   "country": "VU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.vbtc.vu/radiovanuatu",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.vbtc.vu/radiovanuatu",
+    "https://radio.vbtc.vu/paradisefm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.vbtc.vu/paradisefm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://vbtc.vu/radio-2"
+  },
+  {
+   "id": "tuno:top_vu_antenna-web-vanuatu",
+   "name": "Antenna Web Vanuatu",
+   "type": "radio",
+   "country": "VU",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Vanuatu",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Vanuatu"
+   ]
+  },
+  {
+   "id": "tuno:top_vu_buzz-fm-96-3",
+   "name": "BUZZ FM 96.3",
+   "type": "radio",
+   "country": "VU",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.dailypost.vu/live",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://streamer.dailypost.vu/live"
+   ],
+   "website": "https://www.buzzfm.vu/"
+  },
+  {
+   "id": "tuno:top_vu_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "VU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  }
+ ]
+}

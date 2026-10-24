@@ -1,0 +1,610 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_hu_radio-1",
+   "name": "Rádió 1",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://icast.connectmedia.hu/5201/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://icast.connectmedia.hu/5201/live.mp3"
+   ],
+   "website": "https://radio1.hu/"
+  },
+  {
+   "id": "tuno:top_hu_dance-wave",
+   "name": "Dance Wave!",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream1.dancewave.online:8082/dance.ogg",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream1.dancewave.online:8082/dance.ogg",
+    "https://dancewave.online/station/dance-wave-mp3/?play=1",
+    "https://dancewave.online/dance.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dancewave.online/station/dance-wave-mp3/?play=1",
+     "format": "icecast"
+    },
+    {
+     "url": "https://dancewave.online/dance.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://dancewave.online/"
+  },
+  {
+   "id": "tuno:top_hu_retro-radio",
+   "name": "Retro Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://icast.connectmedia.hu/5001/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://icast.connectmedia.hu/5001/live.mp3"
+   ],
+   "website": "http://www.retroradio.hu/"
+  },
+  {
+   "id": "tuno:top_hu_megadance-radio",
+   "name": "MegaDance Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://gamershouse.hu:8080/livemega.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://gamershouse.hu:8080/livemega.mp3",
+    "https://s1.gamershouse.hu:8080/livemega.mp3",
+    "http://megadanceradio.hopto.org:8000/livemega.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s1.gamershouse.hu:8080/livemega.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://megadanceradio.hopto.org:8000/livemega.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.megadanceradio.hu/"
+  },
+  {
+   "id": "tuno:top_hu_petofi-radio",
+   "name": "Petőfi Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://mr-stream.connectmedia.hu/4738/mr2.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://mr-stream.connectmedia.hu/4738/mr2.mp3",
+    "https://icast.connectmedia.hu/4738/mr2.mp3",
+    "http://mr-stream.mediaconnect.hu/4737/mr2.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://icast.connectmedia.hu/4738/mr2.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://mr-stream.mediaconnect.hu/4737/mr2.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.petofilive.hu/"
+  },
+  {
+   "id": "tuno:top_hu_base-fm",
+   "name": "Base FM",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://icast.connectmedia.hu/5401/live.mp3/",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://icast.connectmedia.hu/5401/live.mp3/"
+   ],
+   "website": "https://basefm.hu/"
+  },
+  {
+   "id": "tuno:top_hu_klubradio",
+   "name": "Klubrádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://hu-stream02.klubradio.hu:8443/bpstream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://hu-stream02.klubradio.hu:8443/bpstream",
+    "https://a7.asurahosting.com:8160/radio.mp3",
+    "https://hu-stream03.klubradio.hu:8443/bpstream",
+    "https://www.klubradio.hu/data/hanganyagok/2026/10/20/archivum_alenyeg18_261020.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://a7.asurahosting.com:8160/radio.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://hu-stream03.klubradio.hu:8443/bpstream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.klubradio.hu/"
+  },
+  {
+   "id": "tuno:top_hu_luxfunk-dance-budapest",
+   "name": "Luxfunk Dance Budapest",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://luxfunkbroadcast.com/proxy/luxfunkdance/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://luxfunkbroadcast.com/proxy/luxfunkdance/stream"
+   ],
+   "website": "https://www.luxfunkradio.com/"
+  },
+  {
+   "id": "tuno:top_hu_slager-fm",
+   "name": "Sláger FM",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://slagerfm.netregator.hu:7813/slagerfm128.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://slagerfm.netregator.hu:7813/slagerfm128.mp3",
+    "http://92.61.114.159:7812/slagerfm256.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://92.61.114.159:7812/slagerfm256.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.slagerfm.hu/"
+  },
+  {
+   "id": "tuno:top_hu_poptarisznya",
+   "name": "Poptarisznya",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "http://stream1.virtualisan.net:8200/mobil.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://stream1.virtualisan.net:8200/mobil.mp3",
+    "http://adas.poptarisznya.hu:8200/live.mp3",
+    "https://poptarisznya.hu/wp-content/uploads/2024/11/A_Poptarisznya_tortenete-1.mp3?_=1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://adas.poptarisznya.hu:8200/live.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.poptarisznya.hu/"
+  },
+  {
+   "id": "tuno:top_hu_danubius-radio",
+   "name": "Danubius Radio",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.danubiusradio.hu/danubius_128k",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.danubiusradio.hu/danubius_128k",
+    "https://www.danubiusradio.hu/live_320.mp3",
+    "https://stream.danubiusradio.hu/danubius_320k"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.danubiusradio.hu/live_320.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.danubiusradio.hu/danubius_320k",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://danubiusradio.hu/"
+  },
+  {
+   "id": "tuno:top_hu_oxygen-the-80s-hits",
+   "name": "Oxygen The 80s Hits",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://oxygenmusic.hu:8443/oxygenthe80shits",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://oxygenmusic.hu:8443/oxygenthe80shits"
+   ],
+   "website": "https://oxygenmusic.hu/"
+  },
+  {
+   "id": "tuno:top_hu_inforadio",
+   "name": "InfoRádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.infostart.hu/lejatszo/index.html?sid=1",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.infostart.hu/lejatszo/index.html?sid=1"
+   ],
+   "website": "https://infostart.hu/"
+  },
+  {
+   "id": "tuno:top_hu_bartok-radio",
+   "name": "Bartók Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "http://mr-stream.mediaconnect.hu/4742/mr3hq.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://mr-stream.mediaconnect.hu/4742/mr3hq.mp3"
+   ],
+   "website": "http://www.mediaklikk.hu/bartok/"
+  },
+  {
+   "id": "tuno:top_hu_best-fm",
+   "name": "Best FM",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://icast.connectmedia.hu/5101/live.mp3/",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://icast.connectmedia.hu/5101/live.mp3/",
+    "http://stream.webthings.hu:8000/fm95-x-128.mp3",
+    "https://www.bestfm.hu/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.webthings.hu:8000/fm95-x-128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.bestfm.hu/"
+  },
+  {
+   "id": "tuno:top_hu_tilos-radio",
+   "name": "Tilos Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.tilos.hu:8000/tilos",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://stream.tilos.hu:8000/tilos",
+    "http://stream.tilos.hu/tilos_128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.tilos.hu/tilos_128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://tilos.hu/"
+  },
+  {
+   "id": "tuno:top_hu_mercy-radio-kabare",
+   "name": "Mercy Rádió - Kabaré",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.mercyradio.eu/kabare.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://stream.mercyradio.eu/kabare.mp3"
+   ],
+   "website": "http://mercyradio.eu/"
+  },
+  {
+   "id": "tuno:top_hu_rocker-radio",
+   "name": "Rocker Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://fast.citrus3.com:8796/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://fast.citrus3.com:8796/stream",
+    "https://rockerradio.online/live.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rockerradio.online/live.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://rockerradio.online/"
+  },
+  {
+   "id": "tuno:top_hu_magyar-mulatos-radio",
+   "name": "Magyar Mulatós Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "http://cast3.my-control-panel.com:8451/live",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://cast3.my-control-panel.com:8451/live"
+   ]
+  },
+  {
+   "id": "tuno:top_hu_kossuth-radio",
+   "name": "Kossuth Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://icast.connectmedia.hu/4736/mr1.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://icast.connectmedia.hu/4736/mr1.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_hu_hir-fm",
+   "name": "Hír FM",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://n03-eu2.rcs.revma.com/wevb267khf9uv?rj-ttl=5&rj-tok=AAABoVqVQrYA2qJ1nBhpzC_Rng",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://n03-eu2.rcs.revma.com/wevb267khf9uv?rj-ttl=5&rj-tok=AAABoVqVQrYA2qJ1nBhpzC_Rng",
+    "https://stream.rcs.revma.com/wevb267khf9uv",
+    "https://n34a-eu.rcs.revma.com/wevb267khf9uv?rj-ttl=5&rj-tok=AAABnZd5-KEAvca0veOvcEeJDw"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/wevb267khf9uv",
+     "format": "icecast"
+    },
+    {
+     "url": "https://n34a-eu.rcs.revma.com/wevb267khf9uv?rj-ttl=5&rj-tok=AAABnZd5-KEAvca0veOvcEeJDw",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://hirfm.hu/"
+  },
+  {
+   "id": "tuno:top_hu_dance-90-s",
+   "name": "DANCE 90'S",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://mediagw.e-tiger.net/stream/coolfm",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://mediagw.e-tiger.net/stream/coolfm",
+    "https://mediagw.e-tiger.net/stream/zc06?ver=887687"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mediagw.e-tiger.net/stream/zc06?ver=887687",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://coolfm.hu/"
+  },
+  {
+   "id": "tuno:top_hu_jazzy",
+   "name": "Jazzy",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.musorok.org/listen/jazzy/jazzy.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://radio.musorok.org/listen/jazzy/jazzy.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_hu_laza-radio-live",
+   "name": "Laza Rádió - Live",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.lazaradio.com/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://stream.lazaradio.com/live.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_hu_mercy-magyar-radio",
+   "name": "Mercy Magyar Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.mercyradio.eu/mercyradio.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://stream.mercyradio.eu/mercyradio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_hu_forras-radio",
+   "name": "Forrás Rádió",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://cloudfront44.lexanetwork.com:1540/forrasradio.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://cloudfront44.lexanetwork.com:1540/forrasradio.mp3",
+    "http://91.82.85.44:9000/;stream"
+   ],
+   "website": "http://www.forrasradio.hu/"
+  },
+  {
+   "id": "tuno:top_hu_buddha-fm",
+   "name": "Buddha FM",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "http://libretime.buddhafm.hu:4000/buddhafm",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://libretime.buddhafm.hu:4000/buddhafm"
+   ],
+   "website": "https://www.buddhafm.hu/"
+  },
+  {
+   "id": "tuno:top_hu_laza-radio-mulatos",
+   "name": "Laza Rádió - Mulatós",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.lazaradio.com/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream.lazaradio.com/live.mp3",
+    "https://stream.lazaradio.com/mulatos.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.lazaradio.com/mulatos.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://lazaradio.com/"
+  },
+  {
+   "id": "tuno:top_hu_cool-fm",
+   "name": "Cool FM",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://mediagw.viacomkft.hu/stream/coolfm",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://mediagw.viacomkft.hu/stream/coolfm"
+   ]
+  },
+  {
+   "id": "tuno:top_hu_radio-88",
+   "name": "Rádió 88",
+   "type": "radio",
+   "country": "HU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio88.hu/onair.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://stream.radio88.hu/onair.mp3",
+    "http://stream.radio88.hu:8000/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.radio88.hu:8000/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio88.hu/"
+  }
+ ]
+}

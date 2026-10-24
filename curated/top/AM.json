@@ -1,0 +1,398 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_am_mfm-music-radio",
+   "name": "MFM Music Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu.stream4cast.com/proxy/mfmradio/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://eu.stream4cast.com/proxy/mfmradio/stream"
+   ],
+   "website": "https://www.mfm.am/"
+  },
+  {
+   "id": "tuno:top_am_lav-radio",
+   "name": "Lav Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu.stream4cast.com/proxy/lavradio/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://eu.stream4cast.com/proxy/lavradio/stream"
+   ],
+   "website": "https://www.lavradio.am/"
+  },
+  {
+   "id": "tuno:top_am_kiss-fm-armenia",
+   "name": "Kiss FM Armenia",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://de.auroramedia.am/kissfm.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://de.auroramedia.am/kissfm.mp3",
+    "https://am.radioaurora.am/kiss"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://am.radioaurora.am/kiss",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.kissfm.am/en/home"
+  },
+  {
+   "id": "tuno:top_am_radio-fama",
+   "name": "Radio Fama",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "http://eu.stream4cast.com:8036/stream/;?",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://eu.stream4cast.com:8036/stream/;?"
+   ],
+   "website": "https://www.radiofama.am/"
+  },
+  {
+   "id": "tuno:top_am_lratvakan-radio",
+   "name": "Lratvakan Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "http://212.34.233.78:8000/live",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://212.34.233.78:8000/live"
+   ],
+   "website": "https://www.lratvakan.am/"
+  },
+  {
+   "id": "tuno:top_am_radio-marshall",
+   "name": "Radio Marshall",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu.stream4cast.com/proxy/marshallfm/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://eu.stream4cast.com/proxy/marshallfm/stream",
+    "http://eu.stream4cast.com:8030/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://eu.stream4cast.com:8030/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiomarshall.am/"
+  },
+  {
+   "id": "tuno:top_am_radio-xfm",
+   "name": "Radio XFM",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu.stream4cast.com/proxy/xfmradio/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://eu.stream4cast.com/proxy/xfmradio/stream",
+    "http://eu.stream4cast.com:8050/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://eu.stream4cast.com:8050/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.xfm.am/"
+  },
+  {
+   "id": "tuno:top_am_armenian-christian-radio-bashde-radio",
+   "name": "Armenian Christian Radio - Bashde Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/sa0bf8ec29/listen",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://streams.radio.co/sa0bf8ec29/listen"
+   ],
+   "website": "http://bashde.org/"
+  },
+  {
+   "id": "tuno:top_am_love-radio",
+   "name": "LOVE RADIO",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://loveradio.streamingmedia.it/play",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://loveradio.streamingmedia.it/play"
+   ]
+  },
+  {
+   "id": "tuno:top_am_radio-aurora",
+   "name": "Radio Aurora",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://de.auroramedia.am/aurora.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://de.auroramedia.am/aurora.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_am_radio-yeraz",
+   "name": "Radio Yeraz",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "http://149.255.60.194:8008/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://149.255.60.194:8008/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_am_radio-energy",
+   "name": "Radio Energy",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu.stream4cast.com/proxy/energyfm/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://eu.stream4cast.com/proxy/energyfm/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_am_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_am_station",
+   "name": "Радио Шансон",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu.stream4cast.com/proxy/ulissesm/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://eu.stream4cast.com/proxy/ulissesm/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_am_armenian-radio",
+   "name": "Armenian Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://cast.thiff.com/proxy/laarmeni?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://cast.thiff.com/proxy/laarmeni?mp=/stream"
+   ],
+   "website": "https://www.laarmenianradio.com/"
+  },
+  {
+   "id": "tuno:top_am_public-radio-of-armenia",
+   "name": "Public Radio of Armenia",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu1.stream4cast.com/proxy/publicra/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://eu1.stream4cast.com/proxy/publicra/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_am_armenian-bible-study-radio",
+   "name": "Armenian Bible Study Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.nexuscast.com:8082/stream?type=http&nocache=30722",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://ssl.nexuscast.com:8082/stream?type=http&nocache=30722"
+   ],
+   "website": "https://armenianbiblestudy.com/"
+  },
+  {
+   "id": "tuno:top_am_jazz-fm-106-9-yerevan-radio",
+   "name": "Jazz FM 106.9 Yerevan Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://de.auroramedia.am/jazz.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://de.auroramedia.am/jazz.mp3",
+    "https://www.radiojazzfm.am/audio/BennyGoodman-OhBaby.mp3"
+   ],
+   "website": "https://www.radiojazzfm.am/"
+  },
+  {
+   "id": "tuno:top_am_radio-jazz-fm",
+   "name": "Radio Jazz FM",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://am.radioaurora.am/jz",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://am.radioaurora.am/jz"
+   ]
+  },
+  {
+   "id": "tuno:top_am_station_20",
+   "name": "РАДИО \"Ереванские ночи\"",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.yerevannights.com/YerevanNights",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://icecast.yerevannights.com/YerevanNights"
+   ]
+  },
+  {
+   "id": "tuno:top_am_radio-jan",
+   "name": "Radio Jan",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "http://s7.voscast.com:10258/radiojan",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://s7.voscast.com:10258/radiojan"
+   ]
+  },
+  {
+   "id": "tuno:top_am_yerevan-fm-101-9",
+   "name": "Yerevan FM 101.9",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu1.stream4cast.com/proxy/arradioi/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://eu1.stream4cast.com/proxy/arradioi/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_am_armenian-gospel-radio",
+   "name": "Armenian Gospel Radio",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://s8.myradiostream.com/15554/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://s8.myradiostream.com/15554/listen.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_am_radio-yan",
+   "name": "Radio YAN",
+   "type": "radio",
+   "country": "AM",
+   "category": "music",
+   "stream": {
+    "url": "https://237.185.153.160.host.secureserver.net/proxy/radioyan1/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://237.185.153.160.host.secureserver.net/proxy/radioyan1/stream"
+   ]
+  }
+ ]
+}

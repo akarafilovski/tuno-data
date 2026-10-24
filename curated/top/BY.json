@@ -1,0 +1,533 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_by_fm",
+   "name": "Юмор FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://live.humorfm.by:8443/avtoradio",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.humorfm.by:8443/avtoradio"
+   ],
+   "website": "http://humorfm.by/"
+  },
+  {
+   "id": "tuno:top_by_station",
+   "name": "Новое радио",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://live.novoeradio.by:444/live/novoeradio_live_adaptive/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://live.novoeradio.by:444/live/novoeradio_live_adaptive/playlist.m3u8",
+    "https://live.novoeradio.by:444/live/novoeradio_aac128/icecast.audio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.novoeradio.by:444/live/novoeradio_aac128/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://novoeradio.by/"
+  },
+  {
+   "id": "tuno:top_by_fm_3",
+   "name": "РадиусFM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.dc.beltelecom.by/radiusfm/radiusfm.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.dc.beltelecom.by/radiusfm/radiusfm.stream/playlist.m3u8",
+    "https://stream2.datacenter.by/radiusfm_main"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream2.datacenter.by/radiusfm_main",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiusfm.by/"
+  },
+  {
+   "id": "tuno:top_by_relax",
+   "name": "Радыё Relax",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "http://live.humorfm.by:8000/radiorelax",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://live.humorfm.by:8000/radiorelax"
+   ],
+   "website": "http://radiorelax.by/"
+  },
+  {
+   "id": "tuno:top_by_legendy-fm",
+   "name": "Legendy FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://livefm.legendy.by/legendy",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://livefm.legendy.by/legendy",
+    "http://live.legendy.by:8000/legendyfm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live.legendy.by:8000/legendyfm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://legendy.by/"
+  },
+  {
+   "id": "tuno:top_by_105-7-fm",
+   "name": "Душевное радио Минск 105.7 FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.datacenter.by/dushevnoe",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream2.datacenter.by/dushevnoe"
+   ],
+   "website": "https://top-radio.ru/minsk/dushevnoe-radio"
+  },
+  {
+   "id": "tuno:top_by_104-8-fm",
+   "name": "Радио Брест 104.8 Fm",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.datacenter.by/trkbrest",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream2.datacenter.by/trkbrest",
+    "http://178.124.131.35:8012/trkbrest"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://178.124.131.35:8012/trkbrest",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiobrestfm.by/"
+  },
+  {
+   "id": "tuno:top_by_fm_8",
+   "name": "Компас FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mil.by/live",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mil.by/live"
+   ],
+   "website": "https://vayar.mil.by/radio/"
+  },
+  {
+   "id": "tuno:top_by_station_9",
+   "name": "Радыё Рацыя",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://air.racyja.com/racja128",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://air.racyja.com/racja128"
+   ],
+   "website": "http://www.racyja.com/"
+  },
+  {
+   "id": "tuno:top_by_love-is-radio-belarus",
+   "name": "Love Is Radio Belarus",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://myradio24.org/3355",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://myradio24.org/3355"
+   ],
+   "website": "http://loveisradio.by/"
+  },
+  {
+   "id": "tuno:top_by_98-9-fm",
+   "name": "Русское радио Минск 98.9 FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://rusradio.hostingradio.ru/rusradio96.aacp",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://rusradio.hostingradio.ru/rusradio96.aacp",
+    "https://stream.rusradio.by:8443/live128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rusradio.by:8443/live128",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiobitva.ru/gorod/russkoe-radio-minsk-98-9-fm"
+  },
+  {
+   "id": "tuno:top_by_96-2fm",
+   "name": "Мелодии Века 96.2fm",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://radiorecord.hostingradio.ru/sd9096.aacp",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radiorecord.hostingradio.ru/sd9096.aacp"
+   ],
+   "website": "https://wwv.zvuch.com/radio-online/melodii-veka"
+  },
+  {
+   "id": "tuno:top_by_by",
+   "name": "Еўрарадыё BY",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "http://stream1.euroradio.fm:8000/euroradio1",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://stream1.euroradio.fm:8000/euroradio1"
+   ],
+   "website": "https://euroradio.fm/"
+  },
+  {
+   "id": "tuno:top_by_aplus-fm-rock",
+   "name": "Aplus.FM Rock",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://shoutcast.aplus.fm/aplus_128",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://shoutcast.aplus.fm/aplus_128",
+    "https://shoutcast.aplus.fm/aplus_rock_256"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://shoutcast.aplus.fm/aplus_rock_256",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://aplus.fm/"
+  },
+  {
+   "id": "tuno:top_by_z-fm",
+   "name": "Zефир FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "http://178.124.152.212:8008/Zefir",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://178.124.152.212:8008/Zefir"
+   ],
+   "website": "http://bobrlife.by/radio"
+  },
+  {
+   "id": "tuno:top_by_station_16",
+   "name": "Соловьев",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://solovievfm.hostingradio.ru/solovievfm128.aacp",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://solovievfm.hostingradio.ru/solovievfm128.aacp"
+   ],
+   "website": "https://radio-live-mg.rtr-vesti.ru/"
+  },
+  {
+   "id": "tuno:top_by_lider-fm",
+   "name": "Lider FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.lider-fm.by/liderfm",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://icecast.lider-fm.by/liderfm"
+   ],
+   "website": "https://liderfm.by/"
+  },
+  {
+   "id": "tuno:top_by_station_18",
+   "name": "Радые Марыя",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://server.radiorm.by:8443/live",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://server.radiorm.by:8443/live"
+   ],
+   "website": "https://www.radiomaria.by/"
+  },
+  {
+   "id": "tuno:top_by_fm-97",
+   "name": "Город FM Брест 97",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.datacenter.by/GorodFM",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream2.datacenter.by/GorodFM"
+   ],
+   "website": "https://gorodfm.by/"
+  },
+  {
+   "id": "tuno:top_by_station_20",
+   "name": "Радио Могилёв",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.datacenter.by/tvrmogilev",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://stream2.datacenter.by/tvrmogilev"
+   ],
+   "website": "https://www.tvrmogilev.by/ru/radio/"
+  },
+  {
+   "id": "tuno:top_by_station_21",
+   "name": "Радио витебск",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.datacenter.by/vtvby",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://stream2.datacenter.by/vtvby"
+   ],
+   "website": "https://radiovitebsk.by/"
+  },
+  {
+   "id": "tuno:top_by_92-4",
+   "name": "радио Минск 92.4",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mk.by:8443/radiominsk",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radio.mk.by:8443/radiominsk"
+   ],
+   "website": "https://minsknews.by/radio-minsk/"
+  },
+  {
+   "id": "tuno:top_by_station_23",
+   "name": "Народное Радио",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://live.novoeradio.by:444/live/narodnoeradio_aac128/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://live.novoeradio.by:444/live/narodnoeradio_aac128/icecast.audio"
+   ],
+   "website": "https://narodnoeradio.by/"
+  },
+  {
+   "id": "tuno:top_by_fm_24",
+   "name": "ЦЕНТР FM",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://centrfm.dc.beltelecom.by/centrfm/livestream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://centrfm.dc.beltelecom.by/centrfm/livestream/playlist.m3u8",
+    "https://stream2.datacenter.by/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream2.datacenter.by/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://centerfm.by/ru"
+  },
+  {
+   "id": "tuno:top_by_station_25",
+   "name": "Душевное радио",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.datacenter.by/dushevnoe",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://stream2.datacenter.by/dushevnoe"
+   ],
+   "website": "https://dushevnoeradio.by/"
+  },
+  {
+   "id": "tuno:top_by_station_26",
+   "name": "МВ-Радио",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.datacenter.by/mvradio",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://stream2.datacenter.by/mvradio"
+   ],
+   "website": "https://mvolna.by/index.html"
+  },
+  {
+   "id": "tuno:top_by_station_27",
+   "name": "Ватыканскае радыё",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.vaticannews.va/stream-be",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://radio.vaticannews.va/stream-be"
+   ],
+   "website": "http://vatican.by/"
+  },
+  {
+   "id": "tuno:top_by_station_28",
+   "name": "Открытое Слово",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://rt.radioslovo.net:4395/radio",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://rt.radioslovo.net:4395/radio"
+   ],
+   "website": "https://radioslovo.net/"
+  },
+  {
+   "id": "tuno:top_by_station_29",
+   "name": "Свое Радио (Пинск)",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://live.svoyoradio.by:8443/svoyoradio",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://live.svoyoradio.by:8443/svoyoradio"
+   ],
+   "website": "https://svoyoradio.by/"
+  },
+  {
+   "id": "tuno:top_by_mfm-belarus",
+   "name": "MFM Belarus",
+   "type": "radio",
+   "country": "BY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.105fm.by/radio.105.0mfm",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://radio.105fm.by/radio.105.0mfm"
+   ],
+   "website": "https://105fm.by/"
+  }
+ ]
+}

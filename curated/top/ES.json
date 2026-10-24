@@ -1,0 +1,587 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_es_rock-fm",
+   "name": "Rock FM",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://rockfm-cope.flumotion.com/playlist.m3u8?referrer_url=https%3A%2F%2Fwww.rockfm.fm%2F&player_type=web&domain=www.rockfm.fm",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://rockfm-cope.flumotion.com/playlist.m3u8?referrer_url=https%3A%2F%2Fwww.rockfm.fm%2F&player_type=web&domain=www.rockfm.fm",
+    "http://flucast34-h-cloud.flumotion.com/cope/rockfm-low.mp3",
+    "http://rockfm.cope.stream.flumotion.com/cope/rockfm/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://flucast34-h-cloud.flumotion.com/cope/rockfm-low.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://rockfm.cope.stream.flumotion.com/cope/rockfm/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.rockfm.fm/"
+  },
+  {
+   "id": "tuno:top_es_kiss-fm",
+   "name": "Kiss FM",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+    "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbkissfm.kissfmradio.cires21.com/bbkissfm.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbkissfm.kissfmradio.cires21.com/bbkissfm.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.kissfm.es/"
+  },
+  {
+   "id": "tuno:top_es_costa-del-mar-chillout",
+   "name": "Costa Del Mar - Chillout",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://radio4.cdm-radio.com:18020/stream-mp3-Chill",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio4.cdm-radio.com:18020/stream-mp3-Chill",
+    "http://stream.cdm-chillout.com:8020/stream-AAC-Chill"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.cdm-chillout.com:8020/stream-AAC-Chill",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.costadelmar-radio.com/chillout/"
+  },
+  {
+   "id": "tuno:top_es_ibiza-live-radio",
+   "name": "Ibiza Live Radio",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://uksoutha.streaming.broadcast.radio/ibiza-live-radio",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://uksoutha.streaming.broadcast.radio/ibiza-live-radio"
+   ]
+  },
+  {
+   "id": "tuno:top_es_ibiza-radio-global",
+   "name": "Ibiza Radio Global",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn-peer022.streaming-pro.com:8025/ibizaglobalradio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://cdn-peer022.streaming-pro.com:8025/ibizaglobalradio.mp3",
+    "https://cdn-peer012.streaming-pro.com:8025/ibizaglobalradio.mp3",
+    "http://ibizaglobalradio.streaming-pro.com:8024/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cdn-peer012.streaming-pro.com:8025/ibizaglobalradio.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://ibizaglobalradio.streaming-pro.com:8024/",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.ibizaglobalradio.com/"
+  },
+  {
+   "id": "tuno:top_es_cafe-del-mar",
+   "name": "Cafe Del Mar",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/se1a320b47/listen",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streams.radio.co/se1a320b47/listen"
+   ],
+   "website": "https://cafedelmar.com/radio/"
+  },
+  {
+   "id": "tuno:top_es_radio-marca",
+   "name": "Radio Marca",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://25543.live.streamtheworld.com/RADIOMARCA_NACIONAL.mp3?dist=radiomarcaweb",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://25543.live.streamtheworld.com/RADIOMARCA_NACIONAL.mp3?dist=radiomarcaweb",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3?dist=onlineradiobox",
+    "https://sonic.mediatelekom.net/9316/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL.mp3?dist=onlineradiobox",
+     "format": "icecast"
+    },
+    {
+     "url": "https://sonic.mediatelekom.net/9316/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.marca.com/radio.html?intcmp=BOTONPORTADA01&s_kw=radiomarca"
+  },
+  {
+   "id": "tuno:top_es_cadena-ser",
+   "name": "Cadena SER",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASERAAC_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASERAAC_SC?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_es_cadena-100-madrid",
+   "name": "CADENA 100 Madrid",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://cadena100-cope.flumotion.com/playlist.m3u8?referrer_url=https%3A%2F%2Fwww.cadena100.es%2F&player_type=web&domain=www.cadena100.es",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://cadena100-cope.flumotion.com/playlist.m3u8?referrer_url=https%3A%2F%2Fwww.cadena100.es%2F&player_type=web&domain=www.cadena100.es",
+    "http://cadena100-streamers-mp3.flumotion.com/cope/cadena100.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://cadena100-streamers-mp3.flumotion.com/cope/cadena100.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.cadena100.es/"
+  },
+  {
+   "id": "tuno:top_es_los-40-principales-espana",
+   "name": "LOS 40 Principales España",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3"
+   ],
+   "website": "https://los40.com/"
+  },
+  {
+   "id": "tuno:top_es_los-40",
+   "name": "Los 40",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40AAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_es_costa-del-mar-smooth-jazz-ibiza",
+   "name": "Costa Del Mar – Smooth Jazz Ibiza",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://radio4.cdm-radio.com:18024/stream-mp3-Smooth",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio4.cdm-radio.com:18024/stream-mp3-Smooth"
+   ],
+   "website": "http://www.cdm-smoothsax.com/"
+  },
+  {
+   "id": "tuno:top_es_cadena-dial",
+   "name": "Cadena Dial",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_SC?dist=onlineradiobox",
+    "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.cadenadial.com/"
+  },
+  {
+   "id": "tuno:top_es_absolute-chillout-ibiza",
+   "name": "Absolute Chillout Ibiza",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "http://edge4.peta.live365.net/b05055_128mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://edge4.peta.live365.net/b05055_128mp3",
+    "http://www.absolutechillout.com/absolute-chillout.m3u"
+   ],
+   "website": "http://www.absolutechillout.com/"
+  },
+  {
+   "id": "tuno:top_es_chocolate-fm",
+   "name": "Chocolate FM",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming2.elitecomunicacion.es:8082/live.mp3?t=1792519644830",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://streaming2.elitecomunicacion.es:8082/live.mp3?t=1792519644830",
+    "http://streaming5.elitecomunicacion.es:8082/live.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streaming5.elitecomunicacion.es:8082/live.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.chocolatefm.com/"
+  },
+  {
+   "id": "tuno:top_es_hit-fm",
+   "name": "Hit FM",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "http://stm2.emiteonline.com:8003/hitradio",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://stm2.emiteonline.com:8003/hitradio",
+    "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.hitradiofm.es/index.html"
+  },
+  {
+   "id": "tuno:top_es_blue-marlin-ibiza",
+   "name": "Blue Marlin Ibiza",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://ibizasonica.streaming-pro.com:8001/bluemarlin",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://ibizasonica.streaming-pro.com:8001/bluemarlin"
+   ]
+  },
+  {
+   "id": "tuno:top_es_muy-buena",
+   "name": "Muy Buena",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.emisorasmusicales.net/listen/muybuena/muybuena.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.emisorasmusicales.net/listen/muybuena/muybuena.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_es_1000-hits-80s",
+   "name": "1000 HITS 80s",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "http://c2.auracast.net:8048/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://c2.auracast.net:8048/stream"
+   ],
+   "website": "http://www.1000hits80s.eu/"
+  },
+  {
+   "id": "tuno:top_es_80-exitos",
+   "name": "_80 EXITOS",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://80sexitos.stream.laut.fm/80sexitos",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://80sexitos.stream.laut.fm/80sexitos"
+   ],
+   "website": "https://musica80.radioclub.es/"
+  },
+  {
+   "id": "tuno:top_es_esradio",
+   "name": "esRadio",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "http://livestreaming.esradio.fm/stream64.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://livestreaming.esradio.fm/stream64.mp3",
+    "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+    "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://esradio.libertaddigital.com/"
+  },
+  {
+   "id": "tuno:top_es_loca-fm-urban",
+   "name": "Loca FM Urban",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.we4stream.com:2020/stream/locaurban",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://s1.we4stream.com:2020/stream/locaurban",
+    "http://locafm02.we4stream.com:8015/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://locafm02.we4stream.com:8015/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.locafm.com/loca-urban/player.html"
+  },
+  {
+   "id": "tuno:top_es_1000-hits-love",
+   "name": "1000 HITS Love",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-sa2.cdnstream1.com/2210_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://ais-sa2.cdnstream1.com/2210_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_es_pure-ibiza-radio",
+   "name": "Pure Ibiza Radio",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://pureibizaradio.streaming-pro.com:8028/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://pureibizaradio.streaming-pro.com:8028/stream.mp3",
+    "https://pureibizaradio.clubbingradios.com:9518/PureIbizaRadio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://pureibizaradio.clubbingradios.com:9518/PureIbizaRadio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.pureibizaradio.com/"
+  },
+  {
+   "id": "tuno:top_es_cadena-cope",
+   "name": "Cadena COPE",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://flucast36-h-cloud.flumotion.com/cope/madrid.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://flucast36-h-cloud.flumotion.com/cope/madrid.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_es_deep-nu-house-radio-by-so-so",
+   "name": "Deep Nu House Radio by SO&SO",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://c4.radioboss.fm:18286/dnh",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://c4.radioboss.fm:18286/dnh"
+   ]
+  },
+  {
+   "id": "tuno:top_es_radio-nacional-de-espana-radio-5-todo-noticias",
+   "name": "Radio Nacional de España - Radio 5 Todo noticias",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://d131.rndfnk.com/star/crtve/rne5/main/mp3/128/stream.mp3?aggregator=tunein&cid=01GEP4MW5CAHPYP1EXHVKWFJ8W&sid=2OeE42hivuba6dTGvjnMGjKByQe&token=cdczXcnimVx4AY4iamqYbTMdu3cK7oBxmS2UQN9cWc0&tvf=pdPcDBxuVxdkMTMxLnJuZGZuay5jb20",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://d131.rndfnk.com/star/crtve/rne5/main/mp3/128/stream.mp3?aggregator=tunein&cid=01GEP4MW5CAHPYP1EXHVKWFJ8W&sid=2OeE42hivuba6dTGvjnMGjKByQe&token=cdczXcnimVx4AY4iamqYbTMdu3cK7oBxmS2UQN9cWc0&tvf=pdPcDBxuVxdkMTMxLnJuZGZuay5jb20"
+   ],
+   "website": "https://www.rtve.es/play/radio/radio-5/"
+  },
+  {
+   "id": "tuno:top_es_cadena-100-barcelona",
+   "name": "Cadena 100 Barcelona",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://cadena100bcn-cope.flumotion.com/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://cadena100bcn-cope.flumotion.com/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_es_cope-sevilla",
+   "name": "COPE + Sevilla",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "http://wecast09-h-cloud.flumotion.com/copesedes/sevilla-mas.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://wecast09-h-cloud.flumotion.com/copesedes/sevilla-mas.mp3",
+    "http://wecast-bl01.flumotion.com/copesedes/sevilla.mp3",
+    "https://net1-cope-flucast.flumotion.com/cope/net1.mp3.m3u"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://wecast-bl01.flumotion.com/copesedes/sevilla.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.cope.es/directos/cope-mas-sevilla"
+  },
+  {
+   "id": "tuno:top_es_rne-radio-nacional",
+   "name": "RNE Radio Nacional",
+   "type": "radio",
+   "country": "ES",
+   "category": "music",
+   "stream": {
+    "url": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r1_main.m3u8",
+    "format": "hls"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r1_main.m3u8"
+   ]
+  }
+ ]
+}

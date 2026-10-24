@@ -1,0 +1,80 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gw_rfi-1-afrique-gb",
+   "name": "RFI 1 Afrique GB",
+   "type": "radio",
+   "country": "GW",
+   "category": "music",
+   "stream": {
+    "url": "https://rfiafrique64k.ice.infomaniak.ch/rfiafrique-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://rfiafrique64k.ice.infomaniak.ch/rfiafrique-64.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gw_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gw_radio-jovem-bissau",
+   "name": "Rádio Jovem Bissau",
+   "type": "radio",
+   "country": "GW",
+   "category": "music",
+   "stream": {
+    "url": "https://primary4.vtuner.com/setupapp/audio/err.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://primary4.vtuner.com/setupapp/audio/err.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gw_antenna-web-bissau",
+   "name": "Antenna Web Bissau",
+   "type": "radio",
+   "country": "GW",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebBissau",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebBissau"
+   ]
+  },
+  {
+   "id": "tuno:top_gw_hero-radio-guinea-bissau",
+   "name": "Hero Radio (Guinea Bissau)",
+   "type": "radio",
+   "country": "GW",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/guineabissau.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/guineabissau.mp3"
+   ]
+  }
+ ]
+}

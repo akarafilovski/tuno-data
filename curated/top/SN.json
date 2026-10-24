@@ -1,0 +1,294 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_sn_dakar-musique",
+   "name": "Dakar Musique",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.senemultimedia.net:8092/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://listen.senemultimedia.net:8092/stream",
+    "https://stream.dakarmusique.com/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.dakarmusique.com/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://dakarmusique.com/"
+  },
+  {
+   "id": "tuno:top_sn_radio-dakar-city",
+   "name": "Radio Dakar City",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.senemultimedia.net/proxy/rdc?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://listen.senemultimedia.net/proxy/rdc?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_radio-thiossane",
+   "name": "Radio Thiossane",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.dakarweb.net/listen/radiothiossane/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://panel.dakarweb.net/listen/radiothiossane/stream",
+    "https://listen.senemultimedia.net:8112/stream",
+    "https://stream.radiothiossane.com/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.senemultimedia.net:8112/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.radiothiossane.com/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiothiossane.net/"
+  },
+  {
+   "id": "tuno:top_sn_rts-92-5-rsi",
+   "name": "RTS 92.5 RSI",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://10gb1.acangroup.org:8000/rsi",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://10gb1.acangroup.org:8000/rsi"
+   ],
+   "website": "https://www.rts.sn/"
+  },
+  {
+   "id": "tuno:top_sn_h24-senegal",
+   "name": "H24 Senegal",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.dakarweb.net/listen/h24radio/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://panel.dakarweb.net/listen/h24radio/stream",
+    "https://listen.senemultimedia.net:8072/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.senemultimedia.net:8072/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.h24.sn/"
+  },
+  {
+   "id": "tuno:top_sn_walf-fm",
+   "name": "Walf FM",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://10gb1.acangroup.org:8000/walffm",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://10gb1.acangroup.org:8000/walffm"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_allodakar-radio-tamtam",
+   "name": "AlloDakar Radio TamTam",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R3644495.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R3644495.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_radio-diantbi-fm",
+   "name": "Radio Diantbi FM",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://betelgeuse.dribbcast.com/proxy/diantbifm?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://betelgeuse.dribbcast.com/proxy/diantbifm?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_radio-al-fayda",
+   "name": "Radio Al Fayda",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://usa5.fastcast4u.com/proxy/lyartech?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://usa5.fastcast4u.com/proxy/lyartech?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_radio-al-fayda-90-1-kaolack",
+   "name": "Radio Al Fayda 90.1 Kaolack",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://usa5.fastcast4u.com/proxy/lyartech?mp=/1&1792526598067",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://usa5.fastcast4u.com/proxy/lyartech?mp=/1&1792526598067"
+   ],
+   "website": "https://radioalfayda.net/"
+  },
+  {
+   "id": "tuno:top_sn_ucab-fm",
+   "name": "UCAB FM",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://betelgeuse.dribbcast.com/proxy/ucab?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://betelgeuse.dribbcast.com/proxy/ucab?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_faydatidianiya",
+   "name": "Faydatidianiya",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.senemultimedia.net:5526/;",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://listen.senemultimedia.net:5526/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_gms-fm-89-3-ziguinchor",
+   "name": "GMS FM 89.3 Ziguinchor",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://myfm.acan.group/radio/8140/radio.mp3?1690707378",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://myfm.acan.group/radio/8140/radio.mp3?1690707378",
+    "https://10gb1.acangroup.org:8000/gmsfm"
+   ],
+   "website": "https://www.gms.sn/"
+  },
+  {
+   "id": "tuno:top_sn_radio-ndiareme-fm",
+   "name": "Radio Ndiaréme FM",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://betelgeuse.dribbcast.com/proxy/diaremefm?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://betelgeuse.dribbcast.com/proxy/diaremefm?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sn_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_sn_radio-keur-massar",
+   "name": "Radio Keur Massar",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.keurmassar.info/",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.keurmassar.info/"
+   ],
+   "website": "https://www.keurmassar.info/"
+  },
+  {
+   "id": "tuno:top_sn_xalima-radio",
+   "name": "Xalima Radio",
+   "type": "radio",
+   "country": "SN",
+   "category": "music",
+   "stream": {
+    "url": "http://radiosunuker221.primcast.com:7148/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://radiosunuker221.primcast.com:7148/;"
+   ]
+  }
+ ]
+}

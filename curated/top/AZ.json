@@ -1,0 +1,557 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_az_xezer-103-fm",
+   "name": "Xezer 103 Fm",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s40.myradiostream.com:22546/listen.mp3?nocache=1792526319",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://s40.myradiostream.com:22546/listen.mp3?nocache=1792526319",
+    "https://s40.myradiostream.com/22546/listen.mp3",
+    "https://s40.myradiostream.com/:22546/listen.mp3?"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s40.myradiostream.com/22546/listen.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://s40.myradiostream.com/:22546/listen.mp3?",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://xezerfm.az/"
+  },
+  {
+   "id": "tuno:top_az_avto-fm",
+   "name": "AVTO FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://live.dinle.az/avtofm",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://live.dinle.az/avtofm",
+    "http://5.191.241.101:8000/avtofm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://5.191.241.101:8000/avtofm",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://avtofm.az/"
+  },
+  {
+   "id": "tuno:top_az_araz-103-3-fm",
+   "name": "Araz 103.3 FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "http://s14.myradiostream.com:30454/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://s14.myradiostream.com:30454/listen.mp3",
+    "https://s14.myradiostream.com/30454/listen.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s14.myradiostream.com/30454/listen.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://araz.fm/"
+  },
+  {
+   "id": "tuno:top_az_autolife-azerbaijan",
+   "name": "AutoLife Azerbaijan",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.autoliferadio.com:8005/radio",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radio.autoliferadio.com:8005/radio"
+   ],
+   "website": "https://autoliferadio.com/"
+  },
+  {
+   "id": "tuno:top_az_yurd-fm",
+   "name": "Yurd FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.livetv.az/yurdfm",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://icecast.livetv.az/yurdfm"
+   ],
+   "website": "http://www.yurdfm.az/"
+  },
+  {
+   "id": "tuno:top_az_naz-radio",
+   "name": "NAZ RADIO",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.myradiostream.com:5286/listen.mp3?nocache=1792526323",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://s2.myradiostream.com:5286/listen.mp3?nocache=1792526323",
+    "https://s2.myradiostream.com/5286/listen.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s2.myradiostream.com/5286/listen.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.nazradio.com/"
+  },
+  {
+   "id": "tuno:top_az_radio-tmb-100-5",
+   "name": "Radio TMB 100.5",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s39.myradiostream.com/:5458/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://s39.myradiostream.com/:5458/listen.mp3",
+    "http://s39.myradiostream.com:5458/listen.pls?sid=1",
+    "http://s39.myradiostream.com:5458/"
+   ],
+   "website": "http://s39.myradiostream.com:5458/"
+  },
+  {
+   "id": "tuno:top_az_media-fm",
+   "name": "Media FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.livetv.az/mediafm",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://icecast.livetv.az/mediafm"
+   ],
+   "website": "https://icecast.livetv.az/mediafm"
+  },
+  {
+   "id": "tuno:top_az_asan-radio",
+   "name": "Asan Radio",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "http://94.20.74.206:4448/stream1",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://94.20.74.206:4448/stream1",
+    "https://play.asanradio.az/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://play.asanradio.az/",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.asanradio.az/"
+  },
+  {
+   "id": "tuno:top_az_anti-radio",
+   "name": "Anti Radio",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.antiradio.net/radio/8000/web",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.antiradio.net/radio/8000/web",
+    "https://stream.antiradio.net/radio/8000/mp3",
+    "https://stream.antiradio.net/listen/anti_radio/mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.antiradio.net/radio/8000/mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.antiradio.net/listen/anti_radio/mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://antiradio.net/"
+  },
+  {
+   "id": "tuno:top_az_ictimai-radio",
+   "name": "İctimai Radio",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.itv.az/rtmp:/radio/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.itv.az/rtmp:/radio/playlist.m3u8",
+    "blob:https://90fm.az/090c7d69-059f-4d71-9dfd-f681feb8f4f2"
+   ],
+   "website": "https://90fm.az/"
+  },
+  {
+   "id": "tuno:top_az_radio-enerji-101-1-fm",
+   "name": "Radio Enerji 101.1 FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.livetv.az/antennfm",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://icecast.livetv.az/antennfm",
+    "http://95.217.196.109:8000/antennfm?1234"
+   ],
+   "website": "https://enerjifm.az/"
+  },
+  {
+   "id": "tuno:top_az_saglam-radio",
+   "name": "Sağlam radio",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s24.myradiostream.com/:17446/listen.mp3?nocache=1717082000",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://s24.myradiostream.com/:17446/listen.mp3?nocache=1717082000"
+   ],
+   "website": "https://sehiyye.gov.az/"
+  },
+  {
+   "id": "tuno:top_az_naxcvan-radiosu",
+   "name": "Naxçıvan Radiosu",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s33.myradiostream.com:12782/listen.mp3?nocache=1792526343",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://s33.myradiostream.com:12782/listen.mp3?nocache=1792526343"
+   ],
+   "website": "https://radio.ntv.az/"
+  },
+  {
+   "id": "tuno:top_az_caspian-business-radio-boss",
+   "name": "Caspian Business Radio BOSS",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen7.myradio24.com/bosscomaz",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://listen7.myradio24.com/bosscomaz",
+    "https://myradio24.org/bosscomaz"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://myradio24.org/bosscomaz",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://boss.com.az/radio"
+  },
+  {
+   "id": "tuno:top_az_radio-ysf",
+   "name": "Radio YSF",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.livetv.az/yusif",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://icecast.livetv.az/yusif"
+   ]
+  },
+  {
+   "id": "tuno:top_az_azerbaycan-radiosu-105-0-fm",
+   "name": "Azerbaycan Radiosu 105.0 FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://str.yodacdn.net/azertv/index.m3u8?token=eyJ2IjoyLCJzaXRlIjoiYXp0diIsImlwIjoiNzcuMjkuMTYwLjExNyIsInVhaCI6IjY3ZDhiYTEyZTk2YmRhNGYiLCJpYXQiOjE3OTI1MjYzNzEsImV4cCI6MTc5MjYxMjc3MSwianRpIjoiNjQ5YjljZjhlMDhhMDc1MyJ9.TKoyPczQCWOZnGhhaiDcoMeilXIs3cxovJZQ7jSSHSs",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://str.yodacdn.net/azertv/index.m3u8?token=eyJ2IjoyLCJzaXRlIjoiYXp0diIsImlwIjoiNzcuMjkuMTYwLjExNyIsInVhaCI6IjY3ZDhiYTEyZTk2YmRhNGYiLCJpYXQiOjE3OTI1MjYzNzEsImV4cCI6MTc5MjYxMjc3MSwianRpIjoiNjQ5YjljZjhlMDhhMDc1MyJ9.TKoyPczQCWOZnGhhaiDcoMeilXIs3cxovJZQ7jSSHSs",
+    "http://str.yodacdn.net/radio_respublica/video.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://str.yodacdn.net/radio_respublica/video.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://aztv.az/"
+  },
+  {
+   "id": "tuno:top_az_baku-retro-fm",
+   "name": "Baku Retro FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bakuradioalliance.az/retrofm",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.bakuradioalliance.az/retrofm"
+   ]
+  },
+  {
+   "id": "tuno:top_az_kepez-fm",
+   "name": "Kepez FM",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "http://85.132.78.122:3344/now",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://85.132.78.122:3344/now",
+    "http://www.kepezfm.az/sites/default/files/Teddy%20Swims%20-%20Break%20Up%20in%20Reverse%20(Dj%20Dark%20Remix).mp3"
+   ],
+   "website": "http://www.kepezfm.az/"
+  },
+  {
+   "id": "tuno:top_az_real-fm-107",
+   "name": "Real FM 107",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "http://94.20.137.130:8995/realfm?n=1ae9db9ce6bdfe42937a",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://94.20.137.130:8995/realfm?n=1ae9db9ce6bdfe42937a"
+   ],
+   "website": "https://realfm.az/"
+  },
+  {
+   "id": "tuno:top_az_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_az_dalgafm-92-5",
+   "name": "DalğaFM 92.5",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://live.dinle.az/dalgafm",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://live.dinle.az/dalgafm"
+   ],
+   "website": "https://dalgafm.az/"
+  },
+  {
+   "id": "tuno:top_az_planetfm-88-7",
+   "name": "PlanetFM 88.7",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://live.dinle.az/planetfm",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://live.dinle.az/planetfm"
+   ],
+   "website": "https://planetfm.az/"
+  },
+  {
+   "id": "tuno:top_az_radio-kpz-fm",
+   "name": "RADIO \"Kəpəz FM\"",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "http://85.132.78.122:3344/now",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://85.132.78.122:3344/now"
+   ]
+  },
+  {
+   "id": "tuno:top_az_araz-supermarket-radio",
+   "name": "Araz Supermarket Radio",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://widget.whelp.co/sound/notify.ogg",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://widget.whelp.co/sound/notify.ogg",
+    "http://5.191.241.101:8000/arazmarket"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://5.191.241.101:8000/arazmarket",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.arazmarket.az/"
+  },
+  {
+   "id": "tuno:top_az_sn-gunssn",
+   "name": "Sən Günəşsən",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://a5.asurahosting.com:6560/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://a5.asurahosting.com:6560/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_az_bravo-supermarket-radio",
+   "name": "Bravo Supermarket Radio",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "http://5.191.241.101:8000/bravo",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://5.191.241.101:8000/bravo",
+    "https://bravosupermarket.az/mobile-application/--><!--img/video.webm?v=8"
+   ],
+   "website": "https://www.bravosupermarket.az/"
+  },
+  {
+   "id": "tuno:top_az_business-radio-boss",
+   "name": "Business Radio BOSS",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://myradio24.org/bosscomaz",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://myradio24.org/bosscomaz"
+   ]
+  },
+  {
+   "id": "tuno:top_az_rahat-supermarket-radio",
+   "name": "Rahat Supermarket Radio",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "http://5.191.241.101:8000/rahatmarket",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://5.191.241.101:8000/rahatmarket"
+   ],
+   "website": "https://rahatmarket.az/"
+  },
+  {
+   "id": "tuno:top_az_balkan-rainbow",
+   "name": "Balkan Rainbow",
+   "type": "radio",
+   "country": "AZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s0.radioheart.ru:8000/RH20730",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://s0.radioheart.ru:8000/RH20730"
+   ]
+  }
+ ]
+}

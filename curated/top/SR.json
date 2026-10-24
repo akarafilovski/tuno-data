@@ -1,0 +1,361 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_sr_radio-10-magic-fm",
+   "name": "Radio 10 Magic FM",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://s5.radio.co/s85a633f73/listen",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://s5.radio.co/s85a633f73/listen"
+   ],
+   "website": "https://www.radio10.sr/"
+  },
+  {
+   "id": "tuno:top_sr_radio-shruti",
+   "name": "Radio Shruti",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://rs.suricloud.com/radio/8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://rs.suricloud.com/radio/8000/radio.mp3"
+   ],
+   "website": "https://rs.suricloud.com/radio/8000/radio.mp3"
+  },
+  {
+   "id": "tuno:top_sr_radio-ishara",
+   "name": "RADIO ISHARA",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://a8.asurahosting.com:7030/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://a8.asurahosting.com:7030/radio.mp3"
+   ],
+   "website": "https://a8.asurahosting.com:7030/radio.mp3"
+  },
+  {
+   "id": "tuno:top_sr_radio-garuda",
+   "name": "RADIO GARUDA",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://a3.asurahosting.com/listen/radio_garuda_suriname/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://a3.asurahosting.com/listen/radio_garuda_suriname/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_radio-apintie",
+   "name": "Radio Apintie",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://surilive.com:8000/;",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://surilive.com:8000/;",
+    "http://surilive.com:8000/str"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://surilive.com:8000/str",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.apintie.sr/radio"
+  },
+  {
+   "id": "tuno:top_sr_apintie-suriname-powered-by-bombelman-com",
+   "name": "Apintie Suriname - Powered by Bombelman.com",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://surilive.com:8000/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://surilive.com:8000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_color-radio-102-5-powered-by-surilive-com",
+   "name": "Color Radio 102.5 - Powered by SuriLive.com",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://surilive.com:8070/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://surilive.com:8070/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_radio-koyeba",
+   "name": "Radio Koyeba",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://beta.surilive.com/koyeba/",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://beta.surilive.com/koyeba/"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_radio-abc-suriname-101-7-powered-by-bombelman-com",
+   "name": "Radio ABC Suriname 101.7 - Powered by Bombelman.com",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "httpS://surilive.com:8020/;",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "httpS://surilive.com:8020/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_sr_radio-srs-suriname-powered-by-surilive-com",
+   "name": "Radio SRS Suriname - Powered by SuriLive.com",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://surilive.com:8060/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://surilive.com:8060/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_pipel-fm",
+   "name": "PIPEL FM",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://rs.suricloud.com/radio/8010/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://rs.suricloud.com/radio/8010/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_radio-9-suriname",
+   "name": "Radio 9 Suriname",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://rs.suricloud.com/radio/8060/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://rs.suricloud.com/radio/8060/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_trending-fm-89-3",
+   "name": "Trending FM 89.3",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://skurebce.beheerstream.nl/8144/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://skurebce.beheerstream.nl/8144/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_rp-the-hot-one",
+   "name": "RP THE HOT ONE",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/2ce0ffa5-dd88-491e-9f9f-925a7ce36b13?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://streams.radiomast.io/2ce0ffa5-dd88-491e-9f9f-925a7ce36b13?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_sangeetmala-radio",
+   "name": "Sangeetmala Radio",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://rs.suricloud.com/radio/8030/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://rs.suricloud.com/radio/8030/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_rp-acme",
+   "name": "RP ACME",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/d7e8093b-6a7e-4442-a096-37f259cb7092?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://streams.radiomast.io/d7e8093b-6a7e-4442-a096-37f259cb7092?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_surja-vibes",
+   "name": "Surja Vibes",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://s5.radio.co/s1735f3c1d/listen",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://s5.radio.co/s1735f3c1d/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_fm-sr-sranan-radio-100-suriname",
+   "name": "FM.sr Sranan Radio - 100% Suriname",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://my.surilive.com/listen/sr/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://my.surilive.com/listen/sr/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_trishul-broadcasting-network",
+   "name": "TRISHUL BROADCASTING NETWORK",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://rs.suricloud.com/radio/8050/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://rs.suricloud.com/radio/8050/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_smooth-fm",
+   "name": "SMOOTH FM",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://video1.getstreamhosting.com:8340/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://video1.getstreamhosting.com:8340/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_slam-radio",
+   "name": "Slam Radio",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://ec5.yesstreaming.net:1480/live",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://ec5.yesstreaming.net:1480/live"
+   ]
+  },
+  {
+   "id": "tuno:top_sr_suri-lite-online-radio",
+   "name": "Suri-Lite Online Radio",
+   "type": "radio",
+   "country": "SR",
+   "category": "music",
+   "stream": {
+    "url": "https://cast.surilite.net/lite/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://cast.surilite.net/lite/stream"
+   ]
+  }
+ ]
+}

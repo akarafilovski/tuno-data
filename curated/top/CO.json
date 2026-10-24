@@ -1,0 +1,509 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_co_olimpica-stereo",
+   "name": "Olímpica Stereo",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_BOGOTAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_BOGOTAAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_co_blu-radio",
+   "name": "Blu Radio",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_KALLE.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_KALLE.mp3?dist=onlineradiobox",
+    "http://26453.live.streamtheworld.com/LA_KALLE_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://26453.live.streamtheworld.com/LA_KALLE_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.bluradio.com/"
+  },
+  {
+   "id": "tuno:top_co_besame",
+   "name": "Bésame",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_co_olimpica-stereo-104-9-medellin-medellin",
+   "name": "Olímpica Stereo 104.9 Medellin Medellín",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_MEDELLINAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_MEDELLINAAC.aac"
+   ],
+   "website": "https://olimpicastereo.com.co/"
+  },
+  {
+   "id": "tuno:top_co_tropicana-medellin-98-9-fm-medellin",
+   "name": "Tropicana Medellín 98.9 fm Medellín",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/TR_MEDELLINAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/TR_MEDELLINAAC.aac",
+    "https://player.prisamedia.com/core/test/dummy.mp3"
+   ],
+   "website": "https://www.tropicanafm.com/"
+  },
+  {
+   "id": "tuno:top_co_caracol-radio",
+   "name": "Caracol Radio",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_co_caracol-radio-bogota-100-9-fm-810-am-hjgl-hjcy-prisa-radio-bogota",
+   "name": "Caracol Radio (Bogotá) - 100.9 FM / 810 AM - HJGL / HJCY - PRISA Radio - Bogotá",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC.aac",
+    "https://player.prisamedia.com/core/test/dummy.mp3"
+   ],
+   "website": "https://caracol.com.co/"
+  },
+  {
+   "id": "tuno:top_co_mix-radio",
+   "name": "Mix Radio",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIX_BARRANQUILLAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MIX_BARRANQUILLAAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_co_radio-tiempo",
+   "name": "Radio Tiempo",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_BARRANQUILLAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_BARRANQUILLAAAC.aac?dist=onlineradiobox",
+    "https://radio.garden/api/ara/content/listen/bQueuUi0/channel.mp3?1721304580410"
+   ],
+   "website": "http://www.radiotiempo.co/"
+  },
+  {
+   "id": "tuno:top_co_w-radio-colombia",
+   "name": "W Radio Colombia",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "http://24273.live.streamtheworld.com:3690/WRADIO_SC",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://24273.live.streamtheworld.com:3690/WRADIO_SC",
+    "https://sdmedia.caracol.com.co/mcv/caracol/multimedia/20261020/5167114_172026_audio_128.mp3?dist=wradioco-web"
+   ],
+   "website": "http://wradio.com.co/"
+  },
+  {
+   "id": "tuno:top_co_123-vallenato",
+   "name": "123 Vallenato",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://radiohd4.streaminghd.co:8190/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radiohd4.streaminghd.co:8190/stream",
+    "https://radiolatina.info:10903/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radiolatina.info:10903/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radios.com.co/vallenato/"
+  },
+  {
+   "id": "tuno:top_co_crv-radio",
+   "name": "CRV Radio",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIDA_BOGOTA.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/VIDA_BOGOTA.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_co_colombia-crossover",
+   "name": "Colombia Crossover",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio35.virtualtronics.com/proxy/colombiacrossover?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio35.virtualtronics.com/proxy/colombiacrossover?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_co_barranquilla-estereo",
+   "name": "Barranquilla Estereo",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.yaservers.com:6060/stream?q=48",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radio.yaservers.com:6060/stream?q=48",
+    "http://radio.yaservers.com:8197/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio.yaservers.com:8197/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.barranquillaestereo.com/"
+  },
+  {
+   "id": "tuno:top_co_super-clasica",
+   "name": "Super Clásica",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://sclasica-stream.sytes.net/stream?hash=1792518408835",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://sclasica-stream.sytes.net/stream?hash=1792518408835",
+    "http://sclasica-stream.sytes.net:8012/;",
+    "http://77.73.69.238:8000/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://sclasica-stream.sytes.net:8012/;",
+     "format": "icecast"
+    },
+    {
+     "url": "http://77.73.69.238:8000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.superclasica.com/"
+  },
+  {
+   "id": "tuno:top_co_el-sol",
+   "name": "El Sol",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/632c9b89aa9ace684913b815/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://mdstrm.com/audio/632c9b89aa9ace684913b815/live.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_co_radio-uno",
+   "name": "Radio Uno",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/632c9bbcaa9ace684913b81b/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://mdstrm.com/audio/632c9bbcaa9ace684913b81b/live.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_co_los-40",
+   "name": "Los 40",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_co_capital-salsa-cali",
+   "name": "Capital Salsa Cali",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.integracionvirtual.com/proxy/capitalsalsa?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream.integracionvirtual.com/proxy/capitalsalsa?mp=/stream"
+   ],
+   "website": "https://capitalsalsa.com.co/"
+  },
+  {
+   "id": "tuno:top_co_radionica-hjym-99-1-bogota-rtvc",
+   "name": "Radiónica (HJYM 99.1 Bogotá) RTVC",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "http://shoutcast.rtvc.gov.co:8010/;",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://shoutcast.rtvc.gov.co:8010/;"
+   ],
+   "website": "http://www.radionica.rocks/"
+  },
+  {
+   "id": "tuno:top_co_candela-estereo-bogota-hjpu-101-9",
+   "name": "Candela Estéreo Bogotá (HJPU 101.9)",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "http://27583.live.streamtheworld.com/CANDELAESTEREO_SC",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://27583.live.streamtheworld.com/CANDELAESTEREO_SC"
+   ],
+   "website": "http://www.candelaestereo.com/"
+  },
+  {
+   "id": "tuno:top_co_radio-policia-bogota",
+   "name": "Radio Policia Bogotá",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "http://51.15.160.78:8130/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://51.15.160.78:8130/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_co_la-mega-medellin-92-9-fm",
+   "name": "La Mega (Medellín) 92.9 FM",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/632cb48f613bac0856b931ab",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/632cb48f613bac0856b931ab"
+   ],
+   "website": "http://www.lamega.com.co/medellin"
+  },
+  {
+   "id": "tuno:top_co_veracruz-estereo",
+   "name": "Veracruz Estereo",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.veracruzstereo.com:8000/live",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://radio.veracruzstereo.com:8000/live"
+   ]
+  },
+  {
+   "id": "tuno:top_co_besame-medellin-94-9-fm",
+   "name": "Bésame (Medellín) 94.9 FM",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac"
+   ],
+   "website": "https://www.besame.fm/"
+  },
+  {
+   "id": "tuno:top_co_vibra-bogota-104-9-fm",
+   "name": "Vibra Bogotá 104.9 FM",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "http://27693.live.streamtheworld.com:3690/VIBRAAAC_SC",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://27693.live.streamtheworld.com:3690/VIBRAAAC_SC"
+   ],
+   "website": "https://www.vibra.fm/"
+  },
+  {
+   "id": "tuno:top_co_la-konsentida",
+   "name": "La Konsentida",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://radiohd3.streaminghd.co:8088/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://radiohd3.streaminghd.co:8088/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_co_40-principales-colombia",
+   "name": "40 Principales Colombia",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/%20LOS40_COLOMBIA.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/%20LOS40_COLOMBIA.mp3",
+    "https://player.prisamedia.com/core/test/dummy.mp3"
+   ],
+   "website": "https://los40.com.co/"
+  },
+  {
+   "id": "tuno:top_co_la-sonora-fm",
+   "name": "La Sonora FM",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic.paulatina.co/7068/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://sonic.paulatina.co/7068/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_co_radioacktiva-bogota-97-9-fm-hjjk-prisa-radio-bogota",
+   "name": "Radioacktiva (Bogotá) - 97.9 FM - HJJK - PRISA Radio - Bogotá",
+   "type": "radio",
+   "country": "CO",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ACTIVAAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ACTIVAAAC.aac"
+   ],
+   "website": "https://www.radioacktiva.com/"
+  }
+ ]
+}

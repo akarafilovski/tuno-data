@@ -1,0 +1,451 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tz_clouds-fm",
+   "name": "Clouds FM",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://eu6.fastcast4u.com:5306/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://eu6.fastcast4u.com:5306/;"
+   ],
+   "website": "https://www.cloudsfm.com/"
+  },
+  {
+   "id": "tuno:top_tz_east-africa-radio",
+   "name": "East Africa Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://eatv.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://eatv.radioca.st/stream"
+   ],
+   "website": "https://www.eastafricaradio.com/"
+  },
+  {
+   "id": "tuno:top_tz_mungu-kwanza",
+   "name": "Mungu Kwanza",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mungukwanza.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://mungukwanza.radioca.st/;"
+   ],
+   "website": "https://mungukwanza.com/"
+  },
+  {
+   "id": "tuno:top_tz_wasafi-fm",
+   "name": "Wasafi FM",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.wasafimedia.co.tz/wasafi",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radio.wasafimedia.co.tz/wasafi",
+    "http://streaming.radionomy.com/JamendoLounge"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streaming.radionomy.com/JamendoLounge",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.wcbwasafi.com/"
+  },
+  {
+   "id": "tuno:top_tz_radio-maria-tanzania",
+   "name": "RADIO MARIA TANZANIA",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp2.com:8034/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://dreamsiteradiocp2.com:8034/stream"
+   ],
+   "website": "http://www.radiomaria.co.tz/"
+  },
+  {
+   "id": "tuno:top_tz_radio-one-stereo",
+   "name": "Radio One Stereo",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radioonetanzania.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://radioonetanzania.radioca.st/stream"
+   ],
+   "website": "https://www.radio1.co.tz/"
+  },
+  {
+   "id": "tuno:top_tz_safina-radio-fm",
+   "name": "Safina Radio Fm",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s9.myradiostream.com:46284/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://s9.myradiostream.com:46284/;"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_radio-kwizera",
+   "name": "Radio Kwizera",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://uk4-vn.mixstream.net/:8052/;listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://uk4-vn.mixstream.net/:8052/;listen.mp3",
+    "http://uk4-vn.mixstream.net:8052/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://uk4-vn.mixstream.net:8052/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiokwizera.co.tz/"
+  },
+  {
+   "id": "tuno:top_tz_e-fm-radio",
+   "name": "E-FM Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://efmradio-atunwadigital.streamguys1.com/efmradio",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://efmradio-atunwadigital.streamguys1.com/efmradio"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_bethel-radio",
+   "name": "Bethel Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://a5.asurahosting.com:7290/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://a5.asurahosting.com:7290/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_capital-radio",
+   "name": "Capital Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://capitalradio.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://capitalradio.radioca.st/stream"
+   ],
+   "website": "https://www.capitalradio.co.tz/"
+  },
+  {
+   "id": "tuno:top_tz_radio-uhai",
+   "name": "Radio Uhai",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.citrus3.com:8050/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://s2.citrus3.com:8050/stream"
+   ],
+   "website": "https://www.radiouhai.co.tz/"
+  },
+  {
+   "id": "tuno:top_tz_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmtanzania2?mp=/stream?ver=679444",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmtanzania2?mp=/stream?ver=679444"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_ibn-tv",
+   "name": "IBN TV",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://138.68.138.119:8080/low/5a8993709ea19/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://138.68.138.119:8080/low/5a8993709ea19/index.m3u8"
+   ],
+   "website": "http://www.ibn-tv.com/"
+  },
+  {
+   "id": "tuno:top_tz_radioone",
+   "name": "RadioOne",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radioonetanzania.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://radioonetanzania.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_nuru-fm",
+   "name": "Nuru FM",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radiotadio.co.tz/nuru-fm-stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://radiotadio.co.tz/nuru-fm-stream"
+   ],
+   "website": "https://radiotadio.co.tz/nurufm/"
+  },
+  {
+   "id": "tuno:top_tz_radio-sauti-ya-injili",
+   "name": "Radio Sauti Ya Injili",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://212.227.150.101:6801/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://212.227.150.101:6801/;"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_upendo-fm",
+   "name": "Upendo FM",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://upendofm.dhsolutions.co.tz/listen/upendo_media/upendofm.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://upendofm.dhsolutions.co.tz/listen/upendo_media/upendofm.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_amen-radio",
+   "name": "Amen Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://cosmo.shoutca.st:8183/;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://cosmo.shoutca.st:8183/;"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_tz_boresha-radio",
+   "name": "Boresha Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://halo.streamerr.co/listen/radio_boresha/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://halo.streamerr.co/listen/radio_boresha/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_favor-radio",
+   "name": "Favor Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://a8.asurahosting.com:6940/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://a8.asurahosting.com:6940/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_nehestrat-fm",
+   "name": "Nehestrat FM",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://eu8.fastcast4u.com/proxy/nehestratfm?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://eu8.fastcast4u.com/proxy/nehestratfm?mp=/1"
+   ],
+   "website": "https://www.nehestrat.com/"
+  },
+  {
+   "id": "tuno:top_tz_shalom-radio-arusha",
+   "name": "Shalom Radio Arusha",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://uk3-vn.mixstream.net:8144/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://uk3-vn.mixstream.net:8144/;"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_nuru-naiangaze-radio",
+   "name": "Nuru Naiangaze Radio",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6110/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://a2.asurahosting.com:6110/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_tk-fm-88-5-tanga",
+   "name": "Tk Fm 88.5 Tanga",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://109.169.15.21:17049/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://109.169.15.21:17049/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_radio-5-fm",
+   "name": "Radio 5 Fm",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "http://41.59.200.210:8000/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://41.59.200.210:8000/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tz_jembe-fm",
+   "name": "Jembe Fm",
+   "type": "radio",
+   "country": "TZ",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.asurahosting.com/proxy/jembemed/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://cast3.asurahosting.com/proxy/jembemed/stream"
+   ]
+  }
+ ]
+}

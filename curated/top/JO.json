@@ -1,0 +1,321 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_jo_mazaj-fm",
+   "name": "Mazaj FM - مزاج اف ام",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://mazajfm.ice.infomaniak.ch/mazajfm-192.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://mazajfm.ice.infomaniak.ch/mazajfm-192.mp3"
+   ],
+   "website": "https://www.mazaj.fm/"
+  },
+  {
+   "id": "tuno:top_jo_mood-92",
+   "name": "Mood 92",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://securestreams2.autopo.st:1241/live",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://securestreams2.autopo.st:1241/live"
+   ],
+   "website": "https://www.mood.fm/"
+  },
+  {
+   "id": "tuno:top_jo_radio-dahab",
+   "name": "Radio Dahab",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://dahab.ice.infomaniak.ch/dahab-192.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://dahab.ice.infomaniak.ch/dahab-192.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_beat-fm",
+   "name": "Beat FM",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://securestreams2.autopo.st:1242/live",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://securestreams2.autopo.st:1242/live"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_hayat-fm",
+   "name": "Hayat FM",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://hayat.fm/api/live",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://hayat.fm/api/live",
+    "https://dc1.serverse.com/proxy/kjxwtpdt/stream",
+    "https://samson.streamerr.co:8081/hayatfm/index.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dc1.serverse.com/proxy/kjxwtpdt/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://hayat.fm/"
+  },
+  {
+   "id": "tuno:top_jo_radio-jordan-96-3",
+   "name": "Radio Jordan 96.3",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://jrtv-live.ercdn.net/jrradio/englishradiovideo.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://jrtv-live.ercdn.net/jrradio/englishradiovideo.m3u8"
+   ],
+   "website": "https://www.jrtv.gov.jo/radio/english-radio/5"
+  },
+  {
+   "id": "tuno:top_jo_noursat-jordan-tv",
+   "name": "Noursat Jordan TV",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "http://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8"
+   ],
+   "website": "http://noursatjordan.com/"
+  },
+  {
+   "id": "tuno:top_jo_play-fm",
+   "name": "Play FM",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://play995.radioca.st//stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://play995.radioca.st//stream"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_noursat-jordan",
+   "name": "noursat jordan",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "http://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_jordan-radio-main",
+   "name": "Jordan Radio (Main)",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://jrtv-live.ercdn.net/jrradio/jordanradiovideo.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://jrtv-live.ercdn.net/jrradio/jordanradiovideo.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_radio-hala",
+   "name": "Radio Hala",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://hala-alrayamedia.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://hala-alrayamedia.radioca.st/;"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_noursat-jorden",
+   "name": "noursat jorden",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "http://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8"
+   ],
+   "website": "http://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8"
+  },
+  {
+   "id": "tuno:top_jo_ju-fm",
+   "name": "JU Fm",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "http://jufmstreaming.ju.edu.jo/;",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://jufmstreaming.ju.edu.jo/;"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_rabee-al-qloub",
+   "name": "Rabee Al Qloub",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "http://radio-ssl.com:8006/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://radio-ssl.com:8006/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_jrradio",
+   "name": "JRRadio",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://jrtv-live.ercdn.net/jrradio/englishradiovideo.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://jrtv-live.ercdn.net/jrradio/englishradiovideo.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_jo_ain-fm",
+   "name": "Ain FM",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.ainfm.site/ainfm",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radio.ainfm.site/ainfm"
+   ],
+   "website": "https://ainfm.com/programs"
+  },
+  {
+   "id": "tuno:top_jo_yarmouk-university-fm",
+   "name": "Yarmouk University FM",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://yufm.yu.edu.jo/broadwave.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://yufm.yu.edu.jo/broadwave.mp3"
+   ],
+   "website": "https://www.yu.edu.jo/index.php/en/facilities/public-facilities/yarmouk-radio-station"
+  },
+  {
+   "id": "tuno:top_jo_balad-92-4-fm",
+   "name": "Balad 92.4 fm",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.voscast.com/cdn/?k=69dfb8dbbbe66&m=;stream1776269532119/1",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://s3.voscast.com/cdn/?k=69dfb8dbbbe66&m=;stream1776269532119/1"
+   ]
+  },
+  {
+   "id": "tuno:top_jo_tareq-al-nasser-music",
+   "name": "Tareq Al Nasser Music",
+   "type": "radio",
+   "country": "JO",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/782726/stream/850381",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://listen.radioking.com/radio/782726/stream/850381"
+   ]
+  }
+ ]
+}

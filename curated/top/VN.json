@@ -1,0 +1,456 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_vn_vov-1",
+   "name": "VOV 1",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8"
+   ],
+   "website": "https://vov1.vov.gov.vn/"
+  },
+  {
+   "id": "tuno:top_vn_rfi-tieng-viet",
+   "name": "RFI Tiếng Việt",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://rfivietnamien96k.ice.infomaniak.ch/rfivietnamien-96k.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://rfivietnamien96k.ice.infomaniak.ch/rfivietnamien-96k.mp3",
+    "https://rfienvietnamien64k.ice.infomaniak.ch/rfienvietnamien-64.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rfienvietnamien64k.ice.infomaniak.ch/rfienvietnamien-64.mp3",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_vn_vov-giao-thong-ha-noi",
+   "name": "VOV Giao Thông Hà Nội",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://play.vovgiaothong.vn/live/gthn/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://play.vovgiaothong.vn/live/gthn/playlist.m3u8",
+    "https://stream.vov.vn/d635b3695a4795db2be7c99d7263b2831688297874/giao_thong_ha_noi-audio/playlist.m3u8"
+   ],
+   "website": "https://vovgiaothong.vn/"
+  },
+  {
+   "id": "tuno:top_vn_vietnamese-national-people",
+   "name": "Vietnamese National People",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://c13.radioboss.fm:8127/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://c13.radioboss.fm:8127/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_scientific-sound-asia-radio",
+   "name": "Scientific Sound Asia Radio",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://carol.epichosts.co.uk:8270/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://carol.epichosts.co.uk:8270/live.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_ha-noi-community-radio",
+   "name": "Hà Nội Community Radio",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://video.squarespace-cdn.com/content/v1/601bd240e83c0b6ba8b2b046/cb370f0c-ce3b-4067-9830-b781c9e5d560/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://video.squarespace-cdn.com/content/v1/601bd240e83c0b6ba8b2b046/cb370f0c-ce3b-4067-9830-b781c9e5d560/playlist.m3u8",
+    "https://ha-noi-community-radio.radiocult.fm/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ha-noi-community-radio.radiocult.fm/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hanoicommunityradio.com/"
+  },
+  {
+   "id": "tuno:top_vn_fm-hanoi-90-mhz",
+   "name": "FM HANOI 90 MHz",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://14.162.146.90:8000/HANOI90",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://14.162.146.90:8000/HANOI90"
+   ],
+   "website": "http://e.mytuner-radio.com/embed/hanoi90-495426"
+  },
+  {
+   "id": "tuno:top_vn_vov-2",
+   "name": "VOV 2",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://audio-lss.vov.vn/live/vov2.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://audio-lss.vov.vn/live/vov2.m3u8",
+    "http://media.kythuatvov.vn:7003/;"
+   ],
+   "website": "https://vov2.vov.vn/"
+  },
+  {
+   "id": "tuno:top_vn_zing-bolero",
+   "name": "ZING BOLERO",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://vnno-ne-3-tf-multi-playlist-zmp3.zmdcdn.me/BJ7DyJjfG_E/zhls/playback-realtime/audio/5bace800d4453d1b6454/audio.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://vnno-ne-3-tf-multi-playlist-zmp3.zmdcdn.me/BJ7DyJjfG_E/zhls/playback-realtime/audio/5bace800d4453d1b6454/audio.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_vov-5",
+   "name": "VOV 5",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://audio-lss.vov.vn/live/vov5.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://audio-lss.vov.vn/live/vov5.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_aw-viet-nam",
+   "name": "AW Việt Nam",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://radioantennaweb.com/Vietnam",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radioantennaweb.com/Vietnam"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_vov-6",
+   "name": "VOV 6",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_cri-tieng-viet",
+   "name": "CRI Tiếng Việt",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://ice5.securenetsystems.net:80/KALI",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://ice5.securenetsystems.net:80/KALI"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_cham-radio",
+   "name": "CHẠM RADIO",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://vnno-ne-2-tf-multi-playlist-zmp3.zmdcdn.me/j20SDlO5EQk/zhls/playback-realtime/audio/59a2ee0ed24b3b15625a/audio.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://vnno-ne-2-tf-multi-playlist-zmp3.zmdcdn.me/j20SDlO5EQk/zhls/playback-realtime/audio/59a2ee0ed24b3b15625a/audio.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_viet-radio-1560",
+   "name": "VIET RADIO 1560",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://71.4.56.20/3rdout/radio.hou.std2/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://71.4.56.20/3rdout/radio.hou.std2/icecast.audio"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_kali-saigon",
+   "name": "KALI SAIGON",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://ice5.securenetsystems.net:80/KALI",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://ice5.securenetsystems.net:80/KALI"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_digital-radio-hongkong",
+   "name": "Digital Radio Hongkong",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://ice.digitalradiohk.net:8000/drhk",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://ice.digitalradiohk.net:8000/drhk"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_vov-gt-hcm",
+   "name": "VOV GT HCM",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://play.vovgiaothong.vn/live/gthcm/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://play.vovgiaothong.vn/live/gthcm/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_hanoi90",
+   "name": "Hanoi90",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://14.162.146.90:8000/HANOI90",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://14.162.146.90:8000/HANOI90"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_saigon-houston-am900",
+   "name": "Saigon Houston AM900",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "http://142.4.215.82:8070/stream?type=http&nocache=151",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://142.4.215.82:8070/stream?type=http&nocache=151"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_tnt-atlanta-radio",
+   "name": "TNT Atlanta Radio",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.servcast.net/proxy/longpham2/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://cast4.servcast.net/proxy/longpham2/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_vn_replay-news-tieng-viet-radio-tin-tuc-moi-5-phut",
+   "name": "REPLAY NEWS - Tiếng Việt   Radio tin tức mỗi 5 phút",
+   "type": "radio",
+   "country": "VN",
+   "category": "talk",
+   "stream": {
+    "url": "https://replaynewsar.ice.infomaniak.ch/replaynewsar-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://replaynewsar.ice.infomaniak.ch/replaynewsar-128.mp3",
+    "https://replaynewsvi.ice.infomaniak.ch/replaynewsve-128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://replaynewsvi.ice.infomaniak.ch/replaynewsve-128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.replaynews.net/"
+  },
+  {
+   "id": "tuno:top_vn_xone-fm",
+   "name": "XONE FM",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://vnno-ne-2-tf-multi-playlist-zmp3.zmdcdn.me/Wbo0diyYozY/zhls/playback-realtime/audio/e75e51f26db784e9dda6/audio.m3u8",
+    "format": "hls"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://vnno-ne-2-tf-multi-playlist-zmp3.zmdcdn.me/Wbo0diyYozY/zhls/playback-realtime/audio/e75e51f26db784e9dda6/audio.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_vn_rva-vietnamese",
+   "name": "RVA Vietnamese",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://livestream.rvasia.org:8443/Hindi.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://livestream.rvasia.org:8443/Hindi.mp3",
+    "https://livestream.rvasia.org:8443/Vietnamese.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://livestream.rvasia.org:8443/Vietnamese.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://livestream.rvasia.org:8443/"
+  },
+  {
+   "id": "tuno:top_vn_kc-radio-asia-80s-90s",
+   "name": "KC Radio Asia 80s & 90s",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://kcradio.asia/stream/80s90s",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://kcradio.asia/stream/80s90s"
+   ],
+   "website": "https://kcradio.asia/"
+  },
+  {
+   "id": "tuno:top_vn_hai-phong-fm-102-2",
+   "name": "Hai Phong FM 102.2",
+   "type": "radio",
+   "country": "VN",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.thhp.vn/live/285a4c99665fdf84e94956c66bc7dc7eb5d/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://cdn.thhp.vn/live/285a4c99665fdf84e94956c66bc7dc7eb5d/playlist.m3u8",
+    "https://cdn.thhp.vn/live/285c1421f29d05045909836b37313898e2f/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cdn.thhp.vn/live/285c1421f29d05045909836b37313898e2f/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://thhp.vn/"
+  }
+ ]
+}

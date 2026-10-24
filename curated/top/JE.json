@@ -1,0 +1,73 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_je_soleil-radio",
+   "name": "Soleil Radio",
+   "type": "radio",
+   "country": "JE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/sa3ccwa9yy8uv",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.rcs.revma.com/sa3ccwa9yy8uv"
+   ],
+   "website": "https://www.soleilradio.com/"
+  },
+  {
+   "id": "tuno:top_je_channel-103",
+   "name": "Channel 103",
+   "type": "radio",
+   "country": "JE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/1b7wddebanzuv?rp_source=1&amp;=&amp;&amp;___cb=51813546134683",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.rcs.revma.com/1b7wddebanzuv?rp_source=1&amp;=&amp;&amp;___cb=51813546134683",
+    "https://n02-eu.rcs.revma.com/1b7wddebanzuv?rj-ttl=5&rj-tok=AAABnuSkRnsAKAPV9xwJDgAhEA&rp_source=1&___cb=931531437397347"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://n02-eu.rcs.revma.com/1b7wddebanzuv?rj-ttl=5&rj-tok=AAABnuSkRnsAKAPV9xwJDgAhEA&rp_source=1&___cb=931531437397347",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.channel103.com/"
+  },
+  {
+   "id": "tuno:top_je_radio-soko",
+   "name": "Radio Soko",
+   "type": "radio",
+   "country": "JE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/355270/stream/404545",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen.radioking.com/radio/355270/stream/404545"
+   ]
+  },
+  {
+   "id": "tuno:top_je_aw-saint-helier",
+   "name": "AW Saint Helier",
+   "type": "radio",
+   "country": "JE",
+   "category": "music",
+   "stream": {
+    "url": "https://jersey.radioantennaweb.com/SaintHelier",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://jersey.radioantennaweb.com/SaintHelier"
+   ]
+  }
+ ]
+}

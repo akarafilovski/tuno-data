@@ -1,0 +1,111 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_li_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "LI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_li_firsthits",
+   "name": "FirstHits",
+   "type": "radio",
+   "country": "LI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/firsthits",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.laut.fm/firsthits"
+   ]
+  },
+  {
+   "id": "tuno:top_li_radio-vaterland",
+   "name": "Radio Vaterland",
+   "type": "radio",
+   "country": "LI",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostream.radiobutler.com/7e9d5eb6-9249-4c7a-9f1c-6d4b9c7a48a8",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radiostream.radiobutler.com/7e9d5eb6-9249-4c7a-9f1c-6d4b9c7a48a8"
+   ],
+   "website": "https://www.vaterland.li/"
+  },
+  {
+   "id": "tuno:top_li_antenna-web-liechtenstein",
+   "name": "Antenna Web Liechtenstein",
+   "type": "radio",
+   "country": "LI",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebLiechtenstein",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebLiechtenstein"
+   ]
+  },
+  {
+   "id": "tuno:top_li_antenna-web-vaduz",
+   "name": "Antenna Web Vaduz",
+   "type": "radio",
+   "country": "LI",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Vaduz",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Vaduz"
+   ]
+  },
+  {
+   "id": "tuno:top_li_campus-radio",
+   "name": "Campus Radio",
+   "type": "radio",
+   "country": "LI",
+   "category": "music",
+   "stream": {
+    "url": "https://campusradioli.out.airtime.pro/campusradioli_a",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://campusradioli.out.airtime.pro/campusradioli_a"
+   ]
+  },
+  {
+   "id": "tuno:top_li_hero-radio-liechtenstein",
+   "name": "Hero Radio (Liechtenstein)",
+   "type": "radio",
+   "country": "LI",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/liechtenstein.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/liechtenstein.mp3"
+   ]
+  }
+ ]
+}

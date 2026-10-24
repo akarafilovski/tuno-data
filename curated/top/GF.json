@@ -1,0 +1,309 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gf_cherie-fm",
+   "name": "CHERIE FM",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://cheriefmguyane.ice.infomaniak.ch/cheriefmguyane-64.aac",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://cheriefmguyane.ice.infomaniak.ch/cheriefmguyane-64.aac"
+   ],
+   "website": "http://www.cheriefmguyane.com/"
+  },
+  {
+   "id": "tuno:top_gf_guyane-1ere",
+   "name": "Guyane 1ère",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://guyane.ice.infomaniak.ch/guyane-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://guyane.ice.infomaniak.ch/guyane-128.mp3"
+   ],
+   "website": "https://la1ere.francetvinfo.fr/guyane/"
+  },
+  {
+   "id": "tuno:top_gf_nostalgie-guyane",
+   "name": "Nostalgie Guyane",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "http://2stream.dyndns.org:8000/nostalgieguy",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://2stream.dyndns.org:8000/nostalgieguy"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_nostalgie",
+   "name": "Nostalgie",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "http://2stream.dyndns.org:8000/nostalgieguy",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://2stream.dyndns.org:8000/nostalgieguy"
+   ],
+   "website": "http://www.nostalgiedom.fr/"
+  },
+  {
+   "id": "tuno:top_gf_nostalgie-guadeloupe",
+   "name": "Nostalgie Guadeloupe",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://go.2stream.net/nostalgiegp",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://go.2stream.net/nostalgiegp"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_metis-fm",
+   "name": "Métis FM",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://str0.creacast.com/metisfm.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://str0.creacast.com/metisfm.mp3"
+   ],
+   "website": "https://metis.fm/"
+  },
+  {
+   "id": "tuno:top_gf_fun-radio-guyane",
+   "name": "Fun Radio Guyane",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "http://manager2.streaming-ingenierie.fr:8050/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://manager2.streaming-ingenierie.fr:8050/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gf_nrj-guyane",
+   "name": "NRJ Guyane",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://nrjguyane.ice.infomaniak.ch/nrjguyane-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://nrjguyane.ice.infomaniak.ch/nrjguyane-64.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_bblack-radio",
+   "name": "Bblack Radio",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://stunnel1.cyber-streaming.com:9162/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stunnel1.cyber-streaming.com:9162/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_alcatraz-radio-fm",
+   "name": "Alcatraz Radio FM",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://a8.my-control-panel.com:9360/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://a8.my-control-panel.com:9360/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_rtl-2-guyane",
+   "name": "RTL 2 Guyane",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "http://coollabel1.streaming-ingenierie.fr:8136/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://coollabel1.streaming-ingenierie.fr:8136/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_chwitiweb",
+   "name": "Chwitiweb",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.chwitiweb.com/listen/chwitiweb/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.chwitiweb.com/listen/chwitiweb/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_radio-guyane-tv",
+   "name": "Radio Guyane TV",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/795001/stream/863376",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://listen.radioking.com/radio/795001/stream/863376"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_radio-konvwe",
+   "name": "Radio Konvwé",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/407665/stream/460090",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://listen.radioking.com/radio/407665/stream/460090"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_antenna-web-cayenne",
+   "name": "Antenna Web Cayenne",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "http://tinyurl.com/AntennaWebCayenne",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://tinyurl.com/AntennaWebCayenne"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_radio-joie-de-vivre",
+   "name": "RADIO JOIE DE VIVRE",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/289372/stream/335533",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://listen.radioking.com/radio/289372/stream/335533"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_aouara-radio",
+   "name": "AOUARA RADIO. . .",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/588953/stream/649532",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://listen.radioking.com/radio/588953/stream/649532"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_indigo-guyane",
+   "name": "INDIGO GUYANE",
+   "type": "radio",
+   "country": "GF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/641791/stream/704827",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://listen.radioking.com/radio/641791/stream/704827"
+   ]
+  },
+  {
+   "id": "tuno:top_gf_radio-pata-pata-sports",
+   "name": "Radio Pata-pata Sports",
+   "type": "radio",
+   "country": "GF",
+   "category": "sports",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/826136/stream/895291",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://listen.radioking.com/radio/826136/stream/895291"
+   ]
+  }
+ ]
+}

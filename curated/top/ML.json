@@ -1,0 +1,51 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ml_radio-frequence-3-93-8-bamako",
+   "name": "Radio Fréquence 3 93.8 Bamako",
+   "type": "radio",
+   "country": "ML",
+   "category": "music",
+   "stream": {
+    "url": "http://ice.stream.frequence3.net/frequence3-64.aac",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://ice.stream.frequence3.net/frequence3-64.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_ml_radio-neneba-fm-97-7-markala",
+   "name": "Radio Neneba FM 97.7 Markala",
+   "type": "radio",
+   "country": "ML",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-285.surfernetwork.com/qwbgp1ah22quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxd2JncDFhaDIycXV2IiwiaG9zdCI6InN0cmVhbS0yODUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ilg5T3JBZWkyU0JpZ2ZvLVdqb2ZwTmciLCJpYXQiOjE3OTI1MzA3ODcsImV4cCI6MTc5MjUzMDg0N30.bDaFPYDrSGKm4ueEAlixJboDNoWJqIWMN_dHbULtnvg",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream-285.surfernetwork.com/qwbgp1ah22quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxd2JncDFhaDIycXV2IiwiaG9zdCI6InN0cmVhbS0yODUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ilg5T3JBZWkyU0JpZ2ZvLVdqb2ZwTmciLCJpYXQiOjE3OTI1MzA3ODcsImV4cCI6MTc5MjUzMDg0N30.bDaFPYDrSGKm4ueEAlixJboDNoWJqIWMN_dHbULtnvg",
+    "https://stream.zeno.fm/e9xqg1ah22quv"
+   ],
+   "website": "https://nenebafm.info/"
+  },
+  {
+   "id": "tuno:top_ml_djenneca24",
+   "name": "Djenneca24",
+   "type": "radio",
+   "country": "ML",
+   "category": "music",
+   "stream": {
+    "url": "http://212.84.160.3:8327/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://212.84.160.3:8327/stream"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,542 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ee_retro-fm",
+   "name": "Retro FM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.skymedia.ee/live/SKY",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.skymedia.ee/live/SKY",
+    "https://edge04.cdn.bitflip.ee:8888/KISS_AAC?_i=2e955b68"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://edge04.cdn.bitflip.ee:8888/KISS_AAC?_i=2e955b68",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://sky.ee/retrofm"
+  },
+  {
+   "id": "tuno:top_ee_raadio-elmar",
+   "name": "Raadio Elmar",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/md_mhdance.aac",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/md_mhdance.aac",
+    "https://le302.euddn.net/917ee7f93356a9635286a8ce2890d12c9b533409623ec8f9d400f376bcfe8e4f789c2a8f52d355fd670fc6b30cb49c059fcebd6d9e385c4131648affeacd795cb3fe2425a59ca65fd0a5905d1442fc4f5ee3a4c64f96ddbf8c9f7afb2ec40fb05ed3a32b17afedad0585d0f261d8d2b5d8082d02ef6a373d22c39ed230fcae73388093097eab840de7aaff3ae6989aefad9f25c63efb6c5d32d4721ac217627cb8423e346a02b3a6422f7dd4794f50241bfff38aaaa064fb4ce8881f226406e6/MHR_myhitsrock.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://le302.euddn.net/917ee7f93356a9635286a8ce2890d12c9b533409623ec8f9d400f376bcfe8e4f789c2a8f52d355fd670fc6b30cb49c059fcebd6d9e385c4131648affeacd795cb3fe2425a59ca65fd0a5905d1442fc4f5ee3a4c64f96ddbf8c9f7afb2ec40fb05ed3a32b17afedad0585d0f261d8d2b5d8082d02ef6a373d22c39ed230fcae73388093097eab840de7aaff3ae6989aefad9f25c63efb6c5d32d4721ac217627cb8423e346a02b3a6422f7dd4794f50241bfff38aaaa064fb4ce8881f226406e6/MHR_myhitsrock.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://kuku.pleier.ee/"
+  },
+  {
+   "id": "tuno:top_ee_relax-fm",
+   "name": "Relax FM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.relaxfm.ee/relax",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream.relaxfm.ee/relax"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_nrj",
+   "name": "NRJ",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.skymedia.ee/live/NRJ",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.skymedia.ee/live/NRJ"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_power-hit-radio",
+   "name": "Power Hit Radio",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.leviracloud.eu/star128-aac",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://ice.leviracloud.eu/star128-aac",
+    "https://ice.leviracloud.eu/star96-aac",
+    "https://ice.leviracloud.eu/star320-mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ice.leviracloud.eu/star96-aac",
+     "format": "icecast"
+    },
+    {
+     "url": "https://ice.leviracloud.eu/star320-mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://starfm.tv3.ee/"
+  },
+  {
+   "id": "tuno:top_ee_vikerraadio",
+   "name": "Vikerraadio",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/vikerraadio.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://icecast.err.ee/vikerraadio.mp3",
+    "http://icecast.err.ee/vikerraadiokorge.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.err.ee/vikerraadiokorge.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://vikerraadio.err.ee/"
+  },
+  {
+   "id": "tuno:top_ee_radio-nostalgia",
+   "name": "RADIO NOSTALGIA",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://c16.radioboss.fm:8327/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://c16.radioboss.fm:8327/stream"
+   ],
+   "website": "https://radionostalgia.ee/"
+  },
+  {
+   "id": "tuno:top_ee_r2extra-rap",
+   "name": "R2Extra - Rap",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/r2pkorge.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://icecast.err.ee/r2pkorge.mp3"
+   ],
+   "website": "https://r2extra.err.ee/r2p"
+  },
+  {
+   "id": "tuno:top_ee_raadio-tallinn",
+   "name": "Raadio Tallinn",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/raadiotallinn.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://icecast.err.ee/raadiotallinn.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_raadio-relax-fm",
+   "name": "Raadio Relax FM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.relaxfm.ee/relax",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.relaxfm.ee/relax"
+   ],
+   "website": "https://www.relaxfm.ee/"
+  },
+  {
+   "id": "tuno:top_ee_raadio-7",
+   "name": "Raadio 7",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://edge05.cdn.bitflip.ee:8888/R7",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://edge05.cdn.bitflip.ee:8888/R7",
+    "https://cdn.subsplash.com/audios/6RCVKJ/88225a90-1dc9-4334-9536-51aa35cf0a09/audio.mp3"
+   ],
+   "website": "https://raadio7.ee/"
+  },
+  {
+   "id": "tuno:top_ee_finest-radio",
+   "name": "FinEst Radio",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://shoutcast.finestfm.fi/stream/1/:80/;stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://shoutcast.finestfm.fi/stream/1/:80/;stream"
+   ],
+   "website": "https://finestfm.fi/"
+  },
+  {
+   "id": "tuno:top_ee_jumor-fm-estonia",
+   "name": "Jumor FM Estonia",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://a10.asurahosting.com:7640/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://a10.asurahosting.com:7640/radio.mp3"
+   ],
+   "website": "https://jumorfm.ee/"
+  },
+  {
+   "id": "tuno:top_ee_sky-plus",
+   "name": "Sky Plus",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.skymedia.ee/live/SKYPLUS",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://stream.skymedia.ee/live/SKYPLUS"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_err-raadio-4",
+   "name": "ERR Raadio 4",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/raadio4.mp3?type=.mp3/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://icecast.err.ee/raadio4.mp3?type=.mp3/;stream.mp3"
+   ],
+   "website": "http://r4.err.ee/"
+  },
+  {
+   "id": "tuno:top_ee_raadio-4",
+   "name": "Raadio 4",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.err.ee/raadio4.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://icecast.err.ee/raadio4.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_hits-radio-estonia",
+   "name": "Hits Radio Estonia",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://artemis.streamerr.co/listen/hitsradioestonia/MPGE?t=1792522288100",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://artemis.streamerr.co/listen/hitsradioestonia/MPGE?t=1792522288100",
+    "https://artemis.streamerr.co:8300/radio.mp3",
+    "https://artemis.streamerr.co/listen/hitsradioestonia/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://artemis.streamerr.co:8300/radio.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://artemis.streamerr.co/listen/hitsradioestonia/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://hitsradio.ee/"
+  },
+  {
+   "id": "tuno:top_ee_vomba-fm",
+   "name": "Võmba FM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://c4.radioboss.fm:18123/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://c4.radioboss.fm:18123/stream",
+    "https://xn--vmbafm-pxa.fi/wp-content/uploads/2020/06/Vo%CC%83mba-Fm-tu%CC%88ngako%CC%83ne-DJ.Heikile-Mai-2019.mp3?_=1"
+   ],
+   "website": "https://xn--vmbafm-pxa.fi/"
+  },
+  {
+   "id": "tuno:top_ee_rock-fm",
+   "name": "Rock FM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.skymedia.ee/live/rck",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream.skymedia.ee/live/rck"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_pereraadio-kuressaare",
+   "name": "Pereraadio Kuressaare",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.pereraadio.ee:9000/Semeinoje",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://icecast.pereraadio.ee:9000/Semeinoje",
+    "http://icecast.pereraadio.ee:8000/Kuressaare"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.pereraadio.ee:8000/Kuressaare",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.pereraadio.ee/"
+  },
+  {
+   "id": "tuno:top_ee_radio-maximum",
+   "name": "Radio MAXIMUM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiomaximum.ee/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://stream.radiomaximum.ee/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_radio-azathoth-revival",
+   "name": "Radio Azathoth Revival",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.my-control-panel.com/proxy/aadu/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://cast4.my-control-panel.com/proxy/aadu/stream",
+    "https://cast4.asurahosting.com/proxy/aadu/stream",
+    "https://cast4.asurahosting.com/tunein/aadu-stream.pls"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cast4.asurahosting.com/proxy/aadu/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://cast4.asurahosting.com/start/aadu"
+  },
+  {
+   "id": "tuno:top_ee_raadio-2-hq",
+   "name": "Raadio 2 HQ",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/raadio2korge.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://icecast.err.ee/raadio2korge.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_err-raadio-2-320kbps",
+   "name": "ERR Raadio 2 - 320kbps",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/raadio2korge.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://icecast.err.ee/raadio2korge.mp3"
+   ],
+   "website": "https://r2.err.ee/"
+  },
+  {
+   "id": "tuno:top_ee_tre-raadio-ring-fm",
+   "name": "Tre Raadio Ring FM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.treraadio.ee/ringfm",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://cdn.treraadio.ee/ringfm",
+    "https://a1.asurahosting.com/listen/ruut_fm/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://a1.asurahosting.com/listen/ruut_fm/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://ringfm.treraadio.ee/"
+  },
+  {
+   "id": "tuno:top_ee_kiss-fm",
+   "name": "Kiss FM",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.skymedia.ee/live/KISS",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://stream.skymedia.ee/live/KISS"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_raadio-tallinn-128-kbps-ogg-opus-eesti-rahvusringhaaling-raadiotallinn-err-ee",
+   "name": "Raadio Tallinn (128 kbps Ogg Opus) | Eesti Rahvusringhääling | raadiotallinn.err.ee",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/klaraklassika.opus",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://icecast.err.ee/klaraklassika.opus"
+   ],
+   "website": "https://raadiotallinn.err.ee/"
+  },
+  {
+   "id": "tuno:top_ee_raadio-duo",
+   "name": "Raadio Duo",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/radioduo.aac",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/radioduo.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_raadio-2-hq_29",
+   "name": "Raadio 2 (HQ)",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.err.ee/raadio2korge.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://icecast.err.ee/raadio2korge.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ee_nrj-tallinn",
+   "name": "NRJ Tallinn",
+   "type": "radio",
+   "country": "EE",
+   "category": "music",
+   "stream": {
+    "url": "https://edge03.cdn.bitflip.ee:8888/NRJ",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://edge03.cdn.bitflip.ee:8888/NRJ"
+   ],
+   "website": "https://nrj.ee/"
+  }
+ ]
+}

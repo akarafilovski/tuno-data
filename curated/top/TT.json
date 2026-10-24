@@ -1,0 +1,491 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tt_music-radio-97",
+   "name": "Music Radio 97",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://ice42.securenetsystems.net/MR97?playSessionID=C3852F04-F653-4223-80E2177BC1CE1988",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://ice42.securenetsystems.net/MR97?playSessionID=C3852F04-F653-4223-80E2177BC1CE1988",
+    "https://radio.securenetsystems.net/cirrusencore/MR97"
+   ],
+   "website": "https://www.musicradio97.com/"
+  },
+  {
+   "id": "tuno:top_tt_95-1-the-best-mix",
+   "name": "95.1 The Best Mix",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/aae72a18-3fa0-4b9a-a4c4-5a19655e1c68?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streams.radiomast.io/aae72a18-3fa0-4b9a-a4c4-5a19655e1c68?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_win-radio-101-1-fm",
+   "name": "Win Radio 101.1 FM",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio.co/s9f46a9bb1/listen?ver=319331",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream.radio.co/s9f46a9bb1/listen?ver=319331"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_sangeet-106-1-fm-port-of-spain",
+   "name": "Sangeet 106.1 FM Port of Spain",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://audio-edge-cmc51.fra.h.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://audio-edge-cmc51.fra.h.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809",
+    "https://streams.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streams.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://streams.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809"
+  },
+  {
+   "id": "tuno:top_tt_woods-hit-radio",
+   "name": "Woods Hit Radio",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.asurahosting.com/proxy/nigel/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://cast4.asurahosting.com/proxy/nigel/stream",
+    "https://stream.zeno.fm/z2rpt80t4mzuv",
+    "https://stream.zeno.fm/2f33725t4mzuv"
+   ],
+   "website": "https://whrfm.webnode.page/"
+  },
+  {
+   "id": "tuno:top_tt_hot-93-93-5-port-of-spain",
+   "name": "Hot 93 - 93.5 - Port of Spain",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "http://ice41.securenetsystems.net/HOTT93",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://ice41.securenetsystems.net/HOTT93"
+   ],
+   "website": "http://www.hott93.com/"
+  },
+  {
+   "id": "tuno:top_tt_radio-96-1-wefm",
+   "name": "Radio 96.1 WEFM",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://fms.ttrn.org/live/961wefm.sdp/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://fms.ttrn.org/live/961wefm.sdp/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_radio-tambrin-92-7-scarborough",
+   "name": "Radio Tambrin 92.7 - Scarborough",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "http://ice42.securenetsystems.net/TAMBRIN",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://ice42.securenetsystems.net/TAMBRIN"
+   ],
+   "website": "http://tambrintobago.com/"
+  },
+  {
+   "id": "tuno:top_tt_isaac-98-1fm",
+   "name": "Isaac 98.1fm",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://ice66.securenetsystems.net/FFBN",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://ice66.securenetsystems.net/FFBN"
+   ],
+   "website": "http://www.isaac981.com/"
+  },
+  {
+   "id": "tuno:top_tt_95-the-ultimate-one",
+   "name": "95 the ultimate one",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://www.radiomast.io/stream/aae72a18-3fa0-4b9a-a4c4-5a19655e1c68/listen",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://www.radiomast.io/stream/aae72a18-3fa0-4b9a-a4c4-5a19655e1c68/listen"
+   ],
+   "website": "https://tbcradionetwork.co.tt/95theultimateone/"
+  },
+  {
+   "id": "tuno:top_tt_radio-boom-champions",
+   "name": "Radio Boom Champions",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "http://s8.yesstreaming.net:7103/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://s8.yesstreaming.net:7103/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_tambrin",
+   "name": "TAMBRIN",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://ice42.securenetsystems.net/TAMBRIN",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://ice42.securenetsystems.net/TAMBRIN"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_boom-94fm",
+   "name": "BOOM 94FM",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://s8.yesstreaming.net:7103/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://s8.yesstreaming.net:7103/stream"
+   ],
+   "website": "https://boomchampionstt.com/"
+  },
+  {
+   "id": "tuno:top_tt_radio-sweet-fm",
+   "name": "Radio Sweet FM",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://media.streambrothers.com:8448/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://media.streambrothers.com:8448/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_lit-102-3fm",
+   "name": "LIT 102.3FM",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://s8.yesstreaming.net:17106/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://s8.yesstreaming.net:17106/stream"
+   ],
+   "website": "https://lit102fm.com/"
+  },
+  {
+   "id": "tuno:top_tt_103-1-fm-trinidad",
+   "name": "103.1 FM Trinidad",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "http://psn3.prostreaming.net:8310/;",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://psn3.prostreaming.net:8310/;"
+   ],
+   "website": "http://psn3.prostreaming.net:8310/;"
+  },
+  {
+   "id": "tuno:top_tt_radio-jaagriti",
+   "name": "Radio Jaagriti",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.sibercdn.com/Radio_Jaagriti-15/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radio.sibercdn.com/Radio_Jaagriti-15/index.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_enfx-radio-hd",
+   "name": "eNFX Radio HD",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://enfxradio.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://enfxradio.radioca.st/;"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_scorch-radio-101-1fm",
+   "name": "Scorch Radio 101.1FM",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.velalabs.co/scorch",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream.velalabs.co/scorch"
+   ],
+   "website": "https://www.thescorch.com/"
+  },
+  {
+   "id": "tuno:top_tt_bacchanal-radio",
+   "name": "Bacchanal Radio",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://c13.radioboss.fm:18470/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://c13.radioboss.fm:18470/stream"
+   ],
+   "website": "https://bacchanal-radio.com/"
+  },
+  {
+   "id": "tuno:top_tt_radio-slam",
+   "name": "Radio Slam",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/68540e88-54b8-4924-b098-5a668f7da7b6?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://streams.radiomast.io/68540e88-54b8-4924-b098-5a668f7da7b6?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_burningsoca",
+   "name": "BurningSoca:",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "http://176.9.121.230:8000/br",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://176.9.121.230:8000/br",
+    "http://176.9.121.230:8000/soca"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://176.9.121.230:8000/soca",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.burningrockers.com/"
+  },
+  {
+   "id": "tuno:top_tt_talk-city-91-1-fm",
+   "name": "Talk City 91.1 FM",
+   "type": "radio",
+   "country": "TT",
+   "category": "talk",
+   "stream": {
+    "url": "https://media.streambrothers.com:8450/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://media.streambrothers.com:8450/stream"
+   ],
+   "website": "http://www.talkcity91fm.com/"
+  },
+  {
+   "id": "tuno:top_tt_fully-catholic-radio",
+   "name": "Fully Catholic Radio",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://usa10.fastcast4u.com/fullycat2?x=1740578197868",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://usa10.fastcast4u.com/fullycat2?x=1740578197868",
+    "https://www.fullycatholic.com/wp-content/uploads/fcr-important-notice.mp3"
+   ],
+   "website": "https://www.fullycatholic.com/"
+  },
+  {
+   "id": "tuno:top_tt_global-fm-reggae-radio",
+   "name": "Global Fm Reggae Radio",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://servidor39-5.brlogic.com:7190/live?source=website",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://servidor39-5.brlogic.com:7190/live?source=website"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_star-94-7",
+   "name": "Star 94.7",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://fms.ttrn.org/live/star947.sdp/chunklist_w2060647527.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://fms.ttrn.org/live/star947.sdp/chunklist_w2060647527.m3u8"
+   ],
+   "website": "https://ojoworldtt.com/"
+  },
+  {
+   "id": "tuno:top_tt_soca-fever",
+   "name": "Soca Fever",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://centova87.shoutcastservices.com/proxy/socafever/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://centova87.shoutcastservices.com/proxy/socafever/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_tt_radio-sangeet-106-1-fm",
+   "name": "Radio Sangeet 106.1 FM",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://streams.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_tt_95-1-remix-live",
+   "name": "95.1 Remix live",
+   "type": "radio",
+   "country": "TT",
+   "category": "music",
+   "stream": {
+    "url": "https://audio-edge-vqwx4.yyz.g.radiomast.io/68540e88-54b8-4924-b098-5a668f7da7b6",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://audio-edge-vqwx4.yyz.g.radiomast.io/68540e88-54b8-4924-b098-5a668f7da7b6",
+    "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/99/db/18/99db18f9-ba81-b768-a219-08770caa2fe2/mzaf_10879027050772949375.plus.aac.p.m4a"
+   ],
+   "website": "https://www.radio-trinidad.com/951-remix"
+  }
+ ]
+}

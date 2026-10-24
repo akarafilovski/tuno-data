@@ -1,0 +1,598 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tr_radyo-fenomen",
+   "name": "Radyo Fenomen",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radyofenomen.com/fenomen/abr/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.radyofenomen.com/fenomen/abr/playlist.m3u8",
+    "https://live.radyofenomen.com/fenomenturk/abr/fenomenturk/256/chunks.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.radyofenomen.com/fenomenturk/abr/fenomenturk/256/chunks.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.radyofenomen.com/"
+  },
+  {
+   "id": "tuno:top_tr_metro-fm",
+   "name": "Metro FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM128AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM128AAC.aac?dist=onlineradiobox",
+    "http://29334.live.streamtheworld.com:3690/METRO_FMAAC_SC",
+    "http://28503.live.streamtheworld.com:3690/METRO_FMAAC_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://29334.live.streamtheworld.com:3690/METRO_FMAAC_SC",
+     "format": "icecast"
+    },
+    {
+     "url": "http://28503.live.streamtheworld.com:3690/METRO_FMAAC_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://metrofm.com.tr/"
+  },
+  {
+   "id": "tuno:top_tr_joy-fm",
+   "name": "Joy FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FMAAC.aac?dist=onlineradiobox",
+    "http://27913.live.streamtheworld.com:3690/JOY_FMAAC_SC",
+    "http://25683.live.streamtheworld.com:3690/JOY_FMAAC_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://27913.live.streamtheworld.com:3690/JOY_FMAAC_SC",
+     "format": "icecast"
+    },
+    {
+     "url": "http://25683.live.streamtheworld.com:3690/JOY_FMAAC_SC",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_tr_slow-turk",
+   "name": "Slow Türk",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://radyo.duhnet.tv/ak_dtvh_slowturk",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radyo.duhnet.tv/ak_dtvh_slowturk",
+    "blob:https://www.slowturk.com.tr/388aebfb-bd62-45eb-8a89-1537e4cce12f"
+   ],
+   "website": "https://www.slowturk.com.tr/"
+  },
+  {
+   "id": "tuno:top_tr_damar-turk-fm",
+   "name": "Damar Türk FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://damarturkfm.radyotvonline.net:9025/",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://damarturkfm.radyotvonline.net:9025/",
+    "https://live.radyositesihazir.com:10997/stream?type=http&nocache=99881",
+    "https://live.radyositesihazir.com:10997/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.radyositesihazir.com:10997/stream?type=http&nocache=99881",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.damarturkfm.com/"
+  },
+  {
+   "id": "tuno:top_tr_arabesk-fm",
+   "name": "Arabesk FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://yayin.arabeskfm.biz:8042//;type=mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://yayin.arabeskfm.biz:8042//;type=mp3"
+   ],
+   "website": "http://www.arabeskfm.biz/"
+  },
+  {
+   "id": "tuno:top_tr_super-fm",
+   "name": "Süper Fm",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM128AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM128AAC.aac?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER_FM_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://superfm.com.tr/"
+  },
+  {
+   "id": "tuno:top_tr_kral-fm",
+   "name": "Kral FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8"
+   ],
+   "website": "https://www.kralmuzik.com.tr/radyo/kral-fm#"
+  },
+  {
+   "id": "tuno:top_tr_kral-turk-fm",
+   "name": "KRAL TÜRK FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radyositesihazir.com/8032/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://live.radyositesihazir.com/8032/stream"
+   ],
+   "website": "https://live.radyositesihazir.com/8032/stream"
+  },
+  {
+   "id": "tuno:top_tr_joy-turk",
+   "name": "Joy Turk",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURKAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURKAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_baba-radyo",
+   "name": "Baba Radyo",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://ssldyg.radyotvonline.com/best/babaradyo.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://ssldyg.radyotvonline.com/best/babaradyo.stream/playlist.m3u8",
+    "http://37.247.98.7/;stream.mp3",
+    "http://officialbabaradyo.radyotvonline.net/babaofficial"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://37.247.98.7/;stream.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://officialbabaradyo.radyotvonline.net/babaofficial",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://babaradyo.com/"
+  },
+  {
+   "id": "tuno:top_tr_radyo-voyage",
+   "name": "Radyo Voyage",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://dygedge.radyotvonline.net/radyovoyage/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://dygedge.radyotvonline.net/radyovoyage/playlist.m3u8",
+    "http://voyagewmp.radyotvonline.com/;?",
+    "https://ssldyg.radyotvonline.com/pozitif/smil:voyage.smil/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://voyagewmp.radyotvonline.com/;?",
+     "format": "icecast"
+    },
+    {
+     "url": "https://ssldyg.radyotvonline.com/pozitif/smil:voyage.smil/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://radyovoyage.com/"
+  },
+  {
+   "id": "tuno:top_tr_virgin-radio-turkiye",
+   "name": "Virgin Radio Türkiye",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "http://29073.live.streamtheworld.com/VIRGIN_RADIO_SC",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://29073.live.streamtheworld.com/VIRGIN_RADIO_SC",
+    "http://25643.live.streamtheworld.com:3690/VIRGIN_RADIOAAC_SC",
+    "http://29103.live.streamtheworld.com/VIRGIN_RADIO_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://25643.live.streamtheworld.com:3690/VIRGIN_RADIOAAC_SC",
+     "format": "icecast"
+    },
+    {
+     "url": "http://29103.live.streamtheworld.com/VIRGIN_RADIO_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.virginradioturkiye.com/"
+  },
+  {
+   "id": "tuno:top_tr_radyo-7",
+   "name": "Radyo 7",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://moondigitaledge.radyotvonline.net/radyo7/playlist.m3u8?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://moondigitaledge.radyotvonline.net/radyo7/playlist.m3u8?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue",
+    "http://46.20.3.250/;stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://46.20.3.250/;stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radyo7.com/"
+  },
+  {
+   "id": "tuno:top_tr_power-fm",
+   "name": "Power FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://live.powerapp.com.tr/powerfmadver/abr/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://live.powerapp.com.tr/powerfmadver/abr/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_ntv-radyo",
+   "name": "NTV Radyo",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://dygedge.radyotvonline.net/ntvradyo/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://dygedge.radyotvonline.net/ntvradyo/playlist.m3u8",
+    "http://46.20.3.207/listen.pls"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://46.20.3.207/listen.pls",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.ntvradyo.com.tr/Home"
+  },
+  {
+   "id": "tuno:top_tr_turkulerle-turkiye",
+   "name": "Türkülerle Türkiye",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "http://37.247.98.8/stream/22/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://37.247.98.8/stream/22/;"
+   ],
+   "website": "https://www.canliradyodinle.fm/radyo-turkulerle-turkiye-dinle.html"
+  },
+  {
+   "id": "tuno:top_tr_virgin-radio",
+   "name": "Virgin Radio",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/VIRGIN_RADIOAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_dinamo-fm-sleep",
+   "name": "dinamo.fm sleep",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://channels.dinamo.fm/legacy-mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://channels.dinamo.fm/legacy-mp3",
+    "http://channels.dinamo.fm/sleep-mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://channels.dinamo.fm/sleep-mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.dinamo.fm/"
+  },
+  {
+   "id": "tuno:top_tr_power-pop",
+   "name": "Power POP",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://live.powerapp.com.tr/powerturk/abr/powerturk/128/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://live.powerapp.com.tr/powerturk/abr/powerturk/128/playlist.m3u8"
+   ],
+   "website": "https://www.powerapp.com.tr/powerpop/"
+  },
+  {
+   "id": "tuno:top_tr_alem-fm",
+   "name": "Alem FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "http://turkmedya.radyotvonline.com/turkmedya/alemfm.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://turkmedya.radyotvonline.com/turkmedya/alemfm.stream/playlist.m3u8",
+    "https://turkmedya.radyotvonline.net/alemfmaac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://turkmedya.radyotvonline.net/alemfmaac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.alemfm.com/"
+  },
+  {
+   "id": "tuno:top_tr_turku-radyo",
+   "name": "Türkü Radyo",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://yayin.turkhosted.com/4591/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://yayin.turkhosted.com/4591/stream",
+    "http://radyo.turkuradyo.net:4591/turkuradyo"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radyo.turkuradyo.net:4591/turkuradyo",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_tr_istanbul-fm",
+   "name": "Istanbul Fm",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://rdfenlive.mediatriple.net/fenomen/istanbulfm/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://rdfenlive.mediatriple.net/fenomen/istanbulfm/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_loops-radio",
+   "name": "Loops Radio",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://progressive.ozelip.com/7670/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://progressive.ozelip.com/7670/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_ankara-havalari",
+   "name": "Ankara Havalari",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "http://37.247.98.8/stream/30/;",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://37.247.98.8/stream/30/;"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_lounge-96",
+   "name": "Lounge 96",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://edge1.radyotvonline.net/shoutcast/play/loungefm",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://edge1.radyotvonline.net/shoutcast/play/loungefm"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_joy-turk-turkey",
+   "name": "JOY TÜRK TURKEY",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://29083.live.streamtheworld.com/JOY_TURK_SC?/",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://29083.live.streamtheworld.com/JOY_TURK_SC?/",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK_SC?/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK_SC?/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK_SC?/"
+  },
+  {
+   "id": "tuno:top_tr_altin-sarkilar",
+   "name": "ALTIN SARKILAR",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "http://37.247.98.8/stream/25/;",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://37.247.98.8/stream/25/;"
+   ],
+   "website": "http://www.radyohome.com/#altinsarkilar"
+  },
+  {
+   "id": "tuno:top_tr_zenland",
+   "name": "Zenland",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "https://moondigitaledge.radyotvonline.net/zenland/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://moondigitaledge.radyotvonline.net/zenland/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_tr_park-fm",
+   "name": "Park FM",
+   "type": "radio",
+   "country": "TR",
+   "category": "music",
+   "stream": {
+    "url": "http://yayin.netradyom.com:8050/PARKFM",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://yayin.netradyom.com:8050/PARKFM"
+   ]
+  }
+ ]
+}

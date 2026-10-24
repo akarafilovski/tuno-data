@@ -1,0 +1,506 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ec_la-otra-fm",
+   "name": "La Otra FM",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://laotrafm.makrodigital.com:9580/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://laotrafm.makrodigital.com:9580/stream",
+    "https://laotrafm.makrodigital.com/stream/laotrafmquito"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://laotrafm.makrodigital.com/stream/laotrafmquito",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://web.laotrafm.com/"
+  },
+  {
+   "id": "tuno:top_ec_la-chismosa-fm",
+   "name": "La Chismosa Fm",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://smartstreamec.com/8006/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://smartstreamec.com/8006/stream",
+    "https://dattavolt.com/8256/stream",
+    "https://sp.dattavolt.com/8052/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dattavolt.com/8256/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "https://sp.dattavolt.com/8052/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://lachismosafm.ec/"
+  },
+  {
+   "id": "tuno:top_ec_radio-canela-pichincha",
+   "name": "Radio Canela Pichincha",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://canelaradio.makrodigital.com:9280/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://canelaradio.makrodigital.com:9280/stream",
+    "https://canelaradio.makrodigital.com/stream/canelaradioquito",
+    "https://ecuadorstreaming.net:9280/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://canelaradio.makrodigital.com/stream/canelaradioquito",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://web.canelaradio.com/"
+  },
+  {
+   "id": "tuno:top_ec_radio-mega-103-3",
+   "name": "Radio Mega 103.3",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://smartstreamec.com/8042/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://smartstreamec.com/8042/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_la-tukka-ec",
+   "name": "La tukka Ec",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "http://grupomundodigital.com:8673/live",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://grupomundodigital.com:8673/live"
+   ],
+   "website": "http://latukka.com/"
+  },
+  {
+   "id": "tuno:top_ec_onda-positiva",
+   "name": "Onda Positiva",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.net:8011/radioondapositiva",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streamingecuador.net:8011/radioondapositiva"
+   ],
+   "website": "https://radioondapositiva.com/"
+  },
+  {
+   "id": "tuno:top_ec_radio-canela",
+   "name": "Radio Canela",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://canelaradio.makrodigital.com/stream/canelaradioquito",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://canelaradio.makrodigital.com/stream/canelaradioquito"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_la-voz-del-tomebamba",
+   "name": "La Voz del Tomebamba",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.com:8074/lavozdeltomebamba",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://streamingecuador.com:8074/lavozdeltomebamba"
+   ],
+   "website": "https://www.lavozdeltomebamba.com/"
+  },
+  {
+   "id": "tuno:top_ec_radio-maria-ecuador",
+   "name": "RADIO MARIA ECUADOR",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp4.com:8010/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://dreamsiteradiocp4.com:8010/stream"
+   ],
+   "website": "http://www.radiomariaecuador.org/"
+  },
+  {
+   "id": "tuno:top_ec_la-suprema-estacion",
+   "name": "La Suprema Estacion",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://dattavolt.com/8150/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://dattavolt.com/8150/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_conecta2-radio-ecuador",
+   "name": "Conecta2 Radio Ecuador",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://digital.conecta2radioecuador.com/8036/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://digital.conecta2radioecuador.com/8036/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_radio-caracol",
+   "name": "Radio Caracol",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://rr5100.globalhost1.com/8122/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://rr5100.globalhost1.com/8122/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_la-nueva-unica-94-5-fm",
+   "name": "La Nueva Unica 94.5 FM",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.net:8035/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://streamingecuador.net:8035/stream"
+   ],
+   "website": "https://radiounica945.com/"
+  },
+  {
+   "id": "tuno:top_ec_radio-la-picosa",
+   "name": "Radio La Picosa",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://radiohdstreaming.com/radio/8000/picosa",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radiohdstreaming.com/radio/8000/picosa"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_platinum-fm",
+   "name": "Platinum FM",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.com:8160/radioplatinum?1792522548612",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://streamingecuador.com:8160/radioplatinum?1792522548612"
+   ],
+   "website": "https://www.ecuadoradio.ec/"
+  },
+  {
+   "id": "tuno:top_ec_jc-la-bruja",
+   "name": "JC La Bruja",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "http://s7.yesstreaming.net:8040/stream?1655753305283",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://s7.yesstreaming.net:8040/stream?1655753305283"
+   ],
+   "website": "http://www.jcradio.com.ec/"
+  },
+  {
+   "id": "tuno:top_ec_romance",
+   "name": "Romance",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.com:9010/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://streamingecuador.com:9010/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_hcjb-la-voz-de-los-andes-89-3-fm",
+   "name": "HCJB La Voz de los Andes 89.3 FM",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.net:8287/hcjb",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streamingecuador.net:8287/hcjb"
+   ],
+   "website": "http://radiohcjb.org/"
+  },
+  {
+   "id": "tuno:top_ec_radio-la-tukka",
+   "name": "Radio La Tukka",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "http://grupomundodigital.com:8673/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://grupomundodigital.com:8673/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_radio-sucumbios-105-3-fm",
+   "name": "Radio Sucumbíos 105.3 FM",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "http://aler.org:8000/radiosucumbios.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://aler.org:8000/radiosucumbios.mp3"
+   ],
+   "website": "https://radiosucumbios.org.ec/"
+  },
+  {
+   "id": "tuno:top_ec_radio-hcjb-german",
+   "name": "Radio HCJB German",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "http://segenswelle.de:8000/hcjb",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://segenswelle.de:8000/hcjb"
+   ],
+   "website": "http://andenstimme.org/empfang"
+  },
+  {
+   "id": "tuno:top_ec_los-40-ecuador",
+   "name": "Los 40 Ecuador",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.com:7051/stream?dist=los40-web-live_streaming_play",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://streamingecuador.com:7051/stream?dist=los40-web-live_streaming_play"
+   ],
+   "website": "https://www.los40.com.ec/"
+  },
+  {
+   "id": "tuno:top_ec_radio-diblu",
+   "name": "Radio Diblu",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.net:9002/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://streamingecuador.net:9002/stream"
+   ],
+   "website": "https://diblu.ec/"
+  },
+  {
+   "id": "tuno:top_ec_radio-estelar-fm-99-3-sierra",
+   "name": "Radio Estelar Fm 99.3 Sierra",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://radiohdstreaming.com/listen/estelar/radio",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://radiohdstreaming.com/listen/estelar/radio"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_radio-caravana",
+   "name": "Radio Caravana",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.net:9006/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://streamingecuador.net:9006/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_radio-son-de-manta-93-3-fm",
+   "name": "Radio Son De Manta 93.3 FM",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "http://grupomundodigital.com:8649/live",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://grupomundodigital.com:8649/live"
+   ],
+   "website": "https://www.radiosondemanta.com.ec/"
+  },
+  {
+   "id": "tuno:top_ec_radio-turbo",
+   "name": "Radio Turbo",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingecuador.com:9022/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://streamingecuador.com:9022/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ec_la-m3g4",
+   "name": "LA M3g4",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.gradio.net/lam3g4",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream.gradio.net/lam3g4",
+    "http://gradio.net:8000/lam3g4"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://gradio.net:8000/lam3g4",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://lam3g4.com/"
+  },
+  {
+   "id": "tuno:top_ec_radio-magica-87-7-ecuador",
+   "name": "Radio Mágica 87.7 (Ecuador)",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://usa10.fastcast4u.com:1680/;?type=http&nocache=1683305161",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://usa10.fastcast4u.com:1680/;?type=http&nocache=1683305161"
+   ],
+   "website": "https://magica877.000webhostapp.com/index.html"
+  },
+  {
+   "id": "tuno:top_ec_laex-fm",
+   "name": "LAEX FM",
+   "type": "radio",
+   "country": "EC",
+   "category": "music",
+   "stream": {
+    "url": "https://smartstreamec.com/8016/stream",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://smartstreamec.com/8016/stream"
+   ]
+  }
+ ]
+}

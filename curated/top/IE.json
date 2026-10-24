@@ -1,0 +1,629 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ie_newstalk",
+   "name": "Newstalk",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.audioxi.com/NT",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.audioxi.com/NT",
+    "https://live-bauerie.sharp-stream.com/NTAAC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live-bauerie.sharp-stream.com/NTAAC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.newstalk.com/"
+  },
+  {
+   "id": "tuno:top_ie_deep-house-radio",
+   "name": "Deep House Radio",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "http://ec1.everestcast.host:1490/stream?xi1amefeqvksbquhue3jidp6boikushz",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://ec1.everestcast.host:1490/stream?xi1amefeqvksbquhue3jidp6boikushz",
+    "https://deephouse-radio.com/api/stream/free"
+   ],
+   "website": "http://dhr.com/"
+  },
+  {
+   "id": "tuno:top_ie_today-fm",
+   "name": "Today FM",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.audioxi.com/TDAAC",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://edge.audioxi.com/TDAAC",
+    "https://stream.audioxi.com/TD",
+    "https://edge3.audioxi.com/T80"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.audioxi.com/TD",
+     "format": "icecast"
+    },
+    {
+     "url": "https://edge3.audioxi.com/T80",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.todayfm.com/"
+  },
+  {
+   "id": "tuno:top_ie_irish-pub-radio",
+   "name": "Irish Pub Radio",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://solid24.streamupsolutions.com/proxy/vbkiacud?mp=/live",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://solid24.streamupsolutions.com/proxy/vbkiacud?mp=/live",
+    "http://solid24.streamupsolutions.com:8026/stream",
+    "http://23.81.35.187:8026/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://solid24.streamupsolutions.com:8026/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://23.81.35.187:8026/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.irishpubradio.com/index.php"
+  },
+  {
+   "id": "tuno:top_ie_gem-radio-new-wave-dublin",
+   "name": "Gem Radio New Wave Dublin",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://gemradionw.radioca.st/;stream.nsv",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://gemradionw.radioca.st/;stream.nsv"
+   ],
+   "website": "https://gemradio.webs.com/"
+  },
+  {
+   "id": "tuno:top_ie_rte-radio-1",
+   "name": "RTÉ Radio 1",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://www.rte.ie/manifests/radio1.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://www.rte.ie/manifests/radio1.m3u8",
+    "http://icecast.rte.ie/radio1",
+    "https://liveaudio.rte.ie/hls-radio/radio1/chunklist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.rte.ie/radio1",
+     "format": "icecast"
+    },
+    {
+     "url": "https://liveaudio.rte.ie/hls-radio/radio1/chunklist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.rte.ie/radio/radio1/"
+  },
+  {
+   "id": "tuno:top_ie_live-ireland",
+   "name": "Live Ireland",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://lynx.prostreaming.net/proxy/liveireland/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://lynx.prostreaming.net/proxy/liveireland/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ie_solid-gold-radio-ireland",
+   "name": "Solid Gold Radio Ireland",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://a1.asurahosting.com:10000/radio.mp3?",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://a1.asurahosting.com:10000/radio.mp3?",
+    "https://az11.yesstreaming.net:8020/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://az11.yesstreaming.net:8020/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.solidgoldradioireland.com/"
+  },
+  {
+   "id": "tuno:top_ie_zenith-classic-rock",
+   "name": "Zenith Classic Rock",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "http://148.163.81.10:8001/zenith64",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://148.163.81.10:8001/zenith64",
+    "http://91.189.64.188:3644/zenith128mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://91.189.64.188:3644/zenith128mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.zenithclassicrock.com/"
+  },
+  {
+   "id": "tuno:top_ie_classic-hits-4fm",
+   "name": "Classic Hits 4FM",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.audioxi.com/CLASSIC",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.audioxi.com/CLASSIC"
+   ],
+   "website": "https://www.classichits.ie/"
+  },
+  {
+   "id": "tuno:top_ie_gem-radio-gold",
+   "name": "Gem Radio Gold",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://gemradio.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://gemradio.radioca.st/;",
+    "https://gemradio.radioca.st/stream/1/",
+    "blob:https://www.gemnewwave.com/9bb009eb-5c1d-4fdf-9a40-ec56db8f4ffa"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://gemradio.radioca.st/stream/1/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.gemnewwave.com/"
+  },
+  {
+   "id": "tuno:top_ie_radio-nova",
+   "name": "Radio Nova",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIONOVA.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIONOVA.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ie_sunshine-106-8",
+   "name": "Sunshine 106.8",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://27953.live.streamtheworld.com/SUNSHINE_106_8.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://27953.live.streamtheworld.com/SUNSHINE_106_8.mp3",
+    "https://live-bauerie.sharp-stream.com/SUN?_=808250",
+    "https://studios.sunshineradio.ie/api/public/listen-again/saturday-live-hr1.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live-bauerie.sharp-stream.com/SUN?_=808250",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.sunshineradio.ie/"
+  },
+  {
+   "id": "tuno:top_ie_highland-radio-country",
+   "name": "Highland Radio Country",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://29335.live.streamtheworld.com/HIGHLAND_RADIO.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://29335.live.streamtheworld.com/HIGHLAND_RADIO.mp3",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/HIGHLAND_RADIO.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HIGHLAND_RADIO.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.highlandradio.com/"
+  },
+  {
+   "id": "tuno:top_ie_galway-bay-fm",
+   "name": "Galway Bay FM",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://gbfm.tibus.stream/stream1-aac",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://gbfm.tibus.stream/stream1-aac"
+   ]
+  },
+  {
+   "id": "tuno:top_ie_heartbeat-fm",
+   "name": "Heartbeat FM",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "http://cast5.magicstreams.gr:8010/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://cast5.magicstreams.gr:8010/stream",
+    "https://www.liveradio.es/http://cast5.magicstreams.gr:8010/stream",
+    "https://cast5.magicstreams.gr:8010/"
+   ],
+   "website": "http://heartbeatfm.net/"
+  },
+  {
+   "id": "tuno:top_ie_midwest-radio",
+   "name": "Midwest Radio",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIDWEST_RADIO.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MIDWEST_RADIO.mp3?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MIDWEST_RADIOAAC.m3u8",
+    "http://direct.sharp-stream.com/midwestfmie.mp3",
+    "https://midwestradio.ie/listenback/monday/00.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIDWEST_RADIOAAC.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "http://direct.sharp-stream.com/midwestfmie.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.midwestradio.ie/"
+  },
+  {
+   "id": "tuno:top_ie_dublin-s-q102",
+   "name": "Dublin's Q102",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://gbradio.cdn.tibus.net/q102MP3128",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://gbradio.cdn.tibus.net/q102MP3128",
+    "http://wg.cdn.tibus.net/Q10280s",
+    "https://onic.dublin.live.stream.broadcasting.news/stream-q102"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://wg.cdn.tibus.net/Q10280s",
+     "format": "icecast"
+    },
+    {
+     "url": "https://onic.dublin.live.stream.broadcasting.news/stream-q102",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.q102.ie/on-air/streams/q102-80s/"
+  },
+  {
+   "id": "tuno:top_ie_irish-country-music-radio",
+   "name": "Irish Country Music Radio",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.galaxywebsolutions.com/stream/irishcountry",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streaming.galaxywebsolutions.com/stream/irishcountry"
+   ]
+  },
+  {
+   "id": "tuno:top_ie_trancepulse-dublin",
+   "name": "TrancePulse Dublin",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "http://live.trance.ie:8000/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://live.trance.ie:8000/stream",
+    "https://stream.trance.ie:8443/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.trance.ie:8443/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://live.trance.ie:8000/stream"
+  },
+  {
+   "id": "tuno:top_ie_radio-maria-ireland-dublin",
+   "name": "RADIO MARIA IRELAND Dublin",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmirlanda2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmirlanda2?mp=/stream",
+    "http://dreamsiteradiocp2.com:8014/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://dreamsiteradiocp2.com:8014/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiomaria.ie/"
+  },
+  {
+   "id": "tuno:top_ie_phever-dublin",
+   "name": "Phever Dublin",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://uk1.internet-radio.com/proxy/phever?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://uk1.internet-radio.com/proxy/phever?mp=/stream",
+    "http://uk1.internet-radio.com:8200/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://uk1.internet-radio.com:8200/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.phever.ie/"
+  },
+  {
+   "id": "tuno:top_ie_8radio",
+   "name": "8Radio",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcast.net/66127",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://stream.rcast.net/66127",
+    "https://edge4.audioxi.com/8RADIO"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://edge4.audioxi.com/8RADIO",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://8radio.com/listen/8radio320k/"
+  },
+  {
+   "id": "tuno:top_ie_easy-radio-ireland",
+   "name": "Easy Radio Ireland",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://live.btsstream.com/stream/easyradio",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://live.btsstream.com/stream/easyradio",
+    "https://streaming.exclusive.radio/uber/easymix/icecast.audio"
+   ],
+   "website": "https://easy.radio/station/47/665"
+  },
+  {
+   "id": "tuno:top_ie_storm-irl",
+   "name": "Storm Irl",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://c22.radioboss.fm/stream/478",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://c22.radioboss.fm/stream/478"
+   ]
+  },
+  {
+   "id": "tuno:top_ie_northern-sound",
+   "name": "Northern Sound",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NORTHERN_SOUND.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NORTHERN_SOUND.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ie_christmas-fm-classical-carols",
+   "name": "Christmas FM Classical & Carols",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://christmasfm.cdnstream1.com/2549_128.mp3?",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://christmasfm.cdnstream1.com/2549_128.mp3?"
+   ],
+   "website": "https://christmasfm.com/"
+  },
+  {
+   "id": "tuno:top_ie_dublin-s-98fm",
+   "name": "Dublin's 98FM",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.audioxi.com/98",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream.audioxi.com/98",
+    "https://live-bauerie.sharp-stream.com/98"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live-bauerie.sharp-stream.com/98",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.98fm.com/"
+  },
+  {
+   "id": "tuno:top_ie_freedom-country-galway",
+   "name": "Freedom Country Galway",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://edge3.audioxi.com/FREEDOMFM",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://edge3.audioxi.com/FREEDOMFM"
+   ],
+   "website": "https://freedomfm.ie/"
+  },
+  {
+   "id": "tuno:top_ie_trancepulse-flac",
+   "name": "TrancePulse [FLAC]",
+   "type": "radio",
+   "country": "IE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.trance.ie/aac256",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://stream.trance.ie/aac256",
+    "http://stream.trance.ie:8000/tpmixes"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.trance.ie:8000/tpmixes",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://trancepulsefm.ie/"
+  }
+ ]
+}

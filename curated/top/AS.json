@@ -1,0 +1,240 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_as_national-public-radio",
+   "name": "National Public Radio",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://npr-ice.streamguys1.com/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://npr-ice.streamguys1.com/live.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_as_station",
+   "name": "希望之声",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://livedata.cloudokyo.cloud/hls/c01c67b8-d8e2-4fc5-8c57-61f80b658e69/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://livedata.cloudokyo.cloud/hls/c01c67b8-d8e2-4fc5-8c57-61f80b658e69/playlist.m3u8",
+    "https://livecast1.soundofhope.org:2087/soh-live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://livecast1.soundofhope.org:2087/soh-live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.soundofhope.org/"
+  },
+  {
+   "id": "tuno:top_as_antenna-web-samoa",
+   "name": "Antenna Web Samoa",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Samoa",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Samoa"
+   ]
+  },
+  {
+   "id": "tuno:top_as_christmas-classics",
+   "name": "Christmas Classics",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://das-edge34-sa20-181fm-dal03.cdnstream.com/181-xtraditional_128k.mp3?listeningSessionId=MkVLSENHU1pPUFRHNDM0MktVQkVLU1RaV0FfZGFzLWVkZ2UzNC1zYTIwLTE4MWZtLWRhbDAzLmNkbnN0cmVhbS5jb206ODE4Ng..&playerid=esPlayer",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://das-edge34-sa20-181fm-dal03.cdnstream.com/181-xtraditional_128k.mp3?listeningSessionId=MkVLSENHU1pPUFRHNDM0MktVQkVLU1RaV0FfZGFzLWVkZ2UzNC1zYTIwLTE4MWZtLWRhbDAzLmNkbnN0cmVhbS5jb206ODE4Ng..&playerid=esPlayer",
+    "https://listen.181fm.com/181-xtraditional_128k.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.181fm.com/181-xtraditional_128k.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://player.181fm.com/?station=181-xtraditional"
+  },
+  {
+   "id": "tuno:top_as_fox-news",
+   "name": "Fox news",
+   "type": "radio",
+   "country": "AS",
+   "category": "talk",
+   "stream": {
+    "url": "https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8"
+   ],
+   "website": "https://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8"
+  },
+  {
+   "id": "tuno:top_as_exa-fm-pop-musika-i-le-igilisi-ma-le-sipaniolo",
+   "name": "EXA FM: Pop musika i le Igilisi ma le Sipaniolo",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac"
+   ],
+   "website": "https://www.exafm.com/veracruz/"
+  },
+  {
+   "id": "tuno:top_as_christmas-356-santa-s-radio",
+   "name": "Christmas 356 Santa's Radio",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://us3.streamingpulse.com/ssl/7038",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://us3.streamingpulse.com/ssl/7038"
+   ],
+   "website": "http://xmas365.fm/"
+  },
+  {
+   "id": "tuno:top_as_youtube",
+   "name": "Youtube",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.181fm.com/181-xtraditional_128k.mp3?listenerId=esAdblock074493&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1669379836",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://listen.181fm.com/181-xtraditional_128k.mp3?listenerId=esAdblock074493&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1669379836"
+   ],
+   "website": "http://youtube.com/"
+  },
+  {
+   "id": "tuno:top_as_planet-black",
+   "name": "Planet black",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "http://mp3.planetradio.de/plrchannels/hqblackbeats.aac",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://mp3.planetradio.de/plrchannels/hqblackbeats.aac"
+   ],
+   "website": "http://mp3.planetradio.de/plrchannels/hqblackbeats.aac"
+  },
+  {
+   "id": "tuno:top_as_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_as_s1lhoutte-rock-fm",
+   "name": "S1lhoutte - Rock FM",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "http://rockfm.rockfm.com.tr:9450/",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://rockfm.rockfm.com.tr:9450/"
+   ],
+   "website": "http://rockfm.rockfm.com.tr:9450/"
+  },
+  {
+   "id": "tuno:top_as_wmil-106-1-fm",
+   "name": "WMIL 106.1 FM",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.revma.ihrhls.com/zc2677/hls.m3u8?streamid=2677",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://stream.revma.ihrhls.com/zc2677/hls.m3u8?streamid=2677"
+   ],
+   "website": "http://www.fm106.com/"
+  },
+  {
+   "id": "tuno:top_as_station_13",
+   "name": "Радио Раши",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.free-shoutcast.com/stream/18214",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://s2.free-shoutcast.com/stream/18214"
+   ],
+   "website": "https://radiorashi.alle.bg/"
+  },
+  {
+   "id": "tuno:top_as_love-fm-musika-lauiloa-i-le-gagana-sipaniolo",
+   "name": "LOVE FM: Musika lauiloa i le gagana Sipaniolo",
+   "type": "radio",
+   "country": "AS",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/66a01759c5aa2b85d66b5933/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://mdstrm.com/audio/66a01759c5aa2b85d66b5933/live.m3u8"
+   ],
+   "website": "https://maxplay.com.mx/"
+  }
+ ]
+}

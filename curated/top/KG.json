@@ -1,0 +1,259 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_kg_station",
+   "name": "Биринчи Радио",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://liveradio.utrk.kg/1radio",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://liveradio.utrk.kg/1radio",
+    "http://81.88.192.51:8000/Radio1"
+   ],
+   "website": "http://www.ktrk.kg/birinchi"
+  },
+  {
+   "id": "tuno:top_kg_coldstar-online-radio-high-quality",
+   "name": "ColdStar.Online Radio (High quality)",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.coldstar.online/high.ogg",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://ice.coldstar.online/high.ogg"
+   ],
+   "website": "https://coldstar.online/#/"
+  },
+  {
+   "id": "tuno:top_kg_tumar-fm",
+   "name": "Tumar FM",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.tumar.fm:8005/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.tumar.fm:8005/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_kyrgyzstan-obondoru",
+   "name": "Кыргызстан Обондору (Kyrgyzstan Obondoru)",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.radioplayer.kg:8443/obondoru64",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://cdn.radioplayer.kg:8443/obondoru64"
+   ],
+   "website": "https://obondoru.kg/"
+  },
+  {
+   "id": "tuno:top_kg_station_5",
+   "name": "Радио Татина",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "http://82.146.46.229:8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://82.146.46.229:8000/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_fm-radio-tumar-fm",
+   "name": "Радио Тумар FM (Radio Tumar FM)",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.tumar.fm:8005/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://radio.tumar.fm:8005/stream"
+   ],
+   "website": "https://www.tumar.fm/"
+  },
+  {
+   "id": "tuno:top_kg_hit-fm",
+   "name": "Hit FM",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.radioplayer.kg:8443/hitfm64",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://cdn.radioplayer.kg:8443/hitfm64"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_kyrgyzstan-obondory",
+   "name": "Kyrgyzstan Obondory",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.radioplayer.kg:8443/obondoru64",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://cdn.radioplayer.kg:8443/obondoru64"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_the-holy-quran-by-sheikh-mahmoud-al-husari",
+   "name": "The Holy Quran  by Sheikh Mahmoud Al-Husari",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh"
+   ],
+   "website": "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh"
+  },
+  {
+   "id": "tuno:top_kg_fm-suiunchu-fm",
+   "name": "Сүйүнчү FM (Suiunchu FM)",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.radioplayer.kg:8443//suiunchu64",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://cdn.radioplayer.kg:8443//suiunchu64",
+    "https://cdn.radioplayer.kg:8443/suiunchu64"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cdn.radioplayer.kg:8443/suiunchu64",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://suiunchu.kg/"
+  },
+  {
+   "id": "tuno:top_kg_fm",
+   "name": "Сүйүнчү FM",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.radioplayer.kg:8443//suiunchu64",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://cdn.radioplayer.kg:8443//suiunchu64"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_kg_80-s-channel-iradio-one",
+   "name": "80's channel (iradio.one)",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "http://a.streamsin.space:8000/80s",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://a.streamsin.space:8000/80s"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_radio-retro-ex-fm88-5",
+   "name": "Radio Retro (ex FM88.5)",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "http://a.streamsin.space:8000/retro_exfm885",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://a.streamsin.space:8000/retro_exfm885"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_emotions",
+   "name": "Emotions",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "http://a.streamsin.space:8000/emotions",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://a.streamsin.space:8000/emotions"
+   ]
+  },
+  {
+   "id": "tuno:top_kg_coldstar-radio",
+   "name": "Coldstar Radio",
+   "type": "radio",
+   "country": "KG",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.coldstar.online/low.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://ice.coldstar.online/low.mp3"
+   ]
+  }
+ ]
+}

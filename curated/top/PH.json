@@ -1,0 +1,413 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ph_96-3-wrock",
+   "name": "96.3 WRocK",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://wrockceb-iradioph.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://wrockceb-iradioph.radioca.st/;"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_98-3-love-radio-dagupan",
+   "name": "98.3 Love Radio Dagupan",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://azura.loveradio.com.ph/listen/love_radio_manila/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://azura.loveradio.com.ph/listen/love_radio_manila/radio.mp3",
+    "https://loveradiodagupan.radioca.st/"
+   ],
+   "website": "https://www.loveradio.com.ph/dagupan"
+  },
+  {
+   "id": "tuno:top_ph_love",
+   "name": "Love",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://azura.loveradio.com.ph/listen/love_radio_manila/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://azura.loveradio.com.ph/listen/love_radio_manila/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_yes",
+   "name": "Yes!",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://azura.yesfm.com.ph/listen/yes_fm_manila/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://azura.yesfm.com.ph/listen/yes_fm_manila/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_dyhp-612-rmn-cebu",
+   "name": "DYHP 612 RMN Cebu",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://de3.amfmph.com/ssl/rmncebu?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://de3.amfmph.com/ssl/rmncebu?mp=/stream"
+   ],
+   "website": "http://www.dyhp612.com/"
+  },
+  {
+   "id": "tuno:top_ph_dwiz",
+   "name": "DWIZ",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://dwizmanila.radioca.st/stream?",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://dwizmanila.radioca.st/stream?"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_barangay-ls-97-1-manila",
+   "name": "Barangay LS 97.1 Manila",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "http://28093.live.streamtheworld.com:3690/MORFM_S01AAC_SC",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://28093.live.streamtheworld.com:3690/MORFM_S01AAC_SC"
+   ],
+   "website": "https://www.gmanetwork.com/radio/streaming/dwls"
+  },
+  {
+   "id": "tuno:top_ph_ifm",
+   "name": "iFM",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://magic.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://magic.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_easy-rock",
+   "name": "Easy Rock",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://azura.easyrock.com.ph/listen/easy_rock_manila/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://azura.easyrock.com.ph/listen/easy_rock_manila/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_mor-entertainment",
+   "name": "MOR Entertainment",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "http://28093.live.streamtheworld.com/MORFM_S01AAC_SC",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://28093.live.streamtheworld.com/MORFM_S01AAC_SC"
+   ],
+   "website": "https://www.onemusic.ph/listen-now/radio"
+  },
+  {
+   "id": "tuno:top_ph_dzmm-radyo-patrol-630",
+   "name": "DZMM Radyo Patrol 630",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "http://209.126.124.126:8852/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://209.126.124.126:8852/stream"
+   ],
+   "website": "https://www.abs-cbn.com/"
+  },
+  {
+   "id": "tuno:top_ph_dwiz-882-manila",
+   "name": "DWIZ 882 Manila",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "http://142.44.212.114:9079/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://142.44.212.114:9079/stream"
+   ],
+   "website": "https://www.dwiz882am.com/"
+  },
+  {
+   "id": "tuno:top_ph_home-radio",
+   "name": "Home Radio",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://hrmanila.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://hrmanila.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_tunog-pinoy-power-fm",
+   "name": "Tunog Pinoy Power FM",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://streamnavs.net:8143/live",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://streamnavs.net:8143/live"
+   ],
+   "website": "https://tppfm.weebly.com/"
+  },
+  {
+   "id": "tuno:top_ph_101-7-your-love-fm",
+   "name": "101.7 Your Love FM",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://chloreign.com/listen/sanibpwersa/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://chloreign.com/listen/sanibpwersa/radio.mp3",
+    "https://radio.1017yourlovefm.com/listen/sanibpwersa/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.1017yourlovefm.com/listen/sanibpwersa/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://1017yourlovefm.com/"
+  },
+  {
+   "id": "tuno:top_ph_brigada-news-fm-cebu",
+   "name": "Brigada News FM Cebu",
+   "type": "radio",
+   "country": "PH",
+   "category": "talk",
+   "stream": {
+    "url": "http://18.141.67.248:8026/stream/1/",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://18.141.67.248:8026/stream/1/",
+    "https://cebustream.brigadanews.ph/"
+   ],
+   "website": "https://www.brigadanews.ph/bnfm-cebu/"
+  },
+  {
+   "id": "tuno:top_ph_budots-fm-98-9",
+   "name": "Budots FM 98.9",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://video.primis.tech/uploads/cn1/video/users/hls/29874/video_689db2e1e19e4455763917/vid6ad767a33fa66445336955.mp4/chunklist_480.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://video.primis.tech/uploads/cn1/video/users/hls/29874/video_689db2e1e19e4455763917/vid6ad767a33fa66445336955.mp4/chunklist_480.m3u8",
+    "https://stream-171.zeno.fm/2uhuu5hvzqzuv?zs=oGfN_quRRSyJUGCfzxagdw",
+    "https://stream.zeno.fm/2uhuu5hvzqzuv"
+   ],
+   "website": "https://www.radio-philippines.com/budots-fm-989"
+  },
+  {
+   "id": "tuno:top_ph_play-fm",
+   "name": "Play FM",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://play995.radioca.st/stream/;",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://play995.radioca.st/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_90s-pinoy-alternative",
+   "name": "90s Pinoy Alternative",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "http://cast3.my-control-panel.com:9364/autodj",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://cast3.my-control-panel.com:9364/autodj"
+   ],
+   "website": "https://9paradio.com/"
+  },
+  {
+   "id": "tuno:top_ph_easy-rock-manila",
+   "name": "Easy Rock Manila",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://azura.easyrock.com.ph/listen/easy_rock_manila/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://azura.easyrock.com.ph/listen/easy_rock_manila/radio.mp3"
+   ],
+   "website": "https://www.easyrock.com.ph/"
+  },
+  {
+   "id": "tuno:top_ph_yes-fm-cebu",
+   "name": "Yes FM Cebu",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://yesfmcdo.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://yesfmcdo.radioca.st/;",
+    "http://comet.shoutca.st:8040/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://comet.shoutca.st:8040/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.yesthebest.com.ph/radio?station=104.7-yes-the-best-cagayan-de-oro"
+  },
+  {
+   "id": "tuno:top_ph_myx-philippines",
+   "name": "MYX Philippines",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "http://27223.live.streamtheworld.com:3690/MYXFM_SC",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://27223.live.streamtheworld.com:3690/MYXFM_SC"
+   ],
+   "website": "https://myx.global/"
+  },
+  {
+   "id": "tuno:top_ph_radyo-630",
+   "name": "Radyo 630",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://us1.amfmph.com:8852/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://us1.amfmph.com:8852/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_heart-fm",
+   "name": "Heart FM",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://chloreign.com/listen/sanibpwersa/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://chloreign.com/listen/sanibpwersa/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ph_pinoy-rap-radio",
+   "name": "Pinoy Rap Radio",
+   "type": "radio",
+   "country": "PH",
+   "category": "music",
+   "stream": {
+    "url": "https://icepool.silvacast.com/HIT104.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://icepool.silvacast.com/HIT104.mp3",
+    "https://stream.zeno.fm/0cdp55nqam0uv"
+   ],
+   "website": "https://theonestopradio.com/"
+  }
+ ]
+}

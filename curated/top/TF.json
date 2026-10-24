@@ -1,0 +1,60 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tf_sensuelle-radio",
+   "name": "sensuelle radio",
+   "type": "radio",
+   "country": "TF",
+   "category": "music",
+   "stream": {
+    "url": "https://radio10.pro-fhi.net/live/SENSUELLERADIO",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio10.pro-fhi.net/live/SENSUELLERADIO",
+    "https://forwardmystream.com/sensuelleradio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://forwardmystream.com/sensuelleradio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://sensuelleradio.com/"
+  },
+  {
+   "id": "tuno:top_tf_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "TF",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_tf_nrj-voiron",
+   "name": "NRJ VOIRON",
+   "type": "radio",
+   "country": "TF",
+   "category": "music",
+   "stream": {
+    "url": "http://cdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://cdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3",
+    "https://podcasts.nrjaudio.fm/podcasts/fr/1/130/87169734-ccfe-4f16-9142-61631343d6ea.mp3?odstat1=intern&odstat2=website&odstat3=www.nrj.fr&odstat4=podcast.program&playLive=true&listeningSessionID=6a6473cf020cf8a8_34_292__26a95a07522292bacb723b642fd86adc4a37d695"
+   ],
+   "website": "https://www.nrj.fr/"
+  }
+ ]
+}

@@ -1,0 +1,269 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mz_lm-radio",
+   "name": "LM Radio",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/392_medium.aac",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://edge.iono.fm/xice/392_medium.aac",
+    "https://ukwesta.streaming.broadcast.radio/lmradio",
+    "https://lmradio.co.mz/wp-content/uploads/2020/11/Tims-Tips-1.mp3?_=1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ukwesta.streaming.broadcast.radio/lmradio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://lmradio.co.mz/"
+  },
+  {
+   "id": "tuno:top_mz_radio-mocambique-antena-nacional",
+   "name": "Rádio Moçambique Antena Nacional",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://node.stream-africa.com:8443/AntenaNacional",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://node.stream-africa.com:8443/AntenaNacional"
+   ],
+   "website": "https://www.rm.co.mz/rm.co.mz/"
+  },
+  {
+   "id": "tuno:top_mz_radio-mocambique-antena-nacional_3",
+   "name": "Radio Moçambique Antena Nacional",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://node.stream-africa.com:8443/AntenaNacional",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://node.stream-africa.com:8443/AntenaNacional"
+   ]
+  },
+  {
+   "id": "tuno:top_mz_super-fm-101-9",
+   "name": "Super FM 101.9",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingsuperfm.com/hls/stream.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://streamingsuperfm.com/hls/stream.m3u8",
+    "http://41.223.153.14:8000/;stream/1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://41.223.153.14:8000/;stream/1",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://superfm.folhademaputo.co.mz/"
+  },
+  {
+   "id": "tuno:top_mz_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmmozambique2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmmozambique2?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mz_hero-radio-mozambique",
+   "name": "Hero Radio (Mozambique)",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/mozambique.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/mozambique.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_mz_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mz_radio-miramar",
+   "name": "Rádio Miramar",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://nl.digitalrm.pt:8150/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://nl.digitalrm.pt:8150/stream"
+   ],
+   "website": "https://miramar.co.mz/radio"
+  },
+  {
+   "id": "tuno:top_mz_radio-maria-mocambique",
+   "name": "Radio Maria Moçambique",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmmozambique2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmmozambique2?mp=/stream"
+   ],
+   "website": "https://www.radiomaria.org.mz/"
+  },
+  {
+   "id": "tuno:top_mz_antenna-web-maputo",
+   "name": "Antenna Web Maputo",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebMaputo",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebMaputo"
+   ]
+  },
+  {
+   "id": "tuno:top_mz_radio-terra",
+   "name": "Rádio Terra",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-287.surfernetwork.com/vinnpmoaqopvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2aW5ucG1vYXFvcHZ2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InhsQmtsRTBjUk9XakY2cXVocDNiLXciLCJpYXQiOjE3OTI1MzM0MjIsImV4cCI6MTc5MjUzMzQ4Mn0.shpsRe_VrXmYYI8SbU5u6fpxO--quUpIxJ9LCSyr-0o",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream-287.surfernetwork.com/vinnpmoaqopvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2aW5ucG1vYXFvcHZ2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InhsQmtsRTBjUk9XakY2cXVocDNiLXciLCJpYXQiOjE3OTI1MzM0MjIsImV4cCI6MTc5MjUzMzQ4Mn0.shpsRe_VrXmYYI8SbU5u6fpxO--quUpIxJ9LCSyr-0o",
+    "https://stream.zeno.fm/vinnpmoaqopvv"
+   ],
+   "website": "https://radioterra.online/"
+  },
+  {
+   "id": "tuno:top_mz_rede-clamor-missionario-web",
+   "name": "rede clamor missionario web",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://cast1.midiazdx.com.br:6764/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://cast1.midiazdx.com.br:6764/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mz_radio-99fm-moz",
+   "name": "Rádio 99Fm Moz",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming2.99fm.co.mz/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://streaming2.99fm.co.mz/stream"
+   ],
+   "website": "https://www.99fm.co.mz/"
+  },
+  {
+   "id": "tuno:top_mz_gn-radio-mozambique",
+   "name": "Gn Radio - Mozambique",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://a11.asurahosting.com:7360/mozambique.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://a11.asurahosting.com:7360/mozambique.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_mz_radio-sofala-fm",
+   "name": "Radio Sofala FM",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radiosofala.mamahost.net/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://radiosofala.mamahost.net/stream"
+   ],
+   "website": "https://play.google.com/store/apps/details?id=com.radiosofala.fm"
+  },
+  {
+   "id": "tuno:top_mz_radio-maputo-live",
+   "name": "Radio Maputo Live",
+   "type": "radio",
+   "country": "MZ",
+   "category": "music",
+   "stream": {
+    "url": "https://sonicpanel.oficialserver.com:7172/;",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://sonicpanel.oficialserver.com:7172/;"
+   ]
+  }
+ ]
+}

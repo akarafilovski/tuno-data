@@ -1,0 +1,528 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_lu_free-radio-luxembourg",
+   "name": "Free Radio Luxembourg",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/66160/stream/137599",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://listen.radioking.com/radio/66160/stream/137599",
+    "https://www.radioking.com/play/rfm-luxembourg/137599"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.radioking.com/play/rfm-luxembourg/137599",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioking.com/play/rfm-luxembourg/137599"
+  },
+  {
+   "id": "tuno:top_lu_eldoradio",
+   "name": "Eldoradio",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.eldo.lu/data/live/radio/eldo/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.eldo.lu/data/live/radio/eldo/playlist.m3u8",
+    "https://stream.rtl.lu/live/hls/radio/eldochill"
+   ],
+   "website": "http://radio.eldo.lu/"
+  },
+  {
+   "id": "tuno:top_lu_generation-dance",
+   "name": "Generation Dance",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.gen.dance/listen/gdr/hd",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.gen.dance/listen/gdr/hd",
+    "https://radio.gen.dance/radio/8030/hd",
+    "http://generationdance.lu/radio/8030/hd"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.gen.dance/radio/8030/hd",
+     "format": "icecast"
+    },
+    {
+     "url": "http://generationdance.lu/radio/8030/hd",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://generation.dance/"
+  },
+  {
+   "id": "tuno:top_lu_rtl-radio-letzebuerg-luxembourg",
+   "name": "RTL Radio Lëtzebuerg Luxembourg",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://shoutcast.rtl.lu/rtltodayradio",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://shoutcast.rtl.lu/rtltodayradio"
+   ],
+   "website": "http://www.rtl.lu/"
+  },
+  {
+   "id": "tuno:top_lu_rtl-deutschlands-hit-radio-93-3-97-0-luxembourg",
+   "name": "RTL – Deutschlands Hit-Radio 93.3 – 97.0 Luxembourg",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rtlradio.de/rtl-de-national/mp3-192/",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://stream.rtlradio.de/rtl-de-national/mp3-192/"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_rtl-die-besten-hits-aller-zeiten-luxembourg",
+   "name": "RTL - Die besten Hits aller Zeiten Luxembourg",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rtlradio.de/rtl-de-beste-hits/aac-64",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://stream.rtlradio.de/rtl-de-beste-hits/aac-64"
+   ],
+   "website": "http://www.rtlradio.de/musik/radio-hoeren/webradios/rtl-die-besten-hits-aller-zeiten-livestream"
+  },
+  {
+   "id": "tuno:top_lu_radio-lux",
+   "name": "Radio Lux",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://lux.stream.laut.fm/lux?",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://lux.stream.laut.fm/lux?"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_radio-latina",
+   "name": "Radio Latina",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/8b6yqgx1w68uv",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.rcs.revma.com/8b6yqgx1w68uv"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_radio-c-luxembourg",
+   "name": "Radio C Luxembourg",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://frontend.streamonkey.net/radioc-live",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://frontend.streamonkey.net/radioc-live",
+    "https://edge01.streamonkey.net/radioc-live",
+    "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/8d/7d/8d8d7d1a-db74-d59d-a9bf-27028511a3a7/mzaf_16067725903526065846.plus.aac.ep.m4a"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://edge01.streamonkey.net/radioc-live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioc.eu/"
+  },
+  {
+   "id": "tuno:top_lu_l-essentiel-radio",
+   "name": "L'Essentiel Radio",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://lessentielradio.ice.infomaniak.ch/lessentielradio-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://lessentielradio.ice.infomaniak.ch/lessentielradio-128.mp3"
+   ],
+   "website": "http://lessentielradio.lu/"
+  },
+  {
+   "id": "tuno:top_lu_radio-100komma7",
+   "name": "Radio 100komma7",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.100komma7.lu/100komma7/live/mp3/128/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.100komma7.lu/100komma7/live/mp3/128/stream.mp3",
+    "http://100komma7.cast.addradio.de/100komma7/live/mp3/320/stream.mp3",
+    "https://100komma7.lu/digas-import/radio/recordings/2026-10-20%2018-59-56%20radio%20100%2C7%20Noriichten%2019-00.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://100komma7.cast.addradio.de/100komma7/live/mp3/320/stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://100komma7.lu/"
+  },
+  {
+   "id": "tuno:top_lu_country-radio-gilsdorf",
+   "name": "Country Radio Gilsdorf",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming.aoip.international:8000/cr-gilsdorf",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://streaming.aoip.international:8000/cr-gilsdorf"
+   ],
+   "website": "https://countryradiogilsdo.wixsite.com/"
+  },
+  {
+   "id": "tuno:top_lu_rtl-luxembourg",
+   "name": "RTL Luxembourg",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "http://81.92.238.32/;",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://81.92.238.32/;"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_radio-radijacija",
+   "name": "Radio Radijacija",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://a12.asurahosting.com/listen/radio_radijacija/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://a12.asurahosting.com/listen/radio_radijacija/radio.mp3"
+   ],
+   "website": "https://radio.radijacija.eu/"
+  },
+  {
+   "id": "tuno:top_lu_rtl-schlagerliebe",
+   "name": "RTL Schlagerliebe",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rtlradio.de/schlagerliebe/mp3-192/",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://stream.rtlradio.de/schlagerliebe/mp3-192/"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_panachee",
+   "name": "Panachee",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/panachee",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.laut.fm/panachee"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_reddrockradio",
+   "name": "Reddrockradio",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/reddrock",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.laut.fm/reddrock"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_radio-lusa",
+   "name": "Radio Lusa",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://sp0.redeaudio.com/8232/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://sp0.redeaudio.com/8232/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_braintrip-radio",
+   "name": "Braintrip Radio",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://braintrip-radio.stream.laut.fm/braintrip-radio?t302=2026-10-20_21-17-48&uuid=7b2c99cb-f8a7-dd80-1b99-cd4a2cc1d3a6",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://braintrip-radio.stream.laut.fm/braintrip-radio?t302=2026-10-20_21-17-48&uuid=7b2c99cb-f8a7-dd80-1b99-cd4a2cc1d3a6",
+    "https://stream.laut.fm/braintrip-radio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.laut.fm/braintrip-radio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://laut.fm/braintrip-radio"
+  },
+  {
+   "id": "tuno:top_lu_groovetime",
+   "name": "Groovetime",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.kotdt.com/groovetime",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://icecast.kotdt.com/groovetime",
+    "http://kotdt.com:8000/groovetime"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://kotdt.com:8000/groovetime",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://groovetime.lu/"
+  },
+  {
+   "id": "tuno:top_lu_ni-haody",
+   "name": "Ni Haody",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/ni_haody",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://stream.laut.fm/ni_haody"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_radio-gutt-laun",
+   "name": "Radio Gutt Laun",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/sa631ff66a/listen",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://streams.radio.co/sa631ff66a/listen"
+   ],
+   "website": "https://www.rgl.lu/index.php"
+  },
+  {
+   "id": "tuno:top_lu_fce-continuo",
+   "name": "FCE Continuo",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/551009/stream/610262",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://listen.radioking.com/radio/551009/stream/610262"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_radio-puls-luxembourg",
+   "name": "Radio Puls Luxembourg",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://cmr-hosting.com/8312/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://cmr-hosting.com/8312/stream",
+    "https://uk1.listen2myradio.com:2199/listen.php?port=8312&type=s2&mount=/stream"
+   ],
+   "website": "https://www.radiopuls.lu/"
+  },
+  {
+   "id": "tuno:top_lu_retrosonic-100-pure-80s",
+   "name": "RetroSonic 100% Pure 80s",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://retrosonic.online:8000/hits.ogg",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://retrosonic.online:8000/hits.ogg"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_lu_radio-belle-vallee",
+   "name": "Radio Belle Vallée",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rbv.lu/index.html",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream.rbv.lu/index.html"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_fce-continuo-webradio",
+   "name": "FCE-CONTINUO Webradio",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/551009/stream/610262",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://listen.radioking.com/radio/551009/stream/610262",
+    "https://www.radioking.com/play/fce-continuo"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.radioking.com/play/fce-continuo",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fce-continuo.websiteradio.co/"
+  },
+  {
+   "id": "tuno:top_lu_retrosonic-mix",
+   "name": "RetroSonic Mix",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://retrosonic.online:8020/mix.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://retrosonic.online:8020/mix.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_lu_hits-1-lux",
+   "name": "Hits 1 LUX",
+   "type": "radio",
+   "country": "LU",
+   "category": "music",
+   "stream": {
+    "url": "https://hits1-audiomediaradio.radioca.st/hits1?lux",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://hits1-audiomediaradio.radioca.st/hits1?lux"
+   ]
+  }
+ ]
+}

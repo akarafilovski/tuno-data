@@ -1,0 +1,258 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mc_radio-monaco",
+   "name": "Radio Monaco",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://radiomonaco.ice.infomaniak.ch/radiomonaco-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radiomonaco.ice.infomaniak.ch/radiomonaco-128.mp3"
+   ],
+   "website": "http://www.radio-monaco.com/"
+  },
+  {
+   "id": "tuno:top_mc_radio-monte-carlo",
+   "name": "Radio Monte Carlo",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "http://edge.radiomontecarlo.net/RMC.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://edge.radiomontecarlo.net/RMC.mp3"
+   ],
+   "website": "http://www.radiomontecarlo.net/"
+  },
+  {
+   "id": "tuno:top_mc_yellow-radio",
+   "name": "Yellow Radio",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://yellowradio.ice.infomaniak.ch/yellowradio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://yellowradio.ice.infomaniak.ch/yellowradio.mp3"
+   ],
+   "website": "https://yellow.radio/"
+  },
+  {
+   "id": "tuno:top_mc_riviera-radio",
+   "name": "Riviera Radio",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/RivieraRadio",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://media-ssl.musicradio.com/RivieraRadio",
+    "https://media-ice.musicradio.com/RivieraRadio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://media-ice.musicradio.com/RivieraRadio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.rivieraradio.mc/"
+  },
+  {
+   "id": "tuno:top_mc_chilli-moje",
+   "name": "chilli moje",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://media-ssl.musicradio.com/ChillMP3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://media-ssl.musicradio.com/ChillMP3",
+    "https://media-ice.musicradio.com/CapitalLiverpool.m3u"
+   ],
+   "website": "https://media-ssl.musicradio.com/"
+  },
+  {
+   "id": "tuno:top_mc_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mc_hits-1-monaco",
+   "name": "Hits 1 Monaco",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://player.mc.hits1radio.com/",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://player.mc.hits1radio.com/"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_funk2disco",
+   "name": "Funk2Disco",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://funk2disco.stream.laut.fm/funk2disco",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://funk2disco.stream.laut.fm/funk2disco"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_extra-fun-fm",
+   "name": "Extra Fun FM",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.openstream.co/2864/audio",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://listen.openstream.co/2864/audio"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_music-100-9-fm",
+   "name": "Music 100.9 FM",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://ice04.fluidstream.net/music1009.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://ice04.fluidstream.net/music1009.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_antenna-web-monaco",
+   "name": "Antenna Web Monaco",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://principautedemonaco.radioantennaweb.com/Monaco",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://principautedemonaco.radioantennaweb.com/Monaco"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_hero-radio-monaco",
+   "name": "Hero Radio (Monaco)",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/monaco.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/monaco.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_the-sound-of-monaco",
+   "name": "The Sound of Monaco",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.radio.co/s5dc9ad21c/listen",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://s4.radio.co/s5dc9ad21c/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_premium-radio",
+   "name": "Premium Radio",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "http://premium.ice.infomaniak.ch/premium-192.aac",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://premium.ice.infomaniak.ch/premium-192.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_radio-ethic",
+   "name": "Radio Ethic",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "http://163.172.37.18:8000/radioethic.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://163.172.37.18:8000/radioethic.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_mc_aw-monaco",
+   "name": "AW Monaco",
+   "type": "radio",
+   "country": "MC",
+   "category": "music",
+   "stream": {
+    "url": "https://principautedemonaco.radioantennaweb.com/awMonaco",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://principautedemonaco.radioantennaweb.com/awMonaco"
+   ]
+  }
+ ]
+}

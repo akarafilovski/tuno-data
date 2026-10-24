@@ -1,0 +1,135 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_km_radio-domoni-inter",
+   "name": "Radio Domoni Inter",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "http://domoni-inter.org:8000/live",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://domoni-inter.org:8000/live",
+    "http://www.domoni-inter.org:8000/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://www.domoni-inter.org:8000/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.domoni-inter.org/"
+  },
+  {
+   "id": "tuno:top_km_radio-ocean-indien",
+   "name": "Radio Océan Indien",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.vestaradio.com/RadioMRV",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.vestaradio.com/RadioMRV"
+   ]
+  },
+  {
+   "id": "tuno:top_km_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_km_radio-chifa",
+   "name": "Radio Chifa",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "http://www.radiochifa.fr:8000/main",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://www.radiochifa.fr:8000/main",
+    "http://164.132.107.52:8000/main.m3u"
+   ],
+   "website": "http://164.132.107.52:8000/"
+  },
+  {
+   "id": "tuno:top_km_midayi-fm",
+   "name": "midayi fm",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio2.pro-fhi.net:19015/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio2.pro-fhi.net:19015/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_km_hero-radio-comoros",
+   "name": "Hero Radio (Comoros)",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/comoros.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/comoros.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_km_antenna-web-moroni",
+   "name": "Antenna Web Moroni",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebcomore",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebcomore"
+   ]
+  },
+  {
+   "id": "tuno:top_km_zawiya-fm",
+   "name": "ZAWIYA FM",
+   "type": "radio",
+   "country": "KM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/400576/stream/452719",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://listen.radioking.com/radio/400576/stream/452719"
+   ]
+  }
+ ]
+}

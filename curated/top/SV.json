@@ -1,0 +1,570 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_sv_yxy-105-7",
+   "name": "YXY 105.7",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://yxy.watahosting.com/radio/8020/radio.mp3;%20background-size:%20cover;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://yxy.watahosting.com/radio/8020/radio.mp3;%20background-size:%20cover;",
+    "http://158.69.200.1:8020/stream/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://158.69.200.1:8020/stream/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.miradio.com.sv/"
+  },
+  {
+   "id": "tuno:top_sv_radio-fiesta",
+   "name": "Radio Fiesta",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://sp4.streamingsv.com:8026/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://sp4.streamingsv.com:8026/stream",
+    "https://sp4.colombiatelecom.com.co/8026/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://sp4.colombiatelecom.com.co/8026/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.fiesta.com.sv/"
+  },
+  {
+   "id": "tuno:top_sv_radio-astral",
+   "name": "Radio Astral",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.rcs.com.sv/proxy/astral/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streaming.rcs.com.sv/proxy/astral/stream"
+   ],
+   "website": "https://radios.com.sv/astral-san-salvador"
+  },
+  {
+   "id": "tuno:top_sv_radio-bautista",
+   "name": "Radio Bautista",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://5fc584f3f19c9.streamlock.net/tabertv/videotabertv/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://5fc584f3f19c9.streamlock.net/tabertv/videotabertv/playlist.m3u8",
+    "https://s2.radio.co/s3a7dc3d82/listen"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s2.radio.co/s3a7dc3d82/listen",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://tabernaculo.net/radio/"
+  },
+  {
+   "id": "tuno:top_sv_radio-yskl-104-1-fm",
+   "name": "Radio YSKL 104.1 FM",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://media.dominiocreativo.com:8000/;?type=http&amp;nocache=49",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://media.dominiocreativo.com:8000/;?type=http&amp;nocache=49",
+    "https://media.dominiocreativo.com:8000/stream/1/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://media.dominiocreativo.com:8000/stream/1/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioyskl.com/"
+  },
+  {
+   "id": "tuno:top_sv_abc-radio",
+   "name": "ABC Radio",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.rcs.com.sv/proxy/urbana/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streaming.rcs.com.sv/proxy/urbana/stream",
+    "https://streaming.rcs.com.sv/proxy/abc/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.rcs.com.sv/proxy/abc/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiocorporacionelsalvador.com/"
+  },
+  {
+   "id": "tuno:top_sv_laser-espanol",
+   "name": "Laser Español",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://sp4.colombiatelecom.com.co/8030/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://sp4.colombiatelecom.com.co/8030/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sv_radio-laser-ingles",
+   "name": "Radio Láser Inglés",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://sp4.streamingsv.com:8032/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://sp4.streamingsv.com:8032/stream",
+    "https://sp4.colombiatelecom.com.co/8032/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://sp4.colombiatelecom.com.co/8032/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.laser.com.sv/"
+  },
+  {
+   "id": "tuno:top_sv_vive-fm",
+   "name": "Vive FM",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://jfm1.hostingradio.ru:14536/rock80.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://jfm1.hostingradio.ru:14536/rock80.mp3",
+    "https://radio02.com:7082/stream"
+   ],
+   "website": "https://www.radioselsalvador.org/1021-vive-fm"
+  },
+  {
+   "id": "tuno:top_sv_radio-maria-el-salvador-107-3-fm",
+   "name": "Radio María El Salvador 107.3 FM",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8098/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8098/stream"
+   ],
+   "website": "http://www.radiomaria.org.sv/"
+  },
+  {
+   "id": "tuno:top_sv_yskl-la-poderosa",
+   "name": "YSKL la Poderosa",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "http://media.dominiocreativo.com:8000/radioyskl",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://media.dominiocreativo.com:8000/radioyskl"
+   ]
+  },
+  {
+   "id": "tuno:top_sv_radio-ranchera",
+   "name": "Radio Ranchera",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://sp4.streamingsv.com:8024/stream?autoplay=1",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://sp4.streamingsv.com:8024/stream?autoplay=1",
+    "https://sp4.colombiatelecom.com.co/8024/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://sp4.colombiatelecom.com.co/8024/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://ranchera.com.sv/"
+  },
+  {
+   "id": "tuno:top_sv_scan-96-1",
+   "name": "Scan 96.1",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.200.1:8022/stream/;",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://158.69.200.1:8022/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sv_radio-restauracion",
+   "name": "Radio Restauracion",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.rockhost.com/proxy/restauracion?mp=/mp3_64",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://ssl.rockhost.com/proxy/restauracion?mp=/mp3_64",
+    "https://ssl.rockhost.com/proxy/plenitud?mp=/mp3_64"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ssl.rockhost.com/proxy/plenitud?mp=/mp3_64",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.elim.org.sv/restauracion/"
+  },
+  {
+   "id": "tuno:top_sv_vox-fm",
+   "name": "Vox FM",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.asurahosting.com/proxy/gabriel/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://cast3.asurahosting.com/proxy/gabriel/stream"
+   ],
+   "website": "https://www.voxfm.com/"
+  },
+  {
+   "id": "tuno:top_sv_radio-verdad-95-7-fm-voz-del-pentecostes",
+   "name": "Radio Verdad 95.7 FM | Voz del Pentecostes",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.webmovilapp.com/8168/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://streaming.webmovilapp.com/8168/stream",
+    "https://cloudstream2036.conectarhosting.com/8168/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cloudstream2036.conectarhosting.com/8168/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioverdad.com/"
+  },
+  {
+   "id": "tuno:top_sv_radio-que-buena",
+   "name": "Radio Que Buena",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.my-control-panel.com/proxy/gabriel4/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://cast3.my-control-panel.com/proxy/gabriel4/stream"
+   ],
+   "website": "https://www.quebuena.com.sv/"
+  },
+  {
+   "id": "tuno:top_sv_radio-sonora",
+   "name": "Radio Sonora",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://online.radiosonora.com.sv:4443/radiosonora",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://online.radiosonora.com.sv:4443/radiosonora",
+    "http://190.5.147.67:8000/radiosonora"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://190.5.147.67:8000/radiosonora",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiosonora.com.sv/"
+  },
+  {
+   "id": "tuno:top_sv_la-tribu-fm",
+   "name": "La Tribu FM",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s3a3c12873/listen",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streamer.radio.co/s3a3c12873/listen"
+   ],
+   "website": "https://latribu.fm/"
+  },
+  {
+   "id": "tuno:top_sv_107-7-fuego",
+   "name": "107.7 Fuego",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://mgvfuego-ioriver-cdn.encoders.immergo.tv/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://mgvfuego-ioriver-cdn.encoders.immergo.tv/master.m3u8",
+    "https://mgvfuego-ioriver-cdn.encoders.immergo.tv/0/streamPlaylist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mgvfuego-ioriver-cdn.encoders.immergo.tv/0/streamPlaylist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://megavision.univtec.com/player/channel/62b9cc6d1c2bd700136106f2"
+  },
+  {
+   "id": "tuno:top_sv_92-5-club",
+   "name": "92.5 Club",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.200.1:8030/stream/;",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://158.69.200.1:8030/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sv_100-7-stereo",
+   "name": "100.7 Stereo",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://stream20.usastreams.com/8138/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://stream20.usastreams.com/8138/stream"
+   ],
+   "website": "https://rocknpopsv.com/"
+  },
+  {
+   "id": "tuno:top_sv_radio-ysuca",
+   "name": "Radio YSUCA",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://fast.citrus3.com:8314/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://fast.citrus3.com:8314/stream",
+    "https://www.ivoox.com/michel-foucault-poder-mas-alla-del-estado_mf_182433281_feed_1.mp3"
+   ],
+   "website": "https://ysuca.org.sv/"
+  },
+  {
+   "id": "tuno:top_sv_radio-la-chevere",
+   "name": "Radio La Chevere",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.rcs.com.sv/proxy/chevere/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://streaming.rcs.com.sv/proxy/chevere/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sv_radio-salem-92-5",
+   "name": "Radio Salem 92.5",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streamingcp.com:2000/stream/radiosalem/;",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://www.streamingcp.com:2000/stream/radiosalem/;",
+    "http://streamingcontrol.com:8500/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streamingcontrol.com:8500/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radiosalem.org/"
+  },
+  {
+   "id": "tuno:top_sv_exa-fm",
+   "name": "Exa FM",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.219.162:8028/start",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://158.69.219.162:8028/start"
+   ]
+  },
+  {
+   "id": "tuno:top_sv_fm-globo",
+   "name": "FM Globo",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.219.162:8026/stream/;",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://158.69.219.162:8026/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sv_femenina",
+   "name": "Femenina",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://sp4.streamingsv.com:8028/stream?autoplay=1",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://sp4.streamingsv.com:8028/stream?autoplay=1",
+    "https://sp4.colombiatelecom.com.co/8028/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://sp4.colombiatelecom.com.co/8028/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://femenina.com.sv/"
+  },
+  {
+   "id": "tuno:top_sv_radio-nacional-de-el-salvador-96-9",
+   "name": "Radio Nacional de El Salvador  - 96.9",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingcwsradio30.com/8156/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://streamingcwsradio30.com/8156/stream",
+    "https://cdn-web.tunein.com/assets/media/blank.mp3"
+   ],
+   "website": "https://tunein.com/radio/Radio-El-Salvador-s306352/"
+  },
+  {
+   "id": "tuno:top_sv_la-guapa-99-7-fm",
+   "name": "La Guapa 99.7 FM",
+   "type": "radio",
+   "country": "SV",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.rcs.com.sv/proxy/guapa/stream",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://streaming.rcs.com.sv/proxy/guapa/stream"
+   ]
+  }
+ ]
+}

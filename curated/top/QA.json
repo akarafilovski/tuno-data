@@ -1,0 +1,276 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_qa_al-jazeera-english-doha",
+   "name": "Al Jazeera English Doha",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://live-hls-web-aja-gcp.thehlive.com/VOICE-AJA/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live-hls-web-aja-gcp.thehlive.com/VOICE-AJA/index.m3u8",
+    "https://live-hls-audio-web-aje.getaj.net/VOICE-AJE/01.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live-hls-audio-web-aje.getaj.net/VOICE-AJE/01.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.aljazeera.net/"
+  },
+  {
+   "id": "tuno:top_qa_fame-fm-qatar",
+   "name": "Fame FM Qatar",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://samcloud.spacial.com/api/listen?sid=122198&m=sc&rid=257535",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://samcloud.spacial.com/api/listen?sid=122198&m=sc&rid=257535"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_al-araby",
+   "name": "Al Araby",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://l3.itworkscdn.net/alarabyradiolive/alarabyradio_audio/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://l3.itworkscdn.net/alarabyradiolive/alarabyradio_audio/icecast.audio"
+   ],
+   "website": "https://www.alaraby.com/"
+  },
+  {
+   "id": "tuno:top_qa_radio-olive-106-3",
+   "name": "Radio Olive 106.3",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLIVE1063.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/OLIVE1063.mp3?dist=onlineradiobox",
+    "https://osrnstream.olivesuno.com/olive1063.mp3",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/OLIVE1063AAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://osrnstream.olivesuno.com/olive1063.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLIVE1063AAC.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://olive.qa/"
+  },
+  {
+   "id": "tuno:top_qa_radio-al-jazeera-arabic",
+   "name": "Radio Al Jazeera Arabic",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://live-hls-audio-web-aja.getaj.net/VOICE-AJA/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://live-hls-audio-web-aja.getaj.net/VOICE-AJA/index.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_radio-monte-carlo-doualiya",
+   "name": "Radio Monte Carlo Doualiya",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_suno-malayalam-fm",
+   "name": "Suno Malayalam FM",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUNO917.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SUNO917.mp3"
+   ],
+   "website": "https://suno.qa/"
+  },
+  {
+   "id": "tuno:top_qa_aljazeera",
+   "name": "aljazeera",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://live-hls-web-aja.getaj.net/AJA/index.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_radio-sout-al-khaleej-fm",
+   "name": "Radio Sout Al Khaleej FM",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://live.kwikmotion.com/qmcslkrradiolive/slkrradio/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://live.kwikmotion.com/qmcslkrradiolive/slkrradio/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_malayalam-98-6-fm",
+   "name": "Malayalam 98.6 FM",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "http://vokcast.bluecast.in:8227/986fm",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://vokcast.bluecast.in:8227/986fm"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_qabayan-radio-94-3-fm-flac",
+   "name": "Qabayan Radio 94.3 FM (FLAC)",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://c2.radioboss.fm:8478/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://c2.radioboss.fm:8478/stream",
+    "https://c2.radioboss.fm:8478/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://c2.radioboss.fm:8478/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.qabayanfm.com/"
+  },
+  {
+   "id": "tuno:top_qa_radio-suno-91-7",
+   "name": "Radio Suno 91.7",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUNO917.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SUNO917.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_qa_rede-brazil-live-doha",
+   "name": "rede brazil live Doha",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://sonicpanel.oficialserver.com:7164/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://sonicpanel.oficialserver.com:7164/;"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_radio-uthamiyae-fm",
+   "name": "Radio Uthamiyae FM",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.aloncast.com:1595/",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://ssl.aloncast.com:1595/"
+   ]
+  },
+  {
+   "id": "tuno:top_qa_mazaji-fm",
+   "name": "Mazaji FM",
+   "type": "radio",
+   "country": "QA",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcast.net/73183",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.rcast.net/73183"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_st_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "ST",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_st_rdp-africa",
+   "name": "RDP África",
+   "type": "radio",
+   "country": "ST",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8?DVR",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8?DVR"
+   ]
+  },
+  {
+   "id": "tuno:top_st_antenna-web-sao-tome",
+   "name": "Antenna Web São Tomé",
+   "type": "radio",
+   "country": "ST",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebSao-Tome-e-Principe",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebSao-Tome-e-Principe"
+   ]
+  }
+ ]
+}

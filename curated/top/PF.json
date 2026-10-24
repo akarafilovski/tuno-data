@@ -1,0 +1,258 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_pf_polynesie-1ere",
+   "name": "Polynésie 1ère",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://polynesie.ice.infomaniak.ch/polynesie-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://polynesie.ice.infomaniak.ch/polynesie-128.mp3"
+   ],
+   "website": "https://la1ere.francetvinfo.fr/polynesie/"
+  },
+  {
+   "id": "tuno:top_pf_hiti-fm",
+   "name": "Hiti FM",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://n10.radiojar.com/u0yz7p0mb?rj-ttl=5&rj-tok=AAABoVtIVDgAfGlqLcBYBhkn0A",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://n10.radiojar.com/u0yz7p0mb?rj-ttl=5&rj-tok=AAABoVtIVDgAfGlqLcBYBhkn0A",
+    "http://n0a.radiojar.com/u0yz7p0mb.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://n0a.radiojar.com/u0yz7p0mb.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://hiti-fm.com/"
+  },
+  {
+   "id": "tuno:top_pf_hits-1-tahiti",
+   "name": "Hits 1 Tahiti",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://hits1-audiomediaradio.radioca.st/hits1?tahiti",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://hits1-audiomediaradio.radioca.st/hits1?tahiti"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_radio1-tahiti",
+   "name": "Radio1 Tahiti",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio1.pf:8443/radio1",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://live.radio1.pf:8443/radio1"
+   ],
+   "website": "https://www.radio1.pf/"
+  },
+  {
+   "id": "tuno:top_pf_tahiti-coco-web",
+   "name": "Tahiti Coco Web",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/694694/stream/759533",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://listen.radioking.com/radio/694694/stream/759533"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_marevareva-radio-tahiti",
+   "name": "Marevareva Radio Tahiti",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/459392/stream/514604",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen.radioking.com/radio/459392/stream/514604"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_nostalgie-100-francais-80",
+   "name": "Nostalgie 100% Francais 80",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/out2976ubafg?origine=playernostalgie&aw_0_req.userConsentV2=CQkCxgAQkCxgAAHABBENCdFsAP_gAEPgAAqIJ2tR_G_fbWlj-TZ1YbpkeYwP99gj7sQxBgSJk24FyJvW7JwCx2ExJAzapqIKmRIAu3TBAQNlGIDURUAAIIgFqSDMaESUgTNKJ6BEiFMRI2JQCFxvm4FDeQCY4kp_9kcxmB-t7dr8yNzgAgAAAUCAIAAgAIABAACIAAAgAAAAAQAAAiwACAAAAAAAAEAAAFAAAABAAAEAAAACAAAABAAAIJ2gAmGhUQQlgQCBAoCAECAAQVhABQIAgAASBggIASBgQ5AwAXWEyAAAKAAYIAQAAgwABAAAJAAhEAEABAIAQIBAIAAQAAAAIACBAADABQiAQAAgOgYBAQQCBYAJEZUBpgQgAJBASyFCAAAAgAACAAAAAAIAAAAAAAAAgAAAAAAAAggAAAAAAAAAAAEAAAAAAEABAAAAAAAAAAAAABAAAIAA.IJ2tR_G_fbWlj-TZ14bpkeYwf99gj7sQxBgSJk24FyJvW7JwC32EzJAzapqYKmRIAu3TBAQNtGIjURUABIIgVqTDMaESUgTNKJ6BEiHMRY2JQCFxvm4FDeQCZ4kp_90d5mR-t7dr-yNzgAgAgAUCAIAAgAIABAACIAAAgAAAAAQAAgiwACAAAAAAAAEAAAFAAEABAAAEAAAACAAAABAAAIAA.f_wACHwAAAAA&aw_0_1st.station=Nostalgie-100-Francais-80",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/out2976ubafg?origine=playernostalgie&aw_0_req.userConsentV2=CQkCxgAQkCxgAAHABBENCdFsAP_gAEPgAAqIJ2tR_G_fbWlj-TZ1YbpkeYwP99gj7sQxBgSJk24FyJvW7JwCx2ExJAzapqIKmRIAu3TBAQNlGIDURUAAIIgFqSDMaESUgTNKJ6BEiFMRI2JQCFxvm4FDeQCY4kp_9kcxmB-t7dr8yNzgAgAAAUCAIAAgAIABAACIAAAgAAAAAQAAAiwACAAAAAAAAEAAAFAAAABAAAEAAAACAAAABAAAIJ2gAmGhUQQlgQCBAoCAECAAQVhABQIAgAASBggIASBgQ5AwAXWEyAAAKAAYIAQAAgwABAAAJAAhEAEABAIAQIBAIAAQAAAAIACBAADABQiAQAAgOgYBAQQCBYAJEZUBpgQgAJBASyFCAAAAgAACAAAAAAIAAAAAAAAAgAAAAAAAAggAAAAAAAAAAAEAAAAAAEABAAAAAAAAAAAAABAAAIAA.IJ2tR_G_fbWlj-TZ14bpkeYwf99gj7sQxBgSJk24FyJvW7JwC32EzJAzapqYKmRIAu3TBAQNtGIjURUABIIgVqTDMaESUgTNKJ6BEiHMRY2JQCFxvm4FDeQCZ4kp_90d5mR-t7dr-yNzgAgAgAUCAIAAgAIABAACIAAAgAAAAAQAAgiwACAAAAAAAAEAAAFAAEABAAAEAAAACAAAABAAAIAA.f_wACHwAAAAA&aw_0_1st.station=Nostalgie-100-Francais-80"
+   ],
+   "website": "https://www.nostalgie.fr/webradios/mur-des-radios/nostalgie-100-francais-80"
+  },
+  {
+   "id": "tuno:top_pf_skylegend",
+   "name": "Skylegend",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "http://173.212.250.212:8200/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://173.212.250.212:8200/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_pf_radio-1",
+   "name": "Radio 1",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio1.pf:8443/radio1",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://live.radio1.pf:8443/radio1"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_radio-melod-iles",
+   "name": "Radio Melod'iles",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://uk25freenew.listen2myradio.com/live.mp3?typeportmount=s1_7545_stream_170931469",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://uk25freenew.listen2myradio.com/live.mp3?typeportmount=s1_7545_stream_170931469",
+    "http://uk25freenew.listen2myradio.com:7545/"
+   ],
+   "website": "https://radiomelodiles.radiostream321.com/"
+  },
+  {
+   "id": "tuno:top_pf_nrj-tahiti",
+   "name": "NRJ Tahiti",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/397660/stream/449635",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://listen.radioking.com/radio/397660/stream/449635"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_radio-lvdl",
+   "name": "Radio LVDL",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/3318/stream/63163",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://listen.radioking.com/radio/3318/stream/63163"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_radio-paofai",
+   "name": "Radio PAOFAI",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://a10.asurahosting.com:7520/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://a10.asurahosting.com:7520/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_api-fm",
+   "name": "API FM",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/397657/stream/449626",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://listen.radioking.com/radio/397657/stream/449626"
+   ]
+  },
+  {
+   "id": "tuno:top_pf_antenna-web-papeete",
+   "name": "Antenna Web Papeete",
+   "type": "radio",
+   "country": "PF",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Papeete",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Papeete"
+   ]
+  }
+ ]
+}

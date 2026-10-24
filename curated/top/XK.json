@@ -1,0 +1,432 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_xk_radio-plus-102-2-fm",
+   "name": "Radio Plus 102.2 FM",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://cast2.my-control-panel.com/proxy/radiopl1/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://cast2.my-control-panel.com/proxy/radiopl1/stream"
+   ],
+   "website": "https://www.radioplus.fm/"
+  },
+  {
+   "id": "tuno:top_xk_radio-kosova-e-lire-94-2-fm",
+   "name": "Radio Kosova e Lirë 94.2 FM",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://radiokos.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radiokos.radioca.st/;",
+    "http://quasar.shoutca.st:8018/"
+   ],
+   "website": "https://www.radiokosovaelire.com/"
+  },
+  {
+   "id": "tuno:top_xk_radio-muzika",
+   "name": "RADIO MUZIKA",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.asurahosting.com/proxy/mrika/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://cast3.asurahosting.com/proxy/mrika/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-fontana",
+   "name": "Radio Fontana",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radiostreaming.al:8010/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://live.radiostreaming.al:8010/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-prishtina",
+   "name": "Radio Prishtina",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio.co/sbe73908d2/listen",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.radio.co/sbe73908d2/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-klan-kosova-fm",
+   "name": "Radio Klan Kosova FM",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.radio.co/sd1d1904dc/listen",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://s4.radio.co/sd1d1904dc/listen",
+    "http://s4.radio.co/sd1d1904dc/listen.m3u"
+   ],
+   "website": "http://s4.radio.co/sd1d1904dc/listen.m3u"
+  },
+  {
+   "id": "tuno:top_xk_radio-dukagjini-balkan-music",
+   "name": "Radio Dukagjini Balkan Music",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://s6.voscast.com:8824/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://s6.voscast.com:8824/;stream.mp3"
+   ],
+   "website": "http://www.dukagjini.com/"
+  },
+  {
+   "id": "tuno:top_xk_92-1-capital-fm",
+   "name": "92.1 Capital FM",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://cfm.albaservers.com:8012/live.m4a",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://cfm.albaservers.com:8012/live.m4a",
+    "http://cfm.albaservers.com:8010/"
+   ],
+   "website": "https://www.capital921.com/"
+  },
+  {
+   "id": "tuno:top_xk_rtk-radio-kosova-2",
+   "name": "RTK Radio Kosova 2",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://82.114.72.2:8098/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://82.114.72.2:8098/;stream.mp3"
+   ],
+   "website": "http://www.rtklive.com/sq/index.php"
+  },
+  {
+   "id": "tuno:top_xk_radio-kosova-1",
+   "name": "Radio Kosova 1",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.rtklive.com:8088/;",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://radio.rtklive.com:8088/;"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-club-fm-kosove",
+   "name": "Radio Club FM Kosove",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://cp1.sednastream.com/proxy/clubfmkosova/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://cp1.sednastream.com/proxy/clubfmkosova/stream",
+    "https://cp1.sednastream.com/proxy/clubfmkosova?mp=/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cp1.sednastream.com/proxy/clubfmkosova?mp=/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://clubfmkosova.al/"
+  },
+  {
+   "id": "tuno:top_xk_radio-dukagini",
+   "name": "Radio Dukagini",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.voscast.com:8825/radiodukagjini",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://s2.voscast.com:8825/radiodukagjini"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-zeri-i-shtimes",
+   "name": "Radio Zëri i Shtimes",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.1dhe1.com:8090/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://radio.1dhe1.com:8090/stream"
+   ],
+   "website": "http://radiozeri.info/"
+  },
+  {
+   "id": "tuno:top_xk_radio-llapi",
+   "name": "Radio Llapi",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.1dhe1.com:8555/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://radio.1dhe1.com:8555/;"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_glamradio",
+   "name": "GlamRADIO",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.glamradio.fm:8443/glamradio",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://stream.glamradio.fm:8443/glamradio"
+   ],
+   "website": "https://glamradio.fm/#/"
+  },
+  {
+   "id": "tuno:top_xk_radio-maria-kosovo",
+   "name": "RADIO MARIA KOSOVO",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp2.com:8124/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://dreamsiteradiocp2.com:8124/stream"
+   ],
+   "website": "https://www.radiomariakosove.org/"
+  },
+  {
+   "id": "tuno:top_xk_radio-k4-shqip",
+   "name": "Radio K4 Shqip",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://fm.radiokfor.com:8080/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://fm.radiokfor.com:8080/;"
+   ],
+   "website": "http://radiokfor.com/"
+  },
+  {
+   "id": "tuno:top_xk_radio-k4",
+   "name": "Radio K4",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://fm.radiokfor.com:8080/;",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://fm.radiokfor.com:8080/;"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_urban-fm-103-5",
+   "name": "Urban FM 103.5",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.itprishtina.com/urbanfm.ogg",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://radio.itprishtina.com/urbanfm.ogg"
+   ],
+   "website": "https://radiourban.fm/"
+  },
+  {
+   "id": "tuno:top_xk_radio-1",
+   "name": "Radio 1",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://ec6.yesstreaming.net:3430/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://ec6.yesstreaming.net:3430/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radyo-hisar",
+   "name": "Radyo Hisar",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://a8.asurahosting.com:6920/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://a8.asurahosting.com:6920/radio.mp3"
+   ],
+   "website": "https://www.radyohisar.com/home"
+  },
+  {
+   "id": "tuno:top_xk_radio-kosv",
+   "name": "Radio Kosv",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://s38.radiolize.com/radio/8210/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://s38.radiolize.com/radio/8210/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-vizioni",
+   "name": "Radio Vizioni",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://live.rcast.net:8864/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://live.rcast.net:8864/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-peja",
+   "name": "Radio Peja",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://ns5.albaservers.com:8020/;?1516996701669.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://ns5.albaservers.com:8020/;?1516996701669.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-ilirida",
+   "name": "Radio Ilirida",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://eu1.reliastream.com:8015/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://eu1.reliastream.com:8015/stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-alba",
+   "name": "Radio Alba",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "http://server.radioalba.eu:8000/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://server.radioalba.eu:8000/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_xk_radio-zeri",
+   "name": "Radio Zëri",
+   "type": "radio",
+   "country": "XK",
+   "category": "music",
+   "stream": {
+    "url": "https://mars.streamerr.co/8278/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://mars.streamerr.co/8278/stream"
+   ]
+  }
+ ]
+}

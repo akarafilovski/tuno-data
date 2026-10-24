@@ -1,0 +1,50 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gn_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GN",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gn_antenna-web-conakry",
+   "name": "Antenna Web Conakry",
+   "type": "radio",
+   "country": "GN",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebConakry",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebConakry"
+   ]
+  },
+  {
+   "id": "tuno:top_gn_hero-radio-guinea",
+   "name": "Hero Radio (Guinea)",
+   "type": "radio",
+   "country": "GN",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/guinea.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/guinea.mp3"
+   ]
+  }
+ ]
+}

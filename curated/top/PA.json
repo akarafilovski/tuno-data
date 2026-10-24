@@ -1,0 +1,530 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_pa_estereo-azul",
+   "name": "Estereo Azul",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://14103.live.streamtheworld.com/ESTEREOAZULAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://14103.live.streamtheworld.com/ESTEREOAZULAAC.aac",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ESTEREOAZULAAC.aac?dist=onlineradiobox"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ESTEREOAZULAAC.aac?dist=onlineradiobox",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.estereoazul.com/"
+  },
+  {
+   "id": "tuno:top_pa_antena-8",
+   "name": "Antena 8",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ANT8AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ANT8AAC.aac?dist=onlineradiobox"
+   ],
+   "website": "https://www.antena8.com/"
+  },
+  {
+   "id": "tuno:top_pa_rpc-radio",
+   "name": "RPC Radio",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://s9.stweb.tv/thinkindot-fast-3/live/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://s9.stweb.tv/thinkindot-fast-3/live/playlist.m3u8"
+   ],
+   "website": "https://rpcradio.com/"
+  },
+  {
+   "id": "tuno:top_pa_radio-maria-panama",
+   "name": "RADIO MARIA PANAMA",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8082/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8082/stream",
+    "https://dreamsiteradiocp2.com/proxy/rmpanama2?mp=/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dreamsiteradiocp2.com/proxy/rmpanama2?mp=/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiomaria.pa/"
+  },
+  {
+   "id": "tuno:top_pa_am-original-1180-veraguas",
+   "name": "AM Original 1180 Veraguas",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://amoriginal.radioca.st/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://amoriginal.radioca.st/;stream.mp3",
+    "http://rosetta.shoutca.st:9264/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://rosetta.shoutca.st:9264/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.amoriginal.net/"
+  },
+  {
+   "id": "tuno:top_pa_la-ky-92-5-fm",
+   "name": "La Ky 92.5 FM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LAKY_PANAMAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LAKY_PANAMAAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_cht-107-7-fm",
+   "name": "Cht 107.7 FM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://radios.host-pa.com:8046/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radios.host-pa.com:8046/;"
+   ],
+   "website": "https://www.cht1077.com/"
+  },
+  {
+   "id": "tuno:top_pa_omega-stereo",
+   "name": "Omega Stereo",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streaming507.net:8048/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://www.streaming507.net:8048/stream"
+   ],
+   "website": "https://www.omegastereo.com/"
+  },
+  {
+   "id": "tuno:top_pa_stereo-fe-radio",
+   "name": "Stereo Fe Radio",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streaming507.net:8016/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://www.streaming507.net:8016/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_exa-fm",
+   "name": "Exa FM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac"
+   ],
+   "website": "https://www.exafm.com/veracruz/"
+  },
+  {
+   "id": "tuno:top_pa_salsa-106",
+   "name": "Salsa 106",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.tropicalmoonmedia.com:7002/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio.tropicalmoonmedia.com:7002/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_ultra-stereo-98-9-fm",
+   "name": "Ultra Stereo 98.9 FM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streaming507.net:8134/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://www.streaming507.net:8134/stream"
+   ],
+   "website": "https://www.fmultrastereo.com/"
+  },
+  {
+   "id": "tuno:top_pa_magic-fm",
+   "name": "Magic FM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://laradio.stream/proxy/hitfmla/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://laradio.stream/proxy/hitfmla/stream",
+    "https://laradio.stream/proxy/magicfm/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://laradio.stream/proxy/magicfm/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioparallevar.com/magicfm/"
+  },
+  {
+   "id": "tuno:top_pa_fabulosa-estereo-100-5-fm",
+   "name": "Fabulosa Estéreo 100.5 FM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8",
+    "https://www.streaming507.net:8130/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.streaming507.net:8130/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fabulosaestereo.com/"
+  },
+  {
+   "id": "tuno:top_pa_kw-continente",
+   "name": "KW Continente",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "http://s1.voscast.com:11354/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://s1.voscast.com:11354/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_radio-beat-life-panama",
+   "name": "Radio Beat Life Panama",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.my-control-panel.com/proxy/ondabra2/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://cast4.my-control-panel.com/proxy/ondabra2/stream",
+    "https://cast4.asurahosting.com/proxy/ondabra2/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cast4.asurahosting.com/proxy/ondabra2/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://beatlifepanama.com/"
+  },
+  {
+   "id": "tuno:top_pa_fm-corazon-102-5",
+   "name": "FM Corazón 102.5",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://sp4.colombiatelecom.com.co/8006/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://sp4.colombiatelecom.com.co/8006/stream"
+   ],
+   "website": "https://fmcorazonellenguajedelamor.com/"
+  },
+  {
+   "id": "tuno:top_pa_festival-1540-am",
+   "name": "Festival 1540 AM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streaming507.net:8128/stream?_=mvh6vri4",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://www.streaming507.net:8128/stream?_=mvh6vri4",
+    "http://streaming507.net:8128/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streaming507.net:8128/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://festival1540am.com/"
+  },
+  {
+   "id": "tuno:top_pa_faro-de-david-stereo",
+   "name": "Faro de David Stereo",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://radios.farodedavid.com:8004/live;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://radios.farodedavid.com:8004/live;"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_tropiq",
+   "name": "TropiQ",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8",
+    "format": "hls"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8",
+    "https://www.streaming507.net:8140/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.streaming507.net:8140/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://tropiq.com/"
+  },
+  {
+   "id": "tuno:top_pa_tvn-radio",
+   "name": "TVN Radio",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/654a5c9f40fd924d7ba3cd41/live.m3u8?_=1742584558819&dnt=true&player=6652918b0895f378e25e2728&uid=bd4OLrAP9gIxbw92y28cJBSUgVhCxWFY&sid=XbHbf3SdW8OPynroe95JSyz2nfB3iN5C&pid=coEcFUo064cTG0feq0zr1KKM5touhYMQ&an=tvn-pass-app-web&at=web-app&av=v1.0.18&sc=0&ref=tvn-especiales-editorial-comercial.s3.us-east-2.amazonaws.com&res=1536x864",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://mdstrm.com/audio/654a5c9f40fd924d7ba3cd41/live.m3u8?_=1742584558819&dnt=true&player=6652918b0895f378e25e2728&uid=bd4OLrAP9gIxbw92y28cJBSUgVhCxWFY&sid=XbHbf3SdW8OPynroe95JSyz2nfB3iN5C&pid=coEcFUo064cTG0feq0zr1KKM5touhYMQ&an=tvn-pass-app-web&at=web-app&av=v1.0.18&sc=0&ref=tvn-especiales-editorial-comercial.s3.us-east-2.amazonaws.com&res=1536x864"
+   ],
+   "website": "https://www.tvn-2.com/"
+  },
+  {
+   "id": "tuno:top_pa_super-q-fm",
+   "name": "Super Q FM",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://sqserver.superqpanama.net:8005/superqpanama",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://sqserver.superqpanama.net:8005/superqpanama"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_telemetro-radio",
+   "name": "Telemetro Radio",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://s9.stweb.tv/thinkindot-fast-1/live/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://s9.stweb.tv/thinkindot-fast-1/live/playlist.m3u8"
+   ],
+   "website": "https://www.telemetro.com/radio"
+  },
+  {
+   "id": "tuno:top_pa_radio-disney",
+   "name": "Radio Disney",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://pa.radiodisney.com/media/player/RadioBackground.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://pa.radiodisney.com/media/player/RadioBackground.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_la-tipik",
+   "name": "LA TIPIK",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.mixesurbanospty.com:8090/tipik.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://stream.mixesurbanospty.com:8090/tipik.mp3"
+   ],
+   "website": "https://x.com/latipikradio"
+  },
+  {
+   "id": "tuno:top_pa_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8082/;",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8082/;"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_al-tope-radio",
+   "name": "AL TOPE RADIO",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://server.laradio.online/proxy/edwin_chacon?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://server.laradio.online/proxy/edwin_chacon?mp=/stream"
+   ],
+   "website": "https://www.altoperadio.com/"
+  },
+  {
+   "id": "tuno:top_pa_panama-hit-radio",
+   "name": "Panama Hit Radio",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streaming507.net:8024/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://www.streaming507.net:8024/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pa_yxy",
+   "name": "YXY",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://sp4.colombiatelecom.com.co:8004/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://sp4.colombiatelecom.com.co:8004/stream"
+   ],
+   "website": "https://grupojapradiotv.com/"
+  },
+  {
+   "id": "tuno:top_pa_global-sensations-radio-network-jazz",
+   "name": "Global Sensations Radio Network - Jazz",
+   "type": "radio",
+   "country": "PA",
+   "category": "music",
+   "stream": {
+    "url": "https://ams-pioneer02.dedicateware.com:1285/stream",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://ams-pioneer02.dedicateware.com:1285/stream"
+   ]
+  }
+ ]
+}

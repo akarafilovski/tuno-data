@@ -1,0 +1,165 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bm_irie-fm",
+   "name": "Irie FM",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://usa19.fastcast4u.com:7430/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://usa19.fastcast4u.com:7430/;"
+   ],
+   "website": "https://www.irie98.com/"
+  },
+  {
+   "id": "tuno:top_bm_dr-dick-s-dub-shack",
+   "name": "dr_dick's dub shack",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s0635c8b0d/listen",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streamer.radio.co/s0635c8b0d/listen"
+   ],
+   "website": "http://drdicksdubshack.com/"
+  },
+  {
+   "id": "tuno:top_bm_slow-radio",
+   "name": "Slow Radio",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://quincy.torontocast.com/slowradio",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://quincy.torontocast.com/slowradio",
+    "http://stream5.slowradio.com/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream5.slowradio.com/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://en.slowradio.com/listen-now"
+  },
+  {
+   "id": "tuno:top_bm_magic-102-7-fm",
+   "name": "Magic 102.7 FM",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://iic.streamguys1.com/MAGIC?",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://iic.streamguys1.com/MAGIC?"
+   ]
+  },
+  {
+   "id": "tuno:top_bm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bm_vibe-103-fm",
+   "name": "Vibe 103 FM",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://cp11.serverse.com/proxy/fwincknq/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://cp11.serverse.com/proxy/fwincknq/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bm_hott-fm",
+   "name": "Hott FM",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://iic.streamguys1.com/HOTT?starttime=1586769753",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://iic.streamguys1.com/HOTT?starttime=1586769753"
+   ]
+  },
+  {
+   "id": "tuno:top_bm_crcb-internet-radio",
+   "name": "CRCB Internet Radio",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://c13.radioboss.fm:8759/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://c13.radioboss.fm:8759/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bm_vsb-mix-106-fm",
+   "name": "VSB MIX 106 FM",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://edward-gecko.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://edward-gecko.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bm_aw-hamilton",
+   "name": "AW Hamilton",
+   "type": "radio",
+   "country": "BM",
+   "category": "music",
+   "stream": {
+    "url": "https://bermuda.radioantennaweb.com/Hamilton",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://bermuda.radioantennaweb.com/Hamilton"
+   ]
+  }
+ ]
+}

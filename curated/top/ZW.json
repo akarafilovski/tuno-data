@@ -1,0 +1,334 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_zw_zim-net-radio",
+   "name": "zim NET radio",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://zimnetradio.net/mainstream/radio.mp3?1590411733/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://zimnetradio.net/mainstream/radio.mp3?1590411733/;stream.mp3"
+   ],
+   "website": "https://zimnetradio.net/"
+  },
+  {
+   "id": "tuno:top_zw_star-fm-89-7",
+   "name": "Star FM 89.7",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/159_medium.aac",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://edge.iono.fm/xice/159_medium.aac"
+   ],
+   "website": "https://www.starfm.co.zw/#&panel1-9"
+  },
+  {
+   "id": "tuno:top_zw_diamond-fm-zim",
+   "name": "Diamond FM Zim",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/160_medium.aac",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://edge.iono.fm/xice/160_medium.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_zw_capitalk-100-4fm-harare",
+   "name": "Capitalk 100.4FM Harare",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/162_medium.aac",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://edge.iono.fm/xice/162_medium.aac"
+   ],
+   "website": "https://capitalkfm.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_kingdom-live-radio-247-gospel",
+   "name": "Kingdom Live Radio 247 Gospel",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.meeknesstapera.co.zw/listen/kingdom_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.meeknesstapera.co.zw/listen/kingdom_radio/radio.mp3",
+    "https://radio.meeknesstapera.co.zw/hls/kingdom_radio/live.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.meeknesstapera.co.zw/hls/kingdom_radio/live.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://meeknesstapera.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_central-radio-98-5",
+   "name": "CENTRAL RADIO 98.5",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://centralstream.zbc.co.zw:8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://centralstream.zbc.co.zw:8000/radio.mp3"
+   ],
+   "website": "https://www.centralradio.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_zifm",
+   "name": "ZiFM",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/134_medium.aac",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://edge.iono.fm/xice/134_medium.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_zw_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_zw_power-fm-zimbabwe",
+   "name": "Power FM Zimbabwe",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://backupradiostreaming.zbc.co.zw:8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://backupradiostreaming.zbc.co.zw:8000/radio.mp3"
+   ],
+   "website": "https://www.powerfm.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_zifm-stereo",
+   "name": "ZiFM Stereo",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/134_high.aac",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://edge.iono.fm/xice/134_high.aac"
+   ],
+   "website": "https://zifmstereo.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_khulumani-fm-95-0",
+   "name": "Khulumani FM 95.0",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://khulumanistream.zbc.co.zw:8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://khulumanistream.zbc.co.zw:8000/radio.mp3"
+   ],
+   "website": "https://www.khulumanifm.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_national-fm-zbc",
+   "name": "National FM ZBC",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://mainradiostreaming.zbc.co.zw:8020/national.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://mainradiostreaming.zbc.co.zw:8020/national.mp3"
+   ],
+   "website": "https://www.nationalfm.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_antenna-web-harare",
+   "name": "Antenna Web Harare",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebHarare",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebHarare"
+   ]
+  },
+  {
+   "id": "tuno:top_zw_hero-radio-zimbabwe",
+   "name": "Hero Radio (Zimbabwe)",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/zimbabwe.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/zimbabwe.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_zw_263-hit-radio",
+   "name": "263 HiT Radio",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://vega.streamerr.co/listen/263_hit_radio_/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://vega.streamerr.co/listen/263_hit_radio_/radio.mp3",
+    "https://altair.streamerr.co/8180/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://altair.streamerr.co/8180/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.263hitradio.co.uk/"
+  },
+  {
+   "id": "tuno:top_zw_diamond-fm",
+   "name": "Diamond FM",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/160_medium.aac",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://edge.iono.fm/xice/160_medium.aac"
+   ],
+   "website": "https://diamondfm.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_classic-263",
+   "name": "Classic 263",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://mainradiostreaming.zbc.co.zw:8030/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://mainradiostreaming.zbc.co.zw:8030/radio.mp3"
+   ],
+   "website": "https://classic263.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_luzibo-radio",
+   "name": "Luzibo Radio",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://backupradiostreaming.zbc.co.zw:8010/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://backupradiostreaming.zbc.co.zw:8010/radio.mp3"
+   ],
+   "website": "https://www.luziboradio.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_platinum-fm",
+   "name": "Platinum FM",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.iono.fm/xice/161_medium.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://edge.iono.fm/xice/161_medium.mp3"
+   ],
+   "website": "https://platinumfm.co.zw/"
+  },
+  {
+   "id": "tuno:top_zw_hevoi-fm",
+   "name": "Hevoi FM",
+   "type": "radio",
+   "country": "ZW",
+   "category": "music",
+   "stream": {
+    "url": "https://s27.myradiostream.com:17754/;;",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://s27.myradiostream.com:17754/;;"
+   ],
+   "website": "https://hevoifm.co.zw/"
+  }
+ ]
+}

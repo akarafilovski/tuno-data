@@ -1,0 +1,42 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_to_antenna-web-tonga",
+   "name": "Antenna Web Tonga",
+   "type": "radio",
+   "country": "TO",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Tonga",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Tonga",
+    "https://halo.streamerr.co/listen/italiavera/stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://halo.streamerr.co/listen/italiavera/stream.mp3",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_to_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "TO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  }
+ ]
+}

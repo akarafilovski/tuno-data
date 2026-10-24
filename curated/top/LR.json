@@ -1,0 +1,80 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_lr_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "LR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_lr_hits-radio",
+   "name": "Hits Radio",
+   "type": "radio",
+   "country": "LR",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.radio.co/sada156669/listen",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://s4.radio.co/sada156669/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_lr_antenna-web-monrovia",
+   "name": "Antenna Web Monrovia",
+   "type": "radio",
+   "country": "LR",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebMonrovia",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebMonrovia"
+   ]
+  },
+  {
+   "id": "tuno:top_lr_gospel-body-radio",
+   "name": "Gospel Body Radio",
+   "type": "radio",
+   "country": "LR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/4hux2hzh74zuv",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.radiojar.com/4hux2hzh74zuv"
+   ]
+  },
+  {
+   "id": "tuno:top_lr_hero-radio-liberia",
+   "name": "Hero Radio (Liberia)",
+   "type": "radio",
+   "country": "LR",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/liberia.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/liberia.mp3"
+   ]
+  }
+ ]
+}

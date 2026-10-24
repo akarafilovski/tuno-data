@@ -1,0 +1,508 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gp_guadeloupe-1ere",
+   "name": "Guadeloupe 1ère",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://guadeloupe.ice.infomaniak.ch/guadeloupe-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://guadeloupe.ice.infomaniak.ch/guadeloupe-128.mp3"
+   ],
+   "website": "https://la1ere.francetvinfo.fr/guadeloupe/"
+  },
+  {
+   "id": "tuno:top_gp_bel-radio-guadeloupe",
+   "name": "Bel'Radio - Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://n01-eu1.rcs.revma.com/9b1a2gyspwzuv?rj-ttl=5&rj-tok=AAABoVtTbt4ANewRiDrH3n98kw",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://n01-eu1.rcs.revma.com/9b1a2gyspwzuv?rj-ttl=5&rj-tok=AAABoVtTbt4ANewRiDrH3n98kw",
+    "https://stream.rcs.revma.com/a7qacprtpwzuv",
+    "http://n06a-eu.rcs.revma.com/a7qacprtpwzuv?"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/a7qacprtpwzuv",
+     "format": "icecast"
+    },
+    {
+     "url": "http://n06a-eu.rcs.revma.com/a7qacprtpwzuv?",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://belradio.fr/"
+  },
+  {
+   "id": "tuno:top_gp_rci-guadeloupe",
+   "name": "RCI Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/v4hf7bwspwzuv",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream.rcs.revma.com/v4hf7bwspwzuv",
+    "https://n10-eu.rcs.revma.com/v4hf7bwspwzuv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://n10-eu.rcs.revma.com/v4hf7bwspwzuv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rci.fm/guadeloupe/"
+  },
+  {
+   "id": "tuno:top_gp_radio-sofaia-altitude",
+   "name": "RADIO SOFAIA ALTITUDE",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://radiosofaia.ice.infomaniak.ch/radiosofaia-high.aac",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radiosofaia.ice.infomaniak.ch/radiosofaia-high.aac"
+   ],
+   "website": "https://www.radio-sofaia-altitude.com/"
+  },
+  {
+   "id": "tuno:top_gp_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gp_antilles-media-kompa-gold",
+   "name": "Antilles Média - Kompa Gold",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://antillesmedia.pro-fhi.net/antillesmediakompa",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://antillesmedia.pro-fhi.net/antillesmediakompa"
+   ],
+   "website": "https://ca.radio.net/s/antillesmediakompa"
+  },
+  {
+   "id": "tuno:top_gp_trace-fm",
+   "name": "TRACE FM",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/nv1hu7644k0uv",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.rcs.revma.com/nv1hu7644k0uv"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_nostalgie-guadeloupe",
+   "name": "Nostalgie Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "http://go.2stream.net/nostalgiegp",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://go.2stream.net/nostalgiegp"
+   ],
+   "website": "https://www.nostalgiedom.fr/"
+  },
+  {
+   "id": "tuno:top_gp_steevy-fm-guadeloupe",
+   "name": "Steevy FM - Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioking.io/steevy-fm3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://play.radioking.io/steevy-fm3"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_nrj-guadeloupe",
+   "name": "NRJ guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/ou4w6dhtd2ko",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/ou4w6dhtd2ko"
+   ],
+   "website": "https://nrjantilles.com/"
+  },
+  {
+   "id": "tuno:top_gp_radio-confiance",
+   "name": "Radio Confiance",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://usa10.fastcast4u.com:3070/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://usa10.fastcast4u.com:3070/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_radio-transat",
+   "name": "Radio Transat",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://n03-eu1.rcs.revma.com/dy09pqzctwzuv?rj-ttl=5&rj-tok=AAABoVtTsF0AbgmutkLtgheUuw",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://n03-eu1.rcs.revma.com/dy09pqzctwzuv?rj-ttl=5&rj-tok=AAABoVtTsF0AbgmutkLtgheUuw",
+    "https://stream.rcs.revma.com/dy09pqzctwzuv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/dy09pqzctwzuv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiotransat.fm/"
+  },
+  {
+   "id": "tuno:top_gp_radio-souffle-de-vie",
+   "name": "Radio Souffle de vie",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.rsv-gpe.info/radio/8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.rsv-gpe.info/radio/8000/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_cherie-fm-guadeloupe",
+   "name": "Chérie FM Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://maxxi.studio/hls/cheriefmgp/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://maxxi.studio/hls/cheriefmgp/live.m3u8",
+    "https://maxxi.studio/listen/cheriefmgp/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://maxxi.studio/listen/cheriefmgp/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://cheriefmantilles.fr/"
+  },
+  {
+   "id": "tuno:top_gp_millenium-guadeloupe",
+   "name": "Millenium Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/154186/stream/194791",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://listen.radioking.com/radio/154186/stream/194791"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_saphir-fm-89-4",
+   "name": "Saphir Fm 89.4",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "http://saphirfm.ice.infomaniak.ch/saphirfm-192.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://saphirfm.ice.infomaniak.ch/saphirfm-192.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_maxxi-guadeloupe",
+   "name": "MAXXI Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://maxxi.studio/hls/maxximq/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://maxxi.studio/hls/maxximq/live.m3u8",
+    "https://maxxi.studio/listen/maxxigp/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://maxxi.studio/listen/maxxigp/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://maxxi.fm/"
+  },
+  {
+   "id": "tuno:top_gp_massabielle",
+   "name": "Massabielle",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.catholique-guadeloupe.org/radio-massabielle.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://radio.catholique-guadeloupe.org/radio-massabielle.mp3"
+   ],
+   "website": "https://www.catholique-guadeloupe.org/75-radio-catholique-massabielle-guadeloupe.htm"
+  },
+  {
+   "id": "tuno:top_gp_rfm-guadeloupe",
+   "name": "RFM Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "http://163.172.96.134:8090/;stream.qtl",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://163.172.96.134:8090/;stream.qtl"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_dj-patos-radio",
+   "name": "Dj Patos Radio",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio10.pro-fhi.net/radio/9067/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radio10.pro-fhi.net/radio/9067/stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_haute-tension",
+   "name": "Haute Tension",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://haute-tension.ice.infomaniak.ch/haute-tension-high.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://haute-tension.ice.infomaniak.ch/haute-tension-high.mp3"
+   ],
+   "website": "https://rhtguadeloupe.fr/"
+  },
+  {
+   "id": "tuno:top_gp_mega-fm-guadeloupe",
+   "name": "Mega fm Guadeloupe",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://ecmanager4.pro-fhi.net:2815/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://ecmanager4.pro-fhi.net:2815/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_madras",
+   "name": "Madras",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://2stream.net/mfmradio-128",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://2stream.net/mfmradio-128"
+   ],
+   "website": "https://www.madrasfm.tv/"
+  },
+  {
+   "id": "tuno:top_gp_rht-guadeloupe-radio-haute-tension",
+   "name": "Rht Guadeloupe-radio Haute Tension",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "http://haute-tension.ice.infomaniak.ch/haute-tension-high.aac",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://haute-tension.ice.infomaniak.ch/haute-tension-high.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_radyo-kotkarayib",
+   "name": "Radyo Kotkarayib",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/378136/stream/428791",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://listen.radioking.com/radio/378136/stream/428791"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_kapest",
+   "name": "Kapest",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/310886/stream/357983",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://listen.radioking.com/radio/310886/stream/357983"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_ksi-lindo",
+   "name": "Ksi Lindo",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/378022/stream/428665",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://listen.radioking.com/radio/378022/stream/428665"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_antenna-web-basse-terre",
+   "name": "Antenna Web Basse-Terre",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "http://tinyurl.com/AntennaWebBasse-Terre",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://tinyurl.com/AntennaWebBasse-Terre"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_open-groove-radio",
+   "name": "Open Groove Radio",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/716966/stream/782657",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://listen.radioking.com/radio/716966/stream/782657"
+   ]
+  },
+  {
+   "id": "tuno:top_gp_l-fm",
+   "name": "L Fm",
+   "type": "radio",
+   "country": "GP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/168556/stream/209845",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://listen.radioking.com/radio/168556/stream/209845"
+   ]
+  }
+ ]
+}

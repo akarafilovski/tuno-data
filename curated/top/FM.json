@@ -1,0 +1,50 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_fm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "FM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_fm_bible-baptist-radio-chuuk",
+   "name": "Bible Baptist Radio Chuuk",
+   "type": "radio",
+   "country": "FM",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/s25a6afba9/listen",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streaming.radio.co/s25a6afba9/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_fm_antenna-web-palikir",
+   "name": "Antenna Web Palikir",
+   "type": "radio",
+   "country": "FM",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Palikir",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Palikir"
+   ]
+  }
+ ]
+}

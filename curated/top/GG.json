@@ -1,0 +1,81 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gg_riduna-radio-com",
+   "name": "Riduna-radio.com",
+   "type": "radio",
+   "country": "GG",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio.co/sa70b464db/listen",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.radio.co/sa70b464db/listen"
+   ],
+   "website": "https://www.riduna-radio.com/"
+  },
+  {
+   "id": "tuno:top_gg_aw-saint-andrew",
+   "name": "AW Saint Andrew",
+   "type": "radio",
+   "country": "GG",
+   "category": "music",
+   "stream": {
+    "url": "https://guernsey.radioantennaweb.com/SaintAndrew",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://guernsey.radioantennaweb.com/SaintAndrew"
+   ]
+  },
+  {
+   "id": "tuno:top_gg_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gg_gnetradio",
+   "name": "GNetRadio",
+   "type": "radio",
+   "country": "GG",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/s3508e02d2/listen",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s2.radio.co/s3508e02d2/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_gg_jubilee-hospital-radio",
+   "name": "Jubilee Hospital Radio",
+   "type": "radio",
+   "country": "GG",
+   "category": "music",
+   "stream": {
+    "url": "https://jubileehr.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://jubileehr.radioca.st/stream"
+   ]
+  }
+ ]
+}

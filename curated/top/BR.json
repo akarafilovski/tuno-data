@@ -1,0 +1,500 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_br_radio-antena-1-fm-94-7-sao-paulo",
+   "name": "Rádio Antena 1 - FM 94.7 São Paulo",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://antenaone.crossradio.com.br/stream/1;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://antenaone.crossradio.com.br/stream/1;"
+   ],
+   "website": "https://www.antena1.com.br/"
+  },
+  {
+   "id": "tuno:top_br_gold-instrumental",
+   "name": "GOLD INSTRUMENTAL",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://centova2.svdns.com.br:20038/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://centova2.svdns.com.br:20038/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_br_mix-fm",
+   "name": "Mix FM",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_SAOPAULOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_SAOPAULOAAC.aac?dist=onlineradiobox"
+   ],
+   "website": "https://radiomixfm.com.br/"
+  },
+  {
+   "id": "tuno:top_br_radio-bandeirantes",
+   "name": "Rádio Bandeirantes",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RadioBandeirantesAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RadioBandeirantesAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_br_radio-gaucha",
+   "name": "Rádio Gaúcha",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8"
+   ],
+   "website": "https://radiogauchafm.com/"
+  },
+  {
+   "id": "tuno:top_br_antena-1",
+   "name": "Antena 1",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://antenaone.crossradio.com.br/stream/1;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://antenaone.crossradio.com.br/stream/1;"
+   ]
+  },
+  {
+   "id": "tuno:top_br_radio-cidade",
+   "name": "Rádio Cidade",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOCIDADEAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOCIDADEAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_br_radio-flashback-fm",
+   "name": "Rádio Flashback Fm",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://stm1.matutos.com.br:8008/;?1792519784406",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stm1.matutos.com.br:8008/;?1792519784406",
+    "http://hd.matutos.com.br:8008/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://hd.matutos.com.br:8008/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://flashbackfmst.com.br/"
+  },
+  {
+   "id": "tuno:top_br_smooth-jazz-lounge",
+   "name": "Smooth Jazz Lounge",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio4.vip-radios.fm:18060/stream-128kmp3-SmoothJazzLounge",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://radio4.vip-radios.fm:18060/stream-128kmp3-SmoothJazzLounge"
+   ],
+   "website": "https://www.vip-radios.fm/station/smooth-jazz-lounge"
+  },
+  {
+   "id": "tuno:top_br_fm-o-dia",
+   "name": "FM O Dia",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.livespanel.com:20000/live",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streaming.livespanel.com:20000/live"
+   ],
+   "website": "http://www.fmodia.com.br/"
+  },
+  {
+   "id": "tuno:top_br_antena-1-fm-103-7-rio-de-janeiro",
+   "name": "Antena 1 FM 103.7 Rio de Janeiro",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://antena1campanha.crossradio.com.br:29090/camp2;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://antena1campanha.crossradio.com.br:29090/camp2;",
+    "http://a1rj.streams.com.br:7801/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://a1rj.streams.com.br:7801/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.antena1rio.com.br/"
+  },
+  {
+   "id": "tuno:top_br_bandnews-fm-sp",
+   "name": "bandnews fm sp",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC.m3u8"
+   ],
+   "website": "https://www.band.uol.com.br/radios/bandnews-fm/sao-paulo"
+  },
+  {
+   "id": "tuno:top_br_alpha-fm",
+   "name": "Alpha FM",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.fabricahost.com.br/alphafmsp",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://ice.fabricahost.com.br/alphafmsp"
+   ]
+  },
+  {
+   "id": "tuno:top_br_radio-saudade-fm-99-7",
+   "name": "Rádio Saudade FM 99.7",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SAUDADE_FMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SAUDADE_FMAAC.aac"
+   ],
+   "website": "https://www.saudadefm.com.br/"
+  },
+  {
+   "id": "tuno:top_br_saudade-fm",
+   "name": "Saudade FM",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SAUDADE_FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SAUDADE_FMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_br_jb-fm",
+   "name": "JB FM",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "http://24453.live.streamtheworld.com:3690/JBFMAAC_SC",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://24453.live.streamtheworld.com:3690/JBFMAAC_SC",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/JBFMAAC1.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JBFMAAC1.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://jb.fm/"
+  },
+  {
+   "id": "tuno:top_br_radio-metropolitana",
+   "name": "Rádio Metropolitana",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.fabricahost.com.br/metropolitana985sp",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://ice.fabricahost.com.br/metropolitana985sp"
+   ]
+  },
+  {
+   "id": "tuno:top_br_radio-motel",
+   "name": "Radio Motel",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://usa11.fastcast4u.com/proxy/radiomotel?mp=/stream3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://usa11.fastcast4u.com/proxy/radiomotel?mp=/stream3"
+   ]
+  },
+  {
+   "id": "tuno:top_br_radio-disco-funk-br",
+   "name": "Rádio Disco Funk BR",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming12.hstbr.net:8084/live",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://streaming12.hstbr.net:8084/live"
+   ],
+   "website": "http://discofunk.com.br/"
+  },
+  {
+   "id": "tuno:top_br_1-fm-love-classics",
+   "name": "1.FM - Love Classics",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "http://strm112.1.fm/loveclassics_mobile_mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://strm112.1.fm/loveclassics_mobile_mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_br_bons-tempos-fm",
+   "name": "Bons Tempos FM",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://server02.ouvir.radio.br:8050/stream?1792519850197",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://server02.ouvir.radio.br:8050/stream?1792519850197"
+   ],
+   "website": "https://www.radios.com.br/aovivo/bons-tempos-fm/37027"
+  },
+  {
+   "id": "tuno:top_br_radio-scalla-instrumental",
+   "name": "Rádio Scalla Instrumental",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://s01.svrdedicado.org:6782/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://s01.svrdedicado.org:6782/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_br_maquina-do-tempo-mpb-brasil",
+   "name": "Máquina do Tempo (MPB Brasil)",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "http://servidor28.brlogic.com:8032/live",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://servidor28.brlogic.com:8032/live",
+    "data:audio/mpeg;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA/+M4wAAAAAAAAAAAAEluZm8AAAAPAAAAAwAAAbAAqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV////////////////////////////////////////////AAAAAExhdmM1OC4xMwAAAAAAAAAAAAAAACQDkAAAAAAAAAGw9wrNaQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/+MYxAAAAANIAAAAAExBTUUzLjEwMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV/+MYxDsAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV/+MYxHYAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV"
+   ],
+   "website": "http://mpbmaquinatempo.minhawebradio.net/"
+  },
+  {
+   "id": "tuno:top_br_kiss-fm",
+   "name": "Kiss FM",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KISSFM_ADP.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KISSFM_ADP.m3u8?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_br_89-fm-a-radio-rock",
+   "name": "89 FM A Rádio Rock",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_89FM_ADP.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_89FM_ADP.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_br_radio-itatiaia",
+   "name": "Rádio Itatiaia",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://8903.brasilstream.com.br/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://8903.brasilstream.com.br/stream"
+   ],
+   "website": "https://www.itatiaia.com.br/"
+  },
+  {
+   "id": "tuno:top_br_bossa-jazz-brasil",
+   "name": "Bossa Jazz Brasil",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://centova5.transmissaodigital.com:20104/live",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://centova5.transmissaodigital.com:20104/live"
+   ],
+   "website": "https://bossajazzbrasil.com/"
+  },
+  {
+   "id": "tuno:top_br_radio-jbfm",
+   "name": "Rádio JBFM",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JBFMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/JBFMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_br_89-a-radio-rock",
+   "name": "89 A Radio Rock",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_89FM_ADP.aac?dist=site-89fm",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_89FM_ADP.aac?dist=site-89fm"
+   ],
+   "website": "https://www.radiorock.com.br/"
+  },
+  {
+   "id": "tuno:top_br_mgt-gospel",
+   "name": "MGT GOSPEL",
+   "type": "radio",
+   "country": "BR",
+   "category": "music",
+   "stream": {
+    "url": "https://cast.mgtradio.net/radio/8020/aac",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://cast.mgtradio.net/radio/8020/aac",
+    "https://cast.mgtradio.net/radio/8040/aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cast.mgtradio.net/radio/8040/aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.mgtradio.net/"
+  }
+ ]
+}

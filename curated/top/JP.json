@@ -1,0 +1,509 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_jp_j-pop-powerplay",
+   "name": "J-Pop Powerplay",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://kathy.torontocast.com:3560/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://kathy.torontocast.com:3560/;"
+   ]
+  },
+  {
+   "id": "tuno:top_jp_jazz-sakura-asia-dream-radio",
+   "name": "Jazz Sakura - asia DREAM radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://kathy.torontocast.com:3330/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://kathy.torontocast.com:3330/;",
+    "http://kathy.torontocast.com:3330/stream/1/?esPlayer&cb=82181.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://kathy.torontocast.com:3330/stream/1/?esPlayer&cb=82181.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://asiadreamradio.torontocast.stream/stations/en/index.html"
+  },
+  {
+   "id": "tuno:top_jp_japanimradio-music",
+   "name": "Japanimradio Music",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://japanimradio.be:8000/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://japanimradio.be:8000/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_jp_shonan-beach-fm",
+   "name": "Shonan Beach FM",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://shonanbeachfm.out.airtime.pro/shonanbeachfm_a",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://shonanbeachfm.out.airtime.pro/shonanbeachfm_a"
+   ],
+   "website": "https://www.beachfm.co.jp/"
+  },
+  {
+   "id": "tuno:top_jp_j1-hits",
+   "name": "J1 HITS",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://jenny.torontocast.com:8056/;",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://jenny.torontocast.com:8056/;",
+    "https://jenny.torontocast.com:2000/stream/J1HITS?_=184325"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://jenny.torontocast.com:2000/stream/J1HITS?_=184325",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://en.j1fm.tokyo/"
+  },
+  {
+   "id": "tuno:top_jp_super-tokio-radio",
+   "name": "Super Tokio Radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s83eb8ff39/listen",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streamer.radio.co/s83eb8ff39/listen"
+   ],
+   "website": "https://supertokio.com/"
+  },
+  {
+   "id": "tuno:top_jp_nhk-fm-tokyo",
+   "name": "NHK FM Tokyo",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://mnet.x10.mx/nhkfm.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://mnet.x10.mx/nhkfm.m3u8"
+   ],
+   "website": "https://www3.nhk.or.jp/nhkworld/"
+  },
+  {
+   "id": "tuno:top_jp_radicro-kobe",
+   "name": "RadiCro Kobe",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://radicrojapan.out.airtime.pro/radicrojapan_a",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radicrojapan.out.airtime.pro/radicrojapan_a"
+   ],
+   "website": "https://www.radicro.com/"
+  },
+  {
+   "id": "tuno:top_jp_listen-moe-jpop-vorbis",
+   "name": "Listen.Moe JPop Vorbis",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.moe/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://listen.moe/stream"
+   ],
+   "website": "https://listen.moe/"
+  },
+  {
+   "id": "tuno:top_jp_fm-kahoku",
+   "name": "FM Kahoku",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.kahoku.net:8443/;",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.kahoku.net:8443/;"
+   ]
+  },
+  {
+   "id": "tuno:top_jp_big-b-radio-jpop-station-rock",
+   "name": "Big B Radio #Jpop Station Rock",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://antares.dribbcast.com/proxy/jpop?mp=/s",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://antares.dribbcast.com/proxy/jpop?mp=/s"
+   ],
+   "website": "https://bigbradio.net/jpop"
+  },
+  {
+   "id": "tuno:top_jp_free-fm-tokyo",
+   "name": "Free FM Tokyo",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://rocafmadrid.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://rocafmadrid.radioca.st/stream",
+    "https://rocafmadrid.radioca.st/"
+   ],
+   "website": "http://freefmradio.net/"
+  },
+  {
+   "id": "tuno:top_jp_stereo-anime",
+   "name": "stereo anime",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.stereoanime.com/listen/stereoanime/128",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.stereoanime.com/listen/stereoanime/128",
+    "https://radio.stereoanime.com/listen/stereoanime/320"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.stereoanime.com/listen/stereoanime/320",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.stereoanime.com/"
+  },
+  {
+   "id": "tuno:top_jp_fred-film-radio",
+   "name": "FRED FILM RADIO",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://s10.webradio-hosting.com/proxy/fredradioen/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://s10.webradio-hosting.com/proxy/fredradioen/stream",
+    "https://s10.webradio-hosting.com/proxy/fredradiojp/stream/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s10.webradio-hosting.com/proxy/fredradiojp/stream/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.fred.fm/"
+  },
+  {
+   "id": "tuno:top_jp_retro-pc-game-music-streaming-radio",
+   "name": "Retro PC GAME MUSIC Streaming Radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://gyusyabu.ddo.jp:8000/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://gyusyabu.ddo.jp:8000/;stream.mp3"
+   ],
+   "website": "http://gyusyabu.ddo.jp/MP3/MP3.html"
+  },
+  {
+   "id": "tuno:top_jp_vocaloid-radio",
+   "name": "Vocaloid Radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://curiosity.shoutca.st:8019/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://curiosity.shoutca.st:8019/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_jp_animenfo-radio",
+   "name": "AnimeNfo Radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://justplay.stream.laut.fm/justplay",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://justplay.stream.laut.fm/justplay",
+    "http://158.69.9.92:443/;"
+   ],
+   "website": "https://radiofm.novawap.com/"
+  },
+  {
+   "id": "tuno:top_jp_gensokyo-radio",
+   "name": "Gensokyo Radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.gensokyoradio.net/1/",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.gensokyoradio.net/1/"
+   ],
+   "website": "https://gensokyoradio.net/"
+  },
+  {
+   "id": "tuno:top_jp_future-groove-fm",
+   "name": "Future Groove FM",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s4b3dafa6d/listen",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streamer.radio.co/s4b3dafa6d/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_jp_r-a-dio",
+   "name": "R/a/dio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://relay1.r-a-d.io/main.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://relay1.r-a-d.io/main.mp3",
+    "https://relay0.r-a-d.io/main.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://relay0.r-a-d.io/main.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://r-a-d.io/"
+  },
+  {
+   "id": "tuno:top_jp_box-japan-city-pop",
+   "name": "BOX : Japan City Pop - 日本のシティポップ",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://play.streamafrica.net/japancitypop",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://play.streamafrica.net/japancitypop"
+   ],
+   "website": "https://boxradio.net/"
+  },
+  {
+   "id": "tuno:top_jp_hitsujikai-radio",
+   "name": "Hitsujikai Radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/se4a8e6a93/listen",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://streaming.radio.co/se4a8e6a93/listen"
+   ],
+   "website": "https://www.hitsujikai-radio.com/"
+  },
+  {
+   "id": "tuno:top_jp_fm-kahoku-78-7-fm",
+   "name": "FM Kahoku 78.7 (FMかほく",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.kahoku.net:8000/;",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://radio.kahoku.net:8000/;",
+    "https://fm.kahoku.net/uchinada/shiosaidayori.mp3"
+   ],
+   "website": "http://fm.kahoku.net/"
+  },
+  {
+   "id": "tuno:top_jp_japan-hits-asia-dream-radio",
+   "name": "Japan Hits - asia DREAM radio",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://quincy.torontocast.com:2020/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://quincy.torontocast.com:2020/stream.mp3"
+   ],
+   "website": "https://asiadreamradio.com/"
+  },
+  {
+   "id": "tuno:top_jp_nightwave-plaza-mp3-182",
+   "name": "Nightwave Plaza MP3 182",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.plaza.one/mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://radio.plaza.one/mp3",
+    "https://radio.plaza.one/hls"
+   ],
+   "website": "https://plaza.one/"
+  },
+  {
+   "id": "tuno:top_jp_moon-mission",
+   "name": "Moon Mission",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://uk5.internet-radio.com:8306/;",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://uk5.internet-radio.com:8306/;"
+   ]
+  },
+  {
+   "id": "tuno:top_jp_nightwave-plaza-opus-96",
+   "name": "Nightwave Plaza OPUS 96",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.plaza.one/ogg",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://radio.plaza.one/ogg",
+    "http://radio.plaza.one/opus"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio.plaza.one/opus",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radio.plaza.one/"
+  },
+  {
+   "id": "tuno:top_jp_kamakura-fm",
+   "name": "Kamakura FM",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/kamakura",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream.laut.fm/kamakura",
+    "https://www.jcbasimul.com/radio/768/"
+   ],
+   "website": "https://kamakurafm.co.jp/"
+  },
+  {
+   "id": "tuno:top_jp_ottava",
+   "name": "Ottava",
+   "type": "radio",
+   "country": "JP",
+   "category": "music",
+   "stream": {
+    "url": "http://ottava2.out.airtime.pro:8000/ottava2_a",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://ottava2.out.airtime.pro:8000/ottava2_a"
+   ],
+   "website": "https://ottava.jp/"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_dj_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "DJ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_dj_monte-carlo-doualiya",
+   "name": "Monte Carlo Doualiya",
+   "type": "radio",
+   "country": "DJ",
+   "category": "music",
+   "stream": {
+    "url": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_dj_antenna-web-gibuti",
+   "name": "Antenna Web Gibuti",
+   "type": "radio",
+   "country": "DJ",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebGibuti",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebGibuti"
+   ]
+  },
+  {
+   "id": "tuno:top_dj_hero-radio-djibouti",
+   "name": "Hero Radio (Djibouti)",
+   "type": "radio",
+   "country": "DJ",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/djibouti.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/djibouti.mp3"
+   ]
+  }
+ ]
+}

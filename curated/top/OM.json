@@ -1,0 +1,221 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_om_merge-104-8",
+   "name": "Merge 104.8",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "http://uk7.internet-radio.com:8040/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://uk7.internet-radio.com:8040/stream",
+    "http://uk7.internet-radio.com:8040/"
+   ],
+   "website": "http://radiomerge.fm/merge/"
+  },
+  {
+   "id": "tuno:top_om_virgin-radio-oman",
+   "name": "Virgin Radio Oman",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "http://uk5.internet-radio.com:8115/stream?type=http&nocache=234",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://uk5.internet-radio.com:8115/stream?type=http&nocache=234"
+   ],
+   "website": "http://virginradiooman.com/"
+  },
+  {
+   "id": "tuno:top_om_hala-fm",
+   "name": "Hala FM",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-halafm.sharp-stream.com/halafmmid.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen-halafm.sharp-stream.com/halafmmid.mp3",
+    "https://listen-halafm.sharp-stream.com/halafmlow.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen-halafm.sharp-stream.com/halafmlow.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://halafm.com/"
+  },
+  {
+   "id": "tuno:top_om_al-wisal",
+   "name": "Al Wisal",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "http://uk7.internet-radio.com:8067/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://uk7.internet-radio.com:8067/stream",
+    "http://uk7.internet-radio.com:8067/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://uk7.internet-radio.com:8067/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://wisal.fm/cms"
+  },
+  {
+   "id": "tuno:top_om_hi-fm-oman",
+   "name": "Hi FM Oman",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-hifmtemp.sharp-stream.com/hifmmid.mp3?_=143737",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://listen-hifmtemp.sharp-stream.com/hifmmid.mp3?_=143737"
+   ],
+   "website": "https://www.hifmradio.com/"
+  },
+  {
+   "id": "tuno:top_om_quran-program-oman",
+   "name": "Quran Program Oman   إذاعة-القرآن-الكريم",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/playlist.m3u8?stime=20261013155642&etime=20261020222322&token=0b09697912fbc7de19aed",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/playlist.m3u8?stime=20261013155642&etime=20261020222322&token=0b09697912fbc7de19aed",
+    "https://partwota.cdn.mgmlcdn.com/quranrdoorg/quranrdo.stream_aac/chunklist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://partwota.cdn.mgmlcdn.com/quranrdoorg/quranrdo.stream_aac/chunklist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://ayn.om/"
+  },
+  {
+   "id": "tuno:top_om_shabiba-fm",
+   "name": "Shabiba FM",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.shabiba.fm:9010/shabiba",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.shabiba.fm:9010/shabiba"
+   ]
+  },
+  {
+   "id": "tuno:top_om_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_om_t-fm",
+   "name": "T FM",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.timesofoman.fm:9018/tfm",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://stream.timesofoman.fm:9018/tfm"
+   ]
+  },
+  {
+   "id": "tuno:top_om_jazzwave-radio",
+   "name": "JazzWave Radio",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://servidor19-3.brlogic.com:7126/live?source=website",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://servidor19-3.brlogic.com:7126/live?source=website",
+    "https://servidor19.brlogic.com:7126/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://servidor19.brlogic.com:7126/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://jazzwaveradio.webradiosite.com/"
+  },
+  {
+   "id": "tuno:top_om_so-radio-oman",
+   "name": "So Radio Oman",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-soradio.sharp-stream.com/soradio_high.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://listen-soradio.sharp-stream.com/soradio_high.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_om_antenna-web-mascate",
+   "name": "Antenna Web Mascate",
+   "type": "radio",
+   "country": "OM",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Mascate",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Mascate"
+   ]
+  }
+ ]
+}

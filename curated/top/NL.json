@@ -1,0 +1,634 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_nl_npo-radio-1",
+   "name": "NPO Radio 1",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.omroep.nl/radio1-sb-mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://icecast.omroep.nl/radio1-sb-mp3",
+    "http://icecast.omroep.nl/radio1-bb-mp3",
+    "http://icecast.omroep.nl/radio1-sb-aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.omroep.nl/radio1-bb-mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://icecast.omroep.nl/radio1-sb-aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio1.nl/"
+  },
+  {
+   "id": "tuno:top_nl_slam",
+   "name": "SLAM!",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SLAM_AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SLAM_AAC.aac?dist=onlineradiobox",
+    "http://stream.slam.nl/slam",
+    "http://streaming.slam.nl/slam_aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.slam.nl/slam",
+     "format": "icecast"
+    },
+    {
+     "url": "http://streaming.slam.nl/slam_aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.slam.nl/"
+  },
+  {
+   "id": "tuno:top_nl_radio-10",
+   "name": "Radio 10",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10.mp3?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/radio10.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/radio10.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radio10.nl/"
+  },
+  {
+   "id": "tuno:top_nl_arrow-classic-rock",
+   "name": "Arrow Classic Rock",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.player.arrow.nl/arrow",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.player.arrow.nl/arrow",
+    "http://stream.gal.io/arrow",
+    "https://stream.player.arrow.nl/arrowcr"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.gal.io/arrow",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.player.arrow.nl/arrowcr",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.arrow.nl/"
+  },
+  {
+   "id": "tuno:top_nl_soul-radio",
+   "name": "Soul Radio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SOULRADIO_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SOULRADIO_SC?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_nl_sky-radio",
+   "name": "Sky Radio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIOAAC.aac?dist=onlineradiobox",
+    "https://www.mp3streams.nl/zender/skyradio/stream/8-mp3-128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.mp3streams.nl/zender/skyradio/stream/8-mp3-128",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.skyradio.nl/"
+  },
+  {
+   "id": "tuno:top_nl_radio-538",
+   "name": "Radio 538",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://25683.live.streamtheworld.com/RADIO538.mp3?dist=538_webx&ttag=talpa_consent%3A0&tdsdk=js-2.9&swm=true&pname=TDSdk&pversion=2.9&banners=none&gdpr=1&gdpr_consent=CQsYtYAQsYtYAAcABBNLC1FwAAAAAAAAAChQAAAAAADBIBAAFQAQQAyADQAJgAfgBCAEcAXmOgEgAVABBADIANAAmABiAD8ARaAjgCOgLzIQAgAxAEcJQBAAmABiAI4AvMpAKAAqACCAGQAaABMADEAH4Ad4BFoCOAI6AvMtABAI4AAA.YAAAAAAAAAAA.IHmQGQAKgAgABkADSAJgAnABiADcAH4AQEAgwCEAEYAOMAd4BFoCOAI6ATsArIBnAD-AImARSAvMBewDGQHmAAAA&burst-time=15&sbmid=20b802a4-3524-485a-970b-6e67bf4bd103",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://25683.live.streamtheworld.com/RADIO538.mp3?dist=538_webx&ttag=talpa_consent%3A0&tdsdk=js-2.9&swm=true&pname=TDSdk&pversion=2.9&banners=none&gdpr=1&gdpr_consent=CQsYtYAQsYtYAAcABBNLC1FwAAAAAAAAAChQAAAAAADBIBAAFQAQQAyADQAJgAfgBCAEcAXmOgEgAVABBADIANAAmABiAD8ARaAjgCOgLzIQAgAxAEcJQBAAmABiAI4AvMpAKAAqACCAGQAaABMADEAH4Ad4BFoCOAI6AvMtABAI4AAA.YAAAAAAAAAAA.IHmQGQAKgAgABkADSAJgAnABiADcAH4AQEAgwCEAEYAOMAd4BFoCOAI6ATsArIBnAD-AImARSAvMBewDGQHmAAAA&burst-time=15&sbmid=20b802a4-3524-485a-970b-6e67bf4bd103",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538.mp3?dist=onlineradiobox"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538.mp3?dist=onlineradiobox",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.538.nl/"
+  },
+  {
+   "id": "tuno:top_nl_npo-radio-2",
+   "name": "NPO Radio 2",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.omroep.nl/radio2-bb-mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://icecast.omroep.nl/radio2-bb-mp3",
+    "https://icecast.omroep.nl/radio2-bb-aac",
+    "http://icecast.omroep.nl/radio2-sb-aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://icecast.omroep.nl/radio2-bb-aac",
+     "format": "icecast"
+    },
+    {
+     "url": "http://icecast.omroep.nl/radio2-sb-aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.nporadio2.nl/"
+  },
+  {
+   "id": "tuno:top_nl_npo-radio-5",
+   "name": "NPO Radio 5",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.omroep.nl/radio5-bb-mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://icecast.omroep.nl/radio5-bb-mp3"
+   ],
+   "website": "https://www.nporadio5.nl/"
+  },
+  {
+   "id": "tuno:top_nl_q-music",
+   "name": "Q Music",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.dpgmedia.cloud/redirect/qmusic_nl/mp3?source=onlineradiobox&=player=rp_external&gdpr=1&gdpr_consent=",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streams.radio.dpgmedia.cloud/redirect/qmusic_nl/mp3?source=onlineradiobox&=player=rp_external&gdpr=1&gdpr_consent=",
+    "https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_96.mp3",
+    "https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_high.aac?aw_0_1st.playerId=redirect"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_96.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_high.aac?aw_0_1st.playerId=redirect",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://qmusic.nl/live"
+  },
+  {
+   "id": "tuno:top_nl_intense-radio-we-love-dance-256k",
+   "name": "Intense Radio - We love Dance 256K",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://secure.live-streams.nl/main",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://secure.live-streams.nl/main"
+   ],
+   "website": "https://www.intenseradio.net/"
+  },
+  {
+   "id": "tuno:top_nl_radio-veronica",
+   "name": "Radio Veronica",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/VERONICAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/VERONICAAAC.aac?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/VERONICA",
+    "https://19993.live.streamtheworld.com/VERONICA_SC"
+   ],
+   "website": "https://www.radioveronica.nl/"
+  },
+  {
+   "id": "tuno:top_nl_joe",
+   "name": "Joe",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.dpgmedia.cloud/redirect/joe_nl/mp3?source=onlineradiobox&=player=rp_external&gdpr=1&gdpr_consent=",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://streams.radio.dpgmedia.cloud/redirect/joe_nl/mp3?source=onlineradiobox&=player=rp_external&gdpr=1&gdpr_consent=",
+    "https://stream.joe.nl/joe/aachigh"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.joe.nl/joe/aachigh",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://joe.nl/"
+  },
+  {
+   "id": "tuno:top_nl_npo-klassiek",
+   "name": "NPO Klassiek",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.omroep.nl/radio4-bb-mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://icecast.omroep.nl/radio4-bb-mp3"
+   ],
+   "website": "https://www.nporadio4.nl/"
+  },
+  {
+   "id": "tuno:top_nl_hi-on-line-lounge-radio",
+   "name": "Hi On Line Lounge Radio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaserv33.live-streams.nl:8036/live?1792518543060",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://mediaserv33.live-streams.nl:8036/live?1792518543060",
+    "http://mediaserv33.live-streams.nl:8036/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://mediaserv33.live-streams.nl:8036/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.hionline.eu/lounge/"
+  },
+  {
+   "id": "tuno:top_nl_deep-radio",
+   "name": "Deep Radio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.deep.radio/sd",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.deep.radio/sd",
+    "http://stream.deep.radio/hd"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.deep.radio/hd",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://deep.radio/"
+  },
+  {
+   "id": "tuno:top_nl_classicnl",
+   "name": "Classicnl",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.classic.nl/classicnl.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.classic.nl/classicnl.mp3",
+    "https://classic.nl/streams/?s=main"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://classic.nl/streams/?s=main",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://classic.nl/"
+  },
+  {
+   "id": "tuno:top_nl_jazz-radio-by-maestro-swingin",
+   "name": "Jazz Radio by Maestro - Swingin'",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.jazzradiobymaestro.com/swingin",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.jazzradiobymaestro.com/swingin"
+   ]
+  },
+  {
+   "id": "tuno:top_nl_pinguin-indie",
+   "name": "Pinguin Indie",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.pinguinradio.com/PinguinClassics192.mp3?ngsw-bypass",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streams.pinguinradio.com/PinguinClassics192.mp3?ngsw-bypass",
+    "http://streams.pinguinradio.com/PinguinRadio192.mp3",
+    "https://streams.pinguinradio.com/PinguinRadio320.mp3?ngsw-bypass"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streams.pinguinradio.com/PinguinRadio192.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://streams.pinguinradio.com/PinguinRadio320.mp3?ngsw-bypass",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://pinguinradio.com/"
+  },
+  {
+   "id": "tuno:top_nl_radio-continu",
+   "name": "Radio Continu",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiocontinu.nl/radiocontinu",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://stream.radiocontinu.nl/radiocontinu",
+    "https://radiocontinu.nl/wp-content/uploads/2026/10/KEVIN-PARE.mp4?_=1"
+   ],
+   "website": "http://www.radiocontinu.nl/"
+  },
+  {
+   "id": "tuno:top_nl_baars-classic-rock",
+   "name": "Baars Classic Rock",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.iceradio.nl/baarsclassicrock",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://stream.iceradio.nl/baarsclassicrock",
+    "http://server-66.stream-server.nl:8840/"
+   ],
+   "website": "http://www.baarsclassicrock.nl/"
+  },
+  {
+   "id": "tuno:top_nl_housebeats-fm",
+   "name": "Housebeats FM",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaserv38.live-streams.nl:18048/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://mediaserv38.live-streams.nl:18048/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_nl_concertzender-baroque",
+   "name": "Concertzender Baroque",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "http://streams.greenhost.nl:8080/barok",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://streams.greenhost.nl:8080/barok"
+   ],
+   "website": "https://www.concertzender.nl/programma_genre/oude-muziek/"
+  },
+  {
+   "id": "tuno:top_nl_kink",
+   "name": "KINK",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://29043.live.streamtheworld.com/KINKAAC2.aac?sbmid=5adb8632-2137-4a62-8230-2b16482e98e7",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://29043.live.streamtheworld.com/KINKAAC2.aac?sbmid=5adb8632-2137-4a62-8230-2b16482e98e7",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/KINK.mp3",
+    "https://29033.live.streamtheworld.com/KINKAAC2_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KINK.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://29033.live.streamtheworld.com/KINKAAC2_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://kink.nl/"
+  },
+  {
+   "id": "tuno:top_nl_pinguin-radio",
+   "name": "Pinguin Radio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.pinguinradio.com/PinguinRadio192.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://streams.pinguinradio.com/PinguinRadio192.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_nl_radionl",
+   "name": "RADIONL",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://tv02.cdn.snkmedia.nl/radionltv/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://tv02.cdn.snkmedia.nl/radionltv/master.m3u8",
+    "https://stream.radionl.fm/radionl"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.radionl.fm/radionl",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radionl.fm/home/"
+  },
+  {
+   "id": "tuno:top_nl_fantasy-italo-dance-90s-radio",
+   "name": "Fantasy Italo Dance 90s radio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://mscp2.live-streams.nl:8152/italodance",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://mscp2.live-streams.nl:8152/italodance"
+   ],
+   "website": "https://italo.dance/"
+  },
+  {
+   "id": "tuno:top_nl_amsterdam-funk-channel",
+   "name": "Amsterdam Funk Channel",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://live.afc.fm/tunein/afcfm",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://live.afc.fm/tunein/afcfm"
+   ]
+  },
+  {
+   "id": "tuno:top_nl_fantasy-radio",
+   "name": "Fantasy Radio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://italo.italo.nu/",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://italo.italo.nu/"
+   ]
+  },
+  {
+   "id": "tuno:top_nl_bnr-nieuwsradio",
+   "name": "BNR Nieuwsradio",
+   "type": "radio",
+   "country": "NL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.bnr.nl/bnr_mp3_128_20",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://stream.bnr.nl/bnr_mp3_128_20",
+    "https://stream.bnr.nl/bnr_mp3_128_01",
+    "https://stream.bnr.nl/bnr_aac_96_20"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.bnr.nl/bnr_mp3_128_01",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.bnr.nl/bnr_aac_96_20",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.bnr.nl/"
+  }
+ ]
+}

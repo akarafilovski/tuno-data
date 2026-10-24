@@ -1,0 +1,536 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ci_radio-trace-fm-cote-d-ivoire",
+   "name": "Radio Trace Fm Côte d'Ivoire",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/wvx3tf5q54zuv",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.rcs.revma.com/wvx3tf5q54zuv",
+    "http://stream.trace.tv/trace_fm_ci-midfi.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.trace.tv/trace_fm_ci-midfi.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://trace.ci/"
+  },
+  {
+   "id": "tuno:top_ci_life-radio-cote-d-ivoire",
+   "name": "LIFE RADIO Côte D'Ivoire",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.asurahosting.com/proxy/life/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://cast4.asurahosting.com/proxy/life/stream"
+   ],
+   "website": "https://liferadio.ci/"
+  },
+  {
+   "id": "tuno:top_ci_skyrock-abidjan",
+   "name": "Skyrock Abidjan",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.skyrock.net/s/abidjan_aac_64k",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://icecast.skyrock.net/s/abidjan_aac_64k",
+    "https://skyrock.fm/#"
+   ],
+   "website": "https://skyrock.fm/"
+  },
+  {
+   "id": "tuno:top_ci_africa-radio-abidjan",
+   "name": "Africa Radio Abidjan",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://african1paris.ice.infomaniak.ch/african1paris-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://african1paris.ice.infomaniak.ch/african1paris-128.mp3",
+    "https://africaradio.ice.infomaniak.ch/abidjan128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://africaradio.ice.infomaniak.ch/abidjan128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.africaradio.com/"
+  },
+  {
+   "id": "tuno:top_ci_radio-frequence-vie",
+   "name": "Radio Frequence Vie",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.galcom.org:8443/RadioFrequenceVie",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://streamer.galcom.org:8443/RadioFrequenceVie",
+    "http://51.158.97.118:8000/frequencevie.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://51.158.97.118:8000/frequencevie.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiofrequencevie.com/"
+  },
+  {
+   "id": "tuno:top_ci_afrobeat-international",
+   "name": "Afrobeat international",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/397789/stream/449770",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen.radioking.com/radio/397789/stream/449770",
+    "https://listen.radioking.com/radio/688134/stream/752823"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.radioking.com/radio/688134/stream/752823",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fr.welove.radio/radio/afrobeat-inter/"
+  },
+  {
+   "id": "tuno:top_ci_radio-jam",
+   "name": "Radio Jam",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/61201/stream/98566",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://listen.radioking.com/radio/61201/stream/98566"
+   ],
+   "website": "http://www.radiojam.biz/"
+  },
+  {
+   "id": "tuno:top_ci_la-voix-de-l-esperance",
+   "name": "LA VOIX DE L'ESPERANCE",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://jookiidigit.radioca.st/rve.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://jookiidigit.radioca.st/rve.mp3"
+   ],
+   "website": "https://lavoixdelesperance.org/"
+  },
+  {
+   "id": "tuno:top_ci_radio-maria-ivory-coast",
+   "name": "Radio Maria Ivory Coast",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp6.com/proxy/rmcosta?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://dreamsiteradiocp6.com/proxy/rmcosta?mp=/stream"
+   ],
+   "website": "https://www.radiomaria.ci/"
+  },
+  {
+   "id": "tuno:top_ci_radioagonshu",
+   "name": "RadioAgonshu",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream10.vestaradio.com/RadioAgonshu",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream10.vestaradio.com/RadioAgonshu"
+   ],
+   "website": "https://bouddhismeagonshu.org/"
+  },
+  {
+   "id": "tuno:top_ci_radio-espoir",
+   "name": "Radio Espoir",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://radioespoir.ice.infomaniak.ch/radioespoir.mp3?ver=180271",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radioespoir.ice.infomaniak.ch/radioespoir.mp3?ver=180271",
+    "https://dc1.serverse.com/proxy/radioespoir/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dc1.serverse.com/proxy/radioespoir/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioespoir.ci/"
+  },
+  {
+   "id": "tuno:top_ci_les-messagers-du-christ",
+   "name": "Les Messagers Du Christ",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/725756/stream/791726",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://listen.radioking.com/radio/725756/stream/791726"
+   ],
+   "website": "https://www.messagersduchrist.com/"
+  },
+  {
+   "id": "tuno:top_ci_fer-fm",
+   "name": "FER FM",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/865681/stream/935596",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://listen.radioking.com/radio/865681/stream/935596"
+   ],
+   "website": "https://fer.ci/"
+  },
+  {
+   "id": "tuno:top_ci_radio-khadim",
+   "name": "radio khadim",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://free.rcast.net/73857",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://free.rcast.net/73857",
+    "https://stream1.rcast.net/73857"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream1.rcast.net/73857",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_ci_adoration-matinale",
+   "name": "Adoration Matinale",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/9442/stream/19811",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://listen.radioking.com/radio/9442/stream/19811"
+   ],
+   "website": "http://www.radioadorationmatinale.ci/"
+  },
+  {
+   "id": "tuno:top_ci_radio-nostalgie",
+   "name": "Radio Nostalgie",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "http://213.136.96.14:8000/nostalgie2.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://213.136.96.14:8000/nostalgie2.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ci_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ci_radio-pulsar-katiola",
+   "name": "Radio Pulsar Katiola",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream10.vestaradio.com/RADIO-PULSAR-KATIOLA",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream10.vestaradio.com/RADIO-PULSAR-KATIOLA"
+   ],
+   "website": "https://radiopulsarkatiola.vestaradio.eu/"
+  },
+  {
+   "id": "tuno:top_ci_wavemaster-radio",
+   "name": "WaveMaster Radio",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://wavemaster.diskstation.me/listen/wavemaster_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://wavemaster.diskstation.me/listen/wavemaster_radio/radio.mp3"
+   ],
+   "website": "https://wavemaster.diskstation.me/public/wavemaster_radio"
+  },
+  {
+   "id": "tuno:top_ci_gem-radio-africa",
+   "name": "GEM Radio Africa",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://online.geyetv.com/hls/stream.m3u8",
+    "format": "hls"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://online.geyetv.com/hls/stream.m3u8",
+    "https://radio.geyetv.com:8010/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.geyetv.com:8010/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://geyetv.com/"
+  },
+  {
+   "id": "tuno:top_ci_radio-grace-espoir",
+   "name": "Radio Grâce-Espoir",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioking.io/radio-grace-espoir",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://play.radioking.io/radio-grace-espoir",
+    "https://listen.radioking.com/radio/281332/stream/327067"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.radioking.com/radio/281332/stream/327067",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radio.graceespoir.ci/"
+  },
+  {
+   "id": "tuno:top_ci_horizon-fm-ci",
+   "name": "HORIZON FM CI",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://sky.doscast.com/proxy/firmin/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://sky.doscast.com/proxy/firmin/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ci_la-voix-de-la-diaspora",
+   "name": "La Voix de la Diaspora",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/9892/stream/63760",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://listen.radioking.com/radio/9892/stream/63760"
+   ],
+   "website": "https://lavoixdeladiaspora.fr/"
+  },
+  {
+   "id": "tuno:top_ci_acm-radio",
+   "name": "ACM Radio",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/670561/stream/734653?c=%231186b2&c2=%23ffffff&f=h&i=1&p=1&s=1&li=1&popup=1&autoplay=1&plc=NaN&h=undefined&l=470&v=2",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://listen.radioking.com/radio/670561/stream/734653?c=%231186b2&c2=%23ffffff&f=h&i=1&p=1&s=1&li=1&popup=1&autoplay=1&plc=NaN&h=undefined&l=470&v=2"
+   ],
+   "website": "https://eglisecma.ci/nouveau/acm-radio/"
+  },
+  {
+   "id": "tuno:top_ci_hip-hop-radio-cote-d-ivoire",
+   "name": "Hip-Hop Radio côte d'Ivoire",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/732974/stream/799223",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://listen.radioking.com/radio/732974/stream/799223"
+   ]
+  },
+  {
+   "id": "tuno:top_ci_la-voix-du-bon-berger",
+   "name": "La Voix Du Bon Berger",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/695570/stream/760439",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://listen.radioking.com/radio/695570/stream/760439",
+    "https://api.radioking.io/radio/695570/listen.m3u"
+   ],
+   "website": "https://link.radioking.com/lavoixdubonberger"
+  },
+  {
+   "id": "tuno:top_ci_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8112/;?",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8112/;?"
+   ]
+  },
+  {
+   "id": "tuno:top_ci_attecoube-fm",
+   "name": "Attécoubé FM",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/708230/stream/773741",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://listen.radioking.com/radio/708230/stream/773741"
+   ],
+   "website": "http://mairieattecoube.ci/"
+  },
+  {
+   "id": "tuno:top_ci_radio-generation",
+   "name": "Radio Génération",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/322058/stream/369815",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://listen.radioking.com/radio/322058/stream/369815"
+   ],
+   "website": "https://radio.fondationmarieesther.ci/"
+  },
+  {
+   "id": "tuno:top_ci_hits-1-abidjan",
+   "name": "Hits 1 Abidjan",
+   "type": "radio",
+   "country": "CI",
+   "category": "music",
+   "stream": {
+    "url": "https://hits1-audiomediaradio.radioca.st/hits1?abidjan",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://hits1-audiomediaradio.radioca.st/hits1?abidjan"
+   ]
+  }
+ ]
+}

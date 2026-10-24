@@ -1,0 +1,114 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_tm_hayatmix",
+   "name": "Hayatmix",
+   "type": "radio",
+   "country": "TM",
+   "category": "music",
+   "stream": {
+    "url": "https://hayatmix.yayin.com.tr/mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://hayatmix.yayin.com.tr/mp3",
+    "http://hayatmix.net/;yayin.mp3/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://hayatmix.net/;yayin.mp3/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hayatmix.com/remix/"
+  },
+  {
+   "id": "tuno:top_tm_the-holy-quran-by-sheikh-mahmoud-al-husari",
+   "name": "The Holy Quran  by Sheikh Mahmoud Al-Husari",
+   "type": "radio",
+   "country": "TM",
+   "category": "music",
+   "stream": {
+    "url": "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh"
+   ],
+   "website": "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh"
+  },
+  {
+   "id": "tuno:top_tm_tv24",
+   "name": "Tv24",
+   "type": "radio",
+   "country": "TM",
+   "category": "music",
+   "stream": {
+    "url": "https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8"
+   ],
+   "website": "https://turkmedya.com.tr/"
+  },
+  {
+   "id": "tuno:top_tm_ugur-ozturk",
+   "name": "Uğur Öztürk",
+   "type": "radio",
+   "country": "TM",
+   "category": "music",
+   "stream": {
+    "url": "https://eu8.fastcast4u.com/proxy/ugur4129?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://eu8.fastcast4u.com/proxy/ugur4129?mp=/1"
+   ],
+   "website": "https://www.turkuradyo.info/"
+  },
+  {
+   "id": "tuno:top_tm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "TM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_tm_alasehir-damar-fm",
+   "name": "Alaşehir Damar FM",
+   "type": "radio",
+   "country": "TM",
+   "category": "music",
+   "stream": {
+    "url": "https://anadolu.liderhost.com.tr:8358/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://anadolu.liderhost.com.tr:8358/;",
+    "http://178.32.4.127:8358/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://178.32.4.127:8358/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://online-radio.eu/radio/144671-ala%C5%9Fehir-damar-fm"
+  }
+ ]
+}

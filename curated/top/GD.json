@@ -1,0 +1,310 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gd_star-fm-101-9-r-n-b",
+   "name": "Star FM 101.9 R'n'B",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://starchild.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://starchild.radioca.st/;"
+   ],
+   "website": "https://www.starfmgrenada.com/"
+  },
+  {
+   "id": "tuno:top_gd_boss-fm-grenada",
+   "name": "Boss FM Grenada",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://usa8.fastcast4u.com/proxy/bossfm2?mp=/1&1735902946442",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://usa8.fastcast4u.com/proxy/bossfm2?mp=/1&1735902946442",
+    "https://www.bossfmgrenada.net/wp-content/uploads/2022/09/Grenreal-Advertisement-1.mp4?_=1"
+   ],
+   "website": "https://www.bossfmgrenada.net/"
+  },
+  {
+   "id": "tuno:top_gd_wee-fm-93-3-93-9-grenada",
+   "name": "Wee FM 93.3/93.9 - Grenada",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://usa8.fastcast4u.com/proxy/weefm2?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://usa8.fastcast4u.com/proxy/weefm2?mp=/1"
+   ],
+   "website": "https://www.weefmgrenada.com/"
+  },
+  {
+   "id": "tuno:top_gd_vibes-101-3-fm",
+   "name": "Vibes 101.3 FM",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "http://s2.viastreaming.net:6395/;",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://s2.viastreaming.net:6395/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_hot-shotz-radio-grenada",
+   "name": "Hot Shotz Radio - Grenada",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "http://usa1.fastcast4u.com:3292/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://usa1.fastcast4u.com:3292/stream"
+   ],
+   "website": "http://hotshotzradio.com/"
+  },
+  {
+   "id": "tuno:top_gd_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gd_live-wire-hd-grenada",
+   "name": "LIve Wire HD Grenada",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://caribspy.com/proxy/livewire/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://caribspy.com/proxy/livewire/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_real-fm-grenada",
+   "name": "Real FM Grenada",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "http://198.245.61.103:8162/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://198.245.61.103:8162/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_we-hide-out-fm",
+   "name": "We Hide Out FM",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://s19.myradiostream.com/:18234/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://s19.myradiostream.com/:18234/listen.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_star-fm-101-9-grenada",
+   "name": "Star FM 101.9 Grenada",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://starchild.radioca.st/;?1600338881839",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://starchild.radioca.st/;?1600338881839"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_soca-switch-xtra",
+   "name": "Soca Switch Xtra",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "http://centova87.shoutcastservices.com:8168/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://centova87.shoutcastservices.com:8168/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_radio-saint-barth",
+   "name": "Radio Saint-Barth",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "http://2stream.dyndns.org:8000/rsb",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://2stream.dyndns.org:8000/rsb"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_hot-shotz-radio",
+   "name": "Hot Shotz Radio",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "http://usa1.fastcast4u.com:3292/stream/;",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://usa1.fastcast4u.com:3292/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_spiceislander-radio",
+   "name": "Spiceislander Radio",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://fire.doscast.com/8002/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://fire.doscast.com/8002/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_jwonder-fm",
+   "name": "Jwonder fm",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://c42.radioboss.fm/stream/21",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://c42.radioboss.fm/stream/21"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_fuzion-88-9-fm-grenada",
+   "name": "Fuzion 88.9 FM Grenada",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://fire.doscast.com/8006/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://fire.doscast.com/8006/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_radio-kiss-caribbean",
+   "name": "Radio Kiss Caribbean",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.myradiostream.com:12266/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://s4.myradiostream.com:12266/;stream/1"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_grenada-entertainment-online-radio",
+   "name": "Grenada Entertainment Online Radio",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s5618dff78/listen",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streamer.radio.co/s5618dff78/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_urban-hits",
+   "name": "Urban Hits",
+   "type": "radio",
+   "country": "GD",
+   "category": "music",
+   "stream": {
+    "url": "http://198.245.61.103:8059/;",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://198.245.61.103:8059/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gd_good-news-catholic-radio-99-5fm",
+   "name": "Good News Catholic Radio 99.5FM",
+   "type": "radio",
+   "country": "GD",
+   "category": "talk",
+   "stream": {
+    "url": "https://stream.expo69.net/8016/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://stream.expo69.net/8016/stream"
+   ]
+  }
+ ]
+}

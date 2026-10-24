@@ -1,0 +1,512 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cn_chinese-music-world",
+   "name": "Chinese Music World",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.chinesemusicworld.com/chinesemusic.ogg?_=1",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.chinesemusicworld.com/chinesemusic.ogg?_=1",
+    "https://radio.chinesemusicworld.com/chinesemusic.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.chinesemusicworld.com/chinesemusic.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://chinesemusicworld.com/"
+  },
+  {
+   "id": "tuno:top_cn_cctv-13",
+   "name": "CCTV-13新闻伴音",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://piccpndali.v.myalicdn.com/audio/cctv1_2.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://piccpndali.v.myalicdn.com/audio/cctv1_2.m3u8"
+   ],
+   "website": "https://www.cctv.com/"
+  },
+  {
+   "id": "tuno:top_cn_500",
+   "name": "华语金曲500首",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qtfm.cn/live/5022308/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://lhttp.qtfm.cn/live/5022308/64k.mp3"
+   ],
+   "website": "https://m.qingting.fm/"
+  },
+  {
+   "id": "tuno:top_cn_hit-fm",
+   "name": "Hit FM",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/15318703/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/15318703/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_cnr-1",
+   "name": "CNR-1 中国之声",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qtfm.cn/live/15318317/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://lhttp.qtfm.cn/live/15318317/64k.mp3",
+    "http://ngcdn002.cnr.cn/live/zgzs/index.m3u8",
+    "http://zbbf2.ahbztv.com/live/4f3.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://ngcdn002.cnr.cn/live/zgzs/index.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "http://zbbf2.ahbztv.com/live/4f3.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.cnr.cn/"
+  },
+  {
+   "id": "tuno:top_cn_fred-film-radio",
+   "name": "FRED FILM RADIO",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://s10.webradio-hosting.com/proxy/fredradioen/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://s10.webradio-hosting.com/proxy/fredradioen/stream",
+    "https://s10.webradio-hosting.com/proxy/fredradiocn/stream/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s10.webradio-hosting.com/proxy/fredradiocn/stream/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.fred.fm/"
+  },
+  {
+   "id": "tuno:top_cn_station",
+   "name": "凤凰卫视资讯台",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://playtv-live.ifeng.com/live/06OLEEWQKN4_audio.m3u8"
+   ],
+   "website": "https://www.ifeng.com/"
+  },
+  {
+   "id": "tuno:top_cn_station_8",
+   "name": "怀集音乐之声",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/4804/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/4804/64k.mp3"
+   ],
+   "website": "http://www.hj0758.cn/"
+  },
+  {
+   "id": "tuno:top_cn_lamrim-tibetan-buddhist-internet-radio",
+   "name": "LamRim Tibetan Buddhist Internet Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://199.180.72.2:9097/lamrim",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://199.180.72.2:9097/lamrim"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_station_10",
+   "name": "国际新闻",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qtfm.cn/live/20500172/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://lhttp.qtfm.cn/live/20500172/64k.mp3"
+   ],
+   "website": "http://www.ajmide.com/"
+  },
+  {
+   "id": "tuno:top_cn_station_11",
+   "name": "广东音乐之声",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qtfm.cn/live/1260/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://lhttp.qtfm.cn/live/1260/64k.mp3"
+   ],
+   "website": "https://m.gdtv.cn/"
+  },
+  {
+   "id": "tuno:top_cn_guangdong-radio",
+   "name": "Guangdong Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://lhttp.qingting.fm/live/1260/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://lhttp.qingting.fm/live/1260/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_kiss-china",
+   "name": "Kiss China",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-kiss1006dm.sharp-stream.com/kisschina.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://listen-kiss1006dm.sharp-stream.com/kisschina.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_station_14",
+   "name": "天籁之音 - 经典正流行",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.hndt.com/live/xinwen/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://stream.hndt.com/live/xinwen/playlist.m3u8",
+    "http://play-radio-stream3.hndt.com/now/WUBA5hW2/chunklist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://play-radio-stream3.hndt.com/now/WUBA5hW2/chunklist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.hndt.com/"
+  },
+  {
+   "id": "tuno:top_cn_shanghai-fm-radio",
+   "name": "Shanghai FM Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/274/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/274/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_asiafm",
+   "name": "AsiaFM高清音乐台",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://goldfm.cn:8000/goldfm",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://goldfm.cn:8000/goldfm"
+   ],
+   "website": "http://www.asiafm.net/index.php#page1"
+  },
+  {
+   "id": "tuno:top_cn_station_17",
+   "name": "清晨音乐台",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp-hw.qtfm.cn/live/1223/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://lhttp-hw.qtfm.cn/live/1223/64k.mp3"
+   ],
+   "website": "https://m.weibo.cn/u/2022851417"
+  },
+  {
+   "id": "tuno:top_cn_love-radio",
+   "name": "Love Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/273/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/273/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_station_19",
+   "name": "上海新闻广播",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://lhttp.qingting.fm/live/270/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://lhttp.qingting.fm/live/270/64k.mp3"
+   ],
+   "website": "https://www.smg.cn/review/index.html"
+  },
+  {
+   "id": "tuno:top_cn_rthk-radio-1",
+   "name": "RTHK Radio-1",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://stm.rthk.hk/radio1",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://stm.rthk.hk/radio1"
+   ],
+   "website": "http://www.rthk.hk/"
+  },
+  {
+   "id": "tuno:top_cn_beijing-art-radio",
+   "name": "Beijing Art Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://lhttp.qingting.fm/live/333/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://lhttp.qingting.fm/live/333/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_cri-china-plus-radio",
+   "name": "CRI英语资讯广播 China Plus Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://sk.cri.cn/am846.m3u8",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://sk.cri.cn/am846.m3u8"
+   ],
+   "website": "http://www.cri.cn/"
+  },
+  {
+   "id": "tuno:top_cn_true-life-in-god-radio-chinese",
+   "name": "True Life in God Radio Chinese",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.tligradio.org/listen/chinese/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://stream.tligradio.org/listen/chinese/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_station_24",
+   "name": "北京交通广播",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/336/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/336/64k.mp3"
+   ],
+   "website": "https://www.rbc.cn/index.shtml"
+  },
+  {
+   "id": "tuno:top_cn_zhejiang-music-radio",
+   "name": "Zhejiang Music Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/4866/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/4866/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_station_26",
+   "name": "江苏经典流行音乐广播",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://lzlive.vojs.cn/2wtSfrS/92/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://lzlive.vojs.cn/2wtSfrS/92/live.m3u8",
+    "https://lhttp.qtfm.cn/live/4938/64k.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://lhttp.qtfm.cn/live/4938/64k.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.vojs.cn/2014new/c/g/"
+  },
+  {
+   "id": "tuno:top_cn_rbc",
+   "name": "RBC",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://lhttp.qingting.fm/live/345/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://lhttp.qingting.fm/live/345/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_station_28",
+   "name": "第一财经",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://lhttp.qingting.fm/live/276/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://lhttp.qingting.fm/live/276/64k.mp3"
+   ],
+   "website": "https://m.yicai.com/"
+  },
+  {
+   "id": "tuno:top_cn_changsha-music-radio",
+   "name": "Changsha Music Radio",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "http://lhttp.qingting.fm/live/4930/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://lhttp.qingting.fm/live/4930/64k.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cn_antenna-web-tibet",
+   "name": "Antenna Web Tibet",
+   "type": "radio",
+   "country": "CN",
+   "category": "music",
+   "stream": {
+    "url": "https://china.radioantennaweb.com/Lhasa",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://china.radioantennaweb.com/Lhasa"
+   ]
+  }
+ ]
+}

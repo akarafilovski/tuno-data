@@ -1,0 +1,88 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_va_radio-vaticana-italia",
+   "name": "Radio Vaticana Italia",
+   "type": "radio",
+   "country": "VA",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.vaticannews.va/stream-en",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.vaticannews.va/stream-en",
+    "https://radio.vaticannews.va/stream-it"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.vaticannews.va/stream-it",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.vaticannews.va/"
+  },
+  {
+   "id": "tuno:top_va_vatican-news-english",
+   "name": "Vatican News - English",
+   "type": "radio",
+   "country": "VA",
+   "category": "talk",
+   "stream": {
+    "url": "https://radio.vaticannews.va/stream-en",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.vaticannews.va/stream-en"
+   ]
+  },
+  {
+   "id": "tuno:top_va_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "VA",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_va_antenna-web-vola-in-vaticano",
+   "name": "Antenna Web vola in Vaticano",
+   "type": "radio",
+   "country": "VA",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebvaticano",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebvaticano"
+   ]
+  },
+  {
+   "id": "tuno:top_va_hero-radio-holy-see",
+   "name": "Hero Radio (Holy See)",
+   "type": "radio",
+   "country": "VA",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/holysee.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/holysee.mp3"
+   ]
+  }
+ ]
+}

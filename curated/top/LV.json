@@ -1,0 +1,550 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_lv_top-radio",
+   "name": "TOP radio",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.advailo.com/topradio/hls/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.advailo.com/topradio/hls/playlist.m3u8",
+    "https://live.advailo.com/topradio/live/playlist.m3u8",
+    "https://topradio.live.advailo.com/topradio/mp3/icecast.audio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.advailo.com/topradio/live/playlist.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "https://topradio.live.advailo.com/topradio/mp3/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://topradio.lv/"
+  },
+  {
+   "id": "tuno:top_lv_radio-skonto",
+   "name": "Radio Skonto",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radioskonto.lv:8443/stereo",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.radioskonto.lv:8443/stereo"
+   ],
+   "website": "https://stream.radioskonto.lv:8443/stereo"
+  },
+  {
+   "id": "tuno:top_lv_radio-swh",
+   "name": "Radio SWH",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radioswh.lv:8443/swhmp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://live.radioswh.lv:8443/swhmp3",
+    "http://80.232.162.149:8000/swh96mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://80.232.162.149:8000/swh96mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioswh.lv/"
+  },
+  {
+   "id": "tuno:top_lv_latvijas-radio-1-riga",
+   "name": "Latvijas Radio 1 Riga",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://muste.latvijasradio.lv/shoutcast/mp4:lr1a.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://muste.latvijasradio.lv/shoutcast/mp4:lr1a.stream/playlist.m3u8"
+   ],
+   "website": "http://lr1.lsm.lv/lv/lr1/"
+  },
+  {
+   "id": "tuno:top_lv_new-dance-radio",
+   "name": "New Dance Radio",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.newdanceradio.lv/mp3_192",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.newdanceradio.lv/mp3_192"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_retro-fm-latvija",
+   "name": "Retro FM Latvija",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://29073.live.streamtheworld.com/RETRO_FM.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://29073.live.streamtheworld.com/RETRO_FM.mp3",
+    "https://stream.ehrhiti.lv:8000/Stream_RE.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.ehrhiti.lv:8000/Stream_RE.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.ehr.fm/radio/retro-fm-latvija"
+  },
+  {
+   "id": "tuno:top_lv_xo-fm",
+   "name": "XO FM",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.xo.fm/xofm128",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://live.xo.fm/xofm128",
+    "https://live.xo.fm/xofm256"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.xo.fm/xofm256",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://xo.fm/"
+  },
+  {
+   "id": "tuno:top_lv_nordic-chillout-radio",
+   "name": "Nordic Chillout Radio",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/672094/stream/736255",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://listen.radioking.com/radio/672094/stream/736255",
+    "https://play.radioking.io/nordic-chillout-radio/736489"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://play.radioking.io/nordic-chillout-radio/736489",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.nordichilloutradio.com/"
+  },
+  {
+   "id": "tuno:top_lv_european-hit-radio",
+   "name": "European Hit Radio",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/EHRAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/EHRAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_european-hit-radio-superhits",
+   "name": "European Hit Radio - SuperHits",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.europeanhitradio.com:8000/Stream_21.aac",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://stream.europeanhitradio.com:8000/Stream_21.aac"
+   ],
+   "website": "http://www.ehrhiti.lv/"
+  },
+  {
+   "id": "tuno:top_lv_alise-plus",
+   "name": "Alise Plus",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "http://fm2inet.aliseplus.lv:8000/",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://fm2inet.aliseplus.lv:8000/"
+   ],
+   "website": "http://aliseplus.lv/"
+  },
+  {
+   "id": "tuno:top_lv_retro-fm-disco",
+   "name": "Retro FM Disco",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://22653.live.streamtheworld.com/RETRO_FM_LATVIJA_DISCO.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://22653.live.streamtheworld.com/RETRO_FM_LATVIJA_DISCO.mp3"
+   ],
+   "website": "https://retrofm.lv/"
+  },
+  {
+   "id": "tuno:top_lv_lounge-fm",
+   "name": "Lounge FM",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.loungefm.lv:8443/lounge",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.loungefm.lv:8443/lounge"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_radio-melodija",
+   "name": "Radio Melodija",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.relaxfm.lv/08",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://live.relaxfm.lv/08"
+   ],
+   "website": "https://radiomelodija.lv/"
+  },
+  {
+   "id": "tuno:top_lv_radio-energy-lv-russian",
+   "name": "Radio ENERGY.LV - Russian",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://www.radioenergy.lv/listen/hit/radio.mp3?t=1792522010705",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://www.radioenergy.lv/listen/hit/radio.mp3?t=1792522010705",
+    "http://radio1.radioenergy.lv:8000/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio1.radioenergy.lv:8000/",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioenergy.lv/"
+  },
+  {
+   "id": "tuno:top_lv_european-hit-radio-russkie-hiti",
+   "name": "European Hit Radio - Russkie Hiti",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.europeanhitradio.com:8000/khr.aac",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://stream.europeanhitradio.com:8000/khr.aac"
+   ],
+   "website": "http://www.russkiehiti.lv/"
+  },
+  {
+   "id": "tuno:top_lv_relax-fm-latvija",
+   "name": "Relax FM Latvija",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.relaxfm.lv/02",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://live.relaxfm.lv/02"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_station",
+   "name": "Авторадио Латвия",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.relaxfm.lv/03",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://live.relaxfm.lv/03"
+   ],
+   "website": "http://avtoradio.lv/"
+  },
+  {
+   "id": "tuno:top_lv_latvijas-radio-lr2",
+   "name": "Latvijas Radio - LR2",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://muste.latvijasradio.lv/shoutcast/mp4:lr2a.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://muste.latvijasradio.lv/shoutcast/mp4:lr2a.stream/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_radio-roks",
+   "name": "Radio Roks",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.relaxfm.lv/06",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://live.relaxfm.lv/06"
+   ],
+   "website": "https://radioroks.lv/"
+  },
+  {
+   "id": "tuno:top_lv_radio-energy-russian-radio",
+   "name": "Radio Energy - Russian Radio",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "http://radioenergy.lv:9000/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://radioenergy.lv:9000/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_your-city-radio",
+   "name": "Your City Radio",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://c28.radioboss.fm:18234/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://c28.radioboss.fm:18234/stream",
+    "https://c34.radioboss.fm:8234/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://c34.radioboss.fm:8234/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://yourcityradio.com/"
+  },
+  {
+   "id": "tuno:top_lv_radio-marija-latvija",
+   "name": "Radio Marija Latvija",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmlatvia2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmlatvia2?mp=/stream",
+    "https://dreamsiteradiocp2.com/proxy/rmlatvia?mp=/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dreamsiteradiocp2.com/proxy/rmlatvia?mp=/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rml.lv/"
+  },
+  {
+   "id": "tuno:top_lv_xradio",
+   "name": "Xradio",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.xradio.vip/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://radio.xradio.vip/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_radio-talsi-electronic",
+   "name": "Radio Talsi .:: Electronic ::.",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.kuums.lv:5555/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://radio.kuums.lv:5555/stream",
+    "http://kuums.lv:6555/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://kuums.lv:6555/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radio.kuums.lv/"
+  },
+  {
+   "id": "tuno:top_lv_latvijas-radio-lr1",
+   "name": "Latvijas Radio - LR1",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://wlrz.latvijasradio.lv/liveALR1/mp4:lr1.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://wlrz.latvijasradio.lv/liveALR1/mp4:lr1.stream/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_radio-tev",
+   "name": "Radio TEV",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiotev.lv:8443/radiov",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream.radiotev.lv:8443/radiov"
+   ],
+   "website": "https://www.radiotev.lv/"
+  },
+  {
+   "id": "tuno:top_lv_mix-fm-102-7",
+   "name": "Mix FM 102.7",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.relaxfm.lv/07",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://live.relaxfm.lv/07"
+   ]
+  },
+  {
+   "id": "tuno:top_lv_radio-swh-rock",
+   "name": "Radio SWH Rock",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radioswh.lv:8443/rockmp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://live.radioswh.lv:8443/rockmp3",
+    "http://80.232.162.149:8000/rock96mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://80.232.162.149:8000/rock96mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioswhrock.lv/"
+  },
+  {
+   "id": "tuno:top_lv_star-fm",
+   "name": "Star Fm",
+   "type": "radio",
+   "country": "LV",
+   "category": "music",
+   "stream": {
+    "url": "http://starfm.live.advailo.com/audio/mp3/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://starfm.live.advailo.com/audio/mp3/icecast.audio"
+   ],
+   "website": "http://starfm.skaties.lv/"
+  }
+ ]
+}

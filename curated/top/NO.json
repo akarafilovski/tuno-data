@@ -1,0 +1,576 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_no_p9-retro",
+   "name": "P9 Retro",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p9.p4groupaudio.com/P09_MH",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://p9.p4groupaudio.com/P09_MH",
+    "https://d305qs2ieryy9t.cloudfront.net/Nyheter/P4/2026/Oktober/Nyhetsopptak_20261020_1959.mp3"
+   ],
+   "website": "https://www.p9retro.no/"
+  },
+  {
+   "id": "tuno:top_no_p5-hits",
+   "name": "P5 Hits",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p5.p4groupaudio.com/P05_AM",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://p5.p4groupaudio.com/P05_AM",
+    "https://p5.p4groupaudio.com/P05_MM",
+    "https://d305qs2ieryy9t.cloudfront.net/Nyheter/P4/2026/Oktober/Nyhetsopptak_20261020_1959.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://p5.p4groupaudio.com/P05_MM",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.p5.no/"
+  },
+  {
+   "id": "tuno:top_no_radio-norge",
+   "name": "Radio Norge",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerno.sharp-stream.com/radionorge_no_mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://live-bauerno.sharp-stream.com/radionorge_no_mp3"
+   ],
+   "website": "https://radioplay.no/radio-norge/"
+  },
+  {
+   "id": "tuno:top_no_metal-express-radio",
+   "name": "Metal Express Radio",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://s39.myradiostream.com/11590/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s39.myradiostream.com/11590/listen.mp3",
+    "http://s39.myradiostream.com:11590/;",
+    "http://s39.myradiostream.com:11590/listen.m4a"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://s39.myradiostream.com:11590/;",
+     "format": "icecast"
+    },
+    {
+     "url": "http://s39.myradiostream.com:11590/listen.m4a",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.metalexpressradio.com/"
+  },
+  {
+   "id": "tuno:top_no_1fm",
+   "name": "1FM",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://lyd.1fm.no/1fm_hq",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://lyd.1fm.no/1fm_hq"
+   ]
+  },
+  {
+   "id": "tuno:top_no_p8-pop",
+   "name": "P8 Pop",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p8.p4groupaudio.com/P08_AM?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.lmt=1&args=web_01",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://p8.p4groupaudio.com/P08_AM?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.lmt=1&args=web_01",
+    "https://p8.p4groupaudio.com/P08_MM"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://p8.p4groupaudio.com/P08_MM",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.p8pop.no/"
+  },
+  {
+   "id": "tuno:top_no_p6-rock",
+   "name": "P6 Rock",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p6.p4groupaudio.com/P06_AM?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.lmt=1&args=web_01",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://p6.p4groupaudio.com/P06_AM?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.lmt=1&args=web_01",
+    "https://p6.p4groupaudio.com/P06_MM"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://p6.p4groupaudio.com/P06_MM",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://p6.no/"
+  },
+  {
+   "id": "tuno:top_no_historyradio-org",
+   "name": "historyradio.org",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.radiojar.com/6bmecgg3wd5tv",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://stream.radiojar.com/6bmecgg3wd5tv"
+   ],
+   "website": "https://historyradio.org/"
+  },
+  {
+   "id": "tuno:top_no_the-beat",
+   "name": "The Beat",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://live-nors.sharp-stream.com/nors17.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://live-nors.sharp-stream.com/nors17.mp3"
+   ],
+   "website": "https://dinlyd.no/thebeat/"
+  },
+  {
+   "id": "tuno:top_no_p5-nonstop-hits-aac-hq",
+   "name": "P5 Nonstop Hits (AAC HQ)",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p5n.p4groupaudio.com/P05AAH",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://p5n.p4groupaudio.com/P05AAH",
+    "https://d305qs2ieryy9t.cloudfront.net/Nyheter/P4/2026/Oktober/Nyhetsopptak_20261020_1959.mp3"
+   ],
+   "website": "https://www.lydenavnorge.no/p5-nonstop-hits"
+  },
+  {
+   "id": "tuno:top_no_radio-kos",
+   "name": "Radio Kos",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://lyd.radiokos.no/kos_hq",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://lyd.radiokos.no/kos_hq",
+    "https://lyd.radiokos.no/kos_lq"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://lyd.radiokos.no/kos_lq",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_no_nrj-norway",
+   "name": "NRJ Norway",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://nrj.p4groupaudio.com/NRJ_MM",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://nrj.p4groupaudio.com/NRJ_MM"
+   ]
+  },
+  {
+   "id": "tuno:top_no_1-nrk-jazz",
+   "name": "1-NRK Jazz",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://nrk-live-radio-world.akamaized.net/jazz/muxed.m3u8?adap=audio&aco=aac",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://nrk-live-radio-world.akamaized.net/jazz/muxed.m3u8?adap=audio&aco=aac",
+    "https://cdn0-47115-liveicecast0.dna.contentdelivery.net/p1_dk8_mp3_h"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cdn0-47115-liveicecast0.dna.contentdelivery.net/p1_dk8_mp3_h",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radio.nrk.no/direkte/jazz"
+  },
+  {
+   "id": "tuno:top_no_p4-norge-aac-hq",
+   "name": "P4 Norge (AAC HQ)",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p4.p4groupaudio.com/P04_AH",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://p4.p4groupaudio.com/P04_AH",
+    "https://p4.p4groupaudio.com/P04_MM",
+    "https://d305qs2ieryy9t.cloudfront.net/Nyheter/P4/2026/Oktober/Nyhetsopptak_20261020_1959.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://p4.p4groupaudio.com/P04_MM",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.p4.no/"
+  },
+  {
+   "id": "tuno:top_no_p12-hitmix-mp3-128k",
+   "name": "P12 Hitmix (MP3 128k)",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://nrj.p4groupaudio.com/NRJ_MM",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://nrj.p4groupaudio.com/NRJ_MM",
+    "https://nrj.p4groupaudio.com/NRJ_AH"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://nrj.p4groupaudio.com/NRJ_AH",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.p12hitmix.no/"
+  },
+  {
+   "id": "tuno:top_no_radio-metro",
+   "name": "Radio Metro",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://live-nors.sharp-stream.com/nors8.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://live-nors.sharp-stream.com/nors8.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_no_radio-p24-7-mix",
+   "name": "Radio P24-7 MIX",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerno.sharp-stream.com/p247mix_no_mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://live-bauerno.sharp-stream.com/p247mix_no_mp3"
+   ],
+   "website": "http://p247mix.no/"
+  },
+  {
+   "id": "tuno:top_no_nrk-p1-oslo-og-akershus",
+   "name": "NRK P1 Oslo og Akershus",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_mp3_m",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_mp3_m"
+   ]
+  },
+  {
+   "id": "tuno:top_no_radio-trndelag",
+   "name": "Radio Trøndelag",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://nettradio.radiotrondelag.no:8443/radio_trondelag",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://nettradio.radiotrondelag.no:8443/radio_trondelag"
+   ],
+   "website": "https://www.radiotrondelag.no/"
+  },
+  {
+   "id": "tuno:top_no_radio-3",
+   "name": "Radio 3",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://live-nors.sharp-stream.com/nors35.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://live-nors.sharp-stream.com/nors35.mp3",
+    "https://streaming.radio.co/se326fb378/listen"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.radio.co/se326fb378/listen",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radio316.no/"
+  },
+  {
+   "id": "tuno:top_no_p11-dance-mp3-192k",
+   "name": "P11 Dance (MP3 192k)",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p11.p4groupaudio.com/P11_MH",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://p11.p4groupaudio.com/P11_MH",
+    "https://p11.p4groupaudio.com/P11_MM",
+    "https://p11.p4groupaudio.com/P11_AH",
+    "https://d305qs2ieryy9t.cloudfront.net/Nyheter/P4/2026/Oktober/Nyhetsopptak_20261020_1959.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://p11.p4groupaudio.com/P11_MM",
+     "format": "icecast"
+    },
+    {
+     "url": "https://p11.p4groupaudio.com/P11_AH",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.p11dance.no/"
+  },
+  {
+   "id": "tuno:top_no_radio-tromso",
+   "name": "Radio Tromso",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio3.no/radiotromso",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://stream.radio3.no/radiotromso"
+   ]
+  },
+  {
+   "id": "tuno:top_no_radio-nordkapp",
+   "name": "Radio Nordkapp",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "http://audio.visto.no/radionordkapp.ogg",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://audio.visto.no/radionordkapp.ogg"
+   ],
+   "website": "http://www.radionordkapp.no/"
+  },
+  {
+   "id": "tuno:top_no_trysil-radioen",
+   "name": "Trysil Radioen",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://liasadmin.no/mAirlist/2/11_nyheter.wav",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://liasadmin.no/mAirlist/2/11_nyheter.wav",
+    "https://lyd.radioene.no/trysil.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://lyd.radioene.no/trysil.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioene.no/trysilradioen"
+  },
+  {
+   "id": "tuno:top_no_klem-fm",
+   "name": "Klem FM",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p7.p4groupaudio.com/P07_MM",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://p7.p4groupaudio.com/P07_MM",
+    "https://d305qs2ieryy9t.cloudfront.net/Nyheter/P4/2026/Oktober/Nyhetsopptak_20261020_1959.mp3"
+   ],
+   "website": "https://www.p7klem.no/"
+  },
+  {
+   "id": "tuno:top_no_p4-radio-hele-norge",
+   "name": "P4 Radio Hele Norge",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p4.p4groupaudio.com/P04_MM",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://p4.p4groupaudio.com/P04_MM"
+   ]
+  },
+  {
+   "id": "tuno:top_no_tube-tamil-fm-radio-tube",
+   "name": "Tube Tamil FM Radio டியூப் தமிழ் எஃப்.எம் பண்பலை ரேடியோtube",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "http://s2.voscast.com:12084/;stream1619441439791/1",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://s2.voscast.com:12084/;stream1619441439791/1"
+   ],
+   "website": "https://tubetamil.fm/"
+  },
+  {
+   "id": "tuno:top_no_p7-klem",
+   "name": "P7 Klem",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://p7.p4groupaudio.com/P07_AM",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://p7.p4groupaudio.com/P07_AM"
+   ]
+  },
+  {
+   "id": "tuno:top_no_radio-tnsberg",
+   "name": "Radio Tønsberg",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.radiotonsberg.no/tonsberg_hq",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://audio.radiotonsberg.no/tonsberg_hq",
+    "https://audio.jaerradiogruppen.no/tonsberg_hq"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://audio.jaerradiogruppen.no/tonsberg_hq",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiotonsberg.no/"
+  },
+  {
+   "id": "tuno:top_no_nrk-p3",
+   "name": "NRK P3",
+   "type": "radio",
+   "country": "NO",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn0-47115-liveicecast0.dna.contentdelivery.net/p3_mp3_h",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://cdn0-47115-liveicecast0.dna.contentdelivery.net/p3_mp3_h"
+   ],
+   "website": "https://www.nrk.no/"
+  }
+ ]
+}

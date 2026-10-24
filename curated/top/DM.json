@@ -1,0 +1,225 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_dm_dbs-radio",
+   "name": "DBS Radio",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://1000electrobeats.stream.laut.fm/1000electrobeats",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://1000electrobeats.stream.laut.fm/1000electrobeats",
+    "https://stream.dbcradio.net:8005/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.dbcradio.net:8005/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://dbcradio.net/"
+  },
+  {
+   "id": "tuno:top_dm_voice-of-life",
+   "name": "Voice of Life",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.comeseetv.com:8000/vol",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://cdn.comeseetv.com:8000/vol"
+   ],
+   "website": "https://voiceofliferadio.dm/"
+  },
+  {
+   "id": "tuno:top_dm_dominica-catholic-radio",
+   "name": "Dominica Catholic Radio",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.comeseetv.com:8010/dominicacatholicradio",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://cdn.comeseetv.com:8010/dominicacatholicradio"
+   ],
+   "website": "https://dominicacatholicradio.org/"
+  },
+  {
+   "id": "tuno:top_dm_radio-en-ba-mango",
+   "name": "Radio En Ba Mango",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://s10.myradiostream.com:4213/listen.mp3?0.7331338189308942",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s10.myradiostream.com:4213/listen.mp3?0.7331338189308942",
+    "https://s10.myradiostream.com/:4212/listen.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s10.myradiostream.com/:4212/listen.mp3",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_dm_fabulosa-96-7",
+   "name": "Fabulosa 96.7",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://bostonstreaminge.net:8006/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://bostonstreaminge.net:8006/stream",
+    "https://bostonstreaminge.net/8006/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://bostonstreaminge.net/8006/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fabulosafm.com/"
+  },
+  {
+   "id": "tuno:top_dm_wice-qfm",
+   "name": "Wice QFM",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic01.instainternet.com/8306/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://sonic01.instainternet.com/8306/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_dm_my-worship-fm-103-3",
+   "name": "My Worship FM 103.3",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.myworshipfm.com/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.myworshipfm.com/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_dm_vibes-radio",
+   "name": "Vibes Radio",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://vibesradio.dm/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://vibesradio.dm/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_dm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_dm_tdn-radio",
+   "name": "Tdn Radio",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic01.instainternet.com/8308/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://sonic01.instainternet.com/8308/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_dm_rvrjamz",
+   "name": "RVRJamz",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://vousstream.com/8320/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://vousstream.com/8320/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_dm_life-101-radio",
+   "name": "Life 101 Radio",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic01.instainternet.com/8310/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://sonic01.instainternet.com/8310/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_dm_gtm-radio",
+   "name": "GTM Radio",
+   "type": "radio",
+   "country": "DM",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic01.instainternet.com/8314/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://sonic01.instainternet.com/8314/stream"
+   ]
+  }
+ ]
+}

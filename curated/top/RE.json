@@ -1,0 +1,494 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_re_azot-radio",
+   "name": "Azot Radio",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://azotradio1.ice.infomaniak.ch/azotradio1-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://azotradio1.ice.infomaniak.ch/azotradio1-128.mp3"
+   ],
+   "website": "https://www.azotradio.com/"
+  },
+  {
+   "id": "tuno:top_re_antenne-reunion-radio",
+   "name": "ANTENNE REUNION RADIO",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://rtlre.ice.infomaniak.ch/rtlre-64.aac",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://rtlre.ice.infomaniak.ch/rtlre-64.aac"
+   ],
+   "website": "https://www.antennereunionradio.fr/"
+  },
+  {
+   "id": "tuno:top_re_exo-fm-reunion",
+   "name": "EXO FM Reunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://exofmreunion.ice.infomaniak.ch/exofmreunion-128.aac",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://exofmreunion.ice.infomaniak.ch/exofmreunion-128.aac",
+    "https://exofmreunion.ice.infomaniak.ch/exofmreunion-64.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://exofmreunion.ice.infomaniak.ch/exofmreunion-64.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.exofm.re/"
+  },
+  {
+   "id": "tuno:top_re_hit-fm-reunion",
+   "name": "Hit FM Reunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://hitfm.ice.infomaniak.ch/hitfm-192.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://hitfm.ice.infomaniak.ch/hitfm-192.mp3"
+   ],
+   "website": "http://www.hitfmreunion.com/hit_fm_france.html"
+  },
+  {
+   "id": "tuno:top_re_radio-waho",
+   "name": "Radio WAHO",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/214300/stream/257431",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://listen.radioking.com/radio/214300/stream/257431"
+   ],
+   "website": "https://fr.welove.radio/radio/wa-ho/"
+  },
+  {
+   "id": "tuno:top_re_reunion-la-1ere-la1er",
+   "name": "Réunion la 1ère (La1er)",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://reunion.ice.infomaniak.ch/reunion-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://reunion.ice.infomaniak.ch/reunion-128.mp3"
+   ],
+   "website": "https://la1ere.francetvinfo.fr/reunion/direct-radio/"
+  },
+  {
+   "id": "tuno:top_re_sensuelle-radio-80",
+   "name": "Sensuelle Radio 80",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.openstream.co/3119/audio",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://listen.openstream.co/3119/audio"
+   ]
+  },
+  {
+   "id": "tuno:top_re_nrj-reunion",
+   "name": "NRJ Réunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/ougonmrb92oc",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/ougonmrb92oc"
+   ],
+   "website": "http://www.nrj.re/"
+  },
+  {
+   "id": "tuno:top_re_radio-freedom-fm",
+   "name": "Radio Freedom FM",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://freedomice.streamakaci.com/freedom.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://freedomice.streamakaci.com/freedom.mp3",
+    "https://freedomice.streamakaci.com/freedom2.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://freedomice.streamakaci.com/freedom2.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.freedom.fr/"
+  },
+  {
+   "id": "tuno:top_re_cherie-fm-reunion",
+   "name": "CHÉRIE FM Réunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/ouw82wsk6j4d",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/ouw82wsk6j4d"
+   ],
+   "website": "https://www.cheriefm.re/"
+  },
+  {
+   "id": "tuno:top_re_la-reunion-1ere",
+   "name": "La Réunion 1ère",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://reunion.ice.infomaniak.ch/reunion-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://reunion.ice.infomaniak.ch/reunion-128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_re_kreolkoneksyon-radio",
+   "name": "Kreolkoneksyon Radio",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/511600/stream/569401",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://listen.radioking.com/radio/511600/stream/569401"
+   ],
+   "website": "https://www.instagram.com/kreolkoneksyon/"
+  },
+  {
+   "id": "tuno:top_re_exo-fm",
+   "name": "Exo FM",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://exofmreunion.ice.infomaniak.ch/exofmreunion-64.aac",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://exofmreunion.ice.infomaniak.ch/exofmreunion-64.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_re_sunlight-fm",
+   "name": "Sunlight FM",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/355933/stream/405250",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://listen.radioking.com/radio/355933/stream/405250"
+   ],
+   "website": "http://www.sunlightfm.fr/"
+  },
+  {
+   "id": "tuno:top_re_radio-reunion-mix",
+   "name": "Radio Reunion Mix",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://webradiostream.eu:8240/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://webradiostream.eu:8240/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_re_radio-merveille-ocean-indien",
+   "name": "Radio Merveille Océan Indien",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/694373/stream/759203",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://listen.radioking.com/radio/694373/stream/759203"
+   ],
+   "website": "https://play.radioking.io/radio-merveille-oc%C3%A9an-indien"
+  },
+  {
+   "id": "tuno:top_re_maronrfm",
+   "name": "MaronRfm",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/331087/stream/379402",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://listen.radioking.com/radio/331087/stream/379402"
+   ]
+  },
+  {
+   "id": "tuno:top_re_radio-pikan-reunion",
+   "name": "Radio Pikan Réunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream4.vestaradio.com/RADIOPIKAN?t=1792530688296",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream4.vestaradio.com/RADIOPIKAN?t=1792530688296"
+   ],
+   "website": "https://radiopikan.fr/"
+  },
+  {
+   "id": "tuno:top_re_rsl-radio",
+   "name": "RSL Radio",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://rslradio.ice.infomaniak.ch/rslradio-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://rslradio.ice.infomaniak.ch/rslradio-128.mp3"
+   ],
+   "website": "http://www.rslradio.fm/"
+  },
+  {
+   "id": "tuno:top_re_rire-et-chansons-reunion",
+   "name": "Rire et Chansons Réunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/ougoqorb92oc",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/ougoqorb92oc",
+    "https://streaming.nrjaudio.fm/oun3wuqn5eyc"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.nrjaudio.fm/oun3wuqn5eyc",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://rireetchansons.re/"
+  },
+  {
+   "id": "tuno:top_re_102fm-l-originale",
+   "name": "102FM L'Originale",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://ecmanager4.pro-fhi.net/102fmoriginale",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://ecmanager4.pro-fhi.net/102fmoriginale"
+   ]
+  },
+  {
+   "id": "tuno:top_re_top-fm-ile-de-la-reunion",
+   "name": "TOP FM (ile de la Réunion)",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://radio6.pro-fhi.net/radio/9070/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radio6.pro-fhi.net/radio/9070/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_re_rtl-reunion",
+   "name": "RTL Réunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://rtlre.ice.infomaniak.ch/rtlre-64.aac",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://rtlre.ice.infomaniak.ch/rtlre-64.aac"
+   ],
+   "website": "http://rtl.re/"
+  },
+  {
+   "id": "tuno:top_re_radio-frysson",
+   "name": "Radio Frysson",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://ecmanager.pro-fhi.net/radiofrysson2",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://ecmanager.pro-fhi.net/radiofrysson2"
+   ]
+  },
+  {
+   "id": "tuno:top_re_le-passage-du-chat-blanc",
+   "name": "Le passage du chat blanc",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioking.io/wa-ho",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://play.radioking.io/wa-ho"
+   ],
+   "website": "http://www.chatblanc.re/"
+  },
+  {
+   "id": "tuno:top_re_kif-reunion",
+   "name": "KIF Réunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://radio10.pro-fhi.net/flux-xtpkbazl/stream?ver=571280",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://radio10.pro-fhi.net/flux-xtpkbazl/stream?ver=571280"
+   ]
+  },
+  {
+   "id": "tuno:top_re_radio-oxygene-reunion",
+   "name": "Radio Oxygène Réunion",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://ecmanager2.pro-fhi.net:1535/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://ecmanager2.pro-fhi.net:1535/stream"
+   ],
+   "website": "https://oxygenereunion.re/"
+  },
+  {
+   "id": "tuno:top_re_konect-radio",
+   "name": "Konect Radio",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.konect.re/listen/konect_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://radio.konect.re/listen/konect_radio/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_re_radio-kayanm",
+   "name": "Radio Kayanm",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://hosting.studioradiomedia.fr:2245/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://hosting.studioradiomedia.fr:2245/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_re_sun-fm-97-8-102-94-1",
+   "name": "SUN FM | 97.8 | 102 | 94.1",
+   "type": "radio",
+   "country": "RE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/669814/stream/733864",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://listen.radioking.com/radio/669814/stream/733864"
+   ],
+   "website": "https://www.sunfm.yt/"
+  }
+ ]
+}

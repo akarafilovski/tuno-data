@@ -1,0 +1,309 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_rw_radio-rwanda",
+   "name": "Radio Rwanda",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.rba.co.rw:8008/rwanda",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://listen.rba.co.rw:8008/rwanda"
+   ],
+   "website": "https://rba.co.rw/"
+  },
+  {
+   "id": "tuno:top_rw_magic-fm",
+   "name": "Magic FM",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.rba.co.rw:8080/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://listen.rba.co.rw:8080/;"
+   ],
+   "website": "http://listen.rba.co.rw/radios/radiomagic.html"
+  },
+  {
+   "id": "tuno:top_rw_flash-fm-rwanda",
+   "name": "Flash FM Rwanda",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://80.241.215.175:7410/;",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://80.241.215.175:7410/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_gendana-n-igihe-radio",
+   "name": "Gendana n'Igihe Radio",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://cast.gossdhosting.com/listen/gendana_nigihe_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://cast.gossdhosting.com/listen/gendana_nigihe_radio/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_kt-radio",
+   "name": "KT RADIO",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://197.243.1.130:8006/k2dlivemp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://197.243.1.130:8006/k2dlivemp3"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_radio-maria-rwanda",
+   "name": "RADIO MARIA RWANDA",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8044/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8044/stream"
+   ],
+   "website": "http://www.radiomaria.rw/"
+  },
+  {
+   "id": "tuno:top_rw_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp2.com:8098/stream/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://dreamsiteradiocp2.com:8098/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_rw_travel-radio-live",
+   "name": "Travel Radio Live",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://travel-radio-live.radiocult.fm/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://travel-radio-live.radiocult.fm/stream"
+   ],
+   "website": "https://travelradio.live/"
+  },
+  {
+   "id": "tuno:top_rw_radio-isango-star",
+   "name": "Radio Isango Star",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://80.241.215.175:8000/;",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://80.241.215.175:8000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_104-1-play-power-fm",
+   "name": "104.1 Play Power Fm",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.casthost.net/listen/vision_radio_ltd1/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.casthost.net/listen/vision_radio_ltd1/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_radio-inteko",
+   "name": "RADIO INTEKO",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.rba.co.rw:7000/;",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://listen.rba.co.rw:7000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_fine-fm",
+   "name": "Fine Fm",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://s11.myradiostream.com/26736/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://s11.myradiostream.com/26736/listen.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_energy-radio",
+   "name": "Energy Radio",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://eu7.fastcast4u.com/proxy/energy?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://eu7.fastcast4u.com/proxy/energy?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_radio-rubavu",
+   "name": "Radio Rubavu",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.rba.co.rw:4000/;",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://listen.rba.co.rw:4000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_imbaraga-internet-radio",
+   "name": "Imbaraga Internet Radio",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://dc4.serverse.com/proxy/imbaraga/stream/;",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://dc4.serverse.com/proxy/imbaraga/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_umucyo-radio",
+   "name": "Umucyo Radio",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "http://80.241.215.175:4000/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "http://80.241.215.175:4000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_pulse-radio",
+   "name": "Pulse Radio",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcast.net/73531",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.rcast.net/73531"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_hero-radio-rwanda",
+   "name": "Hero Radio (Rwanda)",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/rwanda.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/rwanda.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_rw_royal-fm-94-3-kigali",
+   "name": "Royal Fm 94.3 Kigali",
+   "type": "radio",
+   "country": "RW",
+   "category": "music",
+   "stream": {
+    "url": "https://s11.myradiostream.com/26760/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://s11.myradiostream.com/26760/listen.mp3"
+   ]
+  }
+ ]
+}

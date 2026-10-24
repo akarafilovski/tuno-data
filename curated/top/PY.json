@@ -1,0 +1,596 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_py_abc-cardinal-730am",
+   "name": "ABC Cardinal 730AM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radio.primcast.com/249351/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://listen.radio.primcast.com/249351/stream",
+    "http://sc.abc.com.py:8000/stream",
+    "https://media.streambrothers.com:8342/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://sc.abc.com.py:8000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.abc.com.py/730am/"
+  },
+  {
+   "id": "tuno:top_py_palma-fm",
+   "name": "Palma FM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/62d81d48f5ef320830c8becf/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://mdstrm.com/audio/62d81d48f5ef320830c8becf/live.m3u8",
+    "http://rds3.desdeparaguay.net/transpalma/transpalma/playlist.m3u8",
+    "http://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/62d81d48f5ef320830c8becf"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://rds3.desdeparaguay.net/transpalma/transpalma/playlist.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "http://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/62d81d48f5ef320830c8becf",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://palma.com.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-disney-paraguay-latin",
+   "name": "Radio Disney Paraguay Latin",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PAR_ASAAC.m3u8?dist=web-radiodisney",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PAR_ASAAC.m3u8?dist=web-radiodisney",
+    "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/2dcb64ae-25e3-41ed-a4ba-827d75029616/audio/128/default.mp3/default.mp3_ywr3ahjkcgo_705a845f85386ba347fb16ee708280c7_7541287.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=2dcb64ae-25e3-41ed-a4ba-827d75029616&feed=BxoPp9d0&hash_redirect=1&x-total-bytes=7541287&x-ais-classified=streaming&x-access-range=0-&listeningSessionID=0CD_382_292__c164441f2e18f51d7801228b5874f4ea34205f39"
+   ],
+   "website": "https://py.radiodisney.com/"
+  },
+  {
+   "id": "tuno:top_py_del-este",
+   "name": "Del Este",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://proxy01.servidorenlinea.net/cdehosting/8040/;",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://proxy01.servidorenlinea.net/cdehosting/8040/;",
+    "http://radio.cdehosting.net:8040/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio.cdehosting.net:8040/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.cadenaradialdeleste.com.py/"
+  },
+  {
+   "id": "tuno:top_py_fm-popular",
+   "name": "FM Popular",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://cast1.asurahosting.com/proxy/popularnew/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://cast1.asurahosting.com/proxy/popularnew/stream",
+    "https://rds3.desdeparaguay.net/transpopular/transpopular/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rds3.desdeparaguay.net/transpopular/transpopular/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.hoy.com.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-pop",
+   "name": "Radio Pop",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rps1.radiopop.com.py:9433/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://rps1.radiopop.com.py:9433/stream"
+   ],
+   "website": "http://radiopop.com.py/"
+  },
+  {
+   "id": "tuno:top_py_farra",
+   "name": "Farra",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rfs1.farra.com.py:9433/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://rfs1.farra.com.py:9433/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_py_radio-amor-95-9fm",
+   "name": "Radio Amor 95.9FM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://copaco.desdeparaguay.net/movamor/movamor.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://copaco.desdeparaguay.net/movamor/movamor.stream/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_py_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmparaguay2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmparaguay2?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_py_tropicalia-93-9fm",
+   "name": "Tropicalia 93.9FM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rds3.desdeparaguay.net/movtropicalia/movtropicalia.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://rds3.desdeparaguay.net/movtropicalia/movtropicalia.stream/playlist.m3u8"
+   ],
+   "website": "https://www.tropicalia.com.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-obedira",
+   "name": "Radio OBEDIRA",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.wilohosting.com/8032/obedira",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio.wilohosting.com/8032/obedira",
+    "https://s17.ssl-stream.com/proxy/obedira?mp=/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s17.ssl-stream.com/proxy/obedira?mp=/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.obedira.com.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-aspen-paraguay",
+   "name": "Radio Aspen Paraguay",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rds3gen.desdeparaguay.net/aspentv/aspentv/playlist.m3u8?k=9f78aa00e99bbd6d5fd820cf3cd0a4a6a2207f494d9a3ccbbea08b76dd7ed2f5&exp=1792529567",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://rds3gen.desdeparaguay.net/aspentv/aspentv/playlist.m3u8?k=9f78aa00e99bbd6d5fd820cf3cd0a4a6a2207f494d9a3ccbbea08b76dd7ed2f5&exp=1792529567",
+    "https://tigocloud.desdeparaguay.net/movaspen/movaspen.stream/playlist.m3u8?k=cab33b6f9bb8d7e340d2a8ce8d4476e4576ce92fbc993b81666e7db795dc1da7&exp=1664206557",
+    "https://copaco.desdeparaguay.net/movaspen/movaspen.stream/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://tigocloud.desdeparaguay.net/movaspen/movaspen.stream/playlist.m3u8?k=cab33b6f9bb8d7e340d2a8ce8d4476e4576ce92fbc993b81666e7db795dc1da7&exp=1664206557",
+     "format": "hls"
+    },
+    {
+     "url": "https://copaco.desdeparaguay.net/movaspen/movaspen.stream/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.radioaspen.com.py/"
+  },
+  {
+   "id": "tuno:top_py_estacion-40",
+   "name": "Estacion 40",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/62d81cfbbfbcee0837ba1b60/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://mdstrm.com/audio/62d81cfbbfbcee0837ba1b60/live.m3u8",
+    "http://rds3.desdeparaguay.net/transestacion40/transestacion40/playlist.m3u8",
+    "http://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/62d81cfbbfbcee0837ba1b60"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://rds3.desdeparaguay.net/transestacion40/transestacion40/playlist.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "http://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/62d81cfbbfbcee0837ba1b60",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://estacion40.com.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-vibras-92-7fm",
+   "name": "Radio Vibras 92.7FM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rds3.desdeparaguay.net/movvibras/movvibras.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://rds3.desdeparaguay.net/movvibras/movvibras.stream/playlist.m3u8",
+    "https://copaco.desdeparaguay.net/movvibras/movvibras.stream/chunklist_w1786225280.m3u8?k=5d1b32cc4cfb2b10be3ecff56d8aeee5e59993cfc1a5234cc73eca0b8b7f7487&exp=1651095717"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://copaco.desdeparaguay.net/movvibras/movvibras.stream/chunklist_w1786225280.m3u8?k=5d1b32cc4cfb2b10be3ecff56d8aeee5e59993cfc1a5234cc73eca0b8b7f7487&exp=1651095717",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.vibras.com.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-universo",
+   "name": "Radio Universo",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://proxy01.servidorenlinea.net/cdehosting/8042/;",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://proxy01.servidorenlinea.net/cdehosting/8042/;"
+   ]
+  },
+  {
+   "id": "tuno:top_py_rock-pop-paraguay",
+   "name": "Rock&Pop Paraguay",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://sc.host-live.com:10943/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://sc.host-live.com:10943/stream",
+    "https://cp9.serverse.com/proxy/rockandpop/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cp9.serverse.com/proxy/rockandpop/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rockandpop.com.py/"
+  },
+  {
+   "id": "tuno:top_py_monumental-1080-am",
+   "name": "Monumental 1080 AM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/62d81ca6a459e4082203c95b/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://mdstrm.com/audio/62d81ca6a459e4082203c95b/icecast.audio",
+    "http://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/62d81ca6a459e4082203c95b"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/62d81ca6a459e4082203c95b",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://monumental.com.py/en-vivo/"
+  },
+  {
+   "id": "tuno:top_py_radio-tapiracuai-88-7-fm",
+   "name": "Radio Tapiracuai 88.7 FM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rds3.desdeparaguay.net/movtapiracuai/movtapiracuai.stream/playlist.m3u8?k=15bc869f9003e7a9255b21ba6f7179095efe5c795c9544f84bfcf32e5cf38aa6&exp=1792529581",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://rds3.desdeparaguay.net/movtapiracuai/movtapiracuai.stream/playlist.m3u8?k=15bc869f9003e7a9255b21ba6f7179095efe5c795c9544f84bfcf32e5cf38aa6&exp=1792529581",
+    "https://tigocloud.desdeparaguay.net/movtapiracuai/movtapiracuai.stream/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://tigocloud.desdeparaguay.net/movtapiracuai/movtapiracuai.stream/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.desdeparaguay.com/tapiracuai"
+  },
+  {
+   "id": "tuno:top_py_emisoras-paraguay-106-1",
+   "name": "Emisoras Paraguay 106.1",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://www.desde-paraguay.com/movemisoras2/movemisoras2.stream/playlist.m3u8?k=7aaeb33e423d58c4a432e50a7988c2fdee868a09ad29c36c30fe40d7c9bdec51&exp=1792529599",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://www.desde-paraguay.com/movemisoras2/movemisoras2.stream/playlist.m3u8?k=7aaeb33e423d58c4a432e50a7988c2fdee868a09ad29c36c30fe40d7c9bdec51&exp=1792529599",
+    "https://rds3.desdeparaguay.net/movemisoras/movemisoras.stream/chunklist_w1882715633.m3u8?k=90ba439d59a58390e5abac95530dd4becd61b4e573b237e6fe0bf9eb4a529caf&exp=1693084452"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rds3.desdeparaguay.net/movemisoras/movemisoras.stream/chunklist_w1882715633.m3u8?k=90ba439d59a58390e5abac95530dd4becd61b4e573b237e6fe0bf9eb4a529caf&exp=1693084452",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.emisorasparaguay.com.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-montecarlo",
+   "name": "Radio Montecarlo",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://cast1.asurahosting.com/proxy/montecarlonew/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://cast1.asurahosting.com/proxy/montecarlonew/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_py_radio-colmenar",
+   "name": "Radio Colmenar",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://server5.hostipy.com:2020/stream/8018/stream",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://server5.hostipy.com:2020/stream/8018/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_py_radio-maria-paraguay",
+   "name": "RADIO MARIA PARAGUAY",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8090/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8090/stream"
+   ],
+   "website": "http://radiomaria.org.py/"
+  },
+  {
+   "id": "tuno:top_py_radio-suceso",
+   "name": "Radio Suceso",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://radiohd.net:8198/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://radiohd.net:8198/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_py_fabulosa-fm-104-5",
+   "name": "Fabulosa FM 104.5",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.host.com.py/9992/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://radio.host.com.py/9992/;",
+    "https://radio.host.com.py:7034/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.host.com.py:7034/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://turadio.com.py/fabulosafm/"
+  },
+  {
+   "id": "tuno:top_py_radio-nanduti",
+   "name": "Radio Ñanduti",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://sc.host-live.com:10945/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://sc.host-live.com:10945/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_py_disney-latinoamerica",
+   "name": "Disney Latinoamérica",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rds1.radiomagic.com.py:9433/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://rds1.radiomagic.com.py:9433/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_py_exclusiva-fm-103-7",
+   "name": "Exclusiva FM 103.7",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://rds3.desdeparaguay.net/movexclusiva/movexclusiva.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://rds3.desdeparaguay.net/movexclusiva/movexclusiva.stream/playlist.m3u8"
+   ],
+   "website": "http://www.exclusiva.com.py/"
+  },
+  {
+   "id": "tuno:top_py_amabmay-fm-100-5",
+   "name": "Amabmay FM 100.5",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://cp9.serverse.com/proxy/fmamambay?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://cp9.serverse.com/proxy/fmamambay?mp=/stream",
+    "http://cp9.serverse.com:7221/amambayfm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://cp9.serverse.com:7221/amambayfm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://amambayfm.com/"
+  },
+  {
+   "id": "tuno:top_py_radio-ysapy-90-7-fm",
+   "name": "Radio Ysapy 90.7 FM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://cloud5.streaminglivehd.com:3482/live/vqj49tyuflive.m3u8",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://cloud5.streaminglivehd.com:3482/live/vqj49tyuflive.m3u8",
+    "http://streamsoymedios.com:8014/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streamsoymedios.com:8014/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radioysapy.com.py/"
+  },
+  {
+   "id": "tuno:top_py_monumental-am",
+   "name": "Monumental AM",
+   "type": "radio",
+   "country": "PY",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/62d81ca6a459e4082203c95b/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://mdstrm.com/audio/62d81ca6a459e4082203c95b/live.m3u8"
+   ]
+  }
+ ]
+}

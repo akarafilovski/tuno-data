@@ -1,0 +1,574 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cz_frekvence-1",
+   "name": "Frekvence 1",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FREKVENCE1AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/FREKVENCE1AAC.aac?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/FREKVENCE1.mp3",
+    "http://ice.actve.net/fm-frekvence1-aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FREKVENCE1.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://ice.actve.net/fm-frekvence1-aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.frekvence1.cz/"
+  },
+  {
+   "id": "tuno:top_cz_radio-kiss",
+   "name": "Radio Kiss",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/asn0cmvb938uv",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.rcs.revma.com/asn0cmvb938uv",
+    "http://icecast4.play.cz/kiss128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast4.play.cz/kiss128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.kiss98.cz/"
+  },
+  {
+   "id": "tuno:top_cz_radio-humor",
+   "name": "Radio Humor",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_HUMOR_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_HUMOR_128.mp3",
+    "https://ice3.abradio.cz/povidka128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ice3.abradio.cz/povidka128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.abradio.cz/"
+  },
+  {
+   "id": "tuno:top_cz_country-radio",
+   "name": "Country Radio",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://n08-eu2.rcs.revma.com/h7rwanvb938uv?rj-ttl=5&rj-tok=AAABoVqdgwMAUiynQH96mP-E1w",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://n08-eu2.rcs.revma.com/h7rwanvb938uv?rj-ttl=5&rj-tok=AAABoVqdgwMAUiynQH96mP-E1w",
+    "https://stream.rcs.revma.com/h7rwanvb938uv",
+    "http://icecast4.play.cz/country128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcs.revma.com/h7rwanvb938uv",
+     "format": "icecast"
+    },
+    {
+     "url": "http://icecast4.play.cz/country128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.countryradio.cz/"
+  },
+  {
+   "id": "tuno:top_cz_rock-radio",
+   "name": "Rock Radio",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_RADIO_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_RADIO_128.mp3"
+   ],
+   "website": "https://rockovyradio.cz/"
+  },
+  {
+   "id": "tuno:top_cz_evropa-2",
+   "name": "Evropa 2",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/EVROPA2AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/EVROPA2AAC.aac?dist=onlineradiobox",
+    "https://ice.actve.net/fm-evropa2-128",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/EVROPA2.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ice.actve.net/fm-evropa2-128",
+     "format": "icecast"
+    },
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/EVROPA2.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.evropa2.cz/"
+  },
+  {
+   "id": "tuno:top_cz_radio-dechovka",
+   "name": "Radio Dechovka",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "http://37.46.208.57:8000/stream-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://37.46.208.57:8000/stream-128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_rfe-rl-radio-farda",
+   "name": "RFE/RL Radio Farda",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://rferl-ingest.akamaized.net/hls/live/2121659/axia21/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://rferl-ingest.akamaized.net/hls/live/2121659/axia21/master.m3u8",
+    "http://rfe21.akacast.akamaistream.net/7/751/437779/v1/ibb.akacast.akamaistream.net/rfe21"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://rfe21.akacast.akamaistream.net/7/751/437779/v1/ibb.akacast.akamaistream.net/rfe21",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiofarda.com/"
+  },
+  {
+   "id": "tuno:top_cz_classic-praha-prague",
+   "name": "Classic Praha Prague",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast8.play.cz/classic128.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://icecast8.play.cz/classic128.mp3"
+   ],
+   "website": "http://www.classicpraha.cz/"
+  },
+  {
+   "id": "tuno:top_cz_radio-svoboda",
+   "name": "Радио Свобода (Radio Svoboda",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://rferl-ingest.akamaized.net/hls/live/2121658/axia04abr/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://rferl-ingest.akamaized.net/hls/live/2121658/axia04abr/playlist.m3u8",
+    "http://rfe04.akacast.akamaistream.net/7/509/437762/v1/ibb.akacast.akamaistream.net/rfe04.m3u"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://rfe04.akacast.akamaistream.net/7/509/437762/v1/ibb.akacast.akamaistream.net/rfe04.m3u",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.svoboda.org/"
+  },
+  {
+   "id": "tuno:top_cz_dance-radio",
+   "name": "Dance Radio",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/DANCEAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/DANCEAAC.aac?dist=onlineradiobox",
+    "http://ice.actve.net/dance-radio320.mp3",
+    "http://ice.actve.net/dance-radio128.mp3",
+    "blob:https://www.danceradio.cz/364d3889-fe55-409d-aaa5-8229323a0d1b"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://ice.actve.net/dance-radio320.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://ice.actve.net/dance-radio128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.danceradio.cz/"
+  },
+  {
+   "id": "tuno:top_cz_cro-radiozurnal",
+   "name": "ČRo Radiožurnál",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://rozhlas.stream/radiozurnal_aac_128.aac",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://rozhlas.stream/radiozurnal_aac_128.aac"
+   ],
+   "website": "http://www.rozhlas.cz/radiozurnal/"
+  },
+  {
+   "id": "tuno:top_cz_radio-beat",
+   "name": "Radio BEAT",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/3d47nqvb938uv",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.rcs.revma.com/3d47nqvb938uv"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_radio-blanik",
+   "name": "Radio Blanik",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_radio-blanik_15",
+   "name": "Rádio BLANÍK",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK.aac?gdpr=0",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK.aac?gdpr=0",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK_128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK_128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radioblanik.cz/"
+  },
+  {
+   "id": "tuno:top_cz_comedy-club-r-dio-diana",
+   "name": "Comedy Club R@dio Diana",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://westradio.cz/radio/8010/radio.mp3?1607941293",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://westradio.cz/radio/8010/radio.mp3?1607941293"
+   ],
+   "website": "http://www.radiodiana.cz/"
+  },
+  {
+   "id": "tuno:top_cz_radio-beat-128-aac",
+   "name": "Rádio Beat (128 AAC)",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://n03-eu2.rcs.revma.com/3d47nqvb938uv?rj-ttl=5&rj-tok=AAABoVqeTU8AVoGJvt6MOIFrUw",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://n03-eu2.rcs.revma.com/3d47nqvb938uv?rj-ttl=5&rj-tok=AAABoVqeTU8AVoGJvt6MOIFrUw",
+    "https://icecast2.play.cz/beat128aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://icecast2.play.cz/beat128aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiobeat.cz/"
+  },
+  {
+   "id": "tuno:top_cz_station",
+   "name": "Русская служба Радио Свобода",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/hcrb063nn3quv",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.radiojar.com/hcrb063nn3quv"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_radio-cas-rock",
+   "name": "Radio Čas Rock",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.sepia.sk/casrock128.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream.sepia.sk/casrock128.mp3",
+    "http://icecast6.play.cz/casrock128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast6.play.cz/casrock128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.casrock.cz/"
+  },
+  {
+   "id": "tuno:top_cz_hitradio-north-music",
+   "name": "Hitrádio North Music",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_NORTH_MUSIC_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_NORTH_MUSIC_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_kiss-hady",
+   "name": "Kiss Hady",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast8.play.cz/kisshady128.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://icecast8.play.cz/kisshady128.mp3"
+   ],
+   "website": "http://www.kisshady.cz/"
+  },
+  {
+   "id": "tuno:top_cz_color-music-radio",
+   "name": "COLOR Music Radio",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast8.play.cz/color128.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://icecast8.play.cz/color128.mp3",
+    "http://sc.ipip.cz:8206/;stream"
+   ],
+   "website": "https://radiocolor.cz/"
+  },
+  {
+   "id": "tuno:top_cz_radio-impuls",
+   "name": "Radio Impuls",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.sepia.sk:8000/impuls128.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://stream.sepia.sk:8000/impuls128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_free-radio-107",
+   "name": "Free Rádio 107",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast8.play.cz/freeradio128.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://icecast8.play.cz/freeradio128.mp3"
+   ],
+   "website": "http://www.freeradio.cz/"
+  },
+  {
+   "id": "tuno:top_cz_cesky-impuls",
+   "name": "Cesky Impuls",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.sepia.sk:8000/ceskyimpuls128.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://stream.sepia.sk:8000/ceskyimpuls128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_hit-radio-orion",
+   "name": "HIT Rádio Orion",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "http://ice.abradio.cz/orion128.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://ice.abradio.cz/orion128.mp3"
+   ],
+   "website": "http://www.hitradioorion.cz/"
+  },
+  {
+   "id": "tuno:top_cz_radio-povidka",
+   "name": "Rádio Povídka",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://ice3.abradio.cz/povidka128.mp3",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://ice3.abradio.cz/povidka128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_fajn-radio",
+   "name": "Fajn Rádio",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "http://ice.abradio.cz/fajn128.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://ice.abradio.cz/fajn128.mp3"
+   ],
+   "website": "https://www.fajnradio.cz/"
+  },
+  {
+   "id": "tuno:top_cz_metalomanie",
+   "name": "Metalomanie",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.abradio.cz/metalomanie128.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://ice.abradio.cz/metalomanie128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cz_oldies-radio",
+   "name": "Oldies Rádio",
+   "type": "radio",
+   "country": "CZ",
+   "category": "music",
+   "stream": {
+    "url": "http://ice.abradio.cz/oldiesradio128.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://ice.abradio.cz/oldiesradio128.mp3"
+   ],
+   "website": "http://www.oldiesradio.cz/"
+  }
+ ]
+}

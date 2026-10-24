@@ -1,0 +1,37 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_io_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "IO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_io_bollywood-radio",
+   "name": "Bollywood Radio",
+   "type": "radio",
+   "country": "IO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-178.surfernetwork.com/t961q1d0vp6vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0OTYxcTFkMHZwNnZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InpWcnBMclhDUkwyaUdlVURFcUlaaFEiLCJpYXQiOjE3OTI1MzQwMDEsImV4cCI6MTc5MjUzNDA2MX0.ZV39wXJydk36syNKoOQyNjl2Frj7GFg84gLDyxZfOxg",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream-178.surfernetwork.com/t961q1d0vp6vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0OTYxcTFkMHZwNnZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InpWcnBMclhDUkwyaUdlVURFcUlaaFEiLCJpYXQiOjE3OTI1MzQwMDEsImV4cCI6MTc5MjUzNDA2MX0.ZV39wXJydk36syNKoOQyNjl2Frj7GFg84gLDyxZfOxg",
+    "https://stream.zeno.fm/t961q1d0vp6vv"
+   ],
+   "website": "https://stream.zeno.fm/t961q1d0vp6vv"
+  }
+ ]
+}

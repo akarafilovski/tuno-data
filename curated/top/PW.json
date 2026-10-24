@@ -1,0 +1,67 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_pw_upbeat-radio",
+   "name": "UpBeat Radio",
+   "type": "radio",
+   "country": "PW",
+   "category": "music",
+   "stream": {
+    "url": "https://live.upbeat.pw/",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.upbeat.pw/",
+    "https://p.scdn.co/mp3-preview/42847ffa3c83fcfce624d09a8d3d39a15d53e199?cid=3e2461fb11204f6ea0dcb949097ac62b"
+   ],
+   "website": "https://upbeatradio.net/v3/UpBeat.Home"
+  },
+  {
+   "id": "tuno:top_pw_abstract-radio",
+   "name": "ABSTRACT RADIO",
+   "type": "radio",
+   "country": "PW",
+   "category": "music",
+   "stream": {
+    "url": "http://s2.free-shoutcast.com:18158/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://s2.free-shoutcast.com:18158/;"
+   ]
+  },
+  {
+   "id": "tuno:top_pw_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "PW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_pw_antenna-web-palau",
+   "name": "Antenna Web Palau",
+   "type": "radio",
+   "country": "PW",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Palau",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Palau"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bi_radio-maria-burundi",
+   "name": "RADIO MARIA BURUNDI",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8058/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8058/stream",
+    "http://57.129.49.167:8082/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://57.129.49.167:8082/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiomaria.bi/"
+  },
+  {
+   "id": "tuno:top_bi_radio-shima-fm",
+   "name": "Radio Shima FM",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "http://5.189.189.39:8000/shimafm.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://5.189.189.39:8000/shimafm.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bi_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bi_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmburundi2?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmburundi2?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bi_radio-bonesha-fm",
+   "name": "Radio Bonesha FM",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "https://a9.asurahosting.com:8950/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://a9.asurahosting.com:8950/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bi_radio-web-shikiriza",
+   "name": "Radio Web Shikiriza",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "http://s1.free-shoutcast.com:18418/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://s1.free-shoutcast.com:18418/;"
+   ]
+  },
+  {
+   "id": "tuno:top_bi_hero-radio-burundi",
+   "name": "Hero Radio (burundi)",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/burundi.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/burundi.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bi_antenna-web-gitega",
+   "name": "Antenna Web Gitega",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebGitega",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebGitega"
+   ]
+  },
+  {
+   "id": "tuno:top_bi_glorious-newness-radio-burundi",
+   "name": "Glorious Newness Radio (burundi)",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "https://a11.asurahosting.com:7360/burundi.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://a11.asurahosting.com:7360/burundi.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bi_buja-fm",
+   "name": "Buja FM",
+   "type": "radio",
+   "country": "BI",
+   "category": "music",
+   "stream": {
+    "url": "https://bujafmbujumbura-atunwadigital.streamguys1.com/bujafmbujumbura",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://bujafmbujumbura-atunwadigital.streamguys1.com/bujafmbujumbura"
+   ]
+  }
+ ]
+}

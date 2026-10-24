@@ -1,0 +1,239 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bj_radio-benin",
+   "name": "Radio Bénin",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/47608/stream/84424",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://listen.radioking.com/radio/47608/stream/84424"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_ortb-radio-benin",
+   "name": "ORTB Radio Bénin",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://srtblive.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://srtblive.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8",
+    "https://listen.radioking.com/radio/47608/stream/84430"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.radioking.com/radio/47608/stream/84430",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://srtb.bj/"
+  },
+  {
+   "id": "tuno:top_bj_ortb-radio-parakou",
+   "name": "ORTB Radio Parakou",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/51919/stream/88927",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen.radioking.com/radio/51919/stream/88927"
+   ],
+   "website": "https://ortb.bj/radioparakou.html"
+  },
+  {
+   "id": "tuno:top_bj_radio-tokpa",
+   "name": "Radio Tokpa",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://radiotokpa.info/liveradio",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radiotokpa.info/liveradio"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bj_frissons-radio",
+   "name": "Frissons Radio",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://frissonsradio.ice.infomaniak.ch/frissonsradio-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://frissonsradio.ice.infomaniak.ch/frissonsradio-128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_bip-radio",
+   "name": "bip radio",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.creacast.com/bipradio",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://ice.creacast.com/bipradio"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_antenna-web-cotonou",
+   "name": "Antenna Web Cotonou",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebBenin",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebBenin"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_made-in-benin-radio",
+   "name": "Made In Bénin Radio",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/357802/stream/407221",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://listen.radioking.com/radio/357802/stream/407221"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_hero-radio-benin",
+   "name": "Hero Radio (Benin)",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/benin.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/benin.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_la-voix-des-enfants",
+   "name": "La voix des enfants",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/712106/stream/777692",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://listen.radioking.com/radio/712106/stream/777692"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_radio-rcl",
+   "name": "Radio RCL",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/699122/stream/764123",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://listen.radioking.com/radio/699122/stream/764123"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_radio-parakou",
+   "name": "Radio Parakou",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/51919/stream/88927",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://listen.radioking.com/radio/51919/stream/88927"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_radio-mawuklo",
+   "name": "Radio Mawuklo",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/937316/stream/1008611",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://listen.radioking.com/radio/937316/stream/1008611"
+   ]
+  },
+  {
+   "id": "tuno:top_bj_mec-radio",
+   "name": "MEC-Radio",
+   "type": "radio",
+   "country": "BJ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/404350/stream/456556",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://listen.radioking.com/radio/404350/stream/456556"
+   ]
+  }
+ ]
+}

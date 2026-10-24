@@ -1,0 +1,295 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ni_radio-cristo-viene-masaya-nicaragua",
+   "name": "Radio Cristo Viene Masaya Nicaragua",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://uk22freenew.listen2myradio.com/live.mp3?typeportmount=s2_3376_stream_273899492",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://uk22freenew.listen2myradio.com/live.mp3?typeportmount=s2_3376_stream_273899492",
+    "https://stream.zeno.fm/axxgbszqxhhvv"
+   ],
+   "website": "https://zeno.fm/radio/radio-cristo-viene-masaya-nicaragua/"
+  },
+  {
+   "id": "tuno:top_ni_nicaragua-reggae-radio-com",
+   "name": "Nicaragua Reggae Radio.com",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "http://online.radiodifusion.net:8054/stream/1/",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://online.radiodifusion.net:8054/stream/1/"
+   ],
+   "website": "http://nicaraguareggae.com/"
+  },
+  {
+   "id": "tuno:top_ni_radio-ondas-de-luz",
+   "name": "Radio Ondas de Luz",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://vivo.miradio.in/8102/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://vivo.miradio.in/8102/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ni_radio-estereo-musica",
+   "name": "Radio Estereo Música",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/radiolineaderefugio",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.laut.fm/radiolineaderefugio"
+   ],
+   "website": "https://radiomusicnicaragu.wixsite.com/online"
+  },
+  {
+   "id": "tuno:top_ni_la-tuani",
+   "name": "La Tuani",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://server.multimediamb.com/9300/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://server.multimediamb.com/9300/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ni_radio-estrella-del-mar",
+   "name": "Radio Estrella del Mar",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/sd5242d0b6/listen",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://streamer.radio.co/sd5242d0b6/listen"
+   ],
+   "website": "https://www.radioestrelladelmar.org/"
+  },
+  {
+   "id": "tuno:top_ni_radio-abc-stereo",
+   "name": "Radio ABC Stereo",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://hoth.alonhosting.com:4205/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://hoth.alonhosting.com:4205/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ni_fiesta-latina-89-1-fm",
+   "name": "Fiesta Latina 89.1 FM",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://radios.solumedia.com/6596/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radios.solumedia.com/6596/stream"
+   ],
+   "website": "https://fiestalatina.com.ni/"
+  },
+  {
+   "id": "tuno:top_ni_rock-fm-105-5",
+   "name": "Rock FM 105.5",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://securestream.us/radio/8050/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://securestream.us/radio/8050/radio.mp3"
+   ],
+   "website": "https://rockfm.com.ni/"
+  },
+  {
+   "id": "tuno:top_ni_stereo-beso-94-5-fm",
+   "name": "Stereo Beso 94.5 FM",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://stereobeso.com/radio-stream.mp3/?autoplay=1792524320862",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stereobeso.com/radio-stream.mp3/?autoplay=1792524320862",
+    "https://a9.asurahosting.com:7140/radio.mp3",
+    "https://a9.asurahosting.com:7140/"
+   ],
+   "website": "https://radiobeso.net/"
+  },
+  {
+   "id": "tuno:top_ni_la-rock-fm",
+   "name": "La Rock FM",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://securestream.us/radio/8050/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://securestream.us/radio/8050/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ni_radio-juan-pablo-segundo-97-7-fm",
+   "name": "Radio Juan Pablo Segundo 97.7 fm",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://dc2.serverse.com:8040/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://dc2.serverse.com:8040/stream"
+   ],
+   "website": "http://radiojuanpablosegundo.com/?i=1"
+  },
+  {
+   "id": "tuno:top_ni_radio-sandino",
+   "name": "Radio Sandino",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "http://streaming.lasandino.com.ni:8020/lasandino.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://streaming.lasandino.com.ni:8020/lasandino.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ni_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ni_radio-stereo-mundo-91-9-fm",
+   "name": "Radio Stereo Mundo 91.9 FM",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.hostingtico.com:8138/smundo2014",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://ssl.hostingtico.com:8138/smundo2014"
+   ],
+   "website": "https://www.stereomundo919.com/"
+  },
+  {
+   "id": "tuno:top_ni_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp4.com:8048/;?",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://dreamsiteradiocp4.com:8048/;?"
+   ]
+  },
+  {
+   "id": "tuno:top_ni_the-sound-of-the-caribbean",
+   "name": "The Sound of the Caribbean",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://a5.asurahosting.com:7720/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://a5.asurahosting.com:7720/radio.mp3",
+    "https://a10.asurahosting.com:8570/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://a10.asurahosting.com:8570/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://thesoundofthecarebbeanradio.com/"
+  },
+  {
+   "id": "tuno:top_ni_radio-stereo-resurreccion",
+   "name": "Radio Stereo Resurrección",
+   "type": "radio",
+   "country": "NI",
+   "category": "music",
+   "stream": {
+    "url": "https://c15.radioboss.fm:8667/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://c15.radioboss.fm:8667/stream"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_kw_islamina",
+   "name": "islamina",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://islamina.com/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://islamina.com/radio.mp3",
+    "https://islamina.com/radio-tracks/Ahmed%20Alajmi/043.mp3"
+   ],
+   "website": "http://islamina.com/"
+  },
+  {
+   "id": "tuno:top_kw_quran-radio-abdulbasit-abdulsamad",
+   "name": "Quran Radio راديو القرآن - Abdulbasit Abdulsamad - عبدالباسط عبدالصمد",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_kw_marina-fm",
+   "name": "Marina FM",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://ffs3.gulfsat.com/MARINA-FM-904/tracks-a1/mono.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://ffs3.gulfsat.com/MARINA-FM-904/tracks-a1/mono.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_kw_station",
+   "name": "الكويت - البرنامج الثاني",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+   ],
+   "website": "https://media.gov.kw/LiveRadio.aspx?PanStation=Program2"
+  },
+  {
+   "id": "tuno:top_kw_kuwait-general-radio",
+   "name": "Kuwait General Radio",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://kwtkrdota.cdn.mangomolo.com/k1rdo/k1rdo.stream_aac/chunklist.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://kwtkrdota.cdn.mangomolo.com/k1rdo/k1rdo.stream_aac/chunklist.m3u8",
+    "https://cdn-web.tunein.com/assets/media/blank.mp3"
+   ],
+   "website": "https://tunein.com/radio/Kuwait-General-Radio-s37332/"
+  },
+  {
+   "id": "tuno:top_kw_ofw-radio",
+   "name": "OFW Radio",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://s74.radiolize.com:8020/radio.mp3?t=1780673757445",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://s74.radiolize.com:8020/radio.mp3?t=1780673757445"
+   ],
+   "website": "https://streema.com/radios/OFW_RADIO"
+  },
+  {
+   "id": "tuno:top_kw_moi",
+   "name": "MOI - وزارة الإعلا",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://svs.itworkscdn.net/kuwaitfmlive/kfm/chunklist.m3u8?nimblesessionid=74615802",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://svs.itworkscdn.net/kuwaitfmlive/kfm/chunklist.m3u8?nimblesessionid=74615802"
+   ]
+  },
+  {
+   "id": "tuno:top_kw_the-sound-social-radio",
+   "name": "The Sound Social Radio",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/223414/stream/266851",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://listen.radioking.com/radio/223414/stream/266851"
+   ]
+  },
+  {
+   "id": "tuno:top_kw_moja",
+   "name": "moja",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/280804/stream/451810",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://listen.radioking.com/radio/280804/stream/451810"
+   ]
+  },
+  {
+   "id": "tuno:top_kw_coko-radio",
+   "name": "COKO Radio",
+   "type": "radio",
+   "country": "KW",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/527335/stream/585745",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://listen.radioking.com/radio/527335/stream/585745"
+   ]
+  }
+ ]
+}

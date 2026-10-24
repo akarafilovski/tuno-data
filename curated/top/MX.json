@@ -1,0 +1,499 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mx_baladas-del-recuerdo",
+   "name": "Baladas del Recuerdo",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.voscast.com/cdn/?k=6ad7aaebecb2f&m=;stream1792518894544/1",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://s3.voscast.com/cdn/?k=6ad7aaebecb2f&m=;stream1792518894544/1",
+    "https://stream.zeno.fm/g7vk70rqr68uv",
+    "https://stream-165.zeno.fm/g7vk70rqr68uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJnN3ZrNzBycXI2OHV2IiwiaG9zdCI6InN0cmVhbS0xNjUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkRjREZrSkpzUmZHMGVuUGxaRzRxQUEiLCJpYXQiOjE3NTk3NjYwNzEsImV4cCI6MTc1OTc2NjEzMX0.pAurlXoSheL8O5TAQ3"
+   ],
+   "website": "https://beautifulmusicstation.blogspot.com/"
+  },
+  {
+   "id": "tuno:top_mx_la-mejor",
+   "name": "La Mejor",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XERCFM.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XERCFM.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_que-viva-mexico-radio",
+   "name": "Que Viva México Radio",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.retrolandigital.com/listen/que_viva_mexico/listen",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://panel.retrolandigital.com/listen/que_viva_mexico/listen",
+    "https://panel.retrolandigital.com:8160/listen"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://panel.retrolandigital.com:8160/listen",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.quevivamexico.com/"
+  },
+  {
+   "id": "tuno:top_mx_el-fonografo",
+   "name": "El Fonógrafo",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XEN_AMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XEN_AMAAC.aac?dist=onlineradiobox",
+    "https://27063.live.streamtheworld.com:443/XEJP_AM_SC",
+    "https://27033.live.streamtheworld.com:443/XEJP_AMAAC.aac"
+   ],
+   "website": "https://www.elfonografo.mx/"
+  },
+  {
+   "id": "tuno:top_mx_instrumental-hits-radio",
+   "name": "Instrumental Hits Radio",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.retrolandigital.com/listen/instrumental_hits_radio/listen",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://panel.retrolandigital.com/listen/instrumental_hits_radio/listen",
+    "http://162.244.81.98:8130/listen"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://162.244.81.98:8130/listen",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://instrumentalhitsradio.com/"
+  },
+  {
+   "id": "tuno:top_mx_smooth-jazz-sax",
+   "name": "SMOOTH JAZZ: Sax",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR22_s01AAC.aac",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR22_s01AAC.aac"
+   ],
+   "website": "https://www.iheart.com/live/smooth-jazz-8063/"
+  },
+  {
+   "id": "tuno:top_mx_cafe-romantico-radio",
+   "name": "Café Romántico Radio",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.retrolandigital.com/listen/cafe_romantico_radio/listen",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://panel.retrolandigital.com/listen/cafe_romantico_radio/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_exa-fm",
+   "name": "Exa FM",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHEXA.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHEXA.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_los-40-principales-mexico",
+   "name": "Los 40 Principales México",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "http://26153.live.streamtheworld.com:3690/LOS40_MEXICO_SC",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://26153.live.streamtheworld.com:3690/LOS40_MEXICO_SC",
+    "https://player.prisamedia.com/core/test/dummy.mp3"
+   ],
+   "website": "http://los40.com.mx/"
+  },
+  {
+   "id": "tuno:top_mx_stereorey",
+   "name": "Stereorey",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHCAA.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHCAA.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_ke-buena",
+   "name": "Ke Buena",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEBUENAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/KEBUENAAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_cafe-romantico-radio-monterrey-online-www-caferomanticoradio-com-grupo-digital-radioland-monterrey",
+   "name": "Café Romántico Radio (Monterrey) - Online - www.caferomanticoradio.com - Grupo Digital Radioland - Monterrey",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.retrolandigital.com/radio/8110/listen",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://panel.retrolandigital.com/radio/8110/listen"
+   ],
+   "website": "https://caferomanticoradio.com/"
+  },
+  {
+   "id": "tuno:top_mx_amor-95-3",
+   "name": "Amor 95.3",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHSHFMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHSHFMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_oldies-internet-radio-online-www-oldiesinternetradio-com-grupo-digital-retroland-monterrey",
+   "name": "Oldies Internet Radio - Online - www.oldiesinternetradio.com - Grupo Digital Retroland - Monterrey",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.retrolandigital.com/listen/oldies_internet_radio/listen",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://panel.retrolandigital.com/listen/oldies_internet_radio/listen"
+   ],
+   "website": "https://oldiesinternetradio.com/"
+  },
+  {
+   "id": "tuno:top_mx_mix-106-5",
+   "name": "Mix 106.5",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHDFMFMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHDFMFMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_oldies-internet-radio",
+   "name": "Oldies Internet Radio",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.retrolandigital.com/listen/oldies_internet_radio/listen",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://panel.retrolandigital.com/listen/oldies_internet_radio/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_cumbias-inmortales-radio-monterrey-online-www-cumbiasinmortales-com-grupo-digital-retroland-monterrey",
+   "name": "Cumbias Inmortales Radio (Monterrey) - Online - www.cumbiasinmortales.com - Grupo Digital Retroland - Monterrey",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://panel.retrolandigital.com/listen/cumbias_inmortales_radio/listen",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://panel.retrolandigital.com/listen/cumbias_inmortales_radio/listen"
+   ],
+   "website": "http://www.cumbiasinmortales.com/"
+  },
+  {
+   "id": "tuno:top_mx_la-ranchera-de-monterrey-1050-am-xeg-am-nucleo-radio-monterrey-monterrey",
+   "name": "La Ranchera de Monterrey - 1050 AM - XEG-AM - Núcleo Radio Monterrey - Monterrey",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://streamingcwsradio30.com/8242/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streamingcwsradio30.com/8242/stream",
+    "http://streamingcwsradio20.com:9410/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://streamingcwsradio20.com:9410/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.larancherademonterrey.com.mx/"
+  },
+  {
+   "id": "tuno:top_mx_w-radio-ciudad-de-mexico-96-9-fm-900-am-xew-fm-xew-am-radiopolis-ciudad-de-mexico",
+   "name": "W Radio Ciudad de México - 96.9 FM / 900 AM - XEW-FM / XEW-AM - Radiópolis - Ciudad de México",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/W_RADIOAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/W_RADIOAAC.aac",
+    "https://player.prisamedia.com/core/test/dummy.mp3"
+   ],
+   "website": "https://www.wradio.com.mx/"
+  },
+  {
+   "id": "tuno:top_mx_sabrosita-ciudad-de-mexico-590-am-xeph-am-nrm-comunicaciones-ciudad-de-mexico",
+   "name": "SABROSITA Ciudad de México - 590 AM - XEPH-AM - NRM Comunicaciones - Ciudad de México",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XEPHAMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XEPHAMAAC.aac"
+   ],
+   "website": "https://www.sabrosita590am.com.mx/"
+  },
+  {
+   "id": "tuno:top_mx_radio-reyna",
+   "name": "Radio Reyna",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "http://icecasthd.net:25720/radioreyna",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://icecasthd.net:25720/radioreyna"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_la-ke-buena-san-andres-tuxtla-103-9-fm-xhdq-fm-san-andres-tuxtla",
+   "name": "La Ke Buena San Andrés Tuxtla - 103.9 FM - XHDQ-FM - San Andrés Tuxtla",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.servicioswebmx.com/8146/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://streaming.servicioswebmx.com/8146/stream",
+    "https://recursosweb.prisaradio.com/audios/dest/570006494127.mp4"
+   ],
+   "website": "https://www.kebuena.com.mx/"
+  },
+  {
+   "id": "tuno:top_mx_los-40",
+   "name": "Los 40",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_MEXICOAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_MEXICOAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_la-z-fm",
+   "name": "La Z FM",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XEQR_FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XEQR_FMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_universal-88-1-cdmx-88-1-fm-xhred-fm-grupo-radio-centro-ciudad-de-mexico",
+   "name": "UNIVERSAL 88.1 (CDMX) - 88.1 FM - XHRED-FM - Grupo Radio Centro - Ciudad de México",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFO_FMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFO_FMAAC.aac"
+   ],
+   "website": "https://www.universal881.com/"
+  },
+  {
+   "id": "tuno:top_mx_xhexa-exa-fm-104-9-fm-mexico-city",
+   "name": "XHEXA \"Exa FM\" 104.9 FM Mexico City",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "http://17573.live.streamtheworld.com:3690/XHEXA_SC",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://17573.live.streamtheworld.com:3690/XHEXA_SC"
+   ],
+   "website": "http://www.exafm.com/#!/mexico/home"
+  },
+  {
+   "id": "tuno:top_mx_formula-melodica",
+   "name": "Fórmula Melódica",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.yesstreaming.net:9085/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://s2.yesstreaming.net:9085/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_alfa-91-3-ciudad-de-mexico-91-3-fm-xhfaj-fm-grupo-radio-centro-ciudad-de-mexico",
+   "name": "ALFA 91.3 (Ciudad de México) - 91.3 FM - XHFAJ-FM - Grupo Radio Centro - Ciudad de México",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFAJ_FMAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFAJ_FMAAC.aac"
+   ],
+   "website": "https://www.alfaenlinea.com/"
+  },
+  {
+   "id": "tuno:top_mx_universal-stereo",
+   "name": "Universal Stereo",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XERC_FMAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/XERC_FMAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_mx_la-mejor-540-los-mochis-540-am-xehs-am-grupo-rsn-los-mochis",
+   "name": "LA MEJOR 540 (Los Mochis) - 540 AM - XEHS-AM - Grupo RSN - Los Mochis",
+   "type": "radio",
+   "country": "MX",
+   "category": "music",
+   "stream": {
+    "url": "https://a6.asurahosting.com:7920/stream",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://a6.asurahosting.com:7920/stream"
+   ],
+   "website": "https://lamejor.com.mx/plaza/los-mochis/"
+  }
+ ]
+}

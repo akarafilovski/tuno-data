@@ -1,0 +1,536 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_pe_radio-oxigeno",
+   "name": "Radio Oxigeno",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5fab0687bcd6c2389ee9480c/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://mdstrm.com/audio/5fab0687bcd6c2389ee9480c/live.m3u8"
+   ],
+   "website": "https://www.oxigeno.com.pe/"
+  },
+  {
+   "id": "tuno:top_pe_radio-exitosa",
+   "name": "Radio Exitosa",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://neptuno-2-audio.mediaserver.digital/79525baf-b0f5-4013-a8bd-3c5c293c6561",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://neptuno-2-audio.mediaserver.digital/79525baf-b0f5-4013-a8bd-3c5c293c6561"
+   ],
+   "website": "https://www.exitosanoticias.pe/"
+  },
+  {
+   "id": "tuno:top_pe_radio-rpp-noticias",
+   "name": "Radio RPP Noticias",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5fab3416b5f9ef165cfab6e9/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://mdstrm.com/audio/5fab3416b5f9ef165cfab6e9/icecast.audio",
+    "https://pe-p4-p-e-cx1-audio.cdn.mdstrm.com/live-audio-aw/5fab3416b5f9ef165cfab6e9?aid=5faaeb72f92d7b07dfe10181&pid=kTzbKhAGHjwGE45Q6McH77cd7sccyZGW&sid=lknbMeKDGWtCwvZhAUWo2CAval8z3sVT&uid=VG4ekkUCt1wKpoa9ctTjUmU7pai9mLIC&es=pe-p4-p-e-cx1-audio.cdn.mdstrm.com&ote=1779578605129&ot=bbhJLI3z5USQBYRZIY1uUw&proto=https&pz=us&cP=128000&awCollectionId=5faaeb72f92d7b07dfe10181&liveId=5fab3416b5f9ef165cfab6e9&referer=https://emisoras.com.pe/&listenerId=VG4ekkUCt1wKpoa9ctTjUmU7pai9mLIC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://pe-p4-p-e-cx1-audio.cdn.mdstrm.com/live-audio-aw/5fab3416b5f9ef165cfab6e9?aid=5faaeb72f92d7b07dfe10181&pid=kTzbKhAGHjwGE45Q6McH77cd7sccyZGW&sid=lknbMeKDGWtCwvZhAUWo2CAval8z3sVT&uid=VG4ekkUCt1wKpoa9ctTjUmU7pai9mLIC&es=pe-p4-p-e-cx1-audio.cdn.mdstrm.com&ote=1779578605129&ot=bbhJLI3z5USQBYRZIY1uUw&proto=https&pz=us&cP=128000&awCollectionId=5faaeb72f92d7b07dfe10181&liveId=5fab3416b5f9ef165cfab6e9&referer=https://emisoras.com.pe/&listenerId=VG4ekkUCt1wKpoa9ctTjUmU7pai9mLIC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rpp.pe/audio/"
+  },
+  {
+   "id": "tuno:top_pe_radio-peru-cumbia",
+   "name": "Radio Peru Cumbia",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://servistreampro.info:8330/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://servistreampro.info:8330/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_radio-magica",
+   "name": "Radio Magica",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/6839e28eb3fdc597ac2e2e43",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/6839e28eb3fdc597ac2e2e43",
+    "https://pe-p1-p-e-xm2-audio.cdn.mdstrm.com/live-audio-aw/6839e28eb3fdc597ac2e2e43?aid=68386a6e44ba64f6064b25c9&amp;pid=feTbRIuYIYCrMwO4fNUTwX6cqyUl3MUo&amp;sid=JkMZvIkbbH8f017OQm8BN32kAZ8TPYUI&amp;uid=HGunCsyBd0aMB34Mc7RhEkRXBlaSib3u&amp;es=pe-p1-p-e-xm2-audio.cdn.mdstrm.com&amp;ote=1767062598351&amp;ot=f8MpWy_qc1rzl0h33cbq6g&amp;proto=https&amp;pz=us&amp;cP=128000&amp;awCollectionId=68386a6e44ba64f6064b25c9&amp;liveId=6839e28eb3fdc597ac2e2e43&amp;listenerId=HGunCsyBd0aMB34Mc7RhEkRXBlaSib3u"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://pe-p1-p-e-xm2-audio.cdn.mdstrm.com/live-audio-aw/6839e28eb3fdc597ac2e2e43?aid=68386a6e44ba64f6064b25c9&amp;pid=feTbRIuYIYCrMwO4fNUTwX6cqyUl3MUo&amp;sid=JkMZvIkbbH8f017OQm8BN32kAZ8TPYUI&amp;uid=HGunCsyBd0aMB34Mc7RhEkRXBlaSib3u&amp;es=pe-p1-p-e-xm2-audio.cdn.mdstrm.com&amp;ote=1767062598351&amp;ot=f8MpWy_qc1rzl0h33cbq6g&amp;proto=https&amp;pz=us&amp;cP=128000&amp;awCollectionId=68386a6e44ba64f6064b25c9&amp;liveId=6839e28eb3fdc597ac2e2e43&amp;listenerId=HGunCsyBd0aMB34Mc7RhEkRXBlaSib3u",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiomagica.pe/"
+  },
+  {
+   "id": "tuno:top_pe_radio-discoteca-90",
+   "name": "Radio Discoteca 90",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.discoteca90.com:8004/discoteca90/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen.discoteca90.com:8004/discoteca90/;"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_radio-corazon-94-3-fm-lima",
+   "name": "Radio Corazón (94.3 FM Lima)",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5fada514fc16c006bd63370f/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://mdstrm.com/audio/5fada514fc16c006bd63370f/icecast.audio",
+    "https://us-b4-p-e-pb13-audio.cdn.mdstrm.com/audio-aw/p/5faaeb72f92d7b07dfe10181/6320db1b65066f6f67d96cf9.mp3?cP=96000&dual_render=1&uid=OuMyybSahwxGrdKUFCbcpiGoeNaCNqeo&sid=zbLdXLajL5xqO4OB4JpyR8wNcFf8zuud&pid=wivThxlp2AGHaPHNQbOcsmrTk4aFHdk9&ext_pb=0&access_token=uMIdm32pBqNQihkTfYaYjllVE3aesLUZMilrDifCbR3t6mJ7BnnXQ5iX1dGsidjBXcKg9mePEUA&ote=1792607600410&ot=nPx66ev-0rSNiwoV_ELI0A&awAccountId=5faaeb72f92d7b07dfe10181&awEpisodeId=6320db1b65066f6f67d96cf9&awCollectionId=default&aw_0_1st.playerId=audioplayer_web&referer=https%3A%2F%2Faudioplayer.pe%2F&es=us-b4-p-e-pb13-audio.cdn.mdstrm.com&proto=https&propertyName=audioplayer_web&propertyType=web-app&propertyVersion=v1.0.112&listenerId=OuMyybSahwxGrdKUFCbcpiGoeNaCNqeo&aid=5faaeb72f92d7b07dfe10181&dnt=true&ref=audioplayer.pe&listeningSessionID=0CD_382_292__9f7bc7cb7b7bbb64254e0f3faa2921b1c72b1b7f"
+   ],
+   "website": "https://audioplayer.pe/corazon"
+  },
+  {
+   "id": "tuno:top_pe_top-latino",
+   "name": "Top Latino",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "http://online.radiodifusion.net:8020/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://online.radiodifusion.net:8020/stream"
+   ],
+   "website": "https://www.toplatino.net/"
+  },
+  {
+   "id": "tuno:top_pe_radio-la-inolvidable",
+   "name": "Radio La Inolvidable",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio-aw/6839e24cf4eacd81ada4e6b4",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio-aw/6839e24cf4eacd81ada4e6b4"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_radio-la-noventera",
+   "name": "Radio La Noventera",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.gometri.com/stream/8043/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streaming.gometri.com/stream/8043/stream",
+    "https://host.gometri.com/proxy/lanoventera/stream/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://host.gometri.com/proxy/lanoventera/stream/",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_pe_la-ochentera",
+   "name": "La Ochentera",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://servistreampro.info:8340/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://servistreampro.info:8340/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_radio-huancayo",
+   "name": "Radio Huancayo",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://cloud9.ldwebstudios.net:7000/stream/1/",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://cloud9.ldwebstudios.net:7000/stream/1/",
+    "https://cloud9.ldwebstudios.net:7000/;",
+    "https://cloud9.ldwebstudios.net:7000/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cloud9.ldwebstudios.net:7000/;",
+     "format": "icecast"
+    },
+    {
+     "url": "https://cloud9.ldwebstudios.net:7000/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiohuancayo.com.pe/"
+  },
+  {
+   "id": "tuno:top_pe_radio-mega-mix",
+   "name": "Radio Mega Mix",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5fada56fe4e09508207a7951/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://mdstrm.com/audio/5fada56fe4e09508207a7951/icecast.audio"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_la-zona",
+   "name": "La Zona",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5fada54116646e098d97e6a5/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://mdstrm.com/audio/5fada54116646e098d97e6a5/live.m3u8",
+    "https://mdstrm.com/audio/5fada54116646e098d97e6a5/icecast.audio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mdstrm.com/audio/5fada54116646e098d97e6a5/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.lazona.com.pe/"
+  },
+  {
+   "id": "tuno:top_pe_panamericana-retro-rock",
+   "name": "Panamericana Retro Rock",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/6598b728d982060896866b8a/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://mdstrm.com/audio/6598b728d982060896866b8a/icecast.audio"
+   ],
+   "website": "https://www.radiopanamericana.com/"
+  },
+  {
+   "id": "tuno:top_pe_radio-felicidad",
+   "name": "Radio Felicidad",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5fad731fcf097a068af3c8f7/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://mdstrm.com/audio/5fad731fcf097a068af3c8f7/live.m3u8",
+    "https://mdstrm.com/audio/5fad731fcf097a068af3c8f7/icecast.audio",
+    "https://us-b4-p-e-jn18-audio.cdn.mdstrm.com/audio-aw/p/5faaeb72f92d7b07dfe10181/6320db1b65066f6f67d96cf9.mp3?cP=96000&dual_render=1&uid=OuMyybSahwxGrdKUFCbcpiGoeNaCNqeo&sid=zbLdXLajL5xqO4OB4JpyR8wNcFf8zuud&pid=all82ft0TzCuCwjE0OQmHzr0fIhaUETo&ext_pb=0&access_token=F7m631ntZE4LHd1mOv9xjIXsXfPligEVpNvfFiizZSWbdWh8nuCsTAQz1HHGoNLMMQSLIVZJJLY&ote=1792607696602&ot=g8Xm6DUYRX3sA6fR7TGPMA&awAccountId=5faaeb72f92d7b07dfe10181&awEpisodeId=6320db1b65066f6f67d96cf9&awCollectionId=default&aw_0_1st.playerId=audioplayer_web&referer=https%3A%2F%2Faudioplayer.pe%2F&es=us-b4-p-e-jn18-audio.cdn.mdstrm.com&proto=https&propertyName=audioplayer_web&propertyType=web-app&propertyVersion=v1.0.112&listenerId=OuMyybSahwxGrdKUFCbcpiGoeNaCNqeo&aid=5faaeb72f92d7b07dfe10181&dnt=true&ref=audioplayer.pe"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mdstrm.com/audio/5fad731fcf097a068af3c8f7/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.felicidad.com.pe/"
+  },
+  {
+   "id": "tuno:top_pe_radio-la-mega-96-7-fm-peru",
+   "name": "RADIO LA MEGA 96.7 FM (PERU)",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://us-b4-p-e-pb13-audio.cdn.mdstrm.com/live-audio-aw/5fada56fe4e09508207a7951?",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://us-b4-p-e-pb13-audio.cdn.mdstrm.com/live-audio-aw/5fada56fe4e09508207a7951?"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_pbo-radio",
+   "name": "PBO Radio",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://n07.radiojar.com/2fse67zuv8hvv?_=1792521262777&rj-tok=AAABoVqhByQAv0u-dBFu5RkArw&rj-ttl=5",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://n07.radiojar.com/2fse67zuv8hvv?_=1792521262777&rj-tok=AAABoVqhByQAv0u-dBFu5RkArw&rj-ttl=5",
+    "http://n06.radiojar.com/2fse67zuv8hvv?1669054401=&rj-tok=AAABhJtuNOUAIi7Le3h5PA-2VA&rj-ttl=5"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://n06.radiojar.com/2fse67zuv8hvv?1669054401=&rj-tok=AAABhJtuNOUAIi7Le3h5PA-2VA&rj-ttl=5",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.pboradio.com/"
+  },
+  {
+   "id": "tuno:top_pe_radio-1160",
+   "name": "Radio 1160",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/6598b6e1261d9e088a6de859/icecast.audio?property=onlineradiobox.com",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://mdstrm.com/audio/6598b6e1261d9e088a6de859/icecast.audio?property=onlineradiobox.com"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_radio-cumbia-mix",
+   "name": "Radio Cumbia Mix",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/6598b6ab95a235085823b24f/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://mdstrm.com/audio/6598b6ab95a235085823b24f/icecast.audio"
+   ],
+   "website": "https://radiocumbiamix.com/"
+  },
+  {
+   "id": "tuno:top_pe_studio-92-92-5-fm-lima",
+   "name": "Studio 92 (92.5 FM Lima)",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/5fada553978fe1080e3ac5ea/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://mdstrm.com/audio/5fada553978fe1080e3ac5ea/icecast.audio"
+   ],
+   "website": "https://www.studio92.com/"
+  },
+  {
+   "id": "tuno:top_pe_radiomar",
+   "name": "Radiomar",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/6839e261d2efddf5bfbc2d3d",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/6839e261d2efddf5bfbc2d3d"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_radio-jr",
+   "name": "Radio JR",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://tupanel.info:2000/stream/radiojr/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://tupanel.info:2000/stream/radiojr/stream"
+   ],
+   "website": "http://www.radiojrfm.com/"
+  },
+  {
+   "id": "tuno:top_pe_radio-frecuencia-100-trujillo",
+   "name": "Radio frecuencia 100 - Trujillo",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "http://oyotunstream.com:7066/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://oyotunstream.com:7066/;",
+    "https://sp.oyotunstream.com:7066/;.aac"
+   ],
+   "website": "http://www.radio.frecuencia100fm.com/"
+  },
+  {
+   "id": "tuno:top_pe_radio-la-kalle",
+   "name": "Radio La Kalle",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://lakalle.gkplaystreaming.online/radio/a7b9c3e4567f8d0123456789/",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://lakalle.gkplaystreaming.online/radio/a7b9c3e4567f8d0123456789/",
+    "https://lakalle.egostreaming.pe/radio/a7b9c3e4567f8d0123456789/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://lakalle.egostreaming.pe/radio/a7b9c3e4567f8d0123456789/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://lakalle.com.pe/"
+  },
+  {
+   "id": "tuno:top_pe_radio-los-angeles-chepen",
+   "name": "Radio Los Angeles - Chepen",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "http://94.23.159.187:9950/;",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://94.23.159.187:9950/;"
+   ],
+   "website": "https://radiolosangeles.com.pe/"
+  },
+  {
+   "id": "tuno:top_pe_radio-ritmo-romantica",
+   "name": "Radio Ritmo Romantica",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/6839e2376607bdf6b2fcde27",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/6839e2376607bdf6b2fcde27"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_z-rock-pop",
+   "name": "Z Rock & Pop",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://radioz.egostreaming.pe/radio/3e4f6a1b2c3d4e567890abcd/",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://radioz.egostreaming.pe/radio/3e4f6a1b2c3d4e567890abcd/"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_radio-panamericana",
+   "name": "Radio Panamericana",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://mdstrm.com/audio/6598b62dded1380470f4e539/icecast.audio?property=onlineradiobox.com",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://mdstrm.com/audio/6598b62dded1380470f4e539/icecast.audio?property=onlineradiobox.com"
+   ]
+  },
+  {
+   "id": "tuno:top_pe_peru-folk-radio",
+   "name": "Peru Folk Radio",
+   "type": "radio",
+   "country": "PE",
+   "category": "music",
+   "stream": {
+    "url": "https://raymistream.net/listen/perufolkradio/live",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://raymistream.net/listen/perufolkradio/live"
+   ],
+   "website": "https://perufolkradio.com/"
+  }
+ ]
+}

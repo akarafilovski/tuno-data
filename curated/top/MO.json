@@ -1,0 +1,359 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_mo_voa-macau",
+   "name": "VOA Macau",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://voa-video-hls-ns.akamaized.net/pangeavideo/2026/10/5/5c/5c85935d-1f09-4ed3-ae30-b8bf040a475b_master.m3u8?cb=ee269d2d2",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://voa-video-hls-ns.akamaized.net/pangeavideo/2026/10/5/5c/5c85935d-1f09-4ed3-ae30-b8bf040a475b_master.m3u8?cb=ee269d2d2",
+    "https://voa-ingest.akamaized.net/hls/live/2035206/151_124L/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://voa-ingest.akamaized.net/hls/live/2035206/151_124L/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.voachinese.com/"
+  },
+  {
+   "id": "tuno:top_mo_radio-maria-macau",
+   "name": "RADIO MARIA MACAU",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp2.com:8038/stream?type=http&nocache=51",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://dreamsiteradiocp2.com:8038/stream?type=http&nocache=51"
+   ],
+   "website": "http://www.voiceofmary.org.mo/VoiceOfMary/jsp/index.jsp"
+  },
+  {
+   "id": "tuno:top_mo_romance-radio-95-5-fm",
+   "name": "Romance Radio 95.5 FM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "http://162.220.162.10:8011/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://162.220.162.10:8011/stream"
+   ],
+   "website": "https://norilynonecoin.wixsite.com/criradioplayers-push"
+  },
+  {
+   "id": "tuno:top_mo_radio-top-80-macau-89-9-fm",
+   "name": "Radio Top 80 Macau 強電台 - 89.9 FM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "http://live.top80.fm:8086/;",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://live.top80.fm:8086/;"
+   ],
+   "website": "https://www.top80.fm/"
+  },
+  {
+   "id": "tuno:top_mo_m80-radio-macau-90s",
+   "name": "M80 Radio Macau - 90s",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/m80.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/m80.mp3"
+   ],
+   "website": "https://bauermedia.pt/m80/m80-90"
+  },
+  {
+   "id": "tuno:top_mo_cityfm-macau-90-5-fm",
+   "name": "CityFM Macau - 90.5 FM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qtfm.cn/live/20500153/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://lhttp.qtfm.cn/live/20500153/64k.mp3"
+   ],
+   "website": "https://m.qtfm.cn/"
+  },
+  {
+   "id": "tuno:top_mo_cgtn-radio-macau-1341-am",
+   "name": "CGTN Radio - Macau 1341 AM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://sk.cri.cn/am846.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://sk.cri.cn/am846.m3u8"
+   ],
+   "website": "https://radio.cgtn.com/"
+  },
+  {
+   "id": "tuno:top_mo_101-1-smooth-fm",
+   "name": "101.1 Smooth FM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-icy.bauermedia.pt/smooth.aac",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream-icy.bauermedia.pt/smooth.aac"
+   ],
+   "website": "https://smoothfm.pt/"
+  },
+  {
+   "id": "tuno:top_mo_101-1-big-heart-fm",
+   "name": "101.1 BIG HEART FM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "http://162.220.162.10:8011/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://162.220.162.10:8011/stream"
+   ],
+   "website": "https://bigheartfm.weebly.com/"
+  },
+  {
+   "id": "tuno:top_mo_lotus-macau-radio-1062-am",
+   "name": "Lotus Macau Radio - 1062 AM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qtfm.cn/live/20133/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://lhttp.qtfm.cn/live/20133/64k.mp3"
+   ],
+   "website": "https://wap.macaulotustv.cc/wap.php"
+  },
+  {
+   "id": "tuno:top_mo_cnr-7",
+   "name": "CNR-7 粵港澳大灣區之聲",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://satellitepull.cnr.cn/live/wxhxzs/playlist.m3u8?wsSession=a919bd0baf31a1a6f3966f08-174761752612586&wsIPSercert=270c8446fe14303f2433a2f164ccd9e5",
+    "format": "hls"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://satellitepull.cnr.cn/live/wxhxzs/playlist.m3u8?wsSession=a919bd0baf31a1a6f3966f08-174761752612586&wsIPSercert=270c8446fe14303f2433a2f164ccd9e5"
+   ],
+   "website": "http://rtgb.cnr.cn/"
+  },
+  {
+   "id": "tuno:top_mo_record-fm-100-3-macau",
+   "name": "Record FM 100.3 Macau",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://nl.digitalrm.pt:8028/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://nl.digitalrm.pt:8028/stream"
+   ],
+   "website": "https://www.recordfm.pt/player_m_lisboa.htm"
+  },
+  {
+   "id": "tuno:top_mo_91-5-hit-fm-macau",
+   "name": "91.5 HIT FM MACAU (成都）",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "http://lhttp.qingting.fm/live/15318703/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://lhttp.qingting.fm/live/15318703/64k.mp3"
+   ],
+   "website": "https://www.hitfm.cn/"
+  },
+  {
+   "id": "tuno:top_mo_rtp-macau-97-1-fm",
+   "name": "RTP Macau - 97.1 FM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://radiocast.rtp.pt/antena1madeira80a.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radiocast.rtp.pt/antena1madeira80a.mp3"
+   ],
+   "website": "https://madeira.rtp.pt/"
+  },
+  {
+   "id": "tuno:top_mo_asia-fm-106-9",
+   "name": "Asia FM 106.9",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/20071/64k.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/20071/64k.mp3"
+   ],
+   "website": "http://www.asiafm.net/"
+  },
+  {
+   "id": "tuno:top_mo_szr-fm-97-1-macau-hd2",
+   "name": "SZR 城市 FM 97.1 Macau - HD2",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-hls.bauermedia.pt/cidade.aac/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream-hls.bauermedia.pt/cidade.aac/playlist.m3u8"
+   ],
+   "website": "https://www.szmg.com.cn/"
+  },
+  {
+   "id": "tuno:top_mo_yw-city-radio-macau-954-am",
+   "name": "YW City Radio - Macau 954 AM",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://lhttp.qingting.fm/live/1259/64k.mp3?app_id=web",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://lhttp.qingting.fm/live/1259/64k.mp3?app_id=web"
+   ],
+   "website": "https://www.ywcity.cn/#/homepage"
+  },
+  {
+   "id": "tuno:top_mo_channel-v-international",
+   "name": "Channel [V] International",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/453221/stream/508076",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://listen.radioking.com/radio/453221/stream/508076"
+   ],
+   "website": "https://en.m.wikipedia.org/wiki/Channel_V"
+  },
+  {
+   "id": "tuno:top_mo_station",
+   "name": "澳門綠邨電台",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://macaofm995.com/hls1/fm995.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://macaofm995.com/hls1/fm995.m3u8"
+   ],
+   "website": "https://www.vfm995.com/pc.html"
+  },
+  {
+   "id": "tuno:top_mo_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_mo_fm100-7",
+   "name": "澳門電台 FM100.7",
+   "type": "radio",
+   "country": "MO",
+   "category": "music",
+   "stream": {
+    "url": "https://globallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://globallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8",
+    "https://globallive.tdm.com.mo/live/rch2a.live/playlist.m3u8",
+    "https://globallive.tdm.com.mo/live/rch2a.live/chunklist_w603131197.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://globallive.tdm.com.mo/live/rch2a.live/playlist.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "https://globallive.tdm.com.mo/live/rch2a.live/chunklist_w603131197.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.tdm.com.mo/"
+  }
+ ]
+}

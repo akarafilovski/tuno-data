@@ -1,0 +1,439 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_um_radio-farda",
+   "name": "Radio Farda",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://rferl-ingest.akamaized.net/hls/live/2121659/axia21/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://rferl-ingest.akamaized.net/hls/live/2121659/axia21/master.m3u8",
+    "https://stream.radiojar.com/cp13r2cpn3quv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.radiojar.com/cp13r2cpn3quv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiofarda.com/"
+  },
+  {
+   "id": "tuno:top_um_coolfm-dance-90",
+   "name": "Coolfm Dance 90",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://mediagw.e-tiger.net/stream/zc06",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://mediagw.e-tiger.net/stream/zc06"
+   ]
+  },
+  {
+   "id": "tuno:top_um_rockin-the-suburbs-radio",
+   "name": "Rockin' the Suburbs Radio",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radio.co/sca22d43b1/listen",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streaming.radio.co/sca22d43b1/listen"
+   ],
+   "website": "https://www.suburbspod.com/radio/"
+  },
+  {
+   "id": "tuno:top_um_grits-radio",
+   "name": "Grits Radio",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "http://169.61.85.22/grits",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://169.61.85.22/grits"
+   ],
+   "website": "http://gritsradio.pmlol.com/"
+  },
+  {
+   "id": "tuno:top_um_mxtr-fm",
+   "name": "MXTR FM",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.live365.com/a03037",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://streaming.live365.com/a03037"
+   ],
+   "website": "https://mxtrfm.webstarts.com/"
+  },
+  {
+   "id": "tuno:top_um_93-7-khj-oldies",
+   "name": "93.7 KHJ Oldies",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://ice26.securenetsystems.net/KKHJHD2",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://ice26.securenetsystems.net/KKHJHD2"
+   ],
+   "website": "https://www.southseasbroadcasting.com/kkhjhd2/"
+  },
+  {
+   "id": "tuno:top_um_wsnr-us",
+   "name": "WSNR.US",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://www.stepnorthdigitalradio.com:6008/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://www.stepnorthdigitalradio.com:6008/stream"
+   ],
+   "website": "http://wsnr.us/"
+  },
+  {
+   "id": "tuno:top_um_iheart-2000s-radio",
+   "name": "iHeart 2000s Radio",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://n23b-e2.revma.ihrhls.com/zc6850/hls.m3u8?rj-ttl=5&rj-tok=AAABoAtx4zgAWafLS3OZolBX9Q",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://n23b-e2.revma.ihrhls.com/zc6850/hls.m3u8?rj-ttl=5&rj-tok=AAABoAtx4zgAWafLS3OZolBX9Q"
+   ],
+   "website": "https://www.iheart.com/"
+  },
+  {
+   "id": "tuno:top_um_the-breeze",
+   "name": "The Breeze",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "http://65.108.105.26:7617/stream",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://65.108.105.26:7617/stream"
+   ],
+   "website": "http://bjornstadamerica.com/"
+  },
+  {
+   "id": "tuno:top_um_940-gospel-radio",
+   "name": "940 Gospel Radio",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://servidor26.brlogic.com:7088/live",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://servidor26.brlogic.com:7088/live"
+   ],
+   "website": "http://www.940gospelradio.com/"
+  },
+  {
+   "id": "tuno:top_um_halloween-radio-oldies",
+   "name": "Halloween Radio Oldies",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio1.streamserver.link/radio/8000/hrm-aac",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio1.streamserver.link/radio/8000/hrm-aac",
+    "https://radio1.streamserver.link/radio/8020/hro-aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio1.streamserver.link/radio/8020/hro-aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://halloweenradio.net/"
+  },
+  {
+   "id": "tuno:top_um_quiet-village-radio",
+   "name": "Quiet Village Radio",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "http://broadcast.shoutcheap.com:8424/streamhttp://broadcast.shoutcheap.com:8424/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://broadcast.shoutcheap.com:8424/streamhttp://broadcast.shoutcheap.com:8424/stream"
+   ],
+   "website": "https://www.diditiki.com/"
+  },
+  {
+   "id": "tuno:top_um_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_um_hard-rock-heaven",
+   "name": "Hard Rock Heaven",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-edge148-pit01.cdnstream.com/1521_128?listeningSessionId=WFRQSkhES01IUVVNTUtRSEtVQkVLU1RaV0FfYWlzLWVkZ2UxNDgtcGl0MDEuY2Ruc3RyZWFtLmNvbTo4MTg2&playerid=esPlayer",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://ais-edge148-pit01.cdnstream.com/1521_128?listeningSessionId=WFRQSkhES01IUVVNTUtRSEtVQkVLU1RaV0FfYWlzLWVkZ2UxNDgtcGl0MDEuY2Ruc3RyZWFtLmNvbTo4MTg2&playerid=esPlayer",
+    "https://ais-sa2.cdnstream1.com/1521_128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ais-sa2.cdnstream1.com/1521_128",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hrhradio.com/"
+  },
+  {
+   "id": "tuno:top_um_106-9-kroc-fm",
+   "name": "106.9 KROC FM",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://video.primis.tech/uploads/cn19/video/users/hls/25037/video_620b638cde388950052687/vid620d094ebbc71792998237.mp4/chunklist_480.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://video.primis.tech/uploads/cn19/video/users/hls/25037/video_620b638cde388950052687/vid620d094ebbc71792998237.mp4/chunklist_480.m3u8",
+    "https://prod-52-55-242-202.amperwave.net/townsquare-krocfmaac-hlsc3.m3u8?"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://prod-52-55-242-202.amperwave.net/townsquare-krocfmaac-hlsc3.m3u8?",
+     "format": "hls"
+    }
+   ],
+   "website": "https://kroc.com/"
+  },
+  {
+   "id": "tuno:top_um_amr",
+   "name": "amR",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://c25.radioboss.fm:8425/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://c25.radioboss.fm:8425/stream"
+   ],
+   "website": "https://amr-radio.de/"
+  },
+  {
+   "id": "tuno:top_um_fun-104",
+   "name": "Fun 104",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://prod-52-91-27-46.amperwave.net/townsquare-kfnlfmmp3-ibc3?session-id=526240798c02759a1fdc495c2f40c299",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://prod-52-91-27-46.amperwave.net/townsquare-kfnlfmmp3-ibc3?session-id=526240798c02759a1fdc495c2f40c299"
+   ],
+   "website": "https://fun1043.com/"
+  },
+  {
+   "id": "tuno:top_um_krpr-89-9-fm",
+   "name": "KRPR 89.9 FM",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://ice23.securenetsystems.net/KRPR",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://ice23.securenetsystems.net/KRPR"
+   ],
+   "website": "https://krpr.org/"
+  },
+  {
+   "id": "tuno:top_um_wtmb-94-5-fm",
+   "name": "WTMB 94.5 FM",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://prod-23-20-60-37.amperwave.net/magnumbroadcasting-wtmbfmaac-hlsc1.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://prod-23-20-60-37.amperwave.net/magnumbroadcasting-wtmbfmaac-hlsc1.m3u8",
+    "about:blank"
+   ],
+   "website": "http://www.classicrockwtmb.com/"
+  },
+  {
+   "id": "tuno:top_um_laser-101-7",
+   "name": "Laser 101.7",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://n08b-e2.revma.ihrhls.com/zc4463/hls.m3u8?rj-ttl=5&rj-tok=AAABoAxy-JgA-hSyk0bZIzTTJA",
+    "format": "hls"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://n08b-e2.revma.ihrhls.com/zc4463/hls.m3u8?rj-ttl=5&rj-tok=AAABoAxy-JgA-hSyk0bZIzTTJA"
+   ],
+   "website": "https://laser1017.iheart.com/"
+  },
+  {
+   "id": "tuno:top_um_y-105-fm",
+   "name": "Y 105 FM",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://video.primis.tech/uploads/cn19/video/users/hls/25037/video_620b638cde388950052687/vid620d094ebbc71792998237.mp4/chunklist_480.m3u8",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://video.primis.tech/uploads/cn19/video/users/hls/25037/video_620b638cde388950052687/vid620d094ebbc71792998237.mp4/chunklist_480.m3u8",
+    "https://prod-52-55-242-202.amperwave.net/townsquare-kybafmaac-hlsc3.m3u8?"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://prod-52-55-242-202.amperwave.net/townsquare-kybafmaac-hlsc3.m3u8?",
+     "format": "hls"
+    }
+   ],
+   "website": "https://y105fm.com/"
+  },
+  {
+   "id": "tuno:top_um_x-transmission-fm",
+   "name": "X Transmission FM",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "http://custom-azura1.my-control-panel.com/listen/x_transmission_fm/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://custom-azura1.my-control-panel.com/listen/x_transmission_fm/radio.mp3"
+   ],
+   "website": "http://xtransmissionfm.com/"
+  },
+  {
+   "id": "tuno:top_um_phoenixfirefm",
+   "name": "PhoenixFireFM",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "http://listen.jjhof.com:6969/stream",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://listen.jjhof.com:6969/stream"
+   ],
+   "website": "https://request.jjhof.com/"
+  },
+  {
+   "id": "tuno:top_um_pop-gold-radio",
+   "name": "Pop Gold Radio",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "https://popgoldradio-libstrm.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://popgoldradio-libstrm.radioca.st/;"
+   ],
+   "website": "https://popgoldradio.com/"
+  },
+  {
+   "id": "tuno:top_um_wqna",
+   "name": "WQNA",
+   "type": "radio",
+   "country": "UM",
+   "category": "music",
+   "stream": {
+    "url": "http://ingest.live365.com:8000/a38152_live",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://ingest.live365.com:8000/a38152_live"
+   ],
+   "website": "http://www.wqnaradio.org/"
+  }
+ ]
+}

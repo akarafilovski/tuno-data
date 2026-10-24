@@ -1,0 +1,148 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_kn_ziz-radio",
+   "name": "ZIZ Radio",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "https://media.slactech.com:8014/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://media.slactech.com:8014/stream"
+   ],
+   "website": "https://zizonline.com/"
+  },
+  {
+   "id": "tuno:top_kn_von-radio",
+   "name": "VON Radio",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-sa1.streamon.fm/7008_24k.aac/playlist.m3u8?playerid=esPlayer",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://ais-sa1.streamon.fm/7008_24k.aac/playlist.m3u8?playerid=esPlayer",
+    "https://ais-sa1.streamon.fm/7008_24k.aac",
+    "http://vonradio.streamon.fm:8000/vonradio-24k.aac?type=.mp3/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ais-sa1.streamon.fm/7008_24k.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "http://vonradio.streamon.fm:8000/vonradio-24k.aac?type=.mp3/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://vonradio.com/"
+  },
+  {
+   "id": "tuno:top_kn_2020-vision-radio",
+   "name": "2020 VISION RADIO",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "https://sknvision2020.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://sknvision2020.radioca.st/stream",
+    "http://perseus.shoutca.st:8218/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://perseus.shoutca.st:8218/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.2020visionradio.com/"
+  },
+  {
+   "id": "tuno:top_kn_sugar-city-fm-90-3",
+   "name": "Sugar City FM 90.3",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "http://104.131.13.48:8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://104.131.13.48:8000/radio.mp3"
+   ],
+   "website": "http://www.sugarcityfm.com/wp-content/uploads/2012/06/logo2.png"
+  },
+  {
+   "id": "tuno:top_kn_freedom-fm",
+   "name": "Freedom FM",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "https://castpanel.freedomfm1065.com/hls/freedom_fm_106.5/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://castpanel.freedomfm1065.com/hls/freedom_fm_106.5/live.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_kn_winn-fm",
+   "name": "WINN FM",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/jzlfo",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://edge.mixlr.com/channel/jzlfo"
+   ]
+  },
+  {
+   "id": "tuno:top_kn_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_kn_central-praise-skb",
+   "name": "Central Praise SKB",
+   "type": "radio",
+   "country": "KN",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.vousstream.com/8002/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.vousstream.com/8002/stream"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ky_x107-1-fm",
+   "name": "X107.1 FM",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://ice23.securenetsystems.net/X1071",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://ice23.securenetsystems.net/X1071",
+    "https://streamdb8web.securenetsystems.net/v5/X1071"
+   ],
+   "website": "https://dmsbroadcasting.ky/"
+  },
+  {
+   "id": "tuno:top_ky_rooster-101",
+   "name": "Rooster 101",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://rooster101-hurleysmedia.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://rooster101-hurleysmedia.radioca.st/stream",
+    "https://stream-15.aiir.com/3tmqzpfd5lxtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzdG1xenBmZDVseHR2IiwiaG9zdCI6InN0cmVhbS0xNS5haWlyLmNvbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoibU81NTFoTzBRa3VZb0o5V1BleTR4USIsImlhdCI6MTc5MjUzMjA1MiwiZXhwIjoxNzkyNTMyMTEyfQ.Npm4sDMRr7SPCRyT_30TYDIhiyMkcRyL7FhrnFJd-Mo&_=157384"
+   ],
+   "website": "https://www.rooster101.ky/"
+  },
+  {
+   "id": "tuno:top_ky_z99-grand-cayman",
+   "name": "Z99 Grand Cayman",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://z99-hurleysmedia.radioca.st/stream?_=232478",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://z99-hurleysmedia.radioca.st/stream?_=232478"
+   ],
+   "website": "https://www.z99.ky/"
+  },
+  {
+   "id": "tuno:top_ky_island-fm",
+   "name": "Island FM",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://iriefm-hurleysmedia.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://iriefm-hurleysmedia.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ky_gold-cayman",
+   "name": "GOLD Cayman",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://gold-hurleysmedia.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://gold-hurleysmedia.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ky_paradise-radio",
+   "name": "Paradise Radio",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://www.radiostreamcast.com/listen/paradise_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://www.radiostreamcast.com/listen/paradise_radio/radio.mp3",
+    "https://radiostreamcast.com/listen/paradise_radio/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radiostreamcast.com/listen/paradise_radio/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.paradiseradio.org/"
+  },
+  {
+   "id": "tuno:top_ky_island-fm-the-rhythm-of-cayman",
+   "name": "Island FM - The Rhythm Of Cayman",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://iriefm-hurleysmedia.radioca.st/stream?_=933660",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://iriefm-hurleysmedia.radioca.st/stream?_=933660"
+   ],
+   "website": "https://www.islandfm.ky/"
+  },
+  {
+   "id": "tuno:top_ky_z99",
+   "name": "Z99",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://z99-hurleysmedia.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://z99-hurleysmedia.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ky_big-fish-95-5fm",
+   "name": "Big Fish 95.5FM",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://ice41.securenetsystems.net/BIGFISH",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://ice41.securenetsystems.net/BIGFISH",
+    "https://cdn-web.tunein.com/assets/media/blank.mp3"
+   ],
+   "website": "https://bigfish955.ky/"
+  },
+  {
+   "id": "tuno:top_ky_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ky_star",
+   "name": "STAR",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.geckohost.nz/proxy/interac1?mp=/stream?ver=524649",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://ssl.geckohost.nz/proxy/interac1?mp=/stream?ver=524649"
+   ]
+  },
+  {
+   "id": "tuno:top_ky_power345radio",
+   "name": "Power345Radio",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://s32.myradiostream.com/18158/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://s32.myradiostream.com/18158/listen.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ky_smoothreload",
+   "name": "SmoothReload",
+   "type": "radio",
+   "country": "KY",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/647608/stream/710908",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://listen.radioking.com/radio/647608/stream/710908"
+   ]
+  }
+ ]
+}

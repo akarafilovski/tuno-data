@@ -1,0 +1,569 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ro_play-90-s",
+   "name": "Play 90's",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.playradio.org:8443/90HD",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.playradio.org:8443/90HD"
+   ],
+   "website": "https://www.playradio.org/"
+  },
+  {
+   "id": "tuno:top_ro_radio-romania-actualitati",
+   "name": "Radio România Actualități",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream4.srr.ro:8443/romania-actualitati",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream4.srr.ro:8443/romania-actualitati",
+    "http://stream2.srr.ro:8002/stream/1/",
+    "http://89.238.227.6:8006/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream2.srr.ro:8002/stream/1/",
+     "format": "icecast"
+    },
+    {
+     "url": "http://89.238.227.6:8006/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.romania-actualitati.ro/"
+  },
+  {
+   "id": "tuno:top_ro_kiss-fm",
+   "name": "Kiss FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.kissfm.ro/kissfm.aacp",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://live.kissfm.ro/kissfm.aacp"
+   ],
+   "website": "https://www.kissfm.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-zu",
+   "name": "Radio ZU",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live9uswest.antenaplay.ro/zurtv/zurtv/chunklist.m3u8?version=1&session=LRyLPbklRCZfNvDN3UnE&starttime=1792520564&endtime=1792534994&source=zuweb&token=lcehhvEL2sj1jd9jyYhUIsOpul4=",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://live9uswest.antenaplay.ro/zurtv/zurtv/chunklist.m3u8?version=1&session=LRyLPbklRCZfNvDN3UnE&starttime=1792520564&endtime=1792534994&source=zuweb&token=lcehhvEL2sj1jd9jyYhUIsOpul4=",
+    "http://zuicast.digitalag.ro:9420/zu",
+    "https://live7digi.antenaplay.ro/radiozu/radiozu-48000.m3u8",
+    "https://ivm.antenaplay.ro/liveaudio/radiozu/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://zuicast.digitalag.ro:9420/zu",
+     "format": "icecast"
+    },
+    {
+     "url": "https://live7digi.antenaplay.ro/radiozu/radiozu-48000.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://radiozu.ro/"
+  },
+  {
+   "id": "tuno:top_ro_magic-fm",
+   "name": "Magic FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.magicfm.ro/magicfm.aacp",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://live.magicfm.ro/magicfm.aacp"
+   ],
+   "website": "https://www.magicfm.ro/"
+  },
+  {
+   "id": "tuno:top_ro_digi-fm",
+   "name": "Digi FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "http://edge76.rdsnet.ro:84/digifm/digifm.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://edge76.rdsnet.ro:84/digifm/digifm.mp3",
+    "https://edge76.rcs-rds.ro/digifm/digifm.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://edge76.rcs-rds.ro/digifm/digifm.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.digi-fm.ro/"
+  },
+  {
+   "id": "tuno:top_ro_dance-fm-89-5-bucharest",
+   "name": "Dance FM 89.5 Bucharest",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "http://edge126.rdsnet.ro:84/profm/dancefm.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://edge126.rdsnet.ro:84/profm/dancefm.mp3"
+   ],
+   "website": "http://www.profm.ro/radio/dancefm"
+  },
+  {
+   "id": "tuno:top_ro_europa-fm",
+   "name": "Europa FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://astreaming.edi.ro:8443/EuropaFM_aac",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://astreaming.edi.ro:8443/EuropaFM_aac"
+   ]
+  },
+  {
+   "id": "tuno:top_ro_europa-fm-romania",
+   "name": "Europa FM Romania",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://astreaming.edi.ro:8443/EuropaFM_aac",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://astreaming.edi.ro:8443/EuropaFM_aac"
+   ],
+   "website": "http://www.europafm.ro/"
+  },
+  {
+   "id": "tuno:top_ro_deep-house-radio-bucharest-romania",
+   "name": "Deep House Radio - Bucharest Romania",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://1000electrobeats.stream.laut.fm/1000electrobeats",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://1000electrobeats.stream.laut.fm/1000electrobeats",
+    "http://live.dancemusic.ro:7000/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live.dancemusic.ro:7000/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.dancemusic.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-romania-cultural",
+   "name": "Radio România Cultural",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream4.srr.ro:8443/romania-cultural",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream4.srr.ro:8443/romania-cultural",
+    "http://stream2.srr.ro:8012/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream2.srr.ro:8012/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioromaniacultural.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-manele-petrecere",
+   "name": "RADIO MANELE PETRECERE",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://ssl.servereradio.ro/8044/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://ssl.servereradio.ro/8044/stream",
+    "https://ssl.servereradio.ro/8123/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ssl.servereradio.ro/8123/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fmradiomanele.ro/"
+  },
+  {
+   "id": "tuno:top_ro_dance-fm",
+   "name": "Dance FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://edge126.rcs-rds.ro/profm/dancefm.mp3?1792520633652",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://edge126.rcs-rds.ro/profm/dancefm.mp3?1792520633652",
+    "http://edge126.rdsnet.ro:84/profm/dancefm.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://edge126.rdsnet.ro:84/profm/dancefm.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.dancefm.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-cafe",
+   "name": "Radio Cafe",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "http://live.radiocafe.ro:8048/live.aac",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://live.radiocafe.ro:8048/live.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_ro_radio-gold",
+   "name": "Radio Gold",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radiogoldfm.ro:8443/WP.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://live.radiogoldfm.ro:8443/WP.mp3",
+    "http://80.86.106.110:8020/radiogoldfm-32.aac?1465411573960.aac",
+    "http://80.86.106.110:8002/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://80.86.106.110:8020/radiogoldfm-32.aac?1465411573960.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "http://80.86.106.110:8002/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiogoldfm.ro/#"
+  },
+  {
+   "id": "tuno:top_ro_virgin-radio-radio-21",
+   "name": "Virgin Radio (Radio 21)",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://astreaming.edi.ro:8443/VirginRadio_aac",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://astreaming.edi.ro:8443/VirginRadio_aac"
+   ]
+  },
+  {
+   "id": "tuno:top_ro_dhr-fm-deep-house-radio",
+   "name": "DHR FM - Deep House Radio",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.dancemusic.ro:7000/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://live.dancemusic.ro:7000/;"
+   ]
+  },
+  {
+   "id": "tuno:top_ro_realitatea-fm",
+   "name": "Realitatea FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://shout.realitatea.net:8001/rfmweb",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://shout.realitatea.net:8001/rfmweb"
+   ],
+   "website": "https://realitateafm.net/"
+  },
+  {
+   "id": "tuno:top_ro_radio-trinitas",
+   "name": "Radio Trinitas",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radiotrinitas.ro:8003/;stream.nsv",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://live.radiotrinitas.ro:8003/;stream.nsv",
+    "http://81.196.25.70:8000/"
+   ],
+   "website": "http://www.radiotrinitas.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-manele",
+   "name": "Radio Manele",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "http://a.fmradiomanele.ro:8054/;",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://a.fmradiomanele.ro:8054/;",
+    "https://play.wrhradios.com/8044/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://play.wrhradios.com/8044/stream",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_ro_radio-cafe-romania",
+   "name": "Radio Cafe Romania",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://radiocafe.ro/assets/sounds/click.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://radiocafe.ro/assets/sounds/click.mp3",
+    "http://live.radiocafe.ro:8048/live.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live.radiocafe.ro:8048/live.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiocafe.ro/"
+  },
+  {
+   "id": "tuno:top_ro_rock-fm",
+   "name": "Rock FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.rockfm.ro/rockfm.aacp",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://live.rockfm.ro/rockfm.aacp"
+   ]
+  },
+  {
+   "id": "tuno:top_ro_radio-guerrilla",
+   "name": "Radio Guerrilla",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.guerrillaradio.ro:8443/guerrilla.aac",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://live.guerrillaradio.ro:8443/guerrilla.aac"
+   ],
+   "website": "http://guerrillaradio.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-deea",
+   "name": "Radio Deea",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://radiocdn.nxthost.com/radio-deea",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://radiocdn.nxthost.com/radio-deea"
+   ],
+   "website": "https://radiodeea.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-impuls",
+   "name": "Radio Impuls",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.radio-impuls.ro/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://live.radio-impuls.ro/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ro_radio-pro-b",
+   "name": "Radio Pro-B",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "http://live.radioprob.ro:8888/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://live.radioprob.ro:8888/stream"
+   ],
+   "website": "https://www.radioprob.ro/"
+  },
+  {
+   "id": "tuno:top_ro_virgin-radio-romania",
+   "name": "Virgin Radio Romania",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://astreaming.edi.ro:8443/VirginRadio_aac",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://astreaming.edi.ro:8443/VirginRadio_aac",
+    "http://astreaming.virginradio.ro:8000/virgin_aacp_64k"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://astreaming.virginradio.ro:8000/virgin_aacp_64k",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://virginradio.ro/"
+  },
+  {
+   "id": "tuno:top_ro_radio-pro-music-90s",
+   "name": "Radio Pro Music 90s",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.adradio.ro/8414",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://stream.adradio.ro/8414"
+   ]
+  },
+  {
+   "id": "tuno:top_ro_lautaru-populara",
+   "name": "Lautaru Populara",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "http://live.radiolautaru.ro:9000/;stream.nsv",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "http://live.radiolautaru.ro:9000/;stream.nsv"
+   ],
+   "website": "https://www.radiolautaru.ro/"
+  },
+  {
+   "id": "tuno:top_ro_one-fm",
+   "name": "One FM",
+   "type": "radio",
+   "country": "RO",
+   "category": "music",
+   "stream": {
+    "url": "https://live.onefm.ro/onefm.aacp",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://live.onefm.ro/onefm.aacp"
+   ]
+  }
+ ]
+}

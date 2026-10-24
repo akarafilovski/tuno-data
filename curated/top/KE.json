@@ -1,0 +1,448 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ke_jesus-is-lord-radio",
+   "name": "Jesus is Lord Radio",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.radio.co/s97f38db97/listen",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://s3.radio.co/s97f38db97/listen",
+    "https://stream-285.surfernetwork.com/thdtw5xd9eiuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0aGR0dzV4ZDllaXV2IiwiaG9zdCI6InN0cmVhbS0yODUuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiI0OUMxUU9PMFIyeTl5SThnTno0VTB3IiwiaWF0IjoxNzg1OTU0NjI0LCJleHAiOjE3ODU5NTQ2ODR9.TEC2qyYYTCv3OjNepwCqgyWWPAoxPRanj5XLmznekcA"
+   ],
+   "website": "https://jesusislordradio.info/"
+  },
+  {
+   "id": "tuno:top_ke_classic-105",
+   "name": "Classic 105",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "http://media-ice.musicradio.com/ClassicFMMP3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://media-ice.musicradio.com/ClassicFMMP3",
+    "https://classic105-atunwadigital.streamguys1.com/classic105"
+   ],
+   "website": "http://media-ice.musicradio.com/ClassicFMMP3"
+  },
+  {
+   "id": "tuno:top_ke_ghetto-kenya",
+   "name": "ghetto kenya",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-289.surfernetwork.com/kvudezx1h2zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrdnVkZXp4MWgyenV2IiwiaG9zdCI6InN0cmVhbS0yODkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlFiUmlGbGh5UzVTcEQ4eUlQVTZRQ2ciLCJpYXQiOjE3OTI1MzAxODQsImV4cCI6MTc5MjUzMDI0NH0.QHHO6yQhCC5kh43YpBte3mhXAwC0DXkIMzDlnkxbFsk",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stream-289.surfernetwork.com/kvudezx1h2zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrdnVkZXp4MWgyenV2IiwiaG9zdCI6InN0cmVhbS0yODkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlFiUmlGbGh5UzVTcEQ4eUlQVTZRQ2ciLCJpYXQiOjE3OTI1MzAxODQsImV4cCI6MTc5MjUzMDI0NH0.QHHO6yQhCC5kh43YpBte3mhXAwC0DXkIMzDlnkxbFsk",
+    "http://stream-27.zeno.fm/kvudezx1h2zuv?zs=hCl2Q4ZVSPykhlahMviRpQ"
+   ],
+   "website": "https://stream.zeno.fm/kvudezx1h2zuv"
+  },
+  {
+   "id": "tuno:top_ke_campus-radio-kenya",
+   "name": "Campus Radio Kenya",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-175.surfernetwork.com/mayn36v1v8quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtYXluMzZ2MXY4cXV2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImQ2YWFtdHQ3VEJPVm9WTjA4TkVYWmciLCJpYXQiOjE3OTI1MzAxOTUsImV4cCI6MTc5MjUzMDI1NX0.QZwWvG5ElkW4Ht2oyZNfOhbvp9PVch228VGQ3RMvhMg",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream-175.surfernetwork.com/mayn36v1v8quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtYXluMzZ2MXY4cXV2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImQ2YWFtdHQ3VEJPVm9WTjA4TkVYWmciLCJpYXQiOjE3OTI1MzAxOTUsImV4cCI6MTc5MjUzMDI1NX0.QZwWvG5ElkW4Ht2oyZNfOhbvp9PVch228VGQ3RMvhMg",
+    "https://stream.zeno.fm/9a87d8v1v8quv",
+    "https://stream.zenolive.com/mayn36v1v8quv.aac"
+   ],
+   "website": "https://www.campusradio.co.ke/"
+  },
+  {
+   "id": "tuno:top_ke_nation-fm",
+   "name": "NATION FM",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "http://n02.radiojar.com/3by7s8eg65quv?rj-ttl=5&rj-tok=AAABoVspKe8A5Hz8o-Wj7EyzRQ",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://n02.radiojar.com/3by7s8eg65quv?rj-ttl=5&rj-tok=AAABoVspKe8A5Hz8o-Wj7EyzRQ",
+    "http://stream.radiojar.com/3by7s8eg65quv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.radiojar.com/3by7s8eg65quv",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://stream.radiojar.com/3by7s8eg65quv"
+  },
+  {
+   "id": "tuno:top_ke_reggae-roots",
+   "name": "REGGAE ROOTS",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "http://relay5.181.fm:8096/",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://relay5.181.fm:8096/"
+   ],
+   "website": "http://relay5.181.fm:8096/"
+  },
+  {
+   "id": "tuno:top_ke_nrg-radio",
+   "name": "NRG Radio",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://uksouth.streaming.broadcast.radio/nrg",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://uksouth.streaming.broadcast.radio/nrg"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_homeboyz-radio",
+   "name": "Homeboyz Radio",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://homeboyzradio-atunwadigital.streamguys1.com/homeboyzradio",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://homeboyzradio-atunwadigital.streamguys1.com/homeboyzradio"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_radio-kaya",
+   "name": "Radio Kaya",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://usa9-vn.mixstream.net/:8084/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://usa9-vn.mixstream.net/:8084/listen.mp3",
+    "http://usa9-vn.mixstream.net:8084/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://usa9-vn.mixstream.net:8084/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiokaya.co.ke/"
+  },
+  {
+   "id": "tuno:top_ke_radio-jambo",
+   "name": "Radio Jambo",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://radiojambo-atunwadigital.streamguys1.com/radiojambo",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radiojambo-atunwadigital.streamguys1.com/radiojambo"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_kiss-100-kenya",
+   "name": "Kiss 100 Kenya",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://kiss100fm-atunwadigital.streamguys1.com/kiss100fm",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://kiss100fm-atunwadigital.streamguys1.com/kiss100fm"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_mayian-fm",
+   "name": "Mayian FM",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://mayianfm-atunwadigital.streamguys1.com/mayianfm?",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://mayianfm-atunwadigital.streamguys1.com/mayianfm?"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_radio-maria-kenya-kisumu",
+   "name": "Radio Maria Kenya Kisumu",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp5.com:8129/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://dreamsiteradiocp5.com:8129/stream"
+   ],
+   "website": "https://www.radiomaria.co.ke/"
+  },
+  {
+   "id": "tuno:top_ke_hope-fm",
+   "name": "Hope FM",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://a5.asurahosting.com:7530/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://a5.asurahosting.com:7530/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_capital-fm-kenya",
+   "name": "Capital Fm Kenya",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://capitalfm-atunwadigital.streamguys1.com/capitalfm",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://capitalfm-atunwadigital.streamguys1.com/capitalfm"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_milele-fm",
+   "name": "Milele FM",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://milelefm-atunwadigital.streamguys1.com/milelefm",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://milelefm-atunwadigital.streamguys1.com/milelefm"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_jembe-fm",
+   "name": "JEMBE FM",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.asurahosting.com/proxy/jembemed/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://cast3.asurahosting.com/proxy/jembemed/stream"
+   ],
+   "website": "https://cast3.asurahosting.com/proxy/jembemed/stream"
+  },
+  {
+   "id": "tuno:top_ke_radio-47",
+   "name": "Radio 47",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.shoutcast.com/radio-47",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streaming.shoutcast.com/radio-47"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_allizinic-fm",
+   "name": "ALLIZINIC FM",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "http://allzic43.ice.infomaniak.ch/allzic43.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://allzic43.ice.infomaniak.ch/allzic43.mp3"
+   ],
+   "website": "http://allzic43.ice.infomaniak.ch/allzic43.mp3"
+  },
+  {
+   "id": "tuno:top_ke_radio-citizen",
+   "name": "Radio Citizen",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://radiocitizen-atunwadigital.streamguys1.com/radiocitizen",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radiocitizen-atunwadigital.streamguys1.com/radiocitizen"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_radio-quran",
+   "name": "#Radio Quran",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_carribean",
+   "name": "CARRIBEAN",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://rautemusik.stream25.radiohost.de/caribbean-wave_mp3-192?upd-meta&upd-scheme=https&_art=dD0xNzkyNTMwNTEzJmQ9MDliNmVjZTdjYWRjMWI2M2Q1ZjQ",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://rautemusik.stream25.radiohost.de/caribbean-wave_mp3-192?upd-meta&upd-scheme=https&_art=dD0xNzkyNTMwNTEzJmQ9MDliNmVjZTdjYWRjMWI2M2Q1ZjQ",
+    "https://streams.rautemusik.fm/caribbean-wave/mp3-192/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streams.rautemusik.fm/caribbean-wave/mp3-192/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://streams.rautemusik.fm/caribbean-wave/mp3-192/"
+  },
+  {
+   "id": "tuno:top_ke_radio-maisha",
+   "name": "Radio Maisha",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://radiomaisha-atunwadigital.streamguys1.com/radiomaisha",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://radiomaisha-atunwadigital.streamguys1.com/radiomaisha"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_kingstone",
+   "name": "KINGSTONE",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "http://198.57.187.102:8080/kingston12",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://198.57.187.102:8080/kingston12"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_jabulani-radio",
+   "name": "Jabulani Radio",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/626272/stream/688567",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://listen.radioking.com/radio/626272/stream/688567"
+   ]
+  },
+  {
+   "id": "tuno:top_ke_feel-jah",
+   "name": "FEEL JAH",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "http://solid9.streamupsolutions.com:8018/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://solid9.streamupsolutions.com:8018/stream"
+   ],
+   "website": "http://solid9.streamupsolutions.com:8018/stream"
+  },
+  {
+   "id": "tuno:top_ke_at254-online-radio",
+   "name": "AT254 Online Radio",
+   "type": "radio",
+   "country": "KE",
+   "category": "music",
+   "stream": {
+    "url": "https://s127.radiolize.com/radio/8100/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://s127.radiolize.com/radio/8100/radio.mp3"
+   ],
+   "website": "https://s127.radiolize.com/public/appsumo__cj6khn_riclf3"
+  }
+ ]
+}

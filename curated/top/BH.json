@@ -1,0 +1,252 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bh_radio-the-voice-of-ummah",
+   "name": "Radio The Voice of Ummah",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://mediati.me/radio/8010/radio.mp3?1608014536",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://mediati.me/radio/8010/radio.mp3?1608014536"
+   ]
+  },
+  {
+   "id": "tuno:top_bh_bahrain-106-1-fm",
+   "name": "Bahrain 106.1 FM",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://5c7b683162943.streamlock.net/live/ngrp:radio-106-1_all/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://5c7b683162943.streamlock.net/live/ngrp:radio-106-1_all/playlist.m3u8",
+    "https://5c7b683162943.streamlock.net/live/ngrp:radio-93-3_all/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://5c7b683162943.streamlock.net/live/ngrp:radio-93-3_all/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.mia.gov.bh/media-center/quran-kareem-106-1"
+  },
+  {
+   "id": "tuno:top_bh_bfbs-bahrain",
+   "name": "BFBS Bahrain",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs9.aac",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs9.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_bh_monte-carlo-doualiya",
+   "name": "Monte Carlo Doualiya",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+   ],
+   "website": "https://www.mc-doualiya.com/"
+  },
+  {
+   "id": "tuno:top_bh_afn-360-bahrain",
+   "name": "AFN 360 Bahrain",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "http://25603.live.streamtheworld.com/AFNE_BHN_SC",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://25603.live.streamtheworld.com/AFNE_BHN_SC"
+   ],
+   "website": "http://www.afneurope.net/AFN-360/"
+  },
+  {
+   "id": "tuno:top_bh_live-fm",
+   "name": "Live FM",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-14.aiir.com/dbv0rxpwp6ytv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkYnYwcnhwd3A2eXR2IiwiaG9zdCI6InN0cmVhbS0xNC5haWlyLmNvbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiOHZrV2hJelhTSm1vRkNVbU5uUFlrZyIsImlhdCI6MTc5MjUzMzUyMSwiZXhwIjoxNzkyNTMzNTgxfQ.2m_I9z-LpRnRvjF6GqHadgPfCIn4wP0ZOyA31zBPH3E",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream-14.aiir.com/dbv0rxpwp6ytv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkYnYwcnhwd3A2eXR2IiwiaG9zdCI6InN0cmVhbS0xNC5haWlyLmNvbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiOHZrV2hJelhTSm1vRkNVbU5uUFlrZyIsImlhdCI6MTc5MjUzMzUyMSwiZXhwIjoxNzkyNTMzNTgxfQ.2m_I9z-LpRnRvjF6GqHadgPfCIn4wP0ZOyA31zBPH3E",
+    "https://stream.aiir.com/dbv0rxpwp6ytv"
+   ],
+   "website": "https://www.livefm.bh/"
+  },
+  {
+   "id": "tuno:top_bh_radio-manna",
+   "name": "Radio Manna",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://gains.reviveradio.net/proxy/radiomanna/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://gains.reviveradio.net/proxy/radiomanna/;"
+   ]
+  },
+  {
+   "id": "tuno:top_bh_quran",
+   "name": ".Quran",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://backup.qurango.net/radio/ahmad_khader_altarabulsi",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://backup.qurango.net/radio/ahmad_khader_altarabulsi"
+   ]
+  },
+  {
+   "id": "tuno:top_bh_antenna-web-bahrein",
+   "name": "Antenna Web Bahrein",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebBahrein",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebBahrein"
+   ]
+  },
+  {
+   "id": "tuno:top_bh_beautiful-recitation",
+   "name": ".beautiful recitation",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://qurango.net/radio/salma",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://qurango.net/radio/salma"
+   ]
+  },
+  {
+   "id": "tuno:top_bh_manama-onlayn",
+   "name": "Manama onlayn",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream1.svrdedicado.org/8370/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream1.svrdedicado.org/8370/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bh_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bh_afn-go-bahrain",
+   "name": "AFN GO BAHRAIN",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/AFNE_BHNAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/AFNE_BHNAAC.aac"
+   ],
+   "website": "https://afngo.net/afneurope/Aviano/radio/Bahrain"
+  },
+  {
+   "id": "tuno:top_bh_voice-of-ummah",
+   "name": "Voice of Ummah",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://mediati.me/listen/vou/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://mediati.me/listen/vou/radio.mp3",
+    "http://mediati.me/radio/8010/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://mediati.me/radio/8010/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.voiceofummah.org/"
+  },
+  {
+   "id": "tuno:top_bh_ccc",
+   "name": "ccc",
+   "type": "radio",
+   "country": "BH",
+   "category": "music",
+   "stream": {
+    "url": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8"
+   ],
+   "website": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8"
+  }
+ ]
+}

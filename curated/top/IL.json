@@ -1,0 +1,555 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_il_galei-zahal",
+   "name": "Galei Zahal",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://glzwizzlv.bynetcdn.com/glz_mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://glzwizzlv.bynetcdn.com/glz_mp3"
+   ],
+   "website": "http://glzwizzlv.bynetcdn.com/"
+  },
+  {
+   "id": "tuno:top_il_kol-barama",
+   "name": "Kol-Barama",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.cybercdn.live/Kol_Barama/Live_Audio/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://cdn.cybercdn.live/Kol_Barama/Live_Audio/icecast.audio",
+    "http://kb.cdnwz.net/kol_barama"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://kb.cdnwz.net/kol_barama",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://kol-barama.co.il/"
+  },
+  {
+   "id": "tuno:top_il_joint-radio-reggae",
+   "name": "Joint Radio Reggae",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://jointil.com/stream-reggae",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://jointil.com/stream-reggae"
+   ]
+  },
+  {
+   "id": "tuno:top_il_noshmim-mizrahit",
+   "name": "Noshmim Mizrahit",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://rs.mizrahit.fm:7777/arabellavie",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://rs.mizrahit.fm:7777/arabellavie",
+    "http://www.rs.mizrahit.fm:7777/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://www.rs.mizrahit.fm:7777/",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.mizrahit.fm/"
+  },
+  {
+   "id": "tuno:top_il_israeli-voice-radio-tel-aviv",
+   "name": "Israeli voice radio Tel Aviv",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.live/ivr",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://icecast.live/ivr"
+   ],
+   "website": "https://israelivoiceradio.co.il/"
+  },
+  {
+   "id": "tuno:top_il_glglz",
+   "name": "Glglz",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://api.bynetcdn.com/Redirector/glz/glglz/ICE-LIVE",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://api.bynetcdn.com/Redirector/glz/glglz/ICE-LIVE",
+    "http://glzwizzlv.bynetcdn.com/glglz_mp3",
+    "https://glzwizzlv.bynetcdn.com/glglz_sofshavua_mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://glzwizzlv.bynetcdn.com/glglz_mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://glzwizzlv.bynetcdn.com/glglz_sofshavua_mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://glz.co.il/%D7%92%D7%9C%D7%92%D7%9C%D7%A6"
+  },
+  {
+   "id": "tuno:top_il_eco99fm",
+   "name": "Eco99FM",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://eco01.livecdn.biz/ecolive/99fm_aac/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://eco01.livecdn.biz/ecolive/99fm_aac/icecast.audio",
+    "https://eco99fm.maariv.co.il/null",
+    "https://eco-live.mediacast.co.il/99fm_aac",
+    "http://99.mediacast.co.il/99fm_aac?hash=1559501510715.m4a"
+   ],
+   "website": "http://eco99fm.maariv.co.il/"
+  },
+  {
+   "id": "tuno:top_il_yaboos-fm",
+   "name": "Yaboos FM",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.yaboos.fm/live",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.yaboos.fm/live"
+   ]
+  },
+  {
+   "id": "tuno:top_il_radio-103fm",
+   "name": "Radio 103FM",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.cybercdn.live/103FM/Live/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://cdn.cybercdn.live/103FM/Live/icecast.audio"
+   ],
+   "website": "https://103fm.maariv.co.il/"
+  },
+  {
+   "id": "tuno:top_il_station",
+   "name": "Первое радио",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.cybercdn.live/Pervoia/Audio/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://cdn.cybercdn.live/Pervoia/Audio/icecast.audio"
+   ]
+  },
+  {
+   "id": "tuno:top_il_radio-kol-hai",
+   "name": "Radio Kol Haï",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://live.kcm.fm/livemusic",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://live.kcm.fm/livemusic"
+   ],
+   "website": "https://live.kcm.fm/livemusic"
+  },
+  {
+   "id": "tuno:top_il_galgalatz",
+   "name": "GalGalatz",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://glzwizzlv.bynetcdn.com/glglz_mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://glzwizzlv.bynetcdn.com/glglz_mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_il_radio-kol-chai",
+   "name": "Radio Kol-Chai",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://media.kcm.fm/hls/kcm/upload/online/2026/10/20193511.mp4,.urlset/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://media.kcm.fm/hls/kcm/upload/online/2026/10/20193511.mp4,.urlset/master.m3u8",
+    "https://live.kcm.fm/live-new",
+    "https://media2.93fm.co.il/live-new"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.kcm.fm/live-new",
+     "format": "icecast"
+    },
+    {
+     "url": "https://media2.93fm.co.il/live-new",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.93fm.co.il/"
+  },
+  {
+   "id": "tuno:top_il_a-shams",
+   "name": "اذاعة الشمس - A-Shams",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://cdna.streamgates.net/Ashams/Live/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://cdna.streamgates.net/Ashams/Live/icecast.audio",
+    "https://s.ashams.com/storage/attachments/428/KhaledDaghash-20102026-7sad_565536.mp3"
+   ],
+   "website": "https://www.ashams.com/"
+  },
+  {
+   "id": "tuno:top_il_toker-fm",
+   "name": "Toker FM",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://broadcast.adpronet.com/radio/6060/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://broadcast.adpronet.com/radio/6060/radio.mp3",
+    "https://live.toker.fm:6060/listen.pls?sid=1",
+    "https://live.toker.fm:6060/"
+   ],
+   "website": "https://live.toker.fm:6060/"
+  },
+  {
+   "id": "tuno:top_il_radios-100fm-100-80s",
+   "name": "Radios 100FM - 100% 80s",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "http://gb25.streamgates.net/radios-audio/10080s/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://gb25.streamgates.net/radios-audio/10080s/icecast.audio"
+   ],
+   "website": "http://digital.100fm.co.il/#s80"
+  },
+  {
+   "id": "tuno:top_il_89-1fm",
+   "name": "Первое радио 89.1FM",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.cybercdn.live/Pervoia/Audio/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://cdn.cybercdn.live/Pervoia/Audio/icecast.audio"
+   ],
+   "website": "https://www.891fm.co.il/"
+  },
+  {
+   "id": "tuno:top_il_up2dance-radio",
+   "name": "Up2Dance Radio",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.live/up2dance",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://icecast.live/up2dance"
+   ],
+   "website": "https://up2dance.com/"
+  },
+  {
+   "id": "tuno:top_il_joint-radio-blues-rock",
+   "name": "#joint radio Blues Rock",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://betelgeuse.nucast.co.uk/stream/jrn-beat",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://betelgeuse.nucast.co.uk/stream/jrn-beat",
+    "https://jointil.com/stream-blues"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://jointil.com/stream-blues",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.jointil.com/"
+  },
+  {
+   "id": "tuno:top_il_radio-lelo-hafsaka",
+   "name": "Radio Lelo Hafsaka",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.cybercdn.live/103FM/Live/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://cdn.cybercdn.live/103FM/Live/icecast.audio"
+   ]
+  },
+  {
+   "id": "tuno:top_il_jewish-music-stream",
+   "name": "Jewish Music Stream",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.jewishmusicstream.com:8000/;",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://stream.jewishmusicstream.com:8000/;"
+   ],
+   "website": "https://jewishmusicstream.com/"
+  },
+  {
+   "id": "tuno:top_il_station_22",
+   "name": "Лучшее радио",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://servidor35-5.brlogic.com:7080/live?source=9156",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://servidor35-5.brlogic.com:7080/live?source=9156"
+   ]
+  },
+  {
+   "id": "tuno:top_il_kabbalah-heb",
+   "name": "קבלה לעם עברית - Kabbalah heb",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.kab.tv/live1-heb-574bcfd5.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://icecast.kab.tv/live1-heb-574bcfd5.mp3"
+   ],
+   "website": "http://www.kab.info/"
+  },
+  {
+   "id": "tuno:top_il_radio-yasoo",
+   "name": "Radio Yasoo",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://liveradio.co.il/radioyasoo",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://liveradio.co.il/radioyasoo",
+    "http://radio-yasoo.ath.cx:7500/;stream.nsv&type=mp3"
+   ],
+   "website": "https://www.radio-yasoo.com/"
+  },
+  {
+   "id": "tuno:top_il_100fm-100-movies",
+   "name": "100fm - 100% Movies",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "http://gb25.streamgates.net/radios-audio/100Movies/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://gb25.streamgates.net/radios-audio/100Movies/icecast.audio"
+   ],
+   "website": "https://superradio.cc/"
+  },
+  {
+   "id": "tuno:top_il_rak-musica",
+   "name": "Rak Musica",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioking.io/rak-musica",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://play.radioking.io/rak-musica",
+    "https://play.radioking.io/rak-musica/670240"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://play.radioking.io/rak-musica/670240",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://rak-musica.webnode.be/"
+  },
+  {
+   "id": "tuno:top_il_galey-yisrael",
+   "name": "גלי ישראל Galey Yisrael",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio"
+   ],
+   "website": "http://www.gly.co.il/"
+  },
+  {
+   "id": "tuno:top_il_kan-bet",
+   "name": "Kan Bet",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://28563.live.streamtheworld.com/KAN_BET.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://28563.live.streamtheworld.com/KAN_BET.mp3",
+    "https://25583.live.streamtheworld.com/KAN_BET.mp3?dist=bynetredirect&1737047133",
+    "https://n-121-4.il.cdn-redge.media/livehls/oil/kancdn-live/live/radio/kan_reshet_bet/live.livx/playlist.m3u8?bitrate=64000&audioId=1&lang=pol&renditions"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://25583.live.streamtheworld.com/KAN_BET.mp3?dist=bynetredirect&1737047133",
+     "format": "icecast"
+    },
+    {
+     "url": "https://n-121-4.il.cdn-redge.media/livehls/oil/kancdn-live/live/radio/kan_reshet_bet/live.livx/playlist.m3u8?bitrate=64000&audioId=1&lang=pol&renditions",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.kan.org.il/"
+  },
+  {
+   "id": "tuno:top_il_kcm-fm-channel-01-live",
+   "name": "Kcm FM Channel 01 Live",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://live.kcm.fm/livemusic",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://live.kcm.fm/livemusic",
+    "https://media2.93fm.co.il/livemusic"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://media2.93fm.co.il/livemusic",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://kcm.fm/"
+  },
+  {
+   "id": "tuno:top_il_radio-orenu",
+   "name": "Radio Orenu",
+   "type": "radio",
+   "country": "IL",
+   "category": "music",
+   "stream": {
+    "url": "https://myradio24.org/orenu",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://myradio24.org/orenu"
+   ]
+  }
+ ]
+}

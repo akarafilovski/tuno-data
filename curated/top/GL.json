@@ -1,0 +1,130 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gl_nanoq-fm",
+   "name": "Nanoq FM",
+   "type": "radio",
+   "country": "GL",
+   "category": "music",
+   "stream": {
+    "url": "http://getnanoq.retro-radio.dk/Nanoq-TX-1",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://getnanoq.retro-radio.dk/Nanoq-TX-1"
+   ],
+   "website": "https://nanoqmedia.gl/da/radio/"
+  },
+  {
+   "id": "tuno:top_gl_knr-radio",
+   "name": "KNR Radio",
+   "type": "radio",
+   "country": "GL",
+   "category": "music",
+   "stream": {
+    "url": "https://i2.cdn.jetstre.am:8000/sz=knr=audio192?token=81d0758caf04cf179f43058b14e5e7dd&time=6ad7e9c6",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://i2.cdn.jetstre.am:8000/sz=knr=audio192?token=81d0758caf04cf179f43058b14e5e7dd&time=6ad7e9c6",
+    "https://i1.cdn.jetstre.am:8000/sz=knr=audio192?token=ea282bc02bb373156231dd1522a33943&time=6a184ec2",
+    "https://rrr.sz.xlcdn.com/?account=knr&file=radio&type=live&service=icecast&port=8000&output=pls"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://i1.cdn.jetstre.am:8000/sz=knr=audio192?token=ea282bc02bb373156231dd1522a33943&time=6a184ec2",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://knr.gl/en/live-radio"
+  },
+  {
+   "id": "tuno:top_gl_dfm-rtv-int160k",
+   "name": "Dfm rtv int160k",
+   "type": "radio",
+   "country": "GL",
+   "category": "music",
+   "stream": {
+    "url": "https://stereo.dfm.nu/",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://stereo.dfm.nu/"
+   ],
+   "website": "http://dfm.nu/"
+  },
+  {
+   "id": "tuno:top_gl_station",
+   "name": "ΡΑΔΙΟ ΔΙΠΛΟΠΕΝΙΕΣ",
+   "type": "radio",
+   "country": "GL",
+   "category": "music",
+   "stream": {
+    "url": "https://play.streams.gr/sc/radiodiplopenies/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://play.streams.gr/sc/radiodiplopenies/stream"
+   ],
+   "website": "https://www.radiodiplopenies.gr/"
+  },
+  {
+   "id": "tuno:top_gl_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GL",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gl_antenna-web-kulusuk",
+   "name": "Antenna Web Kulusuk",
+   "type": "radio",
+   "country": "GL",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Kulusuk",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Kulusuk"
+   ]
+  },
+  {
+   "id": "tuno:top_gl_original-laikos",
+   "name": "Original Laikos",
+   "type": "radio",
+   "country": "GL",
+   "category": "music",
+   "stream": {
+    "url": "https://play.streams.gr/sc/radiodiplopenies/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://play.streams.gr/sc/radiodiplopenies/stream",
+    "https://play.streams.gr:22035/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://play.streams.gr:22035/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiooriginallaikos.blogspot.com/"
+  }
+ ]
+}

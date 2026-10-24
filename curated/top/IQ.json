@@ -1,0 +1,464 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_iq_al-rasheed-radio",
+   "name": "Al Rasheed Radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.shoutcast.com/alrasheed-fm?1719771692024",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://streaming.shoutcast.com/alrasheed-fm?1719771692024",
+    "http://alrasheedmedia.com:9998/;"
+   ],
+   "website": "https://www.alrasheedmedia.com/fm/"
+  },
+  {
+   "id": "tuno:top_iq_waar-radio",
+   "name": "Waar Radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://clvod.itworkscdn.net/waarmediavod/smil:itwfcdn/waarmedia/2814825-nCX683N784SYG85-v-1.smil/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://clvod.itworkscdn.net/waarmediavod/smil:itwfcdn/waarmedia/2814825-nCX683N784SYG85-v-1.smil/playlist.m3u8",
+    "https://c4.radioboss.fm:8633/stream",
+    "http://streaming.radionomy.com/JamendoLounge"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://c4.radioboss.fm:8633/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://streaming.radionomy.com/JamendoLounge",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://waarmedia.com/"
+  },
+  {
+   "id": "tuno:top_iq_radio-shafaq",
+   "name": "Radio Shafaq",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.shafaq.com/radio",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.shafaq.com/radio"
+   ],
+   "website": "https://www.shafaq.com/ar"
+  },
+  {
+   "id": "tuno:top_iq_sumer-fm",
+   "name": "Sumer FM",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://l3.itworkscdn.net/itwaudio/9012/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://l3.itworkscdn.net/itwaudio/9012/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_radio-maria-iraq",
+   "name": "radio maria iraq",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp4.com:8046/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://dreamsiteradiocp4.com:8046/stream"
+   ],
+   "website": "http://dreamsiteradiocp4.com:8046/stream"
+  },
+  {
+   "id": "tuno:top_iq_kurdistan24",
+   "name": "Kurdistan24",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://audio-edge-5bkfj.fra.h.radiomast.io/04b1ce4c-24f2-4172-b756-065832ef78bf",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://audio-edge-5bkfj.fra.h.radiomast.io/04b1ce4c-24f2-4172-b756-065832ef78bf",
+    "https://streams.radiomast.io/04b1ce4c-24f2-4172-b756-065832ef78bf?referer=onlineradiobox",
+    "https://audio-edge-3mayu.fra.h.radiomast.io/04b1ce4c-24f2-4172-b756-065832ef78bf"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streams.radiomast.io/04b1ce4c-24f2-4172-b756-065832ef78bf?referer=onlineradiobox",
+     "format": "icecast"
+    },
+    {
+     "url": "https://audio-edge-3mayu.fra.h.radiomast.io/04b1ce4c-24f2-4172-b756-065832ef78bf",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.kurdistan24.net/ar/"
+  },
+  {
+   "id": "tuno:top_iq_sumerfm-iraq",
+   "name": "SumerFm Iraq",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://l3.itworkscdn.net/itwaudio/9012/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://l3.itworkscdn.net/itwaudio/9012/stream"
+   ],
+   "website": "https://www.alsumaria.tv/SumerFm"
+  },
+  {
+   "id": "tuno:top_iq_babylon-fm",
+   "name": "Babylon FM",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://eu7.fastcast4u.com/proxy/babylonarabia?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://eu7.fastcast4u.com/proxy/babylonarabia?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_al-quran-radio",
+   "name": ". Al quran radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_monte-carlo-doualiya-fm",
+   "name": "Monte Carlo Doualiya FM",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_alseraj-radio-quran",
+   "name": "Alseraj Radio Quran",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "http://192.99.170.8:5550/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://192.99.170.8:5550/stream"
+   ],
+   "website": "https://raddio.net/229793-alseraj-radio-quran"
+  },
+  {
+   "id": "tuno:top_iq_radio-ashur",
+   "name": "Radio Ashur",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://eu7.fastcast4u.com/proxy/radioashur?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://eu7.fastcast4u.com/proxy/radioashur?mp=/1"
+   ],
+   "website": "https://radioashur.goodbarber.app/"
+  },
+  {
+   "id": "tuno:top_iq_al-bilad-radio-yaqoubi",
+   "name": "Al-bilad Radio/Yaqoubi",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/sb38bf6e66/listen",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://streamer.radio.co/sb38bf6e66/listen"
+   ],
+   "website": "http://www.albilad.org/"
+  },
+  {
+   "id": "tuno:top_iq_hawa-dijlah-radio",
+   "name": "Hawa Dijlah Radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/96766/stream/136030",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://listen.radioking.com/radio/96766/stream/136030"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_darusalam-radio",
+   "name": "Darusalam Radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/s0975ec186/listen",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://streams.radio.co/s0975ec186/listen"
+   ],
+   "website": "https://www.darusalamradio.net/"
+  },
+  {
+   "id": "tuno:top_iq_alseraj-radio-islam",
+   "name": "Alseraj Radio Islam",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://eu4.fastcast4u.com/proxy/aabdul00?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://eu4.fastcast4u.com/proxy/aabdul00?mp=/1"
+   ],
+   "website": "https://www.alserajradio.com/"
+  },
+  {
+   "id": "tuno:top_iq_m-radio-105-5-fm",
+   "name": "M Radio 105.5 FM",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://usa13.fastcast4u.com/proxy/mradio02?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://usa13.fastcast4u.com/proxy/mradio02?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_radio-al-bilad",
+   "name": "Radio Al-Bilad",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/sb38bf6e66/listen",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://streamer.radio.co/sb38bf6e66/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_radio-al-salam",
+   "name": "Radio Al-Salam",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "http://178.32.146.187:5117/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://178.32.146.187:5117/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_ankawa",
+   "name": "Ankawa",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "http://178.32.146.187/proxy/radioankawa?mp=/1/",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://178.32.146.187/proxy/radioankawa?mp=/1/"
+   ],
+   "website": "http://178.32.146.187/proxy/radioankawa?mp=/1/"
+  },
+  {
+   "id": "tuno:top_iq_turkmen-fm",
+   "name": "Turkmen FM  تركمان إف إم",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://radyo1.radyo-dinle.tc/8284/stream;",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://radyo1.radyo-dinle.tc/8284/stream;"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_fm",
+   "name": "FM المستقبل",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/vnvcj",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://edge.mixlr.com/channel/vnvcj"
+   ],
+   "website": "https://mustaqbal-fm.com/"
+  },
+  {
+   "id": "tuno:top_iq_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_iq_alseraj-radio",
+   "name": "Alseraj Radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://eu4.fastcast4u.com/proxy/aabdul00?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://eu4.fastcast4u.com/proxy/aabdul00?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_new-life-radio",
+   "name": "New Life Radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/sd3c7f8539/listen",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://s2.radio.co/sd3c7f8539/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_iq_al-rasheed-fm-kirkuk",
+   "name": "Al rasheed fm )Kirkuk)",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.shoutcast.com/alrasheed-fm",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://streaming.shoutcast.com/alrasheed-fm",
+    "https://streaming.shoutcast.com/alrasheed-kirkuk"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.shoutcast.com/alrasheed-kirkuk",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.alrasheedfm.com/"
+  },
+  {
+   "id": "tuno:top_iq_speda-radio",
+   "name": "speda radio",
+   "type": "radio",
+   "country": "IQ",
+   "category": "music",
+   "stream": {
+    "url": "https://live.channel8.com/Channel8-Kurdish/tracks-a1/index.fmp4.m3u8",
+    "format": "hls"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://live.channel8.com/Channel8-Kurdish/tracks-a1/index.fmp4.m3u8",
+    "https://radio.host247.net/spedafm"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio.host247.net/spedafm",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://live.channel8.com/Channel8-Kurdish/tracks-a1/index.fmp4.m3u8"
+  }
+ ]
+}

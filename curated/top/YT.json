@@ -1,0 +1,314 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_yt_dziani-fm",
+   "name": "Dziani FM",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/3331/stream/10187",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://listen.radioking.com/radio/3331/stream/10187",
+    "https://listen.radioking.com/radio/3331/stream/63166"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.radioking.com/radio/3331/stream/63166",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://dzianifm.fr/"
+  },
+  {
+   "id": "tuno:top_yt_mayotte-la-1ere",
+   "name": "Mayotte La 1ère",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://mayotte.ice.infomaniak.ch/mayotte-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://mayotte.ice.infomaniak.ch/mayotte-128.mp3"
+   ],
+   "website": "https://la1ere.francetvinfo.fr/mayotte/"
+  },
+  {
+   "id": "tuno:top_yt_rf-mayotte",
+   "name": "RF Mayotte",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/8000/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/8000/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_yt_r-m-v",
+   "name": "R.M.V",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.rmv.yt:2199/proxy/rmv?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://live.rmv.yt:2199/proxy/rmv?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_chiconi-fm",
+   "name": "CHICONI FM",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/8004/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/8004/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_radio-koudjouni",
+   "name": "Radio Koudjouni",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/8002/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/8002/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_mayotte-1ere",
+   "name": "Mayotte 1ère",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://mayotte.ice.infomaniak.ch/mayotte-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://mayotte.ice.infomaniak.ch/mayotte-128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_radio-mawoua",
+   "name": "RADIO MAWOUA",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://mawoua.ice.infomaniak.ch/mawoua-32.aac",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://mawoua.ice.infomaniak.ch/mawoua-32.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_mayotte-fm",
+   "name": "Mayotte FM",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.myradio.yt/mayottefm",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://live.myradio.yt/mayottefm"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_rs-mayotte",
+   "name": "RS Mayotte",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/8008/stream",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/8008/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_r-oi",
+   "name": "R-OI",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/8010/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/8010/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_sun-fm",
+   "name": "SUN FM",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/669814/stream/733864",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://listen.radioking.com/radio/669814/stream/733864"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_studio-h-prod",
+   "name": "Studio h prod",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/675910/stream/740167",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://listen.radioking.com/radio/675910/stream/740167"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_radio-coconi",
+   "name": "Radio Coconi",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/9300/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/9300/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_hero-radio-mayotte",
+   "name": "Hero Radio (Mayotte)",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/mayotte.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/mayotte.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_swauti-ya-bandrele",
+   "name": "Swauti Ya Bandrélé",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/8660/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/8660/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_rim-mayotte",
+   "name": "RIM-Mayotte",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mayotte-streaming.com/8006/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://radio.mayotte-streaming.com/8006/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_mayotte-one",
+   "name": "Mayotte One",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.myradio.yt/mayotteone",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://live.myradio.yt/mayotteone"
+   ]
+  },
+  {
+   "id": "tuno:top_yt_antenna-web-mamoudzou",
+   "name": "Antenna Web Mamoudzou",
+   "type": "radio",
+   "country": "YT",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebMamoudzou",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebMamoudzou"
+   ]
+  }
+ ]
+}

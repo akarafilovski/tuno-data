@@ -1,0 +1,500 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ge_radio-positive",
+   "name": "Radio Positive",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/sr4vzamzfnruv",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.radiojar.com/sr4vzamzfnruv"
+   ],
+   "website": "https://www.positive.ge/"
+  },
+  {
+   "id": "tuno:top_ge_radio-amra",
+   "name": "Radio Amra",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s34b5469e0/listen",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streamer.radio.co/s34b5469e0/listen"
+   ],
+   "website": "https://www.radioamra.com/"
+  },
+  {
+   "id": "tuno:top_ge_radio-fortuna",
+   "name": "Radio Fortuna",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "http://188.93.95.83/cld9-0386/fortuna/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://188.93.95.83/cld9-0386/fortuna/index.m3u8",
+    "https://tv.cdn.xsg.ge/cld9-0386/fortuna/tracks-a1/mono.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://tv.cdn.xsg.ge/cld9-0386/fortuna/tracks-a1/mono.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://fortuna.ge/"
+  },
+  {
+   "id": "tuno:top_ge_radio-tbilisi",
+   "name": "Radio Tbilisi",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "http://iis.ge:8000/radiotbilisi.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://iis.ge:8000/radiotbilisi.mp3"
+   ],
+   "website": "http://tbilisifm.com/"
+  },
+  {
+   "id": "tuno:top_ge_ucnobi-fm",
+   "name": "Ucnobi FM",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "http://149.3.104.166:8000/stream.ogg",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://149.3.104.166:8000/stream.ogg"
+   ],
+   "website": "http://ucnobifm.ge/"
+  },
+  {
+   "id": "tuno:top_ge_hereti-fm",
+   "name": "Hereti FM",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "http://iis.ge:8000/hereti.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://iis.ge:8000/hereti.mp3"
+   ],
+   "website": "http://www.heretifm.com/"
+  },
+  {
+   "id": "tuno:top_ge_radio-imedi",
+   "name": "Radio Imedi",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://tv.cdn.xsg.ge/radioimedi/stream01/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://tv.cdn.xsg.ge/radioimedi/stream01/index.m3u8",
+    "https://tv.cdn.xsg.ge/radioimedi/stream01/shoutcast"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://tv.cdn.xsg.ge/radioimedi/stream01/shoutcast",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.imedi.ge/"
+  },
+  {
+   "id": "tuno:top_ge_radio-palitra",
+   "name": "Radio Palitra",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostream.palitra.ge/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radiostream.palitra.ge/stream.mp3"
+   ],
+   "website": "https://www.radiopalitra.ge/"
+  },
+  {
+   "id": "tuno:top_ge_station",
+   "name": "არდაიდარდო",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://tv.cdn.xsg.ge/cld9-0386/ardaidardo/tracks-a1/mono.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://tv.cdn.xsg.ge/cld9-0386/ardaidardo/tracks-a1/mono.m3u8"
+   ],
+   "website": "https://ardaidardo.ge/"
+  },
+  {
+   "id": "tuno:top_ge_radio-chveneburi",
+   "name": "რადიო ჩევნებური (Radio Chveneburi)",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.cdn.xsg.ge/cld9-1050/chveneburi/tracks-a1/mono.m3u8",
+    "format": "hls"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://radio.cdn.xsg.ge/cld9-1050/chveneburi/tracks-a1/mono.m3u8"
+   ],
+   "website": "https://radiochveneburi.ge/"
+  },
+  {
+   "id": "tuno:top_ge_mutant-radio",
+   "name": "Mutant Radio",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://www.radioking.com/play/mutant-radio",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://www.radioking.com/play/mutant-radio",
+    "https://listen.radioking.com/radio/282820/stream/328621"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://listen.radioking.com/radio/282820/stream/328621",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.mutantradio.net/"
+  },
+  {
+   "id": "tuno:top_ge_wvfj-93-3-102-1-the-joy-fm",
+   "name": "WVFJ 93.3 & 102.1 The JOY FM",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://rtn.cdnstream1.com/2576_96.aac?rand=81562",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://rtn.cdnstream1.com/2576_96.aac?rand=81562"
+   ],
+   "website": "https://georgia.thejoyfm.com/"
+  },
+  {
+   "id": "tuno:top_ge_fortuna-plus",
+   "name": "Fortuna Plus",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "http://tv.cdn.xsg.ge/cld9-0386/fortunaplus/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://tv.cdn.xsg.ge/cld9-0386/fortunaplus/index.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ge_radio-commersant",
+   "name": "რადიო კომერსანტი (Radio Commersant)",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.cdn.xsg.ge/fm-commersant-95.5/tracks-a1/mono.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radio.cdn.xsg.ge/fm-commersant-95.5/tracks-a1/mono.m3u8"
+   ],
+   "website": "https://www.commersant.ge/"
+  },
+  {
+   "id": "tuno:top_ge_marneuli-fm",
+   "name": "Marneuli FM",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.it-solutions.ge:8000/mp3-radiomarneulifm",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://stream.it-solutions.ge:8000/mp3-radiomarneulifm"
+   ],
+   "website": "https://marneulifm.ge/"
+  },
+  {
+   "id": "tuno:top_ge_autoradio-95-1-fm",
+   "name": "ავტორადიო /Autoradio 95.1 Fm",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://tv.cdn.xsg.ge/cld9-0386/avtoradio/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://tv.cdn.xsg.ge/cld9-0386/avtoradio/index.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ge_lf-radio",
+   "name": "LF Radio",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://rtn.cdnstream1.com/2582_96.aac",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://rtn.cdnstream1.com/2582_96.aac"
+   ],
+   "website": "https://lf.radio/"
+  },
+  {
+   "id": "tuno:top_ge_radio-obieqtivi",
+   "name": "რადიო ობიექტივი (Radio Obieqtivi)",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://nue01-edge01.itdc.ge/fm-obieqtivi-105.1/mono.m3u8",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://nue01-edge01.itdc.ge/fm-obieqtivi-105.1/mono.m3u8"
+   ],
+   "website": "https://obieqtivi.info/"
+  },
+  {
+   "id": "tuno:top_ge_radioajara",
+   "name": "RadioAjara რადიო აჭარა",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/bzorq",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://edge.mixlr.com/channel/bzorq"
+   ]
+  },
+  {
+   "id": "tuno:top_ge_radio-sivrce",
+   "name": "რადიო სივრცე (Radio Sivrce)",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://proxy.streamer.mediabox.ge/ice/8000/sivrce",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://proxy.streamer.mediabox.ge/ice/8000/sivrce"
+   ],
+   "website": "https://spnews.io/"
+  },
+  {
+   "id": "tuno:top_ge_radio-adjara",
+   "name": "რადიო აჭარა (Radio Adjara)",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://edge.mixlr.com/channel/bzorq",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://edge.mixlr.com/channel/bzorq"
+   ],
+   "website": "https://www.radioajara.ge/"
+  },
+  {
+   "id": "tuno:top_ge_sputnik",
+   "name": "Арадио Sputnik Аҧсны",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast-rian.cdnvideo.ru/voicesuh",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://icecast-rian.cdnvideo.ru/voicesuh"
+   ],
+   "website": "https://sputnik-abkhazia.info/"
+  },
+  {
+   "id": "tuno:top_ge_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ge_batumi-fm-93-7",
+   "name": "Batumi Fm 93.7",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://nue01-edge01.itdc.ge/fm-batumi-93.7/tracks-a1/mono.m3u8",
+    "format": "hls"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://nue01-edge01.itdc.ge/fm-batumi-93.7/tracks-a1/mono.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ge_radio-dardimandi",
+   "name": "Radio dardimandi",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://nue01-edge01.itdc.ge/fm-dardimandi-97.1/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://nue01-edge01.itdc.ge/fm-dardimandi-97.1/index.m3u8"
+   ],
+   "website": "https://dardimandi.com.ge/"
+  },
+  {
+   "id": "tuno:top_ge_radio-2-tbilisi-fm-100",
+   "name": "Radio 2 - Tbilisi FM 100",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://tv.cdn.xsg.ge/gpb-radio2/tracks-a1/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://tv.cdn.xsg.ge/gpb-radio2/tracks-a1/index.m3u8"
+   ],
+   "website": "https://player.1tv.ge/radio2"
+  },
+  {
+   "id": "tuno:top_ge_radio-sputnik",
+   "name": "Radio Sputnik Аҧсны",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast-rian.cdnvideo.ru/voicesuh",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://icecast-rian.cdnvideo.ru/voicesuh"
+   ]
+  },
+  {
+   "id": "tuno:top_ge_fm",
+   "name": "რიონი FM",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://video.rionitv.com/s;stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://video.rionitv.com/s;stream"
+   ],
+   "website": "https://radio.rionitv.com/"
+  },
+  {
+   "id": "tuno:top_ge_jukebox-94-3",
+   "name": "JUKEBOX 94.3",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojukebox.ge/stream.ogg?t=1792531640021",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://stream.radiojukebox.ge/stream.ogg?t=1792531640021"
+   ],
+   "website": "https://www.radiojukebox.ge/"
+  },
+  {
+   "id": "tuno:top_ge_https-nue01-edge01-itdc-ge-fm-batumi-93-7-tracks-a1-mono-m3u8",
+   "name": "https://nue01-edge01.itdc.ge/fm-batumi-93.7/tracks-a1/mono.m3u8",
+   "type": "radio",
+   "country": "GE",
+   "category": "music",
+   "stream": {
+    "url": "https://nue01-edge01.itdc.ge/fm-batumi-93.7/tracks-a1/mono.m3u8",
+    "format": "hls"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://nue01-edge01.itdc.ge/fm-batumi-93.7/tracks-a1/mono.m3u8"
+   ],
+   "website": "https://nue01-edge01.itdc.ge/fm-batumi-93.7/tracks-a1/mono.m3u8"
+  }
+ ]
+}

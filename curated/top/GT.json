@@ -1,0 +1,471 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gt_radio-palabra-miel",
+   "name": "Radio Palabra-Miel",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://juventudpalabramiel.org/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://juventudpalabramiel.org/radio.mp3",
+    "http://162.244.80.118:4258/stream",
+    "http://juventudpalabramiel.org:8000/radio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://162.244.80.118:4258/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://juventudpalabramiel.org:8000/radio",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://juventudpalabramiel.org/"
+  },
+  {
+   "id": "tuno:top_gt_radio-cultural-tgn",
+   "name": "Radio Cultural TGN",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.infinityhdstream.com/7054/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.infinityhdstream.com/7054/stream",
+    "https://play10.tikast.com/proxy/tgnonline?mp=/stream"
+   ],
+   "website": "http://www.radiocultural.org/site"
+  },
+  {
+   "id": "tuno:top_gt_radio-panamericana-de-guatemala",
+   "name": "Radio Panamericana de Guatemala",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://server2.sit-mexico.com:2199/proxy/fuentesgt?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://server2.sit-mexico.com:2199/proxy/fuentesgt?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_radio-maria-guatemala",
+   "name": "RADIO MARIA GUATEMALA",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8072/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8072/stream"
+   ],
+   "website": "https://www.radiomaria.org.gt/"
+  },
+  {
+   "id": "tuno:top_gt_globo-fm-98-9",
+   "name": "Globo FM 98.9",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/GLOBO_989AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/GLOBO_989AAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_stereo-chiventur",
+   "name": "Stereo Chiventur",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://jm8n.com/8134/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://jm8n.com/8134/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_radio-infinita",
+   "name": "Radio Infinita",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/see730c7ab/listen",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://streams.radio.co/see730c7ab/listen"
+   ],
+   "website": "https://radioinfinita.com/"
+  },
+  {
+   "id": "tuno:top_gt_actitud-100-9-fm",
+   "name": "Actitud 100.9 FM",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://ss.redradios.net:8002/stream?type=.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://ss.redradios.net:8002/stream?type=.mp3",
+    "https://redradios.net:2000/stream/Radio-03?type=.mp3"
+   ],
+   "website": "https://actitud.fm/"
+  },
+  {
+   "id": "tuno:top_gt_clasica",
+   "name": "Clasica",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASICA_1065AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASICA_1065AAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_clasica-102-5-guatemala",
+   "name": "Clásica 102.5 Guatemala",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASICA_1065AAC_SC.aac",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASICA_1065AAC_SC.aac",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASICA_1065AAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CLASICA_1065AAC.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://clasica1025.com/"
+  },
+  {
+   "id": "tuno:top_gt_radio-mia",
+   "name": "Radio Mia",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MIAAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_orion-stereo",
+   "name": "Orión Stereo",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://ss.redradios.net:8046/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://ss.redradios.net:8046/stream"
+   ],
+   "website": "https://www.orionstereo.org/"
+  },
+  {
+   "id": "tuno:top_gt_globo-98-9-guatemala",
+   "name": "Globo 98.9 Guatemala",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/GLOBO_989AAC.aac",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/GLOBO_989AAC.aac"
+   ],
+   "website": "https://globo989.com/"
+  },
+  {
+   "id": "tuno:top_gt_la-red-106-1-guatemala",
+   "name": "La Red 106.1 Guatemala",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_REDAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_REDAAC.aac"
+   ],
+   "website": "https://www.lared1061.com/"
+  },
+  {
+   "id": "tuno:top_gt_tgmi-radio-buenas-nuevas",
+   "name": "TGMI Radio Buenas Nuevas",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "http://sh1.radioonlinehd.com:8072/stream/;",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://sh1.radioonlinehd.com:8072/stream/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_stereo-100",
+   "name": "Stereo 100",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://sh1.radioonlinehd.com:8056/stream?type=.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://sh1.radioonlinehd.com:8056/stream?type=.mp3"
+   ],
+   "website": "https://stereo100.com.gt/"
+  },
+  {
+   "id": "tuno:top_gt_emaus-radio",
+   "name": "EMAUS RADIO",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://sh2.radioonlinehd.com:8141/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://sh2.radioonlinehd.com:8141/;"
+   ],
+   "website": "https://emausradio.net/"
+  },
+  {
+   "id": "tuno:top_gt_mia-93-7-guatemala",
+   "name": "Mía 93.7 Guatemala",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://26253.live.streamtheworld.com/MIAAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://26253.live.streamtheworld.com/MIAAAC.aac",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/MIAAAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIAAAC.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://mia937.com/"
+  },
+  {
+   "id": "tuno:top_gt_radio-107-exito-107-1-fm",
+   "name": "Radio 107 Exito - 107.1 FM",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "http://play10.tikast.com:8159/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://play10.tikast.com:8159/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_felove-biblia-en-quiche",
+   "name": "FeLove Biblia en Quiché",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://feloveclasica-radiofelove.radioca.st/stream?1741424230037",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://feloveclasica-radiofelove.radioca.st/stream?1741424230037"
+   ],
+   "website": "https://radiofelove.com/"
+  },
+  {
+   "id": "tuno:top_gt_94-9-fm",
+   "name": "94.9 FM",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/949FM_ADP.m3u8",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/949FM_ADP.m3u8",
+    "https://www.949.com.gt/video/background.mov"
+   ],
+   "website": "https://949.com.gt/"
+  },
+  {
+   "id": "tuno:top_gt_union-radio-adventista",
+   "name": "Union Radio Adventista",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://unionradio.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://unionradio.radioca.st/;"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_rhema-stereo",
+   "name": "Rhema Stereo",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.fiberstreams.com:2000/stream/8710",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://radio.fiberstreams.com:2000/stream/8710"
+   ],
+   "website": "https://rhemastereo.fm/"
+  },
+  {
+   "id": "tuno:top_gt_caribean-fm-105-1",
+   "name": "Caribean FM 105.1",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://sh4.radioonlinehd.com:8547/stream",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://sh4.radioonlinehd.com:8547/stream"
+   ],
+   "website": "https://caribean.rcdn.com.gt/"
+  },
+  {
+   "id": "tuno:top_gt_gaiteros-de-guatemala",
+   "name": "Gaiteros de Guatemala",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.forensedigital.gt:8030/stream",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://radio.forensedigital.gt:8030/stream"
+   ],
+   "website": "https://venezuela.gt/"
+  },
+  {
+   "id": "tuno:top_gt_alfa-fm",
+   "name": "Alfa FM",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.getcirca.run/live/r0nwiyol2l12.transcode-audio-01/hls/r0nwiyol2l12/2/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://live.getcirca.run/live/r0nwiyol2l12.transcode-audio-01/hls/r0nwiyol2l12/2/index.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_fama",
+   "name": "Fama",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMA_1025AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/FAMA_1025AAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_gt_radio-guate-digital",
+   "name": "Radio Guate digital",
+   "type": "radio",
+   "country": "GT",
+   "category": "music",
+   "stream": {
+    "url": "https://radioguatedigital.com/live/",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://radioguatedigital.com/live/"
+   ],
+   "website": "https://radioguatedigital.com/"
+  }
+ ]
+}

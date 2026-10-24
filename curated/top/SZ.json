@@ -1,0 +1,50 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_sz_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "SZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_sz_hero-radio-swaziland",
+   "name": "Hero Radio (Swaziland)",
+   "type": "radio",
+   "country": "SZ",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/swaziland.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/swaziland.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sz_antenna-web-mbabane",
+   "name": "Antenna Web Mbabane",
+   "type": "radio",
+   "country": "SZ",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebMbabane",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebMbabane"
+   ]
+  }
+ ]
+}

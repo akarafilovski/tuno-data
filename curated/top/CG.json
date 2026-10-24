@@ -1,0 +1,141 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cg_radio-afri-fm",
+   "name": "Radio Afri Fm",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.berosat.live:19360/afri-tv/afri-tv.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.berosat.live:19360/afri-tv/afri-tv.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_cg_radio-maria-democratic-rep-congo",
+   "name": "Radio Maria Democratic Rep. Congo",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp2.com/proxy/rmrepdemcongo?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://dreamsiteradiocp2.com/proxy/rmrepdemcongo?mp=/stream"
+   ],
+   "website": "https://www.radiomaria.cd/"
+  },
+  {
+   "id": "tuno:top_cg_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_cg_radio-culture-242",
+   "name": "RADIO CULTURE +242",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/654067/stream/717661",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://listen.radioking.com/radio/654067/stream/717661"
+   ]
+  },
+  {
+   "id": "tuno:top_cg_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp.com:8120/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://dreamsiteradiocp.com:8120/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cg_radio-pour-le-nouveau-savoir",
+   "name": "Radio pour le nouveau savoir",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/314909/stream/362240",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen.radioking.com/radio/314909/stream/362240"
+   ]
+  },
+  {
+   "id": "tuno:top_cg_hero-radio-congo",
+   "name": "Hero Radio (Congo)",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/congo.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/congo.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cg_radio-universelle",
+   "name": "Radio Universelle",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/437315/stream/491360",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://listen.radioking.com/radio/437315/stream/491360"
+   ]
+  },
+  {
+   "id": "tuno:top_cg_antenna-web-brazzaville",
+   "name": "Antenna Web Brazzaville",
+   "type": "radio",
+   "country": "CG",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebBrazzaville",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebBrazzaville"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bw_yarona-fm",
+   "name": "Yarona FM",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://iceant.antfarm.co.za/yarona",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://iceant.antfarm.co.za/yarona",
+    "http://capeant.antfarm.co.za:8000/yarona"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://capeant.antfarm.co.za:8000/yarona",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://yaronafm.co.bw/"
+  },
+  {
+   "id": "tuno:top_bw_duma-fm",
+   "name": "Duma FM",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "http://s3.voscast.com:10076/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://s3.voscast.com:10076/stream"
+   ],
+   "website": "https://dumafm.co.bw/"
+  },
+  {
+   "id": "tuno:top_bw_mambokadzi-dreamradio",
+   "name": "Mambokadzi DreamRadio",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.asurahosting.com/proxy/dreamradio/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://cast3.asurahosting.com/proxy/dreamradio/stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bw_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bw_jazzysoul-radio-nata",
+   "name": "JazzySoul Radio Nata",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://az13.yesstreaming.net:8360/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://az13.yesstreaming.net:8360/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_bw_moagi-sharp-fm",
+   "name": "Moagi Sharp FM",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://play.radioking.io/moagi-sharp-fm/917321",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://play.radioking.io/moagi-sharp-fm/917321"
+   ]
+  },
+  {
+   "id": "tuno:top_bw_antenna-web-gaborone",
+   "name": "Antenna Web Gaborone",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebGaborone",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebGaborone"
+   ]
+  },
+  {
+   "id": "tuno:top_bw_the-cross-fm",
+   "name": "The Cross FM",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/pwd30v5rv98uv",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.radiojar.com/pwd30v5rv98uv"
+   ]
+  },
+  {
+   "id": "tuno:top_bw_hero-radio-botswana",
+   "name": "Hero Radio (Botswana)",
+   "type": "radio",
+   "country": "BW",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/botswana.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/botswana.mp3"
+   ]
+  }
+ ]
+}

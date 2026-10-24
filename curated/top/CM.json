@@ -1,0 +1,519 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cm_roots-radio",
+   "name": "Roots Radio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://ecmanager2.pro-fhi.net:1515/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://ecmanager2.pro-fhi.net:1515/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_balla-radio-yaounde",
+   "name": "Balla Radio Yaoundé",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "http://167.114.11.79:5730/;stream/1",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://167.114.11.79:5730/;stream/1"
+   ],
+   "website": "http://ballaradio.com/"
+  },
+  {
+   "id": "tuno:top_cm_lpa-webradio",
+   "name": "LPA Webradio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/820431/stream/889416",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen.radioking.com/radio/820431/stream/889416"
+   ],
+   "website": "https://www.laplumedelaigle.com/"
+  },
+  {
+   "id": "tuno:top_cm_globe-360-radio",
+   "name": "Globe 360 Radio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "http://139.84.240.171:8000/globe360",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://139.84.240.171:8000/globe360",
+    "http://139.84.240.171:8000/globe360.m3u"
+   ],
+   "website": "http://139.84.240.171:8000/"
+  },
+  {
+   "id": "tuno:top_cm_brightstar-studios",
+   "name": "Brightstar Studios",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://s17.ssl-stream.com/proxy/brightstar?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://s17.ssl-stream.com/proxy/brightstar?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_mmuock-community-radio",
+   "name": "Mmuock Community Radio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://a7.asurahosting.com/listen/mmuock_community_radio_/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://a7.asurahosting.com/listen/mmuock_community_radio_/radio.mp3"
+   ],
+   "website": "https://radio.mmuock.info/"
+  },
+  {
+   "id": "tuno:top_cm_easy-radio-kribi",
+   "name": "EASY RADIO KRIBI",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://ecmanager2.pro-fhi.net:1580/;",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://ecmanager2.pro-fhi.net:1580/;",
+    "https://stream4.vestaradio.com/EASYRADIOKRIBI",
+    "blob:https://easyradiokribi.com/de04a023-65ff-4531-80c1-2bc20498dd12"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream4.vestaradio.com/EASYRADIOKRIBI",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://easyradiokribi.com/"
+  },
+  {
+   "id": "tuno:top_cm_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_cm_hausafulani-radio",
+   "name": "Hausafulani Radio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/876181/stream/946306",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://listen.radioking.com/radio/876181/stream/946306"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_crtv-poste-national",
+   "name": "CRTV Poste National",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://10gb1.acangroup.org:8000/postenational",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://10gb1.acangroup.org:8000/postenational"
+   ],
+   "website": "https://crtv.cm/radio/poste-nationale"
+  },
+  {
+   "id": "tuno:top_cm_god-s-love-line-gl-radio",
+   "name": "God's Love Line (GL Radio)",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/246430/stream/290635",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://listen.radioking.com/radio/246430/stream/290635",
+    "https://www.radioking.com/play/gospel-jamburee"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://www.radioking.com/play/gospel-jamburee",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_cm_ryf-radio",
+   "name": "RYF Radio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/445556/stream/500072",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://listen.radioking.com/radio/445556/stream/500072"
+   ],
+   "website": "https://ryfradio.com/"
+  },
+  {
+   "id": "tuno:top_cm_radio-maria-cameroun",
+   "name": "Radio Maria Cameroun",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://dreamsiteradiocp7.com/proxy/rmcameroon?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://dreamsiteradiocp7.com/proxy/rmcameroon?mp=/stream"
+   ],
+   "website": "https://www.radiomaria.cm/"
+  },
+  {
+   "id": "tuno:top_cm_go-music-media",
+   "name": "GO MUSIC MEDIA",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/547376/stream/606551",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://listen.radioking.com/radio/547376/stream/606551",
+    "https://api.radioking.io/radio/547376/listen.m3u"
+   ],
+   "website": "https://link.radioking.com/gomusicmedia"
+  },
+  {
+   "id": "tuno:top_cm_ict-university-radio-ictu-rtv",
+   "name": "ICT University Radio (ICTU-RTV)",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://icturadio.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://icturadio.radioca.st/;"
+   ],
+   "website": "https://ictuniversity.tv/"
+  },
+  {
+   "id": "tuno:top_cm_ict-university-radio",
+   "name": "ICT University Radio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://icturadio.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://icturadio.radioca.st/;"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_radio-solution",
+   "name": "Radio Solution",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://compassionglobale.org:4438/radiosync/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://compassionglobale.org:4438/radiosync/index.m3u8"
+   ],
+   "website": "https://compassionglobale.org/"
+  },
+  {
+   "id": "tuno:top_cm_jambo-fm",
+   "name": "Jambo FM",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://kdevstream.myvnc.com/listen/jambofm/jambofm",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://kdevstream.myvnc.com/listen/jambofm/jambofm"
+   ],
+   "website": "https://jambofm.com/"
+  },
+  {
+   "id": "tuno:top_cm_for-you-radio",
+   "name": "For You Radio",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream.az-multimedia.com:3325/live/foryoutvlive.m3u8",
+    "https://rstream.az-multimedia.com:7269/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rstream.az-multimedia.com:7269/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://foryoumedia-africa.com/"
+  },
+  {
+   "id": "tuno:top_cm_divine-mercy-radio-and-tv-service",
+   "name": "Divine Mercy Radio and TV Service",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "http://102.132.19.90:8080/DMRTVS/mpegts",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://102.132.19.90:8080/DMRTVS/mpegts",
+    "http://102.132.19.90:8080/DMRTVS/index.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://102.132.19.90:8080/DMRTVS/index.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://bueadiocese.org/dmrtv/"
+  },
+  {
+   "id": "tuno:top_cm_volum-3",
+   "name": "Volum'3",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/651205/stream/714685",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://listen.radioking.com/radio/651205/stream/714685"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_camerhits",
+   "name": "CamerHits",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://camerhits.com/icecast/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://camerhits.com/icecast/stream"
+   ],
+   "website": "https://camerhits.com/"
+  },
+  {
+   "id": "tuno:top_cm_radio-voice-of-the-cross-rvc-yaounde",
+   "name": "Radio Voice of the Cross (RVC) - Yaounde",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/232150/stream/275935",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://listen.radioking.com/radio/232150/stream/275935",
+    "https://play.radioking.io/rvc-yaounde1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://play.radioking.io/rvc-yaounde1",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://cmfinternational.org/resources/radio"
+  },
+  {
+   "id": "tuno:top_cm_sky-fm-nguti",
+   "name": "Sky FM Nguti",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/s87e0ba465/listen",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://streams.radio.co/s87e0ba465/listen"
+   ],
+   "website": "https://skyfmcameroon.com/"
+  },
+  {
+   "id": "tuno:top_cm_hero-radio-cameroon",
+   "name": "Hero Radio (Cameroon)",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/cameroon.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/cameroon.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_truth-fm-93-2",
+   "name": "Truth FM 93.2",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "http://s32.myradiostream.com:18066/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://s32.myradiostream.com:18066/listen.mp3"
+   ],
+   "website": "https://truthfm.fm/"
+  },
+  {
+   "id": "tuno:top_cm_antenna-web-yaounde",
+   "name": "Antenna Web Yaoundé",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebYaounde",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebYaounde"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_dream-fm",
+   "name": "Dream FM",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://free.rcast.net/244422",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://free.rcast.net/244422",
+    "https://stream.rcast.net/244422"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.rcast.net/244422",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://dir.rcast.net/players/244422"
+  },
+  {
+   "id": "tuno:top_cm_gn-radio-cameroon",
+   "name": "Gn Radio Cameroon",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://a11.asurahosting.com:7360/cameroon.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://a11.asurahosting.com:7360/cameroon.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cm_radio-voice-of-the-cross-rvc-koume",
+   "name": "Radio Voice of the Cross (RVC) - Koume",
+   "type": "radio",
+   "country": "CM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/232150/stream/275935",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://listen.radioking.com/radio/232150/stream/275935"
+   ]
+  }
+ ]
+}

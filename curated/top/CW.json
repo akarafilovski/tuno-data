@@ -1,0 +1,427 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cw_dolfijn-fm",
+   "name": "Dolfijn FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostreamfm.com/radio/8130/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radiostreamfm.com/radio/8130/radio.mp3",
+    "http://radiostreamfm.com:8130/radio.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radiostreamfm.com:8130/radio.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://dolfijngo.com/"
+  },
+  {
+   "id": "tuno:top_cw_radio-mas-99-7",
+   "name": "Radio Mas 99.7",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://radios.wakenext.com/hls/radio_mas99/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radios.wakenext.com/hls/radio_mas99/live.m3u8",
+    "https://kadushi.westream.cloud/listen/mas99/live",
+    "https://radios.wakenext.com/hls/radio_mas99.7/live.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://kadushi.westream.cloud/listen/mas99/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.mas99.cw/"
+  },
+  {
+   "id": "tuno:top_cw_radio-krioyo",
+   "name": "Radio Krioyo",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://kadushi.westream.cloud/listen/margaritha/live",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://kadushi.westream.cloud/listen/margaritha/live",
+    "https://radios.wakenext.com/listen/radio_kriyoyo_2/radio.mp3",
+    "https://radios.wakenext.com/hls/radio_kriyoyo_2/live.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radios.wakenext.com/listen/radio_kriyoyo_2/radio.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://radios.wakenext.com/hls/radio_kriyoyo_2/live.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.basilachill.com/#!radio/radiokrioyo"
+  },
+  {
+   "id": "tuno:top_cw_ritmo-antiyano",
+   "name": "Ritmo Antiyano",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://ec6.yesstreaming.net:3105/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://ec6.yesstreaming.net:3105/stream"
+   ],
+   "website": "http://www.ritmo-antiyano.com/"
+  },
+  {
+   "id": "tuno:top_cw_radio-94-korsou-94-5-willemstad",
+   "name": "Radio 94 Korsou - 94.5 Willemstad",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "http://162.243.94.61:8028/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://162.243.94.61:8028/;stream.mp3"
+   ],
+   "website": "http://www.vozdibonaire.com/"
+  },
+  {
+   "id": "tuno:top_cw_radio-margaritha-online-90-3-fm",
+   "name": "Radio Margaritha Online 90.3 FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://usa6.fastcast4u.com/proxy/lfxmgisa?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://usa6.fastcast4u.com/proxy/lfxmgisa?mp=/1"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_radio-direct-107-1fm",
+   "name": "Radio Direct 107.1FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://sincerecloud.stream/loadbalancer/public/4wcnecJI.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://sincerecloud.stream/loadbalancer/public/4wcnecJI.m3u8",
+    "https://edge1.direct107.com/;?type=http&nocache=28"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://edge1.direct107.com/;?type=http&nocache=28",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://directmediacuracao.com/index.php#107fm"
+  },
+  {
+   "id": "tuno:top_cw_paradise-fm-60s-70s",
+   "name": "Paradise FM 60s & 70s",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.paradisefm.cw/60s70s",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://stream.paradisefm.cw/60s70s"
+   ],
+   "website": "http://paradise.cw/"
+  },
+  {
+   "id": "tuno:top_cw_radio-direct-107-1-fm",
+   "name": "Radio Direct 107.1 FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://edge1.direct107.com/;",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://edge1.direct107.com/;"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_radio-active-104-5-fm",
+   "name": "Radio Active 104.5 FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://kadushi.westream.cloud/listen/radioactive/RadioActive",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://kadushi.westream.cloud/listen/radioactive/RadioActive"
+   ],
+   "website": "http://active.fm/"
+  },
+  {
+   "id": "tuno:top_cw_paradise-fm",
+   "name": "Paradise FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.paradisefm.cw/ParadiseFM",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.paradisefm.cw/ParadiseFM"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_hitradio-915",
+   "name": "HITradio 915",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.paradisefm.cw/HITradio915",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://stream.paradisefm.cw/HITradio915"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_paradise-fm-103-1-curacao",
+   "name": "Paradise FM 103.1 Curacao",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.paradisefm.cw/ParadiseFM",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://stream.paradisefm.cw/ParadiseFM"
+   ],
+   "website": "https://paradisefm.cw/"
+  },
+  {
+   "id": "tuno:top_cw_radio-deltha-92-7-fm",
+   "name": "Radio Deltha 92.7 FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://kadushi.westream.cloud/listen/delta/live",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://kadushi.westream.cloud/listen/delta/live"
+   ],
+   "website": "http://fb.com/RADIO.DELTHA.92.7"
+  },
+  {
+   "id": "tuno:top_cw_paradise-fm-latin",
+   "name": "Paradise FM Latin",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.paradisefm.cw/ParadiseLatin",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://stream.paradisefm.cw/ParadiseLatin"
+   ],
+   "website": "http://paradise.fm/"
+  },
+  {
+   "id": "tuno:top_cw_legria-94-5-curacao",
+   "name": "Legria 94.5 Curacao",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "http://162.243.94.61:8028/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://162.243.94.61:8028/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_hitradio-915-curacao",
+   "name": "HITradio 915 Curacao",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.paradisefm.cw/HITradio915",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.paradisefm.cw/HITradio915"
+   ],
+   "website": "https://hitradio915.com/"
+  },
+  {
+   "id": "tuno:top_cw_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_cw_cw-international",
+   "name": "CW International",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic.mediacp.eu/8042/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://sonic.mediacp.eu/8042/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_meio-norte-fm-99-9",
+   "name": "Meio Norte FM 99.9",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://webradio.amsolution.com.br/radio/8280/meionorte",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://webradio.amsolution.com.br/radio/8280/meionorte"
+   ],
+   "website": "https://www.meionews.com/radios/fmmeionorte"
+  },
+  {
+   "id": "tuno:top_cw_simpelmente-e-berdat",
+   "name": "Simpelmente e Berdat",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/659869/stream/723619",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://listen.radioking.com/radio/659869/stream/723619"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_mix-global-radio",
+   "name": "Mix Global Radio",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://radiostreamfm.com/radio/8100/live.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://radiostreamfm.com/radio/8100/live.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_hype-radio",
+   "name": "Hype Radio",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://artemis.streamerr.co/listen/hype_radio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://artemis.streamerr.co/listen/hype_radio/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_q93-9-fm",
+   "name": "Q93.9 FM",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "http://161.97.147.123:8000/live",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://161.97.147.123:8000/live"
+   ]
+  },
+  {
+   "id": "tuno:top_cw_x104-3",
+   "name": "X104.3",
+   "type": "radio",
+   "country": "CW",
+   "category": "music",
+   "stream": {
+    "url": "https://www.streamcontrol.net:8444/s/16520/",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://www.streamcontrol.net:8444/s/16520/"
+   ]
+  }
+ ]
+}

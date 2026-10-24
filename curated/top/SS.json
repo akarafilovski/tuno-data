@@ -1,0 +1,83 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ss_96-3-favour-fm-juba",
+   "name": "96.3 Favour Fm Juba",
+   "type": "radio",
+   "country": "SS",
+   "category": "music",
+   "stream": {
+    "url": "https://us5new.listen2myradio.com:2199/listen.php?port=8106&type=ice&mount=live",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://us5new.listen2myradio.com:2199/listen.php?port=8106&type=ice&mount=live"
+   ],
+   "website": "https://favourfmjuba.org/"
+  },
+  {
+   "id": "tuno:top_ss_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "SS",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ss_antenna-web-giuba",
+   "name": "Antenna Web Giuba",
+   "type": "radio",
+   "country": "SS",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebGiuba",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebGiuba"
+   ]
+  },
+  {
+   "id": "tuno:top_ss_radio-south-sudan",
+   "name": "Radio south sudan",
+   "type": "radio",
+   "country": "SS",
+   "category": "music",
+   "stream": {
+    "url": "https://stream2.svrdedicado.org/8056/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream2.svrdedicado.org/8056/stream",
+    "https://radiosouthsudan.com/static/media/rss-anim-color.76522f74a512aaf0ce29.mp4"
+   ],
+   "website": "https://radiosouthsudan.com/"
+  },
+  {
+   "id": "tuno:top_ss_hero-radio-south-sudan",
+   "name": "Hero Radio (South Sudan)",
+   "type": "radio",
+   "country": "SS",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/southsudan.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/southsudan.mp3"
+   ]
+  }
+ ]
+}

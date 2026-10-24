@@ -1,0 +1,108 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_kp_voice-of-korea",
+   "name": "Voice of Korea",
+   "type": "radio",
+   "country": "KP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen7.myradio24.com/69366",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://listen7.myradio24.com/69366",
+    "https://stream.intchoson.com/vok/main_stream.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.intchoson.com/vok/main_stream.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.vok.rep.kp/"
+  },
+  {
+   "id": "tuno:top_kp_pyongyang-radio-fm",
+   "name": "Pyongyang Radio FM",
+   "type": "radio",
+   "country": "KP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen7.myradio24.com/69366",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://listen7.myradio24.com/69366"
+   ],
+   "website": "https://kfaspain.es/emisora-central-de-corea-pyongyang-fm/"
+  },
+  {
+   "id": "tuno:top_kp_fm105-2",
+   "name": "평양FM105.2",
+   "type": "radio",
+   "country": "KP",
+   "category": "music",
+   "stream": {
+    "url": "http://listen7.myradio24.com/69366",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://listen7.myradio24.com/69366",
+    "https://static1.squarespace.com/static/5bdb9aa7620b85e2da2e1b88/t/5bf117b46d2a7391b5a41acd/1542577886392/Pyongyang+FM+105.2+-+0000AM+to+0042AM+-+10th+August+2011.mp3"
+   ],
+   "website": "https://www.behindthecurtain-northkorea.com/audio-pyongyangfm"
+  },
+  {
+   "id": "tuno:top_kp_station",
+   "name": "Голос Корей",
+   "type": "radio",
+   "country": "KP",
+   "category": "music",
+   "stream": {
+    "url": "https://listen4.myradio24.com/60315",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://listen4.myradio24.com/60315"
+   ],
+   "website": "https://listen4.myradio24.com/60315"
+  },
+  {
+   "id": "tuno:top_kp_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "KP",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_kp_kcbs",
+   "name": "KCBS 조선중앙방송",
+   "type": "radio",
+   "country": "KP",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.intchoson.com/kcbs/main_stream.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream.intchoson.com/kcbs/main_stream.m3u8"
+   ],
+   "website": "http://www.kcna.kp/en"
+  }
+ ]
+}

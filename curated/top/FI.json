@@ -1,0 +1,574 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_fi_yle-radio-suomi",
+   "name": "YLE Radio Suomi",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://yleradiolive5.akamaized.net/hls/live/20000871/ylers/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://yleradiolive5.akamaized.net/hls/live/20000871/ylers/master.m3u8",
+    "http://icecast.live.yle.fi/radio/YleOulu/icecast.audio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.live.yle.fi/radio/YleOulu/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://areena.yle.fi/podcastit/ohjelmat/yle-radio-suomi"
+  },
+  {
+   "id": "tuno:top_fi_ylex",
+   "name": "YleX",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://yleradiolive5.akamaized.net/hls/live/20000870/ylex/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://yleradiolive5.akamaized.net/hls/live/20000870/ylex/master.m3u8",
+    "http://icecast.live.yle.fi/radio/YleX3M/icecast.audio"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.live.yle.fi/radio/YleX3M/icecast.audio",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.ylex.fi/"
+  },
+  {
+   "id": "tuno:top_fi_radio-rock",
+   "name": "Radio Rock",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://aud-stream-radiorock.nm-elemental.nelonenmedia.fi/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://aud-stream-radiorock.nm-elemental.nelonenmedia.fi/playlist.m3u8"
+   ],
+   "website": "https://www.supla.fi/radiorock"
+  },
+  {
+   "id": "tuno:top_fi_yle-klassinen",
+   "name": "YLE Klassinen",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://yleradiolive5.akamaized.net/hls/live/20000872/yleklassinen/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://yleradiolive5.akamaized.net/hls/live/20000872/yleklassinen/master.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_fi_radio-helsinki",
+   "name": "Radio Helsinki",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiohelsinki.fi/;",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.radiohelsinki.fi/;",
+    "https://stream.radiohelsinki.fi/stream",
+    "https://tunein-ondemand.cdnstream1.com/multi_bump_sonic_pre_pre.mp3?aw_0_1st.playerid=LogitechSqueeze&aw_0_1st.skey=1792204291&aw_0_1st.abtest=&partnerId=LogitechSqueeze&aw_0_1st.stationId=s97243&aw_0_1st.premium=false&source=TuneIn&aw_0_req.gdpr=true&aw_0_1st.platform=tunein&aw_0_1st.genre_id=g22&aw_0_1st.class=music&aw_0_1st.ads_partner_alias=ce.LogitechSqueezebox&aw_0_azn.planguage=en%2cfi&aw_0_1st.is_ondemand=false&aw_0_1st.topicId=na&aw_0_1st.bandId=2&delivery=1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.radiohelsinki.fi/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiohelsinki.fi/"
+  },
+  {
+   "id": "tuno:top_fi_jarviradio-alajarvi",
+   "name": "Järviradio Alajärvi",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://jarviradio.radiotaajuus.fi:9000/jr",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://jarviradio.radiotaajuus.fi:9000/jr"
+   ],
+   "website": "https://www.jarviradio.fi/"
+  },
+  {
+   "id": "tuno:top_fi_radio-nova",
+   "name": "Radio Nova",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "http://live-bauerfi.sharp-stream.com/fi_radionova_64.aac?direct=true&aw_0_1st.playerid=BMUK_inpage_html5&aw_0_1st.skey=1784119314&aw_0_1st.bauer_loggedin=true",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://live-bauerfi.sharp-stream.com/fi_radionova_64.aac?direct=true&aw_0_1st.playerid=BMUK_inpage_html5&aw_0_1st.skey=1784119314&aw_0_1st.bauer_loggedin=true",
+    "https://radioplay.fi/radio-nova/"
+   ],
+   "website": "https://rayo.fi/radio-nova"
+  },
+  {
+   "id": "tuno:top_fi_radio-santa-claus",
+   "name": "Radio Santa Claus",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radiostreamlive.com/radionylive_devices",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://streaming.radiostreamlive.com/radionylive_devices",
+    "https://streaming.radiostreamlive.com/radiosantaclaus_devices"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.radiostreamlive.com/radiosantaclaus_devices",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiosantaclaus.com/"
+  },
+  {
+   "id": "tuno:top_fi_finest-fm",
+   "name": "Finest FM",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/sadb37cbdb/listen",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://s2.radio.co/sadb37cbdb/listen",
+    "https://shoutcast.finestfm.fi/stream/1/:80/;stream",
+    "http://212.47.220.188:8000/listen.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://shoutcast.finestfm.fi/stream/1/:80/;stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://212.47.220.188:8000/listen.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://finestfm.fi/"
+  },
+  {
+   "id": "tuno:top_fi_kaaos-radio-chiptune",
+   "name": "Kaaos Radio Chiptune",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://kaaosradio.fi:8001/stream2",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://kaaosradio.fi:8001/stream2",
+    "http://stream.kaaosradio.fi:8000/chip"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.kaaosradio.fi:8000/chip",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://kaaosradio.fi/"
+  },
+  {
+   "id": "tuno:top_fi_vomba-fm",
+   "name": "Võmba FM",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://c4.radioboss.fm:18123/live",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://c4.radioboss.fm:18123/live"
+   ],
+   "website": "https://vombafm.fi/"
+  },
+  {
+   "id": "tuno:top_fi_yle-radio1hifi-256-kb-s",
+   "name": "Yle Radio1HIFI 256 Kb/s",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.live.yle.fi/radio/YleRadio1Hifi/icecast.audio",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://icecast.live.yle.fi/radio/YleRadio1Hifi/icecast.audio"
+   ]
+  },
+  {
+   "id": "tuno:top_fi_radio-suomipop",
+   "name": "Radio SuomiPop",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://aud-stream-suomipop.nm-elemental.nelonenmedia.fi/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://aud-stream-suomipop.nm-elemental.nelonenmedia.fi/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_fi_sea-fm-radio",
+   "name": "Sea FM Radio",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.myradiostream.com:4976/listen.mp3?ver=996533?nocache=1792522966",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://s3.myradiostream.com:4976/listen.mp3?ver=996533?nocache=1792522966",
+    "https://s3.myradiostream.com/4976/listen.mp3",
+    "http://s3.myradiostream.com:4976/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s3.myradiostream.com/4976/listen.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://s3.myradiostream.com:4976/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.seafm.fi/"
+  },
+  {
+   "id": "tuno:top_fi_sveriges-radio-sr-sisuradio",
+   "name": "Sveriges Radio - SR Sisuradio",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://live1.sr.se/finska-aac-320",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://live1.sr.se/finska-aac-320"
+   ],
+   "website": "https://sverigesradio.se/"
+  },
+  {
+   "id": "tuno:top_fi_radio-sun",
+   "name": "Radio Sun",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://st.downtime.fi/sun.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://st.downtime.fi/sun.mp3",
+    "https://radiosun.fi/wp-content/uploads/2026/10/Matti-201026-kokonaan.mp3"
+   ],
+   "website": "http://www.radiosun.fi/"
+  },
+  {
+   "id": "tuno:top_fi_radio-dei-kristiinankaupunki",
+   "name": "Radio Dei Kristiinankaupunki",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.dei.fi:8443/deiplus/yleisohjelma",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.dei.fi:8443/deiplus/yleisohjelma",
+    "http://isojako.radiodei.fi:8000/kristiinankaupunki"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://isojako.radiodei.fi:8000/kristiinankaupunki",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiodei.fi/"
+  },
+  {
+   "id": "tuno:top_fi_radio-patmos",
+   "name": "Radio Patmos",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.yesstreaming.net:7011/radio",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://s3.yesstreaming.net:7011/radio"
+   ],
+   "website": "https://www.patmos.fi/radio-patmos/"
+  },
+  {
+   "id": "tuno:top_fi_doubleclap-radio",
+   "name": "Doubleclap Radio",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.radio.co/scfd7273b2/listen",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://s3.radio.co/scfd7273b2/listen",
+    "https://s3.radio.co/scfd7273b2/low"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s3.radio.co/scfd7273b2/low",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://doubleclap.dance/"
+  },
+  {
+   "id": "tuno:top_fi_radio-sandels",
+   "name": "Radio Sandels",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://radiosandels.radiotaajuus.fi:9050/radio",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://radiosandels.radiotaajuus.fi:9050/radio"
+   ],
+   "website": "https://www.radiosandels.fi/"
+  },
+  {
+   "id": "tuno:top_fi_radio-nostalgia",
+   "name": "Radio Nostalgia",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.radioplay.fi/fi_nostalgia_64.aac",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://streaming.radioplay.fi/fi_nostalgia_64.aac",
+    "https://streaming.radioplay.fi/nostalgia/nostalgia_64.aac?aw_0_1st.bauer_loggedin=false&aw_0_1st.playerid=BMUK_ukrp&aw_0_req.userConsentV2=~TCSTRING~&rp_source=1&aw_0_1st.skey=1770708690"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streaming.radioplay.fi/nostalgia/nostalgia_64.aac?aw_0_1st.bauer_loggedin=false&aw_0_1st.playerid=BMUK_ukrp&aw_0_req.userConsentV2=~TCSTRING~&rp_source=1&aw_0_1st.skey=1770708690",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioplayer.fi/kanavat/radio-nostalgia"
+  },
+  {
+   "id": "tuno:top_fi_loop",
+   "name": "Loop",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://aud-stream-loop.nm-elemental.nelonenmedia.fi/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://aud-stream-loop.nm-elemental.nelonenmedia.fi/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_fi_radioverkko",
+   "name": "Radioverkko",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "http://kuuntele.radioverkko.fi:8000/live",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://kuuntele.radioverkko.fi:8000/live"
+   ],
+   "website": "http://radioverkko.fi/"
+  },
+  {
+   "id": "tuno:top_fi_radio-voima",
+   "name": "Radio Voima",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.diks.fi/voima.mp3",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://radio.diks.fi/voima.mp3",
+    "https://cast2.radiovoima.fi/voima.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cast2.radiovoima.fi/voima.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiovoima.fi/"
+  },
+  {
+   "id": "tuno:top_fi_radio-hear",
+   "name": "Radio Hear",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "http://hear.fi:8000/hear.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "http://hear.fi:8000/hear.mp3",
+    "http://hear.fi:8000/h128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://hear.fi:8000/h128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.hear.fi/"
+  },
+  {
+   "id": "tuno:top_fi_hitmix-80s",
+   "name": "HitMix 80s",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://aud-stream-hitmix.nm-elemental.nelonenmedia.fi/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://aud-stream-hitmix.nm-elemental.nelonenmedia.fi/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_fi_groove-fm",
+   "name": "Groove FM",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://aud-stream-groove.nm-elemental.nelonenmedia.fi/playlist.m3u8?",
+    "format": "hls"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://aud-stream-groove.nm-elemental.nelonenmedia.fi/playlist.m3u8?"
+   ]
+  },
+  {
+   "id": "tuno:top_fi_lbc",
+   "name": "LBC",
+   "type": "radio",
+   "country": "FI",
+   "category": "talk",
+   "stream": {
+    "url": "http://ice-sov.musicradio.com/LBCLondon",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://ice-sov.musicradio.com/LBCLondon"
+   ],
+   "website": "http://ice-sov.musicradio.com/LBCLondon"
+  },
+  {
+   "id": "tuno:top_fi_aito-iskelma",
+   "name": "Aito Iskelmä",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://aud-stream-aitoiskelma.nm-elemental.nelonenmedia.fi/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://aud-stream-aitoiskelma.nm-elemental.nelonenmedia.fi/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_fi_rondo-classic-klasu-pro",
+   "name": "Rondo Classic Klasu Pro",
+   "type": "radio",
+   "country": "FI",
+   "category": "music",
+   "stream": {
+    "url": "https://iradio.fi/klasupro.flac",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://iradio.fi/klasupro.flac"
+   ],
+   "website": "https://rondo.fi/"
+  }
+ ]
+}

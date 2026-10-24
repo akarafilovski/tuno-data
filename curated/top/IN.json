@@ -1,0 +1,309 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_in_2b-radio-sangam-krishna",
+   "name": "2B! Radio Sangam Krishna",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "http://millenniumhits.out.airtime.pro:8000/millenniumhits_a",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://millenniumhits.out.airtime.pro:8000/millenniumhits_a"
+   ],
+   "website": "http://www.2bradioindia.com/"
+  },
+  {
+   "id": "tuno:top_in_radiobollyfm",
+   "name": "radioBollyFM",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.radiobollyfm.in:8201/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://stream.radiobollyfm.in:8201/;",
+    "http://stream.zeno.fm/zu59ykebs2zuv"
+   ]
+  },
+  {
+   "id": "tuno:top_in_fnf-fm-hindi",
+   "name": "Fnf.Fm Hindi",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://usa1.fastcast4u.com/proxy/qrekthei?mp=/1",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://usa1.fastcast4u.com/proxy/qrekthei?mp=/1",
+    "http://192.99.8.192:5032/;stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://192.99.8.192:5032/;stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://hi.fnf.fm/?m=1"
+  },
+  {
+   "id": "tuno:top_in_club-mirchi-radio",
+   "name": "Club Mirchi Radio",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://mirchiplaylive.akamaized.net/hls/live/2036929/MUM/CLUBMI_Auto.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://mirchiplaylive.akamaized.net/hls/live/2036929/MUM/CLUBMI_Auto.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_in_air-fm-gold-delhi",
+   "name": "AIR Fm Gold Delhi",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://all.tamilfmradios.com/assets/radio/airdelhi03/air003_Auto.m3u8",
+    "format": "hls"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://all.tamilfmradios.com/assets/radio/airdelhi03/air003_Auto.m3u8",
+    "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00564kbps.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00564kbps.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://liveradios.in/fm-gold-delhi.html"
+  },
+  {
+   "id": "tuno:top_in_radio-bollyfm",
+   "name": "Radio BollyFm",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://antares.dribbcast.com/proxy/radiobolly/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://antares.dribbcast.com/proxy/radiobolly/stream.mp3",
+    "http://stream.radiobollyfm.in:8201/hd?t=1526570335"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.radiobollyfm.in:8201/hd?t=1526570335",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiobollyfm.in/"
+  },
+  {
+   "id": "tuno:top_in_air-delhi-fm-gold",
+   "name": "AIR Delhi FM Gold",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8",
+    "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00532kbps.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio00532kbps.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://prasarbharati.gov.in/"
+  },
+  {
+   "id": "tuno:top_in_ndtv-24x7-radio",
+   "name": "NDTV 24X7 Radio",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_in_vivid-bharti",
+   "name": "Vivid Bharti",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_in_radio-mirchi-hindi",
+   "name": "Radio Mirchi Hindi",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://eu8.fastcast4u.com/proxy/clyedupq/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://eu8.fastcast4u.com/proxy/clyedupq/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_in_kripalu-bhakti-dhara-radio",
+   "name": "Kripalu Bhakti Dhara Radio",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://kbd.out.airtime.pro/kbd_a",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://kbd.out.airtime.pro/kbd_a"
+   ]
+  },
+  {
+   "id": "tuno:top_in_vividh-bharti",
+   "name": "Vividh Bharti",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"
+   ],
+   "website": "https://newsonair.com/"
+  },
+  {
+   "id": "tuno:top_in_hindi-gold-radio",
+   "name": "Hindi Gold Radio",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://azuracast.vibesounds.in:8010/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://azuracast.vibesounds.in:8010/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_in_vividh-bharati",
+   "name": "Vividh Bharati",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_in_radio-paramankurichi-tamil-online",
+   "name": "Radio Paramankurichi Tamil Online",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://vpmurugun.radioca.st/autodj",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://vpmurugun.radioca.st/autodj",
+    "https://vpmurugun.radioca.st/stream",
+    "http://proxima.shoutca.st:8009/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://vpmurugun.radioca.st/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://proxima.shoutca.st:8009/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioparamankurichi.in/"
+  },
+  {
+   "id": "tuno:top_in_air-fm-rainbow",
+   "name": "Air FM Rainbow",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio00464kbps.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio00464kbps.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_in_tamil-80-s-radio",
+   "name": "Tamil 80's Radio",
+   "type": "radio",
+   "country": "IN",
+   "category": "music",
+   "stream": {
+    "url": "https://centova.aarenworld.com/proxy/894tamilfm/stream",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://centova.aarenworld.com/proxy/894tamilfm/stream",
+    "http://stream.zeno.fm/ncw879a2h8quv"
+   ],
+   "website": "https://www.tamilradios.com/tamil-80s-radio"
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_cf_radio-ndeke-luka",
+   "name": "Radio Ndeke Luka",
+   "type": "radio",
+   "country": "CF",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiondekeluka.org/ndekeluka",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.radiondekeluka.org/ndekeluka",
+    "https://www.radiondekeluka.org/wp-content/uploads/2026/10/002026-10-20news06hfr.mp3"
+   ],
+   "website": "https://www.radiondekeluka.org/"
+  },
+  {
+   "id": "tuno:top_cf_mambokadzi-dreamradio",
+   "name": "Mambokadzi DreamRadio",
+   "type": "radio",
+   "country": "CF",
+   "category": "music",
+   "stream": {
+    "url": "https://cast3.asurahosting.com/proxy/dreamradio/stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://cast3.asurahosting.com/proxy/dreamradio/stream.mp3"
+   ],
+   "website": "https://www.mambokadzidreamradio.com/"
+  },
+  {
+   "id": "tuno:top_cf_guira-fm",
+   "name": "Guira FM",
+   "type": "radio",
+   "country": "CF",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/ce42a7f0-b3a7-47ee-9eb2-97009bba3c2a?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streams.radiomast.io/ce42a7f0-b3a7-47ee-9eb2-97009bba3c2a?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_cf_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "CF",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_cf_hero-radio-central-african-republic",
+   "name": "Hero Radio (Central African Republic)",
+   "type": "radio",
+   "country": "CF",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/centralafricanrepublic.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/centralafricanrepublic.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_cf_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "CF",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp4.com:8056/;",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://dreamsiteradiocp4.com:8056/;"
+   ]
+  },
+  {
+   "id": "tuno:top_cf_antenna-web-bangui",
+   "name": "Antenna Web Bangui",
+   "type": "radio",
+   "country": "CF",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebBangui",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebBangui"
+   ]
+  }
+ ]
+}

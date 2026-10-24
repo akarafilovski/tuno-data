@@ -1,0 +1,359 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_uz_qalbim-navosi",
+   "name": "Qalbim Navosi",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://live.qalbimnavosi.uz/qalbimnavosi",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live.qalbimnavosi.uz/qalbimnavosi",
+    "http://213.230.109.7:9000/alo_low"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://213.230.109.7:9000/alo_low",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://qalbimnavosi.uz/"
+  },
+  {
+   "id": "tuno:top_uz_radio-o-zbegim-taronasi",
+   "name": "Radio O'zbegim Taronasi",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://fm101.uz:9943/fm101_low.aac",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://fm101.uz:9943/fm101_low.aac"
+   ],
+   "website": "https://fm101.uz/"
+  },
+  {
+   "id": "tuno:top_uz_radio-tabassum",
+   "name": "Radio Tabassum",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "http://tabassum.uz:9000/alo_low",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://tabassum.uz:9000/alo_low"
+   ],
+   "website": "https://tabassum.uz/"
+  },
+  {
+   "id": "tuno:top_uz_station",
+   "name": "РАДИО \"Аъло ФМ\"",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "http://tabassum.uz:9000/alo_low",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://tabassum.uz:9000/alo_low"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_radio-markaz-online",
+   "name": "Radio Markaz Online",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://live.mediamarkaz.com/radiomarkaz",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://live.mediamarkaz.com/radiomarkaz",
+    "http://mediamarkaz.com:8000/radiomarkaz"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://mediamarkaz.com:8000/radiomarkaz",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://mediamarkaz.com/"
+  },
+  {
+   "id": "tuno:top_uz_yoshlar-ovozi",
+   "name": "Yoshlar Ovozi",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "http://ns10.jethost.uz:8000/yoshlarovoziaac",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://ns10.jethost.uz:8000/yoshlarovoziaac"
+   ],
+   "website": "http://muz.uz/"
+  },
+  {
+   "id": "tuno:top_uz_navroz-fm",
+   "name": "Navroz FM",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "http://navruzfm.uz:9000/navruz_low",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://navruzfm.uz:9000/navruz_low"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_oriat-fm",
+   "name": "Oriat FM",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "http://194.5.152.248:8000/fm",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://194.5.152.248:8000/fm"
+   ],
+   "website": "http://www.oriatfm.uz/"
+  },
+  {
+   "id": "tuno:top_uz_radio-maxima",
+   "name": "RADIO MAXIMA",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://classicfm.uz:8444/maxima.ogg",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://classicfm.uz:8444/maxima.ogg"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_the-holy-quran-by-sheikh-mahmoud-al-husari",
+   "name": "The Holy Quran  by Sheikh Mahmoud Al-Husari",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh"
+   ],
+   "website": "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh"
+  },
+  {
+   "id": "tuno:top_uz_islom-uz",
+   "name": "Islom.uz",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.islom.uz/islomuz",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio.islom.uz/islomuz"
+   ],
+   "website": "https://islom.uz/"
+  },
+  {
+   "id": "tuno:top_uz_fonoteka",
+   "name": "Fonoteka",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.fonoteka.fm:1040/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://stream.fonoteka.fm:1040/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_uz_truck-fm",
+   "name": "Truck FM",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://fm.truckfm.uz:8000/64",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://fm.truckfm.uz:8000/64"
+   ],
+   "website": "https://fm.truckfm.uz:8000/64"
+  },
+  {
+   "id": "tuno:top_uz_pink-unicorn-radio",
+   "name": "Pink Unicorn Radio",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://myradio24.org/unicorn",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://myradio24.org/unicorn"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_rytmabad",
+   "name": "rytmabad",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.filmtastic.uz/listen/rytmabad/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://radio.filmtastic.uz/listen/rytmabad/radio.mp3"
+   ],
+   "website": "https://rytmabad.radio/"
+  },
+  {
+   "id": "tuno:top_uz_no-kis-fm",
+   "name": "No'kis FM",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.nukusfm.uz/live",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.nukusfm.uz/live"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_retro-fm",
+   "name": "Retro FM",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://classicfm.uz:8444/retrofm.ogg",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://classicfm.uz:8444/retrofm.ogg"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_cover",
+   "name": "МузCOVERрадио",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://myradio24.org/muzcaver_128",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://myradio24.org/muzcaver_128"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_temp-fm",
+   "name": "Temp FM",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://tempradio-live.uz/streamaac",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://tempradio-live.uz/streamaac"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_station_21",
+   "name": "Европа Плюс Узбекистан",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://live.oriatdono.uz/fm/shoutcast",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://live.oriatdono.uz/fm/shoutcast"
+   ]
+  },
+  {
+   "id": "tuno:top_uz_nostalgie-fm",
+   "name": "Nostalgie FM",
+   "type": "radio",
+   "country": "UZ",
+   "category": "music",
+   "stream": {
+    "url": "https://classicfm.uz:8444/nostalgie.ogg",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://classicfm.uz:8444/nostalgie.ogg"
+   ]
+  }
+ ]
+}

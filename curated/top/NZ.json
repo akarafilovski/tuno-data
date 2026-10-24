@@ -1,0 +1,581 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_nz_coast-fm",
+   "name": "Coast FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_17AAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_17AAC.m3u8?dist=onlineradiobox",
+    "http://playerservices.streamtheworld.com/api/livestream-redirect/NZME_07AAC.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/NZME_07AAC.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.thecoast.net.nz/"
+  },
+  {
+   "id": "tuno:top_nz_newstalk-zb",
+   "name": "Newstalk ZB",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_01AAC_SC?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_01AAC_SC?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_01AAC.m3u8?aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=9631949606&clientType=web&companionAds=false&deviceName=web-desktop&dist=iheart&host=webapp.NZ&listenerId=&playedFrom=157&pname=live_profile&profileId=9631949606&stationid=6187&terminalId=162&territory=NZ",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_41AAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_01AAC.m3u8?aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=9631949606&clientType=web&companionAds=false&deviceName=web-desktop&dist=iheart&host=webapp.NZ&listenerId=&playedFrom=157&pname=live_profile&profileId=9631949606&stationid=6187&terminalId=162&territory=NZ",
+     "format": "hls"
+    },
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_41AAC.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.newstalkzb.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_sleep-radio",
+   "name": "SLEEP RADIO",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.my-control-panel.com/proxy/sleeprad/stream",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://cast4.my-control-panel.com/proxy/sleeprad/stream",
+    "http://65.109.81.84:9851/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://65.109.81.84:9851/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.sleepradio.co.nz/listen"
+  },
+  {
+   "id": "tuno:top_nz_the-sound",
+   "name": "The Sound",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.streamguys1.com/sound_net/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://mediaworks.streamguys1.com/sound_net/playlist.m3u8",
+    "https://digitalstreams.mediaworks.nz/sound_net/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://digitalstreams.mediaworks.nz/sound_net/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.thesound.co.nz/home.html"
+  },
+  {
+   "id": "tuno:top_nz_magic",
+   "name": "Magic",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.streamguys1.com/magic_net_icy",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://mediaworks.streamguys1.com/magic_net_icy",
+    "https://digitalstreams.mediaworks.nz/mmusic_net/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://digitalstreams.mediaworks.nz/mmusic_net/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.magic.co.nz/home/music.html"
+  },
+  {
+   "id": "tuno:top_nz_mix-fm",
+   "name": "Mix FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.mixfm.nz/",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://stream.mixfm.nz/"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_the-breeze-fm",
+   "name": "The Breeze FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://14613.live.streamtheworld.com/RAP_GODS_S01AAC128/HLS/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://14613.live.streamtheworld.com/RAP_GODS_S01AAC128/HLS/playlist.m3u8",
+    "https://mediaworks.streamguys1.com/breeze-akl-high_icy"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mediaworks.streamguys1.com/breeze-akl-high_icy",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.thebreeze.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_george-fm",
+   "name": "George FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://18233.live.streamtheworld.com/SAMSMITH_S01AAC/HLS/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://18233.live.streamtheworld.com/SAMSMITH_S01AAC/HLS/playlist.m3u8",
+    "https://digitalstreams.mediaworks.nz/george_net/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://digitalstreams.mediaworks.nz/george_net/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://rova.nz/"
+  },
+  {
+   "id": "tuno:top_nz_ski-fm",
+   "name": "SKI FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/s6436891bc/listen",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://s2.radio.co/s6436891bc/listen"
+   ],
+   "website": "https://skifmnetwork.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_radio-new-zealand-national",
+   "name": "Radio New Zealand National",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "http://radionz-ice.streamguys.com/national.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://radionz-ice.streamguys.com/national.mp3"
+   ],
+   "website": "https://www.rnz.co.nz/national"
+  },
+  {
+   "id": "tuno:top_nz_easy-80s",
+   "name": "Easy 80s",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "http://procyon.shoutca.st:8032/;",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://procyon.shoutca.st:8032/;"
+   ],
+   "website": "https://www.auckland80s.com/easy-80s.html"
+  },
+  {
+   "id": "tuno:top_nz_2xs-fm-palmerston-north-palmerston-north",
+   "name": "2XS FM - Palmerston North Palmerston North",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "http://125.236.204.178:8001/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://125.236.204.178:8001/listen.mp3"
+   ],
+   "website": "http://www.2xsfm.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_jazz-cafe",
+   "name": "JAZZ CAFE",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.wanderingsheep.tv:8000/jazzcafe",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://radio.wanderingsheep.tv:8000/jazzcafe"
+   ],
+   "website": "https://wsradio.net/djs/jazz-cafe/"
+  },
+  {
+   "id": "tuno:top_nz_rnz-national",
+   "name": "RNZ - National",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radionz.streamguys1.com/national/national/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://radionz.streamguys1.com/national/national/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_retro-hit-radio",
+   "name": "Retro Hit Radio",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://riphel02.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://riphel02.radioca.st/;",
+    "https://riphel02.radioca.st/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://riphel02.radioca.st/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://retrohitradio.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_the-edge",
+   "name": "The Edge",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.streamguys1.com/edge_net/playlist.m3u8?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.playerId=&aw_0_1st.skey=1792521724587&companionAds=true",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://mediaworks.streamguys1.com/edge_net/playlist.m3u8?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.playerId=&aw_0_1st.skey=1792521724587&companionAds=true",
+    "https://digitalstreams.mediaworks.nz/edge_net/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://digitalstreams.mediaworks.nz/edge_net/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.theedge.co.nz/home.html"
+  },
+  {
+   "id": "tuno:top_nz_the-hits",
+   "name": "The Hits",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_12AAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_12AAC.m3u8?dist=onlineradiobox",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_71AAC.m3u8?aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=9774168307&clientType=web&companionAds=false&deviceName=web-desktop&dist=iheart&host=webapp.NZ&listenerId=&playedFrom=157&pname=live_profile&profileId=9774168307&stationid=6204&terminalId=162&territory=NZ"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_71AAC.m3u8?aw_0_1st.playerid=iHeartRadioWebPlayer&aw_0_1st.skey=9774168307&clientType=web&companionAds=false&deviceName=web-desktop&dist=iheart&host=webapp.NZ&listenerId=&playedFrom=157&pname=live_profile&profileId=9774168307&stationid=6204&terminalId=162&territory=NZ",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.thehits.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_gaia-fm-new-zealand",
+   "name": "Gaia FM New Zealand",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "http://s2.stationplaylist.com:9000/gaiafm.aac",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://s2.stationplaylist.com:9000/gaiafm.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_the-rock-nz-s-1-rock-radio-station",
+   "name": "The Rock - NZ's #1 rock radio station",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.streamguys1.com/rock_net/playlist.m3u8?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.playerId=&aw_0_1st.skey=1792521731953&companionAds=true",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://mediaworks.streamguys1.com/rock_net/playlist.m3u8?listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.playerId=&aw_0_1st.skey=1792521731953&companionAds=true",
+    "https://digitalstreams.mediaworks.nz/rock_net_icy"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://digitalstreams.mediaworks.nz/rock_net_icy",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.therock.net.nz/"
+  },
+  {
+   "id": "tuno:top_nz_more-fm",
+   "name": "More FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.streamguys1.com/more-akl-high/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://mediaworks.streamguys1.com/more-akl-high/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_the-generator-fm",
+   "name": "The Generator FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.myradiostream.com/:14268/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://s1.myradiostream.com/:14268/listen.mp3",
+    "https://s1.myradiostream.com/14268/stream/1/",
+    "https://s1.myradiostream.com/:14268/;?type=http&nocache=1608640718?0.7458407789862892"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s1.myradiostream.com/14268/stream/1/",
+     "format": "icecast"
+    },
+    {
+     "url": "https://s1.myradiostream.com/:14268/;?type=http&nocache=1608640718?0.7458407789862892",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://thegenerator.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_fm90-6-radio-chinese",
+   "name": "新西兰中文广播电台 FM90.6 Radio Chinese",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s26.myradiostream.com:20274/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://s26.myradiostream.com:20274/listen.mp3"
+   ],
+   "website": "https://fm906.co.nz/"
+  },
+  {
+   "id": "tuno:top_nz_radio-hauraki",
+   "name": "Radio Hauraki",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_04AAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_04AAC.m3u8?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_vinyl-radio-nz",
+   "name": "Vinyl Radio NZ",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://vms-videos.minutemediaservices.com/01m5bwff9vr5mxkgcd69/m3u8/01m5bwff9vr5mxkgcd69.m3u8",
+    "format": "hls"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://vms-videos.minutemediaservices.com/01m5bwff9vr5mxkgcd69/m3u8/01m5bwff9vr5mxkgcd69.m3u8",
+    "https://s40.myradiostream.com/17794/listen.aac",
+    "https://s40.myradiostream.com:17794/listen.aac?"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s40.myradiostream.com/17794/listen.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "https://s40.myradiostream.com:17794/listen.aac?",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://onlineradiobox.com/nz/vinylnz/"
+  },
+  {
+   "id": "tuno:top_nz_the-rock",
+   "name": "The Rock",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.streamguys1.com/rock_net/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://mediaworks.streamguys1.com/rock_net/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_now-radio",
+   "name": "NOW Radio",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://broadcast.airwaven.com/radio/8000/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://broadcast.airwaven.com/radio/8000/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_brian-fm-91-2-whanganui-nz",
+   "name": "Brian FM 91.2 Whanganui NZ",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://ais-sa1.streamon.fm/7100_128k.aac",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://ais-sa1.streamon.fm/7100_128k.aac"
+   ],
+   "website": "https://brianfm.com/whanganui/"
+  },
+  {
+   "id": "tuno:top_nz_radio-zm",
+   "name": "Radio ZM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_13AAC.m3u8?dist=onlineradiobox",
+    "format": "hls"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/NZME_13AAC.m3u8?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_mai-fm",
+   "name": "Mai FM",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "https://mediaworks.streamguys1.com/mai_net/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://mediaworks.streamguys1.com/mai_net/playlist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_nz_the-most-fm-new-plymouth",
+   "name": "The Most FM New Plymouth",
+   "type": "radio",
+   "country": "NZ",
+   "category": "music",
+   "stream": {
+    "url": "http://gordon.mostfm.com:8000/high",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://gordon.mostfm.com:8000/high"
+   ],
+   "website": "http://mostfm.co.nz/"
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ar_radio-mitre",
+   "name": "Radio Mitre",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56.mp3?dist=onlineradiobox",
+    "http://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56AAC_SC"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56AAC_SC",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://radiomitre.cienradios.com/espectaculos/de-que-murio-rodrigo-ruiz-el-actor-que-perdio-la-vida-a-los-49-anos/"
+  },
+  {
+   "id": "tuno:top_ar_aspen",
+   "name": "Aspen",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://26483.live.streamtheworld.com/ASPENAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://26483.live.streamtheworld.com/ASPENAAC.aac",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ASPEN.mp3?dist=onlineradiobox",
+    "http://24503.live.streamtheworld.com/ASPENAAC.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ASPEN.mp3?dist=onlineradiobox",
+     "format": "icecast"
+    },
+    {
+     "url": "http://24503.live.streamtheworld.com/ASPENAAC.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fmaspen.com/#"
+  },
+  {
+   "id": "tuno:top_ar_radio-10",
+   "name": "Radio 10",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio10.stweb.tv/radio10/live/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio10.stweb.tv/radio10/live/playlist.m3u8",
+    "https://radio10.stweb.tv/radio10/live/chunks.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://radio10.stweb.tv/radio10/live/chunks.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://www.radio10.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_blue-100-7-fm",
+   "name": "Blue 100.7 FM",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLUE_FM_100_7AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/BLUE_FM_100_7AAC.aac?dist=onlineradiobox"
+   ],
+   "website": "https://bluefm.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_delta-90-3-buenos-aires",
+   "name": "delta 90.3 Buenos Aires",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://cdn.instream.audio/:9069/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://cdn.instream.audio/:9069/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988"
+   ],
+   "website": "https://fmdelta903.com/"
+  },
+  {
+   "id": "tuno:top_ar_radio-con-vos",
+   "name": "Radio Con Vos",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://server1.stweb.tv/rcvos/live/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://server1.stweb.tv/rcvos/live/playlist.m3u8"
+   ],
+   "website": "https://www.radioconvos.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_radio-rivadavia",
+   "name": "Radio Rivadavia",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIA.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIA.mp3",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC_SC?dist=triton-widget&pname=tdwidgets"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC_SC?dist=triton-widget&pname=tdwidgets",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_ar_sensation-radio-107-5-neuquen",
+   "name": "Sensation Radio 107.5 Neuquen",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "http://radio01.ferozo.com:8976/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://radio01.ferozo.com:8976/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_radio-pop",
+   "name": "Radio POP",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://popradio.stweb.tv/popradio/live/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://popradio.stweb.tv/popradio/live/playlist.m3u8",
+    "https://popradio.stweb.tv/popradio/live/chunks.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://popradio.stweb.tv/popradio/live/chunks.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "http://radiopop.fm/"
+  },
+  {
+   "id": "tuno:top_ar_rock-and-pop-fm-95-9-rock-pop-ciudad-de-buenos-aires",
+   "name": "Rock And Pop FM 95.9 (Rock & Pop) Ciudad de Buenos Aires",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOPAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOPAAC.aac"
+   ],
+   "website": "https://fmrockandpop.com/"
+  },
+  {
+   "id": "tuno:top_ar_radio-folcklorica",
+   "name": "Radio Folcklorica",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radioinfo.ar/p/8050",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream.radioinfo.ar/p/8050"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_radio-rivadavia-am-630-ciudad-de-buenos-aires",
+   "name": "Radio Rivadavia AM 630. Ciudad de Buenos Aires",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC.aac",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC.aac"
+   ],
+   "website": "https://rivadavia.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_la-100-99-9-fm-grupo-clarin-buenos-aires",
+   "name": "La 100 - 99.9 FM - Grupo Clarín - Buenos Aires",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM999_56.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/FM999_56.mp3"
+   ],
+   "website": "https://la100.cienradios.com/"
+  },
+  {
+   "id": "tuno:top_ar_the-musical-box-radio",
+   "name": "THE MUSICAL BOX RADIO",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://tmbradio.radioca.st/;",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://tmbradio.radioca.st/;",
+    "http://albireo.shoutca.st:9740/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://albireo.shoutca.st:9740/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.themusicalbox.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_am-530-somos-radio",
+   "name": "AM 530 Somos Radio",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://live-ar1.cdnrad.com/hls/radio-2121/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://live-ar1.cdnrad.com/hls/radio-2121/live.m3u8",
+    "https://ipanel.instream.audio:7000/stream"
+   ],
+   "website": "https://www.am530somosradio.com/"
+  },
+  {
+   "id": "tuno:top_ar_el-destape-radio",
+   "name": "El Destape Radio",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://live-ar1.cdnrad.com/hls/radio-2123/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://live-ar1.cdnrad.com/hls/radio-2123/live.m3u8",
+    "https://ipanel.instream.audio/8004/stream",
+    "https://ipanel.instream.audio:7001/stream"
+   ],
+   "website": "https://www.eldestapeweb.com/eldestaperadio"
+  },
+  {
+   "id": "tuno:top_ar_radio-rivadavia-am630",
+   "name": "Radio Rivadavia AM630",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_feeling-91-7",
+   "name": "Feeling 91.7",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://turadioenvivo.com/proxy/feelingsource/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://turadioenvivo.com/proxy/feelingsource/stream",
+    "http://turadioenvivo.com:8430/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://turadioenvivo.com:8430/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://fmfeeling.com/"
+  },
+  {
+   "id": "tuno:top_ar_radio-la-red",
+   "name": "Radio La Red",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_AM910AAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_AM910AAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_la-popu",
+   "name": "La Popu",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://liveradio.mediainbox.net/popular.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://liveradio.mediainbox.net/popular.mp3",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/lapopu.mp3?dist=c3-web"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/lapopu.mp3?dist=c3-web",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.lapopu.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_radio-futurock",
+   "name": "Radio Futurock",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio/5942a3a05fa68cca2efb4264/5d9d019112cbbb45d6a50960/playlist.m3u8?aid=5942a3a05fa68cca2efb4264&dnt=true&dual_render=1&uid=ZdJe2qVZD3wGI4vbYz3HtCV1qHjltuh8&sid=Mzn2B8XPkwulwDNNhaV76j9bOvT5OJeC&pid=4N9DEHVxKRYREDJ5Pr7vag2ZtpUCLuM9&ref=futurock.fm&ext_pb=0&CMCD=cid%3D%225d9d019112cbbb45d6a50960%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%224N9DEHVxKRYREDJ5Pr7vag2ZtpUCLuM9%22%2Csu&es=us-b4-p-e-zs14-audio.cdn.mdstrm.com&ote=1792605502780&ot=ElMNDcy2r0cksUjliNvYOQ&proto=https&pz=us&cP=128000",
+    "format": "hls"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio/5942a3a05fa68cca2efb4264/5d9d019112cbbb45d6a50960/playlist.m3u8?aid=5942a3a05fa68cca2efb4264&dnt=true&dual_render=1&uid=ZdJe2qVZD3wGI4vbYz3HtCV1qHjltuh8&sid=Mzn2B8XPkwulwDNNhaV76j9bOvT5OJeC&pid=4N9DEHVxKRYREDJ5Pr7vag2ZtpUCLuM9&ref=futurock.fm&ext_pb=0&CMCD=cid%3D%225d9d019112cbbb45d6a50960%22%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%224N9DEHVxKRYREDJ5Pr7vag2ZtpUCLuM9%22%2Csu&es=us-b4-p-e-zs14-audio.cdn.mdstrm.com&ote=1792605502780&ot=ElMNDcy2r0cksUjliNvYOQ&proto=https&pz=us&cP=128000",
+    "https://mdstrm.com/audio/5d9d019112cbbb45d6a50960/live.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mdstrm.com/audio/5d9d019112cbbb45d6a50960/live.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://futurock.live/"
+  },
+  {
+   "id": "tuno:top_ar_lra1-radio-nacional-argentina",
+   "name": "LRA1 Radio Nacional Argentina",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad1",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://sa.mp3.icecast.magma.edge-access.net/sc_rad1",
+    "https://cdn.radionacional.com.ar/wp-content/uploads/2026/10/SANTIAGO-HARDIE.mp3?_=1"
+   ],
+   "website": "https://www.radionacional.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_rock-pop-95-9",
+   "name": "Rock & Pop 95.9",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOPAAC.aac?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOPAAC.aac?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_radio-la-red-am-910-ciudad-de-buenos-aires",
+   "name": "Radio La Red AM 910. Ciudad de Buenos Aires",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_AM910AAC.aac",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_AM910AAC.aac"
+   ],
+   "website": "https://www.lared.am/"
+  },
+  {
+   "id": "tuno:top_ar_radio-disney",
+   "name": "Radio Disney",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_radio-nacional-folklorica-98-7",
+   "name": "Radio Nacional Folklorica 98.7",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad38",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad38"
+   ],
+   "website": "http://www.nacionalfolklorica.com.ar/"
+  },
+  {
+   "id": "tuno:top_ar_cadena-3",
+   "name": "Cadena 3",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO3.mp3?dist=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO3.mp3?dist=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_gamma-91-1-fm",
+   "name": "Gamma 91.1 FM",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming01.shockmedia.com.ar/8880/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://streaming01.shockmedia.com.ar/8880/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_ar_radio-del-plata",
+   "name": "Radio Del Plata",
+   "type": "radio",
+   "country": "AR",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming01.shockmedia.com.ar:10217/stream",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://streaming01.shockmedia.com.ar:10217/stream",
+    "https://stream.zeno.fm/sxpab7rt7hhvv"
+   ],
+   "website": "https://amdelplata.com/"
+  },
+  {
+   "id": "tuno:top_ar_d-sports-radio",
+   "name": "D Sports Radio",
+   "type": "radio",
+   "country": "AR",
+   "category": "sports",
+   "stream": {
+    "url": "http://26483.live.streamtheworld.com/DSPORTSRADIO_SC",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "http://26483.live.streamtheworld.com/DSPORTSRADIO_SC",
+    "https://playerservices.streamtheworld.com/api/livestream-redirect/DSPORTSRADIOAAC.aac?dist=onlineradiobox"
+   ],
+   "website": "https://www.dsportsradio.com/"
+  }
+ ]
+}

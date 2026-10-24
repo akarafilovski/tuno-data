@@ -1,0 +1,604 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_fr_france-info",
+   "name": "France Info",
+   "type": "radio",
+   "country": "FR",
+   "category": "talk",
+   "stream": {
+    "url": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "http://icecast.radiofrance.fr/franceinfo-hifi.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://icecast.radiofrance.fr/franceinfo-hifi.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.francetvinfo.fr/"
+  },
+  {
+   "id": "tuno:top_fr_france-inter",
+   "name": "France Inter",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://direct.franceinter.fr/live/franceinter-midfi.mp3",
+    "https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8?id=radiofrance",
+    "https://icecast.radiofrance.fr/franceinter-hifi.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8?id=radiofrance",
+     "format": "hls"
+    },
+    {
+     "url": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.franceinter.fr/"
+  },
+  {
+   "id": "tuno:top_fr_nostalgie",
+   "name": "Nostalgie",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/oug7girb92oc?origine=radiobox",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/oug7girb92oc?origine=radiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_fip-radio",
+   "name": "FIP Radio",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiofrance.fr/fip/fip_hifi.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.radiofrance.fr/fip/fip_hifi.m3u8",
+    "http://icecast.radiofrance.fr/fip-hifi.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.radiofrance.fr/fip-hifi.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.fip.fr/"
+  },
+  {
+   "id": "tuno:top_fr_nrj",
+   "name": "NRJ",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/oumvmk8fnozc?origine=radiobox",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/oumvmk8fnozc?origine=radiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_fm-80-funky-music",
+   "name": "FM 80 FUNKY MUSIC",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/467555/stream/523739",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen.radioking.com/radio/467555/stream/523739"
+   ],
+   "website": "https://www.fm80.fr/"
+  },
+  {
+   "id": "tuno:top_fr_radio-classique-fm",
+   "name": "Radio Classique FM",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3",
+    "https://str0.creacast.com/classique1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://str0.creacast.com/classique1",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioclassique.fr/"
+  },
+  {
+   "id": "tuno:top_fr_jazz-radio",
+   "name": "Jazz Radio",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.aac",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://jazzradio.ice.infomaniak.ch/jazzradio-high.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_rfm",
+   "name": "RFM",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rfm.fr/rfm.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://stream.rfm.fr/rfm.mp3"
+   ],
+   "website": "http://www.rfm.fr/"
+  },
+  {
+   "id": "tuno:top_fr_la-grosse-radio-reggae-plaisir",
+   "name": "La Grosse Radio - Reggae Plaisir",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "http://hd.lagrosseradio.info/lagrosseradio-reggae-192.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://hd.lagrosseradio.info/lagrosseradio-reggae-192.mp3"
+   ],
+   "website": "https://www.lagrosseradio.com/"
+  },
+  {
+   "id": "tuno:top_fr_eurodance-90",
+   "name": "Eurodance 90",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://stream-eurodance90.fr/radio/8000/128.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://stream-eurodance90.fr/radio/8000/128.mp3"
+   ],
+   "website": "https://eurodance90.fr/"
+  },
+  {
+   "id": "tuno:top_fr_bfm-radio-business",
+   "name": "BFM Radio Business",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.bfmtv.com/bfmbusiness_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://audio.bfmtv.com/bfmbusiness_128.mp3"
+   ],
+   "website": "https://rmc.bfmtv.com/"
+  },
+  {
+   "id": "tuno:top_fr_king-dub-radio-marseille",
+   "name": "King Dub Radio Marseille",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://free.rcast.net/70595",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://free.rcast.net/70595",
+    "http://london-dedicated.myautodj.com:8862/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://london-dedicated.myautodj.com:8862/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://kingdubfamily.com/"
+  },
+  {
+   "id": "tuno:top_fr_rfi-afrique",
+   "name": "RFI Afrique",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "http://live02.rfi.fr/rfiafrique-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://live02.rfi.fr/rfiafrique-64.mp3",
+    "http://live02.rfi.fr/rfiafrique-96k.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://live02.rfi.fr/rfiafrique-96k.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.rfi.fr/"
+  },
+  {
+   "id": "tuno:top_fr_abc-lounge-radio",
+   "name": "ABC Lounge Radio",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.openstream.co/4457/audio",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://listen.openstream.co/4457/audio"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_roots-legacy-radio",
+   "name": "Roots Legacy Radio",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://l.rootslegacy.fr/stream/1/",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://l.rootslegacy.fr/stream/1/"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_france-culture",
+   "name": "France Culture",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.radiofrance.fr/franceculture-midfi.mp3",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://icecast.radiofrance.fr/franceculture-midfi.mp3",
+    "http://icecast.radiofrance.fr/franceculture-hifi.aac",
+    "http://direct.franceculture.fr/live/franceculture-lofi.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.radiofrance.fr/franceculture-hifi.aac",
+     "format": "icecast"
+    },
+    {
+     "url": "http://direct.franceculture.fr/live/franceculture-lofi.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.franceculture.fr/"
+  },
+  {
+   "id": "tuno:top_fr_chante-france",
+   "name": "Chante France",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://chantefrance.radiohls.infomaniak.com/chantefrance/manifest.m3u8",
+    "format": "hls"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://chantefrance.radiohls.infomaniak.com/chantefrance/manifest.m3u8",
+    "http://stream1.chantefrance.com/cf-80",
+    "http://stream.chantefrance.com/Chante_France"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream1.chantefrance.com/cf-80",
+     "format": "icecast"
+    },
+    {
+     "url": "http://stream.chantefrance.com/Chante_France",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.chantefrance.com/"
+  },
+  {
+   "id": "tuno:top_fr_jazz-radio-blues",
+   "name": "Jazz Radio Blues",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://eg-ad.fr/empty.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://eg-ad.fr/empty.mp3",
+    "http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.jazzradio.fr/radio/webradio/3/blues"
+  },
+  {
+   "id": "tuno:top_fr_tropiques-fm",
+   "name": "Tropiques FM",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/8916/stream/19088",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://listen.radioking.com/radio/8916/stream/19088"
+   ],
+   "website": "https://www.tropiquesfm.com/"
+  },
+  {
+   "id": "tuno:top_fr_radio-rmc",
+   "name": "Radio RMC",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://audio.bfmtv.com/rmcradio_128.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_europe-1",
+   "name": "Europe 1",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://europe1.lmn.fm/europe1-live/playlist.m3u8?aw_0_req.userConsentV2=CQsYtYAQsYtYAAHABBENC1FgAAAAAAAgAAAAAAAQEgFgA1AGAAO4AjgBnwD7AI9ATEApoBywEBABQkAGAAIM9joAMAAQZ7IQAYAAgz2SgAwABBnspABgACDPYAAA.ILAFB5G_fbWFj6TJ1YKtkeYxf11ho4sAxBgYIAiABhBOAIIwE0mAQJASAIiACGAAAKFBBIQAtCADEAACAIIABITDEIECAABAAIiBEAAMRQgAACARJmQAAGAAYgEDUEkQAmAoEQBrMQNwgAIAAASARBIAhABCRAQcIACEgYAAAAQAAwkgAEAAAAAAAAAAAABAIEAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA.YAAAAAQAAAAA&origin=web&listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.version=1.3.4%3Ahtml5&aw_0_1st.playerid=LagardereWebE1&aw_0_1st.skey=1792518029&dvr_playback_session_id=6a7b08f10167c5b0_6069914_eDVFOnO9_MTAuMjE3LjkuMzc6ODAwMA!!_0000000pfNf",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://europe1.lmn.fm/europe1-live/playlist.m3u8?aw_0_req.userConsentV2=CQsYtYAQsYtYAAHABBENC1FgAAAAAAAgAAAAAAAQEgFgA1AGAAO4AjgBnwD7AI9ATEApoBywEBABQkAGAAIM9joAMAAQZ7IQAYAAgz2SgAwABBnspABgACDPYAAA.ILAFB5G_fbWFj6TJ1YKtkeYxf11ho4sAxBgYIAiABhBOAIIwE0mAQJASAIiACGAAAKFBBIQAtCADEAACAIIABITDEIECAABAAIiBEAAMRQgAACARJmQAAGAAYgEDUEkQAmAoEQBrMQNwgAIAAASARBIAhABCRAQcIACEgYAAAAQAAwkgAEAAAAAAAAAAAABAIEAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA.YAAAAAQAAAAA&origin=web&listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue&aw_0_1st.version=1.3.4%3Ahtml5&aw_0_1st.playerid=LagardereWebE1&aw_0_1st.skey=1792518029&dvr_playback_session_id=6a7b08f10167c5b0_6069914_eDVFOnO9_MTAuMjE3LjkuMzc6ODAwMA!!_0000000pfNf",
+    "https://stream.europe1.fr/europe1.mp3",
+    "https://stream.europe1.fr/europe1.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.europe1.fr/europe1.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.europe1.fr/europe1.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.europe1.fr/"
+  },
+  {
+   "id": "tuno:top_fr_rtl",
+   "name": "RTL",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://hls.rtl.fr/ODYxNDA2MTdkODk1NmFjZTMwYzZhOTllNTVmMGE2YWQuMTc5Mjc2Njc0Ng~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/national/rtl/long/index.m3u8",
+    "format": "hls"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://hls.rtl.fr/ODYxNDA2MTdkODk1NmFjZTMwYzZhOTllNTVmMGE2YWQuMTc5Mjc2Njc0Ng~~/radio/webpHJPXnXrN7B6J7Q8mcqmxP/national/rtl/long/index.m3u8",
+    "https://live.m6radio.quortex.io/webM89Hc99XApzgfhXNX8ASN5/grouprtl/national/short/audio-64000/index.m3u8",
+    "http://icecast.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.m6radio.quortex.io/webM89Hc99XApzgfhXNX8ASN5/grouprtl/national/short/audio-64000/index.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "http://icecast.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.rtl.fr/"
+  },
+  {
+   "id": "tuno:top_fr_cherie-fm",
+   "name": "Cherie FM",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming.nrjaudio.fm/ouuku85n3nje?origine=radiobox",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://streaming.nrjaudio.fm/ouuku85n3nje?origine=radiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_sud-radio",
+   "name": "Sud Radio",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.creacast.com/sudradio",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://ice.creacast.com/sudradio",
+    "https://ice.creacast.com/sudradio_aac",
+    "https://live.sudradio.fr/sudradio-mp3-128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://ice.creacast.com/sudradio_aac",
+     "format": "icecast"
+    },
+    {
+     "url": "https://live.sudradio.fr/sudradio-mp3-128",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.sudradio.fr/"
+  },
+  {
+   "id": "tuno:top_fr_cinemix",
+   "name": "CINEMIX",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://kathy.torontocast.com:1825/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://kathy.torontocast.com:1825/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_fr_skyrock",
+   "name": "Skyrock",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.skyrock.net/s/natio_mp3_128k",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "http://icecast.skyrock.net/s/natio_mp3_128k",
+    "https://skyrock.fm/#"
+   ],
+   "website": "https://skyrock.fm/"
+  },
+  {
+   "id": "tuno:top_fr_oui-fm-summertime-paris",
+   "name": "OUI FM Summertime Paris",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://ouifm.ice.infomaniak.ch/ouifm-high.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://ouifm.ice.infomaniak.ch/ouifm-high.mp3"
+   ],
+   "website": "https://www.ouifm.fr/"
+  },
+  {
+   "id": "tuno:top_fr_yoga-chill",
+   "name": "Yoga Chill",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://radio4.vip-radios.fm:18027/stream-128kmp3-YogaChill",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://radio4.vip-radios.fm:18027/stream-128kmp3-YogaChill",
+    "http://178.32.111.41:8027/stream-128kmp3-YogaChill"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://178.32.111.41:8027/stream-128kmp3-YogaChill",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.vip-radios.fm/station/yoga-chill/"
+  },
+  {
+   "id": "tuno:top_fr_rfi-monde",
+   "name": "RFI Monde",
+   "type": "radio",
+   "country": "FR",
+   "category": "music",
+   "stream": {
+    "url": "https://rfiafrique64k.ice.infomaniak.ch/rfimonde-64.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://rfiafrique64k.ice.infomaniak.ch/rfimonde-64.mp3",
+    "https://live-reflector.ice.infomaniak.ch/rfimonde-64.mp3"
+   ],
+   "website": "https://www.karibshebdo.info/radios-web/rfi-radio"
+  }
+ ]
+}

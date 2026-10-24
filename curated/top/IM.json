@@ -1,0 +1,195 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_im_alive-live-music-radio-around-the-clock-24h-blues",
+   "name": "Alive - Live Music Radio around the clock (24h Blues",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio12.pro-fhi.net/listen/xcfdsxqg/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio12.pro-fhi.net/listen/xcfdsxqg/stream",
+    "http://stream.laut.fm/alive"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.laut.fm/alive",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://laut.fm/alive"
+  },
+  {
+   "id": "tuno:top_im_3fm-isle-of-man",
+   "name": "3FM - Isle of Man",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/0kv9v43t87zuv",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://stream.rcs.revma.com/0kv9v43t87zuv"
+   ]
+  },
+  {
+   "id": "tuno:top_im_manx-radio-fm",
+   "name": "Manx Radio FM",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-manxradio.sharp-stream.com/manxradioammobile.aac?rp_source=1&amp;=&amp;&amp;___cb=581246162924854",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://listen-manxradio.sharp-stream.com/manxradioammobile.aac?rp_source=1&amp;=&amp;&amp;___cb=581246162924854",
+    "http://tx.sharp-stream.com/http_live.php?i=manxradiofm.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://tx.sharp-stream.com/http_live.php?i=manxradiofm.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.manxradio.com/"
+  },
+  {
+   "id": "tuno:top_im_manx-radio-am",
+   "name": "Manx Radio AM",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-manxradio.sharp-stream.com/manxradioammobile.aac",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://listen-manxradio.sharp-stream.com/manxradioammobile.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_im_energy-fm-isle-of-man",
+   "name": "Energy FM (Isle Of Man)",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "http://ukwesta.streaming.broadcast.radio:15580/energyfm",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://ukwesta.streaming.broadcast.radio:15580/energyfm"
+   ],
+   "website": "https://www.energyfm.net/"
+  },
+  {
+   "id": "tuno:top_im_manx-radio-gold",
+   "name": "Manx Radio Gold",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://listen-manxradio.sharp-stream.com/manxgoldhigh.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://listen-manxradio.sharp-stream.com/manxgoldhigh.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_im_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_im_energy-fm",
+   "name": "Energy FM",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://ukwesta.streaming.broadcast.radio/energyfm",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://ukwesta.streaming.broadcast.radio/energyfm"
+   ]
+  },
+  {
+   "id": "tuno:top_im_radio-assisi-isola-di-man",
+   "name": "Radio Assisi Isola di Man",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://isleofman.radioantennaweb.com/Peel",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://isleofman.radioantennaweb.com/Peel"
+   ]
+  },
+  {
+   "id": "tuno:top_im_3fm-128kbps-mp3",
+   "name": "3FM (128Kbps MP3)",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://n03-eu3.rcs.revma.com/dpfkytz764uvv?rj-ttl=5&rj-tok=AAABoVtg7E4AxSAoBBuEMTxmGA&_=379189",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://n03-eu3.rcs.revma.com/dpfkytz764uvv?rj-ttl=5&rj-tok=AAABoVtg7E4AxSAoBBuEMTxmGA&_=379189",
+    "https://n07a-eu.rcs.revma.com/0kv9v43t87zuv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://n07a-eu.rcs.revma.com/0kv9v43t87zuv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.three.fm/"
+  },
+  {
+   "id": "tuno:top_im_antenna-web-castletown",
+   "name": "Antenna Web Castletown",
+   "type": "radio",
+   "country": "IM",
+   "category": "music",
+   "stream": {
+    "url": "https://isleofman.radioantennaweb.com/Castletown",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://isleofman.radioantennaweb.com/Castletown"
+   ]
+  }
+ ]
+}

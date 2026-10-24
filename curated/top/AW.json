@@ -1,0 +1,333 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_aw_radio-canal-90-fm",
+   "name": "Radio Canal 90 FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://c25.radioboss.fm:8187/live",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://c25.radioboss.fm:8187/live",
+    "https://stream.canal90.fm/live"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.canal90.fm/live",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://canal90fm.aw/"
+  },
+  {
+   "id": "tuno:top_aw_magic-96-5-oranjestad",
+   "name": "Magic 96.5 - Oranjestad",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.114.190:8072/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://158.69.114.190:8072/;"
+   ],
+   "website": "http://www.magic96-5.com/"
+  },
+  {
+   "id": "tuno:top_aw_yhju",
+   "name": "yhju",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "http://52.0.120.216:8000/stream/4/",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://52.0.120.216:8000/stream/4/"
+   ],
+   "website": "http://52.0.120.216:8000/stream/4/"
+  },
+  {
+   "id": "tuno:top_aw_top-fm",
+   "name": "Top FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://c11.radioboss.fm:8437/topfm",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://c11.radioboss.fm:8437/topfm"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_fresh-fm-1043",
+   "name": "Fresh FM 1043",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://fresharuba.com/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://fresharuba.com/stream",
+    "http://www.coolaruba.com:8006/stream/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://www.coolaruba.com:8006/stream/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.fresharuba.com/"
+  },
+  {
+   "id": "tuno:top_aw_comeback-radio",
+   "name": "Comeback Radio",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://s8.voscast.com:7001/stream",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://s8.voscast.com:7001/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_massive-aruba",
+   "name": "Massive Aruba",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://c13.radioboss.fm:8647/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://c13.radioboss.fm:8647/stream",
+    "https://surilive.com:8350/"
+   ],
+   "website": "https://massivearuba.com/"
+  },
+  {
+   "id": "tuno:top_aw_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_aw_masfm-105-1",
+   "name": "MasFM 105.1",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://media.streambrothers.com:1936/gfqmqsjzht/gfqmqsjzht/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://media.streambrothers.com:1936/gfqmqsjzht/gfqmqsjzht/playlist.m3u8",
+    "https://c13.radioboss.fm:8647/live?type=.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://c13.radioboss.fm:8647/live?type=.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://masfmaruba.com/"
+  },
+  {
+   "id": "tuno:top_aw_mas-fm",
+   "name": "Mas Fm",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://c13.radioboss.fm:8647/stream",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://c13.radioboss.fm:8647/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_hit-94-fm",
+   "name": "Hit 94 FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "http://hit94fm.serverroom.us:8490/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://hit94fm.serverroom.us:8490/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_hits-100-fm",
+   "name": "Hits 100 FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/f4b2dcfb-399c-4650-a64a-e4fb5b32717e?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://streams.radiomast.io/f4b2dcfb-399c-4650-a64a-e4fb5b32717e?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_radio-fresh-fm",
+   "name": "Radio Fresh FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "http://www.fresharuba.com:8006/;",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://www.fresharuba.com:8006/;"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_radio-cool-fm",
+   "name": "Radio Cool FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_radio-blue-fm",
+   "name": "Radio Blue FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://s31.myradiostream.com/:7384/listen.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://s31.myradiostream.com/:7384/listen.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_magic-96-5-fm",
+   "name": "Magic 96.5 FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.114.190:8072/;",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://158.69.114.190:8072/;"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_massive-aruba-powered-by-bombelman-com",
+   "name": "Massive Aruba - Powered by Bombelman.com",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://surilive.com:8350/;",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://surilive.com:8350/;"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_gozadera-stereo",
+   "name": "Gozadera Stereo",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://panel1.intermediahost.co:8250/stream",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://panel1.intermediahost.co:8250/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_aw-oranjestad",
+   "name": "AW Oranjestad",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "https://aruba.radioantennaweb.com/Oranjestad",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://aruba.radioantennaweb.com/Oranjestad"
+   ]
+  },
+  {
+   "id": "tuno:top_aw_mega-88-fm",
+   "name": "Mega 88 FM",
+   "type": "radio",
+   "country": "AW",
+   "category": "music",
+   "stream": {
+    "url": "http://s5.voscast.com:10218/live",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://s5.voscast.com:10218/live"
+   ]
+  }
+ ]
+}

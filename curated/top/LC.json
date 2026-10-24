@@ -1,0 +1,459 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_lc_hype-fm-89-soufriere",
+   "name": "Hype FM 89 Soufrière",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://videoserver01-uk.autopo.st/hls/live/rmediaslu.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://videoserver01-uk.autopo.st/hls/live/rmediaslu.m3u8",
+    "https://fwd.autopo.st/rmediaslu"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://fwd.autopo.st/rmediaslu",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.hypefm899.com/"
+  },
+  {
+   "id": "tuno:top_lc_rev-up-slu",
+   "name": "Rev-Up Slu",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://caribspy.com/proxy/revupslu/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://caribspy.com/proxy/revupslu/stream"
+   ],
+   "website": "https://revupslu.com/"
+  },
+  {
+   "id": "tuno:top_lc_rfi-1021-fm",
+   "name": "RFI 1021 FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://167.114.131.90:5908/;",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://167.114.131.90:5908/;",
+    "https://usa3.fastcast4u.com/proxy/vaoctave?mp=/1"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://usa3.fastcast4u.com/proxy/vaoctave?mp=/1",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.rfi1021fm.com/"
+  },
+  {
+   "id": "tuno:top_lc_reliable-fm",
+   "name": "Reliable FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/s5fb28a34d/listen",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s2.radio.co/s5fb28a34d/listen"
+   ],
+   "website": "https://boomstationslu.com/"
+  },
+  {
+   "id": "tuno:top_lc_unity-fm",
+   "name": "Unity FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://centova12.instainternet.com/proxy/unity905?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://centova12.instainternet.com/proxy/unity905?mp=/stream",
+    "http://centova12.instainternet.com:8192/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://centova12.instainternet.com:8192/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://unityfm905.com/"
+  },
+  {
+   "id": "tuno:top_lc_caribbean-hot-fm-105-3-castries",
+   "name": "Caribbean Hot FM 105.3 - Castries",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://auds2.intacs.com/caribbeanhotfm",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://auds2.intacs.com/caribbeanhotfm"
+   ],
+   "website": "http://www.caribbeanhotfm.com/"
+  },
+  {
+   "id": "tuno:top_lc_caribbean-hot-fm",
+   "name": "Caribbean Hot FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://audiovs.intacs.com/caribbeanhotfm",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://audiovs.intacs.com/caribbeanhotfm"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_fire-online-radio",
+   "name": "Fire Online Radio",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://caribspy.com/proxy/fireonlineradio/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://caribspy.com/proxy/fireonlineradio/stream",
+    "https://tinyurl.com/firefm758"
+   ],
+   "website": "https://www.firefm758/"
+  },
+  {
+   "id": "tuno:top_lc_caribbean-kiss-fm-105-5-castries",
+   "name": "Caribbean KISS FM 105.5 Castries",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://auds2.intacs.com/caribbeankissfm",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://auds2.intacs.com/caribbeankissfm"
+   ],
+   "website": "http://www.caribbeankissfm.com/"
+  },
+  {
+   "id": "tuno:top_lc_caribbean-kiss-fm",
+   "name": "Caribbean Kiss FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://auds1.intacs.com/caribbeankissfm",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://auds1.intacs.com/caribbeankissfm"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_the-wave-94-5-93-7-castries",
+   "name": "The Wave 94.5 & 93.7 Castries",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://ice66.securenetsystems.net/THEWAVE",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://ice66.securenetsystems.net/THEWAVE"
+   ],
+   "website": "http://www.thewavestlucia.com/"
+  },
+  {
+   "id": "tuno:top_lc_prayz-fm",
+   "name": "Prayz FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://media.carib.pro/prayz",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://media.carib.pro/prayz"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_rjl-radio",
+   "name": "RJL Radio",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://s3.radio.co/sc5bdee4a4/listen",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://s3.radio.co/sc5bdee4a4/listen"
+   ],
+   "website": "https://www.rjlradio.net/"
+  },
+  {
+   "id": "tuno:top_lc_rci",
+   "name": "RCI",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://caribspy.com/proxy/rcistlucia/stream",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://caribspy.com/proxy/rcistlucia/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_vibe-radio-100-9-92-9-vigie",
+   "name": "Vibe Radio 100.9 & 92.9 Vigie",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://45.79.186.124/proxy/vyberadio?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://45.79.186.124/proxy/vyberadio?mp=/stream"
+   ],
+   "website": "http://www.vyberadio.com/"
+  },
+  {
+   "id": "tuno:top_lc_power-97-9-fm",
+   "name": "Power 97.9 FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://caribspy.com/proxy/power979/stream",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://caribspy.com/proxy/power979/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_blazin-99-3fm",
+   "name": "BLAZIN 99.3FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radio.co/s5f11a7ef9/listen",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://streams.radio.co/s5f11a7ef9/listen"
+   ],
+   "website": "https://www.blazin993.com/"
+  },
+  {
+   "id": "tuno:top_lc_radio-100-live",
+   "name": "Radio 100 Live",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://media.carib.pro/radio100",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "http://media.carib.pro/radio100"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_lc_88-5-soufriere-fm",
+   "name": "88.5 Soufrière Fm",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://cast1.asurahosting.com/proxy/romanus/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://cast1.asurahosting.com/proxy/romanus/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_dennery-fm",
+   "name": "Dennery FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://dfm.arnait.com/listen/dfm/dfmlive.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://dfm.arnait.com/listen/dfm/dfmlive.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_7kings-radio",
+   "name": "7kings Radio",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://az13.yesstreaming.net:8100/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://az13.yesstreaming.net:8100/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_relaxingjazz-com-smooth-jazz",
+   "name": "RelaxingJazz.com - Smooth Jazz",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://stream-02-eu.relaxingjazz.com/stream/3/",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "http://stream-02-eu.relaxingjazz.com/stream/3/"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_real-fm",
+   "name": "Real FM",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://s7.voscast.com:8840/;",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://s7.voscast.com:8840/;"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_libertyfm",
+   "name": "LibertyFm",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://72.14.98.12/libertyfm",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://72.14.98.12/libertyfm"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_real-strong-radio",
+   "name": "Real Strong Radio",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://158.69.114.190:8028/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "http://158.69.114.190:8028/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_r-m-c-broadcasting-st-lucia",
+   "name": "R M C BROADCASTING ST LUCIA",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.radioking.com/radio/529084/stream/590089",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://listen.radioking.com/radio/529084/stream/590089"
+   ]
+  },
+  {
+   "id": "tuno:top_lc_vybe-radio",
+   "name": "Vybe Radio",
+   "type": "radio",
+   "country": "LC",
+   "category": "music",
+   "stream": {
+    "url": "http://us2.internet-radio.com:8103/live",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://us2.internet-radio.com:8103/live"
+   ]
+  }
+ ]
+}

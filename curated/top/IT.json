@@ -1,0 +1,561 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_it_rai-radio-1",
+   "name": "RAI Radio 1",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://radiounoest-live.akamaized.net/hls/live/2032586/radiounoest/radiounoest/playlist.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radiounoest-live.akamaized.net/hls/live/2032586/radiounoest/radiounoest/playlist.m3u8",
+    "http://icestreaming.rai.it/1.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icestreaming.rai.it/1.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio1.rai.it/"
+  },
+  {
+   "id": "tuno:top_it_radio-monte-carlo-2",
+   "name": "Radio Monte Carlo 2",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.unitedradio.it/RMC.mp3",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://icecast.unitedradio.it/RMC.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_it_virgin-radio",
+   "name": "Virgin Radio",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.unitedradio.it/Virgin.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://icecast.unitedradio.it/Virgin.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_it_radio-sportiva-prato",
+   "name": "Radio Sportiva Prato",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://sportiva.inmystream.it/stream/sportiva",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://sportiva.inmystream.it/stream/sportiva"
+   ],
+   "website": "https://www.radiosportiva.com/"
+  },
+  {
+   "id": "tuno:top_it_rai-radio-2-rome",
+   "name": "RAI Radio 2 Rome",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S35942484/yp5F67151K92/icecast",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S35942484/yp5F67151K92/icecast"
+   ],
+   "website": "http://www.radio2.rai.it/"
+  },
+  {
+   "id": "tuno:top_it_m2o-radio",
+   "name": "m2o Radio",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/master_ma.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/master_ma.m3u8"
+   ],
+   "website": "https://www.m2o.it/"
+  },
+  {
+   "id": "tuno:top_it_venice-classic-radio-italia-vcr-auditorium-venice",
+   "name": "Venice Classic Radio Italia | VCR Auditorium Venice",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://uk2.streamingpulse.com/ssl/vcr1",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://uk2.streamingpulse.com/ssl/vcr1"
+   ],
+   "website": "https://www.veniceclassicradio.eu/"
+  },
+  {
+   "id": "tuno:top_it_radio-ibiza-97-3-naples",
+   "name": "Radio Ibiza 97.3 Naples",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "http://wma08.fluidstream.net:5010/;stream.aac",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://wma08.fluidstream.net:5010/;stream.aac"
+   ],
+   "website": "http://www.radioibiza.it/"
+  },
+  {
+   "id": "tuno:top_it_virgin-radio-italia",
+   "name": "Virgin Radio Italia",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.unitedradio.it/Virgin.mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://icecast.unitedradio.it/Virgin.mp3"
+   ],
+   "website": "http://www.virginradio.it/"
+  },
+  {
+   "id": "tuno:top_it_radio-105",
+   "name": "Radio 105",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.unitedradio.it/Radio105.aac",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://icecast.unitedradio.it/Radio105.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_it_radio-80",
+   "name": "Radio 80",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://sphera.fluidstream.eu/radio80.aac?FLID=8&aw_0_req.gdpr=true&type=.aac",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://sphera.fluidstream.eu/radio80.aac?FLID=8&aw_0_req.gdpr=true&type=.aac",
+    "http://str01.fluidstream.net:7020/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://str01.fluidstream.net:7020/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radio80.it/"
+  },
+  {
+   "id": "tuno:top_it_radio-105-network",
+   "name": "Radio 105 Network",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.unitedradio.it/Radio105.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://icecast.unitedradio.it/Radio105.mp3"
+   ],
+   "website": "http://www.105.net/"
+  },
+  {
+   "id": "tuno:top_it_radio-italia",
+   "name": "Radio Italia",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://radioitaliasmi.akamaized.net/hls/live/2093120/RISMI/stream01/streamPlaylist.m3u8",
+    "format": "hls"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://radioitaliasmi.akamaized.net/hls/live/2093120/RISMI/stream01/streamPlaylist.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_it_radio-kiss-kiss-italia-naples",
+   "name": "Radio Kiss Kiss Italia Naples",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "http://wma08.fluidstream.net:4610/",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://wma08.fluidstream.net:4610/"
+   ],
+   "website": "http://www.kisskiss.it/"
+  },
+  {
+   "id": "tuno:top_it_r101",
+   "name": "R101",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.unitedradio.it/r101_mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://icecast.unitedradio.it/r101_mp3",
+    "http://icecast.unitedradio.it/r101",
+    "http://icy.unitedradio.it/R10180.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.unitedradio.it/r101",
+     "format": "icecast"
+    },
+    {
+     "url": "http://icy.unitedradio.it/R10180.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.r101.it/"
+  },
+  {
+   "id": "tuno:top_it_rmc-radio-monte-carlo",
+   "name": "RMC Radio Monte Carlo",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.unitedradio.it/RMC.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://icecast.unitedradio.it/RMC.mp3"
+   ],
+   "website": "http://www.radiomontecarlo.net/"
+  },
+  {
+   "id": "tuno:top_it_trance-energy-radio",
+   "name": "Trance-Energy Radio",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.trance-energy.org:8443/trance",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://radio.trance-energy.org:8443/trance"
+   ]
+  },
+  {
+   "id": "tuno:top_it_venice-classic-radio-vcr-auditorium",
+   "name": "Venice Classic Radio | VCR Auditorium",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://de2.streamingpulse.com/stream/vcr",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://de2.streamingpulse.com/stream/vcr"
+   ]
+  },
+  {
+   "id": "tuno:top_it_radio-deejay",
+   "name": "Radio Deejay",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://streamcdnb1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
+    "format": "hls"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streamcdnb1-4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/play1.m3u8",
+    "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/master_ma.m3u8",
+    "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejay80/playlist.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/master_ma.m3u8",
+     "format": "hls"
+    },
+    {
+     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejay80/playlist.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.deejay.it/"
+  },
+  {
+   "id": "tuno:top_it_radio-piterpan",
+   "name": "Radio Piterpan",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://klasse1.fluidstream.eu/piterpan?FLID=8&type=.aac",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://klasse1.fluidstream.eu/piterpan?FLID=8&type=.aac",
+    "http://wma01.fluidstream.net/piterpan"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://wma01.fluidstream.net/piterpan",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.piterpan.it/"
+  },
+  {
+   "id": "tuno:top_it_kiss-kiss-italia",
+   "name": "Kiss Kiss Italia",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://kisskiss.fluidstream.eu/KKItalia.aac?FLID=8&type=.aac",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://kisskiss.fluidstream.eu/KKItalia.aac?FLID=8&type=.aac",
+    "http://wma06.fluidstream.net:3614/;listen.pls"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://wma06.fluidstream.net:3614/;listen.pls",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.kisskissitalia.it/"
+  },
+  {
+   "id": "tuno:top_it_radio-24-il-sole-24-ore",
+   "name": "Radio 24 il sole 24 ore",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "http://shoutcast2.radio24.it:8000/;",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "http://shoutcast2.radio24.it:8000/;"
+   ],
+   "website": "https://www.radio24.ilsole24ore.com/"
+  },
+  {
+   "id": "tuno:top_it_rtl-102-5",
+   "name": "RTL 102.5",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/WjpMtPyNjHwj/playlist_audio.m3u8",
+    "format": "hls"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/WjpMtPyNjHwj/playlist_audio.m3u8",
+    "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_audio.m3u8"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_audio.m3u8",
+     "format": "hls"
+    }
+   ],
+   "website": "https://www.rtl.it/"
+  },
+  {
+   "id": "tuno:top_it_italian-radio-only-romantic-italian-music-rome",
+   "name": "ITALIAN RADIO - Only (romantic) Italian Music Rome",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://italianradio.streamingmedia.it/play",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://italianradio.streamingmedia.it/play"
+   ],
+   "website": "http://italian.radio/"
+  },
+  {
+   "id": "tuno:top_it_radio-antenna-1-roma",
+   "name": "Radio Antenna 1 Roma",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://a1-it.newradio.it/stream3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://a1-it.newradio.it/stream3"
+   ]
+  },
+  {
+   "id": "tuno:top_it_italia-dance-music-radio",
+   "name": "Italia Dance Music Radio",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://sr2.inmystream.it:18032/stream",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://sr2.inmystream.it:18032/stream",
+    "http://sr2.inmystream.info:8032/stream",
+    "http://sr2.inmystream.info:8032/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://sr2.inmystream.info:8032/stream",
+     "format": "icecast"
+    },
+    {
+     "url": "http://sr2.inmystream.info:8032/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.italiadancemusic.com/"
+  },
+  {
+   "id": "tuno:top_it_radio-stereocitta",
+   "name": "Radio Stereocittà",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://geminione.it/proxy/stereocitta/stream",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://geminione.it/proxy/stereocitta/stream",
+    "http://onair11.xdevel.com:8134/;stream.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://onair11.xdevel.com:8134/;stream.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.stereocitta.it/"
+  },
+  {
+   "id": "tuno:top_it_radio-armisa",
+   "name": "Radio Armisa",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://onair.armisa.it/listen/armisa/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://onair.armisa.it/listen/armisa/radio.mp3"
+   ],
+   "website": "https://armisa.it/"
+  },
+  {
+   "id": "tuno:top_it_radio-60-70-80",
+   "name": "Radio 60 70 80",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://ice.studiopiu.net/607080.aac",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://ice.studiopiu.net/607080.aac"
+   ]
+  },
+  {
+   "id": "tuno:top_it_radio-popolare",
+   "name": "Radio Popolare",
+   "type": "radio",
+   "country": "IT",
+   "category": "music",
+   "stream": {
+    "url": "https://livex.radiopopolare.it/radiopop2",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://livex.radiopopolare.it/radiopop2",
+    "http://livex.radiopopolare.it/radiopop"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://livex.radiopopolare.it/radiopop",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radiopopolare.it/"
+  }
+ ]
+}

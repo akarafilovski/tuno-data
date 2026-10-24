@@ -1,0 +1,166 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_bz_krem-radio",
+   "name": "KREM Radio",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "http://159.65.32.199:8016/stream",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://159.65.32.199:8016/stream",
+    "http://159.65.32.199:8016/;"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://159.65.32.199:8016/;",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.krembz.com/"
+  },
+  {
+   "id": "tuno:top_bz_love-fm-belize",
+   "name": "Love FM Belize",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.voscast.com:10243/lovefm",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://s1.voscast.com:10243/lovefm"
+   ]
+  },
+  {
+   "id": "tuno:top_bz_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_bz_https-stream-svobodnoe-media-freemp3",
+   "name": "https://stream.svobodnoe.media/freemp3",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.svobodnoe.media/freemp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stream.svobodnoe.media/freemp3"
+   ],
+   "website": "https://stream.svobodnoe.media/freemp3"
+  },
+  {
+   "id": "tuno:top_bz_east-radio-104-9-fm",
+   "name": "East Radio 104.9 FM",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://s1.voscast.com:11401/eastradio",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://s1.voscast.com:11401/eastradio"
+   ]
+  },
+  {
+   "id": "tuno:top_bz_riddim-radio",
+   "name": "Riddim Radio",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://embed.tawk.to/_s/v4/assets/audio/chat_sound.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://embed.tawk.to/_s/v4/assets/audio/chat_sound.mp3",
+    "https://stream.zeno.fm/nw7xmuzasyduv"
+   ],
+   "website": "https://riddimradio.com/"
+  },
+  {
+   "id": "tuno:top_bz_radio-vision-belize",
+   "name": "Radio Vision Belize",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://sonic.portalstreaming.com:8054/stream",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://sonic.portalstreaming.com:8054/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bz_flex-studio-radio-tv",
+   "name": "Flex Studio Radio & Tv",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://streaming01.radiosenlinea.com.ar/8110/stream",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://streaming01.radiosenlinea.com.ar/8110/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_bz_antenna-web-belmopan",
+   "name": "Antenna Web Belmopan",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Belmopan",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Belmopan"
+   ]
+  },
+  {
+   "id": "tuno:top_bz_my-refuge-christian-radio-93-7fm-100-5fm",
+   "name": "My Refuge Christian Radio 93.7FM & 100.5FM",
+   "type": "radio",
+   "country": "BZ",
+   "category": "music",
+   "stream": {
+    "url": "https://xstreamer.galcom.org:8443/MyRefugeChristianRadio",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://xstreamer.galcom.org:8443/MyRefugeChristianRadio"
+   ]
+  }
+ ]
+}

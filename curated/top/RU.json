@@ -1,0 +1,553 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ru_fm",
+   "name": "Ретро FM",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://retroserver.streamr.ru:8043/retro256.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://retroserver.streamr.ru:8043/retro256.mp3",
+    "http://retro90.hostingradio.ru:8025/retro90-128.mp3",
+    "http://retro70.hostingradio.ru:8025/retro70-128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://retro90.hostingradio.ru:8025/retro90-128.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://retro70.hostingradio.ru:8025/retro70-128.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://retrofm.ru/"
+  },
+  {
+   "id": "tuno:top_ru_vesti-fm",
+   "name": "Вести ФМ (Vesti FM)",
+   "type": "radio",
+   "country": "RU",
+   "category": "talk",
+   "stream": {
+    "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
+    "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_64kbps",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radiovesti.ru/"
+  },
+  {
+   "id": "tuno:top_ru_dfm-90",
+   "name": "DFM Дискач 90-х",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://dfm-disc90.hostingradio.ru/disc9096.aacp",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://dfm-disc90.hostingradio.ru/disc9096.aacp"
+   ],
+   "website": "https://dfm.ru/"
+  },
+  {
+   "id": "tuno:top_ru_radio-record-russian-mix",
+   "name": "Radio Record - Russian Mix",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://radiorecord.hostingradio.ru/rus96.aacp",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://radiorecord.hostingradio.ru/rus96.aacp"
+   ],
+   "website": "https://www.radiorecord.ru/station/rus"
+  },
+  {
+   "id": "tuno:top_ru_station",
+   "name": "Дорожное радио",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://dorognoe.hostingradio.ru:8000/radio",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://dorognoe.hostingradio.ru:8000/radio"
+   ],
+   "website": "https://dorognoe.ru/?region=piter"
+  },
+  {
+   "id": "tuno:top_ru_station_6",
+   "name": "Шансон Радио",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://chanson.hostingradio.ru:8041/chanson-uncensored256.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://chanson.hostingradio.ru:8041/chanson-uncensored256.mp3"
+   ],
+   "website": "http://radioshanson.fm/"
+  },
+  {
+   "id": "tuno:top_ru_station_7",
+   "name": "Наше Радио",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://nashe.streamr.ru/nashe-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "http://nashe.streamr.ru/nashe-128.mp3",
+    "https://cdn.mave.digital/storage/podcasts/b8c443fa-3ebf-46ed-924e-d56cdd12e25c/episodes/9a4e4341-9e6f-4847-82be-6f91bfcb310b.mp3?v=1792057570518"
+   ],
+   "website": "https://www.nashe.ru/"
+  },
+  {
+   "id": "tuno:top_ru_europa-plus",
+   "name": "Europa Plus",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://ep256.hostingradio.ru:8052/europaplus256.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://ep256.hostingradio.ru:8052/europaplus256.mp3",
+    "https://6436d7d1-1d32-4f79-99e8-48c8dabf7c6b.selstorage.ru/video/e08433b923487eb2d6da11fe5c8b6623.mp4"
+   ],
+   "website": "http://www.europaplus.ru/"
+  },
+  {
+   "id": "tuno:top_ru_radio-caprice-classical-piano",
+   "name": "Radio Caprice - Classical Piano",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://79.120.39.202:8002/classpiano",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://79.120.39.202:8002/classpiano",
+    "http://79.120.39.202:9069/;"
+   ],
+   "website": "http://radcap.ru/classicalpiano.html"
+  },
+  {
+   "id": "tuno:top_ru_rock-fm",
+   "name": "ROCK FM",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://nashe1.hostingradio.ru/rock-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://nashe1.hostingradio.ru/rock-128.mp3"
+   ],
+   "website": "http://www.rockfm.ru/"
+  },
+  {
+   "id": "tuno:top_ru_station_11",
+   "name": "РАДИО ВАНЯ",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast-radiovanya.cdnvideo.ru/radiovanya",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://icecast-radiovanya.cdnvideo.ru/radiovanya"
+   ],
+   "website": "http://www.radiovanya.ru/"
+  },
+  {
+   "id": "tuno:top_ru_station_12",
+   "name": "Радио Русские Песни",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://listen.rusongs.ru/ru-mp3-128",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://listen.rusongs.ru/ru-mp3-128"
+   ],
+   "website": "http://rusongs.ru/"
+  },
+  {
+   "id": "tuno:top_ru_station_13",
+   "name": "Европа плюс",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://ep128server.streamr.ru:8030/ep128",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "http://ep128server.streamr.ru:8030/ep128"
+   ],
+   "website": "https://radiomap.eu/ru/blagoveshchensk"
+  },
+  {
+   "id": "tuno:top_ru_radio-mayak",
+   "name": "Радио Маяк (Radio Mayak)",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps"
+   ],
+   "website": "http://www.radiomayak.ru/"
+  },
+  {
+   "id": "tuno:top_ru_station_15",
+   "name": "Радио «Комсомольская Правда» | КП Россия",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://kpradio.hostingradio.ru:8000/russia.radiokp128.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "http://kpradio.hostingradio.ru:8000/russia.radiokp128.mp3"
+   ],
+   "website": "https://www.kp.ru/radio"
+  },
+  {
+   "id": "tuno:top_ru_russian-rock",
+   "name": "Русский Рок - Russian Rock",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://retro.volna.top/Retro",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "http://retro.volna.top/Retro"
+   ],
+   "website": "https://rusrock.volna.top/"
+  },
+  {
+   "id": "tuno:top_ru_station_17",
+   "name": "Русское Радио",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://rusradio.hostingradio.ru/rusradio96.aacp",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://rusradio.hostingradio.ru/rusradio96.aacp",
+    "https://rusradio.hostingradio.ru/rusradio128.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://rusradio.hostingradio.ru/rusradio128.mp3",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_ru_station_18",
+   "name": "Спокойное радио",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://listen9.myradio24.com/6262",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://listen9.myradio24.com/6262"
+   ],
+   "website": "http://spokoinoeradio.ru/"
+  },
+  {
+   "id": "tuno:top_ru_7",
+   "name": "Радио 7 на семи холмах",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://radio7server.streamr.ru:8040/radio7256.mp3",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://radio7server.streamr.ru:8040/radio7256.mp3"
+   ],
+   "website": "http://radio7.ru/"
+  },
+  {
+   "id": "tuno:top_ru_radio-ultra",
+   "name": "Radio Ultra",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://nashe1.hostingradio.ru/ultra-192.mp3",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://nashe1.hostingradio.ru/ultra-192.mp3",
+    "http://nashe1.hostingradio.ru/ultra-256"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://nashe1.hostingradio.ru/ultra-256",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioultra.ru/"
+  },
+  {
+   "id": "tuno:top_ru_station_21",
+   "name": "Радио Книга",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://bookradio.hostingradio.ru:8069/fm",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "http://bookradio.hostingradio.ru:8069/fm",
+    "http://radio.livenet.labs.moscow/mediametrics"
+   ],
+   "website": "https://radiokniga.com/"
+  },
+  {
+   "id": "tuno:top_ru_anon-fm",
+   "name": "Anon.FM",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://icecast.anon.fm/radio",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://icecast.anon.fm/radio"
+   ],
+   "website": "https://anon.radio.fm/"
+  },
+  {
+   "id": "tuno:top_ru_maximum",
+   "name": "Радио Maximum",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://maximum.hostingradio.ru/maximum128.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://maximum.hostingradio.ru/maximum128.mp3",
+    "https://maximum.hostingradio.ru/maximum96.aacp"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://maximum.hostingradio.ru/maximum96.aacp",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://maximum.ru/"
+  },
+  {
+   "id": "tuno:top_ru_discovertranceradio-mp3-hq-stereo-192kbit-s",
+   "name": "DiscoverTranceRadio (MP3 HQ stereo 192kBit/s)",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://node-2.promo-cloud.com:8006//",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "http://node-2.promo-cloud.com:8006//"
+   ],
+   "website": "http://www.discovertrance.com/"
+  },
+  {
+   "id": "tuno:top_ru_live",
+   "name": "Соловьёв LIVE",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://solovievfm.hostingradio.ru/solovievfm128.aacp",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://solovievfm.hostingradio.ru/solovievfm128.aacp",
+    "https://solovievfm.hostingradio.ru/solovievfm32.aacp",
+    "http://rfe04.akacast.akamaistream.net/7/509/437762/v1/ibb.akacast.akamaistream.net/rfe04.m3u"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://solovievfm.hostingradio.ru/solovievfm32.aacp",
+     "format": "icecast"
+    },
+    {
+     "url": "http://rfe04.akacast.akamaistream.net/7/509/437762/v1/ibb.akacast.akamaistream.net/rfe04.m3u",
+     "format": "hls"
+    }
+   ],
+   "website": "http://soloviev.live/"
+  },
+  {
+   "id": "tuno:top_ru_kommersant-fm-93-6-moscow",
+   "name": "комерсант (Kommersant FM) 93.6 Moscow",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://hls-01-kommersant.hostingradio.ru/rewind/17/playlist.m3u8?client_id=3fced15c35e461dbe2e78e6fda7b88bc",
+    "format": "hls"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://hls-01-kommersant.hostingradio.ru/rewind/17/playlist.m3u8?client_id=3fced15c35e461dbe2e78e6fda7b88bc",
+    "http://kommersant77.hostingradio.ru:8016/kommersant64.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://kommersant77.hostingradio.ru:8016/kommersant64.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.kommersant.ru/fm"
+  },
+  {
+   "id": "tuno:top_ru_mixadance-fm",
+   "name": "Mixadance FM",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.mixadance.fm/mixadance",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream.mixadance.fm/mixadance"
+   ],
+   "website": "http://www.mixadance.fm/"
+  },
+  {
+   "id": "tuno:top_ru_station_28",
+   "name": "Говорит Москва",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "http://media.govoritmoskva.ru:8880/ru64.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://media.govoritmoskva.ru:8880/ru64.mp3",
+    "https://media.govoritmoskva.ru/radio/ru64.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://media.govoritmoskva.ru/radio/ru64.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://govoritmoskva.ru/"
+  },
+  {
+   "id": "tuno:top_ru_station_29",
+   "name": "Маруся ФМ",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://radio-holding.ru:9433/marusya_default",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://radio-holding.ru:9433/marusya_default"
+   ],
+   "website": "https://top-radio.ru/web/marusya-fm"
+  },
+  {
+   "id": "tuno:top_ru_instrumental-jazz",
+   "name": "Instrumental Jazz",
+   "type": "radio",
+   "country": "RU",
+   "category": "music",
+   "stream": {
+    "url": "https://jfm1.hostingradio.ru:14536/ijstream.mp3",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://jfm1.hostingradio.ru:14536/ijstream.mp3"
+   ],
+   "website": "https://radiojazzfm.ru/"
+  }
+ ]
+}

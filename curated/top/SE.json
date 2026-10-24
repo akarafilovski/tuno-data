@@ -1,0 +1,408 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_se_mix-megapol",
+   "name": "Mix Megapol",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerse-fm.sharp-stream.com/mixmegapol_instream_se_mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://live-bauerse-fm.sharp-stream.com/mixmegapol_instream_se_mp3",
+    "https://live-bauerse-fm.sharp-stream.com/mixmegapol_instream_se_aacp"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live-bauerse-fm.sharp-stream.com/mixmegapol_instream_se_aacp",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.mixmegapol.se/"
+  },
+  {
+   "id": "tuno:top_se_rockklassiker",
+   "name": "Rockklassiker",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerse-fm.sharp-stream.com/rockklassiker_instream_se_aacp",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://live-bauerse-fm.sharp-stream.com/rockklassiker_instream_se_aacp"
+   ]
+  },
+  {
+   "id": "tuno:top_se_sveriges-radio-p3",
+   "name": "Sveriges Radio - P3",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://live1.sr.se/p3-mp3-96",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://live1.sr.se/p3-mp3-96",
+    "https://edge1.sr.se/p3-aac-320",
+    "https://live1.sr.se/p3-aac-320"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://edge1.sr.se/p3-aac-320",
+     "format": "icecast"
+    },
+    {
+     "url": "https://live1.sr.se/p3-aac-320",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://sverigesradio.se/p3"
+  },
+  {
+   "id": "tuno:top_se_country-rocks-radio",
+   "name": "Country Rocks Radio",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.dbmedia.se/crr96",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "http://stream.dbmedia.se/crr96",
+    "http://stream.dbmedia.se/crrMP3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.dbmedia.se/crrMP3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.countryrocksradio.com/"
+  },
+  {
+   "id": "tuno:top_se_pirate-rock",
+   "name": "Pirate Rock",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.piraterock.se:8100/webradio",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://stream.piraterock.se:8100/webradio"
+   ]
+  },
+  {
+   "id": "tuno:top_se_nrj",
+   "name": "NRJ",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerse-fm.sharp-stream.com/nrj_instreamtest_se_aacp",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://live-bauerse-fm.sharp-stream.com/nrj_instreamtest_se_aacp"
+   ]
+  },
+  {
+   "id": "tuno:top_se_dagnys-jukebox-uddevalla",
+   "name": "Dagnys Jukebox Uddevalla",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.dagnysjukebox.se/dagny",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.dagnysjukebox.se/dagny"
+   ],
+   "website": "https://www.dagnysjukebox.se/"
+  },
+  {
+   "id": "tuno:top_se_scenesat-radio",
+   "name": "SceneSat Radio",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.scenesat.com/main/hq.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://streams.scenesat.com/main/hq.mp3",
+    "https://streams.scenesat.com/main/mobile.aac",
+    "https://scenesat.com/live/main.m3u",
+    "https://sj-1.scenesat.com/scenesatmax"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://streams.scenesat.com/main/mobile.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://scenesat.com/"
+  },
+  {
+   "id": "tuno:top_se_nrj-sweden",
+   "name": "NRJ Sweden",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "http://tx-bauerse.sharp-stream.com/http_live.php?i=nrj_instreamtest_se_mp3",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://tx-bauerse.sharp-stream.com/http_live.php?i=nrj_instreamtest_se_mp3"
+   ],
+   "website": "http://www.nrj.se/"
+  },
+  {
+   "id": "tuno:top_se_pirate-rock-vastkustens-basta-rock",
+   "name": "Pirate Rock  Västkustens bästa rock",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.piraterock.se:8101/webradio",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "http://stream.piraterock.se:8101/webradio"
+   ],
+   "website": "https://piraterock.se/"
+  },
+  {
+   "id": "tuno:top_se_retro-fm-skane",
+   "name": "Retro FM Skåne",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerse-fm.sharp-stream.com/retrofm_aacp?ua=WEB&aw_0_1st.playerid=SBS_RP_WEB&aw_0_1st.skey=1575715192&companionAds=true&listenerId=@@GUID@@",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://live-bauerse-fm.sharp-stream.com/retrofm_aacp?ua=WEB&aw_0_1st.playerid=SBS_RP_WEB&aw_0_1st.skey=1575715192&companionAds=true&listenerId=@@GUID@@"
+   ],
+   "website": "http://www.retrofm.se/"
+  },
+  {
+   "id": "tuno:top_se_guldkanalen-helsingborg",
+   "name": "Guldkanalen Helsingborg",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.dbmedia.se/gkhbg96",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "http://stream.dbmedia.se/gkhbg96"
+   ],
+   "website": "http://www.guldkanalen.se/"
+  },
+  {
+   "id": "tuno:top_se_distfm",
+   "name": "DistFM",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://ams1.reliastream.com/proxy/distfmsam192?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://ams1.reliastream.com/proxy/distfmsam192?mp=/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_se_106",
+   "name": "106",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "http://tx-bauerse.sharp-stream.com/http_live.php?ua=WEB&i=rockklassiker_instream_se_mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "http://tx-bauerse.sharp-stream.com/http_live.php?ua=WEB&i=rockklassiker_instream_se_mp3"
+   ],
+   "website": "http://www.rockklassiker.se/"
+  },
+  {
+   "id": "tuno:top_se_sr-p1",
+   "name": "SR P1",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://ljud1-cdn.sr.se/lc/p1.m3u8",
+    "format": "hls"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://ljud1-cdn.sr.se/lc/p1.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_se_svensk-pop",
+   "name": "Svensk Pop",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://live-bauerse-fm.sharp-stream.com/svenskpop_se_aacp",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://live-bauerse-fm.sharp-stream.com/svenskpop_se_aacp"
+   ]
+  },
+  {
+   "id": "tuno:top_se_radio-gbg-sevdah",
+   "name": "Radio Gbg SEVDAH",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiogbg.se:8050/relay4",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://stream.radiogbg.se:8050/relay4"
+   ],
+   "website": "https://radiogbg.se/"
+  },
+  {
+   "id": "tuno:top_se_sveriges-radio-p4-goteborg",
+   "name": "Sveriges Radio P4 Göteborg",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://live1.sr.se/p4gbg-aac-320",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://live1.sr.se/p4gbg-aac-320"
+   ],
+   "website": "https://www.sverigesradio/p4goteborg"
+  },
+  {
+   "id": "tuno:top_se_svensk-folkmusik-akka-radio",
+   "name": "Svensk Folkmusik - AkkA radio",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "http://mediaserv38.live-streams.nl:8107/stream",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "http://mediaserv38.live-streams.nl:8107/stream"
+   ],
+   "website": "http://www.svenskfolkmusik.nu/"
+  },
+  {
+   "id": "tuno:top_se_sdx-synthetic-experience-ebm",
+   "name": "SDX synthetic experience - EBM",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "http://radio.dawnshadow.se:8000/stream",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://radio.dawnshadow.se:8000/stream"
+   ],
+   "website": "http://radio.dawnshadow.se/sdxradio.html"
+  },
+  {
+   "id": "tuno:top_se_pop-rock",
+   "name": "Pop & Rock",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://sstream.ueteknik.se/listen/poporock/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://sstream.ueteknik.se/listen/poporock/radio.mp3",
+    "http://62.101.46.15:8000/poporock"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://62.101.46.15:8000/poporock",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.poporock.se/"
+  },
+  {
+   "id": "tuno:top_se_polushon",
+   "name": "Polushon",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://whsh4u-clients.com:18323/proxy/ndhfnbqx?mp=/stream",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://whsh4u-clients.com:18323/proxy/ndhfnbqx?mp=/stream"
+   ],
+   "website": "http://polushon.com/"
+  },
+  {
+   "id": "tuno:top_se_relax-meditation",
+   "name": "Relax & Meditation",
+   "type": "radio",
+   "country": "SE",
+   "category": "music",
+   "stream": {
+    "url": "https://mml1.prostream.se/listen/relax_meditation/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://mml1.prostream.se/listen/relax_meditation/radio.mp3"
+   ],
+   "website": "https://madmix.se/"
+  }
+ ]
+}

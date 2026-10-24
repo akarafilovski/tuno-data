@@ -1,0 +1,546 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_at_kronehit-105-8",
+   "name": "Kronehit 105.8",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://secureonair.krone.at/kronehit1058.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://secureonair.krone.at/kronehit1058.mp3",
+    "http://onair.krone.at/kronehit.mp3",
+    "http://onair-ha1.krone.at/kronehit64.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://onair.krone.at/kronehit.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://onair-ha1.krone.at/kronehit64.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.kronehit.at/"
+  },
+  {
+   "id": "tuno:top_at_radio-u1-tirol-schwaz",
+   "name": "Radio U1 Tirol Schwaz",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.u1-radio.at/",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://live.u1-radio.at/"
+   ],
+   "website": "https://www.u1-radio.at/"
+  },
+  {
+   "id": "tuno:top_at_antenne-steiermark",
+   "name": "Antenne Steiermark",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.antenne.at/as",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://live.antenne.at/as"
+   ],
+   "website": "http://www.antenne.at/"
+  },
+  {
+   "id": "tuno:top_at_1000-electronic-dance-music",
+   "name": "1000-electronic-dance-music",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://1000-electronic-dance-music.stream.laut.fm/1000-electronic-dance-music?t302=2026-10-20_20-27-21&uuid=7af99d4c-13c0-9dd4-8dd5-46033d205022",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://1000-electronic-dance-music.stream.laut.fm/1000-electronic-dance-music?t302=2026-10-20_20-27-21&uuid=7af99d4c-13c0-9dd4-8dd5-46033d205022",
+    "https://stream.laut.fm/1000-electronic-dance-music"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.laut.fm/1000-electronic-dance-music",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://laut.fm/1000-electronic-dance-music"
+  },
+  {
+   "id": "tuno:top_at_austrian-rock-radio",
+   "name": "Austrian Rock Radio",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.antenne.at/arr.aac?rp_source=1&amp;=&amp;&amp;___cb=760115625414095",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://live.antenne.at/arr.aac?rp_source=1&amp;=&amp;&amp;___cb=760115625414095",
+    "https://live.antenne.at/arr"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://live.antenne.at/arr",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.austrianrockradio.at/"
+  },
+  {
+   "id": "tuno:top_at_hitradio-o3",
+   "name": "Hitradio Ö3",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/oe3-q1a",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/oe3-q1a"
+   ]
+  },
+  {
+   "id": "tuno:top_at_orf-radio-burgenland",
+   "name": "ORF Radio Burgenland",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/wie-q2a?player=radiothek_v1&referer=wien.orf.at&userid=5e6b8c6f-6719-41c9-bb5f-4685652dfd13",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/wie-q2a?player=radiothek_v1&referer=wien.orf.at&userid=5e6b8c6f-6719-41c9-bb5f-4685652dfd13",
+    "https://orf-live.ors-shoutcast.at/bgl-q1a",
+    "https://orf-live.ors-shoutcast.at/sbg-q2a"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://orf-live.ors-shoutcast.at/bgl-q1a",
+     "format": "icecast"
+    },
+    {
+     "url": "https://orf-live.ors-shoutcast.at/sbg-q2a",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://wien.orf.at/player"
+  },
+  {
+   "id": "tuno:top_at_radio-88-6",
+   "name": "radio 88.6",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://frontend.streamonkey.net/radio886-onair/stream/aacp?maxvbr=3&amp;aggregator=RadioPlayerDirLQ&amp;rp_source=1&amp;=&amp;&amp;___cb=474358476412586",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://frontend.streamonkey.net/radio886-onair/stream/aacp?maxvbr=3&amp;aggregator=RadioPlayerDirLQ&amp;rp_source=1&amp;=&amp;&amp;___cb=474358476412586",
+    "http://radio886.at/streams/radio_88.6/mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://radio886.at/streams/radio_88.6/mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://radio886.at/"
+  },
+  {
+   "id": "tuno:top_at_volksmusik-pur",
+   "name": "Volksmusik Pur",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/volksmusikpur",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://stream.laut.fm/volksmusikpur"
+   ]
+  },
+  {
+   "id": "tuno:top_at_fm4-orf-hq",
+   "name": "FM4 | ORF | HQ",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/fm4-q2a",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/fm4-q2a"
+   ],
+   "website": "https://fm4.orf.at/"
+  },
+  {
+   "id": "tuno:top_at_radio-u1",
+   "name": "Radio U1",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.u1-radio.at/;stream.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://live.u1-radio.at/;stream.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_at_antenne-vorarlberg-musica-italiana",
+   "name": "Antenne Vorarlberg Musica Italiana",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://web.radio.antennevorarlberg.at/av-lovesongs/stream/mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://web.radio.antennevorarlberg.at/av-lovesongs/stream/mp3"
+   ],
+   "website": "https://www.antennevorarlberg.at/"
+  },
+  {
+   "id": "tuno:top_at_orf-radio-wien",
+   "name": "ORF Radio Wien",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/wie-q1a",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/wie-q1a"
+   ]
+  },
+  {
+   "id": "tuno:top_at_arabella-austropop",
+   "name": "Arabella Austropop",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://edge09.streams.arabella.at/arabella-wien?aggregator=arabella-web&aw_0_req.userConsentV2=",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://edge09.streams.arabella.at/arabella-wien?aggregator=arabella-web&aw_0_req.userConsentV2=",
+    "https://frontend.streams.arabella.at/arabella-relax?aggregator=arabella-playlistfile"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://frontend.streams.arabella.at/arabella-relax?aggregator=arabella-playlistfile",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://arabella.at/"
+  },
+  {
+   "id": "tuno:top_at_orf-radio-steiermark",
+   "name": "ORF Radio Steiermark",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/stm-q1a",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/stm-q1a"
+   ]
+  },
+  {
+   "id": "tuno:top_at_radio-grun-wei",
+   "name": "Radio Grün Weiß",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://live.gruen-weiss.at/rgw.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://live.gruen-weiss.at/rgw.mp3"
+   ],
+   "website": "http://www.gruen-weiss.at/"
+  },
+  {
+   "id": "tuno:top_at_radio-fm4",
+   "name": "Radio FM4",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/fm4-q1a",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/fm4-q1a"
+   ]
+  },
+  {
+   "id": "tuno:top_at_melodie-exklusiv",
+   "name": "Melodie Exklusiv",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://melodie-exklusiv.stream.laut.fm/melodie-exklusiv",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://melodie-exklusiv.stream.laut.fm/melodie-exklusiv"
+   ]
+  },
+  {
+   "id": "tuno:top_at_orf-radio-niederoesterreich",
+   "name": "ORF Radio Niederoesterreich",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/noe-q1a",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/noe-q1a"
+   ]
+  },
+  {
+   "id": "tuno:top_at_life-radio-tirol",
+   "name": "Life Radio Tirol",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.liferadio.tirol/live/mp3-192/onlineradiobox/",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://stream.liferadio.tirol/live/mp3-192/onlineradiobox/",
+    "https://stream.liferadio.at/clrock/mp3-192/stream.liferadio.at/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.liferadio.at/clrock/mp3-192/stream.liferadio.at/",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.liferadio.at/"
+  },
+  {
+   "id": "tuno:top_at_radio-soundportal",
+   "name": "Radio Soundportal",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://rs8.stream24.net/radio-soundportal.mp3",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://rs8.stream24.net/radio-soundportal.mp3",
+    "https://soundportal.at/fileadmin/user_upload/161026chartsteaser.mp3"
+   ],
+   "website": "https://soundportal.at/?type=1"
+  },
+  {
+   "id": "tuno:top_at_orf-hitradio-o3-hq",
+   "name": "ORF Hitradio Ö3 | HQ",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://livechat.orf.at/assets/new_message_sound.mp3",
+    "format": "icecast"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://livechat.orf.at/assets/new_message_sound.mp3",
+    "https://orf-live.ors-shoutcast.at/oe3-q2a"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://orf-live.ors-shoutcast.at/oe3-q2a",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://oe3.orf.at/"
+  },
+  {
+   "id": "tuno:top_at_arabella-wien",
+   "name": "Arabella Wien",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://edge59.streams.arabella.at/arabella-wien",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://edge59.streams.arabella.at/arabella-wien"
+   ]
+  },
+  {
+   "id": "tuno:top_at_bohmisch-mahrische-blasmusik",
+   "name": "Böhmisch-Mährische Blasmusik",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.laut.fm/boehmisch-maehrische-blasmusik",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://stream.laut.fm/boehmisch-maehrische-blasmusik"
+   ]
+  },
+  {
+   "id": "tuno:top_at_euro-dance-xpress",
+   "name": "Euro Dance XPress",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://secureonair.krone.at/eurodance.aac",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://secureonair.krone.at/eurodance.aac"
+   ],
+   "website": "https://www.eurodance.at/"
+  },
+  {
+   "id": "tuno:top_at_lounge-fm-100-austria",
+   "name": "Lounge.FM - 100% Austria",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://s35.derstream.net/digital.mp3?ref=web&listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://s35.derstream.net/digital.mp3?ref=web&listenerid=17532ae57cc567a1c1cb008ba669ebd2&awparams=companionAds%3Atrue",
+    "https://s35.derstream.net/100austria.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://s35.derstream.net/100austria.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.lounge.fm/"
+  },
+  {
+   "id": "tuno:top_at_o1-orf-hq",
+   "name": "Ö1 | ORF | HQ",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/oe1-q2a?player=radiothek_v1&referer=oe1.orf.at&userid=5e6b8c6f-6719-41c9-bb5f-4685652dfd13",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/oe1-q2a?player=radiothek_v1&referer=oe1.orf.at&userid=5e6b8c6f-6719-41c9-bb5f-4685652dfd13"
+   ],
+   "website": "https://oe1.orf.at/"
+  },
+  {
+   "id": "tuno:top_at_radino-mein-kinderradio-wien-103",
+   "name": "Radino - Mein Kinderradio Wien 103",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "http://stream01.zogl.net:8906/stream",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "http://stream01.zogl.net:8906/stream"
+   ],
+   "website": "http://www.meinkinderradio.at/"
+  },
+  {
+   "id": "tuno:top_at_blechradio-1-bohmisch-mahrisch",
+   "name": "Blechradio 1 - böhmisch mährisch",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://streamt.at/radio/8000/blechradio1.mp3",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://streamt.at/radio/8000/blechradio1.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_at_o1",
+   "name": "Ö1",
+   "type": "radio",
+   "country": "AT",
+   "category": "music",
+   "stream": {
+    "url": "https://orf-live.ors-shoutcast.at/oe1-q1a",
+    "format": "icecast"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://orf-live.ors-shoutcast.at/oe1-q1a"
+   ]
+  }
+ ]
+}

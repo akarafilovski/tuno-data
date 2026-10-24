@@ -1,0 +1,700 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ch_radio-swiss-jazz",
+   "name": "Radio Swiss Jazz",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.srg-ssr.ch/m/rsj/mp3_128",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://stream.srg-ssr.ch/m/rsj/mp3_128",
+    "http://stream.srg-ssr.ch/m/rsj/aacp_96",
+    "https://stream.srg-ssr.ch/srgssr/rsj/aac/192",
+    "https://cdne-satr-prd-rsj-hooks.azureedge.net/8832.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.srg-ssr.ch/m/rsj/aacp_96",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.srg-ssr.ch/srgssr/rsj/aac/192",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioswissjazz.ch/"
+  },
+  {
+   "id": "tuno:top_ch_radio-swiss-classic",
+   "name": "Radio Swiss Classic",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.srg-ssr.ch/m/rsc_de/aacp_96",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "http://stream.srg-ssr.ch/m/rsc_de/aacp_96",
+    "http://stream.srg-ssr.ch/m/rsc_it/mp3_128",
+    "http://stream.srg-ssr.ch/srgssr/rsc_de/aac/96",
+    "https://cdne-satr-prd-rsc-hooks.azureedge.net/41879.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.srg-ssr.ch/m/rsc_it/mp3_128",
+     "format": "icecast"
+    },
+    {
+     "url": "http://stream.srg-ssr.ch/srgssr/rsc_de/aac/96",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radioswissclassic.ch/it"
+  },
+  {
+   "id": "tuno:top_ch_radio-swiss-pop",
+   "name": "Radio Swiss Pop",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.srg-ssr.ch/m/rsp/mp3_128",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://stream.srg-ssr.ch/m/rsp/mp3_128",
+    "http://stream.srg-ssr.ch/srgssr/rsp/aac/96",
+    "https://cdne-satr-prd-rsp-hooks.azureedge.net/13179.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.srg-ssr.ch/srgssr/rsp/aac/96",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.radioswisspop.ch/"
+  },
+  {
+   "id": "tuno:top_ch_srf-3-radio",
+   "name": "SRF 3 Radio",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/srf3/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/srf3/master.m3u8",
+    "https://stream.srg-ssr.ch/m/drs3/mp3_128",
+    "https://stream.srg-ssr.ch/m/drs3/aacp_32"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.srg-ssr.ch/m/drs3/mp3_128",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.srg-ssr.ch/m/drs3/aacp_32",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.srf.ch/radio-srf-3"
+  },
+  {
+   "id": "tuno:top_ch_1-fm-deep-house-radio",
+   "name": "1.FM - Deep House Radio",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://strm112.1.fm/highvoltage_mobile_mp3?aw_0_req.gdpr=true",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://strm112.1.fm/highvoltage_mobile_mp3?aw_0_req.gdpr=true",
+    "http://strm112.1.fm/deephouse_mobile_mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://strm112.1.fm/deephouse_mobile_mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.1.fm/"
+  },
+  {
+   "id": "tuno:top_ch_1-fm-absolute-top-40-radio",
+   "name": "1.FM - Absolute TOP 40 Radio",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://strm112.1.fm/top40ballads_mobile_mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://strm112.1.fm/top40ballads_mobile_mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ch_radio-melody",
+   "name": "Radio Melody",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.streambase.ch/rm/mp3-192/chmedia-radio-web/1792520148027_88109498?metaid=1792520147268_73475307",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.streambase.ch/rm/mp3-192/chmedia-radio-web/1792520148027_88109498?metaid=1792520147268_73475307",
+    "https://stream.streambase.ch/rm/mp3-192/onlineradiobox/",
+    "https://chmedia.streamabc.net/79-rm-mp3-192-7754268?sABC=64726ssr%230%23565o8622n9638n515p1pqq82pnq6q099%23zlghare&aw_0_1st.playerid=mytuner&amsparams=playerid:mytuner;skey:1685221374"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.streambase.ch/rm/mp3-192/onlineradiobox/",
+     "format": "icecast"
+    },
+    {
+     "url": "https://chmedia.streamabc.net/79-rm-mp3-192-7754268?sABC=64726ssr%230%23565o8622n9638n515p1pqq82pnq6q099%23zlghare&aw_0_1st.playerid=mytuner&amsparams=playerid:mytuner;skey:1685221374",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiomelody.ch/"
+  },
+  {
+   "id": "tuno:top_ch_vintage-radio",
+   "name": "Vintage Radio",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://vintageradio.ice.infomaniak.ch/vintageradio-high.mp3",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://vintageradio.ice.infomaniak.ch/vintageradio-high.mp3"
+   ],
+   "website": "https://vintageradio.ch/"
+  },
+  {
+   "id": "tuno:top_ch_srf-1-radio",
+   "name": "SRF 1 Radio",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/srf1/variant-96.m3u8",
+    "format": "hls"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/srf1/variant-96.m3u8",
+    "http://stream.srg-ssr.ch/m/drs1/mp3_128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.srg-ssr.ch/m/drs1/mp3_128",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://ww.srf.ch/radio-srf-1"
+  },
+  {
+   "id": "tuno:top_ch_radio-eviva",
+   "name": "Radio Eviva",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.streambase.ch/reviva/mp3-192/onlineradiobox/",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://stream.streambase.ch/reviva/mp3-192/onlineradiobox/"
+   ]
+  },
+  {
+   "id": "tuno:top_ch_traxx-fm-tech-minimal",
+   "name": "Traxx FM - Tech Minimal",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "http://traxx020.ice.infomaniak.ch/traxx020-low.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "http://traxx020.ice.infomaniak.ch/traxx020-low.mp3"
+   ],
+   "website": "http://www.traxx.fm/"
+  },
+  {
+   "id": "tuno:top_ch_electro-radio",
+   "name": "Electro Radio",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.electroradio.fm/192k?icy=https",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://stream.electroradio.fm/192k?icy=https"
+   ]
+  },
+  {
+   "id": "tuno:top_ch_country-radio-switzerland",
+   "name": "Country Radio Switzerland",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://countryradioswitzerland.ice.infomaniak.ch/crs-128.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://countryradioswitzerland.ice.infomaniak.ch/crs-128.mp3",
+    "http://stream.countryradio.ch/crs-64.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.countryradio.ch/crs-64.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.countryradio.ch/"
+  },
+  {
+   "id": "tuno:top_ch_rts-la-premiere",
+   "name": "RTS La Première",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/la-1ere/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/la-1ere/master.m3u8",
+    "http://stream.srg-ssr.ch/m/la-1ere/mp3_128",
+    "https://stream.srg-ssr.ch/m/la-1ere/aacp_96"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.srg-ssr.ch/m/la-1ere/mp3_128",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.srg-ssr.ch/m/la-1ere/aacp_96",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.rts.ch/la-1ere/"
+  },
+  {
+   "id": "tuno:top_ch_radio-zurisee",
+   "name": "Radio Zürisee",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://mp3.radio.ch/radiozuerisee128k",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://mp3.radio.ch/radiozuerisee128k",
+    "https://mp3.radio.ch/radiozuerisee256k"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://mp3.radio.ch/radiozuerisee256k",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radio.ch/"
+  },
+  {
+   "id": "tuno:top_ch_radio-pilatus",
+   "name": "Radio Pilatus",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.streambase.ch/radiopilatus/mp3-192/chmedia-radio-web/1792520172851_59987606?metaid=1792520171983_63178036",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://stream.streambase.ch/radiopilatus/mp3-192/chmedia-radio-web/1792520172851_59987606?metaid=1792520171983_63178036",
+    "https://stream.streambase.ch/radiopilatus/mp3-192/onlineradiobox/",
+    "https://stream.streambase.ch/radiopilatus/mp3-192/chmedia/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.streambase.ch/radiopilatus/mp3-192/onlineradiobox/",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.streambase.ch/radiopilatus/mp3-192/chmedia/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiopilatus.ch/"
+  },
+  {
+   "id": "tuno:top_ch_spoon-radio",
+   "name": "Spoon Radio",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://ic2527.c972.fastserv.com/spoonradio_aacp_96",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://ic2527.c972.fastserv.com/spoonradio_aacp_96",
+    "http://spoonradio.ice.infomaniak.ch/spoonradio-hd.mp3",
+    "https://ic2527.c972.fastserv.com:80/spoonradio_mp3_192"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://spoonradio.ice.infomaniak.ch/spoonradio-hd.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://ic2527.c972.fastserv.com:80/spoonradio_mp3_192",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.spoonradio.com/"
+  },
+  {
+   "id": "tuno:top_ch_energy-zurich",
+   "name": "Energy Zürich",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://energyzuerich.ice.infomaniak.ch/energyzuerich-high.mp3",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://energyzuerich.ice.infomaniak.ch/energyzuerich-high.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_ch_true-house",
+   "name": "True House",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.truehouse.net:8443/chill",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://stream.truehouse.net:8443/chill",
+    "http://stream.truehouse.net:8000/house"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.truehouse.net:8000/house",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.truehouse.net/"
+  },
+  {
+   "id": "tuno:top_ch_energy-zurich-nrj",
+   "name": "Energy Zürich (NRJ)",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://energyzuerich.ice.infomaniak.ch/energyzuerich-high.mp3?ua=energy%2Bwebsite%2Bmetadata%2Bonly",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "https://energyzuerich.ice.infomaniak.ch/energyzuerich-high.mp3?ua=energy%2Bwebsite%2Bmetadata%2Bonly",
+    "http://broadcast.infomaniak.ch/energyzuerich-high.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://broadcast.infomaniak.ch/energyzuerich-high.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://energy.ch/radio/zurich"
+  },
+  {
+   "id": "tuno:top_ch_kontrafunk-aac-64",
+   "name": "Kontrafunk (AAC 64)",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://s5.radio.co/sca4082ebb/low",
+    "format": "icecast"
+   },
+   "rank": 21,
+   "replaces": [
+    "https://s5.radio.co/sca4082ebb/low",
+    "https://stream.kontrafunk.radio/listen/kontrafunk/radio.mp3",
+    "https://s5.radio.co/sca4082ebb/listen",
+    "https://kontrafunk.radio/images/dpwebdav/media/news/news19/news.mp3?v=2026-20-10-20-05"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.kontrafunk.radio/listen/kontrafunk/radio.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "https://s5.radio.co/sca4082ebb/listen",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://kontrafunk.radio/de/"
+  },
+  {
+   "id": "tuno:top_ch_srf-radio-musikwelle",
+   "name": "SRF Radio Musikwelle",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/srfmw/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 22,
+   "replaces": [
+    "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/srfmw/master.m3u8"
+   ]
+  },
+  {
+   "id": "tuno:top_ch_one-fm",
+   "name": "One FM",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://onefm.ice.infomaniak.ch/onefm-high.mp3",
+    "format": "icecast"
+   },
+   "rank": 23,
+   "replaces": [
+    "https://onefm.ice.infomaniak.ch/onefm-high.mp3",
+    "https://onefm.ice.infomaniak.ch/onefm-high.aac"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://onefm.ice.infomaniak.ch/onefm-high.aac",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.onefm.ch/"
+  },
+  {
+   "id": "tuno:top_ch_radio-argovia",
+   "name": "Radio Argovia",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.streambase.ch/argovia/mp3-192/chmedia-radio-web/1792520212438_74723746?metaid=1792520211558_93113062",
+    "format": "icecast"
+   },
+   "rank": 24,
+   "replaces": [
+    "https://stream.streambase.ch/argovia/mp3-192/chmedia-radio-web/1792520212438_74723746?metaid=1792520211558_93113062",
+    "https://stream.streambase.ch/argovia/mp3-192/onlineradiobox/",
+    "https://stream.streambase.ch/argovia/mp3-192/direct/"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.streambase.ch/argovia/mp3-192/onlineradiobox/",
+     "format": "icecast"
+    },
+    {
+     "url": "https://stream.streambase.ch/argovia/mp3-192/direct/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.argovia.ch/"
+  },
+  {
+   "id": "tuno:top_ch_gds-fm",
+   "name": "GDS.FM",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://live.gds.fm/main.mp3",
+    "format": "icecast"
+   },
+   "rank": 25,
+   "replaces": [
+    "https://live.gds.fm/main.mp3",
+    "http://gdsfm.out.airtime.pro:8000/gdsfm_a"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://gdsfm.out.airtime.pro:8000/gdsfm_a",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.gds.fm/"
+  },
+  {
+   "id": "tuno:top_ch_electroradio-fm",
+   "name": "electroradio.fm",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://n03.radiojar.com/fkyxx4q35k0uv?rj-ttl=5&rj-tok=AAABoVqRDtcAVK-S6ZbXb8zNMA",
+    "format": "icecast"
+   },
+   "rank": 26,
+   "replaces": [
+    "https://n03.radiojar.com/fkyxx4q35k0uv?rj-ttl=5&rj-tok=AAABoVqRDtcAVK-S6ZbXb8zNMA",
+    "http://n05.radiojar.com/fkyxx4q35k0uv"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://n05.radiojar.com/fkyxx4q35k0uv",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://electroradio.fm/"
+  },
+  {
+   "id": "tuno:top_ch_flashback-fm",
+   "name": "FLASHBACK FM",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.streambase.ch/ffm/mp3-192/chmedia-radio-web/1792520223731_61339753?metaid=1792520222853_48144948",
+    "format": "icecast"
+   },
+   "rank": 27,
+   "replaces": [
+    "https://stream.streambase.ch/ffm/mp3-192/chmedia-radio-web/1792520223731_61339753?metaid=1792520222853_48144948",
+    "https://stream.streambase.ch/ffm/mp3-192/onlineradiobox/",
+    "https://flashback.streambase.ch/001"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.streambase.ch/ffm/mp3-192/onlineradiobox/",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.flashbackfm.ch/"
+  },
+  {
+   "id": "tuno:top_ch_80s-forever-we-keep-the-80s-alive",
+   "name": "80s Forever - We Keep The 80s Alive",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.ssl-stream.com/listen/80s_forever/256.mp3",
+    "format": "icecast"
+   },
+   "rank": 28,
+   "replaces": [
+    "https://s2.ssl-stream.com/listen/80s_forever/256.mp3",
+    "https://premium.shoutcastsolutions.com/radio/8050/256.mp3",
+    "http://azuracast.ssl-stream.com/radio/8050/256.mp3"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://premium.shoutcastsolutions.com/radio/8050/256.mp3",
+     "format": "icecast"
+    },
+    {
+     "url": "http://azuracast.ssl-stream.com/radio/8050/256.mp3",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.80sforever.radio/"
+  },
+  {
+   "id": "tuno:top_ch_radio-fm1",
+   "name": "Radio FM1",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.streambase.ch/radiofm1/mp3-192/chmedia-radio-web/1792520251276_10028978?metaid=1792520250516_82309565",
+    "format": "icecast"
+   },
+   "rank": 29,
+   "replaces": [
+    "https://stream.streambase.ch/radiofm1/mp3-192/chmedia-radio-web/1792520251276_10028978?metaid=1792520250516_82309565",
+    "https://stream.streambase.ch/radiofm1/mp3-192/onlineradiobox/",
+    "https://chmedia.streamabc.net/79-fm1-mp3-192-7523806?sABC=6499oos8%230%230016or1p1r381r4485n244q3016qs660%23qverpg&aw_0_1st.playerid=direct&amsparams=playerid:direct;skey:1687796728"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://stream.streambase.ch/radiofm1/mp3-192/onlineradiobox/",
+     "format": "icecast"
+    },
+    {
+     "url": "https://chmedia.streamabc.net/79-fm1-mp3-192-7523806?sABC=6499oos8%230%230016or1p1r381r4485n244q3016qs660%23qverpg&aw_0_1st.playerid=direct&amsparams=playerid:direct;skey:1687796728",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://www.radiofm1.ch/"
+  },
+  {
+   "id": "tuno:top_ch_rts-couleur-3",
+   "name": "RTS Couleur 3",
+   "type": "radio",
+   "country": "CH",
+   "category": "music",
+   "stream": {
+    "url": "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/couleur3/master.m3u8",
+    "format": "hls"
+   },
+   "rank": 30,
+   "replaces": [
+    "https://stxt-audiostreaming.akamaized.net/hls/live/2117380/couleur3/master.m3u8",
+    "http://stream.srg-ssr.ch/m/couleur3/mp3_128"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "http://stream.srg-ssr.ch/m/couleur3/mp3_128",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.couleur3.ch/"
+  }
+ ]
+}

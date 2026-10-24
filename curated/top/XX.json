@@ -1,0 +1,20 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_xx_mugen-radio",
+   "name": "MUGEN Radio",
+   "type": "radio",
+   "country": "XX",
+   "category": "music",
+   "stream": {
+    "url": "https://mugenradio.com/hls/live.m3u8",
+    "format": "hls"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://mugenradio.com/hls/live.m3u8"
+   ],
+   "website": "https://mugenradio.com/"
+  }
+ ]
+}

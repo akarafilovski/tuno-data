@@ -1,0 +1,43 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_sh_saint-fm",
+   "name": "Saint.FM",
+   "type": "radio",
+   "country": "SH",
+   "category": "music",
+   "stream": {
+    "url": "https://orbit.citrus3.com:2020/stream/saintfmcommunityradio",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://orbit.citrus3.com:2020/stream/saintfmcommunityradio",
+    "https://orbit.citrus3.com:8306/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://orbit.citrus3.com:8306/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "http://www.saint.fm/"
+  },
+  {
+   "id": "tuno:top_sh_radio-jamestown-107-7",
+   "name": "Radio Jamestown 107.7",
+   "type": "radio",
+   "country": "SH",
+   "category": "music",
+   "stream": {
+    "url": "https://orbit.citrus3.com:2020/stream/saintfmcommunityradio/;",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://orbit.citrus3.com:2020/stream/saintfmcommunityradio/;"
+   ],
+   "website": "https://radio.garden/visit/jamestown/9nlHZbxb?hl=pt-BR"
+  }
+ ]
+}

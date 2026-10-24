@@ -1,0 +1,51 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_ki_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "KI",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_ki_radio-kiribati-1440-khz",
+   "name": "Radio Kiribati 1440 kHz",
+   "type": "radio",
+   "country": "KI",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer5.rightclickitservices.com:19790/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://streamer5.rightclickitservices.com:19790/stream"
+   ],
+   "website": "https://en.wikipedia.org/wiki/Radio_Kiribati"
+  },
+  {
+   "id": "tuno:top_ki_antenna-web-kiribati",
+   "name": "Antenna Web Kiribati",
+   "type": "radio",
+   "country": "KI",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/Antenna-Web-Kiribati",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://tinyurl.com/Antenna-Web-Kiribati"
+   ]
+  }
+ ]
+}

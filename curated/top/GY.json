@@ -1,0 +1,327 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_gy_104-1-guyana-lite-fm",
+   "name": "104.1 Guyana Lite FM",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radiojar.com/nh42m158d4duv",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://stream.radiojar.com/nh42m158d4duv",
+    "https://n08.radiojar.com/nh42m158d4duv?rj-ttl=5&rj-tok=AAABlyfWxAgAw4EgJHYs7gEKgA"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://n08.radiojar.com/nh42m158d4duv?rj-ttl=5&rj-tok=AAABlyfWxAgAw4EgJHYs7gEKgA",
+     "format": "icecast"
+    }
+   ]
+  },
+  {
+   "id": "tuno:top_gy_voice-of-guyana",
+   "name": "Voice of Guyana",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://cast4.asurahosting.com/proxy/ncn1025/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://cast4.asurahosting.com/proxy/ncn1025/stream",
+    "https://cast4.my-control-panel.com/proxy/ncn1025/stream"
+   ],
+   "fallbackStreams": [
+    {
+     "url": "https://cast4.my-control-panel.com/proxy/ncn1025/stream",
+     "format": "icecast"
+    }
+   ],
+   "website": "https://ncnguyana.com/2023/vogradio/"
+  },
+  {
+   "id": "tuno:top_gy_ntn-radio",
+   "name": "NTN Radio",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://auds1.intacs.com/ntnradio",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://auds1.intacs.com/ntnradio"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_rock-fm",
+   "name": "Rock FM",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://s2.radio.co/s77716fe53/listen",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://s2.radio.co/s77716fe53/listen"
+   ],
+   "website": "https://885rockfm.com/"
+  },
+  {
+   "id": "tuno:top_gy_hj94-1-boom-fm-georgetown",
+   "name": "HJ94.1 Boom FM Georgetown",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "http://192.99.8.192:3630/stream",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "http://192.99.8.192:3630/stream"
+   ],
+   "website": "http://www.hj941.com/"
+  },
+  {
+   "id": "tuno:top_gy_ntn-radio-89-1-georgetown",
+   "name": "NTN Radio 89.1 Georgetown",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "http://auds1.intacs.com/ntnradio",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "http://auds1.intacs.com/ntnradio"
+   ],
+   "website": "http://ntntv-radio.com/"
+  },
+  {
+   "id": "tuno:top_gy_radio-guyana-inc-georgetown-89-5-fm-essequibo-89-3-fm-berbice-89-7-fm",
+   "name": "Radio Guyana Inc - Georgetown 89.5 FM | Essequibo 89.3 FM | Berbice 89.7 FM",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio.co/s9668e2ab5/listen",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.radio.co/s9668e2ab5/listen"
+   ],
+   "website": "https://rgi89fm.com/"
+  },
+  {
+   "id": "tuno:top_gy_96-1-voice-fm",
+   "name": "96.1 Voice FM",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://s4.radio.co/s75af666f2/listen",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "https://s4.radio.co/s75af666f2/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_radio-guyana-inc",
+   "name": "Radio Guyana Inc.",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.radio.co/s9668e2ab5/listen",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "https://stream.radio.co/s9668e2ab5/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_mix-90-1-fm",
+   "name": "Mix 90.1 FM",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://streams.radiomast.io/aa758625-6c37-4a31-8262-b2bf84bbe17f?referer=onlineradiobox",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://streams.radiomast.io/aa758625-6c37-4a31-8262-b2bf84bbe17f?referer=onlineradiobox"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_gy_bhajans-radio-guyana",
+   "name": "Bhajans Radio Guyana",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://s5.citrus3.com:8148/stream",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://s5.citrus3.com:8148/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_gomoseley-radio",
+   "name": "GoMoseley Radio",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:8010/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 13,
+   "replaces": [
+    "https://a2.asurahosting.com:8010/radio.mp3"
+   ],
+   "website": "https://gomoseleyradio.com/"
+  },
+  {
+   "id": "tuno:top_gy_radio-guyana-international",
+   "name": "Radio Guyana International",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://a6.asurahosting.com:7940/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 14,
+   "replaces": [
+    "https://a6.asurahosting.com:7940/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_n1chwitiweb",
+   "name": "n1chwitiweb",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.chwitiweb.com/listen/chwitiweb/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 15,
+   "replaces": [
+    "https://radio.chwitiweb.com/listen/chwitiweb/radio.mp3"
+   ],
+   "website": "https://radio.chwitiweb.com/"
+  },
+  {
+   "id": "tuno:top_gy_chwitiweb-new",
+   "name": "chwitiweb-new",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.chwitiweb.com/listen/chwitiweb/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 16,
+   "replaces": [
+    "https://radio.chwitiweb.com/listen/chwitiweb/radio.mp3"
+   ],
+   "website": "https://chwitiweb.com/"
+  },
+  {
+   "id": "tuno:top_gy_guyane-1ere",
+   "name": "Guyane 1ère",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://guyane.ice.infomaniak.ch/guyane-128.mp3?",
+    "format": "icecast"
+   },
+   "rank": 17,
+   "replaces": [
+    "https://guyane.ice.infomaniak.ch/guyane-128.mp3?"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_trace-fm",
+   "name": "TRACE FM",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.rcs.revma.com/nxvafk744k0uv",
+    "format": "icecast"
+   },
+   "rank": 18,
+   "replaces": [
+    "https://stream.rcs.revma.com/nxvafk744k0uv"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_thebridgegy",
+   "name": "TheBridgeGY",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "https://streamer.radio.co/s9eb734e01/listen",
+    "format": "icecast"
+   },
+   "rank": 19,
+   "replaces": [
+    "https://streamer.radio.co/s9eb734e01/listen"
+   ]
+  },
+  {
+   "id": "tuno:top_gy_antenna-web-georgetown",
+   "name": "Antenna Web Georgetown",
+   "type": "radio",
+   "country": "GY",
+   "category": "music",
+   "stream": {
+    "url": "http://tinyurl.com/AntennaWebGeorgetown",
+    "format": "icecast"
+   },
+   "rank": 20,
+   "replaces": [
+    "http://tinyurl.com/AntennaWebGeorgetown"
+   ]
+  }
+ ]
+}

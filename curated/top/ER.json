@@ -1,0 +1,98 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_er_eritrean-ethiopian-music",
+   "name": "Eritrean/Ethiopian music",
+   "type": "radio",
+   "country": "ER",
+   "category": "music",
+   "stream": {
+    "url": "https://linuxfreelancer.com:8443/test.mp3",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "https://linuxfreelancer.com:8443/test.mp3"
+   ],
+   "website": "https://linuxfreelancer.com/shoutcast-internet-radio"
+  },
+  {
+   "id": "tuno:top_er_antenna-web-massaua",
+   "name": "Antenna Web Massaua",
+   "type": "radio",
+   "country": "ER",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebEritrea",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebEritrea"
+   ]
+  },
+  {
+   "id": "tuno:top_er_hip-hop",
+   "name": "hip hop",
+   "type": "radio",
+   "country": "ER",
+   "category": "music",
+   "stream": {
+    "url": "http://stream.rtlradio.de/rnb/mp3-192/",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "http://stream.rtlradio.de/rnb/mp3-192/"
+   ],
+   "website": "https://yonaskassahun011.wixsite.com/selamcoffee-1"
+  },
+  {
+   "id": "tuno:top_er_hero-radio-eritrea",
+   "name": "Hero Radio (Eritrea)",
+   "type": "radio",
+   "country": "ER",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/eritrea.mp3",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/eritrea.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_er_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "ER",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_er_eri-tv",
+   "name": "Eri-TV",
+   "type": "radio",
+   "country": "ER",
+   "category": "music",
+   "stream": {
+    "url": "https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8",
+    "format": "hls"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8"
+   ],
+   "website": "https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8"
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "stations": [
+  {
+   "id": "tuno:top_sl_sierra-network-radio",
+   "name": "SIERRA NETWORK RADIO",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "http://45.79.181.148:8004/;",
+    "format": "icecast"
+   },
+   "rank": 1,
+   "replaces": [
+    "http://45.79.181.148:8004/;"
+   ],
+   "website": "https://snradio.net/snradio/"
+  },
+  {
+   "id": "tuno:top_sl_capital-radio",
+   "name": "CAPITAL RADIO",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://global.citrus3.com:8262/stream",
+    "format": "icecast"
+   },
+   "rank": 2,
+   "replaces": [
+    "https://global.citrus3.com:8262/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_abdulbasit-abdulsamad",
+   "name": "Abdulbasit Abdulsamad",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 3,
+   "replaces": [
+    "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3"
+   ],
+   "website": "https://mp3islam.com/"
+  },
+  {
+   "id": "tuno:top_sl_radio-binkongoh",
+   "name": "RADIO BINKONGOH",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://tamkorfai1.radioca.st/stream",
+    "format": "icecast"
+   },
+   "rank": 4,
+   "replaces": [
+    "https://tamkorfai1.radioca.st/stream"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_star-radio-sl",
+   "name": "Star Radio SL",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://radio-streaming.michcom-ix.net/listen/star_radio_fm_103.5/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 5,
+   "replaces": [
+    "https://radio-streaming.michcom-ix.net/listen/star_radio_fm_103.5/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_hero-radio-sierra-leone",
+   "name": "Hero Radio (Sierra Leone)",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://a2.asurahosting.com:6790/sierraleone.mp3",
+    "format": "icecast"
+   },
+   "rank": 6,
+   "replaces": [
+    "https://a2.asurahosting.com:6790/sierraleone.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_fop-radio",
+   "name": "FOP Radio",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://stream.fopradios.top/main",
+    "format": "icecast"
+   },
+   "rank": 7,
+   "replaces": [
+    "https://stream.fopradios.top/main"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_believers-broadcasting-network-sl",
+   "name": "BELIEVERS BROADCASTING NETWORK SL",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "http://45.79.181.148:8008/;",
+    "format": "icecast"
+   },
+   "rank": 8,
+   "replaces": [
+    "http://45.79.181.148:8008/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_radio-maria",
+   "name": "Radio Maria",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "http://dreamsiteradiocp2.com:8056/;",
+    "format": "icecast"
+   },
+   "rank": 9,
+   "replaces": [
+    "http://dreamsiteradiocp2.com:8056/;"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_antenna-web-freetown",
+   "name": "Antenna Web Freetown",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://tinyurl.com/AntennaWebFreetown",
+    "format": "icecast"
+   },
+   "rank": 10,
+   "replaces": [
+    "https://tinyurl.com/AntennaWebFreetown"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_cusl-radio-mile-91",
+   "name": "CUSL RADIO MILE 91",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://radio-streaming.michcom-ix.net/listen/cusl_radio_fm_95.7/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 11,
+   "replaces": [
+    "https://radio-streaming.michcom-ix.net/listen/cusl_radio_fm_95.7/radio.mp3"
+   ]
+  },
+  {
+   "id": "tuno:top_sl_fusionsound-radio",
+   "name": "FusionSound Radio",
+   "type": "radio",
+   "country": "SL",
+   "category": "music",
+   "stream": {
+    "url": "https://radio.fusionsoundradio.com/listen/fusionsoundradio/radio.mp3",
+    "format": "icecast"
+   },
+   "rank": 12,
+   "replaces": [
+    "https://radio.fusionsoundradio.com/listen/fusionsoundradio/radio.mp3"
+   ]
+  }
+ ]
+}
