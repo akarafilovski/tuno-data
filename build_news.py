@@ -14,6 +14,7 @@ Sources, in order of preference (ported from the TUNO server's news scrapers):
   4. time.mk homepage for MK (no RSS exists)
 A country whose sources all fail in a run keeps its previous file.
 """
+import base64
 import hashlib
 import html
 import json
@@ -22,6 +23,8 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
+from urllib.parse import quote, urljoin, urlparse
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -72,6 +75,103 @@ def thumb(item):
     body = (item.findtext('content:encoded', namespaces=NS) or '') + (item.findtext('description') or '')
     m = re.search(r'<img[^>]+src=["\'](https?://[^"\']+)', body)
     return m.group(1) if m else None
+
+
+THUMB_CACHE = os.path.join(ROOT, 'state', 'thumbs.json')
+OG_IMAGE = [
+    re.compile(r"""<meta[^>]+(?:property|name)=["'](?:og:image(?::secure_url)?|twitter:image(?::src)?)["'][^>]*?content=["']([^"']+)""", re.I),
+    re.compile(r"""<meta[^>]+content=["']([^"']+)["'][^>]*?(?:property|name)=["'](?:og:image(?::secure_url)?|twitter:image(?::src)?)["']""", re.I),
+]
+PAGE_UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36', 'Accept-Language': 'en,*;q=0.5'}
+ADDRESS = re.compile(rb'https?://[^\x00-\x20\x7f-\xff"<>]+')
+
+
+def google_target(url):
+    """Older Google News links carry the article address inside the id; newer ones do not (returns None)."""
+    m = re.search(r'/articles/([A-Za-z0-9_-]+)', url)
+    if not m:
+        return None
+    raw = m.group(1)
+    try:
+        data = base64.urlsafe_b64decode(raw + '=' * (-len(raw) % 4))
+    except Exception:
+        return None
+    t = ADDRESS.search(data)
+    return t.group(0).decode('ascii', 'ignore') if t else None
+
+
+def google_resolve(url):
+    """Newer Google News links hide the article address. Google's own page script asks one endpoint for it; so does this."""
+    m = re.search(r'/articles/([A-Za-z0-9_-]+)', url)
+    if not m:
+        return None
+    gid = m.group(1)
+    try:
+        page = requests.get(f'https://news.google.com/articles/{gid}', headers=PAGE_UA, timeout=10).text
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if not sg or not ts:
+            return None
+        inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],'
+                 + json.dumps(gid) + ',' + ts.group(1) + ',' + json.dumps(sg.group(1)) + ']')
+        body = 'f.req=' + quote(json.dumps([[['Fbv4je', inner, None, 'generic']]]))
+        r = requests.post('https://news.google.com/_/DotsSplashUi/data/batchexecute', data=body, timeout=10,
+                          headers={**PAGE_UA, 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'})
+        chunk = r.text.split('\n\n', 1)[1]
+        outer = json.loads(chunk)
+        res = json.loads(outer[0][2])
+        target = res[1]
+        return target if isinstance(target, str) and target.startswith('http') else None
+    except Exception:
+        return None
+
+
+def page_image(url):
+    """The picture an article's own page names (og:image / twitter:image), or None."""
+    try:
+        if 'news.google.com' in url:
+            url = google_target(url) or google_resolve(url)
+            if not url:
+                return None
+        r = requests.get(url, headers=PAGE_UA, timeout=10, stream=True)
+        if r.status_code != 200:
+            return None
+        head = r.raw.read(250000, decode_content=True).decode('utf-8', 'ignore')
+        r.close()
+        for pat in OG_IMAGE:
+            m = pat.search(head)
+            if m:
+                img = urljoin(url, html.unescape(m.group(1)).strip())
+                host = urlparse(img).hostname or ''
+                if img.startswith('http') and not re.search(r'google|gstatic|gravatar', host):
+                    return img
+    except Exception:
+        pass
+    return None
+
+
+def fill_thumbnails(all_items, budget_seconds=480):
+    """Feeds without pictures (Google News, most plain RSS) get the picture from the article page. Answers are kept in
+    state/thumbs.json, so a daily run only fetches the articles it has not seen yet."""
+    try:
+        cache = json.load(open(THUMB_CACHE, encoding='utf-8'))
+    except Exception:
+        cache = {}
+    missing = [i for i in all_items if not i.get('thumbnailUrl') and i['url'] not in cache]
+    start = time.time()
+    with ThreadPoolExecutor(max_workers=16) as pool:
+        futures = [(i['url'], pool.submit(page_image, i['url'])) for i in missing]
+        for url, f in futures:
+            try:
+                cache[url] = f.result(timeout=max(1, budget_seconds - (time.time() - start))) or ''
+            except Exception:
+                pass
+    for i in all_items:
+        if not i.get('thumbnailUrl') and cache.get(i['url']):
+            i['thumbnailUrl'] = cache[i['url']]
+    live = {i['url'] for i in all_items}
+    os.makedirs(os.path.dirname(THUMB_CACHE), exist_ok=True)
+    json.dump({u: t for u, t in cache.items() if u in live}, open(THUMB_CACHE, 'w', encoding='utf-8'), ensure_ascii=False)
 
 
 def parse_rss(data, cc, prefix, source=None, limit=PER_FEED, strip_source_suffix=False):
@@ -218,11 +318,15 @@ def main():
         old = {'countries': []}
     counts = {c['code']: c for c in old.get('countries', [])}
     changed = False
+    built = {}
     for cc in wanted:
         items = build(cc, feeds, editions)
         if not items:
             print(cc, 'no headlines this run, keeping the previous file')
             continue
+        built[cc] = items
+    fill_thumbnails([i for items in built.values() for i in items])
+    for cc, items in built.items():
         text = json.dumps({'headlines': items}, ensure_ascii=False, separators=(',', ':'))
         path = os.path.join(OUT, f'{cc}.json')
         try:
