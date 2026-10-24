@@ -21,7 +21,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.antenazagreb.hr/"
+   "website": "https://www.antenazagreb.hr/",
+   "logoUrl": "https://www.antenazagreb.hr/wp-content/uploads/2018/03/ANTENA-LOGOTIP-2018-color-landscape-2.png"
   },
   {
    "id": "tuno:top_hr_extra-fm",
@@ -49,7 +50,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://extrafm.hr/"
+   "website": "https://extrafm.hr/",
+   "logoUrl": "https://extrafm.hr/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_hr_otvoreni-radio",
@@ -72,7 +74,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://otvoreni.hr/"
+   "website": "https://otvoreni.hr/",
+   "logoUrl": "https://otvoreni.hr/images/share.jpg"
   },
   {
    "id": "tuno:top_hr_radio-dalmacija",
@@ -119,7 +122,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radio-banovina.hr/"
+   "website": "http://www.radio-banovina.hr/",
+   "logoUrl": "https://www.radio-banovina.hr/wp-content/uploads/2015/01/logo-120_00000.png"
   },
   {
    "id": "tuno:top_hr_hr-1-prvi-program",
@@ -135,7 +139,8 @@
    "replaces": [
     "http://25443.live.streamtheworld.com/PROGRAM1AAC_SC"
    ],
-   "website": "https://radio.hrt.hr/"
+   "website": "https://radio.hrt.hr/",
+   "logoUrl": "https://cdn.consent.hr/delivery/img/logo1675453475x1108.gif"
   },
   {
    "id": "tuno:top_hr_radio-kaj",
@@ -174,7 +179,8 @@
    "replaces": [
     "https://stream.yammat.fm/radio/8000/yammat.mp3"
    ],
-   "website": "https://yammat.fm/"
+   "website": "https://yammat.fm/",
+   "logoUrl": "https://yammat.fm/wp-content/uploads/2025/07/favicon.png"
   },
   {
    "id": "tuno:top_hr_radio-bravo",
@@ -219,7 +225,8 @@
     "https://c5.hostingcentar.com/streams/topradio/",
     "http://116.202.235.114:8402/"
    ],
-   "website": "https://topradio.hr/"
+   "website": "https://topradio.hr/",
+   "logoUrl": "https://topradio.hr/wp-content/uploads/2026/02/Top-radio-logotip-sa-sloganom-RGB-UPDATE-11.png"
   },
   {
    "id": "tuno:top_hr_narodni-radio",
@@ -242,7 +249,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://narodni.hr/"
+   "website": "https://narodni.hr/",
+   "logoUrl": "https://balkanradio.cc/media/station_logos/RD.png?v=20261002"
   },
   {
    "id": "tuno:top_hr_happy-fm",
@@ -266,7 +274,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://happyfm.hr/"
+   "website": "https://happyfm.hr/",
+   "logoUrl": "https://happyfm.hr/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_hr_laganini-fm",
@@ -320,7 +329,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radio-stubica.hr/"
+   "website": "https://radio-stubica.hr/",
+   "logoUrl": "https://radio-stubica.hr/wp-content/uploads/2025/12/Radio-stubica-Logo.png"
   },
   {
    "id": "tuno:top_hr_super-radio",
@@ -379,7 +389,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.radioistra.hr/"
+   "website": "https://www.radioistra.hr/",
+   "logoUrl": "https://www.radioistra.hr/templates/rt_phoenix/custom/images/radio-istra-logo-novi-200.png"
   },
   {
    "id": "tuno:top_hr_radio-deejay-hr",
@@ -426,7 +437,8 @@
    "replaces": [
     "http://radio-stream.cmc.com.hr:8050/autodj"
    ],
-   "website": "https://radio.cmc.com.hr/"
+   "website": "https://radio.cmc.com.hr/",
+   "logoUrl": "https://radio.cmc.com.hr/wp-content/uploads/2021/02/CMC-Favicon_400x400-300x300.png"
   },
   {
    "id": "tuno:top_hr_zagorski-radio",
@@ -466,7 +478,8 @@
     "https://live.radio101.hr:9531/radio.mp3",
     "http://live.radio101.hr:9531/"
    ],
-   "website": "http://radio101.hr/"
+   "website": "http://radio101.hr/",
+   "logoUrl": "https://radio101.hr/wp-content/uploads/2025/06/Logo-bijeli-101-265x300-1.png"
   },
   {
    "id": "tuno:top_hr_radio-max",
@@ -519,7 +532,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://clubmusic-1.com/"
+   "website": "https://clubmusic-1.com/",
+   "logoUrl": "https://clubmusic-1.com/wp-content/uploads/2017/12/Logo-za-header-e1515976776641.png"
   },
   {
    "id": "tuno:top_hr_radio-101",
@@ -550,7 +564,8 @@
    "replaces": [
     "http://185.150.235.162:80/;"
    ],
-   "website": "http://www.radiosamobor.hr/"
+   "website": "http://www.radiosamobor.hr/",
+   "logoUrl": "https://www.radiosamobor.hr/cms/wp-content/uploads/2014/04/cropped-apple-touch-icon-144x144-1-180x180.png"
   },
   {
    "id": "tuno:top_hr_radio-sunce",
@@ -573,7 +588,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.uzivoradio.com/sunce-split.html"
+   "website": "http://www.uzivoradio.com/sunce-split.html",
+   "logoUrl": "http://www.uzivoradio.com/thumbnails/fb-thumb.gif"
   },
   {
    "id": "tuno:top_hr_radio-tvornica",
@@ -589,7 +605,8 @@
    "replaces": [
     "https://c8.hostingcentar.com/streams/radiotvornica/?type=http&nocache=27591"
    ],
-   "website": "https://www.radiotvornica.hr/#"
+   "website": "https://www.radiotvornica.hr/#",
+   "logoUrl": "https://www.radiotvornica.hr/images/_theme/mobile-logo.png"
   }
  ]
 }

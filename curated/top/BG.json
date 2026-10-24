@@ -21,7 +21,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://bgradio.net/"
+   "website": "http://bgradio.net/",
+   "logoUrl": "https://www.bgradio.bg/theme_assets/bgradio/images/loader_big.png"
   },
   {
    "id": "tuno:top_bg_extreme-deep-house",
@@ -50,7 +51,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.extremedeephouse.com/"
+   "website": "https://www.extremedeephouse.com/",
+   "logoUrl": "https://static.wixstatic.com/media/99d90b_05ddb50ddc8a43c1862a50661ce80e35~mv2.png/v1/fill/w_407,h_135,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/EDHR_Logo_Horizontal.png"
   },
   {
    "id": "tuno:top_bg_radio-maxx-fm-bulgaria",
@@ -93,7 +95,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://radionova.bg/"
+   "website": "http://radionova.bg/",
+   "logoUrl": "https://radionova.bg/theme_assets/radionova/images/logo.png?v=3"
   },
   {
    "id": "tuno:top_bg_radio-city",
@@ -122,7 +125,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.city.bg/"
+   "website": "https://www.city.bg/",
+   "logoUrl": "https://www.city.bg/theme_assets/city/images/city_logo_load.png"
   },
   {
    "id": "tuno:top_bg_1",
@@ -177,7 +181,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://radio1.bg/"
+   "website": "http://radio1.bg/",
+   "logoUrl": "https://radio1.bg/theme_assets/radio1/images/logo.png?v=3"
   },
   {
    "id": "tuno:top_bg_radio-energy",
@@ -246,7 +251,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://metrocast.top/dance"
+   "website": "https://metrocast.top/dance",
+   "logoUrl": "https://metrocast.top/wp-content/uploads/2021/09/Metrocast-app-share.jpg"
   },
   {
    "id": "tuno:top_bg_hit-fm-bulgaria",
@@ -322,7 +328,8 @@
      "format": "hls"
     }
    ],
-   "website": "https://m.magic.bg/"
+   "website": "https://m.magic.bg/",
+   "logoUrl": "https://www.magic.bg/resources/assets/images/favicon/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_bg_fresh",
@@ -345,7 +352,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://radiofresh.bg/"
+   "website": "http://radiofresh.bg/",
+   "logoUrl": "https://radiofresh.bg/i/radio/dolcevita.png"
   },
   {
    "id": "tuno:top_bg_station_17",
@@ -410,7 +418,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.radioveronika.bg/"
+   "website": "https://www.radioveronika.bg/",
+   "logoUrl": "https://www.radioveronika.bg/theme_assets/radioveronika/images/logo.png?v=3"
   },
   {
    "id": "tuno:top_bg_nova-news",
@@ -438,7 +447,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://nova.bg/radio"
+   "website": "https://nova.bg/radio",
+   "logoUrl": "https://nstatic.nova.bg/files/nova/images/apple-touch-icon.png?v=2026"
   },
   {
    "id": "tuno:top_bg_hot-hits-fm",
@@ -461,7 +471,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://hothitsfm.com/"
+   "website": "https://hothitsfm.com/",
+   "logoUrl": "https://hothitsfm.com/hhfm-290.png"
   },
   {
    "id": "tuno:top_bg_station_22",
@@ -489,7 +500,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.avtoradio.bg/"
+   "website": "https://www.avtoradio.bg/",
+   "logoUrl": "https://www.avtoradio.bg/ar_logo.f88b409f.png"
   },
   {
    "id": "tuno:top_bg_btv-radio",
@@ -550,7 +562,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.katrafm.com/"
+   "website": "http://www.katrafm.com/",
+   "logoUrl": "https://katrafm.com/wp-content/uploads/2025/09/kfm-170x170.webp"
   },
   {
    "id": "tuno:top_bg_radio-maia",
@@ -566,7 +579,8 @@
    "replaces": [
     "https://radio.rn-tv.com:8000/stream/1/"
    ],
-   "website": "https://radiomaia.com/"
+   "website": "https://radiomaia.com/",
+   "logoUrl": "https://radiomaia.com/wp-content/uploads/2015/08/l-1.png"
   },
   {
    "id": "tuno:top_bg_darik-radio",
@@ -604,7 +618,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radioplay.bg/"
+   "website": "https://radioplay.bg/",
+   "logoUrl": "https://www.radioplay.bg/assets/logos/radio1.png?v=2"
   },
   {
    "id": "tuno:top_bg_bnr",
@@ -647,7 +662,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.dancewithme-bg.com/index.html"
+   "website": "http://www.dancewithme-bg.com/index.html",
+   "logoUrl": "https://www.dancewithme-bg.com/images/liveradio/logo.png"
   }
  ]
 }

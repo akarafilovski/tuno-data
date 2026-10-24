@@ -54,7 +54,8 @@
    "replaces": [
     "https://radio.elmag.me/arena.mp3"
    ],
-   "website": "https://www.elmag.me/"
+   "website": "https://www.elmag.me/",
+   "logoUrl": "https://www.elmag.me/wp-content/uploads/2019/03/tqplaza-logo.jpg"
   },
   {
    "id": "tuno:top_me_tdi-crna-gora",
@@ -70,7 +71,8 @@
    "replaces": [
     "https://streaming.tdiradio.com/crnagora.mp3"
    ],
-   "website": "https://tdiradio.com/"
+   "website": "https://tdiradio.com/",
+   "logoUrl": "https://tdiradio.com/wp-content/uploads/2024/05/TDI-crna-Logo_300px.png"
   },
   {
    "id": "tuno:top_me_mag-radio",
@@ -86,7 +88,8 @@
    "replaces": [
     "https://radio.elmag.me/mag.mp3"
    ],
-   "website": "https://www.magradio.me/"
+   "website": "https://www.magradio.me/",
+   "logoUrl": "https://www.magradio.me/wp-content/uploads/2018/02/Elmag-Logo.jpg"
   },
   {
    "id": "tuno:top_me_radio-antena-m",
@@ -102,7 +105,8 @@
    "replaces": [
     "http://radioservis.me:8010/antenamlive"
    ],
-   "website": "http://antenam.net/"
+   "website": "http://antenam.net/",
+   "logoUrl": "https://www.antenam.net/assets/img/favicon/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_me_drs",
@@ -149,7 +153,8 @@
    "replaces": [
     "https://stream.radios.rs:9010/;"
    ],
-   "website": "https://www.radios.rs/"
+   "website": "https://www.radios.rs/",
+   "logoUrl": "https://www.radios.rs/media/PNG%20LOGOS/Novi%20logotipi/500px.png"
   },
   {
    "id": "tuno:top_me_radio-lola",
@@ -195,7 +200,8 @@
    "replaces": [
     "http://bokanews.me:8000/source"
    ],
-   "website": "https://bokanews.me/"
+   "website": "https://bokanews.me/",
+   "logoUrl": "https://bokanews.me/wp-content/uploads/2014/09/Boka-News-Logo-2014.png"
   },
   {
    "id": "tuno:top_me_radio-berane",
@@ -249,7 +255,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://radiogora.org/saraj/"
+   "website": "http://radiogora.org/saraj/",
+   "logoUrl": "http://radiogora.org/wp-content/uploads/2021/01/cropped-radio-gora-fav512-512-180x180.png"
   },
   {
    "id": "tuno:top_me_el-radio",
@@ -311,7 +318,8 @@
    "replaces": [
     "https://malta1491.startdedicated.de:8443/main"
    ],
-   "website": "https://radio-portomontenegro.com/"
+   "website": "https://radio-portomontenegro.com/",
+   "logoUrl": "https://www.radio-portomontenegro.com/wp-content/uploads/2022/11/3000x750_fullradiologo-black-1170x293.png"
   },
   {
    "id": "tuno:top_me_radio-bar",
@@ -349,7 +357,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.playradio.me/"
+   "website": "https://www.playradio.me/",
+   "logoUrl": "https://www.playradio.me/assets/images/playmontenegro_logo.png"
   },
   {
    "id": "tuno:top_me_radio-elita",
@@ -402,7 +411,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radiobijelopolje.me/"
+   "website": "http://www.radiobijelopolje.me/",
+   "logoUrl": "https://radiobijelopolje.me/_next/image?url=%2Flogo-192.png&w=64&q=75"
   },
   {
    "id": "tuno:top_me_bum-radio-podgorica",
@@ -440,7 +450,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.rtvbudva.me/"
+   "website": "https://www.rtvbudva.me/",
+   "logoUrl": "https://www.rtvbudva.me/assets/img/logo/rtvbudva.png"
   },
   {
    "id": "tuno:top_me_radio-herceg-novi",
@@ -471,7 +482,8 @@
    "replaces": [
     "https://stream.iradio.pro/proxy/radiokotor?mp=/stream"
    ],
-   "website": "https://radiokotor.info/"
+   "website": "https://radiokotor.info/",
+   "logoUrl": "https://radiokotor.info/images/favicon/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_me_radio-podgorica",
@@ -502,7 +514,8 @@
    "replaces": [
     "http://78.129.228.187:8007/stream"
    ],
-   "website": "https://cetinjskilist.com/"
+   "website": "https://cetinjskilist.com/",
+   "logoUrl": "https://cetinjskilist.com/wp-content/themes/cetinjski/img/logo-novi.png"
   }
  ]
 }

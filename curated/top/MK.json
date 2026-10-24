@@ -22,7 +22,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.antenna5.com.mk/"
+   "website": "http://www.antenna5.com.mk/",
+   "logoUrl": "https://www.antenna5.com.mk/Images/Logos/logo.png"
   },
   {
    "id": "tuno:top_mk_sky-radio",
@@ -38,7 +39,8 @@
    "replaces": [
     "https://s1.skyradio.com.mk/;"
    ],
-   "website": "https://skyradio.com.mk/"
+   "website": "https://skyradio.com.mk/",
+   "logoUrl": "https://skyradio.com.mk/img/logo.png"
   },
   {
    "id": "tuno:top_mk_metropolis-radio",
@@ -54,7 +56,8 @@
    "replaces": [
     "https://eu4.fastcast4u.com/proxy/metradio?mp=/1"
    ],
-   "website": "http://www.metropolisradio.com.mk/"
+   "website": "http://www.metropolisradio.com.mk/",
+   "logoUrl": "http://www.metropolisradio.com.mk/images/Metropolis.png"
   },
   {
    "id": "tuno:top_mk_radio-bubamara",
@@ -94,7 +97,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://life.com.mk/"
+   "website": "https://life.com.mk/",
+   "logoUrl": "https://life.com.mk/wp-content/uploads/2024/03/fav_life-e1742749465151.png"
   },
   {
    "id": "tuno:top_mk_radio-fortuna",
@@ -110,7 +114,8 @@
    "replaces": [
     "https://radiofortuna.ipradio.mk/;"
    ],
-   "website": "https://radiofortuna.com.mk/"
+   "website": "https://radiofortuna.com.mk/",
+   "logoUrl": "https://radiofortuna.com.mk/wp-content/uploads/2024/06/fortuna_herer_logo_544.png"
   },
   {
    "id": "tuno:top_mk_kanal-77",
@@ -126,7 +131,8 @@
    "replaces": [
     "https://radiocnd.mms.mk/proxy/offnet/stream"
    ],
-   "website": "https://kanal77.mk/"
+   "website": "https://kanal77.mk/",
+   "logoUrl": "https://kanal77.mk/wp-content/uploads/2025/06/cropped-cropped-Ikona-1-1-180x180.png"
   },
   {
    "id": "tuno:top_mk_stil-radio",
@@ -154,7 +160,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://stilradio.com/"
+   "website": "https://stilradio.com/",
+   "logoUrl": "https://stilradio.com/wp-content/uploads/2022/01/STIL-RADIO-TRANSPARENT-170x170.png"
   },
   {
    "id": "tuno:top_mk_makedonsko-radio-1",
@@ -170,7 +177,8 @@
    "replaces": [
     "https://vod-c57.interspace.com/channel_abr/47/playlist.m3u8"
    ],
-   "website": "https://play.mrt.com.mk/live/radio1"
+   "website": "https://play.mrt.com.mk/live/radio1",
+   "logoUrl": "https://vod-c57w.interspace.com/t/1/web/logo-ln-1.png"
   },
   {
    "id": "tuno:top_mk_vink-radio",
@@ -213,7 +221,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radiostar.pro/radiochannel/ex-yu-retro/"
+   "website": "https://radiostar.pro/radiochannel/ex-yu-retro/",
+   "logoUrl": "https://radiostar.pro/wp-content/uploads/2023/10/EXYRETRO-300x300.png"
   },
   {
    "id": "tuno:top_mk_radio-tim-bitola",
@@ -274,7 +283,8 @@
    "replaces": [
     "https://vod-c57.interspace.com/channel_abr/48/playlist.m3u8"
    ],
-   "website": "https://play.mrt.com.mk/live/radio2"
+   "website": "https://play.mrt.com.mk/live/radio2",
+   "logoUrl": "https://vod-c57w.interspace.com/t/1/web/logo-ln-1.png"
   },
   {
    "id": "tuno:top_mk_radio-vmro",
@@ -329,7 +339,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://skyradio.com.mk/"
+   "website": "http://skyradio.com.mk/",
+   "logoUrl": "https://skyradio.com.mk/img/logo.png"
   },
   {
    "id": "tuno:top_mk_super-radio",
@@ -346,7 +357,8 @@
    "replaces": [
     "https://stream.zeno.fm/muzq097d2c9uv"
    ],
-   "website": "https://superradio.com.mk/"
+   "website": "https://superradio.com.mk/",
+   "logoUrl": "https://superradio.com.mk/wp-content/uploads/elementor/thumbs/Super-radio-Logo-2026-Belo-rk97yiqur1d6ucoxabwr00yk9klrw7o7frfckiluhw.png"
   },
   {
    "id": "tuno:top_mk_radio-maria-macedonia",
@@ -416,7 +428,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://jazzfm.mk/"
+   "website": "https://jazzfm.mk/",
+   "logoUrl": "https://jazzfm.mk/wp-content/uploads/2024/01/Jazz_FM_Logo_500x.png"
   },
   {
    "id": "tuno:top_mk_city-radio",
@@ -477,7 +490,8 @@
    "replaces": [
     "https://s2.free-shoutcast.com/stream/18058"
    ],
-   "website": "https://www.timefm.mk/"
+   "website": "https://www.timefm.mk/",
+   "logoUrl": "https://timefm.mk/assets/timefm-logo-trimmed-CrKrf3g5.png"
   },
   {
    "id": "tuno:top_mk_star-radio-urban-folk",

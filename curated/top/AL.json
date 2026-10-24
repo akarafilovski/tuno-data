@@ -44,7 +44,8 @@
    "replaces": [
     "https://s64.radiolize.com/radio/8050/radio.mp3"
    ],
-   "website": "https://radio.saranda.love/"
+   "website": "https://radio.saranda.love/",
+   "logoUrl": "https://radio.saranda.love/wp-content/uploads/2026/05/cropped-radiosaranda-180x180.png"
   },
   {
    "id": "tuno:top_al_club-fm",
@@ -107,7 +108,8 @@
     "https://live.top-media.al/tar",
     "https://podcasts.topalbaniaradio.com/wp-content/uploads/2026/10/HN-E-MARTE-pod-2.mp3"
    ],
-   "website": "https://www.topalbaniaradio.com/"
+   "website": "https://www.topalbaniaradio.com/",
+   "logoUrl": "https://www.topalbaniaradio.com/wp-content/themes/topalbaniaradio/images/top-albania-radio-mobile-logo.png"
   },
   {
    "id": "tuno:top_al_alpo-radio",
@@ -123,7 +125,8 @@
    "replaces": [
     "https://cp1.sednastream.com/proxy/alporadio/stream"
    ],
-   "website": "https://alpomedia.com/"
+   "website": "https://alpomedia.com/",
+   "logoUrl": "https://alpomedia.com/wp-content/uploads/2022/02/cropped-Alpo-Media-Logo-260px-1.png"
   },
   {
    "id": "tuno:top_al_radioone",
@@ -139,7 +142,8 @@
    "replaces": [
     "https://cp1.sednastream.com/proxy/radioone94?mp=/stream"
    ],
-   "website": "https://radioone.al/"
+   "website": "https://radioone.al/",
+   "logoUrl": "https://radioone.al/assets/logo.jpg"
   },
   {
    "id": "tuno:top_al_radio-popullore",
@@ -162,7 +166,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radiopopullore.al/"
+   "website": "https://radiopopullore.al/",
+   "logoUrl": "https://radiopopullore.al/logo-vertical-nowave-dark.webp"
   },
   {
    "id": "tuno:top_al_albania-news-24-tv",
@@ -178,7 +183,8 @@
    "replaces": [
     "http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8"
    ],
-   "website": "http://www.balkanweb.com/"
+   "website": "http://www.balkanweb.com/",
+   "logoUrl": "https://www.balkanweb.com/wp-content/themes/balkanweb/images/b_logo_roze.png"
   },
   {
    "id": "tuno:top_al_play-radio",
@@ -209,7 +215,8 @@
    "replaces": [
     "https://cp1.sednastream.com/proxy/radioshqip?mp=/stream"
    ],
-   "website": "http://shqipfm.al/"
+   "website": "http://shqipfm.al/",
+   "logoUrl": "https://shqipfm.al/cms/assets/stations/5e28d452-d5ec-496e-b24d-e74c9a809185.png?width=512&height=512&quality=80&fit=inside&format=webp"
   },
   {
    "id": "tuno:top_al_top-albania-radio",
@@ -240,7 +247,8 @@
    "replaces": [
     "https://a9.asurahosting.com/listen/radio_marimanga/radio.mp3"
    ],
-   "website": "https://www.radiomarimanga.com/"
+   "website": "https://www.radiomarimanga.com/",
+   "logoUrl": "https://radiomarimanga.com/wp-content/uploads/2024/01/cropped-Untitled-12-copy-2-180x180.png"
   },
   {
    "id": "tuno:top_al_chill-radio",
@@ -272,7 +280,8 @@
    "replaces": [
     "https://cp1.sednastream.com/proxy/clubfmkosova?mp=/stream"
    ],
-   "website": "https://clubfm.al/"
+   "website": "https://clubfm.al/",
+   "logoUrl": "https://clubfm.al/wp-content/uploads/2025/11/Logo-Player-radio-shqip-new-popullore-new-logo-100x100.png"
   },
   {
    "id": "tuno:top_al_radio-emigranti",
@@ -295,7 +304,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radioemigranti.com/"
+   "website": "http://www.radioemigranti.com/",
+   "logoUrl": "http://www.radioemigranti.com/wp-content/uploads/2016/12/cropped-logo-radio-vitiri2-180x180.jpg"
   },
   {
    "id": "tuno:top_al_mcn-radio-tirana-103-1-fm",
@@ -350,7 +360,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.mcntv.al/"
+   "website": "https://www.mcntv.al/",
+   "logoUrl": "https://mcntv.al/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnewRadioImage.c62b3179.png&w=3840&q=75"
   },
   {
    "id": "tuno:top_al_radio-mergimi",
@@ -373,7 +384,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radiomergimi.com/"
+   "website": "https://radiomergimi.com/",
+   "logoUrl": "https://www.radiomergimi.com/wp-content/uploads/2025/09/cropped-0-02-0a-847ee7baa61993ce49972115edec433ad22f144928a48493f271459c00364a69_180798214b42defb.jpg"
   },
   {
    "id": "tuno:top_al_phish-radio",
@@ -389,7 +401,8 @@
    "replaces": [
     "https://streaming.radio.co/sd71de59b3/listen"
    ],
-   "website": "http://www.jempradio.com/"
+   "website": "http://www.jempradio.com/",
+   "logoUrl": "https://jempradio.com/wp-content/uploads/2026/01/cropped-webfavicon-180x180.png"
   },
   {
    "id": "tuno:top_al_exa-fm-muzike-pop-ne-anglisht-dhe-spanjisht",
@@ -437,7 +450,8 @@
     "https://az1.sednastream.com/radio/8150/Live?1582297952",
     "https://www.youtube.com/watch?v=Z_FV9OAU9fI&amp;_=1"
    ],
-   "website": "https://bestproradio.com/"
+   "website": "https://bestproradio.com/",
+   "logoUrl": "https://bestproradio.com/wp-content/uploads/2024/04/LOGO-Best-pro-Radio-Header-White.png"
   },
   {
    "id": "tuno:top_al_radio-lushnja",
@@ -469,7 +483,8 @@
     "https://media-ssl.musicradio.com/ChillMP3",
     "https://media-ice.musicradio.com/CapitalLiverpool.m3u"
    ],
-   "website": "https://media-ssl.musicradio.com/"
+   "website": "https://media-ssl.musicradio.com/",
+   "logoUrl": "https://media-ice.musicradio.com/image/favicon.ico"
   },
   {
    "id": "tuno:top_al_radio-positive-gold-fm",
@@ -485,7 +500,8 @@
    "replaces": [
     "https://positivealtradio.streamguys1.com/positivegold"
    ],
-   "website": "https://positivegoldmedia.com/"
+   "website": "https://positivegoldmedia.com/",
+   "logoUrl": "https://new.expireddomains.com/api/public/og/positivegoldmedia.com"
   },
   {
    "id": "tuno:top_al_rtsh-radio-tirana-international",

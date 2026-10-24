@@ -26,7 +26,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.lbc.co.uk/"
+   "website": "https://www.lbc.co.uk/",
+   "logoUrl": "https://www.lbc.co.uk/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_gb_bbc-radio-2",
@@ -49,7 +50,8 @@
      "format": "hls"
     }
    ],
-   "website": "https://www.bbc.co.uk/sounds"
+   "website": "https://www.bbc.co.uk/sounds",
+   "logoUrl": "https://static.files.bbci.co.uk/bbcdotcom/web/20261019-154138-aa7a263842-web-3.25.0-1/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_gb_bbc-world-service",
@@ -72,7 +74,8 @@
      "format": "hls"
     }
    ],
-   "website": "https://www.bbc.co.uk/sounds"
+   "website": "https://www.bbc.co.uk/sounds",
+   "logoUrl": "https://static.files.bbci.co.uk/bbcdotcom/web/20261019-154138-aa7a263842-web-3.25.0-1/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_gb_heart",
@@ -100,7 +103,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.heart.co.uk/"
+   "website": "https://www.heart.co.uk/",
+   "logoUrl": "https://www.heart.co.uk/assets_v4r/heart/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_classic-fm",
@@ -123,7 +127,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.classicfm.com/"
+   "website": "https://www.classicfm.com/",
+   "logoUrl": "https://www.classicfm.com/assets_v4r/classic/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_bbc-radio-1",
@@ -197,7 +202,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.smoothradio.com/"
+   "website": "http://www.smoothradio.com/",
+   "logoUrl": "https://www.smoothradio.com/assets_v4r/smooth/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_talksport",
@@ -252,7 +258,8 @@
    "replaces": [
     "https://media-ssl.musicradio.com/Capital"
    ],
-   "website": "https://www.capitalfm.com/"
+   "website": "https://www.capitalfm.com/",
+   "logoUrl": "https://www.capitalfm.com/assets_v4r/capital/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_bbc-radio-6-music",
@@ -292,7 +299,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radiocaroline.co.uk/"
+   "website": "http://www.radiocaroline.co.uk/",
+   "logoUrl": "https://www.radiocaroline.co.uk/images/logo_for_fb.jpg"
   },
   {
    "id": "tuno:top_gb_gold-radio",
@@ -315,7 +323,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.mygoldmusic.co.uk/"
+   "website": "https://www.mygoldmusic.co.uk/",
+   "logoUrl": "https://www.goldradio.com/assets_v4r/gold/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_bbc-radio-3",
@@ -359,7 +368,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radiox.co.uk/"
+   "website": "http://www.radiox.co.uk/",
+   "logoUrl": "https://www.radiox.co.uk/assets_v4r/xfm/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_bbc-radio-london",
@@ -390,7 +400,8 @@
    "replaces": [
     "https://streaming.radio.co/s06bd9d805/listen"
    ],
-   "website": "https://housenationuk.com/"
+   "website": "https://housenationuk.com/",
+   "logoUrl": "https://i0.wp.com/housenationuk.com/wp-content/uploads/2014/05/HouseNationUK-Website-Logo2.png?w=600&quality=80&ssl=1"
   },
   {
    "id": "tuno:top_gb_jazz-london-radio",
@@ -413,7 +424,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.jazzlondonradio.com/"
+   "website": "http://www.jazzlondonradio.com/",
+   "logoUrl": "http://www.jazzlondonradio.com/images/logo.png"
   },
   {
    "id": "tuno:top_gb_talkradio",
@@ -444,7 +456,8 @@
    "replaces": [
     "https://media-ssl.musicradio.com/CapitalUK"
    ],
-   "website": "https://www.capitalfm.com/"
+   "website": "https://www.capitalfm.com/",
+   "logoUrl": "https://www.capitalfm.com/assets_v4r/capital/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_tmm-1",
@@ -467,7 +480,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.themusicmachine.co.uk/"
+   "website": "https://www.themusicmachine.co.uk/",
+   "logoUrl": "https://www.themusicmachine.co.uk/logo.png"
   },
   {
    "id": "tuno:top_gb_dance-uk-radio",
@@ -498,7 +512,8 @@
    "replaces": [
     "http://antares.dribbcast.com:4361/stream"
    ],
-   "website": "https://24-7nicheradio.com/audiogallery/24-7-the-60s/"
+   "website": "https://24-7nicheradio.com/audiogallery/24-7-the-60s/",
+   "logoUrl": "https://24-7nicheradio.com/wp-content/uploads/2017/11/nichred_logopng.png"
   },
   {
    "id": "tuno:top_gb_chill-bristol",
@@ -514,7 +529,8 @@
    "replaces": [
     "http://media-ice.musicradio.com/ChillMP3"
    ],
-   "website": "http://www.helpmechill.com/"
+   "website": "http://www.helpmechill.com/",
+   "logoUrl": "https://www.smoothradio.com/assets_v4r/smooth/img/apple-touch-icon-152x152.png"
   },
   {
    "id": "tuno:top_gb_classic-fm-relax",
@@ -560,7 +576,8 @@
    "replaces": [
     "https://listen.soulradio.uk/uk"
    ],
-   "website": "https://soulradio.uk/"
+   "website": "https://soulradio.uk/",
+   "logoUrl": "https://soulradio.uk/wp-content/uploads/2021/09/cropped-soulradio.uk_300-180x180.png"
   },
   {
    "id": "tuno:top_gb_rokit-radio-british-comedy-1",
@@ -583,7 +600,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://rokitradio.com/"
+   "website": "https://rokitradio.com/",
+   "logoUrl": "https://rokitradio.com/images/rokit-radio-mic-cropped.png"
   },
   {
    "id": "tuno:top_gb_energy-fm-dance-music-radio",

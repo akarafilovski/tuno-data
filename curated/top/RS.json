@@ -26,7 +26,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.naxi.rs/"
+   "website": "https://www.naxi.rs/",
+   "logoUrl": "https://www.naxi.rs/files/img/logos/logo.png"
   },
   {
    "id": "tuno:top_rs_hit-fm",
@@ -54,7 +55,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.hitfm.rs/"
+   "website": "https://www.hitfm.rs/",
+   "logoUrl": "https://hitfm.rs/wp-content/uploads/2026/01/Hit-FM-logo-white_500px.png"
   },
   {
    "id": "tuno:top_rs_radio-beograd-1",
@@ -100,7 +102,8 @@
      "format": "hls"
     }
    ],
-   "website": "http://www.pinkradio.rs/"
+   "website": "http://www.pinkradio.rs/",
+   "logoUrl": "https://pinkradio.rs/images/logo.png"
   },
   {
    "id": "tuno:top_rs_play-radio",
@@ -123,7 +126,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.playradio.rs/"
+   "website": "https://www.playradio.rs/",
+   "logoUrl": "https://www.playradio.rs/assets/images/play-navigation.png"
   },
   {
    "id": "tuno:top_rs_ok-radio",
@@ -146,7 +150,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.okradio.net/"
+   "website": "https://www.okradio.net/",
+   "logoUrl": "https://www.okradio.net/wp-content/uploads/2021/11/ok-logo-m.png"
   },
   {
    "id": "tuno:top_rs_cool-radio",
@@ -174,7 +179,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.coolradio.rs/"
+   "website": "http://www.coolradio.rs/",
+   "logoUrl": "https://coolradio.rs/wp-content/uploads/2026/05/logo-512x512-1-300x300.png"
   },
   {
    "id": "tuno:top_rs_radio-karolina",
@@ -197,7 +203,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://karolina.rs/"
+   "website": "http://karolina.rs/",
+   "logoUrl": "https://player.karolina.rs/wp-content/uploads/2026/04/karolina_favicon-300x300.jpg"
   },
   {
    "id": "tuno:top_rs_radio-lola-belgrade",
@@ -213,7 +220,8 @@
    "replaces": [
     "https://streaming.tdiradio.com/radiolola.mp3"
    ],
-   "website": "http://radiolola.rs/"
+   "website": "http://radiolola.rs/",
+   "logoUrl": "https://player.radiolola.rs/img/lolalogo.png"
   },
   {
    "id": "tuno:top_rs_radio-s3",
@@ -241,7 +249,8 @@
      "format": "hls"
     }
    ],
-   "website": "https://www.radios.rs/digitalni-radio/20/juzni"
+   "website": "https://www.radios.rs/digitalni-radio/20/juzni",
+   "logoUrl": "https://www.radios.rs/media/PNG%20LOGOS/Novi%20logotipi/Radio-S-Juzni-500px.png"
   },
   {
    "id": "tuno:top_rs_radio-nostalgija",
@@ -259,7 +268,8 @@
     "https://nostalgie64ssl.streaming.rs:9262/listen.pls",
     "http://nostalgie128.streaming.rs:9250/"
    ],
-   "website": "http://www.nostalgija.rs/"
+   "website": "http://www.nostalgija.rs/",
+   "logoUrl": "https://nostalgija.rs/wp-content/uploads/2019/08/logo.png"
   },
   {
    "id": "tuno:top_rs_radio-jat",
@@ -282,7 +292,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.radiojat.rs/"
+   "website": "https://www.radiojat.rs/",
+   "logoUrl": "https://player.radiojat.rs/img/jat.png"
   },
   {
    "id": "tuno:top_rs_super-fm",
@@ -298,7 +309,8 @@
    "replaces": [
     "https://onair.superfm.rs/superfm.mp3"
    ],
-   "website": "https://superfm.rs/"
+   "website": "https://superfm.rs/",
+   "logoUrl": "https://superfm.rs/wp-content/uploads/2025/12/Male-slicice-emisije_0000_cineplexx-repertoar-logo.png"
   },
   {
    "id": "tuno:top_rs_rock-radio",
@@ -366,7 +378,8 @@
    "replaces": [
     "https://streaming.tdiradio.com/tdiradiobezreklama.mp3"
    ],
-   "website": "https://tdiradio.com/"
+   "website": "https://tdiradio.com/",
+   "logoUrl": "https://tdiradio.com/wp-content/uploads/2024/05/TDI-crna-Logo_300px.png"
   },
   {
    "id": "tuno:top_rs_radio-laguna",
@@ -465,7 +478,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.resavski.rs/"
+   "website": "https://www.resavski.rs/",
+   "logoUrl": "https://www.resavski.rs/wp-content/uploads/2023/02/cropped-Resavski-radio-logo.sajt-e1675555042474.png"
   },
   {
    "id": "tuno:top_rs_ifm-narodni-radio",
@@ -511,7 +525,8 @@
    "replaces": [
     "http://edge-rs-01.maksnet.tv/asmedia/radios/chunklist_w2049618642.m3u8"
    ],
-   "website": "http://www.radios1.rs/"
+   "website": "http://www.radios1.rs/",
+   "logoUrl": "https://www.radios.rs/media/PNG%20LOGOS/Novi%20logotipi/Radio-S-Mix500px.png"
   },
   {
    "id": "tuno:top_rs_radio-puls-grocka",
@@ -543,7 +558,8 @@
     "https://radio3-64ssl.streaming.rs:9212/;*.mp3",
     "https://radio3-64ssl.streaming.rs:9212/listen.pls"
    ],
-   "website": "https://www.radioinbeograd.rs/"
+   "website": "https://www.radioinbeograd.rs/",
+   "logoUrl": "https://radioinbeograd.rs/wp-content/uploads/2020/09/radio-in-logo-header.png"
   },
   {
    "id": "tuno:top_rs_1",
@@ -559,7 +575,8 @@
    "replaces": [
     "https://rtsradio-live.morescreens.com/RTS_2_001/audio/chunklist.m3u8"
    ],
-   "website": "https://rtsplaneta.rs/"
+   "website": "https://rtsplaneta.rs/",
+   "logoUrl": "https://static.rtsplaneta.rs/rev-1787112168/image_transform.php/transform/1/app_branding_logo/web/instance_id/1/img_format/webp/lang/sr/tasks/thumbnail_w/img_compression/90/format/thumbnail/width/256"
   },
   {
    "id": "tuno:top_rs_fox-radio",

@@ -21,7 +21,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.antenne.de/"
+   "website": "https://www.antenne.de/",
+   "logoUrl": "https://www.antenne.de/media/cache/3/version/18696/streamlogo_simulcast_live_aby_neu_2000x2000-v1.jpg/7d48b5bf7426cbb6.webp"
   },
   {
    "id": "tuno:top_de_80s80s",
@@ -49,7 +50,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.80s80s.de/streams/80s80s"
+   "website": "https://www.80s80s.de/streams/80s80s",
+   "logoUrl": "https://upload.80s80s.de/production/static/1791269758018/icons/icon_512.ewwAEi8A30w.png"
   },
   {
    "id": "tuno:top_de_deutschlandfunk",
@@ -65,7 +67,8 @@
    "replaces": [
     "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=onlineradiobox-com"
    ],
-   "website": "https://www.deutschlandfunk.de/"
+   "website": "https://www.deutschlandfunk.de/",
+   "logoUrl": "https://bilder.deutschlandfunk.de/8a/c1/6f/9f/8ac16f9f-967d-4cf1-938e-69c4edccbe2d/imago0866662928h-100-512x512.jpg"
   },
   {
    "id": "tuno:top_de_rock-antenne",
@@ -88,7 +91,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.rockantenne.de/"
+   "website": "http://www.rockantenne.de/",
+   "logoUrl": "https://www.rockantenne.de/media/cache/3/version/172254/80er90er-oldie-logo-digital-quadrat-ohne-outline-2000x2000-v1.png/aa6e8cd66e81e12e.webp"
   },
   {
    "id": "tuno:top_de_swr3",
@@ -111,7 +115,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.swr3.de/"
+   "website": "https://www.swr3.de/",
+   "logoUrl": "https://www.swr3.de/assets/swr3/icons/apple-touch-icon.png?f4347f53c993af9a5f5c4309f5275c2e"
   },
   {
    "id": "tuno:top_de_radio-bob",
@@ -139,7 +144,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radiobob.de/"
+   "website": "https://radiobob.de/",
+   "logoUrl": "https://upload.radiobob.de/production/static/1792483293024/icons/icon_512.8WpccMNcjjc.png"
   },
   {
    "id": "tuno:top_de_bigfm",
@@ -162,7 +168,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.bigfm.de/"
+   "website": "https://www.bigfm.de/",
+   "logoUrl": "https://image.atsw.de/atsw/production/2026-07/bigfm_bayern_ohnelogo_1200x1200.jpg"
   },
   {
    "id": "tuno:top_de_radio-sunshine-live",
@@ -185,7 +192,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.sunshine-live.de/"
+   "website": "http://www.sunshine-live.de/",
+   "logoUrl": "https://upload.sunshine-live.de/production/static/1792483605187/icons/icon_512.fmRwc30M41g.png"
   },
   {
    "id": "tuno:top_de_klassik-radio",
@@ -208,7 +216,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://klassikradio.de/"
+   "website": "https://klassikradio.de/",
+   "logoUrl": "https://api.streamabc.net/coverimages/cover/krrotid/450789/klassikr-live?default=channelLogo%2FKR_Logo_Player_2.0_256x256.png"
   },
   {
    "id": "tuno:top_de_ndr-2",
@@ -231,7 +240,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.ndr.de/ndr2/"
+   "website": "https://www.ndr.de/ndr2/",
+   "logoUrl": "https://images.ndr.de/image/d463c807-ea09-4a57-b72b-5dd1017c5bd5/AAABkrk1r_c/AAABnSSvrFg/16x9-big/wiswedelmahrhold106.webp?width=1920"
   },
   {
    "id": "tuno:top_de_90s90s-hiphop-rap-kiel",
@@ -247,7 +257,8 @@
    "replaces": [
     "http://streams.90s90s.de/hiphop/mp3-192/streams.90s90s.de/"
    ],
-   "website": "https://www.90s90s.de/radios/hiphop-rap"
+   "website": "https://www.90s90s.de/radios/hiphop-rap",
+   "logoUrl": "https://upload.90s90s.de/production/static/1791269790508/icons/icon_512.cno7CdHz6$i.png"
   },
   {
    "id": "tuno:top_de_1live",
@@ -271,7 +282,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www1.wdr.de/radio/1live/"
+   "website": "https://www1.wdr.de/radio/1live/",
+   "logoUrl": "https://www1.wdr.de/radio/1live/resources-v5.181.2/img/favicon/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_de_bayern-1",
@@ -302,7 +314,8 @@
    "replaces": [
     "https://mangoradio.stream.laut.fm/mangoradio?t302=2026-10-20_11-43-59&uuid=7d92a80a-c12e-4296-374c-c6e28df6721a"
    ],
-   "website": "https://mangoradio.de/"
+   "website": "https://mangoradio.de/",
+   "logoUrl": "https://mangoradio.de/wp-content/uploads/elementor/thumbs/Logo-pmjikxpjxga2m4o8kkeunnu382q4ve6l1hbkqk5vou.webp"
   },
   {
    "id": "tuno:top_de_bayern-3",
@@ -318,7 +331,8 @@
    "replaces": [
     "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid"
    ],
-   "website": "https://www.br.de/radio/bayern3/"
+   "website": "https://www.br.de/radio/bayern3/",
+   "logoUrl": "https://www.bayern3.de/favicon.ico"
   },
   {
    "id": "tuno:top_de_radio-paloma",
@@ -346,7 +360,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radiopaloma.de/"
+   "website": "http://www.radiopaloma.de/",
+   "logoUrl": "https://www.radiopaloma.de/storage/thumbs/180x180/r:1720783851/wb743sceh3du5.png"
   },
   {
    "id": "tuno:top_de_hit-radio-ffh",
@@ -370,7 +385,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.ffh.de/"
+   "website": "http://www.ffh.de/",
+   "logoUrl": "https://static.ffh.de/fileadmin/_processed_/b/4/csm_realx_600x600_nologo_5920a813f2.jpg"
   },
   {
    "id": "tuno:top_de_90s90s-hits",
@@ -408,7 +424,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.0nradio.com/"
+   "website": "http://www.0nradio.com/",
+   "logoUrl": "https://www.0nradio.com/images/favicon/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_de_oldie-antenne",
@@ -469,7 +486,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www1.wdr.de/radio/wdr5/"
+   "website": "https://www1.wdr.de/radio/wdr5/",
+   "logoUrl": "https://www1.wdr.de/resources-v5.181.2/img/favicon/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_de_br24-munich",
@@ -485,7 +503,8 @@
    "replaces": [
     "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid"
    ],
-   "website": "https://www.br.de/radio/br24/index.html"
+   "website": "https://www.br.de/radio/br24/index.html",
+   "logoUrl": "https://img.br.de/c8056588-3ff6-4d47-a61c-7d23c08e16b7.jpeg?q=80&rect=5%2C0%2C5719%2C3222&w=256&h=144"
   },
   {
    "id": "tuno:top_de_italo-disco",
@@ -523,7 +542,8 @@
    "replaces": [
     "https://breakz-2012-high.rautemusik.fm/?ref=radiobrowser-top100-clubcharts"
    ],
-   "website": "https://rm.fm/breakz/team"
+   "website": "https://rm.fm/breakz/team",
+   "logoUrl": "https://www.rm.fm/favicon.ico"
   },
   {
    "id": "tuno:top_de_schwany-hoamatwelle",

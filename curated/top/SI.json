@@ -15,7 +15,8 @@
     "https://live.radio.si/Aktual",
     "http://195.95.158.131:9080/"
    ],
-   "website": "http://www.radioaktual.si/"
+   "website": "http://www.radioaktual.si/",
+   "logoUrl": "https://radioaktual.svet24.si/img/logo-aktual-new.png"
   },
   {
    "id": "tuno:top_si_radio-nula-ljubljana",
@@ -32,7 +33,8 @@
     "https://strm.radionula.com/classics",
     "https://radionula.com/assets/radionoise-D0Jg96cP.mp3"
    ],
-   "website": "https://radionula.com/"
+   "website": "https://radionula.com/",
+   "logoUrl": "https://radionula.com/images/radio-nula-fb-image.jpg?v=2"
   },
   {
    "id": "tuno:top_si_val-202",
@@ -55,7 +57,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://val202.rtvslo.si/"
+   "website": "http://val202.rtvslo.si/",
+   "logoUrl": "https://img.rtvcdn.si/_up/ava/ava_misc/show_logos/137/logo.jpg"
   },
   {
    "id": "tuno:top_si_radio-1",
@@ -106,7 +109,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://radiocenter.si/"
+   "website": "http://radiocenter.si/",
+   "logoUrl": "https://www.datocms-assets.com/45632/1646516565-og-image.jpg?auto=format&fit=max&w=1200"
   },
   {
    "id": "tuno:top_si_radio-veseljak",
@@ -123,7 +127,8 @@
     "https://live.radio.si/Veseljak",
     "http://195.95.158.131:9060/"
    ],
-   "website": "http://veseljak.si/"
+   "website": "http://veseljak.si/",
+   "logoUrl": "https://veseljak.svet24.si/images/logo.png"
   },
   {
    "id": "tuno:top_si_radio-city",
@@ -139,7 +144,8 @@
    "replaces": [
     "https://stream1.radiocity.si/CityMp3128.mp3"
    ],
-   "website": "https://www.radiocity.si/"
+   "website": "https://www.radiocity.si/",
+   "logoUrl": "https://radiocity.si/wp-content/uploads/2026/02/Radio_city_logo_pakk-01-1-1.png"
   },
   {
    "id": "tuno:top_si_radio-capris-slo",
@@ -171,7 +177,8 @@
    "replaces": [
     "https://live.radio.si/Krka"
    ],
-   "website": "https://radiokrka.si/"
+   "website": "https://radiokrka.si/",
+   "logoUrl": "http://radiokrka.svet24.si/images/fb-logo.jpg"
   },
   {
    "id": "tuno:top_si_best-fm",
@@ -214,7 +221,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.rtvslo.si/radiocapodistria/"
+   "website": "http://www.rtvslo.si/radiocapodistria/",
+   "logoUrl": "https://img.rtvcdn.si/_up/ava/ava_misc/show_logos/106615677/logo_6_fp-sq.jpg"
   },
   {
    "id": "tuno:top_si_radio-si",
@@ -237,7 +245,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://radiosi.eu/"
+   "website": "http://radiosi.eu/",
+   "logoUrl": "https://img.rtvcdn.si/_up/ava/ava_misc/show_logos/173251895/logo.jpg"
   },
   {
    "id": "tuno:top_si_rock-radio",
@@ -284,7 +293,8 @@
     "http://stream.mister-deejay.com:9008/;",
     "https://www.mister-deejay.com/live/mrdjmp3.m3u"
    ],
-   "website": "https://mister-deejay.com/"
+   "website": "https://mister-deejay.com/",
+   "logoUrl": "https://mister-deejay.com/e107_images/custom/mrdj_prosojni2.png"
   },
   {
    "id": "tuno:top_si_radio-student",
@@ -312,7 +322,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radiostudent.si/"
+   "website": "https://radiostudent.si/",
+   "logoUrl": "https://radiostudent.si/sites/default/files/favicon_3.ico"
   },
   {
    "id": "tuno:top_si_radio-net-fm",
@@ -335,7 +346,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://radionet.si/"
+   "website": "http://radionet.si/",
+   "logoUrl": "https://www.radionet.si/wp-content/uploads/2026/01/NET-FM-Logo-1_1@3x-8-1024x1024.png"
   },
   {
    "id": "tuno:top_si_radio-2",
@@ -375,7 +387,8 @@
     "http://193.105.67.24:8010/;",
     "https://www.radiorogla.si/wp-content/uploads/2026/10/VseNaj-2010.mp3?_=1"
    ],
-   "website": "https://www.radiorogla.si/"
+   "website": "https://www.radiorogla.si/",
+   "logoUrl": "https://www.radiorogla.si/wp-content/uploads/2021/01/cropped-logo_rogla.png"
   },
   {
    "id": "tuno:top_si_rock-radio-si",
@@ -391,7 +404,8 @@
    "replaces": [
     "http://stream.rockradio.si:9034/;"
    ],
-   "website": "http://www.rockradio.si/"
+   "website": "http://www.rockradio.si/",
+   "logoUrl": "https://www.datocms-assets.com/49761/1624049345-og-image.jpg?auto=format&fit=max&w=1200"
   },
   {
    "id": "tuno:top_si_radio-ognjisce",
@@ -407,7 +421,8 @@
    "replaces": [
     "https://live.radio.si/ognjisce.mp3"
    ],
-   "website": "https://radio.ognjisce.si/"
+   "website": "https://radio.ognjisce.si/",
+   "logoUrl": "https://radio.ognjisce.si/themes/publication_3/theme_1/_img/logo_2.png"
   },
   {
    "id": "tuno:top_si_muravideki-magyar-radio",
@@ -450,7 +465,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radioterminal.si/"
+   "website": "https://radioterminal.si/",
+   "logoUrl": "https://radioterminal.live/wp-content/uploads/2021/09/RadioTerminal_logo_black.png"
   },
   {
    "id": "tuno:top_si_radio-stajerski-val",
@@ -473,7 +489,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.stajerskival.si/"
+   "website": "https://www.stajerskival.si/",
+   "logoUrl": "https://imgs.pnvnet.si/img/300/300/75/2/c/www.stajerskival.si/assets/page_info/0722988001735896933.png"
   },
   {
    "id": "tuno:top_si_radio-mars",
@@ -496,7 +513,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radiomars.si/"
+   "website": "http://www.radiomars.si/",
+   "logoUrl": "http://www.radiomars.si/sites/default/files/mars-homepage_1.png"
   },
   {
    "id": "tuno:top_si_radio-robin",
@@ -512,7 +530,8 @@
    "replaces": [
     "https://live.radio.si/Robin"
    ],
-   "website": "https://www.robin.si/"
+   "website": "https://www.robin.si/",
+   "logoUrl": "https://www.robin.si/wp-content/uploads/2021/09/cropped-robin-favicon-180x180.png"
   },
   {
    "id": "tuno:top_si_radio-nula-classic",
@@ -550,7 +569,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radio-sora.si/"
+   "website": "http://www.radio-sora.si/",
+   "logoUrl": "https://www.radio-sora.si/images/favico2/apple-icon-180x180.png"
   },
   {
    "id": "tuno:top_si_radio-antena-105-2mhz",
@@ -566,7 +586,8 @@
    "replaces": [
     "https://live.radio.si/Antena"
    ],
-   "website": "https://www.radioantena.si/"
+   "website": "https://www.radioantena.si/",
+   "logoUrl": "https://media.radioantena.si/logo.jpg"
   },
   {
    "id": "tuno:top_si_radio-tomi",
@@ -582,7 +603,8 @@
    "replaces": [
     "http://93.103.130.12:8080/tomi.mp3"
    ],
-   "website": "https://www.radiotomi.si/"
+   "website": "https://www.radiotomi.si/",
+   "logoUrl": "https://www.radiotomi.si/images/logo_radio_tomi_beli_300.png"
   }
  ]
 }

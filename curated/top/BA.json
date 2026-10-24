@@ -51,7 +51,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://kalmanradio.ba/"
+   "website": "https://kalmanradio.ba/",
+   "logoUrl": "https://kalmanradio.ba/wp-content/uploads/2018/02/logo_FINAL_KALMAN_RADIO_TIFF-640x480-170x170.png"
   },
   {
    "id": "tuno:top_ba_antena-radio",
@@ -74,7 +75,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.antena-radio.ba/"
+   "website": "http://www.antena-radio.ba/",
+   "logoUrl": "https://antena-radio.ba/wp-content/uploads/2026/02/logo_2025.webp"
   },
   {
    "id": "tuno:top_ba_bn",
@@ -90,7 +92,8 @@
    "replaces": [
     "http://stream.rtvbn.com:8522/;"
    ],
-   "website": "http://www.rtvbn.com/"
+   "website": "http://www.rtvbn.com/",
+   "logoUrl": "https://www.rtvbn.com/storage/settings/res_1593266345_logo_android.png"
   },
   {
    "id": "tuno:top_ba_radio-sehara",
@@ -137,7 +140,8 @@
    "replaces": [
     "http://158.69.119.6:8095/;&type=mp3"
    ],
-   "website": "http://www.radiodas.net/"
+   "website": "http://www.radiodas.net/",
+   "logoUrl": "https://radiodas.net/wp-content/uploads/2026/03/LOGO-370x370.png"
   },
   {
    "id": "tuno:top_ba_big2",
@@ -153,7 +157,8 @@
    "replaces": [
     "http://big2.bigportal.ba:8100/big2"
    ],
-   "website": "http://bigportal.ba/"
+   "website": "http://bigportal.ba/",
+   "logoUrl": "https://bigportal.ba/wp-content/uploads/2023/06/275939693_10158135247575563_8126257939024539449_n.jpg"
   },
   {
    "id": "tuno:top_ba_velkaton",
@@ -177,7 +182,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.velkaton.ba/"
+   "website": "http://www.velkaton.ba/",
+   "logoUrl": "https://s0.wp.com/i/blank.jpg"
   },
   {
    "id": "tuno:top_ba_posusje",
@@ -201,7 +207,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radioposusje.ba/"
+   "website": "http://www.radioposusje.ba/",
+   "logoUrl": "https://radioposusje.ba/wp-content/uploads/2024/06/Radio-Posusje-logo-vertikalni-pozitiv.png"
   },
   {
    "id": "tuno:top_ba_big-radio-1-banja-luka",
@@ -224,7 +231,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.bigradiobl.com/"
+   "website": "http://www.bigradiobl.com/",
+   "logoUrl": "https://www.bigradiobl.com/images/share.jpg"
   },
   {
    "id": "tuno:top_ba_rsg",
@@ -262,7 +270,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.nesradio.com/"
+   "website": "http://www.nesradio.com/",
+   "logoUrl": "https://www.nesradio.com/slika/os/Nes_logo_naslovna.png"
   },
   {
    "id": "tuno:top_ba_radio-mix",
@@ -300,7 +309,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://srce-krajine.com/"
+   "website": "https://srce-krajine.com/",
+   "logoUrl": "https://srce-krajine.com/wp-content/uploads/2018/11/logo-rsk-1.png"
   },
   {
    "id": "tuno:top_ba_radio-posavina-zagreb",
@@ -316,7 +326,8 @@
    "replaces": [
     "http://cmr-hosting.com:8500/;stream.mp3"
    ],
-   "website": "https://radioposavina.com/"
+   "website": "https://radioposavina.com/",
+   "logoUrl": "https://radioposavina.com/wp-content/uploads/2020/02/cropped-TVRADIO-POSAVINA-LOGO-PNG-e1569322548985-1.png"
   },
   {
    "id": "tuno:top_ba_bh-radio-1",
@@ -365,7 +376,8 @@
     "https://dreamsiteradiocp2.com/proxy/rmbosnia2?mp=/stream",
     "http://dreamsiteradiocp.com:8034/"
    ],
-   "website": "http://www.radiomarija.ba/"
+   "website": "http://www.radiomarija.ba/",
+   "logoUrl": "https://www.radiomarija.ba/templates/t3_bs3_blank/favicon.ico"
   },
   {
    "id": "tuno:top_ba_pop-fm",
@@ -418,7 +430,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://rtvslon.ba/"
+   "website": "https://rtvslon.ba/",
+   "logoUrl": "https://www.rtvslon.ba/wp-content/uploads/2026/09/SLON_BA_Slon_Media_tekst_bijelo_crvena_kutija.png.webp"
   },
   {
    "id": "tuno:top_ba_radio-carsija",
@@ -461,7 +474,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://balkanhiphopradio.com/"
+   "website": "https://balkanhiphopradio.com/",
+   "logoUrl": "https://balkanhiphopradio.com/img/BHHR-logo-latinica.png"
   },
   {
    "id": "tuno:top_ba_big-radio-1",
@@ -499,7 +513,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://radiom.ba/bs/radio-m-plus"
+   "website": "https://radiom.ba/bs/radio-m-plus",
+   "logoUrl": "https://radiom.ba/assets/storage/photos/shares/radio-m-exyu.png"
   },
   {
    "id": "tuno:top_ba_studio-m",
@@ -531,7 +546,8 @@
     "https://stream1.srvnetplus.com:18039/radio/8020/radio.mp3%20?1792514060559",
     "https://stream1.srvnetplus.com:18039/"
    ],
-   "website": "https://www.krajiski-radio-dubica.com/"
+   "website": "https://www.krajiski-radio-dubica.com/",
+   "logoUrl": "https://www.krajiski-radio-dubica.com/favicon.ico"
   },
   {
    "id": "tuno:top_ba_kontakt",
@@ -559,7 +575,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://mojkontakt.com/"
+   "website": "https://mojkontakt.com/",
+   "logoUrl": "https://mojkontakt.com/wp-content/uploads/2022/11/cropped-cropped-favicon-32x32-1-180x180.png"
   }
  ]
 }

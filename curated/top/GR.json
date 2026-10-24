@@ -14,7 +14,8 @@
    "replaces": [
     "https://smooth.vanillaradio.com:8032/live"
    ],
-   "website": "https://www.vanillaradio.com/listen-smooth-flavors/"
+   "website": "https://www.vanillaradio.com/listen-smooth-flavors/",
+   "logoUrl": "https://www.vanillaradio.com/wp-content/uploads/2016/04/vanilla-logo-300x100.png"
   },
   {
    "id": "tuno:top_gr_blues-radio",
@@ -31,7 +32,8 @@
     "https://i4.streams.ovh/sc/bluesrad/stream",
     "http://cast3.radiohost.ovh:8352/"
    ],
-   "website": "http://bluesradio.gr/"
+   "website": "http://bluesradio.gr/",
+   "logoUrl": "https://bluesradio.gr/wp-content/uploads/2024/08/x-logo-2.262x192.png"
   },
   {
    "id": "tuno:top_gr_vanilla-radio-deep-flavors",
@@ -69,7 +71,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://webradio.ert.gr/"
+   "website": "https://webradio.ert.gr/",
+   "logoUrl": "https://www.ertecho.gr/wp-content/uploads/2022/06/cropped-ertecho-favicon-192x192.png"
   },
   {
    "id": "tuno:top_gr_melodia-99-2",
@@ -100,7 +103,8 @@
    "replaces": [
     "http://stream.radiojar.com/aw1w2xfx1vduv"
    ],
-   "website": "https://soundis.gr/rythmos949/"
+   "website": "https://soundis.gr/rythmos949/",
+   "logoUrl": "https://www.soundis.gr/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_gr_92-9-kiss",
@@ -128,7 +132,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.radiokiss.gr/"
+   "website": "http://www.radiokiss.gr/",
+   "logoUrl": "https://radiokiss.gr/2021%20KISS%20TEXT%20-%20WHITE%20918x694.png"
   },
   {
    "id": "tuno:top_gr_skai",
@@ -156,7 +161,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.skairadio.gr/"
+   "website": "https://www.skairadio.gr/",
+   "logoUrl": "https://www.skairadio.gr/themes/s1003/assets/images/logo-1904-border.png"
   },
   {
    "id": "tuno:top_gr_radio-art-sleep",
@@ -195,7 +201,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.real.gr/"
+   "website": "http://www.real.gr/",
+   "logoUrl": "https://www.real.gr/wp-content/uploads/2025/02/logofmw.png"
   },
   {
    "id": "tuno:top_gr_zucca-radio",
@@ -211,7 +218,8 @@
    "replaces": [
     "https://stream.zuccaradio.com/stream"
    ],
-   "website": "https://zuccaradio.com/"
+   "website": "https://zuccaradio.com/",
+   "logoUrl": "https://zuccaradio.com/wp-content/uploads/2019/11/ZUCCA_RADIO_LOGO-02a.jpg"
   },
   {
    "id": "tuno:top_gr_laikos-fm",
@@ -227,7 +235,8 @@
    "replaces": [
     "https://netradio.live24.gr/laikos876"
    ],
-   "website": "https://www.laikos.gr/en/"
+   "website": "https://www.laikos.gr/en/",
+   "logoUrl": "https://laikos.gr/wp-content/uploads/2025/12/laikos_87-6-rgb-fav-tr-1-300x300.png"
   },
   {
    "id": "tuno:top_gr_derti-fm",
@@ -255,7 +264,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://live24.gr/radio/derti"
+   "website": "http://live24.gr/radio/derti",
+   "logoUrl": "https://live24.gr/resrc/styles/custom-popups/derti/images/logo-new.png"
   },
   {
    "id": "tuno:top_gr_music-factory-radio",
@@ -293,7 +303,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://www.sport-fm.gr/"
+   "website": "http://www.sport-fm.gr/",
+   "logoUrl": "https://www.sport-fm.gr/resrc/images/logos/logo-normal_v3.webp"
   },
   {
    "id": "tuno:top_gr_pepper",
@@ -316,7 +327,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.pepper966.gr/"
+   "website": "https://www.pepper966.gr/",
+   "logoUrl": "https://www.pepper966.gr/wp-content/uploads/2020/01/Pepper-radio-new-logo.jpg"
   },
   {
    "id": "tuno:top_gr_offradio",
@@ -339,7 +351,8 @@
      "format": "icecast"
     }
    ],
-   "website": "http://offradio.gr/"
+   "website": "http://offradio.gr/",
+   "logoUrl": "https://www.offradio.gr/wp-content/uploads/2021/02/off_logo-1.png.webp"
   },
   {
    "id": "tuno:top_gr_radio-ena",
@@ -386,7 +399,8 @@
    "replaces": [
     "https://metromedia.live24.gr/metropolis955thess"
    ],
-   "website": "https://www.metrosport.gr/"
+   "website": "https://www.metrosport.gr/",
+   "logoUrl": "https://www.metrosport.gr/_theme/favicon/apple-touch-icon.png"
   },
   {
    "id": "tuno:top_gr_parapolitika",
@@ -402,7 +416,8 @@
    "replaces": [
     "https://netradio.live24.gr/athinaradio"
    ],
-   "website": "https://www.parapolitika.gr/parapolitikafm/"
+   "website": "https://www.parapolitika.gr/parapolitikafm/",
+   "logoUrl": "https://www.parapolitika.gr/images/640x360/png/files/2024-01-19/noimage-743x418.png"
   },
   {
    "id": "tuno:top_gr_89-fm-rainbow",
@@ -433,7 +448,8 @@
    "replaces": [
     "https://netradio.live24.gr/rebel1052"
    ],
-   "website": "https://www.rebelfm.gr/"
+   "website": "https://www.rebelfm.gr/",
+   "logoUrl": "https://www.rebelfm.gr/wp-content/themes/whsk_rebelfm/common/imgs/RebelFM-logo1024x1024-trimmed.png"
   },
   {
    "id": "tuno:top_gr_psyndora-chillout",
@@ -456,7 +472,8 @@
      "format": "icecast"
     }
    ],
-   "website": "https://www.psyndora.com/"
+   "website": "https://www.psyndora.com/",
+   "logoUrl": "https://www.psyndora.com/images/favicon-180x180.png"
   },
   {
    "id": "tuno:top_gr_love-radio",
@@ -510,7 +527,8 @@
    "replaces": [
     "https://sfera.live24.gr/sfera4132"
    ],
-   "website": "http://sfera.gr/"
+   "website": "http://sfera.gr/",
+   "logoUrl": "https://sfera.gr/wp-content/uploads/2024/01/cropped-sfera-1022-logo-1-150x150.webp"
   },
   {
    "id": "tuno:top_gr_fly-104",
@@ -541,7 +559,8 @@
    "replaces": [
     "https://onairmediagroup.live24.gr/glenti1011xanthi"
    ],
-   "website": "https://www.glentifm.gr/"
+   "website": "https://www.glentifm.gr/",
+   "logoUrl": "https://www.glentifm.gr/Glentifm.png"
   },
   {
    "id": "tuno:top_gr_fm-90-1",
@@ -557,7 +576,8 @@
    "replaces": [
     "http://netradio.live24.gr/athinaradio"
    ],
-   "website": "http://www.parapolitikaradio.gr/"
+   "website": "http://www.parapolitikaradio.gr/",
+   "logoUrl": "https://www.parapolitikaradio.gr/public/img/logo-new.png"
   }
  ]
 }

@@ -50,13 +50,17 @@ def apply_top(cc, stations):
         gone = {stream_key(u) for u in t.get('replaces', [])} | {stream_key(t['stream']['url'])}
         tk = name_key(t['name'])
         extra = []
+        old_logo = None
         for s in stations:
             if s['id'] in removed_ids:
                 continue
             if stream_key(s['stream']['url']) in gone or (tk and name_key(s['name']) == tk):
                 removed_ids.add(s['id'])
                 extra += [s['stream']] + s.get('fallbackStreams', [])
+                old_logo = old_logo or s.get('logoUrl')
         item = {k: v for k, v in t.items() if k != 'replaces'}
+        if old_logo and not item.get('logoUrl'):
+            item['logoUrl'] = old_logo  # the directory's picture is better than none
         have = {stream_key(item['stream']['url'])} | {stream_key(f['url']) for f in item.get('fallbackStreams', [])}
         fall = list(item.get('fallbackStreams', []))
         for f in extra:
