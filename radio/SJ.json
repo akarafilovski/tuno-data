@@ -1,1 +1,1 @@
-{"stations":[],"minSupportedVersion":1}
+{"stations":[{"id":"tuno:top_sj_abdulbasit-abdulsamad","name":"Abdulbasit Abdulsamad","type":"radio","country":"SJ","category":"music","stream":{"url":"https://radio.mp3islam.com/listen/abdulbasit/radio.mp3","format":"icecast"},"rank":1,"website":"https://mp3islam.com/"},{"id":"tuno:top_sj_arctic-outpost-am1270","name":"Arctic Outpost AM1270","type":"radio","country":"SJ","category":"music","stream":{"url":"https://radio.streemlion.com:3475/stream","format":"icecast"},"rank":2}],"minSupportedVersion":1}

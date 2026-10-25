@@ -1,1 +1,1 @@
-{"stations":[],"minSupportedVersion":1}
+{"stations":[{"id":"tuno:top_nr_abdulbasit-abdulsamad","name":"Abdulbasit Abdulsamad","type":"radio","country":"NR","category":"music","stream":{"url":"https://radio.mp3islam.com/listen/abdulbasit/radio.mp3","format":"icecast"},"rank":1,"website":"https://mp3islam.com/"},{"id":"tuno:top_nr_antenna-web-nauru","name":"Antenna Web Nauru","type":"radio","country":"NR","category":"music","stream":{"url":"https://tinyurl.com/Antenna-Web-Nauru","format":"icecast"},"rank":2}],"minSupportedVersion":1}

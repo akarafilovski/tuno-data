@@ -1,1 +1,1 @@
-{"stations":[],"minSupportedVersion":1}
+{"stations":[{"id":"tuno:top_ck_abdulbasit-abdulsamad","name":"Abdulbasit Abdulsamad","type":"radio","country":"CK","category":"music","stream":{"url":"https://radio.mp3islam.com/listen/abdulbasit/radio.mp3","format":"icecast"},"rank":1,"website":"https://mp3islam.com/"},{"id":"tuno:top_ck_antenna-web-avarua","name":"Antenna Web Avarua","type":"radio","country":"CK","category":"music","stream":{"url":"https://tinyurl.com/Antenna-Web-Avarua","format":"icecast"},"rank":2}],"minSupportedVersion":1}
