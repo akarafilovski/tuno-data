@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T05:55:35Z",
+ "generatedAt": "2026-10-31T14:36:56Z",
  "countries": [
   {
    "code": "AE",
@@ -63,7 +63,7 @@
   },
   {
    "code": "DK",
-   "headlines": 13
+   "headlines": 16
   },
   {
    "code": "EG",
@@ -231,7 +231,7 @@
   },
   {
    "code": "US",
-   "headlines": 9
+   "headlines": 13
   },
   {
    "code": "VN",
