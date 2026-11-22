@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T09:43:58Z",
+ "generatedAt": "2026-11-22T10:11:02Z",
  "countries": [
   {
    "code": "AD",
@@ -24,12 +24,12 @@
   {
    "code": "AL",
    "name": "Albania",
-   "stations": 19
+   "stations": 20
   },
   {
    "code": "AM",
    "name": "Armenia",
-   "stations": 10
+   "stations": 9
   },
   {
    "code": "AO",
@@ -39,17 +39,17 @@
   {
    "code": "AR",
    "name": "Argentina",
-   "stations": 153
+   "stations": 161
   },
   {
    "code": "AT",
    "name": "Austria",
-   "stations": 30
+   "stations": 31
   },
   {
    "code": "AU",
    "name": "Australia",
-   "stations": 34
+   "stations": 31
   },
   {
    "code": "AW",
@@ -59,12 +59,12 @@
   {
    "code": "AZ",
    "name": "Azerbaijan",
-   "stations": 14
+   "stations": 7
   },
   {
    "code": "BA",
    "name": "Bosnia and Herzegovina",
-   "stations": 15
+   "stations": 12
   },
   {
    "code": "BB",
@@ -74,7 +74,7 @@
   {
    "code": "BD",
    "name": "Bangladesh",
-   "stations": 20
+   "stations": 21
   },
   {
    "code": "BE",
@@ -104,7 +104,7 @@
   {
    "code": "BJ",
    "name": "Benin",
-   "stations": 7
+   "stations": 8
   },
   {
    "code": "BN",
@@ -114,7 +114,7 @@
   {
    "code": "BO",
    "name": "Bolivia",
-   "stations": 38
+   "stations": 57
   },
   {
    "code": "BQ",
@@ -124,12 +124,12 @@
   {
    "code": "BR",
    "name": "Brazil",
-   "stations": 217
+   "stations": 219
   },
   {
    "code": "BS",
    "name": "Bahamas",
-   "stations": 3
+   "stations": 2
   },
   {
    "code": "BY",
@@ -144,12 +144,12 @@
   {
    "code": "CA",
    "name": "Canada",
-   "stations": 120
+   "stations": 116
   },
   {
    "code": "CD",
    "name": "Democratic Republic of the Congo",
-   "stations": 14
+   "stations": 16
   },
   {
    "code": "CG",
@@ -159,37 +159,37 @@
   {
    "code": "CH",
    "name": "Switzerland",
-   "stations": 27
+   "stations": 29
   },
   {
    "code": "CI",
    "name": "Ivory Coast",
-   "stations": 9
+   "stations": 10
   },
   {
    "code": "CL",
    "name": "Chile",
-   "stations": 170
+   "stations": 169
   },
   {
    "code": "CM",
    "name": "Cameroon",
-   "stations": 13
+   "stations": 11
   },
   {
    "code": "CN",
    "name": "China",
-   "stations": 135
+   "stations": 136
   },
   {
    "code": "CO",
    "name": "Colombia",
-   "stations": 108
+   "stations": 109
   },
   {
    "code": "CR",
    "name": "Costa Rica",
-   "stations": 54
+   "stations": 57
   },
   {
    "code": "CU",
@@ -219,27 +219,27 @@
   {
    "code": "DE",
    "name": "Germany",
-   "stations": 267
+   "stations": 226
   },
   {
    "code": "DK",
    "name": "Denmark",
-   "stations": 10
+   "stations": 11
   },
   {
    "code": "DO",
    "name": "Dominican Republic",
-   "stations": 203
+   "stations": 212
   },
   {
    "code": "DZ",
    "name": "Algeria",
-   "stations": 6
+   "stations": 5
   },
   {
    "code": "EC",
    "name": "Ecuador",
-   "stations": 54
+   "stations": 61
   },
   {
    "code": "EE",
@@ -249,7 +249,7 @@
   {
    "code": "EG",
    "name": "Egypt",
-   "stations": 17
+   "stations": 16
   },
   {
    "code": "EH",
@@ -264,7 +264,7 @@
   {
    "code": "ES",
    "name": "Spain",
-   "stations": 210
+   "stations": 190
   },
   {
    "code": "ET",
@@ -274,17 +274,17 @@
   {
    "code": "FI",
    "name": "Finland",
-   "stations": 19
+   "stations": 17
   },
   {
    "code": "FR",
    "name": "France",
-   "stations": 167
+   "stations": 190
   },
   {
    "code": "GE",
    "name": "Georgia",
-   "stations": 20
+   "stations": 12
   },
   {
    "code": "GF",
@@ -294,7 +294,7 @@
   {
    "code": "GH",
    "name": "Ghana",
-   "stations": 5
+   "stations": 6
   },
   {
    "code": "GM",
@@ -314,17 +314,17 @@
   {
    "code": "GQ",
    "name": "Equatorial Guinea",
-   "stations": 2
+   "stations": 1
   },
   {
    "code": "GR",
    "name": "Greece",
-   "stations": 54
+   "stations": 52
   },
   {
    "code": "GT",
    "name": "Guatemala",
-   "stations": 36
+   "stations": 34
   },
   {
    "code": "GU",
@@ -334,7 +334,7 @@
   {
    "code": "GY",
    "name": "Guyana",
-   "stations": 2
+   "stations": 3
   },
   {
    "code": "HK",
@@ -344,7 +344,7 @@
   {
    "code": "HN",
    "name": "Honduras",
-   "stations": 49
+   "stations": 51
   },
   {
    "code": "HR",
@@ -359,12 +359,12 @@
   {
    "code": "HU",
    "name": "Hungary",
-   "stations": 128
+   "stations": 127
   },
   {
    "code": "ID",
    "name": "Indonesia",
-   "stations": 80
+   "stations": 81
   },
   {
    "code": "IE",
@@ -374,12 +374,12 @@
   {
    "code": "IL",
    "name": "Israel",
-   "stations": 34
+   "stations": 47
   },
   {
    "code": "IN",
    "name": "India",
-   "stations": 285
+   "stations": 286
   },
   {
    "code": "IQ",
@@ -399,12 +399,12 @@
   {
    "code": "IT",
    "name": "Italy",
-   "stations": 243
+   "stations": 247
   },
   {
    "code": "JM",
    "name": "Jamaica",
-   "stations": 6
+   "stations": 5
   },
   {
    "code": "JO",
@@ -414,7 +414,7 @@
   {
    "code": "JP",
    "name": "Japan",
-   "stations": 11
+   "stations": 18
   },
   {
    "code": "KE",
@@ -424,7 +424,7 @@
   {
    "code": "KG",
    "name": "Kyrgyzstan",
-   "stations": 6
+   "stations": 7
   },
   {
    "code": "KH",
@@ -439,7 +439,7 @@
   {
    "code": "KP",
    "name": "North Korea",
-   "stations": 3
+   "stations": 1
   },
   {
    "code": "KR",
@@ -454,7 +454,7 @@
   {
    "code": "KZ",
    "name": "Kazakhstan",
-   "stations": 44
+   "stations": 43
   },
   {
    "code": "LA",
@@ -464,7 +464,7 @@
   {
    "code": "LB",
    "name": "Lebanon",
-   "stations": 23
+   "stations": 26
   },
   {
    "code": "LC",
@@ -474,7 +474,7 @@
   {
    "code": "LK",
    "name": "Sri Lanka",
-   "stations": 13
+   "stations": 14
   },
   {
    "code": "LT",
@@ -484,12 +484,12 @@
   {
    "code": "LU",
    "name": "Luxembourg",
-   "stations": 10
+   "stations": 11
   },
   {
    "code": "LV",
    "name": "Latvia",
-   "stations": 7
+   "stations": 6
   },
   {
    "code": "LY",
@@ -514,12 +514,12 @@
   {
    "code": "ME",
    "name": "Montenegro",
-   "stations": 6
+   "stations": 7
   },
   {
    "code": "MK",
    "name": "North Macedonia",
-   "stations": 15
+   "stations": 14
   },
   {
    "code": "ML",
@@ -544,7 +544,7 @@
   {
    "code": "MQ",
    "name": "Martinique",
-   "stations": 5
+   "stations": 4
   },
   {
    "code": "MR",
@@ -559,12 +559,12 @@
   {
    "code": "MV",
    "name": "Maldives",
-   "stations": 7
+   "stations": 6
   },
   {
    "code": "MX",
    "name": "Mexico",
-   "stations": 133
+   "stations": 132
   },
   {
    "code": "MY",
@@ -574,7 +574,7 @@
   {
    "code": "MZ",
    "name": "Mozambique",
-   "stations": 4
+   "stations": 5
   },
   {
    "code": "NA",
@@ -594,22 +594,22 @@
   {
    "code": "NG",
    "name": "Nigeria",
-   "stations": 37
+   "stations": 38
   },
   {
    "code": "NI",
    "name": "Nicaragua",
-   "stations": 12
+   "stations": 10
   },
   {
    "code": "NL",
    "name": "Netherlands",
-   "stations": 146
+   "stations": 139
   },
   {
    "code": "NO",
    "name": "Norway",
-   "stations": 8
+   "stations": 7
   },
   {
    "code": "NP",
@@ -629,12 +629,12 @@
   {
    "code": "PA",
    "name": "Panama",
-   "stations": 19
+   "stations": 18
   },
   {
    "code": "PE",
    "name": "Peru",
-   "stations": 141
+   "stations": 144
   },
   {
    "code": "PG",
@@ -649,32 +649,32 @@
   {
    "code": "PK",
    "name": "Pakistan",
-   "stations": 84
+   "stations": 82
   },
   {
    "code": "PL",
    "name": "Poland",
-   "stations": 136
+   "stations": 139
   },
   {
    "code": "PR",
    "name": "Puerto Rico",
-   "stations": 23
+   "stations": 25
   },
   {
    "code": "PS",
    "name": "Palestine",
-   "stations": 17
+   "stations": 18
   },
   {
    "code": "PT",
    "name": "Portugal",
-   "stations": 54
+   "stations": 55
   },
   {
    "code": "PY",
    "name": "Paraguay",
-   "stations": 57
+   "stations": 59
   },
   {
    "code": "QA",
@@ -684,27 +684,27 @@
   {
    "code": "RO",
    "name": "Romania",
-   "stations": 161
+   "stations": 169
   },
   {
    "code": "RS",
    "name": "Serbia",
-   "stations": 23
+   "stations": 28
   },
   {
    "code": "RU",
    "name": "Russia",
-   "stations": 279
+   "stations": 277
   },
   {
    "code": "RW",
    "name": "Rwanda",
-   "stations": 6
+   "stations": 7
   },
   {
    "code": "SA",
    "name": "Saudi Arabia",
-   "stations": 48
+   "stations": 49
   },
   {
    "code": "SD",
@@ -714,12 +714,12 @@
   {
    "code": "SE",
    "name": "Sweden",
-   "stations": 188
+   "stations": 115
   },
   {
    "code": "SG",
    "name": "Singapore",
-   "stations": 24
+   "stations": 25
   },
   {
    "code": "SI",
@@ -729,7 +729,7 @@
   {
    "code": "SK",
    "name": "Slovakia",
-   "stations": 58
+   "stations": 60
   },
   {
    "code": "SL",
@@ -804,12 +804,12 @@
   {
    "code": "TR",
    "name": "Turkiye",
-   "stations": 154
+   "stations": 153
   },
   {
    "code": "TT",
    "name": "Trinidad and Tobago",
-   "stations": 5
+   "stations": 7
   },
   {
    "code": "TW",
@@ -819,27 +819,27 @@
   {
    "code": "TZ",
    "name": "Tanzania",
-   "stations": 3
+   "stations": 5
   },
   {
    "code": "UA",
    "name": "Ukraine",
-   "stations": 161
+   "stations": 157
   },
   {
    "code": "UG",
    "name": "Uganda",
-   "stations": 15
+   "stations": 16
   },
   {
    "code": "UK",
    "name": "United Kingdom",
-   "stations": 172
+   "stations": 179
   },
   {
    "code": "US",
    "name": "United States",
-   "stations": 277
+   "stations": 262
   },
   {
    "code": "UY",
@@ -849,12 +849,17 @@
   {
    "code": "UZ",
    "name": "Uzbekistan",
-   "stations": 34
+   "stations": 32
+  },
+  {
+   "code": "VA",
+   "name": "Vatican City",
+   "stations": 1
   },
   {
    "code": "VE",
    "name": "Venezuela",
-   "stations": 57
+   "stations": 53
   },
   {
    "code": "VG",
@@ -864,12 +869,12 @@
   {
    "code": "VN",
    "name": "Vietnam",
-   "stations": 82
+   "stations": 70
   },
   {
    "code": "XK",
    "name": "Kosovo",
-   "stations": 5
+   "stations": 7
   },
   {
    "code": "YE",
